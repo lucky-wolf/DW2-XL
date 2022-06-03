@@ -1,0 +1,46 @@
+ 0   1   2    3    4    5    6    7     8     9
+75 300 600 1200 2400 3600 5400 7200 14400 28800
+
+clear
+copy data\ResearchProjectDefinitions.xml data\ResearchProjectDefinitions.old
+perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\ResearchProjectDefinitions.xml
+
+
+Skip directly to special techs (fighters, e.g.)
+
+
+fighter bays -> light interceptors -> tactical -> long range
+
+fighter bays: 		265
+light intercept: 	283
+tactical intercept: 350
+long rng intercept: 304
+
+boarding
+	row 104
+
+armor
+	row 106
+	row 107
+reforced con
+	row 108
+
+dmg con:
+	row 119
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>679</ResearchProjectId>
+		<Name>Military Starships</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>75</Size>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>114</Row>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>Escort</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+		</ShipHulls>
+	</ResearchProjectDefinition>

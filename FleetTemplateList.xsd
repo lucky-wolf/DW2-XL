@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ArrayOfFleetTemplate" nillable="true" type="ArrayOfFleetTemplate" />
+	<xs:complexType name="ArrayOfFleetTemplate">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="FleetTemplate" nillable="true" type="FleetTemplate" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="FleetTemplate">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="FleetTemplateId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Role" type="FleetRole" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultEngagementRange" type="TacticsEngagementType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultRetreatStrength" type="FleetRetreatStrength" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultRetreatOverwhelmed" type="FleetRetreatOverwhelmed" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultStance" type="TacticsStance" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipsEngagementRange" type="TacticsEngagementType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipsAttackRangeNormal" type="TacticsStance" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipsAttackRangeStronger" type="TacticsStance" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipsRetreatWhen" type="TacticsRetreatType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipsInvadeWhen" type="TacticsInvasion" />
+			<xs:element minOccurs="1" maxOccurs="1" name="AllowShipRoleReassignment" type="xs:boolean" />
+			<xs:element minOccurs="1" maxOccurs="1" name="OverrideShipTacticsWithFleet" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="IsActive" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ShipAmounts" type="ArrayOfShipRoleFactor" />
+			<xs:element minOccurs="0" maxOccurs="1" name="DesignIdsPerRole" type="ArrayOfInt" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="FleetRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Manual" />
+			<xs:enumeration value="Attack" />
+			<xs:enumeration value="Raid" />
+			<xs:enumeration value="Defend" />
+			<xs:enumeration value="Invade" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TacticsEngagementType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DoNotEngage" />
+			<xs:enumeration value="EngageWhenAttacked" />
+			<xs:enumeration value="Nearby" />
+			<xs:enumeration value="Location" />
+			<xs:enumeration value="System" />
+			<xs:enumeration value="SectorRange" />
+			<xs:enumeration value="FuelRange33" />
+			<xs:enumeration value="FuelRange50" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FleetRetreatStrength">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="LessThan75" />
+			<xs:enumeration value="LessThan66" />
+			<xs:enumeration value="LessThan50" />
+			<xs:enumeration value="LessThan33" />
+			<xs:enumeration value="LessThan25" />
+			<xs:enumeration value="Never" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FleetRetreatOverwhelmed">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EnemyStrength150" />
+			<xs:enumeration value="EnemyStrength200" />
+			<xs:enumeration value="EnemyStrength300" />
+			<xs:enumeration value="Never" />
+			<xs:enumeration value="EnemyStrength100" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TacticsStance">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Evade" />
+			<xs:enumeration value="Cautious" />
+			<xs:enumeration value="Neutral" />
+			<xs:enumeration value="Aggressive" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TacticsRetreatType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EnemySightedSystem" />
+			<xs:enumeration value="EnemySightedLocation" />
+			<xs:enumeration value="EnemyNearby" />
+			<xs:enumeration value="WhenAttacked" />
+			<xs:enumeration value="Shields50OrArmor99" />
+			<xs:enumeration value="Shields20OrArmor50" />
+			<xs:enumeration value="Never" />
+			<xs:enumeration value="Shields50OrAnyDamage" />
+			<xs:enumeration value="Shields20OrAnyDamage" />
+			<xs:enumeration value="Shields0OrArmor0" />
+			<xs:enumeration value="LightDamage" />
+			<xs:enumeration value="ModerateDamage" />
+			<xs:enumeration value="NonDefenseComponentDestroyedOrDamaged1" />
+			<xs:enumeration value="NonDefenseComponentDestroyedOrDamaged20" />
+			<xs:enumeration value="NonDefenseComponentDestroyedOrDamaged50" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TacticsInvasion">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="InvadeImmediately" />
+			<xs:enumeration value="InvadeWhenClear" />
+			<xs:enumeration value="NeverInvade" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfShipRoleFactor">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ShipRoleFactor" type="ShipRoleFactor" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ShipRoleFactor">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Role" type="ShipRole" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ShipRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="Escort" />
+			<xs:enumeration value="Frigate" />
+			<xs:enumeration value="Destroyer" />
+			<xs:enumeration value="Cruiser" />
+			<xs:enumeration value="CapitalShip" />
+			<xs:enumeration value="Carrier" />
+			<xs:enumeration value="TroopTransport" />
+			<xs:enumeration value="FreighterSmall" />
+			<xs:enumeration value="FreighterMedium" />
+			<xs:enumeration value="FreighterLarge" />
+			<xs:enumeration value="MiningShip" />
+			<xs:enumeration value="ConstructionShip" />
+			<xs:enumeration value="ExplorationShip" />
+			<xs:enumeration value="PassengerShip" />
+			<xs:enumeration value="ColonyShip" />
+			<xs:enumeration value="SpaceportSmall" />
+			<xs:enumeration value="SpaceportMedium" />
+			<xs:enumeration value="SpaceportLarge" />
+			<xs:enumeration value="MiningStation" />
+			<xs:enumeration value="DefensiveBase" />
+			<xs:enumeration value="ResearchStation" />
+			<xs:enumeration value="MonitoringStation" />
+			<xs:enumeration value="ResortBase" />
+			<xs:enumeration value="FighterInterceptor" />
+			<xs:enumeration value="FighterBomber" />
+			<xs:enumeration value="FuelTanker" />
+			<xs:enumeration value="PlanetDestroyer" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfInt">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

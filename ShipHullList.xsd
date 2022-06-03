@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ArrayOfShipHull" nillable="true" type="ArrayOfShipHull" />
+	<xs:complexType name="ArrayOfShipHull">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ShipHull" nillable="true" type="ShipHull" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ShipHull">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipHullId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Role" type="ShipRole" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Level" type="xs:unsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="DesignTemplateId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MaximumSize" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DisplaySize" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="MaterialName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="DeadMaterialName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="CockpitImageFilename" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="BaseCost" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ArmorReactiveRating" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="IonDefense" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="EngineLimit" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="CountermeasuresBonus" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="TargetingBonus" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="TurnRollRate" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MaximumTurnRollAngle" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="BuildSpeedFactor" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
+			<xs:element minOccurs="0" maxOccurs="1" name="BoundingBox" type="BoundingBox" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ModelSize" type="Vector3" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ComponentBays" type="ArrayOfComponentBay" />
+			<xs:element minOccurs="0" maxOccurs="1" name="RunningLights" type="ArrayOfRunningLight" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Emitters" type="ArrayOfEmitter" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Modules" type="ArrayOfModelModule" />
+			<xs:element minOccurs="0" maxOccurs="1" name="UnusedModelNodeIds" type="ArrayOfInt" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ResourcesRequired" type="ArrayOfResourceQuantity" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ShipRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="Escort" />
+			<xs:enumeration value="Frigate" />
+			<xs:enumeration value="Destroyer" />
+			<xs:enumeration value="Cruiser" />
+			<xs:enumeration value="CapitalShip" />
+			<xs:enumeration value="Carrier" />
+			<xs:enumeration value="TroopTransport" />
+			<xs:enumeration value="FreighterSmall" />
+			<xs:enumeration value="FreighterMedium" />
+			<xs:enumeration value="FreighterLarge" />
+			<xs:enumeration value="MiningShip" />
+			<xs:enumeration value="ConstructionShip" />
+			<xs:enumeration value="ExplorationShip" />
+			<xs:enumeration value="PassengerShip" />
+			<xs:enumeration value="ColonyShip" />
+			<xs:enumeration value="SpaceportSmall" />
+			<xs:enumeration value="SpaceportMedium" />
+			<xs:enumeration value="SpaceportLarge" />
+			<xs:enumeration value="MiningStation" />
+			<xs:enumeration value="DefensiveBase" />
+			<xs:enumeration value="ResearchStation" />
+			<xs:enumeration value="MonitoringStation" />
+			<xs:enumeration value="ResortBase" />
+			<xs:enumeration value="FighterInterceptor" />
+			<xs:enumeration value="FighterBomber" />
+			<xs:enumeration value="FuelTanker" />
+			<xs:enumeration value="PlanetDestroyer" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfBonus">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Bonus" nillable="true" type="Bonus" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Bonus">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="BonusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="ResearchAll" />
+			<xs:enumeration value="ResearchSensors" />
+			<xs:enumeration value="ResearchWeapons" />
+			<xs:enumeration value="ResearchHyperDrive" />
+			<xs:enumeration value="ResearchReactor" />
+			<xs:enumeration value="ResearchShields" />
+			<xs:enumeration value="ResearchEngines" />
+			<xs:enumeration value="ResearchArmor" />
+			<xs:enumeration value="ResearchConstruction" />
+			<xs:enumeration value="ResearchHighTech" />
+			<xs:enumeration value="ResearchIndustrial" />
+			<xs:enumeration value="ColonyIncome" />
+			<xs:enumeration value="ColonyDevelopment" />
+			<xs:enumeration value="ColonyHappiness" />
+			<xs:enumeration value="ColonyPopulationGrowthRate" />
+			<xs:enumeration value="ColonyDefense" />
+			<xs:enumeration value="ColonyCorruptionReduction" />
+			<xs:enumeration value="Scenery" />
+			<xs:enumeration value="Diplomacy" />
+			<xs:enumeration value="TradeIncome" />
+			<xs:enumeration value="TourismIncome" />
+			<xs:enumeration value="MiningRate" />
+			<xs:enumeration value="WarWearinessReduction" />
+			<xs:enumeration value="CharacterAppearanceTroopGeneral" />
+			<xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+			<xs:enumeration value="CharacterAppearanceShipCaptain" />
+			<xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+			<xs:enumeration value="CharacterAppearanceScientist" />
+			<xs:enumeration value="CharacterAppearanceColonyGovernor" />
+			<xs:enumeration value="CharacterAppearanceAmbassador" />
+			<xs:enumeration value="CharacterQualityLeader" />
+			<xs:enumeration value="CharacterQualityPirate" />
+			<xs:enumeration value="CharacterQualityTroopGeneral" />
+			<xs:enumeration value="CharacterQualityFleetAdmiral" />
+			<xs:enumeration value="CharacterQualityShipCaptain" />
+			<xs:enumeration value="CharacterQualityIntelligenceAgent" />
+			<xs:enumeration value="CharacterQualityScientist" />
+			<xs:enumeration value="CharacterQualityColonyGovernor" />
+			<xs:enumeration value="CharacterQualityAmbassador" />
+			<xs:enumeration value="ConstructionSpeedAllShips" />
+			<xs:enumeration value="ConstructionSpeedMilitary" />
+			<xs:enumeration value="ConstructionSpeedCivilian" />
+			<xs:enumeration value="ConstructionSpeedColonyShip" />
+			<xs:enumeration value="ConstructionSpeedFacility" />
+			<xs:enumeration value="ShipMaintenanceAll" />
+			<xs:enumeration value="ShipMaintenanceMilitary" />
+			<xs:enumeration value="ShipMaintenanceCivilian" />
+			<xs:enumeration value="ShipMaintenanceBases" />
+			<xs:enumeration value="TroopMaintenance" />
+			<xs:enumeration value="TroopRecruitment" />
+			<xs:enumeration value="TroopGroundAttack" />
+			<xs:enumeration value="TroopGroundDefense" />
+			<xs:enumeration value="TroopExperienceGain" />
+			<xs:enumeration value="TroopRecoveryRate" />
+			<xs:enumeration value="RecruitedTroopStrengthAll" />
+			<xs:enumeration value="RecruitedTroopStrengthArmor" />
+			<xs:enumeration value="RecruitedTroopStrengthInfantry" />
+			<xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+			<xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+			<xs:enumeration value="RecruitedTroopStrengthTitan" />
+			<xs:enumeration value="Espionage" />
+			<xs:enumeration value="CounterEspionage" />
+			<xs:enumeration value="Sabotage" />
+			<xs:enumeration value="Concealment" />
+			<xs:enumeration value="PsyOps" />
+			<xs:enumeration value="Assassination" />
+			<xs:enumeration value="Targeting" />
+			<xs:enumeration value="Countermeasures" />
+			<xs:enumeration value="ShipManeuvering" />
+			<xs:enumeration value="ShipEnergyUsage" />
+			<xs:enumeration value="WeaponsDamage" />
+			<xs:enumeration value="WeaponsRange" />
+			<xs:enumeration value="ShieldRechargeRate" />
+			<xs:enumeration value="DamageControl" />
+			<xs:enumeration value="RepairRate" />
+			<xs:enumeration value="HyperjumpSpeed" />
+			<xs:enumeration value="ShipSpeed" />
+			<xs:enumeration value="ArmorStrength" />
+			<xs:enumeration value="BoardingAssault" />
+			<xs:enumeration value="BoardingDefense" />
+			<xs:enumeration value="RaidIncome" />
+			<xs:enumeration value="ScanEvasion" />
+			<xs:enumeration value="ScanFocusing" />
+			<xs:enumeration value="PlanetaryFacilityMaintenance" />
+			<xs:enumeration value="PlagueCuring" />
+			<xs:enumeration value="PlagueContainment" />
+			<xs:enumeration value="ResearchTroops" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="BonusAppliesTo">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="Item" />
+			<xs:enumeration value="Empire" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="BoundingBox">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Minimum" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Maximum" type="Vector3" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Vector3">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfComponentBay">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ComponentBay" nillable="true" type="ComponentBay" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ComponentBay">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="ComponentBayId" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="ComponentBayType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MaximumComponentSize" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DisplayEffectRescaleFactor" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DisplayEffectOffset" type="Vector3" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Meshes" type="ArrayOfMeshInfo" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponBayFiringArc" type="WeaponBayFiringArc" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ComponentBayType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="General" />
+			<xs:enumeration value="Engine" />
+			<xs:enumeration value="Weapon" />
+			<xs:enumeration value="Defense" />
+			<xs:enumeration value="Sensor" />
+			<xs:enumeration value="Hangar" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfMeshInfo">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="MeshInfo" nillable="true" type="MeshInfo" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MeshInfo">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="BayType" type="ComponentBayType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="BayTypeIndex" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ModelComponentViewHierarchyNodeId" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MeshIndex" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="SupportStructureMeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="SupportStructureModelComponentViewHierarchyNodeId" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="SupportStructureMeshIndex" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="WeaponMeshType" type="WeaponMeshType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="IsLarge" type="xs:boolean" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Forward" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Up" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ForwardWorld" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="UpWorld" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultRotation" type="Quaternion" />
+			<xs:element minOccurs="1" maxOccurs="1" name="CompensatingRotation" type="Quaternion" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultDirection" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="PositionWorld" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ComponentMeshSize" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="CrossSectionSize" type="Vector2" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultMeshSizeWorld" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="BackCenter" type="Vector3" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="WeaponMeshType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="BarrelledTurret" />
+			<xs:enumeration value="VerticalLauncher" />
+			<xs:enumeration value="ShortTurret" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Quaternion">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="W" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Vector2">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WeaponBayFiringArc">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Forward" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Up" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Right" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRangeCosine" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="HeadingUnitSize" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ElevationUnitSize" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="HeadingElevations" type="xs:base64Binary" />
+			<xs:element minOccurs="1" maxOccurs="1" name="HeadingCount" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="ElevationCount" type="xs:unsignedByte" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfRunningLight">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="RunningLight" nillable="true" type="RunningLight" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RunningLight">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Color" type="Color" />
+			<xs:element minOccurs="1" maxOccurs="1" name="TimingOffset" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="LightTimeOn" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="LightTimeOff" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Color">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfEmitter">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Emitter" nillable="true" type="Emitter" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Emitter">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfModelModule">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ModelModule" nillable="true" type="ModelModule" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ModelModule">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Enabled" type="xs:boolean" />
+			<xs:element minOccurs="1" maxOccurs="1" name="RotationRate" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfInt">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfResourceQuantity">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceQuantity" nillable="true" type="ResourceQuantity" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResourceQuantity">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
