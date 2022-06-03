@@ -1,7 +1,7 @@
 # DW2-XL
 Distant Worlds 2 - XL
 
-Author: Steven S. Wolf (lucky-wolf)
+Author: Mordachai (lucky-wolf)
 
 - [DW2-XL](#dw2-xl)
 	- [Guiding Principles](#guiding-principles)
