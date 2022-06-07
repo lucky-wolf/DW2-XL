@@ -71,8 +71,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Fighter Bays themselves have been simplified to hold 4/8/16 craft for S/M/L bays.
   - Rather than holding more units as you tech up, they instead simply get faster at replenishing them.
     - The point being to make fighters & bombers a great tool on the battlefield, but not an automatic "I win" button.
-  - This also flows
-
+  - So to get more fighters & bombers, you need more bays, larger ships, etc., which is a more natural flow.
 
 ## Ship Hulls
 - Many of the ship classes have been enlarged to offer you more flexibility in designing your ships, playing with some of the more exotic technologies, and generally creating more balanced designs (the AI is helped by this change as well).
