@@ -14,6 +14,8 @@ Author: Mordachai (lucky-wolf)
 	- [Reactors](#reactors)
 	- [Targeting and Countermeasures](#targeting-and-countermeasures)
 	- [Colonization](#colonization)
+	- [Planetary Facilities](#planetary-facilities)
+	- [Misc](#misc)
 
 ## Guiding Principles
 Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
@@ -76,3 +78,8 @@ Principly this mod aims to create a better player experience while playing games
 - This tech tree is more freely explorable, not requiring you to research every type of habitat in order to get to the higher levels of technology in those biomes you care about.
   - This should give you and the AIs the ability to make good use out of whatever resources can be found in your region of the galaxy, supplementing tech to make your local area colonizable, rather than needing the perfect map to have a viable and fun game.
 
+## Planetary Facilities
+- Maintenance is much reduced to make it possible to not wreck yours (or the AI's) economy.
+
+## Misc
+- Technocracy is only available to Ackdarians, as stated in the game's messaging.
