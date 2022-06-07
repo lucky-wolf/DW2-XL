@@ -40,14 +40,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - This extends some of the decisions you make to be more functional and therefore viable, allowing you to play through using efficent or energy hog designs without bumping up against as many of vanilla's arbitrary limitations, or without feeling like it's a non-choice because ultiamtely you're forced to choose the one and only one viable approach after a few tech levels anyway.
 
 ## Armor
-- Revamped this portion of the tech tree
-  - Separated out ionic armor from armor-materials
-    - Ionic require you to research the base material, and then an additional tech to realize its Ionic enhanced derivative
-    - Ionic armors don't upgrade in situ.  Like other armor types, you must refit your ships to gain their advantages.
-    - Hence Ionics are a more powerful armor type that you pay for in terms of research and construction, not a weird alternative that plays by different rules.
-  - Paced out the armor for a more even game progression
-  - Simplified Boskaran armors to achieve the highest levels of armor without having to re-research the standard ones
-    - Also gave them the special facilities at high levels of their research tree so that again, they don't need to also research standard armor to gain access
+- Separated out ionic armor from armor-materials
+  - Ionic require you to research the base material, and then an additional tech to realize its Ionic enhanced derivative
+  - Ionic armors don't upgrade in situ.  Like other armor types, you must refit your ships to gain their advantages.
+  - Hence Ionics are a more powerful armor type that you pay for in terms of research and construction, not a weird alternative that plays by different rules.
+- Paced out the armor for a more even game progression
+- Simplified Boskaran armors to achieve the highest levels of armor without having to re-research the standard ones
+  - Also gave them the special facilities at high levels of their research tree so that again, they don't need to also research standard armor to gain access
 
 ## Weapons
 - Their sizes are normalized
@@ -100,6 +99,3 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Misc
 - Technocracy is only available to Ackdarians, as stated in the game's messaging.
 - Experimental Warp Fields allow for nearby exploration - more functinoal than the base game, making for a more gradual early game.
-
-
-FIX THE DAMN REACTORS & HYPER DRIVE TO OFFER DECISION POINTS AT LEVEL 2
