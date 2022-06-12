@@ -5,7 +5,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
-		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -29,7 +29,7 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Destroyer</Role>
-				<Factor>5</Factor>
+				<Factor>4</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
@@ -58,7 +58,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Raid</Role>
 		<Name>Raiding Force</Name>
-		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength100</DefaultRetreatOverwhelmed>
 		<DefaultStance>Cautious</DefaultStance>
@@ -86,7 +86,7 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
-				<Factor>0</Factor>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>CapitalShip</Role>
@@ -107,7 +107,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Defend</Role>
 		<Name>Defense Fleet</Name>
-		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -127,7 +127,7 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Frigate</Role>
-				<Factor>3</Factor>
+				<Factor>5</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Destroyer</Role>
@@ -156,7 +156,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Invade</Role>
 		<Name>Invasion Fleet</Name>
-		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -184,7 +184,7 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
-				<Factor>0</Factor>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>CapitalShip</Role>

@@ -3,24 +3,32 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
+Version: v1.0.3
+
 - [DW2-XL](#dw2-xl)
 	- [Guiding Principles](#guiding-principles)
 	- [Research (Tech Tree)](#research-tech-tree)
 	- [Ship Components](#ship-components)
+	- [Fleets](#fleets)
+	- [Ships](#ships)
+	- [Crew & Star Barracks](#crew--star-barracks)
+	- [Sensors](#sensors)
 	- [Armor](#armor)
 	- [Weapons](#weapons)
+	- [Kinetic Weapons](#kinetic-weapons)
+	- [Energy Torpedos](#energy-torpedos)
 	- [Fighters and Bombers](#fighters-and-bombers)
-	- [Ship Hulls](#ship-hulls)
 	- [Hyper Drives](#hyper-drives)
 	- [Reactors](#reactors)
 	- [Targeting and Countermeasures](#targeting-and-countermeasures)
 	- [Colonization](#colonization)
 	- [Planetary Facilities](#planetary-facilities)
 	- [Misc](#misc)
+	- [Bug Fixes (introduced in previous versions of this mod)](#bug-fixes-introduced-in-previous-versions-of-this-mod)
 
 ## Guiding Principles
 Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
-It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was.  It's the 6 million dollar man version of DW2: The base game, just with more and better and less of that which is annoying.
+It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was. YMMV, but this is my take on making it better.
 
 ## Research (Tech Tree)
 - Some aspects of the tech tree were simplified or reorganized to make it more logical and reasonable
@@ -39,6 +47,35 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Ship Components have been extended to provide additional levels of various ships systems
   - This extends some of the decisions you make to be more functional and therefore viable, allowing you to play through using efficent or energy hog designs without bumping up against as many of vanilla's arbitrary limitations, or without feeling like it's a non-choice because ultiamtely you're forced to choose the one and only one viable approach after a few tech levels anyway.
 
+## Fleets
+- Slightly increased the size of standard fleets to include more and heavier ship classes
+- By default, fleets will use the 33% of fuel range as their operational theater
+  - Hopefully this makes them less idiotically prone to constantly running out of fuel
+  - And keeps them nearer to their operational theater
+
+## Ships
+- Many of the ship classes have been enlarged
+  - this offers you more flexibility in designing your ships,
+  - allows you to play with some of the more exotic technologies, and
+  - generally creating more balanced designs (the AI is helped by this change as well)
+- Ship designs have a more natural progression
+  - first you learn how to field all of the core ship classes shy of capital ships
+  - then you're given the ability to research advanced variants of those ship classes or expand into capital ships in whatever order works for your empire's growth.
+- Overall, ships are bigger in this mod than in vanilla, giving you the ability to load them up with all the fun things you've researched to have the mega battles we're all hoping for!
+- Several ship classes have been renamed
+
+## Crew & Star Barracks
+- Marine Barracks always branch off of related crew tech
+- Each level of Marine Barracks supports the equivalent amount of crew as the corresponding crew module
+- There are 4 levels of Marine Barracks to keep parity
+- This makes the ship designer "just work" correctly at every level
+
+## Sensors
+- Small sensors give some small amount of targeting bonus
+- Large sensors give a small fleet targeting bonus
+- Small sensors are always size 5
+- Large sensors are size 50 initially, and then drop to 40 for ultra long range line
+
 ## Armor
 - Separated out ionic armor from armor-materials
   - Ionic require you to research the base material, and then an additional tech to realize its Ionic enhanced derivative
@@ -49,7 +86,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - Also gave them the special facilities at high levels of their research tree so that again, they don't need to also research standard armor to gain access
 
 ## Weapons
-- Their sizes are normalized
+- Weapon sizes are normalized
   - Allows more predictable ship designs
   - Gives you the ability to reason about trade-offs between different weapon systems using their many other factors, such as power use, range, alpha-damage v. sustained damage, etc.
   - Offers you and the AIs to design better ships overall (and typically more weapons at any given ship class)
@@ -66,17 +103,23 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Large = 50
     - Mines = 60
 
+## Kinetic Weapons
+- Do not degrate with distance (slugs don't slow down in space, or lose energy)
+  - But they continue to be quite inaccurate with range
+- Kinetic PD does more raw damage than blaster or beam PD, but it's less accurate
+
+## Energy Torpedos
+- Boskaran's Firestorm torpedo line is deeper and gives you a large weapon sooner
+- Mortalen's torpedos line is split into ftr+small and med+lrg
+  - The med/large line also gives the planetary torpedo facilities
+  - all of these techs have been extended by 4 additional levels each to keep them viable throughout the game
+
 ## Fighters and Bombers
 - The Fighter and Bomber craft portion of the tech tree has been made more elegant and rational.
 - Fighter Bays themselves have been simplified to hold 4/8/16 craft for S/M/L bays.
   - Rather than holding more units as you tech up, they instead simply get faster at replenishing them.
     - The point being to make fighters & bombers a great tool on the battlefield, but not an automatic "I win" button.
   - So to get more fighters & bombers, you need more bays, larger ships, etc., which is a more natural flow.
-
-## Ship Hulls
-- Many of the ship classes have been enlarged to offer you more flexibility in designing your ships, playing with some of the more exotic technologies, and generally creating more balanced designs (the AI is helped by this change as well).
-- Ship designs have a more natural progression, where first you learn how to field all of the core ship classes shy of capital ships, and then you're given the ability to research advanced variants of those ship classes or expand into capital ships in whatever order works for your empire's growth.
-- Overall, ships are bigger in this mod than in vanilla, giving you the ability to load them up with all the fun things you've researched to have the mega battles we're all hoping for!
 
 ## Hyper Drives
 - Have had the various types extended and balanced a bit so that every path is viable, with obvious trade-offs between lag, in flight speed, and balanced performance
@@ -86,10 +129,16 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Targeting and Countermeasures
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
+- Sensors have gained some targeting value
+- Long range sensors have gained some fleet targeting value
 
 ## Colonization
 - This tech tree is more freely explorable, not requiring you to research every type of habitat in order to get to the higher levels of technology in those biomes you care about.
   - This should give you and the AIs the ability to make good use out of whatever resources can be found in your region of the galaxy, supplementing tech to make your local area colonizable, rather than needing the perfect map to have a viable and fun game.
+- There is a 4th level of colonization modules
+  - 25M, 50M, 75M, 100M capacity
+  - Static energy is higher than vanilla
+  - Static energy cost scales with capacity (so you're unlikely to be able to have more than 1 on a single ship)
 
 ## Planetary Facilities
 - Maintenance is much reduced to make it possible to not wreck yours (or the AI's) economy.
@@ -98,3 +147,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Misc
 - Technocracy is only available to Ackdarians, as stated in the game's messaging.
 - Experimental Warp Fields allow for nearby exploration - more functinoal than the base game, making for a more gradual early game.
+
+## Bug Fixes (introduced in previous versions of this mod)
+- Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
+- Fixed a bug in Mysterious Plague event -- now works properly.
