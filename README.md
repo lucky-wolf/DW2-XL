@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.0.3
+Version: v1.0.4
 
 - [DW2-XL](#dw2-xl)
 	- [Guiding Principles](#guiding-principles)
@@ -23,8 +23,8 @@ Version: v1.0.3
 	- [Targeting and Countermeasures](#targeting-and-countermeasures)
 	- [Colonization](#colonization)
 	- [Planetary Facilities](#planetary-facilities)
-	- [Misc](#misc)
-	- [Bug Fixes (introduced in previous versions of this mod)](#bug-fixes-introduced-in-previous-versions-of-this-mod)
+	- [Vanilla Bug Fixes](#vanilla-bug-fixes)
+	- [Mod Bug Fixes](#mod-bug-fixes)
 
 ## Guiding Principles
 Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
@@ -122,10 +122,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - So to get more fighters & bombers, you need more bays, larger ships, etc., which is a more natural flow.
 
 ## Hyper Drives
+- Experimental Warp Fields allow for nearby exploration, making for a more gradual early game
 - Have had the various types extended and balanced a bit so that every path is viable, with obvious trade-offs between lag, in flight speed, and balanced performance
+- Will make another pass at this at some point to really make this "sing"
 
 ## Reactors
 - Have had the various types extended and balanced so that every major type is in-principle viable and competitive, depending on your empire's strategic situation (has enough fuel to feed the engines of destruction)
+- Will make another pass at this at some point to really make this "sing"
 
 ## Targeting and Countermeasures
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
@@ -144,10 +147,12 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Maintenance is much reduced to make it possible to not wreck yours (or the AI's) economy.
   - At some point I will probably increase these costs, but nowhere near what they were in vanilla.
 
-## Misc
-- Technocracy is only available to Ackdarians, as stated in the game's messaging.
-- Experimental Warp Fields allow for nearby exploration - more functinoal than the base game, making for a more gradual early game.
+## Vanilla Bug Fixes
+- Technocracy is only available to Ackdarians, as stated in the game's messaging
+- Giving crew to Star Marine Barracks fixes those components to work as expected
+- Limit the Troop Academy to 1 per Empire, plugging an exploit for the player (AIs didn't build more than one)
 
-## Bug Fixes (introduced in previous versions of this mod)
+## Mod Bug Fixes
+Fixes for bugs I introduced in previous versions of this mod, and later fixed in this version:
 - Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
 - Fixed a bug in Mysterious Plague event -- now works properly.
