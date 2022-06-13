@@ -3,9 +3,10 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.0.4
+Version: v1.1.0
 
 - [DW2-XL](#dw2-xl)
+	- [Latest Changes](#latest-changes)
 	- [Guiding Principles](#guiding-principles)
 	- [Research (Tech Tree)](#research-tech-tree)
 	- [Ship Components](#ship-components)
@@ -25,6 +26,16 @@ Version: v1.0.4
 	- [Planetary Facilities](#planetary-facilities)
 	- [Vanilla Bug Fixes](#vanilla-bug-fixes)
 	- [Mod Bug Fixes](#mod-bug-fixes)
+
+## Latest Changes
+
+- Got rid of a bunch of cycles in tech tree
+- Restored the efficient hyperdrive line
+- Made Hyperdrive lines all usable to endgame
+  - Kalista-Dal are efficient, slower, but have extreme range (long-haul hyperdrives)
+  - Kaldos have more limited range, but become crazy fast at turnaround times
+- Reduced early game tech costs to try to make that period flow better (every new game was taking forever to get to the interesting bits)
+- Increased the cost of late game tech
 
 ## Guiding Principles
 Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
@@ -73,8 +84,8 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Sensors
 - Small sensors give some small amount of targeting bonus
 - Large sensors give a small fleet targeting bonus
-- Small sensors are always size 5
-- Large sensors are size 50 initially, and then drop to 40 for ultra long range line
+- Small sensors are size 5
+- Large sensors are size 40
 
 ## Armor
 - Separated out ionic armor from armor-materials
@@ -131,6 +142,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Will make another pass at this at some point to really make this "sing"
 
 ## Targeting and Countermeasures
+- Are size 5
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
 - Sensors have gained some targeting value
 - Long range sensors have gained some fleet targeting value
