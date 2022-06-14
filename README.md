@@ -29,6 +29,7 @@ Version: v1.1.1
 
 ## Latest Changes
 
+- Fixed: re-disabled the interceptors line (shouldn't have been visible - pointless duplicate of vanilla)
 - Got rid of a bunch of cycles in tech tree
 - Restored the efficient hyperdrive line
 - Made Hyperdrive lines all usable to endgame
