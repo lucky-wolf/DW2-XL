@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.0
+Version: v1.1.1
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
@@ -34,8 +34,9 @@ Version: v1.1.0
 - Made Hyperdrive lines all usable to endgame
   - Kalista-Dal are efficient, slower, but have extreme range (long-haul hyperdrives)
   - Kaldos have more limited range, but become crazy fast at turnaround times
-- Reduced early game tech costs to try to make that period flow better (every new game was taking forever to get to the interesting bits)
-- Increased the cost of late game tech
+- Increased the cost of late game tech (and rebalanced the scaling to be pure doubling)
+- Rooted the various planetary weapon facilities earlier in their respective trees so that all races should be able to build them without having to research pointless branches just to find that...
+- Simplified a lot of the earlier changes I made now that I understand how the tech .xml files work with the engine to use the simplest approach that works reliably
 
 ## Guiding Principles
 Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
