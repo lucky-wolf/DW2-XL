@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.2
+Version: v1.1.3
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
@@ -29,6 +29,9 @@ Version: v1.1.2
 
 ## Latest Changes
 
+- Further tweaked hyperdrives to make long-haul drives truely efficient in multiple analysis (also the most accurate drive)
+- Tweaked Kaldos further to decrease range and increase energy consumption
+- Fixed gerax line to make its accuracy improve continually through the whole series
 - Updated hyperdrives to consume similar amounts of energy for what they do, with Calista-Dal being most efficient, and Equinox least, but Kaldos now has to pay for its super-speed short-hops.
 - Tweaked the Kaldos line to be fixed range (1.4M) but to be much, much faster (so short, fast hops)
 - Fixed: re-disabled the interceptors line (shouldn't have been visible - pointless duplicate of vanilla)
