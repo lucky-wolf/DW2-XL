@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.1
+Version: v1.1.2
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
@@ -29,6 +29,7 @@ Version: v1.1.1
 
 ## Latest Changes
 
+- Updated hyperdrives to consume similar amounts of energy for what they do, with Calista-Dal being most efficient, and Equinox least, but Kaldos now has to pay for its super-speed short-hops.
 - Tweaked the Kaldos line to be fixed range (1.4M) but to be much, much faster (so short, fast hops)
 - Fixed: re-disabled the interceptors line (shouldn't have been visible - pointless duplicate of vanilla)
 - Got rid of a bunch of cycles in tech tree
