@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.3
+Version: v1.1.4
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
@@ -29,6 +29,9 @@ Version: v1.1.3
 
 ## Latest Changes
 
+- Moved ion defenses to appear near shields && reorganized point deflectors (right next to them)
+  - both are rooted in advanced deflectors rather than in weapons techs
+- Separated scanners and jammers into their own tech-lines (independent of each other)
 - Further tweaked hyperdrives to make long-haul drives truely efficient in multiple analysis (also the most accurate drive)
 - Tweaked Kaldos further to decrease range and increase energy consumption
 - Fixed gerax line to make its accuracy improve continually through the whole series
