@@ -10784,7 +10784,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<Components>
 			<Component>
 				<ComponentId>65</ComponentId>
@@ -11054,7 +11054,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>252</ResearchProjectId>
@@ -11071,7 +11071,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>262</ResearchProjectId>
-		<Name>Proton Ionization</Name>
+		<Name>Improved Ionization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>75</Size>
 		<InitiationCost>
@@ -11104,12 +11104,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>213</ComponentId>
-				<Level>0</Level>
+				<ComponentId>212</ComponentId>
+				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>147</ComponentId>
-				<Level>0</Level>
+				<ComponentId>139</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -11616,7 +11616,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>258</ResearchProjectId>
@@ -11650,7 +11650,7 @@
 		<ResearchProjectId>275</ResearchProjectId>
 		<Name>Ultra Efficient Engines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -11674,8 +11674,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>84</Row>
+		<Column>2</Column>
+		<Row>85</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -11684,7 +11684,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>276</ResearchProjectId>
+				<ResearchProjectId>262</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>1</RaceId>
@@ -11730,7 +11730,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>85</Row>
+		<Row>86</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>262</ResearchProjectId>
@@ -11756,7 +11756,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>277</ResearchProjectId>
-		<Name>Enhanced Engines</Name>
+		<Name>Nimble Engines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>600</Size>
 		<InitiationCost>
@@ -11790,11 +11790,11 @@
 		<Components>
 			<Component>
 				<ComponentId>213</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 			<Component>
 				<ComponentId>147</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -12660,7 +12660,7 @@
 		<ResearchProjectId>297</ResearchProjectId>
 		<Name>Refined HyperJump Theory</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -12680,8 +12680,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>79</Row>
+		<Column>6</Column>
+		<Row>80</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>367</ResearchProjectId>
@@ -12729,7 +12729,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>798</ResearchProjectId>
@@ -12748,7 +12748,7 @@
 		<ResearchProjectId>299</ResearchProjectId>
 		<Name>Advanced Engines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>19200</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -12776,16 +12776,21 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>7</Column>
 		<Row>87</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>373</ResearchProjectId>
+				<ResearchProjectId>508</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>374</ResearchProjectId>
+				<ResearchProjectId>509</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>836</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14746,7 +14751,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>79</Row>
+		<Row>80</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14804,7 +14809,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>80</Row>
+		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14852,7 +14857,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14900,7 +14905,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>83</Row>
+		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14948,7 +14953,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>82</Row>
+		<Row>83</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14967,7 +14972,7 @@
 		<ResearchProjectId>344</ResearchProjectId>
 		<Name>Advanced Proton Ionization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -14987,7 +14992,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>87</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -14999,11 +15004,11 @@
 		<Components>
 			<Component>
 				<ComponentId>213</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>147</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -16051,7 +16056,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>79</Row>
+		<Row>80</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>339</ResearchProjectId>
@@ -16099,7 +16104,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>80</Row>
+		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>340</ResearchProjectId>
@@ -16147,7 +16152,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>341</ResearchProjectId>
@@ -16195,7 +16200,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>83</Row>
+		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>342</ResearchProjectId>
@@ -16243,7 +16248,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>82</Row>
+		<Row>83</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>343</ResearchProjectId>
@@ -16262,7 +16267,7 @@
 		<ResearchProjectId>372</ResearchProjectId>
 		<Name>Contained Energy Conversion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -16286,8 +16291,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>84</Row>
+		<Column>4</Column>
+		<Row>85</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -16342,7 +16347,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>85</Row>
+		<Row>86</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>276</ResearchProjectId>
@@ -21634,7 +21639,7 @@
 		<ResearchProjectId>503</ResearchProjectId>
 		<Name>Long Range Jump Blocking</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>9600</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -21654,8 +21659,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>79</Row>
+		<Column>8</Column>
+		<Row>80</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>297</ResearchProjectId>
@@ -21703,7 +21708,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>80</Row>
+		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>368</ResearchProjectId>
@@ -21751,7 +21756,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>83</Row>
+		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>370</ResearchProjectId>
@@ -21799,7 +21804,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>82</Row>
+		<Row>83</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>371</ResearchProjectId>
@@ -21818,7 +21823,7 @@
 		<ResearchProjectId>507</ResearchProjectId>
 		<Name>Energy Bubble Overloading</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -21842,8 +21847,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>84</Row>
+		<Column>6</Column>
+		<Row>85</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -21898,7 +21903,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>85</Row>
+		<Row>86</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>373</ResearchProjectId>
@@ -23174,7 +23179,7 @@
 		<ResearchProjectId>537</ResearchProjectId>
 		<Name>Total HyperJump Disruption</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -23190,11 +23195,11 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>79</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>503</ResearchProjectId>
+				<ResearchProjectId>367</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -23274,7 +23279,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>298</ResearchProjectId>
@@ -23293,7 +23298,7 @@
 		<ResearchProjectId>540</ResearchProjectId>
 		<Name>Harmonized Thrust</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -23321,7 +23326,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>8</Column>
 		<Row>87</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25253,7 +25258,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>539</ResearchProjectId>
@@ -25272,7 +25277,7 @@
 		<ResearchProjectId>583</ResearchProjectId>
 		<Name>Zero Loss Energy Conversion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>76800</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>64000</Money>
 			<Resources>
@@ -25296,8 +25301,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
-		<Row>84</Row>
+		<Column>8</Column>
+		<Row>85</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -26150,7 +26155,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<Components>
 			<Component>
 				<ComponentId>307</ComponentId>
@@ -26613,7 +26618,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>80</Row>
+		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>582</ResearchProjectId>
@@ -26633,7 +26638,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>582</ResearchProjectId>
@@ -26653,7 +26658,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>83</Row>
+		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>582</ResearchProjectId>
@@ -26673,7 +26678,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>86</Row>
+		<Row>87</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>584</ResearchProjectId>
@@ -32305,7 +32310,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>796</ResearchProjectId>
-		<Name>Flicker Jumping</Name>
+		<Name>Flicker Jump</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>38400</Size>
 		<InitiationCost>
@@ -32336,7 +32341,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>80</Row>
+		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>504</ResearchProjectId>
@@ -32384,7 +32389,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>82</Row>
+		<Row>83</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>506</ResearchProjectId>
@@ -32432,7 +32437,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>81</Row>
+		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>369</ResearchProjectId>
@@ -34103,7 +34108,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>83</Row>
+		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>505</ResearchProjectId>
@@ -34405,6 +34410,54 @@
 		<Components>
 			<Component>
 				<ComponentId>161</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>836</ResearchProjectId>
+		<Name>Proton Turbothrusters</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>9600</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>87</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>344</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>213</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>147</ComponentId>
 				<Level>2</Level>
 			</Component>
 		</Components>

@@ -7,6 +7,8 @@ Version: v1.1.5
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
+		- [v1.1.5](#v115)
+		- [v1.1.4](#v114)
 	- [Guiding Principles](#guiding-principles)
 	- [Research (Tech Tree)](#research-tech-tree)
 	- [Ship Components](#ship-components)
@@ -29,6 +31,18 @@ Version: v1.1.5
 
 ## Latest Changes
 
+### v1.1.5
+- Revamped engines tech tree & components
+  - three distinct choices: efficient, nimble, and maximum speed
+  - increased energy consumption of all engines so that this actually makes a difference
+  - improved vectoring of nimble, advanced, and Ackdarian engines
+  - engine choice is not level 2 (was 3) - makes a nicer tree & decision point
+  - extended "ion thrusters" one level to make this work nicely
+- Fixed some minor inconsistencies in hyper drive deny blocking
+- Improved the hyper deny research tree
+- Removed "Robo-" from Zennox troop names (now they're are Ice whatever) since they're not robotic, so it made no sense!
+
+### v1.1.4
 - Tweaked Long Hault hyper drives to make them a little more attractive
 - Moved ion defenses to appear near shields && reorganized point deflectors (right next to them)
   - both are rooted in advanced deflectors rather than in weapons techs
