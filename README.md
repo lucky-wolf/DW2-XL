@@ -3,7 +3,7 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.4
+Version: v1.1.5
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
@@ -29,6 +29,7 @@ Version: v1.1.4
 
 ## Latest Changes
 
+- Tweaked Long Hault hyper drives to make them a little more attractive
 - Moved ion defenses to appear near shields && reorganized point deflectors (right next to them)
   - both are rooted in advanced deflectors rather than in weapons techs
 - Separated scanners and jammers into their own tech-lines (independent of each other)
