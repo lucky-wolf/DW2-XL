@@ -3,10 +3,9 @@ Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
 
-Version: v1.1.5
-
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
+		- [v1.1.6](#v116)
 		- [v1.1.5](#v115)
 		- [v1.1.4](#v114)
 	- [Guiding Principles](#guiding-principles)
@@ -30,6 +29,15 @@ Version: v1.1.5
 	- [Mod Bug Fixes](#mod-bug-fixes)
 
 ## Latest Changes
+
+### v1.1.6
+- Applied DW2 1.0.5.1 Fixes
+  - Kaidian spelling
+  - Skip drive sound effects
+- Reorganized Troops
+  - All troop related tech and facilities is right there under troops
+- Reorganized Boarding Pods
+  - All boarding related tech is under boarding pots
 
 ### v1.1.5
 - Revamped engines tech tree & components
