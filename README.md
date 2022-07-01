@@ -5,6 +5,7 @@ Author: Mordachai (lucky-wolf)
 
 - [DW2-XL](#dw2-xl)
 	- [Latest Changes](#latest-changes)
+		- [v1.1.7](#v117)
 		- [v1.1.6](#v116)
 		- [v1.1.5](#v115)
 		- [v1.1.4](#v114)
@@ -29,6 +30,14 @@ Author: Mordachai (lucky-wolf)
 	- [Mod Bug Fixes](#mod-bug-fixes)
 
 ## Latest Changes
+
+### v1.1.7
+- Increased fighter engine output
+  - base by 1.25
+  - max by 1.5 x base
+  - should allow fighters to advance into combat ahead of main fleet & hurry back to carriers when leaving
+- Further organized construction, parts of shields, ...
+- Tweaked Quick Jump hyperdrives again (a bit slower for less insane energy requirements)
 
 ### v1.1.6
 - Applied DW2 1.0.5.1 Fixes
