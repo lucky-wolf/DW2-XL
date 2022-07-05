@@ -4,12 +4,14 @@ Distant Worlds 2 - XL
 Author: Mordachai (lucky-wolf)
 
 - [DW2-XL](#dw2-xl)
+	- [Guiding Principles](#guiding-principles)
+	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.1.8](#v118)
 		- [v1.1.7](#v117)
 		- [v1.1.6](#v116)
 		- [v1.1.5](#v115)
 		- [v1.1.4](#v114)
-	- [Guiding Principles](#guiding-principles)
 	- [Research (Tech Tree)](#research-tech-tree)
 	- [Ship Components](#ship-components)
 	- [Fleets](#fleets)
@@ -26,10 +28,44 @@ Author: Mordachai (lucky-wolf)
 	- [Targeting and Countermeasures](#targeting-and-countermeasures)
 	- [Colonization](#colonization)
 	- [Planetary Facilities](#planetary-facilities)
-	- [Vanilla Bug Fixes](#vanilla-bug-fixes)
-	- [Mod Bug Fixes](#mod-bug-fixes)
+	- [Bug Fixes: Base Game](#bug-fixes-base-game)
+	- [Bug Fixes: Early versions of this mod](#bug-fixes-early-versions-of-this-mod)
+
+## Guiding Principles
+Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
+It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was. YMMV, but this is my take on making it better.
+
+## Mod Highlights
+- Colonization tech is pick & choose (you're not required to become an expert in every planetary biome, you can specialize in those that make sense for the game you're playing as it evolves)
+- Specialized tech is viable throughout the game
+  - This mod makes sure that you don't have to also research the common techs in order to access some of the later features or facliities, rather they're available to everyone
+- More specializations to choose from
+  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor manueverability, but best-in-class acceleration; whereas Proton engines are all about maneuverability
+  - Warp technology is now more strongly differentiated
+    - Kaldos are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
+    - Gerax are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
+    - Equinox are power-hungry version of Gerax with similar range and slightly worse efficiency, gaining over time, but at increased power and fuel consumption.
+    - Calista-Dal are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
+- Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appeciable impact on the game
+  - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on
+  - The couple of specialized interceptors for the Arkadians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
+- Basic tech is cheap & basic
+  - The first two levels of tech are pretty much applicable to all games, all species.
+  - They are cheaper than in vanialla.
+  - Early warp techs are more viable, allowing limited early game expansion or small local empires to be founded.
+- Game-changing technologies start at the 3rd level of the tech tree
+  - The game currently requires any nation to be gifted at least the first two levels of tech when starting a game with more than one initial colony.
+  - By pushing back much of the more interesting decisions and more powerful technologies, those gifted free techs remains just what everyone needs, while leaving character building techs for later
+    - This makes game-starts with more than one colony much more viable and enjoyable to play, in my opinion
+- There aren't any one-per-game facilities, rather, they're all one/empire.
+  - This helps to reduce the winner run-away effect, snatching up all "wonders" and leaving everyone else permanently in the dust
+  - Hopefully, this will make AIs more viable (once their code is improved in general in the game engine itself)
+    - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.1.8
+- Normalized many of the planetary defense facility techs so they become available around the same tech-level
 
 ### v1.1.7
 - Increased fighter engine output
@@ -78,10 +114,6 @@ Author: Mordachai (lucky-wolf)
 - Increased the cost of late game tech (and rebalanced the scaling to be pure doubling)
 - Rooted the various planetary weapon facilities earlier in their respective trees so that all races should be able to build them without having to research pointless branches just to find that...
 - Simplified a lot of the earlier changes I made now that I understand how the tech .xml files work with the engine to use the simplest approach that works reliably
-
-## Guiding Principles
-Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
-It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was. YMMV, but this is my take on making it better.
 
 ## Research (Tech Tree)
 - Some aspects of the tech tree were simplified or reorganized to make it more logical and reasonable
@@ -201,12 +233,12 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Maintenance is much reduced to make it possible to not wreck yours (or the AI's) economy.
   - At some point I will probably increase these costs, but nowhere near what they were in vanilla.
 
-## Vanilla Bug Fixes
+## Bug Fixes: Base Game
 - Technocracy is only available to Ackdarians, as stated in the game's messaging
 - Giving crew to Star Marine Barracks fixes those components to work as expected
 - Limit the Troop Academy to 1 per Empire, plugging an exploit for the player (AIs didn't build more than one)
 
-## Mod Bug Fixes
+## Bug Fixes: Early versions of this mod
 Fixes for bugs I introduced in previous versions of this mod, and later fixed in this version:
 - Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
 - Fixed a bug in Mysterious Plague event -- now works properly.

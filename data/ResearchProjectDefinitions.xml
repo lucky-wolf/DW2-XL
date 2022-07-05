@@ -4645,7 +4645,7 @@
 		<ResearchProjectId>107</ResearchProjectId>
 		<Name>Massive Energy Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>9600</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -4661,7 +4661,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>4</Column>
 		<Row>6</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -4951,7 +4951,7 @@
 		<ResearchProjectId>113</ResearchProjectId>
 		<Name>Massive Ion Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -4967,7 +4967,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>4</Column>
 		<Row>19</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -5033,7 +5033,7 @@
 		<ResearchProjectId>115</ResearchProjectId>
 		<Name>Massive Area Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -5049,18 +5049,13 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>4</Column>
 		<Row>22</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>91</ResearchProjectId>
+				<ResearchProjectId>2</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>114</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PlanetaryFacilityIds>
@@ -5310,7 +5305,7 @@
 		<ResearchProjectId>121</ResearchProjectId>
 		<Name>Massive Gravitic Control</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -5326,7 +5321,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>29</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -5495,7 +5490,7 @@
 		<ResearchProjectId>125</ResearchProjectId>
 		<Name>Massive Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>9600</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -5511,7 +5506,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>4</Column>
 		<Row>38</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -7657,7 +7652,7 @@
 		<ResearchProjectId>169</ResearchProjectId>
 		<Name>Core-Linked Ion Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>76800</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -7673,7 +7668,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>19</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -7808,7 +7803,7 @@
 		<ResearchProjectId>172</ResearchProjectId>
 		<Name>Core-Linked Area Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>76800</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -7824,7 +7819,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>22</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -8017,7 +8012,7 @@
 		<ResearchProjectId>177</ResearchProjectId>
 		<Name>Core-Linked Gravitic Control</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -8033,7 +8028,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>8</Column>
 		<Row>29</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9016,7 +9011,7 @@
 		<ResearchProjectId>197</ResearchProjectId>
 		<Name>Core-Linked Installations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -9044,7 +9039,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>8</Column>
 		<Row>61</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27993,7 +27988,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>675</ResearchProjectId>
-		<Name>Expanded Space Stations</Name>
+		<Name>Diversified Space Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>75</Size>
 		<InitiationCost>
@@ -28085,7 +28080,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>677</ResearchProjectId>
-		<Name>Improved Stations</Name>
+		<Name>Expanded Space Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1200</Size>
 		<InitiationCost>

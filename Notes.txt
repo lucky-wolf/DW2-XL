@@ -1,0 +1,40 @@
+-----------------------------------------------------
+ 0   1   2    3    4    5    6    7     8     9    10
+-----------------------------------------------------
+75 300 600 1200 2400 3600 5400 7200 14400 28800 57600
+-----------------------------------------------------
+25  75 300  600 1200 2400 4800 9600 19200 38400 76800 96000...
+25  75 600 1200 2400 4800 9600 19200 38400 76800 153600 307200...
+
+clear
+copy data\ResearchProjectDefinitions.xml data\ResearchProjectDefinitions.old
+perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\ResearchProjectDefinitions.xml
+
+
+hyper drive fuel efficiency (excluding other components)
+(outdated)
+type        |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
+---------------------------------------------------------------
+Gerax/Trrnt |.16   |.1456 |.1302 |.1202 |.0871 |.0645 |.0571
+Kaldos      |      |.15   |.13   |      |.1    |      |.06
+Equinox     |      |.16   |.15   |      |.12   |      |.08
+Calista-Dal |      |.13   |.1130 |      |.05998|      |.05
+
+
+move accelerated shield recharge and other shield deicions back to same as ablative (level 2)
+
+add damage reduction to jammers
+
+move starting and counter measures to start at level 2?
+	simplify these -- +5, +10, +15...
+	Make these general components instead of sensors?
+
+Government Types
+	Caste based Imperium
+		Ideally for a game where you could actually assign races to different castes (workers, military, scientists, etc.)
+			This would build-up resentment?  Definitely have some negative morale for some races (based on caste)
+			Maybe have ranking of castes!!!  Top ranks happy, bottom ranks angry/resentment
+
+Fun Ideas
+	Ideally make planets have jealousy
+		Facilities would generate it.  You put them all on a single world, all other worlds have mega jealousy!
