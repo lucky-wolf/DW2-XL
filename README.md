@@ -66,6 +66,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ### v1.1.8
 - Normalized many of the planetary defense facility techs so they become available around the same tech-level
+- Updated engines to have meaningful vector thrust values (70-375)
 
 ### v1.1.7
 - Increased fighter engine output
