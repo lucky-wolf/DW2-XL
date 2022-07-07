@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.1.9](#v119)
 		- [v1.1.8](#v118)
 		- [v1.1.7](#v117)
 		- [v1.1.6](#v116)
@@ -63,6 +64,9 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.1.9
+- Fixed an issue with Starship Maneuvering where getting that tech through an event would crash the game (mod bug)
 
 ### v1.1.8
 - Normalized many of the planetary defense facility techs so they become available around the same tech-level
