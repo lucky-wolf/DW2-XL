@@ -306,7 +306,7 @@ They are intelligent, cunning and resourceful and have spread across the galaxy.
 
 Humans are friendly by nature, but others sometimes view them as scheming and manipulative. Humans value political power and influence above all else. They revel in subtle maneuvering and intrigue as they accumulate greater political control. They have an amazing talent for recognizing opportunities for political advancement.
 
-Their natural abilities make them excellent diplomats. Human negotiating skills are renowned – they can transform nearly any apparently hopeless situation to their advantage.
+Their natural abilities make them excellent diplomats. Human negotiating skills are renowned - they can transform nearly any apparently hopeless situation to their advantage.
 
 Humans have a natural curiosity that gives them an edge in scientific research. Their scientists and engineers are quick to see the application of new discoveries, inventing new technology based on this knowledge.
 
@@ -3215,9 +3215,19 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.1</Factor>
+        <Factor>0.15</Factor>
 			</OrbTypeFactor>
+		<OrbTypeFactor>
+			<OrbTypeId>7</OrbTypeId>
+			<Factor>0.05</Factor>
+		</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+	<MinimumSuitabilityForColonization>
+	  <OrbTypeFactor>
+	    <OrbTypeId>18</OrbTypeId>
+	    <Factor>0.4</Factor>
+	  </OrbTypeFactor>
+	</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3381,9 +3391,23 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
+        <Factor>0.1</Factor>
+      </OrbTypeFactor>
+	    <OrbTypeFactor>
+		    <OrbTypeId>7</OrbTypeId>
 				<Factor>0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+	<MinimumSuitabilityForColonization>
+		<OrbTypeFactor>
+			<OrbTypeId>17</OrbTypeId>
+			<Factor>0.45</Factor>
+		</OrbTypeFactor>
+		<OrbTypeFactor>
+			<OrbTypeId>7</OrbTypeId>
+			<Factor>0.45</Factor>
+		</OrbTypeFactor>
+	</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4368,7 +4392,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.1</Factor>
+        <Factor>0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
@@ -4376,7 +4400,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.1</Factor>
+        <Factor>0.15</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
