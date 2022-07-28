@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.2.0](#v120)
 		- [v1.1.10](#v1110)
 		- [v1.1.9](#v119)
 		- [v1.1.8](#v118)
@@ -66,8 +67,15 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Latest Changes
 
+### v1.2.0
+- Standardized static energy on colony modules to 1E/1M capacity (e.g. 50M capacity = 50 static energy)
+- Improved sizes to be what they were with double modules (50,100,150,200)
+- Luxury Barracks give a maintanance savings of 10/15/20/25 at various levels
+- Marine Barracks no longer give a maintanance savings (they give boarding defense bonus)
+- Applied fixes from DW2 build 1.0.5.8
+
 ### v1.1.10
-- Incorperated minor race planetary habitibility fixes from 1.0.5.6
+- Incorperated minor race planetary habitibility fixes from DW2 build 1.0.5.6
 
 ### v1.1.9
 - Fixed an issue with Starship Maneuvering where getting that tech through an event would crash the game (mod bug)
