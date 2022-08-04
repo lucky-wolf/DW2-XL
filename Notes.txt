@@ -11,15 +11,41 @@ copy data\ResearchProjectDefinitions.xml data\ResearchProjectDefinitions.old
 perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\ResearchProjectDefinitions.xml
 
 
-hyper drive fuel efficiency (excluding other components)
-(outdated)
+hyper drive fuel efficiency (purely speed/energyK)
 type        |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
 ---------------------------------------------------------------
-Gerax/Trrnt |.16   |.1456 |.1302 |.1202 |.0871 |.0645 |.0571
-Kaldos      |      |.15   |.13   |      |.1    |      |.06
-Equinox     |      |.16   |.15   |      |.12   |      |.08
-Calista-Dal |      |.13   |.1130 |      |.05998|      |.05
+Gerax/Trrnt |.2    |.15   |.1111 |.0916 ].0666 |.0542 |.0388
+Kaldos      |      |.1616 |.1333 |      |.0888 |      |.0555
+Calista-Dal |      |.14   |.1143 |      |.06   |      |.0357
+Equinox     |      |.1692 |.1333 |      |.0871 |      |.0538
 
+type 		 efficiency			  accuracy		range	init	recharge	insulation
+--------------------------------------------------------------------------------------
+Skip		 50:100K=.5				5000		.75M	20		30				 0
+Bubble 		 70:200K=.35			5000		120M	17		28				 0
+Gerax		 80:400K=.2				4250		140M	16		25				10
+		     90:600K=.15			3750		168M	15		23				15
+		    100:900K=.1111			3250		216M	14		21				20
+		    110:1200K=.0916			2750		246M	13		19				25
+Torrent		120:1.8M=.0666			2250		293M	 9		15				30
+			130:2.4M=.0542			1750		374M	 8		12				35
+			140:3.6M=.0388			1250		450M	 6		10				40
+Kaldos	    100:600K=.1616			3500		140M	12		12				15
+			120:900K=.1333			3000		180M	10		10				20
+			160:1.8M=.0888			2000		220M	 6		 6				30
+			200:3.6M=.0555			1000		260M	 2		 2				40
+Calista-Dal	 70:500K=.14			3500		225M	26		13				15
+			 80:700K=.1143			3000		350M	24		12				20
+			 90:1.4M=.06			2000		500M	22		11				30
+			100:2.8M=.0357			1000		650M	20		10				40
+Equinox		110:650K=.1692			4500		168M	16		22				15
+			130:975K=.1333			4000		216M	14		20				20
+			170:1.95M=.0871			3000		293M	12		18				30
+			210:3.9M=.0538			2000		450M	10		16				40
+Wormhole	200:5.0M=.04			 500		500M	 1		 1				50
+Hive		 22:1.2M				1600		180M	30		54				20
+			 27:2.4M				1400		260M	25		48				30
+			 29:4.8M				1200		320M	20		42				40
 
 move accelerated shield recharge and other shield deicions back to same as ablative (level 2)
 

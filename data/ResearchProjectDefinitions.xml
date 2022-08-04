@@ -14869,7 +14869,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>342</ResearchProjectId>
-		<Name>Long Haul HyperDrives</Name>
+		<Name>Long Range HyperDrives</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>1200</Size>
 		<InitiationCost>
@@ -21634,27 +21634,27 @@
 		<ResearchProjectId>503</ResearchProjectId>
 		<Name>Long Range Jump Blocking</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>38400</Size>
+		<Size>19200</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>9000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>900</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>80</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -34490,5 +34490,45 @@
 				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>838</ResearchProjectId>
+		<Name>Extreme Jump Blocking</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>38400</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>80</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>503</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>179</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

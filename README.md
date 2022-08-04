@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.2.1](#v121)
 		- [v1.2.0](#v120)
 		- [v1.1.10](#v1110)
 		- [v1.1.9](#v119)
@@ -66,6 +67,15 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.2.1
+- Renormalized all hyperdrives to increase speed of hyperdrives in general (starting above base Gerax)
+  - Gerax/Torrent gives incremntal improvement in all areas for higher research cost overall
+  - Kaldos offers the quickest init & recharge times plus best accuracy, but with limited range and 2nd worst efficiency
+  - Equinox offers the highest speeds, but with the worst efficiency and poor accuracy
+  - Calista-Dal offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
+- Super Drives (Flux) now have respectable vector thrust
+- +5 Energy to Ftr Reactors (were a bit anemic)
 
 ### v1.2.0
 - Standardized static energy on colony modules to 1E/1M capacity (e.g. 50M capacity = 50 static energy)
