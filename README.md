@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.2.2](#v122)
 		- [v1.2.1](#v121)
 		- [v1.2.0](#v120)
 		- [v1.1.10](#v1110)
@@ -67,6 +68,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.2.2
+- Fixed vanilla bug in phasers: weapon speed 1500
+- Relaxed the tech lines of ionic armor and star marine barracks to be linear, not requiring the normal armor nor the normal crew quarters, but being their own line of research
+  - Makes upgrades less of a pain in the butt (and they already cost 2x research vs. their normal varients for the same level of base armor or crew capacity)
+- Added one more level of ion sheath armor (equivalent to impervious)
+- Upgraded super armor to have ion sheath properties
 
 ### v1.2.1
 - Renormalized all hyperdrives to increase speed of hyperdrives in general (starting above base Gerax)

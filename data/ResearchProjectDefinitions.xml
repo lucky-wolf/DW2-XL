@@ -32819,7 +32819,7 @@
 		<Row>174</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>448</ResearchProjectId>
+				<ResearchProjectId>81</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -32859,7 +32859,7 @@
 		<Row>174</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>475</ResearchProjectId>
+				<ResearchProjectId>806</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -32967,7 +32967,7 @@
 		<Row>111</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>356</ResearchProjectId>
+				<ResearchProjectId>808</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -33023,7 +33023,7 @@
 		<Row>111</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>308</ResearchProjectId>
+				<ResearchProjectId>809</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -33079,7 +33079,7 @@
 		<Row>111</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>551</ResearchProjectId>
+				<ResearchProjectId>810</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -33289,7 +33289,7 @@
 		<Row>174</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>573</ResearchProjectId>
+				<ResearchProjectId>807</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -34528,6 +34528,62 @@
 			<Component>
 				<ComponentId>179</ComponentId>
 				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>839</ResearchProjectId>
+		<Name>Impervious Ionic Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>307200</Size>
+		<InitiationCost>
+			<Money>49000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>111</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>811</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>378</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>379</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
