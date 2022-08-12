@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.2.3](#v123)
 		- [v1.2.2](#v122)
 		- [v1.2.1](#v121)
 		- [v1.2.0](#v120)
@@ -68,6 +69,9 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.2.3
+- Applied 1.0.6.4 fixes to TroopDefinitions.xml
 
 ### v1.2.2
 - Fixed vanilla bug in phasers: weapon speed 1500
