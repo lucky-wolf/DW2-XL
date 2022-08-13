@@ -10930,7 +10930,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>259</ResearchProjectId>
-		<Name>Advanced Nuclear Fission</Name>
+		<Name>Advanced Reactors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>75</Size>
 		<InitiationCost>
@@ -10959,12 +10959,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>215</ComponentId>
-				<Level>0</Level>
+				<ComponentId>214</ComponentId>
+				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>146</ComponentId>
-				<Level>0</Level>
+				<ComponentId>136</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -11381,7 +11381,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>270</ResearchProjectId>
-		<Name>Nuclear Supercharging</Name>
+		<Name>Fission Supercharging</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>600</Size>
 		<InitiationCost>
@@ -11411,11 +11411,11 @@
 		<Components>
 			<Component>
 				<ComponentId>215</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 			<Component>
 				<ComponentId>146</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -12470,7 +12470,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>293</ResearchProjectId>
-		<Name>Fusion Balance</Name>
+		<Name>Hyper Fusion Discovery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>4800</Size>
 		<InitiationCost>
@@ -12497,20 +12497,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>68</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>361</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>362</ResearchProjectId>
+				<ResearchProjectId>495</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>180</ComponentId>
@@ -12526,7 +12520,7 @@
 		<ResearchProjectId>294</ResearchProjectId>
 		<Name>Rapid Energy Surge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -12554,7 +12548,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>70</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -12622,7 +12616,7 @@
 		<ResearchProjectId>296</ResearchProjectId>
 		<Name>Massive Shield Projection</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -12638,7 +12632,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>76</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -14327,7 +14321,7 @@
 		<ResearchProjectId>331</ResearchProjectId>
 		<Name>Fusion Physics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -14351,16 +14345,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>270</ResearchProjectId>
+				<ResearchProjectId>259</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>332</ResearchProjectId>
+				<ResearchProjectId>270</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>1</Priority>
 			</ResearchPath>
@@ -14380,7 +14374,7 @@
 		<ResearchProjectId>332</ResearchProjectId>
 		<Name>Fission Mastery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1000</Size>
+		<Size>1200</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -14408,11 +14402,11 @@
 		<Components>
 			<Component>
 				<ComponentId>215</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>146</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14420,7 +14414,7 @@
 		<ResearchProjectId>333</ResearchProjectId>
 		<Name>Quantum Exploitation</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -14444,16 +14438,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>69</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>270</ResearchProjectId>
+				<ResearchProjectId>259</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>332</ResearchProjectId>
+				<ResearchProjectId>270</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>1</Priority>
 			</ResearchPath>
@@ -14473,7 +14467,7 @@
 		<ResearchProjectId>334</ResearchProjectId>
 		<Name>Quantum Energy Storage</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2400</Size>
+		<Size>600</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -14501,11 +14495,11 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>2</Column>
 		<Row>70</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>333</ResearchProjectId>
+				<ResearchProjectId>259</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15719,7 +15713,7 @@
 		<ResearchProjectId>361</ResearchProjectId>
 		<Name>Advanced Fusion Physics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2400</Size>
+		<Size>1200</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -15743,7 +15737,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -15767,7 +15761,7 @@
 		<ResearchProjectId>362</ResearchProjectId>
 		<Name>Quantum Microutilization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2400</Size>
+		<Size>1200</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -15791,7 +15785,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>69</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -21223,7 +21217,7 @@
 		<ResearchProjectId>495</ResearchProjectId>
 		<Name>Fusion Cycle Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -21247,7 +21241,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -21269,7 +21263,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>496</ResearchProjectId>
-		<Name>Hyperfusion Intensification</Name>
+		<Name>Hyper Fusion Intensification</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>9600</Size>
 		<InitiationCost>
@@ -21296,7 +21290,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>68</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>293</ResearchProjectId>
@@ -21319,7 +21313,7 @@
 		<ResearchProjectId>497</ResearchProjectId>
 		<Name>Quantum Mastery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -21343,7 +21337,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>69</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -22898,7 +22892,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>531</ResearchProjectId>
-		<Name>Hyperfusion Equilibrium</Name>
+		<Name>Hyper Fusion Equilibrium</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>19200</Size>
 		<InitiationCost>
@@ -22925,7 +22919,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>68</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>496</ResearchProjectId>
@@ -23141,7 +23135,7 @@
 		<ResearchProjectId>536</ResearchProjectId>
 		<Name>Global Shield Reinforcement</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -23157,7 +23151,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>8</Column>
 		<Row>76</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25027,20 +25021,21 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>531</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>495</ResearchProjectId>
-				<PathAppearanceLikelihood>0.33</PathAppearanceLikelihood>
-				<Priority>1</Priority>
+				<ResearchProjectId>842</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>497</ResearchProjectId>
-				<PathAppearanceLikelihood>0.33</PathAppearanceLikelihood>
-				<Priority>1</Priority>
+				<ResearchProjectId>845</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>304</ComponentId>
@@ -27429,7 +27424,7 @@
 		<ResearchProjectId>661</ResearchProjectId>
 		<Name>Reinforced Construction</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>16000</Money>
 			<Resources>
@@ -27445,7 +27440,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>62</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27462,7 +27457,7 @@
 		<ResearchProjectId>662</ResearchProjectId>
 		<Name>Impregnable Construction</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>76800</Size>
+		<Size>38400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -27478,7 +27473,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>62</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32257,7 +32252,7 @@
 		<ResearchProjectId>795</ResearchProjectId>
 		<Name>Fission Perfection</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2000</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -32285,11 +32280,11 @@
 		<Components>
 			<Component>
 				<ComponentId>215</ComponentId>
-				<Level>3</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>146</ComponentId>
-				<Level>3</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -34584,6 +34579,294 @@
 			<Component>
 				<ComponentId>379</ComponentId>
 				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>840</ResearchProjectId>
+		<Name>Hyper Fission Discovery</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>4800</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>68</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>795</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>381</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>841</ResearchProjectId>
+		<Name>Hyper Fission Intensification</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>9600</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>68</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>840</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>381</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>842</ResearchProjectId>
+		<Name>Hyper Fission Equilibrium</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>19200</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>68</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>841</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>381</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>843</ResearchProjectId>
+		<Name>Hyper Quantum Discovery</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>4800</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>69</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>497</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>382</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>383</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>844</ResearchProjectId>
+		<Name>Hyper Quantum Intensification</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>9600</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>69</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>843</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>382</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>383</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>845</ResearchProjectId>
+		<Name>Hyper Quantum Equilibrium</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>19200</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>69</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>844</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>382</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>383</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

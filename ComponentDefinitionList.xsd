@@ -127,24 +127,24 @@
 	</xs:simpleType>
 	<xs:complexType name="WeaponEffect">
 		<xs:sequence>
-			<xs:element minOccurs="1" maxOccurs="1" name="UseDirectionalComponent" type="xs:boolean" />
-			<xs:element minOccurs="1" maxOccurs="1" name="FlipbookMode" type="FlipbookMode" />
+			<xs:element minOccurs="0" maxOccurs="1" name="UseDirectionalComponent" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="FlipbookMode" type="FlipbookMode" />
 			<xs:element minOccurs="0" maxOccurs="1" name="StaticTextureFilepath" type="xs:string" />
-			<xs:element minOccurs="1" maxOccurs="1" name="BodyScaling" type="Vector2" />
-			<xs:element minOccurs="1" maxOccurs="1" name="BodyScalingAbsolute" type="Vector2" />
+			<xs:element minOccurs="0" maxOccurs="1" name="BodyScaling" type="Vector2" />
+			<xs:element minOccurs="0" maxOccurs="1" name="BodyScalingAbsolute" type="Vector2" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="FiringEffectScaling" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="FlipbookTextureFilepath" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" default="30" name="FlipbookFramesPerSecond" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="FlipbookDimensions" type="Vector2" />
+			<xs:element minOccurs="0" maxOccurs="1" name="FlipbookDimensions" type="Vector2" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FlipbookRow" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="PulsingIntensity" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="PulsingSpeed" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="UVScrollRatio" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="UVScrollCycleLength" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EndFadeLengthRatio" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TextureTintColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TextureTintColor2" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TintCycleLength" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="PulsingIntensity" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="PulsingSpeed" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="UVScrollRatio" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="UVScrollCycleLength" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EndFadeLengthRatio" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TextureTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TextureTintColor2" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TintCycleLength" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="ColorBoost" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ModelFilepath" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="FiringEffectFilepath" type="xs:string" />
@@ -156,33 +156,33 @@
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="ArmorImpactEffectScaling" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="HullImpactEffectScaling" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="FiringSoundEffectVolume" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="ArmorImpactEffectTintColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="HullImpactEffectTintColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="FiringEffectTintColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupLength" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ArmorImpactEffectTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="HullImpactEffectTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="FiringEffectTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupLength" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupMeshName" type="xs:string" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupPulseColor1" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupPulseColor2" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupBackgroundColor1" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupBackgroundColor2" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupUVScrollingRate" type="Vector2" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupColorOscillationRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupPulseColor1" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupPulseColor2" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupBackgroundColor1" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupBackgroundColor2" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupUVScrollingRate" type="Vector2" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupColorOscillationRate" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupEffectFilepath" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="WeaponChargeupEffectScaling" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupEffectTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupEffectTintColor" type="Color" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupSoundEffectFilepath" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectFilepath" type="xs:string" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectTintColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectTintAltColor" type="Color" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectColorTransitionStartTime" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectColorTransitionEndTime" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectTintColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectTintAltColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectColorTransitionStartTime" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectColorTransitionEndTime" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="TrailEffectScaleX" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="TrailEffectScaleY" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectScaleChangeRateX" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectScaleChangeRateY" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectLifetime" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailEffectSpawnRate" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="TrailDriftRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectScaleChangeRateX" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectScaleChangeRateY" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectLifetime" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectSpawnRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TrailDriftRate" type="xs:float" />
 		</xs:sequence>
 	</xs:complexType>
 	<xs:simpleType name="FlipbookMode">

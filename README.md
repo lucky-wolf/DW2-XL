@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.0](#v130)
 		- [v1.2.3](#v123)
 		- [v1.2.2](#v122)
 		- [v1.2.1](#v121)
@@ -69,6 +70,14 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.0
+- Expanded the reactors line to 6-deep for all 3 main techs (fusion, fission, quantum)
+  - fusion is the most compact but the lowest output and capacity
+  - fission is 50% larger for 50% more output and 20% more capacity
+  - quantum is 100% larger than fusion for 100% more output and 80% greater capacity
+  - fusion is the most fuel efficient, fission in the middle, and quantum is the worst
+- Added AI policies to help them be more competitive
 
 ### v1.2.3
 - Applied 1.0.6.4 fixes to TroopDefinitions.xml
