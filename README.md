@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.1](#v131)
 		- [v1.3.0](#v130)
 		- [v1.2.3](#v123)
 		- [v1.2.2](#v122)
@@ -70,6 +71,9 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.1
+- Adjusted AI policies to allocate more cashflow to troops & facilities
 
 ### v1.3.0
 - Expanded the reactors line to 6-deep for all 3 main techs (fusion, fission, quantum)
