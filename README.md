@@ -30,7 +30,7 @@ Author: Mordachai (lucky-wolf)
 	- [Armor](#armor)
 	- [Weapons](#weapons)
 	- [Kinetic Weapons](#kinetic-weapons)
-	- [Energy Torpedos](#energy-torpedos)
+	- [Energy Torpedoes](#energy-torpedoes)
 	- [Fighters and Bombers](#fighters-and-bombers)
 	- [Hyper Drives](#hyper-drives)
 	- [Reactors](#reactors)
@@ -41,32 +41,32 @@ Author: Mordachai (lucky-wolf)
 	- [Bug Fixes: Early versions of this mod](#bug-fixes-early-versions-of-this-mod)
 
 ## Guiding Principles
-Principly this mod aims to create a better player experience while playing games of Distant Wordls 2.
+Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
 It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was. YMMV, but this is my take on making it better.
 
 ## Mod Highlights
 - Colonization tech is pick & choose (you're not required to become an expert in every planetary biome, you can specialize in those that make sense for the game you're playing as it evolves)
 - Specialized tech is viable throughout the game
-  - This mod makes sure that you don't have to also research the common techs in order to access some of the later features or facliities, rather they're available to everyone
+  - This mod makes sure that you don't have to also research the common techs in order to access some of the later features or facilities, rather they're available to everyone
 - More specializations to choose from
-  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor manueverability, but best-in-class acceleration; whereas Proton engines are all about maneuverability
+  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Proton engines are all about maneuverability
   - Warp technology is now more strongly differentiated
     - Kaldos are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
     - Gerax are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
     - Equinox are power-hungry version of Gerax with similar range and slightly worse efficiency, gaining over time, but at increased power and fuel consumption.
     - Calista-Dal are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
-- Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appeciable impact on the game
-  - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on
+- Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appreciable impact on the game
+  - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on, so I removed them (hid them, they're still in game, so as not to break other mods or game-events).
   - The couple of specialized interceptors for the Arkadians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
 - Basic tech is cheap & basic
   - The first two levels of tech are pretty much applicable to all games, all species.
-  - They are cheaper than in vanialla.
+  - They are cheaper than in vanilla.
   - Early warp techs are more viable, allowing limited early game expansion or small local empires to be founded.
-- Game-changing technologies start at the 3rd level of the tech tree
-  - The game currently requires any nation to be gifted at least the first two levels of tech when starting a game with more than one initial colony.
-  - By pushing back much of the more interesting decisions and more powerful technologies, those gifted free techs remains just what everyone needs, while leaving character building techs for later
+- Game-changing technologies were pushed back to mostly start at the 3rd level of the tech tree
+  - The game currently requires any nation to be gifted at least the first two levels of tech when starting a game with more than one initial colony...
+  - By pushing back much of the more interesting decisions and more powerful technologies, those gifted free techs remains just what everyone needs, while leaving character building techs for later.
     - This makes game-starts with more than one colony much more viable and enjoyable to play, in my opinion
-- There aren't any one-per-game facilities, rather, they're all one/empire.
+- There aren't any one-per-game facilities, rather, they're all one-per-empire.
   - This helps to reduce the winner run-away effect, snatching up all "wonders" and leaving everyone else permanently in the dust
   - Hopefully, this will make AIs more viable (once their code is improved in general in the game engine itself)
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
@@ -75,13 +75,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ### v1.3.2
 - Adjusted Boskarans
-  - Reduced tech level of torpedo weapons to be on the same cadence as their plasma beams
+  - Adjusted tech level of their specialized torpedo weapons to be on the same cadence as their plasma beams
     - thus ship designs are in parity (latest is latest of each)
   - Added ion defense to flux armor
-    - not as good as true Ionic Armor, but solid
+    - not as good as true Ionic Armor, but better than vanilla
 - Buffed planetary defense facilities
-  - Planetary weapons x2 vollies
-  - +160, +180, +200 targetin and countermeasures (they will hit, and are extremely hard to shoot down)
+  - Doubled planetary weapons volley size (e.g. 3 torpedoes -> 6 torpedoes per shot)
+  - +160, +180, +200 targeting and countermeasures (they will hit, and are extremely hard to shoot down)
   - Added a secondary tech that gives planetary beam defense weapons (from pulsed weapons)
 - Adjusted multi-role ships to come one tech level sooner
 
@@ -102,13 +102,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ### v1.2.2
 - Fixed vanilla bug in phasers: weapon speed 1500
 - Relaxed the tech lines of ionic armor and star marine barracks to be linear, not requiring the normal armor nor the normal crew quarters, but being their own line of research
-  - Makes upgrades less of a pain in the butt (and they already cost 2x research vs. their normal varients for the same level of base armor or crew capacity)
+  - Makes upgrades less of a pain in the butt (and they already cost 2x research vs. their normal variants for the same level of base armor or crew capacity)
 - Added one more level of ion sheath armor (equivalent to impervious)
 - Upgraded super armor to have ion sheath properties
 
 ### v1.2.1
-- Renormalized all hyperdrives to increase speed of hyperdrives in general (starting above base Gerax)
-  - Gerax/Torrent gives incremntal improvement in all areas for higher research cost overall
+- Normalized all hyperdrives to increase speed of hyperdrives in general (starting above base Gerax)
+  - Gerax/Torrent gives incremental improvement in all areas for higher research cost overall
   - Kaldos offers the quickest init & recharge times plus best accuracy, but with limited range and 2nd worst efficiency
   - Equinox offers the highest speeds, but with the worst efficiency and poor accuracy
   - Calista-Dal offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
@@ -118,12 +118,12 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ### v1.2.0
 - Standardized static energy on colony modules to 1E/1M capacity (e.g. 50M capacity = 50 static energy)
 - Improved sizes to be what they were with double modules (50,100,150,200)
-- Luxury Barracks give a maintanance savings of 10/15/20/25 at various levels
-- Marine Barracks no longer give a maintanance savings (they give boarding defense bonus)
+- Luxury Barracks give a maintenance savings of 10/15/20/25 at various levels
+- Marine Barracks no longer give a maintenance savings (they give boarding defense bonus)
 - Applied fixes from DW2 build 1.0.5.8
 
 ### v1.1.10
-- Incorperated minor race planetary habitibility fixes from DW2 build 1.0.5.6
+- Incorporated minor race planetary habitability fixes from DW2 build 1.0.5.6
 
 ### v1.1.9
 - Fixed an issue with Starship Maneuvering where getting that tech through an event would crash the game (mod bug)
@@ -161,11 +161,11 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Removed "Robo-" from Zennox troop names (now they're are Ice whatever) since they're not robotic, so it made no sense!
 
 ### v1.1.4
-- Tweaked Long Hault hyper drives to make them a little more attractive
+- Tweaked Long Haul hyper drives to make them a little more attractive
 - Moved ion defenses to appear near shields && reorganized point deflectors (right next to them)
   - both are rooted in advanced deflectors rather than in weapons techs
 - Separated scanners and jammers into their own tech-lines (independent of each other)
-- Further tweaked hyperdrives to make long-haul drives truely efficient in multiple analysis (also the most accurate drive)
+- Further tweaked hyperdrives to make long-haul drives truly efficient in multiple analysis (also the most accurate drive)
 - Tweaked Kaldos further to decrease range and increase energy consumption
 - Fixed gerax line to make its accuracy improve continually through the whole series
 - Updated hyperdrives to consume similar amounts of energy for what they do, with Calista-Dal being most efficient, and Equinox least, but Kaldos now has to pay for its super-speed short-hops.
@@ -185,7 +185,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - Removes unnecessary dependencies in the tech tree to make it easier to research what you want
     - For example - it is not necessary to research all of the "standard" tech in addition to your racial bonus technology in order to get to some upper level technology.  Rather, yours will either eventually give you that opportunity directly, or it has been extended to give you an equivalent end-game version that is every bit as powerful.
   - Removes all of the research bonus requirements from tech, which gives a more even playing field for all races.
-    - For example, the Boskara have a -20% research malus, which slows them down, but doesn't randomly preclude them from overcoming that with perseverence.
+    - For example, the Boskara have a -20% research malus, which slows them down, but doesn't randomly preclude them from overcoming that with perseverance.
 - Moves most of the real decisions about which direction to go in research starting around the third level of tech, instead of the first two levels.
   - This lends itself to starting games where empires have some worlds already, but aren't then gifted a massive volume of tech.  Rather, they have enough to have expanded, but the core decisions about each empire are yet to be encountered, making playing a game with this advanced start more replayable and fun.
 - Tech costs scale better as the game progresses
@@ -195,7 +195,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Ship Components
 - Ship Components have been extended to provide additional levels of various ships systems
-  - This extends some of the decisions you make to be more functional and therefore viable, allowing you to play through using efficent or energy hog designs without bumping up against as many of vanilla's arbitrary limitations, or without feeling like it's a non-choice because ultiamtely you're forced to choose the one and only one viable approach after a few tech levels anyway.
+  - This extends some of the decisions you make to be more functional and therefore viable, allowing you to play through using efficient or energy hog designs without bumping up against as many of vanilla's arbitrary limitations, or without feeling like it's a non-choice because ultimately you're forced to choose the one and only one viable approach after a few tech levels anyway.
 
 ## Fleets
 - Slightly increased the size of standard fleets to include more and heavier ship classes
@@ -258,9 +258,9 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - But they continue to be quite inaccurate with range
 - Kinetic PD does more raw damage than blaster or beam PD, but it's less accurate
 
-## Energy Torpedos
+## Energy Torpedoes
 - Boskaran's Firestorm torpedo line is deeper and gives you a large weapon sooner
-- Mortalen's torpedos line is split into ftr+small and med+lrg
+- Mortalen's torpedoes line is split into ftr+small and med+lrg
   - The med/large line also gives the planetary torpedo facilities
   - all of these techs have been extended by 4 additional levels each to keep them viable throughout the game
 
