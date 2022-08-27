@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.3](#v133)
 		- [v1.3.2](#v132)
 		- [v1.3.1](#v131)
 		- [v1.3.0](#v130)
@@ -72,6 +73,25 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.3
+- Fixed bug in Boskaran's Firestorm v2 tech - was costing 4x too much!
+- Tweaked the default fleet templates
+  - Added back in some fuel tankers (now that they're arguably marginally less buggy)
+  - Gave invasion fleets a Carrier, and Raid fleets a Battleship
+  - Switch the defaults so that fleet policies override ship policies
+  - Changed the invade to "immediately" to try to avoid situation where they land sporadically (this is fundamentally still a bug in the game itself)
+  - Changed fleets to be more willing to retreat - hopefully to give the AI a better ability to trade blows over time and not disintegrate at the first clash
+- Increased visibility of nebulas (fixed 1.0.6.6's settings so that they actually work)
+- Planetary Facilities
+  - Buffed shield facilities
+  - Buffed fighter bases
+- Adjusted all AIs to try to
+  - Better balance their military construction for what they actually need
+  - Put more resources into economy (exploration & construction)
+  - Avoid building too many fixed defenses (which are a poor investment)
+  - Focus on a single tech at a time
+  - Grow to worlds that are a little bit borderline, but which they should be able to terraform or tech into good worlds over time
 
 ### v1.3.2
 - Adjusted Boskarans

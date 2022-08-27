@@ -6,17 +6,17 @@
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
 		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
+		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
-		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
+		<ShipsAttackRangeStronger>Aggressive</ShipsAttackRangeStronger>
+		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
+		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
 
 		<ShipAmounts>
 			<ShipRoleFactor>
@@ -49,7 +49,7 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>FuelTanker</Role>
-				<Factor>0</Factor>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 		</ShipAmounts>
 	</FleetTemplate>
@@ -58,8 +58,8 @@
 		<RaceId>-1</RaceId>
 		<Role>Raid</Role>
 		<Name>Raiding Force</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
+		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
+		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength100</DefaultRetreatOverwhelmed>
 		<DefaultStance>Cautious</DefaultStance>
 
@@ -78,19 +78,19 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Frigate</Role>
-				<Factor>3</Factor>
+				<Factor>6</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Destroyer</Role>
-				<Factor>2</Factor>
+				<Factor>4</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
-				<Factor>1</Factor>
+				<Factor>2</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>CapitalShip</Role>
-				<Factor>0</Factor>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Carrier</Role>
@@ -100,6 +100,10 @@
 				<Role>TroopTransport</Role>
 				<Factor>0</Factor>
 			</ShipRoleFactor>
+			<ShipRoleFactor>
+				<Role>FuelTanker</Role>
+				<Factor>1</Factor>
+			</ShipRoleFactor>
 		</ShipAmounts>
 	</FleetTemplate>
 	<FleetTemplate>
@@ -108,17 +112,17 @@
 		<Role>Defend</Role>
 		<Name>Defense Fleet</Name>
 		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
+		<DefaultRetreatStrength>LessThan66</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
-		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
+		<ShipsAttackRangeStronger>Aggressive</ShipsAttackRangeStronger>
+		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
+		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
 
 		<ShipAmounts>
 			<ShipRoleFactor>
@@ -127,15 +131,15 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Frigate</Role>
-				<Factor>5</Factor>
+				<Factor>6</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Destroyer</Role>
-				<Factor>3</Factor>
+				<Factor>4</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
-				<Factor>1</Factor>
+				<Factor>2</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>CapitalShip</Role>
@@ -156,18 +160,18 @@
 		<RaceId>-1</RaceId>
 		<Role>Invade</Role>
 		<Name>Invasion Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
-		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
+		<DefaultEngagementRange>Nearby</DefaultEngagementRange>
+		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
+		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
-		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
-		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
+		<ShipsAttackRangeStronger>Aggressive</ShipsAttackRangeStronger>
+		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
+		<ShipsInvadeWhen>InvadeImmediately</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
+		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
 
 		<ShipAmounts>
 			<ShipRoleFactor>
@@ -176,15 +180,15 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Frigate</Role>
-				<Factor>4</Factor>
+				<Factor>6</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Destroyer</Role>
-				<Factor>2</Factor>
+				<Factor>4</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Cruiser</Role>
-				<Factor>1</Factor>
+				<Factor>2</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>CapitalShip</Role>
@@ -192,11 +196,15 @@
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>Carrier</Role>
-				<Factor>0</Factor>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 			<ShipRoleFactor>
 				<Role>TroopTransport</Role>
 				<Factor>6</Factor>
+			</ShipRoleFactor>
+			<ShipRoleFactor>
+				<Role>FuelTanker</Role>
+				<Factor>1</Factor>
 			</ShipRoleFactor>
 		</ShipAmounts>
 	</FleetTemplate>
