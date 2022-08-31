@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.4](#v134)
 		- [v1.3.3](#v133)
 		- [v1.3.2](#v132)
 		- [v1.3.1](#v131)
@@ -73,6 +74,14 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.4
+- Tweaked fleet templates
+  - Added +1/+1 capital ship and carrier to attack template
+  - Removed capital ship from raid template
+  - Removed all tankers from fleets (engine just cannot use them sensibly still)
+- Adjusted AIs
+  - Increased constructor production to match explorer (high) to help them grow their economies
 
 ### v1.3.3
 - Fixed bug in Boskaran's Firestorm v2 tech - was costing 4x too much!
