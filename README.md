@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.5](#v135)
 		- [v1.3.4](#v134)
 		- [v1.3.3](#v133)
 		- [v1.3.2](#v132)
@@ -74,6 +75,9 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.5
+- Tiny tweaks to Automation Policies
 
 ### v1.3.4
 - Tweaked fleet templates

@@ -42,7 +42,7 @@
 			<Priority>1.5</Priority>
 		</BonusPriority>
 		<BonusPriority>
-			<Type>ResearchAll</Type>
+			<Type>WeaponsDamage</Type>
 			<Priority>1.5</Priority>
 		</BonusPriority>
 	</Priorities>
@@ -51,13 +51,13 @@
 		<WeaponStandoffFactor>1.25</WeaponStandoffFactor>
 		<WeaponInterceptFactor>1</WeaponInterceptFactor>
 		<WeaponIonFactor>1</WeaponIonFactor>
-		<WeaponBombardFactor>1</WeaponBombardFactor>
+		<WeaponBombardFactor>1.25</WeaponBombardFactor>
 		<WeaponAreaFactor>1</WeaponAreaFactor>
 		<FighterFactor>1</FighterFactor>
 		<ShieldFactor>1</ShieldFactor>
 		<ArmorFactor>1</ArmorFactor>
 		<AssaultPodFactor>1</AssaultPodFactor>
-		<EngineFactor>1</EngineFactor>
+		<EngineFactor>1.25</EngineFactor>
 		<TractorBeamFactor>1</TractorBeamFactor>
 		<ScannerLongFactor>1</ScannerLongFactor>
 		<ScannerTraceFactor>1</ScannerTraceFactor>
@@ -69,7 +69,7 @@
 		<EngineManeuveringFactor>1</EngineManeuveringFactor>
 		<IonDefenseFactor>1</IonDefenseFactor>
 		<StealthFactor>1</StealthFactor>
-		<TroopCompartmentFactor>1</TroopCompartmentFactor>
+		<TroopCompartmentFactor>1.25</TroopCompartmentFactor>
 		<ConstructionYardFactor>1</ConstructionYardFactor>
 		<ResearchLabFactor>1</ResearchLabFactor>
 		<SmallSizeFactor>1</SmallSizeFactor>
@@ -125,7 +125,7 @@
 		<WeaponAreaEnergyUsageFactor>1</WeaponAreaEnergyUsageFactor>
 		<ArmorStrengthFactor>1</ArmorStrengthFactor>
 		<ArmorReactiveFactor>1</ArmorReactiveFactor>
-		<ShieldStrengthFactor>1.5</ShieldStrengthFactor>
+		<ShieldStrengthFactor>1</ShieldStrengthFactor>
 		<ShieldRechargeFactor>1</ShieldRechargeFactor>
 		<ShieldResistanceFactor>1</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
@@ -171,7 +171,7 @@
 		<ScannerTracePowerFactor>1</ScannerTracePowerFactor>
 		<ScannerEmpireMaskingFactor>1</ScannerEmpireMaskingFactor>
 		<ScannerRoleMaskingFactor>1</ScannerRoleMaskingFactor>
-		<ReactorOutputFactor>1.5</ReactorOutputFactor>
+		<ReactorOutputFactor>1</ReactorOutputFactor>
 		<ReactorStorageFactor>1</ReactorStorageFactor>
 		<ReactorFuelUsageFactor>1</ReactorFuelUsageFactor>
 		<TractorBeamPowerFactor>1</TractorBeamPowerFactor>
