@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.6](#v136)
 		- [v1.3.5](#v135)
 		- [v1.3.4](#v134)
 		- [v1.3.3](#v133)
@@ -75,6 +76,10 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.6
+- Swapped Gerax & Equinox sizes (22<->17) (Equinox is now the larger of the two)
+- Increased Equinox speeds from 650/975/1950/3800 -> 700/1050/2100/4200
 
 ### v1.3.5
 - Tiny tweaks to Automation Policies
