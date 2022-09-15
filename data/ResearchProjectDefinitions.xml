@@ -344,6 +344,7 @@
 				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>12</ComponentId>
@@ -689,55 +690,55 @@
 		<ResearchProjectId>20</ResearchProjectId>
 		<Name>Enhanced Terraforming</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2400</Size>
+		<Size>1200</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -1834,6 +1835,7 @@
 				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>64</short>
 		</PlanetaryFacilityIds>
@@ -2261,6 +2263,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>54</short>
 		</PlanetaryFacilityIds>
@@ -5999,6 +6002,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>301</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
 				<ComponentId>55</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -7183,7 +7190,7 @@
 		<ResearchProjectId>159</ResearchProjectId>
 		<Name>Synchronized Fire</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -7207,7 +7214,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>51</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -8160,6 +8167,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- OR -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount> -->
 		<Components>
 			<Component>
 				<ComponentId>63</ComponentId>
@@ -11218,6 +11227,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>175</ComponentId>
@@ -11634,6 +11644,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>155</ComponentId>
@@ -12784,7 +12795,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<!-- we really do want advanced engines to allow any path to them -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount> -->
 		<Components>
 			<Component>
 				<ComponentId>286</ComponentId>
@@ -13046,6 +13058,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -13095,6 +13108,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterBomber</Role>
@@ -13136,6 +13150,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>21</short>
 		</PlanetaryFacilityIds>
@@ -13262,6 +13277,7 @@
 				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -13783,7 +13799,7 @@
 				<RaceId>5</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>252</ComponentId>
@@ -14844,7 +14860,7 @@
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>83</Row>
 		<PrerequisiteProjects>
@@ -15332,6 +15348,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -15424,6 +15441,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterBomber</Role>
@@ -17921,23 +17939,23 @@
 		<ResearchProjectId>419</ResearchProjectId>
 		<Name>Enhanced Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>142</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -18557,23 +18575,23 @@
 		<ResearchProjectId>434</ResearchProjectId>
 		<Name>Enhanced Resource Scanning</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>154</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -18598,23 +18616,23 @@
 		<ResearchProjectId>435</ResearchProjectId>
 		<Name>Multi-Team Exploration</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1200</Size>
+		<Size>600</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>153</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -19985,23 +20003,23 @@
 		<ResearchProjectId>467</ResearchProjectId>
 		<Name>Rapid Resource Scanning</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>1200</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>3</Column>
 		<Row>154</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -20026,23 +20044,23 @@
 		<ResearchProjectId>468</ResearchProjectId>
 		<Name>Comprehensive Exploration</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>1200</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>3</Column>
 		<Row>153</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -20482,6 +20500,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>55</short>
 		</PlanetaryFacilityIds>
@@ -20520,6 +20539,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>56</short>
 		</PlanetaryFacilityIds>
@@ -20558,6 +20578,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>57</short>
 		</PlanetaryFacilityIds>
@@ -20596,6 +20617,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>58</short>
 		</PlanetaryFacilityIds>
@@ -20634,6 +20656,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>59</short>
 		</PlanetaryFacilityIds>
@@ -21104,6 +21127,7 @@
 				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -22102,6 +22126,7 @@
 				<RaceId>0</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -22151,6 +22176,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterBomber</Role>
@@ -22205,6 +22231,7 @@
 				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -22303,6 +22330,7 @@
 				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -22352,6 +22380,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Cruiser</Role>
@@ -22610,7 +22639,7 @@
 		<ResearchProjectId>524</ResearchProjectId>
 		<Name>Improved Terraforming</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>9600</Size>
+		<Size>2400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -22626,7 +22655,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>4</Column>
 		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -23658,6 +23687,7 @@
 				<RaceId>0</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -23711,6 +23741,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -23768,6 +23799,7 @@
 				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -23814,6 +23846,7 @@
 				<Priority>1</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>22</short>
 		</PlanetaryFacilityIds>
@@ -23971,6 +24004,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -24064,6 +24098,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -24426,7 +24461,7 @@
 		<ResearchProjectId>564</ResearchProjectId>
 		<Name>Planetary Resource Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -24442,7 +24477,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>154</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24462,7 +24497,7 @@
 		<ResearchProjectId>565</ResearchProjectId>
 		<Name>Planetary Quality Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>9600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -24478,7 +24513,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>153</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24498,7 +24533,7 @@
 		<ResearchProjectId>566</ResearchProjectId>
 		<Name>Advanced Terraforming</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>38400</Size>
+		<Size>4800</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -24514,7 +24549,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>5</Column>
 		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25035,7 +25070,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<!-- I want this to be an OR situation! -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount> -->
 		<Components>
 			<Component>
 				<ComponentId>304</ComponentId>
@@ -25832,7 +25868,7 @@
 		<ResearchProjectId>596</ResearchProjectId>
 		<Name>Superior Terraforming</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>153600</Size>
+		<Size>19200</Size>
 		<InitiationCost>
 			<Money>64000</Money>
 			<Resources>
@@ -25848,7 +25884,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>7</Column>
 		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -28328,6 +28364,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
@@ -31229,6 +31266,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- OR -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount> -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>776</ResearchProjectId>
@@ -31254,6 +31293,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- OR -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount> -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>777</ResearchProjectId>
@@ -31279,6 +31320,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- OR -->
+		<!-- <PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount> -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>778</ResearchProjectId>
@@ -31303,51 +31346,51 @@
 		<ResearchProjectId>779</ResearchProjectId>
 		<Name>Improved Continental Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>157</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31361,6 +31404,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
@@ -31372,51 +31416,51 @@
 		<ResearchProjectId>780</ResearchProjectId>
 		<Name>Improved Temperate Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>158</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31430,6 +31474,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -31445,51 +31490,51 @@
 		<ResearchProjectId>781</ResearchProjectId>
 		<Name>Improved Oceanic Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>159</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31503,6 +31548,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
@@ -31518,51 +31564,51 @@
 		<ResearchProjectId>782</ResearchProjectId>
 		<Name>Improved Desert Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>161</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31576,6 +31622,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
@@ -31595,51 +31642,51 @@
 		<ResearchProjectId>783</ResearchProjectId>
 		<Name>Improved Ice Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>162</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31653,6 +31700,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
@@ -31672,51 +31720,51 @@
 		<ResearchProjectId>784</ResearchProjectId>
 		<Name>Improved Volcanic Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>163</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31730,6 +31778,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
@@ -31817,51 +31866,51 @@
 		<ResearchProjectId>786</ResearchProjectId>
 		<Name>Improved Marsh Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4800</Size>
+		<Size>2400</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>10000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>500</Amount>
+					<Amount>1000</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>156</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31875,6 +31924,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
@@ -32006,6 +32056,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
@@ -32055,6 +32106,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
@@ -32192,6 +32244,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>ColonyShip</Role>
@@ -32241,6 +32294,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>SpaceportLarge</Role>
@@ -33192,6 +33246,7 @@
 				<RaceId>0</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -33249,6 +33304,7 @@
 				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -34935,5 +34991,60 @@
 		<PlanetaryFacilityIds>
 			<short>9</short>
 		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>848</ResearchProjectId>
+		<Name>Avanced Synchronized Fire</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>38400</Size>
+		<InitiationCost>
+			<Money>36000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>3600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>3600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>3600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>3600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>51</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>159</ResearchProjectId>
+				<PathAppearanceLikelihood>.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>45</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>298</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

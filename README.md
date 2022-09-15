@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.3.7](#v137)
 		- [v1.3.6](#v136)
 		- [v1.3.5](#v135)
 		- [v1.3.4](#v134)
@@ -76,6 +77,12 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.3.7
+- Added Heavy Rail Gun [M] v2
+  - This gives parity for heavy and light rail guns so that upgraded designs are sensible
+- Updated to 1.0.6.9 Beta
+  -  Added dual tech requirements to support newest beta engine (no longer defaults to "all required")
 
 ### v1.3.6
 - Swapped Gerax & Equinox sizes (22<->17) (Equinox is now the larger of the two)
