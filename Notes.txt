@@ -152,4 +152,57 @@ Shipboard Marines II 806
 Shipboard Marines III 807
 Shipboard Marines IV 815
 
-258 - Fusion Ignition
+Fusion Ignition 		258
+
+Basic Target Tracking    384
+Improved Target Tracking 398
+Enhanced Target Tracking 416
+Advanced Target Tracking 454
+
+Long Range Sensors		433
+Advanced Long Range Sensors 457
+Deep Space Arrays
+
+Basic Sensors
+Standard Sensors		403
+Improved Sensors		419
+Enhanced Sensors		849
+Advanced Sensors		850
+
+Crystal Sensors			404
+
+Fleet Targeting			427
+Fleet Countermeasures	428
+Advanced Fleet Targeting 88
+Advanced Fleet Countermeasures 669
+Superior Fleet Targeting 558
+Superior Fleet Countermeasures 559
+
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>1</Level>
+			</ShipHullReference>
+
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>3</Level>
+			</ShipHullReference>
+
+			<ShipHullReference>
+				<Role>ColonyShip</Role>
+				<Level>4</Level>
+			</ShipHullReference>
+
+
+131..135 -> hole
+
+136..143	sensors
+
+144..148	targeting
+
+149..152 -> hole

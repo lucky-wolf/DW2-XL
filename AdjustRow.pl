@@ -1,6 +1,6 @@
 # input:	research-filename start-row end-row adjustment
 # output:	stdout
-# example:  ResearchProjectDefinitions.xml 10 9999 2
+# example:  ResearchProjectDefinitions.xml 10 999 2
 #   all techs, starting from row 10, are adjusted downwards by 2 rows (e.g. row 10 -> row 12, 11 -> 13, etc...)
 #   perl adjustrow.pl data/ResearchProjectDefinitions.xml 10 9999 2 > "new\ResearchProjectDefinitions.xml.txt"
 

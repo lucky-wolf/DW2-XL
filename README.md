@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.4.0](#v140)
 		- [v1.3.7](#v137)
 		- [v1.3.6](#v136)
 		- [v1.3.5](#v135)
@@ -77,6 +78,20 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.4.0
+- Updated for DW2 1.7.1 Beta
+- Random tech tree now works
+- Significant changes to Sensors
+  - Fleet targeting & Fleet countermeasures are now size 10 (was 15)
+  - Short Range Sensors are now size 10 (was 5)
+  - Long Range Sensors are now size 20 (was 40)
+  - Deep Sensor Arrays remain size 40
+  - Sensors require the targeting tech that enables that level of targeting bonus (so you need the targeting tech first)
+  - There are +2 new, higher level short range sensors (basic, standard, improved, enhanced, advanced)
+  - Sensors no longer give you more targeting bonus than the equivalent targeting tech, and they take up 2x ship space (so they continue to fulfil their purpose, are relatively small, but the actual targeting tech has more of a niche to fill, and you can't ignore that in favor of pure sensor tech)
+  - Long Range Sensors are one level deeper in the tech tree (and are no longer a requirement for stealth)
+  - Fleet Targeting and Countermeasures now start at level 2, instead of 3
 
 ### v1.3.7
 - Added Heavy Rail Gun [M] v2
