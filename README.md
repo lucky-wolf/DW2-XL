@@ -79,6 +79,10 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Latest Changes
 
+### v1.4.1
+- Extended short range sensors +2 more levels (crystal also)
+- Made the tech tree a little more organized by block
+
 ### v1.4.0
 - Updated for DW2 1.7.1 Beta
 - Random tech tree now works
