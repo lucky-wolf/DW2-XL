@@ -7,6 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.4.2](#v142)
+		- [v1.4.1](#v141)
 		- [v1.4.0](#v140)
 		- [v1.3.7](#v137)
 		- [v1.3.6](#v136)
@@ -78,6 +80,10 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.4.2
+- Reduced size of Mortalen's Multi-Targeting from 10 -> 5 (same as other targeting computers)
+  - Added them as alternative prerequisite technologies for advanced short range sensors
 
 ### v1.4.1
 - Extended short range sensors +2 more levels (crystal also)

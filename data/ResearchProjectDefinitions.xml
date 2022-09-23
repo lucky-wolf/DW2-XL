@@ -3411,7 +3411,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>84</ResearchProjectId>
-		<Name>Accurate Multi-Tracking</Name>
+		<Name>Superior Multi-Tracking</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>4000</Size>
 		<InitiationCost>
@@ -23740,7 +23740,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>557</ResearchProjectId>
-		<Name>Seamless Multi-Tracking</Name>
+		<Name>Optimal Multi-Tracking</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>19200</Size>
 		<InitiationCost>
@@ -34684,6 +34684,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>426</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
@@ -34726,6 +34732,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>84</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
@@ -34767,6 +34779,12 @@
 				<ResearchProjectId>592</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>557</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
