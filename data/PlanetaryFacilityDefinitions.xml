@@ -1642,18 +1642,18 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>47</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>200000</Money>
+			<Money>150000</Money>
 		</BuildCost>
-		<MaintenanceCost>1250</MaintenanceCost>
+		<MaintenanceCost>1500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.2</TerraformingQualityMaximum>
+		<TerraformingDamageRepairRate>0.03</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.015</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.15</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
 		<FacilityFamilyLevel>2</FacilityFamilyLevel>
@@ -1665,18 +1665,18 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>48</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>300000</Money>
+			<Money>250000</Money>
 		</BuildCost>
-		<MaintenanceCost>1500</MaintenanceCost>
+		<MaintenanceCost>2500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.06</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.02</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.35</TerraformingQualityMaximum>
+		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.025</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.25</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
 		<FacilityFamilyLevel>3</FacilityFamilyLevel>
@@ -1690,7 +1690,7 @@
 		<BuildCost>
 			<Money>500000</Money>
 		</BuildCost>
-		<MaintenanceCost>2000</MaintenanceCost>
+		<MaintenanceCost>5000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1699,7 +1699,7 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<TerraformingDamageRepairRate>0.1</TerraformingDamageRepairRate>
 		<TerraformingQualityImprovementRate>0.05</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.55</TerraformingQualityMaximum>
+		<TerraformingQualityMaximum>0.5</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
 		<FacilityFamilyLevel>4</FacilityFamilyLevel>
@@ -2494,17 +2494,17 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>77</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>100000</Money>
+			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>750</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
+		<TerraformingDamageRepairRate>0.01</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.005</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.05</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
@@ -2516,7 +2516,7 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>78</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>150000</Money>
+			<Money>100000</Money>
 		</BuildCost>
 		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
@@ -2525,7 +2525,7 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.04</TerraformingDamageRepairRate>
+		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
 		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.1</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>

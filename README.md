@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.4.3](#v143)
 		- [v1.4.2](#v142)
 		- [v1.4.1](#v141)
 		- [v1.4.0](#v140)
@@ -80,6 +81,16 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.4.3
+- Fighter-interceptors use small weapons for all mounts
+- Re-normalized weapons into 11/22/44 for direct fire weapons, and 13/26/52 for seeking, bombing, and AOE weapons
+- Stealth is now size 30 (was 50)
+- Tweaked Construction research tree
+- Moved up research, research buildings, and terraforming
+- Moderated the terraforming facilities
+- Moved up terraforming to be a bit earlier in the tech tree
+- Reduced tech cost overall
 
 ### v1.4.2
 - Reduced size of Mortalen's Multi-Targeting from 10 -> 5 (same as other targeting computers)
