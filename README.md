@@ -82,6 +82,11 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Latest Changes
 
+### v1.4.4
+- Increased minimum deposits to at least 10%
+- Fixed size of small Velocity Torps
+- Updated races.xml for 1.0.7.9
+
 ### v1.4.3
 - Fighter-interceptors use small weapons for all mounts
 - Re-normalized weapons into 11/22/44 for direct fire weapons, and 13/26/52 for seeking, bombing, and AOE weapons
@@ -282,7 +287,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Slightly increased the size of standard fleets to include more and heavier ship classes.
 - By default, fleets will use the 33% of fuel range as their operational theater (instead of vanilla 50% default).
   - Hopefully this makes them less prone to constantly running out of fuel.
-  - And keeps them nearer to their operational theater (so that they can actually perform their durty in their assigned area of space).
+  - And keeps them nearer to their operational theater (so that they can actually perform their dirty in their assigned area of space).
 
 ## Ships
 - Many of the ship classes have been enlarged.
@@ -297,7 +302,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Crew & Star Barracks
 - Marine Barracks supports the equivalent amount of crew as the corresponding crew module, at one tech level higher (thence 2x the tech cost).
 - There are 4 levels of Marine Barracks to keep parity with standard crew modules.
-- This makes the ship designer "just work" correctly at every level (overcomes a vinalla bug in ship designer).
+- This makes the ship designer "just work" correctly at every level (overcomes a vanilla bug in ship designer).
 
 ## Sensors
 - Short range sensors give some targeting bonus.
@@ -309,7 +314,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Armor
 - Added levels of ionic armor to reach parity with standard armor.
-  - Ionic is alwas one tech level higher, hence 2x the tech cost of the standard armor equivalent.
+  - Ionic is always one tech level higher, hence 2x the tech cost of the standard armor equivalent.
   - Ionic armors don't upgrade without a refit: like other armor types, you must refit your ships to gain their advantages.
 - Paced out the armor for a more even game progression.
 - Expanded Boskaran armors to achieve parity with the highest levels of standard armor in the game, but at a lower tech-level.
