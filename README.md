@@ -7,6 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.5.0](#v150)
+		- [v1.4.4](#v144)
 		- [v1.4.3](#v143)
 		- [v1.4.2](#v142)
 		- [v1.4.1](#v141)
@@ -81,6 +83,14 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.5.0
+- rebalanced the weapons tech tree
+  - size \[X\] weapons all are size 150
+  - added more tiers for some weapons & point defenses
+  - tons of work here filling in & filling out & balancing
+- moved up planetary defenses and some other planetary facilities to tier 3
+- updated game events so that vector engines are never generated through this path
 
 ### v1.4.4
 - Increased minimum deposits to at least 10%

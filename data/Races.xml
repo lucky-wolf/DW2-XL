@@ -94,7 +94,6 @@
 			<short>4</short>
 			<short>6</short>
 			<short>5</short>
-			<short>254</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<short>5</short>
@@ -300,6 +299,7 @@
 		</SpaceportAmbientSoundEffectFilenames>
 		<DefaultInfantryId>2</DefaultInfantryId>
 		<Name>Human</Name>
+		<ImageFilename>UserInterface/Races/Human</ImageFilename>
 		<Description>Humans are tall, largely hairless, bipedal mammals.
 
 They are intelligent, cunning and resourceful and have spread across the galaxy.
@@ -313,7 +313,6 @@ Humans have a natural curiosity that gives them an edge in scientific research. 
 Humans have a mysterious past, cloaked in ambiguity. It is unclear where they originated from. Some say that they are actually immigrants from another galaxy. Humans themselves claim Sol as their home system.
 
 Their preferred habitats are the lowland plains of Continental, Forest or Grasslands planets.</Description>
-		<ImageFilename>UserInterface/Races/Human</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>1</RaceId>
@@ -415,10 +414,10 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization></MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<short>0</short>
 			<short>3</short>
 			<short>6</short>
-			<short>0</short>
-			<short>254</short>
+			<short>768</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<short>227</short>
@@ -597,6 +596,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		</SpaceportAmbientSoundEffectFilenames>
 		<DefaultInfantryId>27</DefaultInfantryId>
 		<Name>Ackdarian</Name>
+		<ImageFilename>UserInterface/Races/Ackdarian</ImageFilename>
 		<Description>Ackdarians are highly industrious, semi-aquatic marine mammals. They have large webbed hands and feet, making them excellent swimmers. However their hands are also quite dexterous and they are equally happy living out of water.
 
 Ackdarians are intelligent, peaceful and friendly. They have a rich culture that focuses on the hybrid nature of their living environment, encompassing both water and land.
@@ -608,7 +608,6 @@ Ackdarians are famous for cultivating Nepthys seaweed, from which they make Nept
 They are also masters of underwater construction, building vast and elaborate underwater cities. These cities have many levels, some of which reach far down into the vast depths of the oceans they inhabit. At the deepest levels Ackdarians seek out precious resources like the rare Ucantium pearl.
 
 Ackdarians also inhabit the small islands and shallow coastal areas of Ocean planets.</Description>
-		<ImageFilename>UserInterface/Races/Ackdarian</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>2</RaceId>
@@ -925,6 +924,7 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 		</CharacterLastNames>
 		<DefaultInfantryId>7</DefaultInfantryId>
 		<Name>Teekan</Name>
+		<ImageFilename>UserInterface/Races/Teekan</ImageFilename>
 		<Description>Teekans are a small furry rodent-like race with three eyes.
 
 They see no value in washing regularly and thus tend to smell.
@@ -940,7 +940,6 @@ Teekans are semi-nomadic; while some live in permanent settlements, many prefer 
 The nomadic Teekan tribes are obsessed with hunting the Bakdur, also known as the Sand Slug. As the herds of Bakdurs migrate across the sandy deserts, the Teekan camps follow them.
 
 Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Desert Savanna planets.</Description>
-		<ImageFilename>UserInterface/Races/Teekan</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>3</RaceId>
@@ -1223,6 +1222,7 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		</CharacterLastNames>
 		<DefaultInfantryId>12</DefaultInfantryId>
 		<Name>Haakonish</Name>
+		<ImageFilename>UserInterface/Races/Haakonish</ImageFilename>
 		<Description>Haakonish are a bipedal reptilian race. They have broad, flat heads with prominent protrusions on each side. The protrusions are nasal cavities that provide the Haakonish with an unrivalled sense of smell. Haakonish have very poor eyesight, but compensate for this with their excellent sense of smell and taste.
 
 They are intelligent and quite aggressive. Haakonish are highly pretentious. They also have a strong sense of their own racial superiority. Thus they do not enjoy the company of other races and have a tendency to be xenophobic.
@@ -1232,7 +1232,6 @@ Haakonish are naturally drawn towards intricate technology. They take great prid
 The natural miserliness of the Haakonish has led them to develop the High Density Fuel Cell, a high-capacity fuel tank. This gives Haakonish star ships longer range and endurance.
 
 Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy Swamp and Mangrove Forest planets.</Description>
-		<ImageFilename>UserInterface/Races/Haakonish</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>4</RaceId>
@@ -1377,7 +1376,6 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			<short>3</short>
 			<short>5</short>
 			<short>6</short>
-			<short>254</short>
 			<short>384</short>
 			<short>266</short>
 		</StartingResearchProjectIds>
@@ -1580,6 +1578,7 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		</CharacterLastNames>
 		<DefaultInfantryId>17</DefaultInfantryId>
 		<Name>Mortalen</Name>
+		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 		<Description>Mortalens are a fierce half mammal, half reptile race. They have extremely fast reflexes, an ability that can surprise those unfamiliar with them.
 
 They are easily provoked by the slightest insult, and will pursue an enemy relentlessly until they get vengeance.
@@ -1593,7 +1592,6 @@ Mortalens enjoy a fairly simple life, following many ancient traditions. These t
 One particular tradition requires any male seeking tribal leadership to hunt and kill one of the fearsome Mortaks. Mortaks are terrifying large monsters that inhabit the vast sandy desert wastelands of the Mortalen homeworlds. The name Mortalen means "Slayer of the Mortak".
 
 Mortalens are normally found living in simple block dwellings in the scrub-covered canyon floors of Rocky Desert planets. They can also be found on Sandy Desert or Desert Savanna planets.</Description>
-		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>5</RaceId>
@@ -1773,6 +1771,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		</VictoryConditions>
 		<DefaultInfantryId>37</DefaultInfantryId>
 		<Name>Ikkuro</Name>
+		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
 		<Description>Ikkuro are large, muscular primates with short brown-red fur.
 
 They have very large, widely-spaced ears that enable them to precisely determine the location of sounds. This ability gives them rudimentary sonar skills, allowing them to ‘see’ in the dark.
@@ -1786,7 +1785,6 @@ This natural mechanical predisposition has also led the Ikkuro to develop the S2
 Ikkuro have a great fascination with trees and plants, and have extensive knowledge of the various types of flora throughout the galaxy. They use this expert understanding to create an array of highly effective herbal medications.
 
 They typically live in tree-dwellings high in the forest canopies on Forest, Continental or Grasslands planets.</Description>
-		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>6</RaceId>
@@ -2132,6 +2130,7 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 		</CharacterLastNames>
 		<DefaultInfantryId>22</DefaultInfantryId>
 		<Name>Boskara</Name>
+		<ImageFilename>UserInterface/Races/Boskara</ImageFilename>
 		<Description>Boskara are a ferocious insectoid race with a tough brown exoskeleton skin.
 
 They are the most violent and aggressive race in the known galaxy. They excel in combat, using trickery and deceit to gain the upper-hand. Boskara are untrustworthy allies.
@@ -2141,7 +2140,6 @@ Boskarans instinctive lust for conquest and expansion is without equal. Most oth
 Their technology includes the deadly Shaktur FireStorm, an immensely destructive torpedo weapon. This weapon gives Boskaran star ships very powerful planetary assault capabilities, allowing them to quickly take down defending spaceports at enemy colonies. The Shaktur Firestorm also has a planetary bombardment capability, allowing the Boskara to wipe out the populations of enemy colonies.
 
 Boskara typically inhabit the forbidding terrain of Volcanic planets. Communities may sometimes also be found in the rocky mountains of Carbonaceous planets.</Description>
-		<ImageFilename>UserInterface/Races/Boskara</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>7</RaceId>
@@ -2479,6 +2477,7 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 		</CharacterLastNames>
 		<DefaultInfantryId>32</DefaultInfantryId>
 		<Name>Zenox</Name>
+		<ImageFilename>UserInterface/Races/Zenox</ImageFilename>
 		<Description>Zenox are an ancient feline race with thick golden fur.
 
 They are very cautious and will not lightly enter into an agreement with others. Any new treaties they form usually involve an extremely lengthy period of negotiation, with a protracted review phase at every step of the discussions. Zenox ensure that they are absolutely clear on every last detail of the agreement before finally approving it.
@@ -2492,7 +2491,6 @@ In fact some of their historical research has led to unorthodox claims about the
 Zenox technology includes an advanced shield component, the Megatron. These powerful shields impart a potent defense to Zenox star ships and bases.
 
 Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.</Description>
-		<ImageFilename>UserInterface/Races/Zenox</ImageFilename>
 	</Race>
 	<Race>
 		<RaceId>8</RaceId>
@@ -3217,19 +3215,19 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-        <Factor>0.15</Factor>
+				<Factor>0.15</Factor>
 			</OrbTypeFactor>
-		<OrbTypeFactor>
-			<OrbTypeId>7</OrbTypeId>
-			<Factor>0.05</Factor>
-		</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-	<MinimumSuitabilityForColonization>
-	  <OrbTypeFactor>
-	    <OrbTypeId>18</OrbTypeId>
-	    <Factor>0.4</Factor>
-	  </OrbTypeFactor>
-	</MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3393,23 +3391,23 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-        <Factor>0.1</Factor>
-      </OrbTypeFactor>
-	    <OrbTypeFactor>
-		    <OrbTypeId>7</OrbTypeId>
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
 				<Factor>0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-	<MinimumSuitabilityForColonization>
-		<OrbTypeFactor>
-			<OrbTypeId>17</OrbTypeId>
-			<Factor>0.45</Factor>
-		</OrbTypeFactor>
-		<OrbTypeFactor>
-			<OrbTypeId>7</OrbTypeId>
-			<Factor>0.45</Factor>
-		</OrbTypeFactor>
-	</MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3872,7 +3870,7 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
-	<BundleName></BundleName>
+		<BundleName></BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -4395,7 +4393,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-        <Factor>0.15</Factor>
+				<Factor>0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
@@ -4403,7 +4401,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-        <Factor>0.15</Factor>
+				<Factor>0.15</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>

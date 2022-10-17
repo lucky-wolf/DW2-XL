@@ -1,309 +1,309 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="ArrayOfRace" nillable="true" type="ArrayOfRace" />
-  <xs:complexType name="ArrayOfRace">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="Race" nillable="true" type="Race" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Race">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
-      <xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="BundleName" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="DefaultRoomId" type="xs:int" />
-      <xs:element minOccurs="0" maxOccurs="1" name="FlagFilename" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FlagColor" type="Color" />
-      <xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagFilenames" type="ArrayOfString" />
-      <xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagColors" type="ArrayOfColor" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MainColor" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SecondaryColor" type="Color" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="ReproductionRate" type="xs:float" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="AssimilationRate" type="xs:float" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="MigrationFactor" type="xs:float" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="Aggression" type="xs:float" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="Caution" type="xs:float" />
-      <xs:element minOccurs="0" maxOccurs="1" default="1" name="Dependability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsPlayable" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PreventUseAsIndependent" type="xs:boolean" />
-      <xs:element minOccurs="0" maxOccurs="1" name="PreferredGovernmentIds" type="ArrayOfShort" />
-      <xs:element minOccurs="0" maxOccurs="1" name="AllowableGovernmentIds" type="ArrayOfShort" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
-      <xs:element minOccurs="0" maxOccurs="1" name="GrowthResources" type="ArrayOfResourceQuantity" />
-      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationSuitabilityModifiers" type="ArrayOfOrbTypeFactor" />
-      <xs:element minOccurs="0" maxOccurs="1" name="MinimumSuitabilityForColonization" type="ArrayOfOrbTypeFactor" />
-      <xs:element minOccurs="0" maxOccurs="1" name="StartingResearchProjectIds" type="ArrayOfShort" />
-      <xs:element minOccurs="0" maxOccurs="1" name="PreferredWeaponComponentIds" type="ArrayOfShort" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfRaceFactor" />
-      <xs:element minOccurs="0" maxOccurs="1" name="DesignNames" type="ArrayOfString" />
-      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditions" type="ArrayOfVictoryCondition" />
-      <xs:element minOccurs="0" maxOccurs="1" name="CharacterFirstNames" type="ArrayOfString" />
-      <xs:element minOccurs="0" maxOccurs="1" name="CharacterLastNames" type="ArrayOfString" />
-      <xs:element minOccurs="0" maxOccurs="1" name="StartingArtifactIds" type="ArrayOfInt" />
-      <xs:element minOccurs="0" maxOccurs="1" name="SpaceportAmbientSoundEffectFilenames" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultInfantryId" type="xs:short" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Color">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfString">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfColor">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="Color" type="Color" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfShort">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="short" type="xs:short" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfBonus">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="Bonus" nillable="true" type="Bonus" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="Bonus">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
-      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
-      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:simpleType name="BonusType">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="Undefined" />
-      <xs:enumeration value="ResearchAll" />
-      <xs:enumeration value="ResearchSensors" />
-      <xs:enumeration value="ResearchWeapons" />
-      <xs:enumeration value="ResearchHyperDrive" />
-      <xs:enumeration value="ResearchReactor" />
-      <xs:enumeration value="ResearchShields" />
-      <xs:enumeration value="ResearchEngines" />
-      <xs:enumeration value="ResearchArmor" />
-      <xs:enumeration value="ResearchConstruction" />
-      <xs:enumeration value="ResearchHighTech" />
-      <xs:enumeration value="ResearchIndustrial" />
-      <xs:enumeration value="ColonyIncome" />
-      <xs:enumeration value="ColonyDevelopment" />
-      <xs:enumeration value="ColonyHappiness" />
-      <xs:enumeration value="ColonyPopulationGrowthRate" />
-      <xs:enumeration value="ColonyDefense" />
-      <xs:enumeration value="ColonyCorruptionReduction" />
-      <xs:enumeration value="Scenery" />
-      <xs:enumeration value="Diplomacy" />
-      <xs:enumeration value="TradeIncome" />
-      <xs:enumeration value="TourismIncome" />
-      <xs:enumeration value="MiningRate" />
-      <xs:enumeration value="WarWearinessReduction" />
-      <xs:enumeration value="CharacterAppearanceTroopGeneral" />
-      <xs:enumeration value="CharacterAppearanceFleetAdmiral" />
-      <xs:enumeration value="CharacterAppearanceShipCaptain" />
-      <xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
-      <xs:enumeration value="CharacterAppearanceScientist" />
-      <xs:enumeration value="CharacterAppearanceColonyGovernor" />
-      <xs:enumeration value="CharacterAppearanceAmbassador" />
-      <xs:enumeration value="CharacterQualityLeader" />
-      <xs:enumeration value="CharacterQualityPirate" />
-      <xs:enumeration value="CharacterQualityTroopGeneral" />
-      <xs:enumeration value="CharacterQualityFleetAdmiral" />
-      <xs:enumeration value="CharacterQualityShipCaptain" />
-      <xs:enumeration value="CharacterQualityIntelligenceAgent" />
-      <xs:enumeration value="CharacterQualityScientist" />
-      <xs:enumeration value="CharacterQualityColonyGovernor" />
-      <xs:enumeration value="CharacterQualityAmbassador" />
-      <xs:enumeration value="ConstructionSpeedAllShips" />
-      <xs:enumeration value="ConstructionSpeedMilitary" />
-      <xs:enumeration value="ConstructionSpeedCivilian" />
-      <xs:enumeration value="ConstructionSpeedColonyShip" />
-      <xs:enumeration value="ConstructionSpeedFacility" />
-      <xs:enumeration value="ShipMaintenanceAll" />
-      <xs:enumeration value="ShipMaintenanceMilitary" />
-      <xs:enumeration value="ShipMaintenanceCivilian" />
-      <xs:enumeration value="ShipMaintenanceBases" />
-      <xs:enumeration value="TroopMaintenance" />
-      <xs:enumeration value="TroopRecruitment" />
-      <xs:enumeration value="TroopGroundAttack" />
-      <xs:enumeration value="TroopGroundDefense" />
-      <xs:enumeration value="TroopExperienceGain" />
-      <xs:enumeration value="TroopRecoveryRate" />
-      <xs:enumeration value="RecruitedTroopStrengthAll" />
-      <xs:enumeration value="RecruitedTroopStrengthArmor" />
-      <xs:enumeration value="RecruitedTroopStrengthInfantry" />
-      <xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
-      <xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
-      <xs:enumeration value="RecruitedTroopStrengthTitan" />
-      <xs:enumeration value="Espionage" />
-      <xs:enumeration value="CounterEspionage" />
-      <xs:enumeration value="Sabotage" />
-      <xs:enumeration value="Concealment" />
-      <xs:enumeration value="PsyOps" />
-      <xs:enumeration value="Assassination" />
-      <xs:enumeration value="Targeting" />
-      <xs:enumeration value="Countermeasures" />
-      <xs:enumeration value="ShipManeuvering" />
-      <xs:enumeration value="ShipEnergyUsage" />
-      <xs:enumeration value="WeaponsDamage" />
-      <xs:enumeration value="WeaponsRange" />
-      <xs:enumeration value="ShieldRechargeRate" />
-      <xs:enumeration value="DamageControl" />
-      <xs:enumeration value="RepairRate" />
-      <xs:enumeration value="HyperjumpSpeed" />
-      <xs:enumeration value="ShipSpeed" />
-      <xs:enumeration value="ArmorStrength" />
-      <xs:enumeration value="BoardingAssault" />
-      <xs:enumeration value="BoardingDefense" />
-      <xs:enumeration value="RaidIncome" />
-      <xs:enumeration value="ScanEvasion" />
-      <xs:enumeration value="ScanFocusing" />
-      <xs:enumeration value="PlanetaryFacilityMaintenance" />
-      <xs:enumeration value="PlagueCuring" />
-      <xs:enumeration value="PlagueContainment" />
-      <xs:enumeration value="ResearchTroops" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="BonusAppliesTo">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="Undefined" />
-      <xs:enumeration value="Item" />
-      <xs:enumeration value="Empire" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:complexType name="ArrayOfResourceQuantity">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceQuantity" nillable="true" type="ResourceQuantity" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ResourceQuantity">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfOrbTypeFactor">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrbTypeFactor" type="OrbTypeFactor" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="OrbTypeFactor">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfRaceFactor">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="RaceFactor" nillable="true" type="RaceFactor" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="RaceFactor">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="ArrayOfVictoryCondition">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="VictoryCondition" nillable="true" type="VictoryCondition" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="VictoryCondition">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="VictoryConditionType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Proportion" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:simpleType name="VictoryConditionType">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="Undefined" />
-      <xs:enumeration value="ControlHomeworld" />
-      <xs:enumeration value="ControlPlanetTypePercentage" />
-      <xs:enumeration value="ControlLargestColoniesByType" />
-      <xs:enumeration value="ControlMostRuins" />
-      <xs:enumeration value="PopulationHighest" />
-      <xs:enumeration value="PopulationHappiest" />
-      <xs:enumeration value="MostHomeworlds" />
-      <xs:enumeration value="OwnLargestCapitalShip" />
-      <xs:enumeration value="MostSpaceports" />
-      <xs:enumeration value="MostMiningStations" />
-      <xs:enumeration value="MostResortBases" />
-      <xs:enumeration value="DestroyMostShips" />
-      <xs:enumeration value="DestroyMostTroops" />
-      <xs:enumeration value="DestroyMoreShipsThanLoseTimesFactor" />
-      <xs:enumeration value="DestroyMoreEnemyTroopsThanLoseTimesFactor" />
-      <xs:enumeration value="DestroyMostCreaturesByType" />
-      <xs:enumeration value="LoseFewestShips" />
-      <xs:enumeration value="LoseFewestTroops" />
-      <xs:enumeration value="MostIntelligenceMissionsSucceed" />
-      <xs:enumeration value="MostIntelligenceMissionsIntercepted" />
-      <xs:enumeration value="ConquerMostEnemyColonies" />
-      <xs:enumeration value="ExterminateOrEnslaveMostPopulation" />
-      <xs:enumeration value="EnslavePopulationProportionEmpire" />
-      <xs:enumeration value="BuildFacility" />
-      <xs:enumeration value="KeepLeaderAlive" />
-      <xs:enumeration value="MostScientists" />
-      <xs:enumeration value="MostExperiencedAdmiral" />
-      <xs:enumeration value="MostExperiencedGeneral" />
-      <xs:enumeration value="ResearchLeastAdvanced" />
-      <xs:enumeration value="ResearchMostAdvanced" />
-      <xs:enumeration value="HighestTradeVolume" />
-      <xs:enumeration value="MostTourismIncome" />
-      <xs:enumeration value="MostTradeIncome" />
-      <xs:enumeration value="HighestPrivateRevenue" />
-      <xs:enumeration value="ControlRestrictedResourceSupply" />
-      <xs:enumeration value="LargestMilitary" />
-      <xs:enumeration value="LargestMilitaryNonAllied" />
-      <xs:enumeration value="MostTroops" />
-      <xs:enumeration value="MostTroopsNonAllied" />
-      <xs:enumeration value="MutualDefensePactsFormedProportionAllEmpires" />
-      <xs:enumeration value="FreeTradeAgreementsFormedProportionAllEmpires" />
-      <xs:enumeration value="LeastWarsStarted" />
-      <xs:enumeration value="LeastBrokenTreaties" />
-      <xs:enumeration value="LeastTreaties" />
-      <xs:enumeration value="MostTimeWarring" />
-      <xs:enumeration value="LeastTimeWarring" />
-      <xs:enumeration value="MostSubjugatedDominions" />
-      <xs:enumeration value="OldestMutualDefensePact" />
-      <xs:enumeration value="OldestFreeTradeAgreement" />
-      <xs:enumeration value="ExploreMostSystems" />
-      <xs:enumeration value="ExploreGalaxyPercentage" />
-      <xs:enumeration value="MineMostResourcesLuxury" />
-      <xs:enumeration value="MineMostResourcesConstruction" />
-      <xs:enumeration value="MineMostResourcesFuel" />
-      <xs:enumeration value="BuildMostMilitaryShips" />
-      <xs:enumeration value="BuildMostCivilianShips" />
-      <xs:enumeration value="BuildMostBases" />
-      <xs:enumeration value="CaptureMostShips" />
-      <xs:enumeration value="PirateEliminateMostPirateFactions" />
-      <xs:enumeration value="PirateMostSuccessfulRaids" />
-      <xs:enumeration value="MostNonAggressionPacts" />
-      <xs:enumeration value="MostResearchFromSalvage" />
-      <xs:enumeration value="MostResearchTreaties" />
-      <xs:enumeration value="MostDefenseTreaties" />
-      <xs:enumeration value="PossessArtifact" />
-      <xs:enumeration value="WinWarsProportion" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:complexType name="ArrayOfInt">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
-    </xs:sequence>
-  </xs:complexType>
+	<xs:element name="ArrayOfRace" nillable="true" type="ArrayOfRace" />
+	<xs:complexType name="ArrayOfRace">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Race" nillable="true" type="Race" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Race">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="BundleName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="DefaultRoomId" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="FlagFilename" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagFilenames" type="ArrayOfString" />
+			<xs:element minOccurs="0" maxOccurs="1" name="FlagColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagColors" type="ArrayOfColor" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MainColor" type="Color" />
+			<xs:element minOccurs="1" maxOccurs="1" name="SecondaryColor" type="Color" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="ReproductionRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="AssimilationRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="MigrationFactor" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Aggression" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Caution" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Dependability" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="IsPlayable" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="PreventUseAsIndependent" type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1" name="PreferredGovernmentIds" type="ArrayOfShort" />
+			<xs:element minOccurs="0" maxOccurs="1" name="AllowableGovernmentIds" type="ArrayOfShort" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
+			<xs:element minOccurs="0" maxOccurs="1" name="GrowthResources" type="ArrayOfResourceQuantity" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ColonizationSuitabilityModifiers" type="ArrayOfOrbTypeFactor" />
+			<xs:element minOccurs="0" maxOccurs="1" name="MinimumSuitabilityForColonization" type="ArrayOfOrbTypeFactor" />
+			<xs:element minOccurs="0" maxOccurs="1" name="StartingResearchProjectIds" type="ArrayOfShort" />
+			<xs:element minOccurs="0" maxOccurs="1" name="PreferredWeaponComponentIds" type="ArrayOfShort" />
+			<xs:element minOccurs="0" maxOccurs="1" name="DesignNames" type="ArrayOfString" />
+			<xs:element minOccurs="0" maxOccurs="1" name="VictoryConditions" type="ArrayOfVictoryCondition" />
+			<xs:element minOccurs="0" maxOccurs="1" name="CharacterFirstNames" type="ArrayOfString" />
+			<xs:element minOccurs="0" maxOccurs="1" name="CharacterLastNames" type="ArrayOfString" />
+			<xs:element minOccurs="0" maxOccurs="1" name="SpaceportAmbientSoundEffectFilenames" type="ArrayOfString" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DefaultInfantryId" type="xs:short" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfRaceFactor" />
+			<xs:element minOccurs="0" maxOccurs="1" name="StartingArtifactIds" type="ArrayOfInt" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Color">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfString">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfColor">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Color" type="Color" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfShort">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="short" type="xs:short" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfBonus">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Bonus" nillable="true" type="Bonus" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Bonus">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="BonusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="ResearchAll" />
+			<xs:enumeration value="ResearchSensors" />
+			<xs:enumeration value="ResearchWeapons" />
+			<xs:enumeration value="ResearchHyperDrive" />
+			<xs:enumeration value="ResearchReactor" />
+			<xs:enumeration value="ResearchShields" />
+			<xs:enumeration value="ResearchEngines" />
+			<xs:enumeration value="ResearchArmor" />
+			<xs:enumeration value="ResearchConstruction" />
+			<xs:enumeration value="ResearchHighTech" />
+			<xs:enumeration value="ResearchIndustrial" />
+			<xs:enumeration value="ColonyIncome" />
+			<xs:enumeration value="ColonyDevelopment" />
+			<xs:enumeration value="ColonyHappiness" />
+			<xs:enumeration value="ColonyPopulationGrowthRate" />
+			<xs:enumeration value="ColonyDefense" />
+			<xs:enumeration value="ColonyCorruptionReduction" />
+			<xs:enumeration value="Scenery" />
+			<xs:enumeration value="Diplomacy" />
+			<xs:enumeration value="TradeIncome" />
+			<xs:enumeration value="TourismIncome" />
+			<xs:enumeration value="MiningRate" />
+			<xs:enumeration value="WarWearinessReduction" />
+			<xs:enumeration value="CharacterAppearanceTroopGeneral" />
+			<xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+			<xs:enumeration value="CharacterAppearanceShipCaptain" />
+			<xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+			<xs:enumeration value="CharacterAppearanceScientist" />
+			<xs:enumeration value="CharacterAppearanceColonyGovernor" />
+			<xs:enumeration value="CharacterAppearanceAmbassador" />
+			<xs:enumeration value="CharacterQualityLeader" />
+			<xs:enumeration value="CharacterQualityPirate" />
+			<xs:enumeration value="CharacterQualityTroopGeneral" />
+			<xs:enumeration value="CharacterQualityFleetAdmiral" />
+			<xs:enumeration value="CharacterQualityShipCaptain" />
+			<xs:enumeration value="CharacterQualityIntelligenceAgent" />
+			<xs:enumeration value="CharacterQualityScientist" />
+			<xs:enumeration value="CharacterQualityColonyGovernor" />
+			<xs:enumeration value="CharacterQualityAmbassador" />
+			<xs:enumeration value="ConstructionSpeedAllShips" />
+			<xs:enumeration value="ConstructionSpeedMilitary" />
+			<xs:enumeration value="ConstructionSpeedCivilian" />
+			<xs:enumeration value="ConstructionSpeedColonyShip" />
+			<xs:enumeration value="ConstructionSpeedFacility" />
+			<xs:enumeration value="ShipMaintenanceAll" />
+			<xs:enumeration value="ShipMaintenanceMilitary" />
+			<xs:enumeration value="ShipMaintenanceCivilian" />
+			<xs:enumeration value="ShipMaintenanceBases" />
+			<xs:enumeration value="TroopMaintenance" />
+			<xs:enumeration value="TroopRecruitment" />
+			<xs:enumeration value="TroopGroundAttack" />
+			<xs:enumeration value="TroopGroundDefense" />
+			<xs:enumeration value="TroopExperienceGain" />
+			<xs:enumeration value="TroopRecoveryRate" />
+			<xs:enumeration value="RecruitedTroopStrengthAll" />
+			<xs:enumeration value="RecruitedTroopStrengthArmor" />
+			<xs:enumeration value="RecruitedTroopStrengthInfantry" />
+			<xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+			<xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+			<xs:enumeration value="RecruitedTroopStrengthTitan" />
+			<xs:enumeration value="Espionage" />
+			<xs:enumeration value="CounterEspionage" />
+			<xs:enumeration value="Sabotage" />
+			<xs:enumeration value="Concealment" />
+			<xs:enumeration value="PsyOps" />
+			<xs:enumeration value="Assassination" />
+			<xs:enumeration value="Targeting" />
+			<xs:enumeration value="Countermeasures" />
+			<xs:enumeration value="ShipManeuvering" />
+			<xs:enumeration value="ShipEnergyUsage" />
+			<xs:enumeration value="WeaponsDamage" />
+			<xs:enumeration value="WeaponsRange" />
+			<xs:enumeration value="ShieldRechargeRate" />
+			<xs:enumeration value="DamageControl" />
+			<xs:enumeration value="RepairRate" />
+			<xs:enumeration value="HyperjumpSpeed" />
+			<xs:enumeration value="ShipSpeed" />
+			<xs:enumeration value="ArmorStrength" />
+			<xs:enumeration value="BoardingAssault" />
+			<xs:enumeration value="BoardingDefense" />
+			<xs:enumeration value="RaidIncome" />
+			<xs:enumeration value="ScanEvasion" />
+			<xs:enumeration value="ScanFocusing" />
+			<xs:enumeration value="PlanetaryFacilityMaintenance" />
+			<xs:enumeration value="PlagueCuring" />
+			<xs:enumeration value="PlagueContainment" />
+			<xs:enumeration value="ResearchTroops" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="BonusAppliesTo">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="Item" />
+			<xs:enumeration value="Empire" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfResourceQuantity">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceQuantity" nillable="true" type="ResourceQuantity" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResourceQuantity">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfOrbTypeFactor">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="OrbTypeFactor" type="OrbTypeFactor" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OrbTypeFactor">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfRaceFactor">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="RaceFactor" nillable="true" type="RaceFactor" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RaceFactor">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfVictoryCondition">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="VictoryCondition" nillable="true" type="VictoryCondition" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="VictoryCondition">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="VictoryConditionType" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Proportion" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="VictoryConditionType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Undefined" />
+			<xs:enumeration value="ControlHomeworld" />
+			<xs:enumeration value="ControlPlanetTypePercentage" />
+			<xs:enumeration value="ControlLargestColoniesByType" />
+			<xs:enumeration value="ControlMostRuins" />
+			<xs:enumeration value="PopulationHighest" />
+			<xs:enumeration value="PopulationHappiest" />
+			<xs:enumeration value="MostHomeworlds" />
+			<xs:enumeration value="OwnLargestCapitalShip" />
+			<xs:enumeration value="MostSpaceports" />
+			<xs:enumeration value="MostMiningStations" />
+			<xs:enumeration value="MostResortBases" />
+			<xs:enumeration value="DestroyMostShips" />
+			<xs:enumeration value="DestroyMostTroops" />
+			<xs:enumeration value="DestroyMoreShipsThanLoseTimesFactor" />
+			<xs:enumeration value="DestroyMoreEnemyTroopsThanLoseTimesFactor" />
+			<xs:enumeration value="DestroyMostCreaturesByType" />
+			<xs:enumeration value="LoseFewestShips" />
+			<xs:enumeration value="LoseFewestTroops" />
+			<xs:enumeration value="MostIntelligenceMissionsSucceed" />
+			<xs:enumeration value="MostIntelligenceMissionsIntercepted" />
+			<xs:enumeration value="ConquerMostEnemyColonies" />
+			<xs:enumeration value="ExterminateOrEnslaveMostPopulation" />
+			<xs:enumeration value="EnslavePopulationProportionEmpire" />
+			<xs:enumeration value="BuildFacility" />
+			<xs:enumeration value="KeepLeaderAlive" />
+			<xs:enumeration value="MostScientists" />
+			<xs:enumeration value="MostExperiencedAdmiral" />
+			<xs:enumeration value="MostExperiencedGeneral" />
+			<xs:enumeration value="ResearchLeastAdvanced" />
+			<xs:enumeration value="ResearchMostAdvanced" />
+			<xs:enumeration value="HighestTradeVolume" />
+			<xs:enumeration value="MostTourismIncome" />
+			<xs:enumeration value="MostTradeIncome" />
+			<xs:enumeration value="HighestPrivateRevenue" />
+			<xs:enumeration value="ControlRestrictedResourceSupply" />
+			<xs:enumeration value="LargestMilitary" />
+			<xs:enumeration value="LargestMilitaryNonAllied" />
+			<xs:enumeration value="MostTroops" />
+			<xs:enumeration value="MostTroopsNonAllied" />
+			<xs:enumeration value="MutualDefensePactsFormedProportionAllEmpires" />
+			<xs:enumeration value="FreeTradeAgreementsFormedProportionAllEmpires" />
+			<xs:enumeration value="LeastWarsStarted" />
+			<xs:enumeration value="LeastBrokenTreaties" />
+			<xs:enumeration value="LeastTreaties" />
+			<xs:enumeration value="MostTimeWarring" />
+			<xs:enumeration value="LeastTimeWarring" />
+			<xs:enumeration value="MostSubjugatedDominions" />
+			<xs:enumeration value="OldestMutualDefensePact" />
+			<xs:enumeration value="OldestFreeTradeAgreement" />
+			<xs:enumeration value="ExploreMostSystems" />
+			<xs:enumeration value="ExploreGalaxyPercentage" />
+			<xs:enumeration value="MineMostResourcesLuxury" />
+			<xs:enumeration value="MineMostResourcesConstruction" />
+			<xs:enumeration value="MineMostResourcesFuel" />
+			<xs:enumeration value="BuildMostMilitaryShips" />
+			<xs:enumeration value="BuildMostCivilianShips" />
+			<xs:enumeration value="BuildMostBases" />
+			<xs:enumeration value="CaptureMostShips" />
+			<xs:enumeration value="PirateEliminateMostPirateFactions" />
+			<xs:enumeration value="PirateMostSuccessfulRaids" />
+			<xs:enumeration value="MostNonAggressionPacts" />
+			<xs:enumeration value="MostResearchFromSalvage" />
+			<xs:enumeration value="MostResearchTreaties" />
+			<xs:enumeration value="MostDefenseTreaties" />
+			<xs:enumeration value="PossessArtifact" />
+			<xs:enumeration value="WinWarsProportion" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ArrayOfInt">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
 </xs:schema>

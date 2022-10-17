@@ -2717,4 +2717,46 @@
 		<Name>Ancient Troop Training Facility</Name>
 		<ImageFilename>Environment/Events/CityRuins</ImageFilename>
 	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>87</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>25000</Money>
+		</BuildCost>
+		<MaintenanceCost>250</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>387</WeaponComponentId>
+		<WeaponCount>1</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Planetary Pulsed Beam Defense</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>88</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>250</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>387</WeaponComponentId>
+		<WeaponComponentLevel>1</WeaponComponentLevel>
+		<WeaponCount>1</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Planetary Pulsed Beam Defense</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

@@ -1,6 +1,6 @@
 Cool Ideas:
 - Make true bomber vs. Interceptor class fighter weapons for various techs
-- Why thuon -> shatterforce not considered upgrade?
+- Why Thuon -> shatterforce not considered upgrade?
 - reduce cost ramp (must have automation)
 - science boosters earlier
 - planetary defenses earlier
@@ -8,13 +8,49 @@ Cool Ideas:
 - give basic tech a v0 + v1 upgrade
 - review cadence of industry techs
 
+ROWS
+pulsed  	0..6   (7)
+ion   		7..13  (7)
+gravitic 	14..21 (8)
+beam  		22..28 (8)
+kinetic   	29..33 (5)
+torps		34..41 (8)
+area 		42..44 (3)
+(empty)		(1)
+bombs		46..48 (3)
+(empty)		(1)
+missile 	50..56 (7)
+(empty)		(9)
+troops		65+
+
+Pulse Weapons		768
+Beam Weapons		0
+Ion Weapons			1
+Area Weapons		2
+Torpedo Weapons		3
+Missile Weapons		4
+Kinetic Weapons		5
+Pulsed Wave Weapons 7 (Wekarus)
+Tractor Beams		35
+Bombardment Weapons 17
+Hybrid Plasma Weapons 316
+
+Ground Combat		6
+
+Improved Ion Beams	10
+Ion Area Weapons	11
+
+construction	128..138 (11)
+(empty) 139..149 (11)
+127 -> 130
+/
 ---------------------------------------------------------------
  0   1   2    3    4    5    6    7     8     9    10     11+
 ---------------------------------------------------------------
 75 300 600 1200 2400 3600 5400  7200 14400  28800  57600  ....
 ---------------------------------------------------------------
 25  75 300  600 1200 2400 4800  9600 19200  38400  76800 153600...
-25  75 450  900 1800 3600 7200 14400 28800  57600 115200 230400
+25  75 450  900 1800 3600 7200 14400 28800  57600 115200 125000...
 25  75 600 1200 2400 4800 9600 19200 38400  76800 153600 307200...
 
 clear
@@ -214,6 +250,55 @@ Impervious Compounds	589
 
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 
+Human				0
+Ackdarian			1
+Teekan				2
+Haakonish			3
+Mortalen			4
+Ikkuro				5
+Boskara				6
+Zenox				7
+Wekkarus			8
+Atuuk				9
+
 
 Enhanced Terraforming	20
 Improved Terraforming	524
+
+Perfect Pulse Containment 769
+Phaser Optimization 	109
+
+Extreme Phased energy	202
+Advanced Phaser Capacitors 147
+
+Advanced Torpedoes	60
+
+Massive Pulse Beams	107
+Pulse Beam Networks ???
+
+rail gun weaponry	19
+
+Advanced Missiles 64
+
+298 -> 388
+
+human 688
+ackdarian 692
+teekan 696
+Haakonish 700
+Mortalen 704
+Ikkuro 708
+Boskara 712
+zenox 716
+Wekkarus 720
+Atuuk 724
+Dhayut 728
+Gizurean 732
+Ketarov 736
+Kiadian 740
+Naxxilian 744
+Quameno 748
+Securan 752
+Shandar 756
+Sluken 760
+Ugnari 764
