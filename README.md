@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.6.0](#v160)
 		- [v1.5.0](#v150)
 		- [v1.4.4](#v144)
 		- [v1.4.3](#v143)
@@ -83,6 +84,38 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.6.0
+- Tons of improvements, new techs, new components, new facilities
+- Fixed bug in Zenox that was giving them a +20 all research at their homeworld (this is also fixed in the next beta from Matrix Games)
+- Revamped how diplomatic facilities are obtained
+  - added another level to diplomatic facilities
+  - you now need multiple diplomatic techs of a certain level to obtain access to diplomatic focus and diplomatic specialization
+  - moved espionage facility to its own tech in the diplomatic section
+  - it requires a certain number of basic diplomacy with other major powers
+  - improved Espionage Facility to improve espionage (go figure!)
+- Expanded Zenox star beams
+  - they start at tier 2, like other racial weapons in this mod
+  - they bifurcate into a fighter-small line, and a medium-large line (also like others in this mod)
+  - there is more tier for all star beams at the high end, now
+- Rebalanced the shield tech tree
+  - shield tech branches at tier 2, so player decides right after deflectors which path to take
+  - all shields have been rebalanced against each other
+  - advanced shields are available to all research paths at tier 6
+- Reorganized much of the weapons, shields and armor techs so they're all together at the start of the tech tree
+  - in general, it goes direct fire to seeking and area weapons
+- Bombardment weapons now have the designation \[B\] and are of medium slot size (same as a medium seeking weapon)
+- Fixed interceptors to definitely always have light weapons
+- Improved the base troop templates to use a much more balanced selection of troops
+- Updated all planetary facilities to cost 1% operational maintenance
+  - this doubles the maintenance cost of many of them
+- Increased abhorrence of Boskarans by other races
+- Increased diplomacy malus against hive mind by other governments
+- Added restrictions so that Boskarans cannot specialize in diplomacy
+- Removed all research bonsues from all races, and replaced them with more specific bonuses for that race
+- Mildly nerfed technocracy to have only a 15% bonus to all tech (was 20%)
+- Fixed all techs so that no groups are split up (all techs of a category are together, in a single block)
+- Updated policies to default to capturing all bases instead of only those in your territory
 
 ### v1.5.0
 - rebalanced the weapons tech tree
@@ -254,7 +287,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - extended "ion thrusters" one level to make this work nicely
 - Fixed some minor inconsistencies in hyper drive deny blocking
 - Improved the hyper deny research tree
-- Removed "Robo-" from Zennox troop names (now they're are Ice whatever) since they're not robotic, so it made no sense!
+- Removed "Robo-" from Zenox troop names (now they're are Ice whatever) since they're not robotic, so it made no sense!
 
 ### v1.1.4
 - Tweaked Long Haul hyper drives to make them a little more attractive

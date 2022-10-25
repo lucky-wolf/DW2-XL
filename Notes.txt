@@ -8,20 +8,63 @@ Cool Ideas:
 - give basic tech a v0 + v1 upgrade
 - review cadence of industry techs
 
-ROWS
+race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
+ 0 Human 		688
+ 1 Ackdarian 	692
+ 2 Teekan 		696
+ 3 Haakonish 	700
+ 4 Mortalen		704
+ 5 Ikkuro 		708
+ 6 Boskara		712
+ 7 zenox 		716
+ 8 Wekkarus		720
+ 9 Atuuk 		724
+10 Dhayut 		728
+11 Gizurean 	732
+12 Ketarov		736
+13 Kiadian		740
+14 Naxxilian 	744
+15 Quameno		748
+16 Securan		752
+17 Shandar		756
+18 Sluken 		760
+19 Ugnari 		764
+
+
+- ROWS -
+
 pulsed  	0..6   (7)
-ion   		7..13  (7)
-gravitic 	14..21 (8)
-beam  		22..28 (8)
-kinetic   	29..33 (5)
-torps		34..41 (8)
-area 		42..44 (3)
-(empty)		(1)
-bombs		46..48 (3)
-(empty)		(1)
-missile 	50..56 (7)
-(empty)		(9)
-troops		65+
+
+ion   		10..16 (7)
+
+gravitic 	20..27 (8)
+
+beam  		30..27 (8)
+
+kinetic   	40..44 (5)
+
+torps		50..57 (8)
+
+area 		60..62 (3)
+
+bombs		70..72 (3)
+
+missile 	80..86 (7)
+
+Shield-Weapon-Hybrids	90..91 (2)
+
+Armor 		95..98 (4)
+
+Shields		100..106 (7)
+
+Troops		190..201 (12)
+Reactors 	202..205 (4)
+hyperjump	215...?
+
+
+----------------------------------------
+Initial Techs
+----------------------------------------
 
 Pulse Weapons		768
 Beam Weapons		0
@@ -40,10 +83,7 @@ Ground Combat		6
 Improved Ion Beams	10
 Ion Area Weapons	11
 
-construction	128..138 (11)
-(empty) 139..149 (11)
-127 -> 130
-/
+
 ---------------------------------------------------------------
  0   1   2    3    4    5    6    7     8     9    10     11+
 ---------------------------------------------------------------
@@ -53,18 +93,24 @@ construction	128..138 (11)
 25  75 450  900 1800 3600 7200 14400 28800  57600 115200 125000...
 25  75 600 1200 2400 4800 9600 19200 38400  76800 153600 307200...
 
+25  75 600 1200 2400 4800 7200 14400 28800  38400  76800 153600...
+
+25  75 450  900 1800 3600  7200 14400 28800 57600 115200 125000...
+33 100 300  900 2700 5400 10800 21600 32400 48600  72900 109350...
+  3x  3x  3x   3x  2x    2x   2x    3/2x   3/2x  3/2x   3/2x
+
 clear
 copy data\ResearchProjectDefinitions.xml data\ResearchProjectDefinitions.old
 perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\ResearchProjectDefinitions.xml
 
 
 hyper drive fuel efficiency (purely speed/energyK)
-type        |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
+type          |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
 ---------------------------------------------------------------
-Gerax/Trrnt |.2    |.15   |.1111 |.0916 ].0666 |.0542 |.0388
-Kaldos      |      |.1616 |.1333 |      |.0888 |      |.0555
-Calista-Dal |      |.14   |.1143 |      |.06   |      |.0357
-Equinox     |      |.1692 |.1333 |      |.0871 |      |.0538
+Gerax-Torrent |.2    |.15   |.1111 |.0916 ].0666 |.0542 |.0388
+Kaldos        |      |.1616 |.1333 |      |.0888 |      |.0555
+Calista-Dal   |      |.14   |.1143 |      |.06   |      |.0357
+Equinox       |      |.1692 |.1333 |      |.0871 |      |.0538
 
 type 		 efficiency			  accuracy		range	init	recharge	insulation
 --------------------------------------------------------------------------------------
@@ -96,7 +142,8 @@ Hive		 22:1.2M				1600		180M	30		54				20
 
 move accelerated shield recharge and other shield deicions back to same as ablative (level 2)
 
-If they keep the current logic - we'll need to specify this for all mulit-parent techs!
+If they keep the current logic - we'll need to specify this for all multi-parent techs!
+
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 
 						v2
@@ -168,7 +215,7 @@ Thrust Vector			218		100,120
 Single Vector			288		115,132,152
 Multi Vector			289		125,156,195
 Swift Vector			290		150,225,394
-Omni Vector				291		244,305,381
+Omni-Vector				291		244,305,381
 Inertialess Vector		292		500
 
 Ion Engine						70,90
@@ -181,9 +228,16 @@ Vortex Engine			279		225,300,375
 StarBurner Engine		159
 Vector Engine			172
 
-Heavy Armor 687
-High Density Armor 356
-Resistant Nano-Alloys 308
+Armor Plating			266
+Heavy Armor 			687
+High Density Armor 		356
+Resistant Nano-Alloys 	308
+
+Ionic Armor				808
+Enhanced Ionic Armor	809
+Hardened Ionic Armor	810
+Indestructible Ionic Armor 811
+Impervious Ionic Armor	839
 
 Indestructible Compounds 551
 Impervious Compounds 589
@@ -241,25 +295,12 @@ Enhanced Crew Systems 448
 Advanced Crew Systems 475
 Luxury Crew Environment 573
 
-*** GIVE ARMOR INTERLEAVED PATTERN ***
-
 High Density Alloys		356
 Resistant Nano-Alloys	308
 Indestructible Compounds 551
 Impervious Compounds	589
 
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-
-Human				0
-Ackdarian			1
-Teekan				2
-Haakonish			3
-Mortalen			4
-Ikkuro				5
-Boskara				6
-Zenox				7
-Wekkarus			8
-Atuuk				9
 
 
 Enhanced Terraforming	20
@@ -280,25 +321,51 @@ rail gun weaponry	19
 
 Advanced Missiles 64
 
-298 -> 388
+208 227 4 10 -1
 
-human 688
-ackdarian 692
-teekan 696
-Haakonish 700
-Mortalen 704
-Ikkuro 708
-Boskara 712
-zenox 716
-Wekkarus 720
-Atuuk 724
-Dhayut 728
-Gizurean 732
-Ketarov 736
-Kiadian 740
-Naxxilian 744
-Quameno 748
-Securan 752
-Shandar 756
-Sluken 760
-Ugnari 764
+Medial Systems 412
+Recreation Systems 413
+
+
+Advanced Deflectors			260
+
+Megatron Z4 Shields			271		tech: 274, 272
+Talassos Energy Shields 	336		tech: 275, 166
+Corvidian Energy Shields	273		tech: 211, 154
+Deucalios Energy Shields	338		tech: 276, 167
+
+final techs: 579, 831, 874, 832
+
+done: 275 (Talassos ftr 0), 166 (Talassos 0)
+
+basic crew 392
+crew systems 411
+enhanced 448
+advanced 475
+
+marines 81, 806, 807, 815
+
+Enhanced construction 288
+
+Basic Colonization		407 -> 374
+Improved Colonization	799 -> 375
+Enhanced Colonization	800 -> 376
+Advanced Colonization	819 -> 377
+
+Shields:
+High Energy Capacitors	364
+Enhanced Shields		337
+High Storage Capacitors	366
+
+
+NULL OUT A RESEARCH PROJECT:
+	<ResearchProjectDefinition>
+		<ResearchProjectId>450</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>

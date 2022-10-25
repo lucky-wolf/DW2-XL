@@ -35,12 +35,12 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="StartingResearchProjectIds" type="ArrayOfShort" />
 			<xs:element minOccurs="0" maxOccurs="1" name="PreferredWeaponComponentIds" type="ArrayOfShort" />
 			<xs:element minOccurs="0" maxOccurs="1" name="DesignNames" type="ArrayOfString" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfRaceFactor" />
 			<xs:element minOccurs="0" maxOccurs="1" name="VictoryConditions" type="ArrayOfVictoryCondition" />
 			<xs:element minOccurs="0" maxOccurs="1" name="CharacterFirstNames" type="ArrayOfString" />
 			<xs:element minOccurs="0" maxOccurs="1" name="CharacterLastNames" type="ArrayOfString" />
 			<xs:element minOccurs="0" maxOccurs="1" name="SpaceportAmbientSoundEffectFilenames" type="ArrayOfString" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DefaultInfantryId" type="xs:short" />
-			<xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfRaceFactor" />
 			<xs:element minOccurs="0" maxOccurs="1" name="StartingArtifactIds" type="ArrayOfInt" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />

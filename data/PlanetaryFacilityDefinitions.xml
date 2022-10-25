@@ -152,7 +152,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -174,7 +174,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -196,7 +196,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -218,7 +218,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -240,7 +240,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -269,7 +269,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -291,7 +291,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -313,7 +313,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -335,7 +335,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -378,7 +378,7 @@
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -420,7 +420,7 @@
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>750</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -464,7 +464,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -487,7 +487,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -547,17 +547,28 @@
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
+			<Bonus>
+				<!-- without construction being the first empire thing, this is considered command, crew, and medical instead of construction -->
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
 				<Amount>0.05</Amount>
@@ -639,6 +650,11 @@
 		<PlanetaryFacilityDefinitionId>26</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -690,7 +706,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -709,17 +725,28 @@
 		<PlanetaryFacilityDefinitionId>28</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
 				<Amount>0.4</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
+			<Bonus>
+				<!-- without construction being the first empire thing, this is considered command, crew, and medical instead of construction -->
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
 				<Amount>0.1</Amount>
@@ -729,7 +756,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -748,6 +775,11 @@
 		<PlanetaryFacilityDefinitionId>29</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -761,7 +793,7 @@
 		<BuildCost>
 			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -814,22 +846,15 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>31</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Type>PlagueCuring</Type>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.05</Amount>
+				<Type>PlagueContainment</Type>
+				<Amount>0.7</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -838,8 +863,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>PlagueCuring</Type>
-				<Amount>0.5</Amount>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -848,8 +878,8 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>PlagueContainment</Type>
-				<Amount>0.7</Amount>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -879,8 +909,23 @@
 				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
 				<Amount>0.15</Amount>
@@ -889,11 +934,6 @@
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -918,18 +958,23 @@
 		<PlanetaryFacilityDefinitionId>33</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.3</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -979,7 +1024,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1135,7 +1180,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1183,7 +1228,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1236,7 +1281,7 @@
 		<BuildCost>
 			<Money>10000</Money>
 		</BuildCost>
-		<MaintenanceCost>50</MaintenanceCost>
+		<MaintenanceCost>100</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1253,22 +1298,49 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>39</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1287,7 +1359,12 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceScientist</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1299,7 +1376,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1352,7 +1429,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1405,7 +1482,7 @@
 		<BuildCost>
 			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>150</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1460,7 +1537,7 @@
 		<BuildCost>
 			<Money>25000</Money>
 		</BuildCost>
-		<MaintenanceCost>150</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1515,7 +1592,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1602,6 +1679,16 @@
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>Targeting</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -1616,16 +1703,11 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
 			<Money>150000</Money>
 		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
+		<MaintenanceCost>1500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1651,8 +1733,8 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.03</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.015</TerraformingQualityImprovementRate>
+		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.15</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
@@ -1697,8 +1779,8 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.1</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.05</TerraformingQualityImprovementRate>
+		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.025</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.5</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
@@ -2164,7 +2246,7 @@
 		<BuildCost>
 			<Money>20000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>200</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2234,9 +2316,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>67</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2265,7 +2347,7 @@
 		<BuildCost>
 			<Money>20000</Money>
 		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
+		<MaintenanceCost>200</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2395,22 +2477,60 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>73</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
+				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityColonyGovernor</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityShipCaptain</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2454,7 +2574,7 @@
 		<BuildCost>
 			<Money>30000</Money>
 		</BuildCost>
-		<MaintenanceCost>150</MaintenanceCost>
+		<MaintenanceCost>300</MaintenanceCost>
 		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
@@ -2475,7 +2595,7 @@
 		<BuildCost>
 			<Money>40000</Money>
 		</BuildCost>
-		<MaintenanceCost>200</MaintenanceCost>
+		<MaintenanceCost>400</MaintenanceCost>
 		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
@@ -2503,14 +2623,14 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.01</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.005</TerraformingQualityImprovementRate>
+		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.05</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Limited Terraforming Facility</Name>
+		<Name>Terraforming Facility</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Terraforming Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2533,7 +2653,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Terraforming Facility</Name>
+		<Name>Improved Terraforming Facility</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Terraforming Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2742,7 +2862,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2758,5 +2878,53 @@
 		<QualityBoost>0</QualityBoost>
 		<Name>Planetary Pulsed Beam Defense</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>89</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>150000</Money>
+		</BuildCost>
+		<MaintenanceCost>1500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>47</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Galactic Center for Universal Peace and Prosperity</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

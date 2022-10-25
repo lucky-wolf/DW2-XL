@@ -40,7 +40,21 @@
 		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
-				<Type>ResearchAll</Type>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchSensors</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
@@ -48,7 +62,7 @@
 			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -56,13 +70,6 @@
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
 				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>Espionage</Type>
-				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -355,15 +362,15 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.05</Amount>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
-				<Type>ResearchConstruction</Type>
-				<Amount>0.15</Amount>
+				<Type>ResearchEngines</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -377,7 +384,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -419,14 +426,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<short>6</short>
 			<short>768</short>
 		</StartingResearchProjectIds>
-		<PreferredWeaponComponentIds>
-			<short>227</short>
-			<short>29</short>
-			<short>28</short>
-			<short>31</short>
-			<short>225</short>
-			<short>233</short>
-		</PreferredWeaponComponentIds>
+		<PreferredWeaponComponentIds></PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -658,28 +658,28 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			</Bonus>
 			<Bonus>
 				<Type>DamageControl</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>RepairRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TradeIncome</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -982,22 +982,8 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		</AllowableGovernmentIds>
 		<Bonuses>
 			<Bonus>
-				<Type>ResearchEngines</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
 				<Type>ResearchHyperDrive</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1010,8 +996,15 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
-				<Type>ShipEnergyUsage</Type>
-				<Amount>0.05</Amount>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1024,7 +1017,14 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
-				<Type>WarWearinessReduction</Type>
+				<Type>ShipEnergyUsage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ScanEvasion</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
@@ -1288,7 +1288,7 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			</Bonus>
 			<Bonus>
 				<Type>ResearchArmor</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1626,7 +1626,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		<Bonuses>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1828,7 +1828,7 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1842,7 +1842,7 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2189,8 +2189,15 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
 				<Type>ResearchShields</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2520,28 +2527,28 @@ Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. Th
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>WeaponsDamage</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchShields</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2678,21 +2685,21 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 			</Bonus>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>BoardingDefense</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2815,7 +2822,7 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2829,7 +2836,7 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3010,7 +3017,7 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3192,14 +3199,14 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>PsyOps</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3361,28 +3368,28 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ScanFocusing</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Countermeasures</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3551,14 +3558,14 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterAppearanceTroopGeneral</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3726,7 +3733,7 @@ Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets,
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3897,14 +3904,14 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 		<Bonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TourismIncome</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4062,21 +4069,21 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>MiningRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ArmorStrength</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4195,7 +4202,7 @@ Though they often industriously mine for gemstones, they generally take little i
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchEngines</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4232,7 +4239,6 @@ Though they often industriously mine for gemstones, they generally take little i
 				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<DefaultInfantryId>52</DefaultInfantryId>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4321,6 +4327,7 @@ Though they often industriously mine for gemstones, they generally take little i
 			<string>Teklor</string>
 			<string>Zaddaty</string>
 		</CharacterLastNames>
+		<DefaultInfantryId>52</DefaultInfantryId>
 		<Name>Sluken</Name>
 		<ImageFilename>UserInterface/Races/Sluken</ImageFilename>
 		<Description>Sluken are a short insectoid race with thick brown exoskeleton covering. Sluken have many small forearms enabling them to perform multiple actions simultaneously.
@@ -4363,14 +4370,14 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<Bonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Targeting</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4384,7 +4391,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchSensors</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4555,7 +4562,6 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
-		<DefaultInfantryId>32764</DefaultInfantryId>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4596,6 +4602,7 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 			<string>Teklor</string>
 			<string>Zaddaty</string>
 		</CharacterLastNames>
+		<DefaultInfantryId>32764</DefaultInfantryId>
 		<Name>Crazed Hive Insectoids</Name>
 		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
 		<Description></Description>
@@ -4627,7 +4634,6 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 			<short>1</short>
 		</AllowableGovernmentIds>
 		<Bonuses></Bonuses>
-		<DefaultInfantryId>-1</DefaultInfantryId>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4668,6 +4674,7 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 			<string>229</string>
 			<string>843</string>
 		</CharacterLastNames>
+		<DefaultInfantryId>-1</DefaultInfantryId>
 		<Name>Berserk AI</Name>
 		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 		<Description></Description>
