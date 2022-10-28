@@ -9539,6 +9539,11 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<ResearchProjectId>191</ResearchProjectId>
+				<PathAppearanceLikelihood>0.98</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>192</ResearchProjectId>
 				<PathAppearanceLikelihood>0.98</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -9554,7 +9559,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>67</short>
 		</PlanetaryFacilityIds>
@@ -11324,7 +11329,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -14172,7 +14177,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>334</ResearchProjectId>
-		<Name>Quantium Energy Suspension</Name>
+		<Name>Quantum Energy Suspension</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -14206,7 +14211,7 @@
 		<Row>100</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>259</ResearchProjectId>
+				<ResearchProjectId>260</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14351,7 +14356,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>273</ResearchProjectId>
@@ -14403,7 +14408,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -15654,7 +15659,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>337</ResearchProjectId>
@@ -15706,7 +15711,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>338</ResearchProjectId>
@@ -21181,7 +21186,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>366</ResearchProjectId>
@@ -22558,7 +22563,7 @@
 		<ResearchProjectId>533</ResearchProjectId>
 		<Name>Remote Shield Recharging</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>21600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -22590,11 +22595,11 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>105</Row>
+		<Column>7</Column>
+		<Row>102</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>296</ResearchProjectId>
+				<ResearchProjectId>501</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -22673,7 +22678,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>8</RaceId>
@@ -24649,7 +24654,7 @@
 		<ResearchProjectId>580</ResearchProjectId>
 		<Name>Superior Recharge Power</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>48600</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -24681,8 +24686,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>105</Row>
+		<Column>9</Column>
+		<Row>102</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>533</ResearchProjectId>
@@ -33934,7 +33939,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>502</ResearchProjectId>
@@ -36067,7 +36072,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>365</ResearchProjectId>
@@ -36178,42 +36183,42 @@
 		<Row>329</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>688</ResearchProjectId>
+				<ResearchProjectId>689</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>692</ResearchProjectId>
+				<ResearchProjectId>693</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>696</ResearchProjectId>
+				<ResearchProjectId>697</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>700</ResearchProjectId>
+				<ResearchProjectId>701</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>704</ResearchProjectId>
+				<ResearchProjectId>705</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>712</ResearchProjectId>
+				<ResearchProjectId>713</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>716</ResearchProjectId>
+				<ResearchProjectId>717</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- the requirement is basic diplomacy with three (3) other major powers -->
+		<!-- the requirement is effective diplomacy with three (3) other major powers -->
 		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>39</short>
