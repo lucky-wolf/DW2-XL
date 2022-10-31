@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.6.2](#v162)
 		- [v1.6.1](#v161)
 		- [v1.6.0](#v160)
 		- [v1.5.0](#v150)
@@ -85,6 +86,11 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.6.2
+- Fixed Talassos Shields v3 and v4 were crazy expensive
+- Tweaked all shield recharge rates, strength progression
+- Tweaked all reactor power levels and progressions
 
 ### v1.6.1
 - Zenox can choose technocracy now that the bug with giving them a +20% all research on hw is fixed

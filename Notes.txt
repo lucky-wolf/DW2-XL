@@ -145,14 +145,27 @@ Hive		 22:1.2M				1600		180M	30		54				20
 						v2
 Space Reactors		68/115/.2			.0017391
 
-Reactors	size		v1				v2				v3				v4
-Fusion 		  14		 80/120/.26		100/150/.3		120/187.5/.33
-Fission		  21		100/180/.495	120/225/.6		140/281.25/.675
-Quantum		  28		160/240/.96		200/300/1.1		240/375/1.2
+Reactors	size		v1				v2				v3				hyper 	v2		v3
+Space		23		 54/ 90/.21		 68/115/.2
+Fusion 		16		 80/120/.26		100/150/.3		120/187.5/.33		160		200		240
+Fission		20		120/180/.495	140/225/.6		160/281.25/.675		200		240		280
+Quantum		24		160/240/.96		180/300/1.1		200/375/1.2			240		280		320
+Novacore 	20		120/240/.24		150/300/.3		188/375/.375
+Zero		15		311/605/.6
+Dark Star	20		500/1000/.875
 
 Fusion					0.0013			0.0012			0.0011
 Fission					0.00165			0.0016			0.0015
 Quantum					0.0024			0.0022			0.0020
+
+[ftr]		size		v1		v2		v3		v4		Hyper	v1		v2		v3
+Space		10			19		21
+Fusion 		 6			24		27		33				4		40		48		57
+Fission		 8			26		30		37				6		45		54		64
+Antimatter	10			35		41		50				8		60		71		83
+Novacore	 7			35		43		52		64
+Zero Point	 5			83
+Dark Star	 7			130
 
 Hyperfusion	 180/177				180/350			216/420			259/504
 Hyperfusion							0.001314		0.00119			0.00141
@@ -324,6 +337,23 @@ Recreation Systems 413
 
 
 Advanced Deflectors			260
+
+--------------------------
+	    Shields
+---------------------------
+In principle, we're using a recharge rate of:
+.002	Deucalios
+.004	Corvidian
+.006	Talassos / Z4
+.008	Meridian
+
+type 			v1		v2		v3		v4
+-----------------------------------------
+Talassos		200		300		450		600
+Corvidian		250		350		500		650
+Deucalios / Z4	300		400		550		700
+Meridian		900    1200    1500
+-----------------------------------------
 
 Megatron Z4 Shields			271		tech: 274, 272
 Talassos Energy Shields 	336		tech: 275, 166
