@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.6.3](#v163)
 		- [v1.6.2](#v162)
 		- [v1.6.1](#v161)
 		- [v1.6.0](#v160)
@@ -86,6 +87,17 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.6.3
+- Reduced "efficient" thrusters to size 16, giving them some possible utility
+- Added Hail Cannons \[M\] for Humans
+  - Tweaked Hail Cannons and Terminator Cannons to be more sensible, and to give the Humans a slight advantage in their racial tech
+- Fixed missing diplomatic specialization center (Universal Peace Center)
+- Gave wormhole drive better range (1000M)
+- Rebalanced all \[Ftr\] weapons to make better sense in the current tech tree across all weapon-lines and levels
+  - Many weapons had their ROF reduced and their dmg/shot increased for a lighter load on the CPU, but effectively same damage output
+  - Which also reduces the effectiveness of reflective armor and shields, since more dmg will penetrate, make fighters much more powerful (they were basically gnats to be ignored otherwise)
+- Reduced the reflective value of Ion Armors, so that there is more of a trade off between standard armor being both tougher (25%), and better at reflecting damage (2x) vs. ion armors being able to replace ion defense generators (considerable space-savings)
 
 ### v1.6.2
 - Fixed Talassos Shields v3 and v4 were crazy expensive

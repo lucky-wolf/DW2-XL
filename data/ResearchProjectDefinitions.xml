@@ -1163,6 +1163,11 @@
 		<Row>91</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>1</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -4248,6 +4253,10 @@
 				<ComponentId>298</ComponentId>
 				<Level>0</Level>
 			</Component>
+			<Component>
+				<ComponentId>390</ComponentId>
+				<Level>0</Level>
+			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -4551,6 +4560,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>363</ComponentId>
+				<Level>2</Level>
+			</Component>
 			<Component>
 				<ComponentId>355</ComponentId>
 				<Level>2</Level>
@@ -7012,6 +7025,10 @@
 				<ComponentId>298</ComponentId>
 				<Level>1</Level>
 			</Component>
+			<Component>
+				<ComponentId>390</ComponentId>
+				<Level>1</Level>
+			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -7455,7 +7472,7 @@
 		<ResearchProjectId>170</ResearchProjectId>
 		<Name>Superior Energy Surge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -7491,7 +7508,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>60</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32651,6 +32668,11 @@
 		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>1</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>266</ResearchProjectId>
 				<PathAppearanceLikelihood>0.99</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -34786,6 +34808,10 @@
 			</Component>
 			<Component>
 				<ComponentId>298</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>390</ComponentId>
 				<Level>2</Level>
 			</Component>
 		</Components>
