@@ -846,15 +846,22 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>31</PlanetaryFacilityDefinitionId>
-		<EmpireBonuses>
+		<ItemBonuses>
 			<Bonus>
-				<Type>PlagueCuring</Type>
-				<Amount>0.5</Amount>
-				<AppliesTo>Empire</AppliesTo>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+	    </ItemBonuses>
+		<EmpireBonuses>
 			<Bonus>
 				<Type>PlagueContainment</Type>
 				<Amount>0.7</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -863,23 +870,18 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ColonyHappiness</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>0.2</Amount>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.1</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>

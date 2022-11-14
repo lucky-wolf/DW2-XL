@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.7.0](#v170)
 		- [v1.6.3](#v163)
 		- [v1.6.2](#v162)
 		- [v1.6.1](#v161)
@@ -54,6 +55,7 @@ Author: Mordachai (lucky-wolf)
 	- [Planetary Facilities](#planetary-facilities)
 	- [Bug Fixes: Base Game](#bug-fixes-base-game)
 	- [Bug Fixes: Early versions of this mod](#bug-fixes-early-versions-of-this-mod)
+	- [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -87,6 +89,13 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.7.0
+- Fixed ship hulls, names, sizes & related tech names to be as intended (was broken by 1.0.8.x builds)
+  - Fixed ship hull sizes for all player-races to: [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
+  - Fixed interceptors to always use size 5 weapons, bombers are size 10 (will force the ship designer to actually use both slots, and to define the roles of the two more honestly)
+  - Added the .shmd files for all of this to force the game to actually respect these values!
+- Tweaked tech tree to hopefully make the mid-game flow a bit better
 
 ### v1.6.3
 - Reduced "efficient" thrusters to size 16, giving them some possible utility
@@ -392,17 +401,17 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - Gives you the ability to reason about trade-offs between different weapon systems using their many other factors, such as power use, range, alpha-damage v. sustained damage, etc.
   - Offers you and the AIs to design better ships overall (and typically more weapons at any given ship class).
   - Direct fire weapons:
-    - Small = 12
-    - Medium = 25
-    - Large = 50
+    - Small = 11
+    - Medium = 22
+    - Large = 44
   - Tracking weapons:
-    - Small = 15
-    - Medium = 30
-    - Large = 60
-  - Area and Bombardment weapons:
-    - Medium = 25
-    - Large = 50
-    - Mines = 60
+    - Small = 13
+    - Medium = 26
+    - Large = 52
+  - Area weapons:
+    - Large = 52
+  - Bombard weapons:
+    - Medium = 26
 
 ## Kinetic Weapons
 - Do not lose damage with distance (slugs don't slow down in space, or lose energy).
@@ -460,3 +469,20 @@ Fixes for bugs I introduced in previous versions of this mod, and later fixed in
 - Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
 - Fixed a bug in Ackdarians who often get an event for maneuvering thrusters.  This now works properly.
 - Fixed a bug in Mysterious Plague event -- now works properly.
+
+
+## DW2-XL Hull Sizes
+
+| type      | standard | type-increase | specialized +20% | advanced +40% | super +60% |
+| --------- | -------- | ------------- | ---------------- | ------------- | ---------- |
+| Escort    | 375      |               | 450              |               |            |
+| Frigate   | 450      | 1.2           | 540              |               |            |
+| Destroyer | 600      | 1.33          | 720              |               |            |
+| Cruiser   | 800      | 1.33          | 960              | 1120          |            |
+| BB+CV     | 1200     | 1.5           | 1440             | 1680          | 1920       |
+
+Base sizes for everything except Cruiser are the same as vanilla, but cruisers were increased from 750 to 800, which gives +33% over Destroyers, which are +33% over Frigates.  Vanilla basically badly shortchanges cruisers in general.
+
+This also allows cruisers to be your early fleet command ships - able to give up a little firepower for fleet targeting & countermeasures, including long range scanners if you're willing to give over the space.
+
+All upgrades in DW2-XL follow a +20% over the previous technology level.  So specialized destroyers are 20% larger than their base size, allowing for a significant increase in firepower (moving from mediums to large weapons where possible, and maximizing speed, defenses, etc.)

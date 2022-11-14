@@ -3283,7 +3283,7 @@
 		<ResearchProjectId>82</ResearchProjectId>
 		<Name>Ship Defense Training</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -3311,7 +3311,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6215,7 +6215,7 @@
 		<ResearchProjectId>144</ResearchProjectId>
 		<Name>Assault Marines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -6243,7 +6243,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>245</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6266,7 +6266,7 @@
 		<ResearchProjectId>145</ResearchProjectId>
 		<Name>Advanced Defense Measures</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -6294,7 +6294,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -8823,7 +8823,7 @@
 		<ResearchProjectId>198</ResearchProjectId>
 		<Name>Armored Assault Marines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -8851,7 +8851,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>245</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11088,9 +11088,9 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>268</ResearchProjectId>
-		<Name>Multi-Role Escorts</Name>
+		<Name>Specialized Escorts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -11106,16 +11106,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>682</ResearchProjectId>
+				<ResearchProjectId>311</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>850</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -11982,9 +11982,9 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>287</ResearchProjectId>
-		<Name>Multi-Role Frigates</Name>
+		<Name>Specialized Frigates</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -12004,16 +12004,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>261</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>682</ResearchProjectId>
+				<ResearchProjectId>311</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>850</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -13148,9 +13148,9 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>312</ResearchProjectId>
-		<Name>Multi-Role Cruisers</Name>
+		<Name>Specialized Cruisers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -13174,16 +13174,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>682</ResearchProjectId>
+				<ResearchProjectId>311</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>850</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15362,9 +15362,9 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>359</ResearchProjectId>
-		<Name>Multi-Role Destroyers</Name>
+		<Name>Specialized Destroyers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -15384,16 +15384,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>260</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>682</ResearchProjectId>
+				<ResearchProjectId>311</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>850</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -21796,33 +21796,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>514</ResearchProjectId>
-		<Name>Massive Carriers</Name>
+		<Name>Heavy Carriers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>257</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -21830,13 +21830,7 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -21876,17 +21870,11 @@
 		<Row>254</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
 				<ResearchProjectId>678</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>SpaceportLarge</Role>
@@ -21896,33 +21884,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>516</ResearchProjectId>
-		<Name>Massive Battleships</Name>
+		<Name>Heavy Battleships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -21930,13 +21918,7 @@
 				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -21980,13 +21962,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Cruiser</Role>
@@ -23549,31 +23525,31 @@
 		<ResearchProjectId>553</ResearchProjectId>
 		<Name>Super Carriers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>257</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -23581,13 +23557,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -23601,23 +23571,23 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>21600</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -23643,31 +23613,31 @@
 		<ResearchProjectId>555</ResearchProjectId>
 		<Name>Super Battleships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -23675,13 +23645,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -24034,7 +23998,7 @@
 		<ResearchProjectId>564</ResearchProjectId>
 		<Name>Planetary Resource Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -24050,7 +24014,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24070,7 +24034,7 @@
 		<ResearchProjectId>565</ResearchProjectId>
 		<Name>Planetary Quality Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -24086,7 +24050,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25188,7 +25152,7 @@
 		<ResearchProjectId>590</ResearchProjectId>
 		<Name>Colossal Carriers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -25212,7 +25176,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>257</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27867,7 +27831,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>259</Row>
+		<Row>258</Row>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Escort</Role>
@@ -27896,7 +27860,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>259</Row>
+		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>679</ResearchProjectId>
@@ -27942,7 +27906,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>259</Row>
+		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>680</ResearchProjectId>
@@ -27988,7 +27952,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>259</Row>
+		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>681</ResearchProjectId>
@@ -31699,7 +31663,7 @@
 		<ResearchProjectId>789</ResearchProjectId>
 		<Name>Massive Troop Transports</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -31723,7 +31687,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>256</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31731,13 +31695,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
@@ -31749,7 +31707,7 @@
 		<ResearchProjectId>790</ResearchProjectId>
 		<Name>Super Transports</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -31773,7 +31731,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>256</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31781,13 +31739,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>TroopTransport</Role>
@@ -31799,7 +31751,7 @@
 		<ResearchProjectId>791</ResearchProjectId>
 		<Name>Colossal Transports</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -31823,7 +31775,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>256</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31919,13 +31871,7 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>ColonyShip</Role>
@@ -31937,7 +31883,7 @@
 		<ResearchProjectId>794</ResearchProjectId>
 		<Name>Colossal Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -31961,7 +31907,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>254</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31969,13 +31915,7 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>SpaceportLarge</Role>
@@ -32226,10 +32166,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>374</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
 				<ComponentId>375</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -32239,7 +32175,7 @@
 		<ResearchProjectId>800</ResearchProjectId>
 		<Name>Enhanced Colonization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>16000</Money>
 			<Resources>
@@ -32287,7 +32223,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>292</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32297,14 +32233,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>374</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
-				<ComponentId>375</ComponentId>
-				<Level>1</Level>
-			</Component>
 			<Component>
 				<ComponentId>376</ComponentId>
 				<Level>0</Level>
@@ -33220,7 +33148,7 @@
 		<ResearchProjectId>819</ResearchProjectId>
 		<Name>Advanced Colonization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -33268,7 +33196,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>292</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -33278,18 +33206,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>374</ComponentId>
-				<Level>3</Level>
-			</Component>
-			<Component>
-				<ComponentId>375</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
-				<ComponentId>376</ComponentId>
-				<Level>1</Level>
-			</Component>
 			<Component>
 				<ComponentId>377</ComponentId>
 				<Level>0</Level>
@@ -34255,7 +34171,7 @@
 		<ResearchProjectId>837</ResearchProjectId>
 		<Name>Colossal Battleships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -34279,7 +34195,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>258</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>

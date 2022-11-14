@@ -1,12 +1,11 @@
 Cool Ideas:
+- Add some neg to-hit% to engines (more nimble = more dodge bonus)
+	- Further improve fighter engines thrust to give them better charge ahead value
 - Make true bomber vs. Interceptor class fighter weapons for various techs
-- Why Thuon -> shatterforce not considered upgrade?
-- reduce cost ramp (must have automation)
-- science boosters earlier
-- planetary defenses earlier
-
-- give basic tech a v0 + v1 upgrade
-- review cadence of industry techs
+- ?? maybe
+	- adj planetary shields down (make a middle tier?)
+	- add a super reactive / low strength armor line
+	- adj armor up (seems awfully weak compared to shields)
 
 race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
  0 Human 		688
@@ -204,6 +203,7 @@ Hyperquantum Equilibrium	845
 
 add damage reduction to jammers
 
+
 move starting and counter measures to start at level 2?
 	simplify these -- +5, +10, +15...
 	Make these general components instead of sensors?
@@ -395,3 +395,41 @@ NULL OUT A RESEARCH PROJECT:
 		<Column>0</Column>
 		<Row>0</Row>
 	</ResearchProjectDefinition>
+
+
+
+
+Vanilla Hull Sizes
+type        standard	specialized
+Escort		375			 415 10.6..%
+Frigate		450			 490  8.8..%
+Destroyer	600			 675 12.125%
+Cruiser		750			 840 12    %		 900  7.14%
+BB+CV		1200		1300  8.3..%		1500 15.38%			1800	20.00%
+
+DW2-XL Hull Sizes
+type        standard	specialized			massive/advanced	colossal/super
+Escort		375			 450 20.0%
+Frigate		450			 540 20.0%
+Destroyer	600			 720 20.0%
+Cruiser		800 (6.6%)	 960 20.0%		 	1120 20.0%
+BB+CV		1200		1440 20.0%			1728 20.0%			2074	20.0%
+
+names:
+
+Heavy Carrier -> Super Carrier
+Carrier -> Heavy Carrier
+Light Carrier -> Carrier
+
+Heavy Battleship -> Super Battleship
+Battleship -> Heavy Battleship
+Battlecruiser -> Battleship
+
+Heavy Cruiser -> Battlecruiser
+Exploration Cruiser -> Galaxy Cruiser
+Cruiser -> Heavy Cruiser
+Long Range Cruiser -> Shield Cruiser
+Light Cruiser -> Cruiser
+
+<ResearchProjectId>682</ResearchProjectId> cruiser
+<ResearchProjectId>311</ResearchProjectId> battleship
