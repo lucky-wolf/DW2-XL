@@ -354,26 +354,30 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - giving you an early research period where you're just exploring your local system and its immediate neighbors.
   - a middle-game where tech increases apace with empire expansion.
   - a late-game where the most envy-worthy techs require a massive empire to obtain and field.
+- NOTE: it is nigh-impossible to design a tech-cost scale that scales perfectly with all of the galaxy-creation options & settings.
+  - turn up the difficulty, adjust tech speed, or give the AIs more relative head-starts (or both), and play with various galaxy creation options to find a good game to develop.
 
 ## Ship Components
 - Ship Components have been extended to provide additional levels of various ships systems.
   - This extends some of the decisions you make to be more functional and therefore viable, allowing you to play through using efficient or energy hog designs without bumping up against as many of vanilla's arbitrary limitations, or without feeling like it's a non-choice because ultimately you're forced to choose the one and only one viable approach after a few tech levels anyway.
+  - Which offers more replayability, given more distinct game-paths and strategies to explore & play-through.
 
 ## Fleets
 - Slightly increased the size of standard fleets to include more and heavier ship classes.
 - By default, fleets will use the 33% of fuel range as their operational theater (instead of vanilla 50% default).
+  - This is tied to your personal preferences, so as soon as you override them, you can save those for future games.
   - Hopefully this makes them less prone to constantly running out of fuel.
-  - And keeps them nearer to their operational theater (so that they can actually perform their dirty in their assigned area of space).
+  - And keeps them nearer to their assigned operational theater (so that they can actually perform their duty in their assigned area of space).
 
 ## Ships
-- Many of the ship classes have been enlarged.
-  - this offers you more flexibility in designing your ships...
-  - allows you to play with some of the more exotic technologies...
-  - generally creating more balanced designs (the AI is helped by this change as well).
+- Base Cruisers were also bumped up in size to make them more significant, a work-horse of your fleets.
+- Heavy ship variants have been made larger, and have a uniform increase in size over their base models.
+- Ship sizes can be found here: [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
+  - This offers you more fun with later tech designs, allowing you to play with some of the more exotic technologies...
+  - Generally allows you and the AIs to design more balanced designs that include sensors, targeting, and a balanced array of weapons and defenses.
 - Ship designs have a more natural progression.
-  - first you learn how to field all of the core ship classes shy of capital ships
-  - then you're given the ability to research advanced variants of those ship classes or expand into capital ships in whatever order works for your empire's growth.
-- Overall, ships are bigger in this mod than in vanilla, giving you the ability to load them up with more of the fun things you've researched.
+  - First you learn how to field all of the core ship classes up to and including capital ships.
+  - Then you're given the ability to research advanced variants of those ship classes in whatever order works for your empire's growth.
 
 ## Crew & Star Barracks
 - Marine Barracks supports the equivalent amount of crew as the corresponding crew module, at one tech level higher (thence 2x the tech cost).
@@ -417,11 +421,14 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - Do not lose damage with distance (slugs don't slow down in space, or lose energy).
   - But they continue to be quite inaccurate with range.
 - Kinetic PD does more raw damage than blaster or beam PD, but it's less accurate.
+- I overhauled this line of weapons to give a better progression and to make them more viable for non-humans.
+  - Humans still have racial locked techs in this line, and they are just better than the standard models.
 
 ## Energy Torpedoes
 - Boskaran's Firestorm torpedo line is deeper and gives you a large weapon sooner.
+  - The large varient requires a separate line of research to unlock.
 - Mortalen's torpedoes line is split into fighter/small and medium/large lines.
-  - all of these techs have been extended by 4 additional levels each to keep them viable throughout the game.
+  - All of these techs have been extended by 4 additional levels each to keep them viable throughout the game.
 
 ## Fighters and Bombers
 - The Fighter and Bomber craft portion of the tech tree has been made more elegant and rational.
@@ -434,15 +441,24 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Hyper Drives
 - Experimental Warp Fields allow for nearby exploration, making for a more gradual early game.
 - Have had the various types extended and balanced a bit so that every path is viable, with obvious trade-offs between lag, in flight speed, and balanced performance.
+  - Kaldos drives are all about snappy response, but sacrifice range for a single hop.
+  - Equinox drives are about flight-speed, and have a middling range per hop.
+  - Calista Dal drives are all about range per hop, but sacrifice response time, being quite slow to spin up, as well as significantly slower than either Kaldos or Equinox.  However, they're much lower energy consumption so make for an intriguing option well suited to fusion reactors.
 
 ## Reactors
 - Have had the various types extended and balanced so that every major type is in-principle viable and competitive, depending on your empire's strategic situation.
+  - Fusion reactors are small sized, low-power, efficient with fuel consumpiton.
+  - Fission reactors are medium sized, mid-power, and balanced with fuel consumpiton.
+  - Antimatter reactors are large sized, high-power, fuel-hogs.
+- All reactor types improve on all ares with tech, but fusion remains the gas-sipping king, fission the middle ground, and antimatter the power king.
+- All reactor tech lines have been greatly extended to higher levels of tech.
 
 ## Targeting and Countermeasures
 - Are size 5 for standard ones, and 15 for fleet ones.
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
 - Sensors have gained some targeting value.
 - Long range sensors have gained some fleet targeting value.
+- Sensors, targeting computers, and ship classes have been linked by dependencies to help ensure AI researches these (and it doesn't hurt the player to have some decent targeting computers for their ships, likely helps new players as well).
 
 ## Colonization
 - This tech tree is more freely explorable, not requiring you to research every type of habitat in order to get to the higher levels of technology in those biomes you care about.
@@ -450,18 +466,21 @@ It is not a completely different game than vanilla, rather it's "just better" in
 - There is a 4th level of colonization modules
   - 50M, 100M, 150M, 200M capacity.
     - The larger capacities give the AI a much better chance of expanding at a more profitable rate without the micromanagement a Human player might indulge in.
+    - Currently, the denser modules give a discount on resources required per pop, 0, 10%, 20%, and 30%.
   - Static energy requirements are much higher than vanilla.
   - Static energy cost scales with capacity (so you're unlikely to be able to have more than 1 on a single ship).
-    - note: you can still manage it in some situations - however, it's expensive, and not an easy way to out-colonize the AI as compared to vanilla.
+  - It is still entirely possible to use more than one module on a given colonizer, boosting your capacity further.  This is the same as vanilla, but can create ships that are hard for your economy to stomach, so use wisely.
 
 ## Planetary Facilities
 - Maintenance is greatly reduced.
   - This is to make it possible to not wreck yours or the AI's economy.
+  - Typically maintenance is 10% of initial buld cost.
 
 ## Bug Fixes: Base Game
-- Technocracy is only available to Ackdarians, as stated in the game's original messaging.
-  - Although they've updated vanilla to give Zenox technocracy, the Zenox already start with a +20 to all research on their homeworld.  This is already obscene, and the do NOT need to double that with technocracy.  So NO, it is not available to them in this mod.
-- Giving crew to Star Marine Barracks fixes those components to work as expected in the ship designer.
+- Star Marine Barracks has crew which fixes those components to work as expected in the ship designer.
+  - There are multiple levels of the Marine Barracks, with increasing capacity.
+  - They are always lower in capcity than the non-marine, standard crew quarters.  
+  - Standard crew quarters also has a better damage reduction than marine barracks.
 - Troop Academy is limited to 1 per Empire, plugging an exploit for the player (AIs didn't build more than one).
 
 ## Bug Fixes: Early versions of this mod
@@ -469,7 +488,6 @@ Fixes for bugs I introduced in previous versions of this mod, and later fixed in
 - Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
 - Fixed a bug in Ackdarians who often get an event for maneuvering thrusters.  This now works properly.
 - Fixed a bug in Mysterious Plague event -- now works properly.
-
 
 ## DW2-XL Hull Sizes
 
