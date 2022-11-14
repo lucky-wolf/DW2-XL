@@ -379,10 +379,12 @@ It is not a completely different game than vanilla, rather it's "just better" in
   - First you learn how to field all of the core ship classes up to and including capital ships.
   - Then you're given the ability to research advanced variants of those ship classes in whatever order works for your empire's growth.
 
-## Crew & Star Barracks
+## Crew Quarters & Star Marine Barracks
 - Marine Barracks supports the equivalent amount of crew as the corresponding crew module, at one tech level higher (thence 2x the tech cost).
-- There are 4 levels of Marine Barracks to keep parity with standard crew modules.
-- This makes the ship designer "just work" correctly at every level (overcomes a vanilla bug in ship designer).
+  - This makes the ship designer "just work" correctly at every level (overcomes a vanilla bug in ship designer).
+  - There are 4 levels of Marine Barracks to keep parity with standard crew modules.
+  - They are always lower in capcity than the standard crew quarters for that tech-level (currently 80%).
+  - Standard crew quarters also has a better damage reduction, and even ship cost reduction (luxury crew quarters), which marine do not have.
 
 ## Sensors
 - Short range sensors give some targeting bonus.
@@ -478,9 +480,6 @@ It is not a completely different game than vanilla, rather it's "just better" in
 
 ## Bug Fixes: Base Game
 - Star Marine Barracks has crew which fixes those components to work as expected in the ship designer.
-  - There are multiple levels of the Marine Barracks, with increasing capacity.
-  - They are always lower in capcity than the non-marine, standard crew quarters.  
-  - Standard crew quarters also has a better damage reduction than marine barracks.
 - Troop Academy is limited to 1 per Empire, plugging an exploit for the player (AIs didn't build more than one).
 
 ## Bug Fixes: Early versions of this mod
