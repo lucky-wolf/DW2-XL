@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.7.1](#v171)
 		- [v1.7.0](#v170)
 		- [v1.6.3](#v163)
 		- [v1.6.2](#v162)
@@ -41,7 +42,7 @@ Author: Mordachai (lucky-wolf)
 	- [Ship Components](#ship-components)
 	- [Fleets](#fleets)
 	- [Ships](#ships)
-	- [Crew & Star Barracks](#crew--star-barracks)
+	- [Crew Quarters & Star Marine Barracks](#crew-quarters--star-marine-barracks)
 	- [Sensors](#sensors)
 	- [Armor](#armor)
 	- [Weapons](#weapons)
@@ -56,10 +57,15 @@ Author: Mordachai (lucky-wolf)
 	- [Bug Fixes: Base Game](#bug-fixes-base-game)
 	- [Bug Fixes: Early versions of this mod](#bug-fixes-early-versions-of-this-mod)
 	- [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
+	- [DW2-XL Armor](#dw2-xl-armor)
+	- [DW2-XL Fighter/Bomber Armor](#dw2-xl-fighterbomber-armor)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
-It is not a completely different game than vanilla, rather it's "just better" in every way I had time or insight to make something better than it was. YMMV, but this is my take on making it better.
+
+It is not a completely different game than vanilla, rather it's improved in ways I had time or insight to do so. Many technologies are extended to go to higher levels, or to make tech progression more of a better, better, best progression, rather than having to backtrack.  Similarly, looking for ways to make sure that technology trees - different paths - really have some distinct advantages and disadvantages compared to other choices.  The intention is to make it make your decisions matter, have clear(er) differentiation, and allow greater replay (rather than choices that aren't -- where one is very obviously the best, and the others are just window-dressing).
+
+YMMV, but this is my take on making it Extra Large!
 
 ## Mod Highlights
 - Colonization tech is pick & choose (you're not required to become an expert in every planetary biome, you can specialize in those that make sense for the game you're playing as it evolves)
@@ -89,6 +95,20 @@ It is not a completely different game than vanilla, rather it's "just better" in
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.7.1
+- Added a 3rd Planetary Shield Generator tech-level, and made them a bit more penetrable
+  - level 1 = 25 resistance, 15% penetration
+  - level 2 = 50 resistance, 10% penetration
+  - level 3 = 75 resistance,  5% penetration
+- Reduced stealth size to 20
+  - increased it's stealth value by 100%
+  - set jamming power to 1/2 stealth value
+- Overhauled Armor tech
+  - Added new armor line: Reactive
+  - Significantly improved armor blast ratings (hopefully to make a better value proposition vs. shields)
+  - [DW2-XL Armor](#dw2-xl-armor)
+  - [DW2-XL Fighter/Bomber Armor](#dw2-xl-fighterbomber-armor)
 
 ### v1.7.0
 - Fixed ship hulls, names, sizes & related tech names to be as intended (was broken by 1.0.8.x builds)
@@ -476,7 +496,7 @@ It is not a completely different game than vanilla, rather it's "just better" in
 ## Planetary Facilities
 - Maintenance is greatly reduced.
   - This is to make it possible to not wreck yours or the AI's economy.
-  - Typically maintenance is 10% of initial buld cost.
+  - Typically maintenance is 1% of initial build cost.
 
 ## Bug Fixes: Base Game
 - Star Marine Barracks has crew which fixes those components to work as expected in the ship designer.
@@ -491,15 +511,79 @@ Fixes for bugs I introduced in previous versions of this mod, and later fixed in
 ## DW2-XL Hull Sizes
 
 | type      | standard | type-increase | specialized +20% | advanced +40% | super +60% |
-| --------- | -------- | ------------- | ---------------- | ------------- | ---------- |
-| Escort    | 375      |               | 450              |               |            |
-| Frigate   | 450      | 1.2           | 540              |               |            |
-| Destroyer | 600      | 1.33          | 720              |               |            |
-| Cruiser   | 800      | 1.33          | 960              | 1120          |            |
-| BB+CV     | 1200     | 1.5           | 1440             | 1680          | 1920       |
+| --------- | -------: | :-----------: | ---------------: | ------------: | ---------: |
+| Escort    |      375 |               |              450 |               |            |
+| Frigate   |      450 |     120%      |              540 |               |            |
+| Destroyer |      600 |     133%      |              720 |               |            |
+| Cruiser   |      800 |     133%      |              960 |          1120 |            |
+| BB+CV     |     1200 |     150%      |             1440 |          1680 |       1920 |
 
 Base sizes for everything except Cruiser are the same as vanilla, but cruisers were increased from 750 to 800, which gives +33% over Destroyers, which are +33% over Frigates.  Vanilla basically badly shortchanges cruisers in general.
 
 This also allows cruisers to be your early fleet command ships - able to give up a little firepower for fleet targeting & countermeasures, including long range scanners if you're willing to give over the space.
 
 All upgrades in DW2-XL follow a +20% over the previous technology level.  So specialized destroyers are 20% larger than their base size, allowing for a significant increase in firepower (moving from mediums to large weapons where possible, and maximizing speed, defenses, etc.)
+
+## DW2-XL Armor
+| Type                 | Blast Rating | Reactive |  Ion |
+| -------------------- | -----------: | -------: | ---: |
+| Standard             |           80 |        2 |    0 |
+|                      |              |          |      |
+| Ion Sheath           |           96 |        3 |    8 |
+| Heavy                |          120 |        3 |    1 |
+| Reactive             |           96 |        4 |    2 |
+| Flux Sheath          |          120 |        4 |    4 |
+|                      |              |          |      |
+| Enhanced Ion Sheath  |          144 |        4 |   16 |
+| Enhanced Heavy       |          180 |        4 |    2 |
+| Enhanced Reactive    |          144 |        6 |    3 |
+| Flux Enhanced        |          180 |        6 |    6 |
+|                      |              |          |      |
+| Hardened Ion Sheath  |          216 |        6 |   24 |
+| Hardened Heavy       |          270 |        6 |    3 |
+| Hardened Reactive    |          216 |        8 |    4 |
+| Flux Hardened        |          270 |        8 |    8 |
+|                      |              |          |      |
+| Ultra-Dense Ion      |          320 |        8 |   32 |
+| Ultra-Dense Heavy    |          400 |        8 |    4 |
+| Ultra-Dense Reactive |          320 |       10 |    5 |
+| Flux Ultra-Dense     |          400 |       10 |   10 |
+|                      |              |          |      |
+| Absorbing Ion Sheath |          480 |       10 |   40 |
+| Absorbing Reactive   |          480 |       12 |    6 |
+| Absorbing Heavy      |          600 |       10 |    5 |
+| Flux Absorbing       |          600 |       12 |   12 |
+|                      |              |          |      |
+| Stellar              |          900 |       14 |   48 |
+
+## DW2-XL Fighter/Bomber Armor
+| Type                   | Blast Rating | Reactive |  Ion |
+| ---------------------- | -----------: | -------: | ---: |
+| Standard               |           14 |        0 |    0 |
+|                        |              |          |      |
+| Ion Sheath             |           16 |        1 |    4 |
+| Heavy                  |           25 |        0 |    0 |
+| Reactive               |           16 |        2 |    0 |
+| Flux Sheath            |           25 |        2 |    2 |
+|                        |              |          |      |
+| Enhanced Ion Sheath    |           19 |        2 |    8 |
+| Enhanced Heavy         |           30 |        1 |    0 |
+| Enhanced Reactive      |           19 |        3 |    0 |
+| Flux Enhanced          |           30 |        3 |    3 |
+|                        |              |          |      |
+| Hardened Ion Sheath    |           23 |        3 |   12 |
+| Hardened Heavy         |           36 |        2 |    4 |
+| Hardened Reactive      |           23 |        4 |    4 |
+| Flux Hardened          |           36 |        4 |    4 |
+|                        |              |          |      |
+| Ultra-Dense Ion Sheath |           27 |        4 |   16 |
+| Ultra-Dense Heavy      |           45 |        3 |    8 |
+| Ultra-Dense Reactive   |           27 |        5 |    8 |
+| Flux Ultra-Dense       |           45 |        5 |    5 |
+|                        |              |          |      |
+| Absorbing Ion Sheath   |           34 |        5 |   20 |
+| Absorbing Heavy        |           54 |        4 |   12 |
+| Absorbing Reactive     |           34 |        6 |   12 |
+| Flux Absorbing         |           54 |        6 |    6 |
+|                        |              |          |      |
+| Stellar                |           64 |        7 |   24 |

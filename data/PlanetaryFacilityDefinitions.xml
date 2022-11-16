@@ -363,8 +363,8 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>45</PlanetaryShieldMaximumDamageAbsorbed>
-		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
+		<PlanetaryShieldMaximumDamageAbsorbed>25</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.15</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>8</FacilityFamilyId>
@@ -384,7 +384,8 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>90</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>50</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.10</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>8</FacilityFamilyId>
@@ -852,7 +853,7 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
-	    </ItemBonuses>
+		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>PlagueContainment</Type>
@@ -2930,5 +2931,27 @@
 		<QualityBoost>0</QualityBoost>
 		<Name>Universal Peace Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>90</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<PlanetaryShieldMaximumDamageAbsorbed>75</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Planetary Shield Generator Mk3</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

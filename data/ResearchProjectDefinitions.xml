@@ -11142,35 +11142,11 @@
 		<ResearchProjectId>269</ResearchProjectId>
 		<Name>Deep Space Damage Control</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>100</Size>
-		<InitiationCost>
-			<Money>500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
-		<Row>98</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>266</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
+		<Column>0</Column>
+		<Row>99</Row>
 		<Components>
 			<Component>
 				<ComponentId>151</ComponentId>
@@ -12109,7 +12085,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>98</Row>
+		<Row>99</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>269</ResearchProjectId>
@@ -12979,13 +12955,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>809</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>209</ComponentId>
@@ -13272,7 +13242,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>98</Row>
+		<Row>99</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>381</ResearchProjectId>
@@ -15245,13 +15215,7 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>808</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>208</ComponentId>
@@ -15288,7 +15252,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>97</Row>
+		<Row>98</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -16475,7 +16439,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>98</Row>
+		<Row>99</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>289</ResearchProjectId>
@@ -20758,7 +20722,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>97</Row>
+		<Row>98</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -22727,7 +22691,7 @@
 		<ResearchProjectId>536</ResearchProjectId>
 		<Name>Global Shield Reinforcement</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -22743,7 +22707,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>106</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -23448,13 +23412,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>810</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>267</ComponentId>
@@ -23495,7 +23453,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>97</Row>
+		<Row>98</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -25130,13 +25088,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>811</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>270</ComponentId>
@@ -26531,7 +26483,23 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>839</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>878</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>884</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>641</ResearchProjectId>
@@ -26551,7 +26519,23 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>839</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>878</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>884</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>642</ResearchProjectId>
@@ -32569,6 +32553,10 @@
 			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
 					<Amount>450</Amount>
 				</ResourceQuantity>
@@ -32578,10 +32566,6 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -32626,6 +32610,10 @@
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
 					<Amount>1250</Amount>
 				</ResourceQuantity>
@@ -32638,19 +32626,7 @@
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -32665,13 +32641,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>687</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>370</ComponentId>
@@ -32692,15 +32662,15 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -32727,13 +32697,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>356</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>269</ComponentId>
@@ -32754,15 +32718,15 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -32789,13 +32753,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>308</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>372</ComponentId>
@@ -33023,7 +32981,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>816</ResearchProjectId>
-		<Name>Impervious Flux Armor</Name>
+		<Name>Ultra-Dense Flux Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -33050,7 +33008,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>97</Row>
+		<Row>98</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -34260,15 +34218,15 @@
 			<Money>49000</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
 					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>4900</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
 					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -34295,13 +34253,7 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>551</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>378</ComponentId>
@@ -36201,5 +36153,407 @@
 		<PlanetaryFacilityIds>
 			<short>39</short>
 		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>877</ResearchProjectId>
+		<Name>Impenetrable Global Shields</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>106</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>536</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PlanetaryFacilityIds>
+			<short>90</short>
+		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>878</ResearchProjectId>
+		<Name>Impervious Flux Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>98</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>816</ResearchProjectId>
+				<PathAppearanceLikelihood>.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>391</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>392</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>879</ResearchProjectId>
+		<Name>Ultra EM Defenses</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>91</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>818</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>22</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>880</ResearchProjectId>
+		<Name>Reactive Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>97</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>266</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>260</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>398</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>393</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>881</ResearchProjectId>
+		<Name>Enhanced Reactive Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>97</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>880</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>399</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>394</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>882</ResearchProjectId>
+		<Name>Hardened Reactive Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>97</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>881</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>400</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>395</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>883</ResearchProjectId>
+		<Name>Indestructible Reactive Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>97</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>882</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>401</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>396</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>884</ResearchProjectId>
+		<Name>Impervious Reactive Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>49000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>97</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>883</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>402</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>397</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

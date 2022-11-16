@@ -1,4 +1,6 @@
 Cool Ideas:
+- Give Luxury crew quarters -% to upkeep of ship (like entertainment module)
+	- Why the hell aren't these things > size?
 - Add some neg to-hit% to engines (more nimble = more dodge bonus)
 	- Further improve fighter engines thrust to give them better charge ahead value
 - Make true bomber vs. Interceptor class fighter weapons for various techs
@@ -52,7 +54,7 @@ missile 	80..86 (7)
 
 Shield-Weapon-Hybrids	90..91 (2)
 
-Armor 		95..98 (4)
+Armor/dmg con 95..99 (5)
 
 Shields		100..106 (7)
 
@@ -249,7 +251,11 @@ Indestructible Ionic Armor 811
 Impervious Ionic Armor	839
 
 Indestructible Compounds 551
+
 Impervious Compounds 589
+Impervious Ionic Armor	839
+Impervious Flux Armor 878
+Impervious Reactive Armor 884
 
 Basic Exploration 387
 
@@ -345,7 +351,7 @@ In principle, we're using a recharge rate of:
 .002	Deucalios
 .004	Corvidian
 .006	Talassos / Z4
-.008	Meridian
+.007	Meridian
 
 type 			v1		v2		v3		v4
 -----------------------------------------
@@ -431,5 +437,31 @@ Cruiser -> Heavy Cruiser
 Long Range Cruiser -> Shield Cruiser
 Light Cruiser -> Cruiser
 
-<ResearchProjectId>682</ResearchProjectId> cruiser
-<ResearchProjectId>311</ResearchProjectId> battleship
+Vanilla Armor Blast Ratings
+Standard	 72
+Heavy		104		Ion	Sheath			 83
+Enhanced	125		Enhanced Ion Sheath	 94
+Reactive	150		Ion Hardened		113
+Ultra-Dense	180		Ultra-Dense Ion		135
+Absorbing	225		Absorbing Ion		169
+Stellar		320
+
+<ImageFilename>Environment/Components/262-Flux Sheath Armor</ImageFilename>
+<ImageFilename>Environment/Components/188-Absorbing Armor</ImageFilename>
+
+	<ImageFilename>Environment/Components/350-Heavy Armor</ImageFilename>
+
+		<ImageFilename>Environment/Components/150-Standard Armor</ImageFilename>
+		<ImageFilename>Environment/Components/182-Reactive Armor</ImageFilename>
+
+		<ImageFilename>Environment/Components/173-Enhanced Armor</ImageFilename>
+		<ImageFilename>Environment/Components/186-Ultra Dense Armor</ImageFilename>
+
+		<ImageFilename>Environment/Components/205-Ion Sheath Armor</ImageFilename>
+		<ImageFilename>Environment/Components/206-Ion Hardened Armor</ImageFilename>
+
+		<ImageFilename>Environment/Components/261-Flux Hardened Armor</ImageFilename>
+	    <ImageFilename>Environment/Components/263-Flux Barrier Armor</ImageFilename>
+
+		<ImageFilename>Environment/Components/195-Stellar Armor</ImageFilename>
+
