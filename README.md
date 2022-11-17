@@ -583,6 +583,7 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 |                        |              |          |      |
 | Absorbing Ion Sheath   |           34 |        5 |   20 |
 | Absorbing Reactive     |           34 |        6 |   12 |
+| Absorbing Heavy        |           54 |        4 |   12 |
 | Flux Absorbing         |           54 |        6 |    6 |
 |                        |              |          |      |
 | Stellar                |           64 |        7 |   24 |
