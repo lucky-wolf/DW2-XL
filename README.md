@@ -530,23 +530,23 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Standard             |           80 |        2 |    0 |
 |                      |              |          |      |
 | Ion Sheath           |           96 |        3 |    8 |
-| Heavy                |          120 |        3 |    1 |
 | Reactive             |           96 |        4 |    2 |
+| Heavy                |          120 |        3 |    1 |
 | Flux Sheath          |          120 |        4 |    4 |
 |                      |              |          |      |
 | Enhanced Ion Sheath  |          144 |        4 |   16 |
-| Enhanced Heavy       |          180 |        4 |    2 |
 | Enhanced Reactive    |          144 |        6 |    3 |
+| Enhanced Heavy       |          180 |        4 |    2 |
 | Flux Enhanced        |          180 |        6 |    6 |
 |                      |              |          |      |
 | Hardened Ion Sheath  |          216 |        6 |   24 |
-| Hardened Heavy       |          270 |        6 |    3 |
 | Hardened Reactive    |          216 |        8 |    4 |
+| Hardened Heavy       |          270 |        6 |    3 |
 | Flux Hardened        |          270 |        8 |    8 |
 |                      |              |          |      |
 | Ultra-Dense Ion      |          320 |        8 |   32 |
-| Ultra-Dense Heavy    |          400 |        8 |    4 |
 | Ultra-Dense Reactive |          320 |       10 |    5 |
+| Ultra-Dense Heavy    |          400 |        8 |    4 |
 | Flux Ultra-Dense     |          400 |       10 |   10 |
 |                      |              |          |      |
 | Absorbing Ion Sheath |          480 |       10 |   40 |
@@ -562,27 +562,26 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Standard               |           14 |        0 |    0 |
 |                        |              |          |      |
 | Ion Sheath             |           16 |        1 |    4 |
-| Heavy                  |           25 |        0 |    0 |
 | Reactive               |           16 |        2 |    0 |
+| Heavy                  |           25 |        0 |    0 |
 | Flux Sheath            |           25 |        2 |    2 |
 |                        |              |          |      |
 | Enhanced Ion Sheath    |           19 |        2 |    8 |
-| Enhanced Heavy         |           30 |        1 |    0 |
 | Enhanced Reactive      |           19 |        3 |    0 |
+| Enhanced Heavy         |           30 |        1 |    0 |
 | Flux Enhanced          |           30 |        3 |    3 |
 |                        |              |          |      |
 | Hardened Ion Sheath    |           23 |        3 |   12 |
-| Hardened Heavy         |           36 |        2 |    4 |
 | Hardened Reactive      |           23 |        4 |    4 |
+| Hardened Heavy         |           36 |        2 |    4 |
 | Flux Hardened          |           36 |        4 |    4 |
 |                        |              |          |      |
 | Ultra-Dense Ion Sheath |           27 |        4 |   16 |
-| Ultra-Dense Heavy      |           45 |        3 |    8 |
 | Ultra-Dense Reactive   |           27 |        5 |    8 |
+| Ultra-Dense Heavy      |           45 |        3 |    8 |
 | Flux Ultra-Dense       |           45 |        5 |    5 |
 |                        |              |          |      |
 | Absorbing Ion Sheath   |           34 |        5 |   20 |
-| Absorbing Heavy        |           54 |        4 |   12 |
 | Absorbing Reactive     |           34 |        6 |   12 |
 | Flux Absorbing         |           54 |        6 |    6 |
 |                        |              |          |      |
