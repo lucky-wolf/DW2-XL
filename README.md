@@ -81,7 +81,7 @@ YMMV, but this is my take on making it Extra Large!
     - Calista-Dal are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
 - Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appreciable impact on the game
   - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on, so I removed them (hid them, they're still in game, so as not to break other mods or game-events).
-  - The couple of specialized interceptors for the Arkadians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
+  - The couple of specialized interceptors for the Ackdarians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
 - Basic tech is cheap & basic
   - The first two levels of tech are pretty much applicable to all games, all species.
   - They are cheaper than in vanilla.
