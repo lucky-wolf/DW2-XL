@@ -100,6 +100,8 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.8.0
 - Armor
   - Increased resource requirements for early specialized armors
+- Sensors
+  - Added a line of Mortalen-only sensors that have the same sensor rating as standard sensors at their level, but incorporate the multi-tracking benefits of Mortalen-only tech
 - Stealth
   - Increased countermeasure value
 - Quantum Capacitors
