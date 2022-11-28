@@ -110,6 +110,9 @@ YMMV, but this is my take on making it Extra Large!
 - Fighters & Bombers
   - Missile systems are now always "large" (size 6)
   - Teekan and Human racial tech-lines now all lead to Space Superiority Fighters as the endgame tech
+- Star Beams (Zenox only)
+  - Added another endgame tier
+  - Tweaked / balanced some of their numbers to better align with other techs
 - Heavy Rail Guns
   - now have a v3 tier, and
   - are classified as standoff weapons (formerly close-in)
