@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.0](#v180)
 		- [v1.7.1](#v171)
 		- [v1.7.0](#v170)
 		- [v1.6.3](#v163)
@@ -42,7 +43,7 @@ Author: Mordachai (lucky-wolf)
 	- [Ship Components](#ship-components)
 	- [Fleets](#fleets)
 	- [Ships](#ships)
-	- [Crew Quarters & Star Marine Barracks](#crew-quarters--star-marine-barracks)
+	- [Crew Quarters \& Star Marine Barracks](#crew-quarters--star-marine-barracks)
 	- [Sensors](#sensors)
 	- [Armor](#armor)
 	- [Weapons](#weapons)
@@ -96,13 +97,44 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.8.0
+- Armor
+  - Increased resource requirements for early specialized armors
+- Stealth
+  - Increased countermeasure value
+- Quantum Capacitors
+  - Nerfed shield resistance bonuses
+  - Increased size to 20
+- Fighters & Bombers
+  - Missile systems are now always "large" (size 6)
+  - Teekan and Human racial tech-lines now all lead to Space Superiority Fighters as the endgame tech
+- Heavy Rail Guns
+  - now have a v3 tier, and
+  - are classified as standoff weapons (formerly close-in)
+- Pulse Torpedoes (Mortalen only)
+  - Extended backwards so that they start at T2 as a specialized tech line
+  - Rebalanced to better fit new tech cadence
+  - Leads to multi-dimensional plasma torps for endgame
+- Pulse Plasma Cannons (Boskara only)
+  - Extended another tier for endgame
+  - Rebalanced / fixed some number progressions
+- Plasma Charge Torpedoes (Boskara only)
+  - Leads to multi-dimensional plasma torps for endgame
+- Terraforming Facilities
+  - cost ramp is shallower
+  - maintenance is higher
+- Racial Techs
+  - All techs which are simply inferior to a racial tech has been disabled for that race
+    - This should allow the AIs to waste slightly less time researching things that are just stupid
+    - This is kind of ugly in the tech tree - it's up to Matrix to improve their tech viewer and AI logic to improve this situation
+
 ### v1.7.1
 - Added a 3rd Planetary Shield Generator tech-level, and made them a bit more penetrable
   - level 1 = 25 resistance, 15% penetration
   - level 2 = 50 resistance, 10% penetration
   - level 3 = 75 resistance,  5% penetration
 - Reduced stealth size to 20
-  - increased it's stealth value by 100%
+  - increased stealth value by 100%
   - set jamming power to 1/2 stealth value
 - Overhauled Armor tech
   - Added new armor line: Reactive

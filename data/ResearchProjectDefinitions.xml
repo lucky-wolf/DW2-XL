@@ -194,6 +194,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>0</ResearchProjectId>
@@ -234,6 +241,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>768</ResearchProjectId>
@@ -433,6 +447,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>53</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>3</ResearchProjectId>
@@ -1025,6 +1051,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>8</ResearchProjectId>
@@ -1045,10 +1078,10 @@
 				<ComponentId>9</ComponentId>
 				<Level>1</Level>
 			</Component>
-			<Component>
+			<!-- <Component>
 				<ComponentId>221</ComponentId>
 				<Level>0</Level>
-			</Component>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -1073,6 +1106,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>9</ResearchProjectId>
@@ -1268,7 +1308,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>24</Row>
+		<Row>25</Row>
 		<Components>
 			<Component>
 				<ComponentId>23</ComponentId>
@@ -1367,6 +1407,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>53</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>14</ResearchProjectId>
@@ -1890,6 +1942,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>29</ResearchProjectId>
@@ -1966,6 +2025,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>4</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>110</ResearchProjectId>
@@ -2014,6 +2080,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>30</ResearchProjectId>
@@ -2058,6 +2131,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>52</ResearchProjectId>
@@ -2261,7 +2341,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>24</Row>
+		<Row>25</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>35</ResearchProjectId>
@@ -2302,6 +2389,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>52</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>60</ResearchProjectId>
@@ -2311,7 +2410,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>34</ComponentId>
+				<ComponentId>297</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -2342,6 +2441,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>53</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>37</ResearchProjectId>
@@ -2390,6 +2501,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>54</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>60</ResearchProjectId>
@@ -2398,6 +2521,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>295</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>35</ComponentId>
 				<Level>0</Level>
@@ -2853,7 +2980,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>72</ResearchProjectId>
-		<Name>Ultra Dense Projectiles</Name>
+		<Name>Dense Projectiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -3442,6 +3569,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>50</ResearchProjectId>
@@ -3518,6 +3652,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>4</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>51</ResearchProjectId>
@@ -3578,6 +3719,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>34</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>108</ResearchProjectId>
@@ -3841,6 +3989,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId>
@@ -3876,7 +4031,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>25</Row>
+		<Row>26</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId>
@@ -3986,6 +4148,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>52</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>59</ResearchProjectId>
@@ -3995,12 +4169,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>34</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
 				<ComponentId>297</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -4034,6 +4204,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>54</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>61</ResearchProjectId>
@@ -4261,7 +4443,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>102</ResearchProjectId>
-		<Name>Massive Projectile Batteries</Name>
+		<Name>Advanced Rail Batteries</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5400</Size>
 		<InitiationCost>
@@ -4339,7 +4521,7 @@
 		<Row>43</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>72</ResearchProjectId>
+				<ResearchProjectId>885</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -4552,6 +4734,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>85</ResearchProjectId>
@@ -4628,6 +4817,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>4</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>86</ResearchProjectId>
@@ -4680,6 +4876,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>326</ResearchProjectId>
@@ -5088,6 +5291,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>93</ResearchProjectId>
@@ -5123,7 +5333,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>25</Row>
+		<Row>26</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>94</ResearchProjectId>
@@ -5159,7 +5376,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>27</Row>
+		<Row>28</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId>
@@ -5208,6 +5425,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>52</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>96</ResearchProjectId>
@@ -5217,12 +5446,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>34</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
 				<ComponentId>297</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -5308,6 +5533,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>54</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>97</ResearchProjectId>
@@ -5358,7 +5595,20 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>324</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>36</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>6</short>
 		</PlanetaryFacilityIds>
@@ -5500,6 +5750,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>82</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>62</ResearchProjectId>
@@ -6398,6 +6655,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>34</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>87</ResearchProjectId>
@@ -6446,6 +6710,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>2</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>110</ResearchProjectId>
@@ -6746,6 +7017,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>52</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>122</ResearchProjectId>
@@ -6755,12 +7038,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>34</ComponentId>
-				<Level>3</Level>
-			</Component>
-			<Component>
 				<ComponentId>297</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -6850,6 +7129,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>54</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>124</ResearchProjectId>
@@ -7226,6 +7517,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>31</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>108</ResearchProjectId>
@@ -7278,6 +7576,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>2</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>148</ResearchProjectId>
@@ -7735,6 +8040,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>24</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>119</ResearchProjectId>
@@ -7770,7 +8082,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>25</Row>
+		<Row>26</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>120</ResearchProjectId>
@@ -7806,7 +8125,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>27</Row>
+		<Row>28</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>121</ResearchProjectId>
@@ -7820,7 +8139,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>178</ResearchProjectId>
-		<Name>Resonant Plasma Pulse</Name>
+		<Name>Resonant Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -7936,8 +8255,32 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>828</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>829</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>835</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>63</ComponentId>
@@ -8127,6 +8470,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>82</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>128</ResearchProjectId>
@@ -8264,7 +8614,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>187</ResearchProjectId>
-		<Name>Terminator Point Defense</Name>
+		<Name>Extreme Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>72900</Size>
 		<InitiationCost>
@@ -9054,6 +9404,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>31</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>164</ResearchProjectId>
@@ -9110,6 +9467,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>202</ResearchProjectId>
@@ -9320,13 +9684,26 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>25</Row>
+		<DisallowedRaceIds>
+			<!-- Teakans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>175</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>176</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>67</ComponentId>
@@ -9839,7 +10216,14 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>866</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>226</ResearchProjectId>
@@ -9859,7 +10243,14 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>866</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>227</ResearchProjectId>
@@ -9872,14 +10263,21 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>27</Row>
+		<Row>26</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>207</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>866</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>228</ResearchProjectId>
@@ -11111,7 +11509,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
@@ -11120,7 +11518,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>404</ResearchProjectId>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -11335,6 +11739,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>104</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -11855,6 +12266,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>241</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Teekans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>265</ResearchProjectId>
@@ -11912,7 +12335,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>6</Level>
+				<Level>4</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -11985,7 +12408,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
@@ -11994,7 +12417,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>404</ResearchProjectId>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -12798,6 +13227,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>241</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Teekans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>352</ResearchProjectId>
@@ -12949,6 +13390,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>96</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>356</ResearchProjectId>
@@ -13000,21 +13448,32 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>682</ResearchProjectId>
-				<PathAppearanceLikelihood>1.0</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>379</ResearchProjectId>
-				<PathAppearanceLikelihood>1.0</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>433</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>849</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>404</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -13099,16 +13558,27 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>682</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>433</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>849</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>404</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -13149,7 +13619,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
@@ -13158,7 +13628,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>404</ResearchProjectId>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -13668,7 +14144,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>26</Row>
+		<Row>27</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId>
@@ -13747,29 +14223,29 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>324</ResearchProjectId>
-		<Name>Advanced Containment</Name>
+		<Name>Pulse Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>450</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>450</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>450</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>2</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -13779,7 +14255,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>37</ResearchProjectId>
+				<ResearchProjectId>3</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>4</RaceId>
@@ -13850,6 +14326,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>3</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>53</ResearchProjectId>
@@ -13980,7 +14463,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -13990,7 +14473,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>324</ResearchProjectId>
+				<ResearchProjectId>886</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>4</RaceId>
@@ -13999,11 +14482,11 @@
 		<Components>
 			<Component>
 				<ComponentId>258</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>253</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14316,6 +14799,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>102</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -14368,6 +14858,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>104</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>273</ResearchProjectId>
@@ -14420,6 +14917,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>105</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -15033,6 +15537,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>241</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Teekans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>284</ResearchProjectId>
@@ -15209,6 +15725,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>96</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>687</ResearchProjectId>
@@ -15353,7 +15876,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
@@ -15362,7 +15885,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>404</ResearchProjectId>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -15621,6 +16150,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>102</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>336</ResearchProjectId>
@@ -15677,6 +16213,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>104</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>337</ResearchProjectId>
@@ -15729,6 +16272,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>105</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>338</ResearchProjectId>
@@ -16318,7 +16868,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>7</Level>
+				<Level>4</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -16566,7 +17116,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>276</Row>
+		<Row>277</Row>
 		<Components>
 			<Component>
 				<ComponentId>80</ComponentId>
@@ -17004,7 +17554,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>276</Row>
+		<Row>277</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>386</ResearchProjectId>
@@ -17046,7 +17596,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>277</Row>
+		<Row>276</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -17651,7 +18201,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>276</Row>
+		<Row>277</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>403</ResearchProjectId>
@@ -18235,7 +18785,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>855</ResearchProjectId>
@@ -19164,6 +19714,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>283</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>416</ResearchProjectId>
@@ -19271,7 +19828,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>433</ResearchProjectId>
@@ -20507,7 +21064,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>26</Row>
+		<Row>27</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId>
@@ -20689,7 +21246,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>10</Level>
+				<Level>6</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -21080,6 +21637,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>102</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>364</ResearchProjectId>
@@ -21204,6 +21768,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>105</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>366</ResearchProjectId>
@@ -21704,7 +22275,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>11</Level>
+				<Level>7</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -21794,7 +22365,25 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>850</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -21882,7 +22471,25 @@
 				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>850</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>803</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -22040,6 +22647,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>283</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>454</ResearchProjectId>
@@ -22151,7 +22765,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>457</ResearchProjectId>
@@ -22328,7 +22942,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>26</Row>
+		<Row>27</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId>
@@ -23213,7 +23827,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>12</Level>
+				<Level>11</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -23251,6 +23865,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>241</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Teekans have better tech -->
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>305</ResearchProjectId>
@@ -23325,7 +23951,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>14</Level>
+				<Level>10</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -23406,6 +24032,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>96</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>308</ResearchProjectId>
@@ -23937,7 +24570,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>523</ResearchProjectId>
@@ -25004,7 +25637,20 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>813</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>814</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -25082,6 +25728,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>96</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>551</ResearchProjectId>
@@ -25212,6 +25865,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>283</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>520</ResearchProjectId>
@@ -25331,7 +25991,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>563</ResearchProjectId>
@@ -25884,7 +26544,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>276</Row>
+		<Row>277</Row>
 		<Components>
 			<Component>
 				<ComponentId>135</ComponentId>
@@ -26364,6 +27024,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>635</ResearchProjectId>
@@ -26384,6 +27045,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>636</ResearchProjectId>
@@ -26404,6 +27066,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>637</ResearchProjectId>
@@ -26748,7 +27411,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>595</ResearchProjectId>
@@ -26768,7 +27431,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>276</Row>
+		<Row>277</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>595</ResearchProjectId>
@@ -27457,6 +28120,10 @@
 				<Role>ColonyShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ResortBase</Role>
+				<Level>0</Level>
+			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -27633,7 +28300,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>675</ResearchProjectId>
-		<Name>Diversified Space Stations</Name>
+		<Name>Improved Space Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
 		<InitiationCost>
@@ -27668,10 +28335,6 @@
 			<ShipHullReference>
 				<Role>MiningStation</Role>
 				<Level>1</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ResortBase</Role>
-				<Level>0</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -28134,6 +28797,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>96</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>266</ResearchProjectId>
@@ -30642,6 +31312,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>2</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>165</ResearchProjectId>
@@ -30897,6 +31574,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>888</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
@@ -30923,6 +31606,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>888</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 	</ResearchProjectDefinition>
@@ -30948,6 +31637,12 @@
 				<ResearchProjectId>109</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>888</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
@@ -32330,7 +33025,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>277</Row>
+		<Row>276</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -32578,6 +33273,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>95</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1</ResearchProjectId>
@@ -32635,6 +33337,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>95</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>808</ResearchProjectId>
@@ -32691,6 +33400,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>95</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>809</ResearchProjectId>
@@ -32747,6 +33463,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>95</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>810</ResearchProjectId>
@@ -32821,7 +33544,7 @@
 		<ResearchProjectId>813</ResearchProjectId>
 		<Name>Superior Interceptors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -32845,7 +33568,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>237</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -32871,7 +33594,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>15</Level>
+				<Level>12</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -32879,7 +33602,7 @@
 		<ResearchProjectId>814</ResearchProjectId>
 		<Name>Superior Attack Shuttles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -32903,7 +33626,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>240</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -32929,7 +33652,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>15</Level>
+				<Level>14</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -33198,7 +33921,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33217,11 +33940,11 @@
 		<Components>
 			<Component>
 				<ComponentId>258</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 			<Component>
 				<ComponentId>253</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33253,7 +33976,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33272,11 +33995,11 @@
 		<Components>
 			<Component>
 				<ComponentId>258</ComponentId>
-				<Level>3</Level>
+				<Level>4</Level>
 			</Component>
 			<Component>
 				<ComponentId>253</ComponentId>
-				<Level>3</Level>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33308,7 +34031,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33327,11 +34050,11 @@
 		<Components>
 			<Component>
 				<ComponentId>258</ComponentId>
-				<Level>4</Level>
+				<Level>5</Level>
 			</Component>
 			<Component>
 				<ComponentId>253</ComponentId>
-				<Level>4</Level>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33363,7 +34086,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>55</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33382,11 +34105,11 @@
 		<Components>
 			<Component>
 				<ComponentId>258</ComponentId>
-				<Level>5</Level>
+				<Level>6</Level>
 			</Component>
 			<Component>
 				<ComponentId>253</ComponentId>
-				<Level>5</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33418,7 +34141,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>56</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33428,7 +34151,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>324</ResearchProjectId>
+				<ResearchProjectId>887</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>4</RaceId>
@@ -33437,11 +34160,11 @@
 		<Components>
 			<Component>
 				<ComponentId>296</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>342</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33473,7 +34196,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>56</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33492,11 +34215,11 @@
 		<Components>
 			<Component>
 				<ComponentId>296</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>342</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -33528,6 +34251,61 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>56</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>825</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>296</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>342</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>827</ResearchProjectId>
+		<Name>Overwhelming Compact Energy Discharge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>56</Row>
 		<AllowedRaceIds>
@@ -33547,19 +34325,19 @@
 		<Components>
 			<Component>
 				<ComponentId>296</ComponentId>
-				<Level>2</Level>
+				<Level>4</Level>
 			</Component>
 			<Component>
 				<ComponentId>342</ComponentId>
-				<Level>2</Level>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>827</ResearchProjectId>
-		<Name>Overwhelming Compact Energy Discharge</Name>
+		<ResearchProjectId>828</ResearchProjectId>
+		<Name>Extreme Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>48600</Size>
 		<InitiationCost>
 			<Money>64000</Money>
 			<Resources>
@@ -33593,61 +34371,6 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>825</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>296</ComponentId>
-				<Level>3</Level>
-			</Component>
-			<Component>
-				<ComponentId>342</ComponentId>
-				<Level>3</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>828</ResearchProjectId>
-		<Name>Extreme Compact Energy Discharge</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
-		<InitiationCost>
-			<Money>64000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>11</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
-		<Row>56</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>4</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
 				<ResearchProjectId>826</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -33657,17 +34380,17 @@
 		<Components>
 			<Component>
 				<ComponentId>296</ComponentId>
-				<Level>4</Level>
+				<Level>5</Level>
 			</Component>
 			<Component>
 				<ComponentId>342</ComponentId>
-				<Level>4</Level>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>829</ResearchProjectId>
-		<Name>Extreme Plasma Pulse</Name>
+		<Name>Extreme Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -33820,6 +34543,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>102</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>500</ResearchProjectId>
@@ -33872,6 +34602,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>105</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>502</ResearchProjectId>
@@ -33892,7 +34629,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>833</ResearchProjectId>
-		<Name>Heavy Plasma Pulse</Name>
+		<Name>Heavy Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -33949,7 +34686,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>834</ResearchProjectId>
-		<Name>Resonant Heavy Plasma Pulse</Name>
+		<Name>Resonant Heavy Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -34014,7 +34751,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>835</ResearchProjectId>
-		<Name>Extreme Heavy Plasma Pulse</Name>
+		<Name>Extreme Heavy Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -34247,6 +34984,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>95</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>811</ResearchProjectId>
@@ -34705,7 +35449,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>276</Row>
+		<Row>277</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>419</ResearchProjectId>
@@ -34747,7 +35498,19 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>276</Row>
+		<Row>277</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>849</ResearchProjectId>
@@ -34759,18 +35522,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>426</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>96</ComponentId>
-				<Level>3</Level>
+				<ComponentId>403</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -34795,7 +35552,19 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>276</Row>
+		<Row>277</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>850</ResearchProjectId>
@@ -34807,18 +35576,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>84</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>96</ComponentId>
-				<Level>4</Level>
+				<ComponentId>403</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -34843,7 +35606,19 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>276</Row>
+		<Row>277</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>851</ResearchProjectId>
@@ -34855,18 +35630,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>557</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>96</ComponentId>
-				<Level>5</Level>
+				<ComponentId>403</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -34891,7 +35660,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>277</Row>
+		<Row>276</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -34941,7 +35710,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>277</Row>
+		<Row>276</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -34991,7 +35760,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>275</Row>
+		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>386</ResearchProjectId>
@@ -35225,6 +35994,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>82</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>183</ResearchProjectId>
@@ -35241,7 +36017,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>861</ResearchProjectId>
-		<Name>Advanced Autocannons</Name>
+		<Name>Autocannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -35273,6 +36049,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>42</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>102</ResearchProjectId>
@@ -35325,6 +36108,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>42</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>861</ResearchProjectId>
@@ -35345,7 +36135,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>863</ResearchProjectId>
-		<Name>Terminator Autocannons</Name>
+		<Name>Advanced Autocannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>72900</Size>
 		<InitiationCost>
@@ -35377,6 +36167,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>42</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>862</ResearchProjectId>
@@ -35460,7 +36257,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>26</Row>
+		<Row>27</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId>
@@ -35503,7 +36300,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>26</Row>
+		<Row>27</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>2</RaceId>
@@ -35861,7 +36658,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>872</ResearchProjectId>
-		<Name>Improved Lg Star Beams</Name>
+		<Name>Improved Large Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -35916,7 +36713,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>873</ResearchProjectId>
-		<Name>Advanced Lg Star Beams</Name>
+		<Name>Advanced Large Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>21600</Size>
 		<InitiationCost>
@@ -36003,6 +36800,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>104</Row>
+		<DisallowedRaceIds>
+			<!-- Zennox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>365</ResearchProjectId>
@@ -36312,6 +37116,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>97</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>266</ResearchProjectId>
@@ -36370,6 +37181,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>97</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>880</ResearchProjectId>
@@ -36426,6 +37244,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>97</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>881</ResearchProjectId>
@@ -36482,6 +37307,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>97</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>882</ResearchProjectId>
@@ -36538,6 +37370,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>97</Row>
+		<DisallowedRaceIds>
+			<!-- Boskara have better tech -->
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>883</ResearchProjectId>
@@ -36553,6 +37392,463 @@
 			<Component>
 				<ComponentId>397</ComponentId>
 				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>885</ResearchProjectId>
+		<Name>Ultra Dense Projectiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>9000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>43</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>72</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>27</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>886</ResearchProjectId>
+		<Name>Improved Pulse Torpedoes</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>55</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>324</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>258</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>253</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>887</ResearchProjectId>
+		<Name>Compacted Pulse Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>56</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>324</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>296</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>342</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>888</ResearchProjectId>
+		<Name>Superior Plasma Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>5</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>771</ResearchProjectId>
+				<PathAppearanceLikelihood>.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>245</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>247</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>250</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>889</ResearchProjectId>
+		<Name>Multi-Tracking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>8000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>275</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>849</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>426</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>404</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>890</ResearchProjectId>
+		<Name>Superior Multi-Tracking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>275</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>889</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>84</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>403</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>891</ResearchProjectId>
+		<Name>Optimal Multi-Tracking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>275</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>890</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>557</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>403</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>892</ResearchProjectId>
+		<Name>Optimal Star Beams</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>487</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>244</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>246</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>893</ResearchProjectId>
+		<Name>Optimal Large Star Beams</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>36</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>873</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>249</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>255</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
