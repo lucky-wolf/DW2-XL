@@ -5,11 +5,11 @@
 		<BundleName>Human</BundleName>
 		<FlagFilename>UserInterface/Flags/Human_1</FlagFilename>
 		<AlternateFlagFilenames>
-      <string>UserInterface/Flags/Human_2</string>
+			<string>UserInterface/Flags/Human_2</string>
 			<string>UserInterface/Flags/Human_3</string>
-	    <string>UserInterface/Flags/Human_4</string>
-	    <string>UserInterface/Flags/Human_5</string>
-	    <string>UserInterface/Flags/Human_6</string>
+			<string>UserInterface/Flags/Human_4</string>
+			<string>UserInterface/Flags/Human_5</string>
+			<string>UserInterface/Flags/Human_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>0</R>
@@ -331,9 +331,9 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Ackdarian_2</string>
 			<string>UserInterface/Flags/Ackdarian_3</string>
-		<string>UserInterface/Flags/Ackdarian_4</string>
-		<string>UserInterface/Flags/Ackdarian_5</string>
-		<string>UserInterface/Flags/Ackdarian_6</string>
+			<string>UserInterface/Flags/Ackdarian_4</string>
+			<string>UserInterface/Flags/Ackdarian_5</string>
+			<string>UserInterface/Flags/Ackdarian_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>0</R>
@@ -622,9 +622,9 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Teekan_2</string>
 			<string>UserInterface/Flags/Teekan_3</string>
-		<string>UserInterface/Flags/Teekan_4</string>
-		<string>UserInterface/Flags/Teekan_5</string>
-		<string>UserInterface/Flags/Teekan_6</string>
+			<string>UserInterface/Flags/Teekan_4</string>
+			<string>UserInterface/Flags/Teekan_5</string>
+			<string>UserInterface/Flags/Teekan_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>96</R>
@@ -957,9 +957,9 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Haakonish_2</string>
 			<string>UserInterface/Flags/Haakonish_3</string>
-		<string>UserInterface/Flags/Haakonish_4</string>
-		<string>UserInterface/Flags/Haakonish_5</string>
-		<string>UserInterface/Flags/Haakonish_6</string>
+			<string>UserInterface/Flags/Haakonish_4</string>
+			<string>UserInterface/Flags/Haakonish_5</string>
+			<string>UserInterface/Flags/Haakonish_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>160</R>
@@ -1252,9 +1252,9 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Mortalen_2</string>
 			<string>UserInterface/Flags/Mortalen_3</string>
-		<string>UserInterface/Flags/Mortalen_4</string>
-		<string>UserInterface/Flags/Mortalen_5</string>
-		<string>UserInterface/Flags/Mortalen_6</string>
+			<string>UserInterface/Flags/Mortalen_4</string>
+			<string>UserInterface/Flags/Mortalen_5</string>
+			<string>UserInterface/Flags/Mortalen_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>135</R>
@@ -1808,9 +1808,9 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Boskara_2</string>
 			<string>UserInterface/Flags/Boskara_3</string>
-		<string>UserInterface/Flags/Boskara_4</string>
-		<string>UserInterface/Flags/Boskara_5</string>
-		<string>UserInterface/Flags/Boskara_6</string>
+			<string>UserInterface/Flags/Boskara_4</string>
+			<string>UserInterface/Flags/Boskara_5</string>
+			<string>UserInterface/Flags/Boskara_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>112</R>
@@ -2166,9 +2166,9 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 		<AlternateFlagFilenames>
 			<string>UserInterface/Flags/Zenox_2</string>
 			<string>UserInterface/Flags/Zenox_3</string>
-		<string>UserInterface/Flags/Zenox_4</string>
-		<string>UserInterface/Flags/Zenox_5</string>
-		<string>UserInterface/Flags/Zenox_6</string>
+			<string>UserInterface/Flags/Zenox_4</string>
+			<string>UserInterface/Flags/Zenox_5</string>
+			<string>UserInterface/Flags/Zenox_6</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>132</R>
@@ -2548,28 +2548,28 @@ Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. Th
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>WeaponsDamage</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchShields</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2706,21 +2706,21 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 			</Bonus>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>BoardingDefense</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2843,7 +2843,7 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2857,7 +2857,7 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3038,7 +3038,7 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3220,14 +3220,14 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>PsyOps</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3389,28 +3389,28 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ScanFocusing</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Countermeasures</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3579,14 +3579,14 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterAppearanceTroopGeneral</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3754,7 +3754,7 @@ Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets,
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3898,7 +3898,7 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
-		<BundleName></BundleName>
+		<BundleName>Quameno</BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -3925,14 +3925,14 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 		<Bonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TourismIncome</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4090,21 +4090,21 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>MiningRate</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ArmorStrength</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4223,7 +4223,7 @@ Though they often industriously mine for gemstones, they generally take little i
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchEngines</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4391,14 +4391,14 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<Bonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>Targeting</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4412,7 +4412,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchSensors</Type>
-        <Amount>0.10</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -4700,37 +4700,37 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 		<Description></Description>
 	</Race>
-
+	<Race>
+		<RaceId>20</RaceId>
+		<BundleName>Shakturi</BundleName>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.03</ReproductionRate>
+		<AssimilationRate>1</AssimilationRate>
+		<MigrationFactor>1</MigrationFactor>
+		<Aggression>1</Aggression>
+		<Caution>1</Caution>
+		<Dependability>1</Dependability>
+		<IsPlayable>false</IsPlayable>
+		<AllowableGovernmentIds>
+			<short>0</short>
+			<short>1</short>
+		</AllowableGovernmentIds>
+		<DefaultInfantryId>54</DefaultInfantryId>
+		<Name>Shakturi</Name>
+		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
+	</Race>
 	<!--Race>
-    <RaceId>20</RaceId>
-    <MainColor>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <A>0</A>
-    </MainColor>
-    <SecondaryColor>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <A>0</A>
-    </SecondaryColor>
-    <ReproductionRate>1.03</ReproductionRate>
-    <AssimilationRate>1</AssimilationRate>
-    <MigrationFactor>1</MigrationFactor>
-    <Aggression>1</Aggression>
-    <Caution>1</Caution>
-    <Dependability>1</Dependability>
-    <IsPlayable>false</IsPlayable>
-    <AllowableGovernmentIds>
-      <short>0</short>
-      <short>1</short>
-    </AllowableGovernmentIds>
-    <DefaultInfantryId>54</DefaultInfantryId>
-    <Name>Shakturi</Name>
-    <ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
-  </Race>
-  <Race>
     <RaceId>21</RaceId>
     <MainColor>
       <R>0</R>

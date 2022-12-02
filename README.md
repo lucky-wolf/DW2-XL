@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.1](#v181)
 		- [v1.8.0](#v180)
 		- [v1.7.1](#v171)
 		- [v1.7.0](#v170)
@@ -97,6 +98,12 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.8.1
+- Stealth is now size 25
+- Ackdarians are locked out of inferior engine techs
+  - Improved the Ackdarian engine line to merge into advanced thrusters for end-game tech parity
+- Added 1.0.8.8 compatibility changes
+
 ### v1.8.0
 - Armor
   - Increased resource requirements for early specialized armors
@@ -151,7 +158,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed ship hulls, names, sizes & related tech names to be as intended (was broken by 1.0.8.x builds)
   - Fixed ship hull sizes for all player-races to: [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
   - Fixed interceptors to always use size 5 weapons, bombers are size 10 (will force the ship designer to actually use both slots, and to define the roles of the two more honestly)
-  - Added the .shmd files for all of this to force the game to actually respect these values!
+  - Added the `ShipModelHullData` files for all of this to force the game to actually respect these values!
 - Tweaked tech tree to hopefully make the mid-game flow a bit better
 
 ### v1.6.3
@@ -440,7 +447,7 @@ YMMV, but this is my take on making it Extra Large!
 - Marine Barracks supports the equivalent amount of crew as the corresponding crew module, at one tech level higher (thence 2x the tech cost).
   - This makes the ship designer "just work" correctly at every level (overcomes a vanilla bug in ship designer).
   - There are 4 levels of Marine Barracks to keep parity with standard crew modules.
-  - They are always lower in capcity than the standard crew quarters for that tech-level (currently 80%).
+  - They are always lower in capacity than the standard crew quarters for that tech-level (currently 80%).
   - Standard crew quarters also has a better damage reduction, and even ship cost reduction (luxury crew quarters), which marine do not have.
 
 ## Sensors
@@ -448,15 +455,16 @@ YMMV, but this is my take on making it Extra Large!
   - This should substantially improve default and AI designs that always want a short range sensor on them.
 - Long range sensors give a fleet targeting bonus.
 - Reduced sizes to allow for more components on your ship designs:
-  - Short range sensors are size 5
-  - Long range sensors are size 40
+  - Short range sensors are size 10
+  - Long range sensors are size 20
+  - End-game, extreme range sensors are size 40
 
 ## Armor
-- Added levels of ionic armor to reach parity with standard armor.
-  - Ionic is always one tech level higher, hence 2x the tech cost of the standard armor equivalent.
-  - Ionic armors don't upgrade without a refit: like other armor types, you must refit your ships to gain their advantages.
+- Expanded ionic armors for all tech levels throughout the game.
+- Armors don't upgrade without a refit.
 - Paced out the armor for a more even game progression.
 - Expanded Boskaran armors to achieve parity with the highest levels of standard armor in the game, but at a lower tech-level.
+- Added a 3rd armor type specialization: Reflective Armors that focus on reflective value at the expense of strength (similar to ionic armors that trade strength and reflectivity for ionic resistance)
 
 ## Weapons
 - Weapon sizes are normalized across all types.
@@ -477,17 +485,18 @@ YMMV, but this is my take on making it Extra Large!
     - Medium = 26
 
 ## Kinetic Weapons
-- Do not lose damage with distance (slugs don't slow down in space, or lose energy).
+- Do not lose damage with distance (slugs don't slow down in a vacuum, or lose energy).
   - But they continue to be quite inaccurate with range.
 - Kinetic PD does more raw damage than blaster or beam PD, but it's less accurate.
 - I overhauled this line of weapons to give a better progression and to make them more viable for non-humans.
   - Humans still have racial locked techs in this line, and they are just better than the standard models.
+  - Humans also get a \[M\] sized variant in addition to the small and fighter mount types for autocannons.
 
 ## Energy Torpedoes
 - Boskaran's Firestorm torpedo line is deeper and gives you a large weapon sooner.
-  - The large varient requires a separate line of research to unlock.
+  - The large variant requires a separate line of research to unlock.
 - Mortalen's torpedoes line is split into fighter/small and medium/large lines.
-  - All of these techs have been extended by 4 additional levels each to keep them viable throughout the game.
+  - All of these techs have been extended by many additional levels each to keep them viable throughout the game.
 
 ## Fighters and Bombers
 - The Fighter and Bomber craft portion of the tech tree has been made more elegant and rational.
@@ -515,8 +524,8 @@ YMMV, but this is my take on making it Extra Large!
 ## Targeting and Countermeasures
 - Are size 5 for standard ones, and 15 for fleet ones.
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
-- Sensors have gained some targeting value.
-- Long range sensors have gained some fleet targeting value.
+- Sensors have integration targeting value from targeting computers as part of their dependency chain.
+- Long range sensors have gained fleet targeting from dependency on fleet targeting techs.
 - Sensors, targeting computers, and ship classes have been linked by dependencies to help ensure AI researches these (and it doesn't hurt the player to have some decent targeting computers for their ships, likely helps new players as well).
 
 ## Colonization

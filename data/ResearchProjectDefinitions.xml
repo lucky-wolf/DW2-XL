@@ -11908,6 +11908,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>222</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>262</ResearchProjectId>
@@ -11952,6 +11959,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>223</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>262</ResearchProjectId>
@@ -12000,6 +12014,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>225</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>262</ResearchProjectId>
@@ -12961,6 +12982,12 @@
 		<Column>7</Column>
 		<Row>223</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>507</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>508</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -15200,6 +15227,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>223</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>277</ResearchProjectId>
@@ -16614,6 +16648,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>222</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>276</ResearchProjectId>
@@ -16662,6 +16703,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>225</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>278</ResearchProjectId>
@@ -22062,6 +22110,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>222</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>373</ResearchProjectId>
@@ -22110,6 +22165,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>225</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>374</ResearchProjectId>
@@ -25415,59 +25477,15 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Was Zero Loss Energy Conversion (Ackdarian final engines) -->
 		<ResearchProjectId>583</ResearchProjectId>
-		<Name>Zero Loss Energy Conversion</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
-		<InitiationCost>
-			<Money>64000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>6400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>221</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>1</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>507</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>1</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>283</ComponentId>
-				<Level>3</Level>
-			</Component>
-			<Component>
-				<ComponentId>156</ComponentId>
-				<Level>3</Level>
-			</Component>
-		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>584</ResearchProjectId>
@@ -34844,6 +34862,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>223</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>344</ResearchProjectId>
