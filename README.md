@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.3](#v183)
 		- [v1.8.2](#v182)
 		- [v1.8.1](#v181)
 		- [v1.8.0](#v180)
@@ -98,6 +99,9 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.8.3
+- Fixed Void Sensors (Super Sensors) to include fleet targeting bonus (progression of ultra long range sensors)
 
 ### v1.8.2
 - Fixed Specialized Escorts, Frigates, and Destroyers to have the correct size (450, 540, 720 respectively)
