@@ -105,7 +105,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.8.2
 - Fixed Specialized Escorts, Frigates, and Destroyers to have the correct size (450, 540, 720 respectively)
-- Advanced Stealth size 25 also
+- Fixed Advanced Stealth to be size 25 also
 - Mortalen get their multi-tracking computers starting at T2 (3rd level)
   - Added another level of multi-tracking sensors to start their line
 - Extended tracking computers for everyone to T9
