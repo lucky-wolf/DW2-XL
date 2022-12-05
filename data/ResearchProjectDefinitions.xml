@@ -3539,7 +3539,7 @@
 		<Components>
 			<Component>
 				<ComponentId>93</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -13494,6 +13494,12 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<ResearchProjectId>895</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>404</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -13597,6 +13603,12 @@
 				<ResearchProjectId>849</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>895</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>404</ResearchProjectId>
@@ -17383,7 +17395,7 @@
 		<Components>
 			<Component>
 				<ComponentId>93</ComponentId>
-				<Level>3</Level>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -18142,6 +18154,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>283</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>398</ResearchProjectId>
@@ -18538,7 +18557,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>416</ResearchProjectId>
+				<ResearchProjectId>894</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>4</RaceId>
@@ -18547,7 +18566,7 @@
 		<Components>
 			<Component>
 				<ComponentId>93</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -22843,8 +22862,8 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>122</ComponentId>
-				<Level>0</Level>
+				<ComponentId>113</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -24392,7 +24411,7 @@
 		<Components>
 			<Component>
 				<ComponentId>93</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -24611,27 +24630,27 @@
 		<ResearchProjectId>563</ResearchProjectId>
 		<Name>Advanced Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>48600</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>32000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>3200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>3200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>3200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>9</Column>
 		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24639,11 +24658,17 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>900</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>122</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -25988,7 +26013,7 @@
 		<ResearchProjectId>595</ResearchProjectId>
 		<Name>Superior Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>72900</Size>
 		<InitiationCost>
 			<Money>64000</Money>
 			<Resources>
@@ -26008,7 +26033,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>10</Column>
 		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26020,7 +26045,7 @@
 		<Components>
 			<Component>
 				<ComponentId>122</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -35476,6 +35501,11 @@
 		<Column>3</Column>
 		<Row>277</Row>
 		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -37619,7 +37649,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>889</ResearchProjectId>
-		<Name>Multi-Tracking Sensors</Name>
+		<Name>Advanced Multi-Tracking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -37647,7 +37677,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>895</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>4</RaceId>
@@ -37663,7 +37693,7 @@
 		<Components>
 			<Component>
 				<ComponentId>404</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -37712,8 +37742,8 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>403</ComponentId>
-				<Level>1</Level>
+				<ComponentId>404</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -37762,8 +37792,8 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>403</ComponentId>
-				<Level>2</Level>
+				<ComponentId>404</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -37874,6 +37904,412 @@
 			<Component>
 				<ComponentId>255</ComponentId>
 				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>894</ResearchProjectId>
+		<Name>Multi-Tracking</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>2000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>281</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>398</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>93</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>895</ResearchProjectId>
+		<Name>Multi-Tracking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>275</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>419</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>894</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>404</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>896</ResearchProjectId>
+		<Name>Omni-Tracking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>275</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>891</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>397</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>404</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>897</ResearchProjectId>
+		<Name>Omni Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>277</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Zenox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>852</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>898</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>403</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>898</ResearchProjectId>
+		<Name>Omni Target Tracking</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>48000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>283</Row>
+		<DisallowedRaceIds>
+			<!-- Mortalen have better tech -->
+			<RaceProbability>
+				<RaceId>4</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>592</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>119</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>899</ResearchProjectId>
+		<Name>Omni Crystal Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>276</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>854</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>898</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>308</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>900</ResearchProjectId>
+		<Name>Omni Fleet Targeting</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>282</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>558</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>110</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>901</ResearchProjectId>
+		<Name>Void Fleet Countermeasures</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>285</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>559</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>111</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>902</ResearchProjectId>
+		<Name>Void Countermeasures</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>48000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>284</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>593</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>120</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

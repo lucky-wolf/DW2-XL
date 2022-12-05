@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.2](#v182)
 		- [v1.8.1](#v181)
 		- [v1.8.0](#v180)
 		- [v1.7.1](#v171)
@@ -97,6 +98,15 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.8.2
+- Fixed Specialized Escorts, Frigates, and Destroyers to have the correct size (450, 540, 720 respectively)
+- Advanced Stealth size 25 also
+- Mortalen get their multi-tracking computers starting at T2 (3rd level)
+  - Added another level of multi-tracking sensors to start their line
+- Extended tracking computers for everyone to T9
+  - Added another level of short range sensors at T10
+- Extended Fleet Targeting to T8
 
 ### v1.8.1
 - Stealth is now size 25
