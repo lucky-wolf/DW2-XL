@@ -3898,7 +3898,7 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
-		<BundleName>Quameno</BundleName>
+		<BundleName></BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -4700,37 +4700,37 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 		<Description></Description>
 	</Race>
-	<Race>
-		<RaceId>20</RaceId>
-		<BundleName>Shakturi</BundleName>
-		<MainColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</MainColor>
-		<SecondaryColor>
-			<R>0</R>
-			<G>0</G>
-			<B>0</B>
-			<A>0</A>
-		</SecondaryColor>
-		<ReproductionRate>1.03</ReproductionRate>
-		<AssimilationRate>1</AssimilationRate>
-		<MigrationFactor>1</MigrationFactor>
-		<Aggression>1</Aggression>
-		<Caution>1</Caution>
-		<Dependability>1</Dependability>
-		<IsPlayable>false</IsPlayable>
-		<AllowableGovernmentIds>
-			<short>0</short>
-			<short>1</short>
-		</AllowableGovernmentIds>
-		<DefaultInfantryId>54</DefaultInfantryId>
-		<Name>Shakturi</Name>
-		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
-	</Race>
+
 	<!--Race>
+    <RaceId>20</RaceId>
+    <MainColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+      <A>0</A>
+    </MainColor>
+    <SecondaryColor>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+      <A>0</A>
+    </SecondaryColor>
+    <ReproductionRate>1.03</ReproductionRate>
+    <AssimilationRate>1</AssimilationRate>
+    <MigrationFactor>1</MigrationFactor>
+    <Aggression>1</Aggression>
+    <Caution>1</Caution>
+    <Dependability>1</Dependability>
+    <IsPlayable>false</IsPlayable>
+    <AllowableGovernmentIds>
+      <short>0</short>
+      <short>1</short>
+    </AllowableGovernmentIds>
+    <DefaultInfantryId>54</DefaultInfantryId>
+    <Name>Shakturi</Name>
+    <ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
+  </Race>
+	<Race>
     <RaceId>21</RaceId>
     <MainColor>
       <R>0</R>
