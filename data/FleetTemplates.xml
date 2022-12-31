@@ -5,7 +5,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
+		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -111,8 +111,8 @@
 		<RaceId>-1</RaceId>
 		<Role>Defend</Role>
 		<Name>Defense Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan66</DefaultRetreatStrength>
+		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
+		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 

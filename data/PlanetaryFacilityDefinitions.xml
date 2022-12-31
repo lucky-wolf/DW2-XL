@@ -1728,7 +1728,7 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>47</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>140000</Money>
+			<Money>100000</Money>
 		</BuildCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<Size>100</Size>
@@ -1737,12 +1737,12 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.15</TerraformingQualityMaximum>
+		<TerraformingDamageRepairRate>0.03</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.015</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.30</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<Name>Enhanced Terraforming Facility</Name>
@@ -1750,29 +1750,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>48</PlanetaryFacilityDefinitionId>
-		<BuildCost>
-			<Money>160000</Money>
-		</BuildCost>
-		<MaintenanceCost>2000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
-		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
-		<AchievementRaceId>-1</AchievementRaceId>
-		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.025</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.25</TerraformingQualityMaximum>
-		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>21</FacilityFamilyId>
-		<FacilityFamilyLevel>3</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Terraforming Facility</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/Terraforming Facility</ImageFilename>
-	</PlanetaryFacilityDefinition>
-	<PlanetaryFacilityDefinition>
-		<PlanetaryFacilityDefinitionId>49</PlanetaryFacilityDefinitionId>
 		<BuildCost>
 			<Money>200000</Money>
 		</BuildCost>
@@ -1785,10 +1762,33 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<TerraformingDamageRepairRate>0.05</TerraformingDamageRepairRate>
 		<TerraformingQualityImprovementRate>0.025</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.5</TerraformingQualityMaximum>
+		<TerraformingQualityMaximum>0.50</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
-		<FacilityFamilyLevel>4</FacilityFamilyLevel>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Advanced Terraforming Facility</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Terraforming Facility</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>49</PlanetaryFacilityDefinitionId>
+		<BuildCost>
+			<Money>400000</Money>
+		</BuildCost>
+		<MaintenanceCost>2000</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<TerraformingDamageRepairRate>0.07</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.035</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.70</TerraformingQualityMaximum>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>21</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<Name>Complete Terraforming Facility</Name>
@@ -2622,7 +2622,7 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>77</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>100000</Money>
+			<Money>50000</Money>
 		</BuildCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<Size>100</Size>
@@ -2631,11 +2631,12 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.05</TerraformingQualityMaximum>
+		<TerraformingDamageRepairRate>0.01</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.005</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>0.10</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<Name>Terraforming Facility</Name>
@@ -2644,7 +2645,7 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>78</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>120000</Money>
+			<Money>1000000</Money>
 		</BuildCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<Size>100</Size>
@@ -2653,15 +2654,15 @@
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<TerraformingDamageRepairRate>0.02</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
-		<TerraformingQualityMaximum>0.1</TerraformingQualityMaximum>
+		<TerraformingDamageRepairRate>0.1</TerraformingDamageRepairRate>
+		<TerraformingQualityImprovementRate>0.05</TerraformingQualityImprovementRate>
+		<TerraformingQualityMaximum>1.0</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyLevel>4</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Improved Terraforming Facility</Name>
+		<Name>Ultimate Terraforming Facility</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Terraforming Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>

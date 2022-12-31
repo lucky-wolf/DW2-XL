@@ -3,11 +3,18 @@ Cool Ideas:
 	- Why the hell aren't these things > size?
 - Add some neg to-hit% to engines (more nimble = more dodge bonus)
 	- Further improve fighter engines thrust to give them better charge ahead value
-- Make true bomber vs. Interceptor class fighter weapons for various techs
-- ?? maybe
-	- adj planetary shields down (make a middle tier?)
-	- add a super reactive / low strength armor line
-	- adj armor up (seems awfully weak compared to shields)
+
+NULL OUT A RESEARCH PROJECT:
+	<ResearchProjectDefinition>
+		<ResearchProjectId>450</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>
 
 race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
  0 Human 		688
@@ -346,8 +353,6 @@ extreme compact energy 828
 
 Advanced Missiles 64
 
-208 227 4 10 -1
-
 Medial Systems 412
 Recreation Systems 413
 
@@ -398,22 +403,6 @@ Shields:
 High Energy Capacitors	364
 Enhanced Shields		337
 High Storage Capacitors	366
-
-
-NULL OUT A RESEARCH PROJECT:
-	<ResearchProjectDefinition>
-		<ResearchProjectId>450</ResearchProjectId>
-		<Name>Undefined</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
-	</ResearchProjectDefinition>
-
-
-
 
 Vanilla Hull Sizes
 type        standard	specialized
@@ -475,3 +464,5 @@ Stellar		320
 
 		<ImageFilename>Environment/Components/195-Stellar Armor</ImageFilename>
 
+Military Starships	679
+System Patrol Starships

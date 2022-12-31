@@ -676,67 +676,63 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>20</ResearchProjectId>
-		<Name>Enhanced Terraforming</Name>
+		<Name>Terraforming Facilities</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>100</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>450</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>1</Column>
 		<Row>297</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<ResearchProjectId>387</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PlanetaryFacilityIds>
-			<short>78</short>
+			<short>77</short>
 		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -18291,63 +18287,35 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>420</ResearchProjectId>
-		<Name>Terraforming Facilities</Name>
+		<Name>Ultimate Terraforming</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>100</Size>
+		<Size>48600</Size>
 		<InitiationCost>
-			<Money>2000</Money>
+			<Money>32000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>7</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
+					<Amount>3200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>200</Amount>
+					<ResourceId>78</ResourceId>
+					<Amount>3200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>9</Column>
 		<Row>297</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>387</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<ResearchProjectId>596</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PlanetaryFacilityIds>
-			<short>77</short>
+			<short>78</short>
 		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -18997,7 +18965,7 @@
 		<Row>294</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19061,7 +19029,7 @@
 		<Row>295</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19129,7 +19097,7 @@
 		<Row>296</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19197,7 +19165,7 @@
 		<Row>298</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19269,7 +19237,7 @@
 		<Row>299</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19341,7 +19309,7 @@
 		<Row>300</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -26076,15 +26044,15 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>21600</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>25000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>2500</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>2500</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -32234,7 +32202,7 @@
 		<Row>293</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>420</ResearchProjectId>
+				<ResearchProjectId>20</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -33356,6 +33324,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>266</ComponentId>
@@ -37211,7 +37180,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>398</ComponentId>

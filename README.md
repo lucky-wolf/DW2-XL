@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
 		- [v1.8.3](#v183)
 		- [v1.8.2](#v182)
@@ -100,6 +101,16 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.8.5
+- Bug fix: Ionic armor requires basic ion weapons
+- Bug fix: Reactive armor requires basic deflectors
+- Terraforming Facility
+  - Terraforming limits set to 10, 30, 50, 70, 100
+  - Spread them out to level 9
+- Fleet templates: Attack & Defense fleets now default to "sector range"
+  - You should be able to assign them home bases and that should be a strong affinity for theater of operations
+  - Late game was getting ridiculous with fleets flying literally around the galaxy
 
 ### v1.8.4
 - Disallowed Haakonish from researching the Large Fuel Storage line (since they have mega dense storage tech-line)
