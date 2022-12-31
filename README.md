@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.8.6](#v186)
 		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
 		- [v1.8.3](#v183)
@@ -101,6 +102,9 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.8.6
+- Redid the Construction tech tree to make specialized ships available sooner
 
 ### v1.8.5
 - Bug fix: Ionic armor requires basic ion weapons
