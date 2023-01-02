@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.9.0](#v190)
 		- [v1.8.6](#v186)
 		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
@@ -66,6 +67,8 @@ Author: Mordachai (lucky-wolf)
 	- [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
 	- [DW2-XL Armor](#dw2-xl-armor)
 	- [DW2-XL Fighter/Bomber Armor](#dw2-xl-fighterbomber-armor)
+	- [DW2-XL Reactors](#dw2-xl-reactors)
+	- [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -103,6 +106,14 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.9.0
+- Removed PD function from all weapons except \[PD\] and interceptor weapons (\[Ftr\] size 5 weapons)
+- Normalized \[Ftr\] weapons to size 5 and 10 only
+- Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
+- Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
+- Compressed the Engines tech tree to give a better mid-game-flow
+- Planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
+
 ### v1.8.6
 - Redid the Construction tech tree to make specialized ships available sooner
 
@@ -115,6 +126,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fleet templates: Attack & Defense fleets now default to "sector range"
   - You should be able to assign them home bases and that should be a strong affinity for theater of operations
   - Late game was getting ridiculous with fleets flying literally around the galaxy
+- Removed odd-ball Long Range Jump Blocking tech + corresponding GW4000 tech level
 
 ### v1.8.4
 - Disallowed Haakonish from researching the Large Fuel Storage line (since they have mega dense storage tech-line)
@@ -666,3 +678,52 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Flux Absorbing         |           54 |        6 |    6 |
 |                        |              |          |      |
 | Stellar                |           64 |        7 |   24 |
+
+## DW2-XL Reactors
+
+| Tech | Drive                           | Size | Energy | Capacity | Fuel to Energy Ratio |
+| ---- | ------------------------------- | ---- | ------ | -------- | -------------------- |
+| 0    | Space Reactor                   | 23   | 54/s   | 90       | 2.333/1000           |
+| 1    | Space Reactor (v2)              | 23   | 68/s   | 115      | 1.739/1000           |
+| 2    | Fusion Reactor                  | 16   | 80/s   | 120      | 1.500/1000           |
+| 3    | Fusion Reactor (v2)             | -    | 100/s  | 144      | 1.400/1000           |
+| 4    | Fusion Reactor (v3)             | -    | 120/s  | 173      | 1.300/1000           |
+| 5    | Hyperfusion Reactor             | 14   | 160/s  | 200      | 1.200/1000           |
+| 6    | Hyperfusion Reactor (v2)        | -    | 200/s  | 240      | 1.100/1000           |
+| 7    | Hyperfusion Reactor (v3)        | -    | 240/s  | 280      | 1.000/1000           |
+| 2    | Fission Reactor                 | 20   | 120/s  | 144      | 1.700/1000           |
+| 3    | Fission Reactor (v2)            | -    | 140/s  | 173      | 1.600/1000           |
+| 4    | Fission Reactor (v3)            | -    | 160/s  | 207      | 1.500/1000           |
+| 5    | Hyperfission Reactor            | 18   | 200/s  | 240      | 1.400/1000           |
+| 6    | Hyperfission Reactor (v2)       | -    | 240/s  | 288      | 1.300/1000           |
+| 7    | Hyperfission Reactor (v3)       | -    | 280/s  | 346      | 1.200/1000           |
+| 2    | Antimatter Reactor              | 24   | 160/s  | 216      | 1.900/1000           |
+| 3    | Antimatter Reactor (v2)         | -    | 180/s  | 259      | 1.800/1000           |
+| 4    | Antimatter Reactor (v3)         | -    | 200/s  | 311      | 1.700/1000           |
+| 5    | Antimatter Cycling Reactor      | 22   | 240/s  | 360      | 1.600/1000           |
+| 6    | Antimatter Cycling Reactor (v2) | -    | 280/s  | 432      | 1.500/1000           |
+| 7    | Antimatter Cycling Reactor (v3) | -    | 320/s  | 518      | 1.400/1000           |
+| 8    | Zero Point Reactor              | 20   | 311/s  | 605      | 1.000/1000           |
+| 12   | Dark Star Reactor               | 20   | 500/s  | 1000     | 0.900/1000           |
+
+## DW2-XL Hyperdrives
+| Drive                 | Tech | Size | Speed | Range | Accuracy | Energy (static+in-use) | Initiation | Recharge | Ion Defense | Insulation |
+| --------------------- | ---- | ---- | ----- | ----- | -------- | ---------------------- | ---------- | -------- | ----------- | ---------- |
+| Skip Drive            | 0    | 20   | 100K  | 75M   | 5000     | 5 + 50/s               | 20s        | 30s      |             |            |
+| Warp Bubble Generator | 1    | 20   | 200K  | 120M  | 5000     | 5 + 60/s               | 17s        | 28s      |             |            |
+| Gerax                 | 2    | 20   | 300K  | 140M  | 4250     | 3 + 70/s               | 16s        | 25s      | 1           | 10         |
+| Calista-Dal           | 3    | 16   | 400K  | 200M  | 3500     | 2 + 80/s               | 26s        | 13s      | 2           | 15         |
+| Calista-Dal (v2)      | 4    | -    | 500K  | 280M  | 3000     | 2 + 90/s               | 24s        | 12s      | 3           | 20         |
+| Calista-Dal (v3)      | 6    | -    | 700K  | 440M  | 2000     | 2 + 110/s              | 22s        | 11s      | 5           | 30         |
+| Calista-Dal (v4)      | 8    | -    | 900K  | 600M  | 1000     | 2 + 130/s              | 20s        | 10s      | 7           | 40         |
+| Kaldos                | 3    | 18   | 500K  | 160M  | 3500     | 16 + 90/s              | 12s        | 12s      | 2           | 15         |
+| Kaldos (v2)           | 4    | -    | 700K  | 200M  | 3000     | 16 + 100/s             | 10s        | 10s      | 3           | 20         |
+| Kaldos (v3)           | 6    | -    | 1100K | 280M  | 2000     | 16 + 120/s             | 6s         | 6s       | 5           | 30         |
+| Kaldos (v4)           | 8    | -    | 1500K | 360M  | 1000     | 16 + 140/s             | 2s         | 2s       | 7           | 40         |
+| Equinox               | 3    | 20   | 600K  | 180M  | 4500     | 8 + 110/s              | 16s        | 22s      | 2           | 15         |
+| Equinox (v2)          | 4    | -    | 900K  | 240M  | 4000     | 8 + 130/s              | 14s        | 20s      | 3           | 20         |
+| Equinox (v3)          | 6    | -    | 1500K | 360M  | 3000     | 8 + 170/s              | 12s        | 18s      | 5           | 30         |
+| Equinox (v4)          | 8    | -    | 2100K | 480M  | 2000     | 8 + 210/s              | 10s        | 16s      | 7           | 40         |
+
+notes:
+- the values for the three main drives grow by a fixed rate per tech-level (spd +100,200,300; rng +40,+40 *-20 initial offset*, +40)

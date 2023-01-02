@@ -2351,6 +2351,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>68</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>20000</Money>
 		</BuildCost>

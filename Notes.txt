@@ -150,6 +150,14 @@ Hive		 22:1.2M				1600		180M	30		54				20
 
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 
+ReactorFuelUnitsForFullCharge * X = ReactorEnergyStorageCapacity
+X = ReactorEnergyStorageCapacity/ReactorFuelUnitsForFullCharge
+1/X = ReactorFuelUnitsForFullCharge/ReactorEnergyStorageCapacity
+FuelRatio = 1000 * ReactorFuelUnitsForFullCharge/ReactorEnergyStorageCapacity
+
+ReactorFuelUnitsForFullCharge = ReactorEnergyStorageCapacity*FuelRatio/1000
+
+
 						v2
 Space Reactors		68/115/.2			.0017391
 
@@ -479,3 +487,6 @@ Military Transports			683
 Expanded Troop Transports	684
 Large Troop Transports		685
 
+Clear all intercept values:
+	(<WeaponIntercept[a-zA-Z]+>)[0-9.][^<]*
+	$10
