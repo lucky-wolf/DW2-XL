@@ -11471,7 +11471,7 @@
 		<ResearchProjectId>268</ResearchProjectId>
 		<Name>Specialized Escorts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>300</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -11487,16 +11487,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>2</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>679</ResearchProjectId>
+				<ResearchProjectId>680</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>386</ResearchProjectId>
+				<ResearchProjectId>403</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -12375,7 +12375,7 @@
 		<ResearchProjectId>287</ResearchProjectId>
 		<Name>Specialized Frigates</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -12395,16 +12395,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>3</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>680</ResearchProjectId>
+				<ResearchProjectId>681</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>403</ResearchProjectId>
+				<ResearchProjectId>419</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -13612,16 +13612,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>682</ResearchProjectId>
+				<ResearchProjectId>311</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>849</ResearchProjectId>
+				<ResearchProjectId>850</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15844,7 +15844,7 @@
 		<ResearchProjectId>359</ResearchProjectId>
 		<Name>Specialized Destroyers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -15864,16 +15864,16 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>681</ResearchProjectId>
+				<ResearchProjectId>682</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>419</ResearchProjectId>
+				<ResearchProjectId>849</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -28430,7 +28430,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>680</ResearchProjectId>
-		<Name>Star Frigates</Name>
+		<Name>Stellar Frigates</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
 		<InitiationCost>

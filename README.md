@@ -7,7 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-		- [v1.9.0](#v190)
+		- [v1.8.8](#v188)
 		- [v1.8.6](#v186)
 		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
@@ -69,6 +69,7 @@ Author: Mordachai (lucky-wolf)
 	- [DW2-XL Fighter/Bomber Armor](#dw2-xl-fighterbomber-armor)
 	- [DW2-XL Reactors](#dw2-xl-reactors)
 	- [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
+	- [DW2-XL Engines](#dw2-xl-engines)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -106,13 +107,15 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.9.0
+### v1.8.8
 - Removed PD function from all weapons except \[PD\] and interceptor weapons (\[Ftr\] size 5 weapons)
 - Normalized \[Ftr\] weapons to size 5 and 10 only
 - Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
 - Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 - Compressed the Engines tech tree to give a better mid-game-flow
 - Planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
+- Fixed construction tree cost bugs (and adjusted specialized +1 column deeper in tree)
+- Added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
 
 ### v1.8.6
 - Redid the Construction tech tree to make specialized ships available sooner
@@ -616,7 +619,7 @@ This also allows cruisers to be your early fleet command ships - able to give up
 All upgrades in DW2-XL follow a +20% over the previous technology level.  So specialized destroyers are 20% larger than their base size, allowing for a significant increase in firepower (moving from mediums to large weapons where possible, and maximizing speed, defenses, etc.)
 
 ## DW2-XL Armor
-| Type                 | Blast Rating | Reactive |  Ion |
+| Ship Armor           | Blast Rating | Reactive |  Ion |
 | -------------------- | -----------: | -------: | ---: |
 | Standard             |           80 |        2 |    0 |
 |                      |              |          |      |
@@ -648,7 +651,7 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Stellar              |          900 |       14 |   48 |
 
 ## DW2-XL Fighter/Bomber Armor
-| Type                   | Blast Rating | Reactive |  Ion |
+| Fighter/Bomber Armor   | Blast Rating | Reactive |  Ion |
 | ---------------------- | -----------: | -------: | ---: |
 | Standard               |           14 |        0 |    0 |
 |                        |              |          |      |
@@ -681,49 +684,68 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 ## DW2-XL Reactors
 
-| Tech | Drive                           | Size | Energy | Capacity | Fuel to Energy Ratio |
-| ---- | ------------------------------- | ---- | ------ | -------- | -------------------- |
-| 0    | Space Reactor                   | 23   | 54/s   | 90       | 2.333/1000           |
-| 1    | Space Reactor (v2)              | 23   | 68/s   | 115      | 1.739/1000           |
-| 2    | Fusion Reactor                  | 16   | 80/s   | 120      | 1.500/1000           |
-| 3    | Fusion Reactor (v2)             | -    | 100/s  | 144      | 1.400/1000           |
-| 4    | Fusion Reactor (v3)             | -    | 120/s  | 173      | 1.300/1000           |
-| 5    | Hyperfusion Reactor             | 14   | 160/s  | 200      | 1.200/1000           |
-| 6    | Hyperfusion Reactor (v2)        | -    | 200/s  | 240      | 1.100/1000           |
-| 7    | Hyperfusion Reactor (v3)        | -    | 240/s  | 280      | 1.000/1000           |
-| 2    | Fission Reactor                 | 20   | 120/s  | 144      | 1.700/1000           |
-| 3    | Fission Reactor (v2)            | -    | 140/s  | 173      | 1.600/1000           |
-| 4    | Fission Reactor (v3)            | -    | 160/s  | 207      | 1.500/1000           |
-| 5    | Hyperfission Reactor            | 18   | 200/s  | 240      | 1.400/1000           |
-| 6    | Hyperfission Reactor (v2)       | -    | 240/s  | 288      | 1.300/1000           |
-| 7    | Hyperfission Reactor (v3)       | -    | 280/s  | 346      | 1.200/1000           |
-| 2    | Antimatter Reactor              | 24   | 160/s  | 216      | 1.900/1000           |
-| 3    | Antimatter Reactor (v2)         | -    | 180/s  | 259      | 1.800/1000           |
-| 4    | Antimatter Reactor (v3)         | -    | 200/s  | 311      | 1.700/1000           |
-| 5    | Antimatter Cycling Reactor      | 22   | 240/s  | 360      | 1.600/1000           |
-| 6    | Antimatter Cycling Reactor (v2) | -    | 280/s  | 432      | 1.500/1000           |
-| 7    | Antimatter Cycling Reactor (v3) | -    | 320/s  | 518      | 1.400/1000           |
-| 8    | Zero Point Reactor              | 20   | 311/s  | 605      | 1.000/1000           |
-| 12   | Dark Star Reactor               | 20   | 500/s  | 1000     | 0.900/1000           |
+| Ship Reactor                    | Tech | Size | Energy | Capacity | Fuel Efficiency |
+| ------------------------------- | ---: | ---: | -----: | -------: | --------------: |
+| Space Reactor                   |    0 |   23 |   54/s |       90 |      2.333/1000 |
+| Space Reactor (v2)              |    1 |   23 |   68/s |      115 |      1.739/1000 |
+| Fusion Reactor                  |    2 |   16 |   80/s |      120 |      1.500/1000 |
+| Fusion Reactor (v2)             |    3 |    - |  100/s |      144 |      1.400/1000 |
+| Fusion Reactor (v3)             |    4 |    - |  120/s |      173 |      1.300/1000 |
+| Hyperfusion Reactor             |    5 |   14 |  160/s |      200 |      1.200/1000 |
+| Hyperfusion Reactor (v2)        |    6 |    - |  200/s |      240 |      1.100/1000 |
+| Hyperfusion Reactor (v3)        |    7 |    - |  240/s |      280 |      1.000/1000 |
+| Fission Reactor                 |    2 |   20 |  120/s |      144 |      1.700/1000 |
+| Fission Reactor (v2)            |    3 |    - |  140/s |      173 |      1.600/1000 |
+| Fission Reactor (v3)            |    4 |    - |  160/s |      207 |      1.500/1000 |
+| Hyperfission Reactor            |    5 |   18 |  200/s |      240 |      1.400/1000 |
+| Hyperfission Reactor (v2)       |    6 |    - |  240/s |      288 |      1.300/1000 |
+| Hyperfission Reactor (v3)       |    7 |    - |  280/s |      346 |      1.200/1000 |
+| Antimatter Reactor              |    2 |   24 |  160/s |      216 |      1.900/1000 |
+| Antimatter Reactor (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
+| Antimatter Reactor (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
+| Antimatter Cycling Reactor      |    5 |   22 |  240/s |      360 |      1.600/1000 |
+| Antimatter Cycling Reactor (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
+| Antimatter Cycling Reactor (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
+| Zero Point Reactor              |    8 |   20 |  311/s |      605 |      1.000/1000 |
+| Dark Star Reactor               |   12 |   20 |  500/s |     1000 |      0.900/1000 |
 
 ## DW2-XL Hyperdrives
-| Drive                 | Tech | Size | Speed | Range | Accuracy | Energy (static+in-use) | Initiation | Recharge | Ion Defense | Insulation |
-| --------------------- | ---- | ---- | ----- | ----- | -------- | ---------------------- | ---------- | -------- | ----------- | ---------- |
-| Skip Drive            | 0    | 20   | 100K  | 75M   | 5000     | 5 + 50/s               | 20s        | 30s      |             |            |
-| Warp Bubble Generator | 1    | 20   | 200K  | 120M  | 5000     | 5 + 60/s               | 17s        | 28s      |             |            |
-| Gerax                 | 2    | 20   | 300K  | 140M  | 4250     | 3 + 70/s               | 16s        | 25s      | 1           | 10         |
-| Calista-Dal           | 3    | 16   | 400K  | 200M  | 3500     | 2 + 80/s               | 26s        | 13s      | 2           | 15         |
-| Calista-Dal (v2)      | 4    | -    | 500K  | 280M  | 3000     | 2 + 90/s               | 24s        | 12s      | 3           | 20         |
-| Calista-Dal (v3)      | 6    | -    | 700K  | 440M  | 2000     | 2 + 110/s              | 22s        | 11s      | 5           | 30         |
-| Calista-Dal (v4)      | 8    | -    | 900K  | 600M  | 1000     | 2 + 130/s              | 20s        | 10s      | 7           | 40         |
-| Kaldos                | 3    | 18   | 500K  | 160M  | 3500     | 16 + 90/s              | 12s        | 12s      | 2           | 15         |
-| Kaldos (v2)           | 4    | -    | 700K  | 200M  | 3000     | 16 + 100/s             | 10s        | 10s      | 3           | 20         |
-| Kaldos (v3)           | 6    | -    | 1100K | 280M  | 2000     | 16 + 120/s             | 6s         | 6s       | 5           | 30         |
-| Kaldos (v4)           | 8    | -    | 1500K | 360M  | 1000     | 16 + 140/s             | 2s         | 2s       | 7           | 40         |
-| Equinox               | 3    | 20   | 600K  | 180M  | 4500     | 8 + 110/s              | 16s        | 22s      | 2           | 15         |
-| Equinox (v2)          | 4    | -    | 900K  | 240M  | 4000     | 8 + 130/s              | 14s        | 20s      | 3           | 20         |
-| Equinox (v3)          | 6    | -    | 1500K | 360M  | 3000     | 8 + 170/s              | 12s        | 18s      | 5           | 30         |
-| Equinox (v4)          | 8    | -    | 2100K | 480M  | 2000     | 8 + 210/s              | 10s        | 16s      | 7           | 40         |
+| Hyperdrive            | Tech | Size | Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
+| --------------------- | ---: | ---: | ----: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
+| Skip Drive            |    0 |   20 |  100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
+| Warp Bubble Generator |    1 |   20 |  200K |  120M |     5000 |             5 |          60/s |        17s |      28s |             |            |
+| Gerax                 |    2 |   20 |  300K |  140M |     4250 |             3 |          70/s |        16s |      25s |           1 |         10 |
+| Calista-Dal           |    3 |   16 |  400K |  200M |     3500 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Calista-Dal (v2)      |    4 |    - |  500K |  280M |     3000 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Calista-Dal (v3)      |    6 |    - |  700K |  440M |     2000 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Calista-Dal (v4)      |    8 |    - |  900K |  600M |     1000 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Kaldos                |    3 |   18 |  500K |  160M |     3500 |            16 |          90/s |        12s |      12s |           2 |         15 |
+| Kaldos (v2)           |    4 |    - |  700K |  200M |     3000 |            16 |         100/s |        10s |      10s |           3 |         20 |
+| Kaldos (v3)           |    6 |    - | 1100K |  280M |     2000 |            16 |         120/s |         6s |       6s |           5 |         30 |
+| Kaldos (v4)           |    8 |    - | 1500K |  360M |     1000 |            16 |         140/s |         2s |       2s |           7 |         40 |
+| Equinox               |    3 |   20 |  600K |  180M |     4500 |             8 |         110/s |        16s |      22s |           2 |         15 |
+| Equinox (v2)          |    4 |    - |  900K |  240M |     4000 |             8 |         130/s |        14s |      20s |           3 |         20 |
+| Equinox (v3)          |    6 |    - | 1500K |  360M |     3000 |             8 |         170/s |        12s |      18s |           5 |         30 |
+| Equinox (v4)          |    8 |    - | 2100K |  480M |     2000 |             8 |         210/s |        10s |      16s |           7 |         40 |
 
-notes:
-- the values for the three main drives grow by a fixed rate per tech-level (spd +100,200,300; rng +40,+40 *-20 initial offset*, +40)
+## DW2-XL Engines
+| Ship Engine               | Tech | Size | Max Thrust | Max Energy | Cruise Thrust | Cruise Energy | Vector Thrust | Vector Energy | Countermeasures | Ion Defense |
+| ------------------------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
+| Ion Engine                |    0 |   20 |      15.0K |      2.8/s |           12K |         2.0/s |            70 |         2.0/s |                 |             |
+| Ion Engine (v2)           |    1 |    - |      16.5K |      2.0/s |         13.2K |         1.4/s |            90 |         1.0/s |            2.5% |           1 |
+| Quantum Engine            |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
+| Quantum Engine (v2)       |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
+| Quantum Engine (v3)       |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
+| Proton Engine             |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
+| Proton Engine (v2)        |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
+| Proton Engine (v3)        |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
+| Acceleros Engine          |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
+| Acceleros Engine (v2)     |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
+| Acceleros Engine (v3)     |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
+| TurboThruster Engine      |    2 |   17 |      23.1K |      4.5/s |         16.5K |         3.0/s |           115 |         1.0/s |            5.0% |           2 |
+| TurboThruster Engine (v2) |    3 |    - |    26.429K |      6.0/s |       19.516K |         4.0/s |           145 |         1.0/s |            7.5% |           3 |
+| TurboThruster Engine (v3) |    4 |    - |    34.357K |     10.0/s |       23.429K |         5.0/s |           185 |         1.0/s |           10.0% |           4 |
+| Vortex Engine             |    6 |   15 |    27.953K |      6.0/s |       24.396K |         5.0/s |           225 |         1.0/s |           15.0% |           6 |
+| Vortex Engine (v2)        |    7 |    - |    34.942K |      7.0/s |       30.494K |         6.0/s |           300 |         1.0/s |           17.5% |           7 |
+| Vortex Engine (v3)        |    8 |    - |    43.677K |      8.0/s |       38.118K |         7.0/s |           375 |         1.0/s |           20.0% |           8 |
+| Infinite Flux Drive       |   12 |   15 |      50.0K |     12.0/s |         40.0K |         9.0/s |           400 |         1.0/s |           25.0% |          10 |
