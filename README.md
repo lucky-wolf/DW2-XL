@@ -7,7 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-		- [v1.8.8](#v188)
+		- [v1.8.7](#v187)
 		- [v1.8.6](#v186)
 		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
@@ -107,7 +107,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.8.8
+### v1.8.7
 - Removed PD function from all weapons except \[PD\] and interceptor weapons (\[Ftr\] size 5 weapons)
 - Normalized \[Ftr\] weapons to size 5 and 10 only
 - Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
