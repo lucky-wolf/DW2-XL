@@ -112,10 +112,10 @@ YMMV, but this is my take on making it Extra Large!
 - Normalized \[Ftr\] weapons to size 5 and 10 only
 - Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
 - Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
+- Added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
 - Compressed the Engines tech tree to give a better mid-game-flow
 - Planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
-- Fixed construction tree cost bugs (and adjusted specialized +1 column deeper in tree)
-- Added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
+- Bug fix: construction tree cost bugs (and adjusted specialized +1 column deeper in tree)
 
 ### v1.8.6
 - Redid the Construction tech tree to make specialized ships available sooner
