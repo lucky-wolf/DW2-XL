@@ -108,7 +108,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.8.7
-- Removed PD function from all weapons except \[PD\] and interceptor weapons (\[Ftr\] size 5 weapons)
+- Removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[Ftr\] weapons
 - Normalized \[Ftr\] weapons to size 5 and 10 only
 - Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
 - Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
