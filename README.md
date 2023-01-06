@@ -113,9 +113,15 @@ YMMV, but this is my take on making it Extra Large!
 - Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
 - Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 - Added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
+- Added ion shield component for fighter craft
 - Compressed the Engines tech tree to give a better mid-game-flow
 - Planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
-- Bug fix: construction tree cost bugs (and adjusted specialized +1 column deeper in tree)
+- Bug fix: specialized military ship tech cost adjust to new arrangement
+- Bug fix: EM Defenses now require Ion Beams and Advanced Deflectors
+- Bug fix: EM Defenses now require some power to run the things
+- Bug fix: Base level Reactive Armor was 4 reflective but should have been a 5 (+2 compared to heavy armors)
+- Bug fix: Regenerated all fighters, bombers, and interceptor shmd files (fixes weapon mounts for drones)
+- Bug fix: Removed unnecessary shmd files from this mod
 
 ### v1.8.6
 - Redid the Construction tech tree to make specialized ships available sooner
@@ -624,7 +630,7 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Standard             |           80 |        2 |    0 |
 |                      |              |          |      |
 | Ion Sheath           |           96 |        3 |    8 |
-| Reactive             |           96 |        4 |    2 |
+| Reactive             |           96 |        5 |    2 |
 | Heavy                |          120 |        3 |    1 |
 | Flux Sheath          |          120 |        4 |    4 |
 |                      |              |          |      |
