@@ -9615,43 +9615,43 @@
 		<ResearchProjectId>206</ResearchProjectId>
 		<Name>Gravitic Singularity Creation</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>48600</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>48000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>9</Column>
 		<Row>21</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9659,7 +9659,18 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>174</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>529</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>66</ComponentId>
@@ -9671,31 +9682,24 @@
 		<ResearchProjectId>207</ResearchProjectId>
 		<Name>Extreme Gravitic Control</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>72900</Size>
+		<Size>48600</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>48000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>9</Column>
 		<Row>25</Row>
-		<DisallowedRaceIds>
-			<!-- Teakans have better tech -->
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>175</ResearchProjectId>
@@ -9704,6 +9708,11 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>176</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>529</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -18710,6 +18719,10 @@
 		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
+				<ComponentId>406</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>112</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -20155,6 +20168,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>406</ComponentId>
+				<Level>1</Level>
+			</Component>
 			<Component>
 				<ComponentId>112</ComponentId>
 				<Level>1</Level>
@@ -24482,6 +24499,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>407</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>123</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -25915,6 +25936,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>407</ComponentId>
+				<Level>1</Level>
+			</Component>
 			<Component>
 				<ComponentId>123</ComponentId>
 				<Level>1</Level>
@@ -27409,7 +27434,7 @@
 		<Row>295</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>596</ResearchProjectId>
+				<ResearchProjectId>420</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27429,7 +27454,7 @@
 		<Row>297</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>596</ResearchProjectId>
+				<ResearchProjectId>420</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27449,7 +27474,7 @@
 		<Row>298</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>596</ResearchProjectId>
+				<ResearchProjectId>420</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>

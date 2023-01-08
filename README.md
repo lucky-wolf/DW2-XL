@@ -108,30 +108,33 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.8.7
-- Removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[Ftr\] weapons
-- Normalized \[Ftr\] weapons to size 5 and 10 only
-- Recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
-- Recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
-- Added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
-- Added ion shield component for fighter craft
-- Compressed the Engines tech tree to give a better mid-game-flow
-- Planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
+- Added: Ion Shields and Stealth components for fighter & bombers
+- Balance: removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[Ftr\] weapons
+- Balance: normalized \[Ftr\] weapons to size 5 and 10 only
+- Balance: recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
+- Balance: recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
+- Balance: added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
+- Balance: compressed the Engines tech tree to give a better mid-game-flow
+- Balance: planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
+- Balance: smoothed out terraforming facilities terraforming rates to a slow growth curve (terraforming is a decades long endeavour)
 - Bug fix: specialized military ship tech cost adjust to new arrangement
 - Bug fix: EM Defenses now require Ion Beams and Advanced Deflectors
 - Bug fix: EM Defenses now require some power to run the things
 - Bug fix: Base level Reactive Armor was 4 reflective but should have been a 5 (+2 compared to heavy armors)
 - Bug fix: Regenerated all fighters, bombers, and interceptor shmd files (fixes weapon mounts for drones)
 - Bug fix: Removed unnecessary shmd files from this mod
+- Bug fix: Endgame terraforming techs connected to ultimate terraforming
+- Bug fix: I-Stealth countermeasures are now better than their stealth predecessors
+- Bug fix: Gravitic Singularity Creation and Extreme Gravitic Control are now available for Teekans and Haakonish from their their racial tech lines
 
 ### v1.8.6
-- Redid the Construction tech tree to make specialized ships available sooner
+- Balance: redid the construction tech tree to make specialized ships available sooner
 
 ### v1.8.5
 - Bug fix: Ionic armor requires basic ion weapons
 - Bug fix: Reactive armor requires basic deflectors
-- Terraforming Facility
-  - Terraforming limits set to 10, 30, 50, 70, 100
-  - Spread them out to level 9
+- Balance: terraforming limits set to 10, 30, 50, 70, 100
+- Balance: terraforming tech spread out to level 9
 - Fleet templates: Attack & Defense fleets now default to "sector range"
   - You should be able to assign them home bases and that should be a strong affinity for theater of operations
   - Late game was getting ridiculous with fleets flying literally around the galaxy
