@@ -9650,7 +9650,7 @@
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>2</ProjectAppearanceProbability>
 		<Column>9</Column>
 		<Row>21</Row>
 		<PrerequisiteProjects>
@@ -9668,9 +9668,10 @@
 				<ResearchProjectId>529</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>3</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>66</ComponentId>
