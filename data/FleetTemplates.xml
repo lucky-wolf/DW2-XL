@@ -5,7 +5,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
-		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -18,40 +18,38 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
 
-		<ShipAmounts>
-			<ShipRoleFactor>
-				<Role>Escort</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Frigate</Role>
-				<Factor>6</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Destroyer</Role>
-				<Factor>4</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Cruiser</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>CapitalShip</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Carrier</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>TroopTransport</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>FuelTanker</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-		</ShipAmounts>
+	  <Items>
+		  <FleetTemplateItem>
+			  <Role>Frigate</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>8</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Destroyer</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>6</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Cruiser</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>4</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>CapitalShip</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>2</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Carrier</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>2</Amount>
+		  </FleetTemplateItem>
+	  </Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>1</FleetTemplateId>
@@ -71,40 +69,26 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-		<ShipAmounts>
-			<ShipRoleFactor>
-				<Role>Escort</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Frigate</Role>
-				<Factor>6</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Destroyer</Role>
-				<Factor>4</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Cruiser</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>CapitalShip</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Carrier</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>TroopTransport</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>FuelTanker</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-		</ShipAmounts>
+	  <Items>
+		  <FleetTemplateItem>
+			  <Role>Frigate</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>3</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Destroyer</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>2</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Cruiser</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>1</Amount>
+		  </FleetTemplateItem>
+	  </Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>2</FleetTemplateId>
@@ -122,38 +106,28 @@
 		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
+		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-		<ShipAmounts>
-			<ShipRoleFactor>
-				<Role>Escort</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Frigate</Role>
-				<Factor>6</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Destroyer</Role>
-				<Factor>4</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Cruiser</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>CapitalShip</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Carrier</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>TroopTransport</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-		</ShipAmounts>
+	  <Items>
+		  <FleetTemplateItem>
+			  <Role>Frigate</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>6</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Destroyer</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>4</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Cruiser</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>2</Amount>
+		  </FleetTemplateItem>
+	  </Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>3</FleetTemplateId>
@@ -171,41 +145,33 @@
 		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeImmediately</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
+		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-		<ShipAmounts>
-			<ShipRoleFactor>
-				<Role>Escort</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Frigate</Role>
-				<Factor>6</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Destroyer</Role>
-				<Factor>4</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Cruiser</Role>
-				<Factor>2</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>CapitalShip</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>Carrier</Role>
-				<Factor>1</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>TroopTransport</Role>
-				<Factor>6</Factor>
-			</ShipRoleFactor>
-			<ShipRoleFactor>
-				<Role>FuelTanker</Role>
-				<Factor>0</Factor>
-			</ShipRoleFactor>
-		</ShipAmounts>
+	  <Items>
+		  <FleetTemplateItem>
+			  <Role>Frigate</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>6</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Destroyer</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>4</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>Cruiser</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>2</Amount>
+		  </FleetTemplateItem>
+		  <FleetTemplateItem>
+			  <Role>TroopTransport</Role>
+			  <ShipHullId>-1</ShipHullId>
+			  <DesignId>-1</DesignId>
+			  <Amount>6</Amount>
+		  </FleetTemplateItem>
+	  </Items>
 	</FleetTemplate>
 </ArrayOfFleetTemplate>

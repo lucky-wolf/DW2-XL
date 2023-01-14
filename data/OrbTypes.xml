@@ -1243,7 +1243,7 @@
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>1</ChildCountMaximum>
 		<QualityRangeMinimum>0.6</QualityRangeMinimum>
-		<QualityRangeMaximum>0.9</QualityRangeMaximum>
+		<QualityRangeMaximum>1</QualityRangeMaximum>
 		<OrbitalDistanceFromSunRatioMinimum>0.192</OrbitalDistanceFromSunRatioMinimum>
 		<OrbitalDistanceFromSunRatioMaximum>0.448</OrbitalDistanceFromSunRatioMaximum>
 		<DiameterMinimum>4000</DiameterMinimum>
@@ -1330,6 +1330,7 @@
 			<A>255</A>
 		</AtmosphereColor>
 		<AtmosphereDensity>0.5</AtmosphereDensity>
+		<CloudStormChance>0.05</CloudStormChance>
 		<CloudColor>
 			<B>64</B>
 			<G>144</G>
@@ -1337,7 +1338,6 @@
 			<A>128</A>
 		</CloudColor>
 		<CloudDensity>0.7</CloudDensity>
-		<CloudStormChance>0.05</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/SwampAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/SwampAltitude2</AltitudeGradient2>
 		<OceanGradient>CoreEffects/ShaderGradients/SwampOcean</OceanGradient>
@@ -4522,6 +4522,7 @@
 			<A>255</A>
 		</AtmosphereColor>
 		<AtmosphereDensity>0.5</AtmosphereDensity>
+		<CloudStormChance>0.06</CloudStormChance>
 		<CloudColor>
 			<B>128</B>
 			<G>176</G>
@@ -4529,7 +4530,6 @@
 			<A>128</A>
 		</CloudColor>
 		<CloudDensity>0.7</CloudDensity>
-		<CloudStormChance>0.06</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/MangroveAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/MangroveAltitude2</AltitudeGradient2>
 		<OceanGradient>CoreEffects/ShaderGradients/MangroveOcean</OceanGradient>
@@ -4908,6 +4908,7 @@
 			<A>255</A>
 		</AtmosphereColor>
 		<AtmosphereDensity>0.5</AtmosphereDensity>
+		<CloudStormChance>0.06</CloudStormChance>
 		<CloudColor>
 			<B>12</B>
 			<G>42</G>
@@ -4915,7 +4916,6 @@
 			<A>128</A>
 		</CloudColor>
 		<CloudDensity>0.7</CloudDensity>
-		<CloudStormChance>0.06</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/CarbonaceousAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/CarbonaceousAltitude2</AltitudeGradient2>
 		<OceanGradient>CoreEffects/ShaderGradients/CarbonaceousOcean</OceanGradient>
@@ -5096,6 +5096,7 @@
 			<A>255</A>
 		</AtmosphereColor>
 		<AtmosphereDensity>0.5</AtmosphereDensity>
+    <CloudStormChance>0.06</CloudStormChance>
 		<CloudColor>
 			<B>8</B>
 			<G>60</G>
@@ -5103,7 +5104,6 @@
 			<A>128</A>
 		</CloudColor>
 		<CloudDensity>0.7</CloudDensity>
-		<CloudStormChance>0.06</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/SulphurVolcanoAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/SulphurVolcanoAltitude2</AltitudeGradient2>
 		<OceanGradient></OceanGradient>
