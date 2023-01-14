@@ -7,8 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-		- [v1.8.7](#v187)
 		- [v1.9.0](#v190)
+		- [v1.8.7](#v187)
 		- [v1.8.6](#v186)
 		- [v1.8.5](#v185)
 		- [v1.8.4](#v184)
@@ -108,6 +108,11 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.9.0
+- Updated to use beta game engine 1.0.9.8
+- Bug Fix: ecm & eccm max out at 30% now
+- Upgraded to use new fleet templates
+
 ### v1.8.7
 - Added: Ion Shields and Stealth components for fighter & bombers
 - Balance: removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[Ftr\] weapons
@@ -127,11 +132,6 @@ YMMV, but this is my take on making it Extra Large!
 - Bug fix: Endgame terraforming techs connected to ultimate terraforming
 - Bug fix: I-Stealth countermeasures are now better than their stealth predecessors
 - Bug fix: Gravitic Singularity Creation and Extreme Gravitic Control are now available for Teekans and Haakonish from their their racial tech lines
-
-### v1.9.0
-- Updated to use beta game engine 1.0.9.8
-- Bug Fix: ecm & eccm max out at 30% now
-- Upgraded to use new fleet templates
 
 ### v1.8.6
 - Balance: redid the construction tech tree to make specialized ships available sooner
