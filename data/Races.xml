@@ -29,6 +29,7 @@
 		<Aggression>1.1</Aggression>
 		<Caution>1.1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>2</short>
@@ -41,6 +42,19 @@
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
@@ -71,8 +85,8 @@
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.1</Amount>
+				<Type>Espionage</Type>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -232,6 +246,44 @@
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Excelsior</string>
+			<string>Titan</string>
+			<string>Colossia</string>
+			<string>Striker</string>
+			<string>Thunder</string>
+			<string>Royale</string>
+			<string>Centurion</string>
+			<string>Consul</string>
+			<string>Senator</string>
+			<string>Praetor</string>
+			<string>Quaestor</string>
+			<string>Imperator</string>
+			<string>Maximus</string>
+			<string>Praefectus</string>
+			<string>Tetrarch</string>
+			<string>Decimator</string>
+			<string>Argossia</string>
+			<string>Apulon</string>
+			<string>Battleaxe</string>
+			<string>Javelin</string>
+			<string>Trident</string>
+			<string>Shadow</string>
+			<string>Cossack</string>
+			<string>Minotaur</string>
+			<string>Medusa</string>
+			<string>Victory</string>
+			<string>Vengeance</string>
+			<string>Eclipse</string>
+			<string>Enforcer</string>
+			<string>Sovereign</string>
+			<string>Executor</string>
+			<string>Venator</string>
+			<string>Dominator</string>
+			<string>Allegiance</string>
+			<string>Decurion</string>
+			<string>Sabre</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Donato</string>
 			<string>Gudan</string>
@@ -353,6 +405,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<Aggression>0.9</Aggression>
 		<Caution>1.2</Caution>
 		<Dependability>1.05</Dependability>
+		<ImportanceOfOthersReputations>1.3</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>6</short>
@@ -366,6 +419,19 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<short>5</short>
 			<short>6</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
@@ -390,7 +456,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -537,6 +603,44 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Deliverance</string>
+			<string>Axos</string>
+			<string>Arcadia</string>
+			<string>Atlantis</string>
+			<string>Equinox</string>
+			<string>Epsilon</string>
+			<string>Meridian</string>
+			<string>Nimitz</string>
+			<string>Phoenix</string>
+			<string>Raptor</string>
+			<string>Rekallios</string>
+			<string>Sentinel</string>
+			<string>Tarassian</string>
+			<string>Vortex</string>
+			<string>Verossus</string>
+			<string>Xeros</string>
+			<string>Corellos</string>
+			<string>Cantras</string>
+			<string>Challenger</string>
+			<string>Discovery</string>
+			<string>Enterprise</string>
+			<string>Falcon</string>
+			<string>Giraxon</string>
+			<string>Hercules</string>
+			<string>Lapricus</string>
+			<string>Portia</string>
+			<string>Eagle</string>
+			<string>Osprey</string>
+			<string>Pegasus</string>
+			<string>Sentry</string>
+			<string>Viper</string>
+			<string>Liberty</string>
+			<string>Archaea</string>
+			<string>Condor</string>
+			<string>Iridos</string>
+			<string>Independence</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Equia</string>
 			<string>Senaris</string>
@@ -644,6 +748,7 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 		<Aggression>0.9</Aggression>
 		<Caution>0.9</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>1</short>
@@ -657,38 +762,51 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>MiningRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>DamageControl</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>RepairRate</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>TradeIncome</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -863,6 +981,44 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Lusaka</string>
+			<string>Bindura</string>
+			<string>Sofala</string>
+			<string>Lobito</string>
+			<string>Zanzibar</string>
+			<string>Mombasa</string>
+			<string>Mahajanga</string>
+			<string>Comoros</string>
+			<string>Kinshasa</string>
+			<string>Cabinda</string>
+			<string>Nairobi</string>
+			<string>Axum</string>
+			<string>Senanga</string>
+			<string>Ubundu</string>
+			<string>Aketi</string>
+			<string>Turkana</string>
+			<string>Nyasa</string>
+			<string>Asmera</string>
+			<string>Atbara</string>
+			<string>Calabar</string>
+			<string>Sokoto</string>
+			<string>Takoradi</string>
+			<string>Abidjan</string>
+			<string>Monrovia</string>
+			<string>Bamako</string>
+			<string>Dakar</string>
+			<string>Ibadan</string>
+			<string>Tripoli</string>
+			<string>Aswan</string>
+			<string>Cairo</string>
+			<string>Giza</string>
+			<string>Suez</string>
+			<string>Casablanca</string>
+			<string>Tangiers</string>
+			<string>Agadir</string>
+			<string>Kaduna</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Darrat</string>
 			<string>Kibul</string>
@@ -979,6 +1135,7 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		<Aggression>1.15</Aggression>
 		<Caution>1.05</Caution>
 		<Dependability>0.8</Dependability>
+		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>3</short>
@@ -992,6 +1149,19 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
@@ -1016,7 +1186,7 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1183,6 +1353,44 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Medan</string>
+			<string>Pattani</string>
+			<string>Malacca</string>
+			<string>Letong</string>
+			<string>Tenasserim</string>
+			<string>Tavoy</string>
+			<string>Henzada</string>
+			<string>Chon Buri</string>
+			<string>Vung Tau</string>
+			<string>Chiang Mai</string>
+			<string>Mandalay</string>
+			<string>Haiphong</string>
+			<string>Saigon</string>
+			<string>Bangkok</string>
+			<string>Kelang</string>
+			<string>Singapore</string>
+			<string>Lumpur</string>
+			<string>Jakarta</string>
+			<string>Sarawak</string>
+			<string>Andaman</string>
+			<string>Surabaya</string>
+			<string>Bandar Seri</string>
+			<string>Semarang</string>
+			<string>Kalimanta</string>
+			<string>Surakarta</string>
+			<string>Sumbawa</string>
+			<string>Telok</string>
+			<string>Saravane</string>
+			<string>Samarinda</string>
+			<string>Kandangan</string>
+			<string>Phan Thiet</string>
+			<string>Mekong</string>
+			<string>Sumatra</string>
+			<string>Hanoi</string>
+			<string>Kuantan</string>
+			<string>Sanggau</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Equia</string>
 			<string>Senaris</string>
@@ -1274,6 +1482,7 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		<Aggression>1.3</Aggression>
 		<Caution>0.9</Caution>
 		<Dependability>1.4</Dependability>
+		<ImportanceOfOthersReputations>0.6</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>5</short>
@@ -1286,6 +1495,19 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
@@ -1521,6 +1743,44 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Isfahan</string>
+			<string>Shiraz</string>
+			<string>Bushehr</string>
+			<string>Tabriz</string>
+			<string>Mashhad</string>
+			<string>Ashkhabad</string>
+			<string>Hamadan</string>
+			<string>Yerevan</string>
+			<string>Ahvaz</string>
+			<string>Sanandaj</string>
+			<string>Kashan</string>
+			<string>Ankara</string>
+			<string>Trabzon</string>
+			<string>Istanbul</string>
+			<string>Tarsus</string>
+			<string>Adana</string>
+			<string>Mersin</string>
+			<string>Izmir</string>
+			<string>Iskenderun</string>
+			<string>Sarikamis</string>
+			<string>Hakkari</string>
+			<string>Ordu</string>
+			<string>Mosul</string>
+			<string>Nasiriyah</string>
+			<string>Aleppo</string>
+			<string>Malatya</string>
+			<string>Baku</string>
+			<string>Baqubah</string>
+			<string>Abadan</string>
+			<string>Rutbah</string>
+			<string>Ramadi</string>
+			<string>Bubiyan</string>
+			<string>Astara</string>
+			<string>Latakia</string>
+			<string>Zagros</string>
+			<string>Arak</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Balluk</string>
 			<string>Doktan</string>
@@ -1630,6 +1890,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1.5</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
@@ -1638,10 +1899,23 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1670,8 +1944,36 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>0.10</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
 				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<Biases>
@@ -1843,6 +2145,19 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			<short>5</short>
 			<short>7</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
@@ -1860,7 +2175,7 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			</Bonus>
 			<Bonus>
 				<Type>TroopGroundAttack</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2077,6 +2392,44 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Jaipur</string>
+			<string>Kathmandu</string>
+			<string>Varanasi</string>
+			<string>Guntur</string>
+			<string>Agra</string>
+			<string>Kochi</string>
+			<string>Dhaka</string>
+			<string>Karachi</string>
+			<string>Kashmir</string>
+			<string>Delhi</string>
+			<string>Orissa</string>
+			<string>Pradesh</string>
+			<string>Dehra Dun</string>
+			<string>Bhopal</string>
+			<string>Jamnagar</string>
+			<string>Bhavnagar</string>
+			<string>Kanpur</string>
+			<string>Bihar</string>
+			<string>Bhatpara</string>
+			<string>Akola</string>
+			<string>Hyderabad</string>
+			<string>Bangalore</string>
+			<string>Tenali</string>
+			<string>Proddatur</string>
+			<string>Sira</string>
+			<string>Bhatkal</string>
+			<string>Badagara</string>
+			<string>Imphal</string>
+			<string>Alwar</string>
+			<string>Gurkha</string>
+			<string>Simikot</string>
+			<string>Bengal</string>
+			<string>Ratlam</string>
+			<string>Sikar</string>
+			<string>Ranchi</string>
+			<string>Srinagar</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Qarg</string>
 			<string>Cwedo</string>
@@ -2188,6 +2541,7 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 		<Aggression>1</Aggression>
 		<Caution>1.4</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1.4</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>4</short>
@@ -2201,6 +2555,19 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			<short>5</short>
 			<short>6</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
@@ -2210,15 +2577,8 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
-				<Type>ResearchHighTech</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>-1</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
 				<Type>ResearchShields</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2437,6 +2797,44 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 				<Id>0</Id>
 			</VictoryCondition>
 		</VictoryConditions>
+		<DesignNames>
+			<string>Constantia</string>
+			<string>Stara Zagora</string>
+			<string>Oradea</string>
+			<string>Foscani</string>
+			<string>Satu Mare</string>
+			<string>Napoca</string>
+			<string>Zalau</string>
+			<string>Rimnicu</string>
+			<string>Varna</string>
+			<string>Negru Voda</string>
+			<string>Medias</string>
+			<string>Venezia</string>
+			<string>Rovigo</string>
+			<string>Rimini</string>
+			<string>Brindisi</string>
+			<string>Cosenza</string>
+			<string>Capri</string>
+			<string>Livorno</string>
+			<string>Alassio</string>
+			<string>Macerata</string>
+			<string>Taranto</string>
+			<string>Salerno</string>
+			<string>Bergamo</string>
+			<string>Imperia</string>
+			<string>Barcelona</string>
+			<string>Valencia</string>
+			<string>Cartagena</string>
+			<string>Zaragoza</string>
+			<string>Lerida</string>
+			<string>Montblanc</string>
+			<string>Toledo</string>
+			<string>Portalegre</string>
+			<string>Sintra</string>
+			<string>Segovia</string>
+			<string>Legrono</string>
+			<string>Agricento</string>
+		</DesignNames>
 		<CharacterFirstNames>
 			<string>Lebon</string>
 			<string>Arridan</string>
@@ -2540,11 +2938,25 @@ Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. Th
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
@@ -2688,14 +3100,28 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 		<ReproductionRate>1.08</ReproductionRate>
 		<AssimilationRate>1</AssimilationRate>
 		<MigrationFactor>0</MigrationFactor>
-		<Aggression>0</Aggression>
-		<Caution>0</Caution>
+		<Aggression>1</Aggression>
+		<Caution>1</Caution>
 		<Dependability>0</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
@@ -2835,11 +3261,25 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
@@ -2870,11 +3310,11 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.2</Factor>
+				<Factor>0.25</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3016,11 +3456,25 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyDefense</Type>
@@ -3205,11 +3659,25 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>Espionage</Type>
@@ -3243,19 +3711,10 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization>
-			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.4</Factor>
-			</OrbTypeFactor>
-		</MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization />
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3381,11 +3840,25 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -3419,23 +3892,10 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
 				<Factor>0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-		</MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization />
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3564,11 +4024,25 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>RecruitedTroopStrengthInfantry</Type>
@@ -3746,11 +4220,25 @@ Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets,
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
@@ -3898,7 +4386,7 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
-		<BundleName></BundleName>
+		<BundleName>Quameno</BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -3917,11 +4405,25 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
@@ -4075,11 +4577,25 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
@@ -4215,11 +4731,25 @@ Though they often industriously mine for gemstones, they generally take little i
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchEngines</Type>
@@ -4383,11 +4913,25 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<Aggression>1</Aggression>
 		<Caution>1</Caution>
 		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 		</AllowableGovernmentIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
 		<Bonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
@@ -4421,7 +4965,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
@@ -4429,7 +4973,7 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4569,6 +5113,7 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 		<Aggression>2</Aggression>
 		<Caution>0.5</Caution>
 		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<PreventUseAsIndependent>true</PreventUseAsIndependent>
 		<AllowableGovernmentIds>
@@ -4649,6 +5194,7 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 		<Aggression>2</Aggression>
 		<Caution>0.5</Caution>
 		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
 		<PreventUseAsIndependent>true</PreventUseAsIndependent>
 		<AllowableGovernmentIds>
@@ -4701,36 +5247,38 @@ Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typical
 		<Description></Description>
 	</Race>
 
-	<!--Race>
-    <RaceId>20</RaceId>
-    <MainColor>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <A>0</A>
-    </MainColor>
-    <SecondaryColor>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <A>0</A>
-    </SecondaryColor>
-    <ReproductionRate>1.03</ReproductionRate>
-    <AssimilationRate>1</AssimilationRate>
-    <MigrationFactor>1</MigrationFactor>
-    <Aggression>1</Aggression>
-    <Caution>1</Caution>
-    <Dependability>1</Dependability>
-    <IsPlayable>false</IsPlayable>
-    <AllowableGovernmentIds>
-      <short>0</short>
-      <short>1</short>
-    </AllowableGovernmentIds>
-    <DefaultInfantryId>54</DefaultInfantryId>
-    <Name>Shakturi</Name>
-    <ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
-  </Race>
 	<Race>
+		<RaceId>20</RaceId>
+		<BundleName>Shakturi</BundleName>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.03</ReproductionRate>
+		<AssimilationRate>1</AssimilationRate>
+		<MigrationFactor>1</MigrationFactor>
+		<Aggression>1</Aggression>
+		<Caution>1</Caution>
+		<Dependability>1</Dependability>
+		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+		<IsPlayable>false</IsPlayable>
+		<AllowableGovernmentIds>
+			<short>0</short>
+			<short>1</short>
+		</AllowableGovernmentIds>
+		<DefaultInfantryId>54</DefaultInfantryId>
+		<Name>Shakturi</Name>
+		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
+	</Race>
+	<!--Race>
     <RaceId>21</RaceId>
     <MainColor>
       <R>0</R>
