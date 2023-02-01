@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.9.2](#v192)
 		- [v1.9.1](#v191)
 		- [v1.9.0](#v190)
 		- [v1.8.7](#v187)
@@ -108,6 +109,9 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.9.2
+- Bug Fix: Enabled Specialized Destroyers and Specialized Cruisers from Mortalen and Zenox racial sensors (whoops!)
 
 ### v1.9.1
 - Bug Fix: Mining Engines weren't updated for lower 1.0.9.8 rates
