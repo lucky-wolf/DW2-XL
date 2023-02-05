@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.9.4](#v194)
 		- [v1.9.3](#v193)
 		- [v1.9.2](#v192)
 		- [v1.9.1](#v191)
@@ -110,6 +111,14 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.9.5
+- Removed GameEvents.xml because it fails to overwrite the vanilla events, and instead doubles them!
+
+### v1.9.4
+- Updated to use beta game engine 1.1.0.3
+  - Applied a TON of changes to the ship hull definitions for all major races (missed these from 1.1.0.0)
+- This is now a steam workshop item "XL" - please use that to use this mod - it will no longer be supported as a download & merge approach!
 
 ### v1.9.3
 - Updated to use beta game engine 1.1.0.0

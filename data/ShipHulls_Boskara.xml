@@ -3281,14 +3281,14 @@
 		<Bonuses>
 			<Bonus>
 				<Type>ShipSpeed</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShipManeuvering</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3404,9 +3404,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -3423,6 +3422,7 @@
 				<ComponentBayId>7</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -3437,7 +3437,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -3563,6 +3563,38 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>16</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>17</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -3588,7 +3620,7 @@
 		<ArmorReactiveRating>3</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
@@ -4018,6 +4050,38 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>25</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>26</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -4052,7 +4116,7 @@
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.1</TargetingBonus>
+		<TargetingBonus>0.2</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -6885,7 +6949,7 @@
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>1</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
@@ -7066,9 +7130,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7085,7 +7148,7 @@
 				<ComponentBayId>10</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense1</MeshName>
+				<MeshName>#defense0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7102,6 +7165,7 @@
 				<ComponentBayId>11</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7132,8 +7196,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>13</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>60</MaximumComponentSize>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7165,7 +7229,7 @@
 			<ComponentBay>
 				<ComponentBayId>15</ComponentBayId>
 				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
+				<MaximumComponentSize>60</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7354,6 +7418,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>27</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -7383,22 +7463,6 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipSpeed</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -7512,6 +7576,388 @@
 				<Type>Sensor</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>9</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>13</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>14</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>15</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>16</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>17</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>18</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>19</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+		</ComponentBays>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId>
+				<Amount>70</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
+				<Amount>70</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+		<Name>Heavy Escort</Name>
+		<ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
+	</ShipHull>
+	<ShipHull>
+		<ShipHullId>667</ShipHullId>
+		<RaceId>6</RaceId>
+		<Role>Escort</Role>
+		<Level>1</Level>
+		<DesignTemplateId>-1</DesignTemplateId>
+		<Size>140</Size>
+		<MaximumSize>450</MaximumSize>
+		<DisplaySize>208</DisplaySize>
+		<ModelName>Ships/Boskara/boskaran_escort</ModelName>
+		<CockpitImageFilename />
+		<BaseCost>1500</BaseCost>
+		<ArmorReactiveRating>3</ArmorReactiveRating>
+		<IonDefense>1</IonDefense>
+		<EngineLimit>-1</EngineLimit>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
+		<TargetingBonus>0</TargetingBonus>
+		<TurnRollRate>0.25</TurnRollRate>
+		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ModelSize>
+			<X>0</X>
+			<Y>0</Y>
+			<Z>0</Z>
+		</ModelSize>
+		<ComponentBays>
+			<ComponentBay>
+				<ComponentBayId>0</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>120</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
+				<MeshName>#weapon2</MeshName>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#engine0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>3</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>4</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>5</ComponentBayId>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
+				<MeshName>#sensor0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>6</ComponentBayId>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -7701,326 +8147,8 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-		</ComponentBays>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>8</ResourceId>
-				<Amount>70</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>12</ResourceId>
-				<Amount>70</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Name>Heavy Escort</Name>
-		<ImageFilename>Ships/Boskara/Images/boskara_escort</ImageFilename>
-	</ShipHull>
-	<ShipHull>
-		<ShipHullId>667</ShipHullId>
-		<RaceId>6</RaceId>
-		<Role>Escort</Role>
-		<Level>1</Level>
-		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>140</Size>
-		<MaximumSize>450</MaximumSize>
-		<DisplaySize>208</DisplaySize>
-		<ModelName>Ships/Boskara/boskaran_escort</ModelName>
-		<CockpitImageFilename />
-		<BaseCost>1500</BaseCost>
-		<ArmorReactiveRating>3</ArmorReactiveRating>
-		<IonDefense>1</IonDefense>
-		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>0.1</CountermeasuresBonus>
-		<TargetingBonus>0</TargetingBonus>
-		<TurnRollRate>0.25</TurnRollRate>
-		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipSpeed</Type>
-				<Amount>0.3</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.3</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
-		<ModelSize>
-			<X>0</X>
-			<Y>0</Y>
-			<Z>0</Z>
-		</ModelSize>
-		<ComponentBays>
 			<ComponentBay>
-				<ComponentBayId>0</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>120</MaximumComponentSize>
-				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>1</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
-				<MeshName>#weapon2</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#engine0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#engine1</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#engine2</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>Sensor</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
-				<MeshName>#sensor0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>11</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>12</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>13</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>14</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>15</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>16</ComponentBayId>
+				<ComponentBayId>18</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -8939,7 +9067,7 @@
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.1</TargetingBonus>
+		<TargetingBonus>0.2</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -9920,7 +10048,7 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Small Space Port</Name>
+		<Name>Small Space Port v2</Name>
 		<ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -11023,6 +11151,15 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -12020,7 +12157,7 @@
 		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.05</CountermeasuresBonus>
-		<TargetingBonus>0</TargetingBonus>
+		<TargetingBonus>0.1</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -12514,22 +12651,6 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipSpeed</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -13457,14 +13578,14 @@
 		<Bonuses>
 			<Bonus>
 				<Type>ShipSpeed</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShipManeuvering</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -14994,7 +15115,7 @@
 		<IonDefense>2</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.1</TargetingBonus>
+		<TargetingBonus>0.2</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<Bonuses>
@@ -16109,7 +16230,7 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Small Space Port</Name>
+		<Name>Small Space Port v3</Name>
 		<ImageFilename>Ships/Boskara/Images/boskara_station_s</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -17164,8 +17285,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>100</MaximumComponentSize>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -17181,7 +17302,7 @@
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
 				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
+				<MaximumComponentSize>100</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -17356,6 +17477,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>20</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>21</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -18732,6 +18869,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</Bonuses>
 		<ModelSize>
 			<X>0</X>
@@ -19795,7 +19939,7 @@
 		<IonDefense>3</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.15</TargetingBonus>
+		<TargetingBonus>0.25</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -21060,12 +21204,12 @@
 		<DisplaySize>2500</DisplaySize>
 		<ModelName>Ships/Boskara/boskaran_station_s</ModelName>
 		<CockpitImageFilename />
-		<BaseCost>9000</BaseCost>
+		<BaseCost>4000</BaseCost>
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.2</TargetingBonus>
+		<TargetingBonus>0.3</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -22541,6 +22685,15 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -23991,6 +24144,15 @@
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -25300,7 +25462,7 @@
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.15</TargetingBonus>
+		<TargetingBonus>0.25</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -26681,7 +26843,7 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Medium Space Port</Name>
+		<Name>Medium Space Port v2</Name>
 		<ImageFilename>Ships/Boskara/Images/boskara_station_m</ImageFilename>
 	</ShipHull>
 	<ShipHull>
@@ -26695,12 +26857,12 @@
 		<DisplaySize>2567</DisplaySize>
 		<ModelName>Ships/Boskara/boskaran_station_s</ModelName>
 		<CockpitImageFilename />
-		<BaseCost>10000</BaseCost>
+		<BaseCost>5000</BaseCost>
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
-		<TargetingBonus>0.2</TargetingBonus>
+		<TargetingBonus>0.3</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.67</BuildSpeedFactor>
@@ -29380,14 +29542,21 @@
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -30434,7 +30603,7 @@
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -31385,6 +31554,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</Bonuses>
 		<ModelSize>
 			<X>0</X>
@@ -32202,6 +32378,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</Bonuses>
 		<ModelSize>
 			<X>0</X>
@@ -33005,11 +33188,20 @@
 		<ArmorReactiveRating>6</ArmorReactiveRating>
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -33796,10 +33988,19 @@
 		<IonDefense>4</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
-		<TargetingBonus>0</TargetingBonus>
+		<TargetingBonus>0.1</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -34893,7 +35094,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>17</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -35179,6 +35380,86 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>35</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>36</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>37</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>38</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>39</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -35220,18 +35501,25 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<BuildSpeedFactor>0.25</BuildSpeedFactor>
+		<BuildSpeedFactor>0.33</BuildSpeedFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -36394,7 +36682,7 @@
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -37447,7 +37735,7 @@
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>6</EngineLimit>
-		<CountermeasuresBonus>0</CountermeasuresBonus>
+		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
@@ -38308,6 +38596,20 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</Bonuses>
 		<ModelSize>
 			<X>0</X>
@@ -39128,11 +39430,20 @@
 		<ArmorReactiveRating>7</ArmorReactiveRating>
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>0.05</CountermeasuresBonus>
+		<CountermeasuresBonus>0.2</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -39951,10 +40262,26 @@
 		<IonDefense>5</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
-		<TargetingBonus>0.05</TargetingBonus>
+		<TargetingBonus>0.1</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsRange</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -41016,9 +41343,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>14</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -41035,7 +41361,7 @@
 				<ComponentBayId>15</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense1</MeshName>
+				<MeshName>#defense0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -41052,7 +41378,7 @@
 				<ComponentBayId>16</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense2</MeshName>
+				<MeshName>#defense1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -41069,6 +41395,7 @@
 				<ComponentBayId>17</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -41163,7 +41490,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>23</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -41561,6 +41888,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>48</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -41598,8 +41941,8 @@
 		<ArmorReactiveRating>9</ArmorReactiveRating>
 		<IonDefense>7</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.15</CountermeasuresBonus>
-		<TargetingBonus>0.2</TargetingBonus>
+		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<TargetingBonus>0.4</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -43650,6 +43993,38 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>31</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>32</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -43691,18 +44066,25 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<BuildSpeedFactor>0.25</BuildSpeedFactor>
+		<BuildSpeedFactor>0.33</BuildSpeedFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -44947,7 +45329,7 @@
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.4</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -46340,9 +46722,8 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>14</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense0</MeshName>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -46359,7 +46740,7 @@
 				<ComponentBayId>15</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense1</MeshName>
+				<MeshName>#defense0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -46376,7 +46757,7 @@
 				<ComponentBayId>16</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
-				<MeshName>#defense2</MeshName>
+				<MeshName>#defense1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -46393,6 +46774,7 @@
 				<ComponentBayId>17</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
+				<MeshName>#defense2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -46519,7 +46901,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>25</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -46951,6 +47333,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>52</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>53</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -47607,18 +48005,25 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<BuildSpeedFactor>0.25</BuildSpeedFactor>
+		<BuildSpeedFactor>0.2</BuildSpeedFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -48859,11 +49264,11 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
-		<BuildSpeedFactor>0.25</BuildSpeedFactor>
+		<BuildSpeedFactor>0.2</BuildSpeedFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>ShieldRechargeRate</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -49997,8 +50402,8 @@
 		<ArmorReactiveRating>12</ArmorReactiveRating>
 		<IonDefense>10</IonDefense>
 		<EngineLimit>-1</EngineLimit>
-		<CountermeasuresBonus>-0.15</CountermeasuresBonus>
-		<TargetingBonus>0.2</TargetingBonus>
+		<CountermeasuresBonus>-0.1</CountermeasuresBonus>
+		<TargetingBonus>0.5</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
 		<BuildSpeedFactor>0.5</BuildSpeedFactor>
@@ -51605,6 +52010,15 @@
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
 		<MaximumTurnRollAngle>0.25</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
 		<ModelSize>
 			<X>0</X>
 			<Y>0</Y>
@@ -51782,7 +52196,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -52022,6 +52436,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>25</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>26</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
