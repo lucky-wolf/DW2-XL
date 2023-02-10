@@ -7,6 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.9.6](#v196)
+		- [v1.9.5](#v195)
 		- [v1.9.4](#v194)
 		- [v1.9.3](#v193)
 		- [v1.9.2](#v192)
@@ -111,6 +113,13 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.9.6
+- Restored basic command module to +5% targeting & countermeasures
+- Updated to 1.1.0.6 game engine
+- Adjusted tech ID 816 -> 903 to avoid conflict with Planetary Palace tech & facility
+- Reorganized project file tree to better map to mods folder in game (we're no longer overwritting data folder)
+- Began playing with a Go lang tool to do bulk edits on .xml files (wip)
 
 ### v1.9.5
 - Removed GameEvents.xml because it fails to overwrite the vanilla events, and instead doubles them!
