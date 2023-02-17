@@ -3203,7 +3203,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_TinyDebrisField</Name>
+    <Name>SpecialEvent_PreWarpHomeSystem_TinyDebrisField_2</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -3250,7 +3250,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<TriggerActions />
 	</GameEvent>
 	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_TinyDebrisField</Name>
+    <Name>SpecialEvent_PreWarpHomeSystem_TinyDebrisField_1</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -3297,7 +3297,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<TriggerActions />
 	</GameEvent>
 	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_ComputerCoreDebris</Name>
+    <Name>SpecialEvent_PreWarpHomeSystem_ComputerCoreDebris_1</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -3370,7 +3370,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>SpecialEvent_PreWarpHomeSystem_ComputerCoreDebris</Name>
+    <Name>SpecialEvent_PreWarpHomeSystem_ComputerCoreDebris_2</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -11165,17 +11165,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Diplomatic Messages Retrieved</MessageTitle>
-				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages between ancient factions as they battled a terrible threat known as the Shakturi.
-
-One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows:
-
-"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds.
-
-We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously."
-
-Following this is an outline of current fleet positions and strengths for the Alliance.
-
-A note has also been appended to this message, apparently by the Ackdarian diplomatic consul commanding the Monitoring Station. The note reads: "Top Secret, Forward urgently to the Humans, we cannot allow this dangerous situation to continue"...</Description>
+        <Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages between ancient factions as they battled a terrible threat known as the Shakturi. One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows: "In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds. We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously." Following this is an outline of current fleet positions and strengths for the Alliance. A note has also been appended to this message, apparently by the Ackdarian diplomatic consul commanding the Monitoring Station. The note reads: "Top Secret, Forward urgently to the Humans, we cannot allow this dangerous situation to continue"...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -16930,13 +16920,7 @@ Our own home world may never again be habitable. My only solace is that it seems
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Messages Retrieved</MessageTitle>
-				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages.
-
-One message appears to be written by a Gizurean official, part of which reads as follows:
-
-"Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness.
-
-No messengers have returned and there has been no contact from any Shakturi or our other allies. Spies are everywhere. Trust no one. Forward immediately any communication or information about the latest events."</Description>
+				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages. One message appears to be written by a Gizurean official, part of which reads as follows: "Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness. No messengers have returned and there has been no contact from any Shakturi or our other allies. Spies are everywhere. Trust no one. Forward immediately any communication or information about the latest events."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -17188,7 +17172,7 @@ Withered Ackdarian bodies have been found in damaged stasis pods on another part
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Starship Engines</GeneratedItemName>
+        <GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Vectoring Engines</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>45</DelaySecondsMinimum>
 				<DelaySecondsMaximum>75</DelaySecondsMaximum>
@@ -17431,7 +17415,7 @@ We have gained:</Description>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Starship Engines</Name>
+    <Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Vectoring Engines</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -29726,7 +29710,7 @@ a fascinating relic, the ancient artifact called the Spear of the First King. Th
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Ancient Capital Chain Fortress World (Mortalen)</Name>
+    <Name>Ancient Capital Chain Fortress World (Non Mortalen)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -35440,9 +35424,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Incoming Communication</MessageTitle>
-				<Description>"You are unknown to us. You are strangers. You are not of the Guardians.
-
-We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
+				<Description>"You are unknown to us. You are strangers. You are not of the Guardians. We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>

@@ -4264,15 +4264,27 @@ Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets,
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0.10</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.20</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>0.10</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
 				<Factor>0.45</Factor>

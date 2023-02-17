@@ -3,6 +3,9 @@
 	<Government>
 		<GovernmentId>0</GovernmentId>
 		<Name>Republic</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Republic)</string>
+		</StartingGameEventNames>
 		<Description>Republics are governments that are led by a head of state who is usually elected. The head of state, often called the President, serves for a set term, after which a new president is elected. While the president is elected, this may actually happen indirectly, where a council of some sort is elected by the people, and this council then elects a president. In many respects Republics are similar to Democracies and usually hold comparable ideals.
 
 Citizens of Republics typically enjoy many freedoms and liberties. Republics invariably divide governmental power carefully between the executive, legislative and judicial areas. The president controls the executive area, while other elected representatives control the legislative area. The courts control the judicial area.</Description>
@@ -231,6 +234,10 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 	<Government>
 		<GovernmentId>1</GovernmentId>
 		<Name>Mercantile Guild</Name>
+		<Name>Republic</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Mercantile Guild)</string>
+		</StartingGameEventNames>
 		<Description>Mercantile Guild governments are highly focussed towards commerce, trade and industry. The ruling structure is often loose and informal – a collection of leading members of the business community make key decisions that affect all citizens.
 
 Mercantile Guilds generally allow a high degree of freedom and autonomy to their citizens. Basic rights and liberties are guaranteed by a simple set of laws that can apply to many situations. Entrepreneurial activity is very common, creating a dynamic business environment where high levels of wealth are generated quickly.</Description>
@@ -464,6 +471,9 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 	<Government>
 		<GovernmentId>2</GovernmentId>
 		<Name>Democracy</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Democracy)</string>
+		</StartingGameEventNames>
 		<Description>Democratic governments draw their power from the people that live under them. Competitive elections are held to select representatives who rule for a specified period.
 
 Citizens of democratic governments enjoy universally recognized freedoms and liberties including: freedom of political expression, freedom of speech and freedom of the press. Democratic governments typically also uphold other important principles such as: equality before the law, due process and civil liberties.</Description>
@@ -697,6 +707,9 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 	<Government>
 		<GovernmentId>3</GovernmentId>
 		<Name>Feudalism</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Feudalism)</string>
+		</StartingGameEventNames>
 		<Description>Feudalisms are governments that rely on a set of reciprocal legal and military obligations among the warrior nobility. In its most basic essence, Feudalism is the granting of land and rights in return for military service.
 
 Under Feudalistic governments a noble class effectively forms a ruling council. They grant rights and freedoms to the common people in exchange for military support from them.
@@ -970,6 +983,9 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 	<Government>
 		<GovernmentId>4</GovernmentId>
 		<Name>Monarchy</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Monarchy)</string>
+		</StartingGameEventNames>
 		<Description>Monarchies invest supreme power in an individual (the Monarch) who is the head of state, often for life or until abdication. Monarchies are usually hereditary, with a child of the Monarch inheriting power on the death of their parent.
 
 Monarchs may rule with absolute power, or they may share power with a ruling council of nobles or elected representatives.</Description>
@@ -1212,6 +1228,9 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 	<Government>
 		<GovernmentId>5</GovernmentId>
 		<Name>Military Dictatorship</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Military Dictatorship)</string>
+		</StartingGameEventNames>
 		<Description>Military Dictatorship is an autocratic form of absolute rule that is unrestricted by law, constitutions, or other social and political factors.
 
 Military Dictatorships regulate nearly every aspect of the public and private behavior of their subjects. Their political, social and civil structure is tuned towards military concerns and warfare. These types of governments are typically concerned with conquest and expansion.</Description>
@@ -1498,6 +1517,9 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 	<Government>
 		<GovernmentId>6</GovernmentId>
 		<Name>Technocracy</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Technocracy)</string>
+		</StartingGameEventNames>
 		<Description>Technocratic governments place engineers, scientists and technical experts in control. Decision makers are selected based upon how knowledgeable and capable they are.
 
 Technocracies are typically highly efficient and free from corruption. However they often enforce tight control over their citizen’s behaviour. This loss of personal freedom can sometimes lead to unrest.
@@ -1699,6 +1721,9 @@ Technocracy government type is only available to the Ackdarian and Zenox races.<
 	<Government>
 		<GovernmentId>7</GovernmentId>
 		<Name>Hive Mind</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Hive Mind)</string>
+		</StartingGameEventNames>
 		<Description>Hive Mind governments can be formed by alien races that have a natural telepathic ability. The prime value is loyalty to the community as a whole – individual expression and freedom is suppressed for this greater common good.
 
 In Hive Minds all work is divided amongst distinct social castes. Some castes are responsible for food production, others for defense, while others care for administration. In some alien societies even reproduction is specialized to a small caste, with one or more “queens” producing each new generation.

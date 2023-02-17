@@ -1,6 +1,8 @@
 Publish on Steam:
 	C:\Steam\steamapps\common\Distant Worlds 2> ./distantworlds2 --ugc-publish mods/XL
 
+	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
+
 Cool Ideas:
 - Squash down the construction improvements so that they're meaningfully available
 - Reduce the ftr bays to size 25 on all ships other than dedicated carriers
@@ -46,6 +48,29 @@ race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
 18 Sluken 		760
 19 Ugnari 		764
 
+Planet Types
+7	Continental
+8	Marshy Swamp
+9	Ocean
+10	Sandy Desert
+11	Ice
+12	Volcanic
+13	Rocky Silicon
+17	Forest
+18	Grasslands
+19	Rocky Desert
+20	Desert Savanna
+21	Ice Tundra
+22	Frozen Ice
+23	Deep Ocean
+25	Rocky Metallic
+26	Rocky Ice
+27	Mangrove Forest
+29	Carbonaceous
+30	Sulphur Volcanic
+
+Asteroid Fields
+16	Rocky Asteroid
 
 - ROWS -
 
