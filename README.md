@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.9.8](#v198)
 		- [v1.9.7](#v197)
 		- [v1.9.6](#v196)
 		- [v1.9.5](#v195)
@@ -114,6 +115,10 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+### v1.9.8
+- Updated to 1.1.0.9 game engine
+- Defaulted defense fleets to engage within 33% of fuel range instead of sector range
 
 ### v1.9.7
 - Quameno have +20% and 40 minimum habitability for Ocean habitats, and +10% to Deep ocean and Swamps

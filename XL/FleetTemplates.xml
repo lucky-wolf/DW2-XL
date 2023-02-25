@@ -18,38 +18,38 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
 
-	  <Items>
-		  <FleetTemplateItem>
-			  <Role>Frigate</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>8</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Destroyer</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>6</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Cruiser</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>4</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>CapitalShip</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>2</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Carrier</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>2</Amount>
-		  </FleetTemplateItem>
-	  </Items>
+		<Items>
+			<FleetTemplateItem>
+				<Role>Frigate</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>8</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Destroyer</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Cruiser</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>4</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>CapitalShip</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Carrier</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>1</FleetTemplateId>
@@ -69,33 +69,33 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-	  <Items>
-		  <FleetTemplateItem>
-			  <Role>Frigate</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>3</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Destroyer</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>2</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Cruiser</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>1</Amount>
-		  </FleetTemplateItem>
-	  </Items>
+		<Items>
+			<FleetTemplateItem>
+				<Role>Frigate</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>3</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Destroyer</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Cruiser</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>1</Amount>
+			</FleetTemplateItem>
+		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>2</FleetTemplateId>
 		<RaceId>-1</RaceId>
 		<Role>Defend</Role>
 		<Name>Defense Fleet</Name>
-		<DefaultEngagementRange>SectorRange</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -108,26 +108,26 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-	  <Items>
-		  <FleetTemplateItem>
-			  <Role>Frigate</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>6</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Destroyer</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>4</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Cruiser</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>2</Amount>
-		  </FleetTemplateItem>
-	  </Items>
+		<Items>
+			<FleetTemplateItem>
+				<Role>Frigate</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Destroyer</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>4</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Cruiser</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
 		<FleetTemplateId>3</FleetTemplateId>
@@ -147,31 +147,31 @@
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 
-	  <Items>
-		  <FleetTemplateItem>
-			  <Role>Frigate</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>6</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Destroyer</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>4</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>Cruiser</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>2</Amount>
-		  </FleetTemplateItem>
-		  <FleetTemplateItem>
-			  <Role>TroopTransport</Role>
-			  <ShipHullId>-1</ShipHullId>
-			  <DesignId>-2147483648</DesignId>
-			  <Amount>6</Amount>
-		  </FleetTemplateItem>
-	  </Items>
+		<Items>
+			<FleetTemplateItem>
+				<Role>Frigate</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Destroyer</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>4</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Cruiser</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>TroopTransport</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>6</Amount>
+			</FleetTemplateItem>
+		</Items>
 	</FleetTemplate>
 </ArrayOfFleetTemplate>
