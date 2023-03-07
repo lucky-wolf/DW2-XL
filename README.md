@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+	- [v1.10.0](#v1100)
 		- [v1.9.9](#v199)
 		- [v1.9.8](#v198)
 		- [v1.9.7](#v197)
@@ -116,6 +117,14 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+## v1.10.0
+- Diversified empire titles
+- Buffed Hive troops
+- Nerfed Terraforming Facilities (they now scale from 10% to 50%)
+- Added "Advanced Construction Yards" which have 2x ship yards internally (2x output)
+- Bug fix: I-Space Stealth \[ftr\] can only be used in fightercraft, not in ships
+- Bug fix: Fixed Fighters and Bombers tech-names and hull-names
 
 ### v1.9.9
 - Moved monarchy palace next to planetary governance

@@ -4,9 +4,12 @@ Publish on Steam:
 	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
 
 Cool Ideas:
+- Assault variants
+	- less weapons / bays, more general slots for assault pods
 - Squash down the construction improvements so that they're meaningfully available
 - Reduce the ftr bays to size 25 on all ships other than dedicated carriers
 	- Change bases to sport size 100 for all eligible slots
+	- Except that size 100 is really construction bays...
 - Gravitic Torps
 	- Like energy torps, but with bypass as other gravitic weapons
 - Cutting beams
@@ -47,6 +50,8 @@ race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
 17 Shandar		756
 18 Sluken 		760
 19 Ugnari 		764
+20 Shakturi
+249 Hive (?)
 
 Planet Types
 7	Continental

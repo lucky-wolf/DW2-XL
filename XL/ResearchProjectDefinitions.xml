@@ -12253,7 +12253,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>284</ResearchProjectId>
-		<Name>Attack Fighters</Name>
+		<Name>Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -12346,7 +12346,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>4</Level>
+				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -13531,8 +13531,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>196</ComponentId>
-				<Level>3</Level>
+				<ComponentId>408</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -15541,7 +15541,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>352</ResearchProjectId>
-		<Name>Improved Attack Fighters</Name>
+		<Name>Improved Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -15646,7 +15646,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>354</ResearchProjectId>
-		<Name>Medium Bombers</Name>
+		<Name>Improved Bombers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -15864,8 +15864,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>196</ComponentId>
-				<Level>2</Level>
+				<ComponentId>408</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 		<ShipHulls>
@@ -16910,7 +16910,7 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>4</Level>
+				<Level>3</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -21237,7 +21237,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>492</ResearchProjectId>
-		<Name>Advanced Attack Shuttles</Name>
+		<Name>Improved Attack Shuttles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -22309,7 +22309,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>513</ResearchProjectId>
-		<Name>Heavy Bombers</Name>
+		<Name>Strike Bombers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -24223,8 +24223,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>196</ComponentId>
-				<Level>4</Level>
+				<ComponentId>408</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -25606,7 +25606,7 @@
 		<ResearchProjectId>587</ResearchProjectId>
 		<Name>Space Superiority Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>72900</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -25630,7 +25630,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>10</Column>
 		<Row>241</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25663,7 +25663,7 @@
 		<ResearchProjectId>588</ResearchProjectId>
 		<Name>Assault Bombers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>72900</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -25687,7 +25687,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>10</Column>
 		<Row>243</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>

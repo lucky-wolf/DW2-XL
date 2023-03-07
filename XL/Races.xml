@@ -102,7 +102,7 @@
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -3892,6 +3892,14 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.10</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
 				<Factor>0.05</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
@@ -3991,17 +3999,11 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		<Name>Kiadian</Name>
 		<ImageFilename>UserInterface/Races/Kiadian</ImageFilename>
 		<Description>Kiadians are a highly intelligent humanoid race with an expanded cranium.
-
 Kiadians are shrewd and sensible. They carefully evaluate and plan for potential repercussions from any course of action they undertake. They also make some of the most loyal allies known.
-
 Kiadians are deep thinkers with an absorbing culture of profound subtlety. They love to ponder the abstract complexities of advanced mathematics. They are also a very practical people: they apply their sharp intellect to developing sophisticated technology.
-
 Their advanced technology includes the ShadowGhost ECM, an exceptionally capable countermeasures component. These powerful countermeasures make Kiadian star ships very difficult for enemies to target, allowing them to avoid a lot of enemy weapons fire.
-
 The Kiadian honor code is legendary: they would prefer to die than break their word. Once a Kiadian commits to an agreement they will never break it.
-
 They are also a very proud race, and they revel in undertaking impossible assignments that typically end in honorable defeat. This seemingly irrational approach can sometimes lead to astonishing accomplishments - Kiadians will struggle tenaciously in a situation that others would dismiss as hopeless.
-
 The typical habitats of Kiadians are the mountains and low plains of Continental or Forest planets.</Description>
 	</Race>
 	<Race>
