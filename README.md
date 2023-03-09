@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+	- [v1.10.1](#v1101)
 	- [v1.10.0](#v1100)
 		- [v1.9.9](#v199)
 		- [v1.9.8](#v198)
@@ -117,6 +118,9 @@ YMMV, but this is my take on making it Extra Large!
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
 
 ## Latest Changes
+
+## v1.10.1
+- Revamped racial biome suitability
 
 ## v1.10.0
 - Diversified empire titles
