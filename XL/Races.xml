@@ -101,19 +101,84 @@
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.15</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.1</Factor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization></MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
 			<short>4</short>
 			<short>6</short>
@@ -471,27 +536,80 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.2</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.43</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
 				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.35</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization></MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
 			<short>0</short>
 			<short>3</short>
@@ -814,47 +932,75 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>-0.15</Factor>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.3</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.15</Factor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.25</Factor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>23</OrbTypeId>
-				<Factor>-0.2</Factor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>27</OrbTypeId>
-				<Factor>-0.15</Factor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.13</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
 				<Factor>0.4</Factor>
@@ -1215,35 +1361,80 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.25</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.36</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.1</Factor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.36</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.33</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>11</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.04</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.12</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.16</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization></MinimumSuitabilityForColonization>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
 			<short>2</short>
 			<short>6</short>
@@ -1575,38 +1766,78 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.3</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>-0.05</Factor>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.35</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.25</Factor>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.13</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.4</Factor>
+				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
 				<Factor>0.4</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
@@ -1944,38 +2175,80 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.1</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.35</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.10</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -2204,56 +2477,68 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>8</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>11</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.3</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>-0.2</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
-				<Factor>-0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>21</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>22</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>23</OrbTypeId>
-				<Factor>-0.2</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>27</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.2</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.36</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.44</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.43</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -2607,56 +2892,68 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.43</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.12</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.16</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>8</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>-0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>19</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.25</Factor>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.15</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>23</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>27</OrbTypeId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.03</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -2916,7 +3213,7 @@ In fact some of their historical research has led to unorthodox claims about the
 
 Zenox technology includes an advanced shield component, the Megatron. These powerful shields impart a potent defense to Zenox star ships and bases.
 
-Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.</Description>
+Zenox inhabit the tundra wastelands of Tundra, Snowball or Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.</Description>
 	</Race>
 	<Race>
 		<RaceId>8</RaceId>
@@ -2989,18 +3286,74 @@ Zenox inhabit the tundra wastelands of Ice Tundra, Ice or Frozen Ice planets. Th
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.43</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.45</Factor>
+				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<Biases>
@@ -3154,10 +3507,76 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.35</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3305,30 +3724,74 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.04</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.25</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.12</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.13</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.4</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.45</Factor>
+				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<Biases>
@@ -3500,20 +3963,68 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.25</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.29</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.15</Factor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.13</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3710,11 +4221,76 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.34</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.04</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization />
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -3891,19 +4467,76 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.10</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.38</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.05</Factor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.35</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<MinimumSuitabilityForColonization />
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4077,16 +4710,68 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.1</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.39</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.04</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4096,6 +4781,10 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
@@ -4200,7 +4889,7 @@ In Todash, there are no strict rules about how you can tackle a player carrying 
 
 Many Naxxilians live in small tribal encampments. However they also have highly-developed urban areas, filled with advanced industries such as starship construction.
 
-Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets, but can sometimes also be found in secluded valleys on Frozen Ice planets.</Description>
+Naxxilians normally live on the tundra wastelands of Tundra and Snowball planets, but can sometimes also be found in secluded valleys on Ice planets.</Description>
 	</Race>
 	<Race>
 		<RaceId>15</RaceId>
@@ -4266,23 +4955,71 @@ Naxxilians normally live on the tundra wastelands of Ice Tundra and Ice planets,
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.44</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.44</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.12</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.20</Factor>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.16</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.19</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
-			<OrbTypeFactor>
-				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>0.4</Factor>
@@ -4400,7 +5137,7 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
-		<BundleName>Quameno</BundleName>
+		<BundleName>Securan</BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -4463,26 +5200,78 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.02</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.04</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.25</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.12</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.13</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.45</Factor>
+				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.45</Factor>
+				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<Biases>
@@ -4643,15 +5432,67 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.3</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.2</Factor>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.2</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.29</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.36</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.31</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.44</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.38</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.46</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.43</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4796,14 +5637,76 @@ Though they often industriously mine for gemstones, they generally take little i
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.36</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.36</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.33</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.03</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.04</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.12</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
+				<Factor>-0.16</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -4978,26 +5881,74 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.1</Factor>
+				<OrbTypeId>12</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId>
+				<Factor>-0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId>
+				<Factor>-0.39</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId>
+				<Factor>-0.13</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.17</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.2</Factor>
+				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.1</Factor>
+				<Factor>-0.04</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.45</Factor>
+				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<Biases>
@@ -5105,7 +6056,7 @@ Ugnari do not see underhandedness as a negative trait, nor do they consider chea
 
 Their technology includes the Raptor Combat Targetting system. This powerful targeting technology makes weapons fire from Ugnari military ships more accurate and deadly.
 
-Ugnari inhabit the tundra wastelands of Ice Tundra and Ice planets. They typically build large cities deep underground in vast ice caves and tunnels.</Description>
+Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typically build large cities deep underground in vast ice caves and tunnels.</Description>
 	</Race>
 	<Race>
 		<RaceId>249</RaceId>
