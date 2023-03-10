@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+	- [v1.10.3](#v1103)
 	- [v1.10.2](#v1102)
 	- [v1.10.1](#v1101)
 	- [v1.10.0](#v1100)
@@ -113,12 +114,17 @@ YMMV, but this is my take on making it Extra Large!
   - The game currently requires any nation to be gifted at least the first two levels of tech when starting a game with more than one initial colony...
   - By pushing back much of the more interesting decisions and more powerful technologies, those gifted free techs remains just what everyone needs, while leaving character building techs for later.
     - This makes game-starts with more than one colony much more viable and enjoyable to play, in my opinion
-- There aren't any one-per-game facilities, rather, they're all one-per-empire.
+- There are fewer one-per-game facilities. Most are one-per-empire.
   - This helps to reduce the winner run-away effect, snatching up all "wonders" and leaving everyone else permanently in the dust
   - Hopefully, this will make AIs more viable (once their code is improved in general in the game engine itself)
     - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
+  - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+## v1.10.3
+- Updated to 1.1.2.2 beta game engine
+- Bug fix: Moved all XL techs to 1xxx to avoid future conflicts with core game
 
 ## v1.10.2
 - Bug fix: Removed fusion weapon tech & weapon components

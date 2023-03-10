@@ -1302,18 +1302,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>39</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
@@ -1340,7 +1328,39 @@
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>Concealment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Sabotage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Assassination</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>

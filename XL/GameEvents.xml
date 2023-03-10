@@ -11165,7 +11165,17 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Diplomatic Messages Retrieved</MessageTitle>
-				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages between ancient factions as they battled a terrible threat known as the Shakturi. One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows: "In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds. We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously." Following this is an outline of current fleet positions and strengths for the Alliance. A note has also been appended to this message, apparently by the Ackdarian diplomatic consul commanding the Monitoring Station. The note reads: "Top Secret, Forward urgently to the Humans, we cannot allow this dangerous situation to continue"...</Description>
+				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages between ancient factions as they battled a terrible threat known as the Shakturi.
+          
+One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows: 
+          
+"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds. 
+          
+We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously."
+          
+Following this is an outline of current fleet positions and strengths for the Alliance.
+          
+A note has also been appended to this message, apparently by the Ackdarian diplomatic consul commanding the Monitoring Station. The note reads: "Top Secret, Forward urgently to the Humans, we cannot allow this dangerous situation to continue"...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -16920,7 +16930,13 @@ Our own home world may never again be habitable. My only solace is that it seems
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Messages Retrieved</MessageTitle>
-				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages. One message appears to be written by a Gizurean official, part of which reads as follows: "Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness. No messengers have returned and there has been no contact from any Shakturi or our other allies. Spies are everywhere. Trust no one. Forward immediately any communication or information about the latest events."</Description>
+				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages.
+
+One message appears to be written by a Gizurean official, part of which reads as follows:
+
+"Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness.
+
+No messengers have returned and there has been no contact from any Shakturi or our other allies. Spies are everywhere. Trust no one. Forward immediately any communication or information about the latest events."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -33893,7 +33909,7 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>GenerateShipBase</Type>
+				<Type>GeneratePirateFaction</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -33902,10 +33918,36 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>255</Id1>
+				<Id1>0</Id1>
 				<Value1>1</Value1>
+				<Value2>3</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Hidden Vacuum Dwellers</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeItemName</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>-1</Id1>
+				<Value1>0</Value1>
 				<Value2>0</Value2>
-				<ShipRole>SpaceportSmall</ShipRole>
+				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
@@ -33944,7 +33986,7 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>GenerateShipBase</Type>
+				<Type>GenerateAbandonedShipBase</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -33953,7 +33995,8 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>255</Id1>
+				<Id1>2</Id1>
+				<Id2>4</Id2>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>DefensiveBase</ShipRole>
@@ -33962,7 +34005,34 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName />
+				<GeneratedItemName>Slave Enforcement Platform 223</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeShipEmpire</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName>Slave Enforcement Platform 223</ActionLocationItemName>
+				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<Id1>-6</Id1>
+				<Id2>-1</Id2>
+				<Value1>2</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Automated Slave Enforcement Platforms</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -35424,7 +35494,9 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Incoming Communication</MessageTitle>
-				<Description>"You are unknown to us. You are strangers. You are not of the Guardians. We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
+				<Description>"You are unknown to us. You are strangers. You are not of the Guardians.
+
+We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -46028,12 +46100,64 @@ Energy sources on this world are very limited and we can't interface our power s
 		<PlacementRaceId>2</PlacementRaceId>
 		<PlacementActions>
 			<GameEventAction>
-				<Type>GenerateIndependentColony</Type>
+				<Type>GeneratePlanetarySystem</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>18</Id1>
+				<Value1>0.55</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Bartuc</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GeneratePlanetarySystem</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>20</Id1>
+				<Value1>0.35</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Horazon</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateIndependentColony</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -46059,7 +46183,7 @@ Energy sources on this world are very limited and we can't interface our power s
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>NearbyEmptySystem</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
