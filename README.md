@@ -120,7 +120,10 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ## v1.10.1
-- Revamped racial biome suitability
+- Updated to 1.1.2.0 beta game engine
+- Revamped racial biome suitability + inhabitable world quality ranges
+- Bug fix: Megatron Z4 Shields v2 & v3 penetration chance and ratios fixed
+- Bug fix: Updated Electromagnetic Lance v3 to be better than v2 (and adj energy use, targeting and more for that weapon series)
 
 ## v1.10.0
 - Diversified empire titles

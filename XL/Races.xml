@@ -102,85 +102,81 @@
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>-0.38</Factor>
+				<Factor>-0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>-0.38</Factor>
+				<Factor>-0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>-0.35</Factor>
+				<Factor>-0.37</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>-0.09</Factor>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>-0.09</Factor>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>-0.04</Factor>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>-0.03</Factor>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>-0.07</Factor>
+				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId>
+				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId>
+				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>-0.03</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
 				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>9</OrbTypeId>
-				<Factor>-0.06</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>23</OrbTypeId>
-				<Factor>-0.08</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
-				<Factor>-0.06</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>-0.04</Factor>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>-0.11</Factor>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>-0.12</Factor>
+				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.89</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.94</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.94</Factor>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
 				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId>
+				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
@@ -572,10 +568,6 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.08</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
@@ -586,6 +578,10 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -602,18 +598,6 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.17</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.92</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.98</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.98</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -980,10 +964,6 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
@@ -994,6 +974,10 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -1010,18 +994,6 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -1421,10 +1393,6 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 				<Factor>-0.04</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
@@ -1435,6 +1403,10 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -1451,18 +1423,6 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.16</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.97</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.97</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -1838,10 +1798,6 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
@@ -1852,6 +1808,10 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -1868,18 +1828,6 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -2259,10 +2207,6 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
@@ -2273,6 +2217,10 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -2289,18 +2237,6 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.87</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -2573,10 +2509,6 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 				<Factor>-0.31</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.38</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.44</Factor>
 			</OrbTypeFactor>
@@ -2587,6 +2519,10 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -2603,18 +2539,6 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.43</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.75</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.7</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.7</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3000,10 +2924,6 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.12</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.16</Factor>
 			</OrbTypeFactor>
@@ -3014,6 +2934,10 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -3030,18 +2954,6 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.03</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.81</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.84</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.84</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3406,10 +3318,6 @@ Zenox inhabit the tundra wastelands of Tundra, Snowball or Ice planets. They typ
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.08</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
@@ -3420,6 +3328,10 @@ Zenox inhabit the tundra wastelands of Tundra, Snowball or Ice planets. They typ
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.09</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -3436,18 +3348,6 @@ Zenox inhabit the tundra wastelands of Tundra, Snowball or Ice planets. They typ
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.17</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.92</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.98</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.98</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3639,10 +3539,6 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
@@ -3653,6 +3549,10 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -3669,18 +3569,6 @@ Wekkarus are a generally peaceful species that like to keep to themselves.</Desc
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.87</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -3868,10 +3756,6 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.07</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.12</Factor>
 			</OrbTypeFactor>
@@ -3882,6 +3766,10 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -3898,18 +3786,6 @@ Atuuks live in crude tree-huts on Forest or Continental planets.</Description>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.92</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.92</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4119,10 +3995,6 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.15</Factor>
 			</OrbTypeFactor>
@@ -4133,6 +4005,10 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -4149,18 +4025,6 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4389,10 +4253,6 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 				<Factor>-0.06</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.06</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.11</Factor>
 			</OrbTypeFactor>
@@ -4403,6 +4263,10 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>0</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.03</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -4419,18 +4283,6 @@ Gizureans typically build their cavernous underground homes on in rocky areas of
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.88</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.89</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.89</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4647,10 +4499,6 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
@@ -4661,6 +4509,10 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.01</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.02</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -4677,18 +4529,6 @@ Ketarovs are usually found in large communities dwelling on the open plains of G
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.09</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.87</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.9</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.9</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -4902,10 +4742,6 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.11</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
@@ -4916,6 +4752,10 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -4932,18 +4772,6 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.82</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.83</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.83</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -5159,10 +4987,6 @@ Naxxilians normally live on the tundra wastelands of Tundra and Snowball planets
 				<Factor>-0.12</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.06</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>0</Factor>
 			</OrbTypeFactor>
@@ -5173,6 +4997,10 @@ Naxxilians normally live on the tundra wastelands of Tundra and Snowball planets
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.11</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -5189,18 +5017,6 @@ Naxxilians normally live on the tundra wastelands of Tundra and Snowball planets
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.19</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.94</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-1</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -5416,10 +5232,6 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 				<Factor>0</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.07</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.12</Factor>
 			</OrbTypeFactor>
@@ -5430,6 +5242,10 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -5446,18 +5262,6 @@ Quameno communities typically live in semi-submerged, high-tech biodomes in the 
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.13</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.92</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.92</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -5659,10 +5463,6 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 				<Factor>-0.31</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.38</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.44</Factor>
 			</OrbTypeFactor>
@@ -5673,6 +5473,10 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.37</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -5689,18 +5493,6 @@ Securans inhabit the vast open plains of Desert Savanna, Sandy Desert or Rocky D
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.43</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.75</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.7</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.7</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -5877,10 +5669,6 @@ Though they often industriously mine for gemstones, they generally take little i
 				<Factor>-0.04</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.08</Factor>
 			</OrbTypeFactor>
@@ -5891,6 +5679,10 @@ Though they often industriously mine for gemstones, they generally take little i
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.08</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.07</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -5907,18 +5699,6 @@ Though they often industriously mine for gemstones, they generally take little i
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.16</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.91</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.97</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.97</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
@@ -6133,10 +5913,6 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>7</OrbTypeId>
-				<Factor>-0.11</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
 				<Factor>-0.17</Factor>
 			</OrbTypeFactor>
@@ -6147,6 +5923,10 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.06</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId>
+				<Factor>-0.09</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
@@ -6163,18 +5943,6 @@ Sluken are found on Marshy Swamp and Mangrove Forest planets.</Description>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>-0.04</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>26</OrbTypeId>
-				<Factor>-0.82</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>25</OrbTypeId>
-				<Factor>-0.83</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>13</OrbTypeId>
-				<Factor>-0.83</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
