@@ -7,10 +7,11 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-	- [v1.10.3](#v1103)
-	- [v1.10.2](#v1102)
-	- [v1.10.1](#v1101)
-	- [v1.10.0](#v1100)
+		- [v1.10.4](#v1104)
+		- [v1.10.3](#v1103)
+		- [v1.10.2](#v1102)
+		- [v1.10.1](#v1101)
+		- [v1.10.0](#v1100)
 		- [v1.9.9](#v199)
 		- [v1.9.8](#v198)
 		- [v1.9.7](#v197)
@@ -122,20 +123,31 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-## v1.10.3
+### v1.10.4
+- Updated to 1.1.2.4 beta game files
+- Improved kinetic weapons:
+  - Removed targeting malus (they don't have a bonus, however)
+  - Removed shield bypass (they hit the shields before penetrating further)
+  - Increased armor's dmg reduction (-33% against armor)
+- Improved missiles:
+  - Removed shield bypass from those missiles which still had it (missiles still suffer a -10% dmg reduction against armor)
+- Tweaked colonization techs to better match the habitability revamp from 1.10.1
+- Bug fix: moved palace tech near planetary governance
+
+### v1.10.3
 - Updated to 1.1.2.2 beta game engine
 - Bug fix: Moved all XL techs to 1xxx to avoid future conflicts with core game
 
-## v1.10.2
+### v1.10.2
 - Bug fix: Removed fusion weapon tech & weapon components
 
-## v1.10.1
+### v1.10.1
 - Updated to 1.1.2.0 beta game engine
 - Revamped racial biome suitability + inhabitable world quality ranges
 - Bug fix: Megatron Z4 Shields v2 & v3 penetration chance and ratios fixed
 - Bug fix: Updated Electromagnetic Lance v3 to be better than v2 (and adj energy use, targeting and more for that weapon series)
 
-## v1.10.0
+### v1.10.0
 - Diversified empire titles
 - Buffed Hive troops
 - Nerfed Terraforming Facilities (they now scale from 10% to 50%)

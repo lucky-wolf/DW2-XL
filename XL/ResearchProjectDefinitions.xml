@@ -11289,6 +11289,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
 		<Row>244</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<Components>
 			<Component>
 				<ComponentId>149</ComponentId>
@@ -13084,6 +13090,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>244</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>349</ResearchProjectId>
@@ -14389,16 +14401,16 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
-  <ResearchProjectDefinition>
-    <ResearchProjectId>330</ResearchProjectId>
-    <Name>Undefined</Name>
-    <ImageFilename>UserInterface/Placeholder</ImageFilename>
-    <Size>0</Size>
-    <EnabledByDefault>false</EnabledByDefault>
-    <ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-    <Column>0</Column>
-    <Row>0</Row>
-  </ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>330</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>331</ResearchProjectId>
 		<Name>Fusion Physics</Name>
@@ -15283,6 +15295,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>244</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>264</ResearchProjectId>
@@ -15787,14 +15805,14 @@
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-    <ResearchProjectId>360</ResearchProjectId>
-    <Name>Undefined</Name>
-    <ImageFilename>UserInterface/Placeholder</ImageFilename>
-    <Size>0</Size>
-    <EnabledByDefault>false</EnabledByDefault>
-    <ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-    <Column>0</Column>
-    <Row>0</Row>
+		<ResearchProjectId>360</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>361</ResearchProjectId>
@@ -16633,13 +16651,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>377</ResearchProjectId>
-    <Name>Undefined</Name>
-    <ImageFilename>UserInterface/Placeholder</ImageFilename>
-    <Size>0</Size>
-    <EnabledByDefault>false</EnabledByDefault>
-    <ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-    <Column>0</Column>
-    <Row>0</Row>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>378</ResearchProjectId>
@@ -18739,11 +18757,15 @@
 				<OrbTypeId>7</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>437</ResearchProjectId>
-		<Name>Temperate Habitability</Name>
+		<Name>Plains Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -18790,7 +18812,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>295</Row>
+		<Row>296</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>20</ResearchProjectId>
@@ -18800,11 +18822,11 @@
 		</PrerequisiteProjects>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
+				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
+				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -18858,7 +18880,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>296</Row>
+		<Row>293</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>20</ResearchProjectId>
@@ -18941,10 +18963,6 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>-0.05</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -23399,6 +23417,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>244</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>303</ResearchProjectId>
@@ -25173,6 +25197,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>244</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>545</ResearchProjectId>
@@ -25218,6 +25248,12 @@
 		<Column>10</Column>
 		<Row>241</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>330</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>548</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -31274,11 +31310,15 @@
 				<OrbTypeId>7</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId>
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>780</ResearchProjectId>
-		<Name>Improved Temperate Habitability</Name>
+		<Name>Improved Plains Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -31325,7 +31365,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>295</Row>
+		<Row>296</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>437</ResearchProjectId>
@@ -31341,11 +31381,11 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>17</OrbTypeId>
+				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
+				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -31399,7 +31439,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>296</Row>
+		<Row>293</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>438</ResearchProjectId>
@@ -31494,10 +31534,6 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>-0.1</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -31660,7 +31696,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>785</ResearchProjectId>
-		<Name>Marsh Habitability</Name>
+		<Name>Swamp Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -31707,7 +31743,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>293</Row>
+		<Row>295</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>20</ResearchProjectId>
@@ -31775,7 +31811,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>293</Row>
+		<Row>295</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>785</ResearchProjectId>
@@ -32156,7 +32192,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>179</Row>
+		<Row>312</Row>
 		<PlanetaryFacilityIds>
 			<short>94</short>
 		</PlanetaryFacilityIds>
