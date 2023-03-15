@@ -85,6 +85,8 @@ Author: Mordachai (lucky-wolf)
 	- [DW2-XL Reactors](#dw2-xl-reactors)
 	- [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 	- [DW2-XL Engines](#dw2-xl-engines)
+	- [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix)
+	- [DW2-XL Colonization Matrix](#dw2-xl-colonization-matrix)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -144,6 +146,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.10.1
 - Updated to 1.1.2.0 beta game engine
 - Revamped racial biome suitability + inhabitable world quality ranges
+  - See: [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix))
 - Bug fix: Megatron Z4 Shields v2 & v3 penetration chance and ratios fixed
 - Bug fix: Updated Electromagnetic Lance v3 to be better than v2 (and adj energy use, targeting and more for that weapon series)
 
@@ -847,3 +850,32 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Vortex Engine (v2)        |    7 |    - |    34.942K |      7.0/s |       30.494K |         6.0/s |           300 |         1.0/s |           17.5% |           7 |
 | Vortex Engine (v3)        |    8 |    - |    43.677K |      8.0/s |       38.118K |         7.0/s |           375 |         1.0/s |           20.0% |           8 |
 | Infinite Flux Drive       |   12 |   15 |      50.0K |     12.0/s |         40.0K |         9.0/s |           400 |         1.0/s |           25.0% |          10 |
+
+## DW2-XL Habitability Matrix
+
+If the species primary world is on the left, then their incompatibility is that row of values (i.e. 0 means perfect compatibility, 40+ is extremely inhospitable or toxic to them)
+
+ |                     | Rocky Volcanic | Sulfuric Volcanic | Sandy Desert | Rocky Desert | Swampy Marsh | Mangrove Swamp | Savanna | Grasslands | Continental Forests | Continental | Warm Ocean | Cold Ocean | Tundra | Snowball |  Ice | Rocky Ice | Carbonaceous | Rocky Metallic | Rocky Silicon |
+ | ------------------- | -------------: | ----------------: | -----------: | -----------: | -----------: | -------------: | ------: | ---------: | ------------------: | ----------: | ---------: | ---------: | -----: | -------: | ---: | --------: | -----------: | -------------: | ------------: |
+ | Carbonaceous        |            1.5 |               1.5 |         13.5 |         13.5 |         14.5 |           15.0 |    13.5 |       15.0 |                15.5 |        16.5 |       18.0 |       19.0 |   17.5 |     19.0 | 19.5 |      34.0 |          0.0 |           32.5 |          32.5 |
+ | Continental         |           20.5 |              20.5 |          7.5 |          7.5 |          4.5 |            4.0 |     6.5 |        4.0 |                 3.5 |         2.5 |        1.0 |        0.0 |    6.5 |      6.0 |  7.5 |      41.0 |         19.0 |           43.5 |          43.5 |
+ | Rocky Desert        |           18.0 |              18.0 |          5.0 |          5.0 |          3.0 |            2.5 |     4.0 |        1.5 |                 1.0 |         0.0 |        3.5 |        2.5 |    4.0 |      4.5 |  5.0 |      38.5 |         16.5 |           41.0 |          41.0 |
+ | Sandy Desert        |           17.0 |              17.0 |          4.0 |          4.0 |          3.0 |            1.5 |     3.0 |        0.5 |                 0.0 |         1.0 |        4.5 |        3.5 |    3.0 |      3.5 |  4.0 |      38.5 |         15.5 |           40.0 |          40.0 |
+ | Continental Forests |           16.5 |              16.5 |          3.5 |          3.5 |          3.5 |            2.0 |     2.5 |        0.0 |                 0.5 |         1.5 |        5.0 |        4.0 |    2.5 |      4.0 |  4.5 |      39.0 |         15.0 |           39.5 |          39.5 |
+ | Grasslands          |           19.0 |              19.0 |          6.0 |          6.0 |          7.0 |            5.5 |     6.0 |        4.5 |                 4.0 |         5.0 |        8.5 |        7.5 |    2.0 |      1.5 |  0.0 |      34.5 |         19.5 |           36.0 |          36.0 |
+ | Snowball            |           16.5 |              16.5 |          3.5 |          3.5 |          1.5 |            0.0 |     2.5 |        2.0 |                 1.5 |         2.5 |        3.0 |        4.0 |    4.5 |      4.0 |  5.5 |      40.0 |         15.0 |           41.5 |          41.5 |
+ | Ice                 |           13.0 |              13.0 |          0.0 |          0.0 |          3.0 |            3.5 |     1.0 |        3.5 |                 4.0 |         5.0 |        6.5 |        7.5 |    5.0 |      7.5 |  6.0 |      40.5 |         13.5 |           40.0 |          40.0 |
+ | Rocky Ice           |           33.5 |              33.5 |         40.5 |         40.5 |         40.5 |           40.0 |    40.5 |       39.0 |                38.5 |        38.5 |       42.0 |       41.0 |   36.5 |     36.0 | 34.5 |       0.0 |         34.0 |            2.5 |           2.5 |
+ | Mangrove Swamp      |           31.0 |              31.0 |         40.0 |         40.0 |         43.0 |           41.5 |    41.0 |       39.5 |                40.0 |        41.0 |       44.5 |       43.5 |   37.0 |     37.5 | 36.0 |       2.5 |         32.5 |            0.0 |           0.0 |
+ | Swampy Marsh        |           31.0 |              31.0 |         40.0 |         40.0 |         43.0 |           41.5 |    41.0 |       39.5 |                40.0 |        41.0 |       44.5 |       43.5 |   37.0 |     37.5 | 36.0 |       2.5 |         32.5 |            0.0 |           0.0 |
+ | Warm Ocean          |            0.0 |               0.0 |         13.0 |         13.0 |         16.0 |           16.5 |    14.0 |       16.5 |                17.0 |        18.0 |       19.5 |       20.5 |   18.0 |     20.5 | 19.0 |      33.5 |          1.5 |           31.0 |          31.0 |
+ | Cold Ocean          |           13.0 |              13.0 |          0.0 |          0.0 |          3.0 |            3.5 |     1.0 |        3.5 |                 4.0 |         5.0 |        6.5 |        7.5 |    5.0 |      7.5 |  6.0 |      40.5 |         13.5 |           40.0 |          40.0 |
+ | Rocky Metallic      |           14.0 |              14.0 |          1.0 |          1.0 |          2.0 |            2.5 |     0.0 |        2.5 |                 3.0 |         4.0 |        5.5 |        6.5 |    4.0 |      6.5 |  6.0 |      40.5 |         13.5 |           41.0 |          41.0 |
+ | Rocky Silicon       |           20.5 |              20.5 |          7.5 |          7.5 |          5.5 |            4.0 |     6.5 |        4.0 |                 3.5 |         4.5 |        7.0 |        6.0 |    2.5 |      0.0 |  1.5 |      36.0 |         19.0 |           37.5 |          37.5 |
+ | Savanna             |            0.0 |               0.0 |         13.0 |         13.0 |         16.0 |           16.5 |    14.0 |       16.5 |                17.0 |        18.0 |       19.5 |       20.5 |   18.0 |     20.5 | 19.0 |      33.5 |          1.5 |           31.0 |          31.0 |
+ | Sulfuric Volcanic   |           16.0 |              16.0 |          3.0 |          3.0 |          0.0 |            1.5 |     2.0 |        3.5 |                 3.0 |         3.0 |        3.5 |        4.5 |    6.0 |      5.5 |  7.0 |      40.5 |         14.5 |           43.0 |          43.0 |
+ | Tundra              |           18.0 |              18.0 |          5.0 |          5.0 |          6.0 |            4.5 |     4.0 |        2.5 |                 3.0 |         4.0 |        7.5 |        6.5 |    0.0 |      2.5 |  2.0 |      36.5 |         17.5 |           37.0 |          37.0 |
+ | Rocky Volcanic      |           19.5 |              19.5 |          6.5 |          6.5 |          3.5 |            3.0 |     5.5 |        5.0 |                 4.5 |         3.5 |        0.0 |        1.0 |    7.5 |      7.0 |  8.5 |      42.0 |         18.0 |           44.5 |          44.5 |
+
+## DW2-XL Colonization Matrix
+![](Colonization%20Matrix.png)
