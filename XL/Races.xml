@@ -998,12 +998,16 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.4</Factor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
@@ -1832,12 +1836,16 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
 				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.4</Factor>
+				<OrbTypeId>20</OrbTypeId>
+				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
@@ -2962,10 +2970,6 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.4</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
 				<Factor>0.4</Factor>
 			</OrbTypeFactor>
@@ -4029,16 +4033,12 @@ The natural habitats of Dhayuts are rocky retreats on Desert Savanna, Rocky Dese
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
-				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.45</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
 				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId>
+				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
@@ -4778,10 +4778,6 @@ The typical habitats of Kiadians are the mountains and low plains of Continental
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
 				<Factor>0.4</Factor>
-			</OrbTypeFactor>
-			<OrbTypeFactor>
-				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.45</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
