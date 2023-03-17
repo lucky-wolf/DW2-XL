@@ -2,7 +2,7 @@
 # output:	stdout
 # example:  ResearchProjectDefinitions.xml 10 999 2
 #   all techs, starting from row 10, are adjusted downwards by 2 rows (e.g. row 10 -> row 12, 11 -> 13, etc...)
-#   perl adjustrow.pl data/ResearchProjectDefinitions.xml 10 9999 2 > "new\ResearchProjectDefinitions.xml.txt"
+#   perl adjustrow.pl XL/ResearchProjectDefinitions.xml 10 9999 2 > "temp\ResearchProjectDefinitions.xml"
 
 sub ProcessFile
 {
