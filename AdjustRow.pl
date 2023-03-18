@@ -18,7 +18,7 @@ sub ProcessFile
 	print "adjs = $offset\n";
 
 	open(SF, '<', $source) or die "$!";
-	open(OF, '<', $source) or die "$!";
+	open(OF, '>', $source) or die "$!";
 
 	# read in each line of the file
 	while ($line = <SF>)
