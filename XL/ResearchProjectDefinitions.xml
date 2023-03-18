@@ -925,7 +925,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>245</Row>
+		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>264</ResearchProjectId>
@@ -3420,7 +3420,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>246</Row>
+		<Row>247</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>26</ResearchProjectId>
@@ -6442,7 +6442,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>245</Row>
+		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>26</ResearchProjectId>
@@ -6493,7 +6493,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>246</Row>
+		<Row>247</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>82</ResearchProjectId>
@@ -7457,7 +7457,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>31</Row>
+		<Row>32</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -9147,7 +9147,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>245</Row>
+		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>144</ResearchProjectId>
@@ -9348,7 +9348,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>31</Row>
+		<Row>32</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -9430,8 +9430,15 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>900</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<!-- can't require both branches if we want ikkuro to get here too -->
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>165</ComponentId>
@@ -10882,7 +10889,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<Components>
 			<Component>
 				<ComponentId>210</ComponentId>
@@ -11120,7 +11127,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>251</ResearchProjectId>
@@ -11288,7 +11295,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -11567,7 +11574,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>101</Row>
+		<Row>102</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -11674,7 +11681,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -12671,7 +12678,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>100</Row>
+		<Row>101</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>334</ResearchProjectId>
@@ -12755,7 +12762,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>106</Row>
+		<Row>107</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>271</ResearchProjectId>
@@ -13089,7 +13096,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -14580,7 +14587,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>100</Row>
+		<Row>101</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>260</ResearchProjectId>
@@ -14676,7 +14683,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -14735,7 +14742,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -14794,7 +14801,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>105</Row>
+		<Row>106</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -15294,7 +15301,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -15943,7 +15950,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>101</Row>
+		<Row>102</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -16002,7 +16009,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -16065,7 +16072,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -16124,7 +16131,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>105</Row>
+		<Row>106</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -16966,7 +16973,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>291</Row>
+		<Row>290</Row>
 		<Components>
 			<Component>
 				<ComponentId>81</ComponentId>
@@ -17480,7 +17487,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>291</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>387</ResearchProjectId>
@@ -17516,7 +17523,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>290</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>387</ResearchProjectId>
@@ -18644,7 +18651,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>291</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>405</ResearchProjectId>
@@ -18680,7 +18687,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>290</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>406</ResearchProjectId>
@@ -20016,7 +20023,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>291</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>434</ResearchProjectId>
@@ -20052,7 +20059,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>290</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>435</ResearchProjectId>
@@ -21278,7 +21285,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>101</Row>
+		<Row>102</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -21385,7 +21392,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -21448,7 +21455,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>579</ResearchProjectId>
@@ -21516,7 +21523,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>105</Row>
+		<Row>106</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -22852,7 +22859,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>100</Row>
+		<Row>101</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>294</ResearchProjectId>
@@ -22904,7 +22911,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>501</ResearchProjectId>
@@ -22956,7 +22963,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>501</ResearchProjectId>
@@ -22986,7 +22993,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>105</Row>
+		<Row>106</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>8</RaceId>
@@ -23023,7 +23030,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>106</Row>
+		<Row>107</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>296</ResearchProjectId>
@@ -23416,7 +23423,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -24253,7 +24260,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>291</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>467</ResearchProjectId>
@@ -24289,7 +24296,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>290</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>468</ResearchProjectId>
@@ -24885,7 +24892,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>101</Row>
+		<Row>102</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -24949,7 +24956,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>533</ResearchProjectId>
@@ -25001,7 +25008,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>534</ResearchProjectId>
@@ -25196,7 +25203,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -25248,12 +25255,13 @@
 		<Column>10</Column>
 		<Row>241</Row>
 		<PrerequisiteProjects>
-			<ResearchPath>
+			<!-- Ikurro going from t2 to t10 isn't happening in XL -->
+			<!-- <ResearchPath>
 				<ResearchProjectId>330</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>5</RaceId>
-			</ResearchPath>
+			</ResearchPath> -->
 			<ResearchPath>
 				<ResearchProjectId>548</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -25890,7 +25898,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<Components>
 			<Component>
 				<ComponentId>278</ComponentId>
@@ -26342,7 +26350,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>581</ResearchProjectId>
@@ -26362,7 +26370,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>103</Row>
+		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>581</ResearchProjectId>
@@ -26382,7 +26390,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>581</ResearchProjectId>
@@ -26602,7 +26610,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>13</Column>
-		<Row>244</Row>
+		<Row>245</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>586</ResearchProjectId>
@@ -28282,6 +28290,12 @@
 				<ResearchProjectId>679</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>330</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
@@ -34351,7 +34365,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>102</Row>
+		<Row>103</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -34410,7 +34424,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>105</Row>
+		<Row>106</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -36620,7 +36634,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>104</Row>
+		<Row>105</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
@@ -36800,7 +36814,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>106</Row>
+		<Row>107</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>536</ResearchProjectId>
