@@ -32,7 +32,7 @@ sub ProcessFile
 			if ($row >= $starting && $row <= $ending)
 			{
 				# adjust the row
-				$line = sprint OFf("$1<Row>%d</Row>$3\n", $row + $offset);
+				$line = sprintf("$1<Row>%d</Row>$3\n", $row + $offset);
 			}
 		}
 
