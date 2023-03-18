@@ -129,6 +129,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.2.0
 - Updated for DLC compatibility
+- Added a generalized search & replace script (go) to do bulk edits on ShipHulls in particular (but can be used anywhere, potentially, albeit very basic)
+- Updated all Fighter and Bomber class names (closer to vanilla, but better)
 
 ### v1.10.5
 - Spelling corrections
