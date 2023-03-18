@@ -1,0 +1,39 @@
+// pattern replacement
+// patterns and replacements are regex expressions
+// whole line comments are ignored
+// blank lines are ignored
+
+// note: you'll need to check each of these - some overlap non-military ships and need to be reset before pushing them up to github
+<MaximumSize>415</MaximumSize>		<MaximumSize>450</MaximumSize>
+<MaximumSize>490</MaximumSize>		<MaximumSize>540</MaximumSize>
+<MaximumSize>675</MaximumSize>		<MaximumSize>720</MaximumSize>
+<MaximumSize>840</MaximumSize>		<MaximumSize>960</MaximumSize>
+<MaximumSize>900</MaximumSize>		<MaximumSize>1120</MaximumSize>
+<MaximumSize>1300</MaximumSize>		<MaximumSize>1440</MaximumSize>
+<MaximumSize>1500</MaximumSize>		<MaximumSize>1680</MaximumSize>
+<MaximumSize>1800</MaximumSize>		<MaximumSize>1920</MaximumSize>
+
+<Name>Light Interceptor</Name>		<Name>Fighter</Name>
+<Name>Attack Fighter</Name>			<Name>Improved Fighter</Name>
+<Name>Strike Fighter</Name>			<Name>Advanced Fighter</Name>
+<Name>Superiority Fighter</Name>	<Name>Strike Fighter</Name>
+// note: Superiority fighter is listed twice: you'll have to manually fix the second one to be Superiority Fighter
+
+<Name>Strike Bomber</Name>			<Name>Heavy Bomber</Name>
+<Name>Heavy Bomber</Name>			<Name>Strike Bomber</Name>
+
+<Name>Light Cruiser</Name>			<Name>Cruiser</Name>
+<Name>Light Carrier</Name>			<Name>Carrier</Name>
+<Name>Battlecruiser</Name>			<Name>Battleship</Name>
+<Name>Long Range Cruiser</Name>		<Name>Shield Cruiser</Name>
+<Name>Cruiser</Name>				<Name>Heavy Cruiser</Name>
+<Name>Battleship</Name>				<Name>Heavy Battleship</Name>
+<Name>Carrier</Name>				<Name>Heavy Carrier</Name>
+<Name>Exploration Cruiser</Name>	<Name>Galaxy Cruiser</Name>
+<Name>Heavy Cruiser</Name>			<Name>Battle Cruiser</Name>
+<Name>Heavy Battleship</Name>		<Name>Super Battleship</Name>
+<Name>Heavy Carrier</Name>			<Name>Super Carrier</Name>
+
+<Name>Massive Troop Transport</Name>	<Name>Heavy Troop Transport</Name>
+<Name>Expedition Transport</Name>		<Name>Massive Troop Transport</Name>
+<Name>Army Transport</Name>				<Name>Colossal Troop Transport</Name>

@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.0](#v1110)
 		- [v1.10.5](#v1105)
 		- [v1.10.4](#v1104)
 		- [v1.10.3](#v1103)
@@ -55,7 +56,7 @@ Author: Mordachai (lucky-wolf)
 		- [v1.2.2](#v122)
 		- [v1.2.1](#v121)
 		- [v1.2.0](#v120)
-		- [v1.1.10](#v1110)
+		- [v1.1.10](#v1110-1)
 		- [v1.1.9](#v119)
 		- [v1.1.8](#v118)
 		- [v1.1.7](#v117)
@@ -125,6 +126,15 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.0
+- Updated for DLC compatibility
+  - Added a 4th tier for Ikkuro Fusion Beams
+  - Adjusted Ikkuro habitability techs to be better aligned with XL
+  - Adjusted Dhayut HyperDrives to be better aligned with XL
+  - Updated biome habitability for both races for XL
+- Updated all Fighter and Bomber class names
+- Updated some ship hull names to better correspond to technologies
 
 ### v1.10.5
 - Spelling corrections

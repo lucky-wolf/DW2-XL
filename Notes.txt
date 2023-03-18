@@ -107,7 +107,7 @@ Troops		190..201 (12)
 Reactors 	202..205 (4)
 hyperjump	215...?
 
-terraforming 293..296, 297, 298..300
+terraforming 292..309  (some of these are in the _Ikkuro file)
 
 ----------------------------------------
 Initial Techs
@@ -154,7 +154,7 @@ perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\Researc
 hyper drive fuel efficiency (purely speed/energyK)
 type          |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
 ---------------------------------------------------------------
-Gerax-Torrent |.2    |.15   |.1111 |.0916 ].0666 |.0542 |.0388
+Gerax-Torrent |.2    |.15   |.1111 |.0916 |.0666 |.0542 |.0388
 Kaldos        |      |.1616 |.1333 |      |.0888 |      |.0555
 Calista-Dal   |      |.14   |.1143 |      |.06   |      |.0357
 Equinox       |      |.1692 |.1333 |      |.0871 |      |.0538
@@ -532,3 +532,22 @@ Clear all intercept values:
 
 Superior Gravitic Resonance		174
 Superior Gravitic Modulation	529
+
+
+Biome Shaping IDs:
+	791
+	792
+	793
+	794
+	795
+
+rows:
+	292	ocean
+	294	continental
+	296	swamp
+	298 biome
+	300 terraforming
+	301 plains
+	303 desert
+	306 ice
+	309 volcanic

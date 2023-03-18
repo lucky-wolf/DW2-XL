@@ -1,8 +1,8 @@
-# input:	research-filename start-column end-column offset
+# input:	source-filename rowstart rowend colsstart coleend coffset output-filename
 # output:	stdout
-# example:  ResearchProjectDefinitions.xml 10 9999 2 99 3
-#   all techs in rows 10..9999 and columns 2..99 are adjusted by +3 columns
-#   perl adjustcol.pl data/ResearchProjectDefinitions.xml 10 9999 2 99 3 > "Test.xml"
+# example:  temp/ResearchProjectDefinitions.xml 10 9999 2 8 +1 XL/ResearchProjectDefinitions.xml
+#   all techs in rows 10..9999 and columns 2..8 are adjusted by +1 columns
+#   perl adjustcol.pl temp/ResearchProjectDefinitions.xml 10 9999 2 8 +1 XL/ResearchProjectDefinitions.xml
 
 sub ProcessFile
 {
@@ -12,11 +12,18 @@ sub ProcessFile
 	my($cfirst) = $_[3] + 0;
 	my($clast) = $_[4] + 0;
 	my($offset) = $_[5] + 0;
+	my($target) = $_[6];
 
-	# print STDERR "rows $rfirst..$rlast columns $cfirst..$clast by $offset\n";
-	# return;
+	print "source = $source\n";
+	print "target = $target\n";
+	print "rows = $rfirst..$rlast\n";
+	print "cols = $cfirst..$clast\n";
+	print "adjs = $offset\n";
 
-	open(SF, $source) or die "$!";
+	open(SF, '<', $source) or die "$!";
+	open(OF, '>', $target) or die "$!";
+
+	# die;
 
 	# read in each line of the file
 	while ($lncol = <SF>)
@@ -45,16 +52,17 @@ sub ProcessFile
 				}
 			}
 
-			print $lncol;
-			print $lnrow;
+			print OF $lncol;
+			print OF $lnrow;
 		}
 		else
 		{
-			print $lncol;
+			print OF $lncol;
 		}
 	}
 
 	close(SF);
+	close(OF);
 }
 
-ProcessFile($ARGV[0], $ARGV[1], $ARGV[2], $ARGV[3], $ARGV[4], $ARGV[5]);
+ProcessFile($ARGV[0], $ARGV[1], $ARGV[2], $ARGV[3], $ARGV[4], $ARGV[5], $ARGV[6]);
