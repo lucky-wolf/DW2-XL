@@ -107,7 +107,7 @@ Troops		190..201 (12)
 Reactors 	202..205 (4)
 hyperjump	215...?
 
-terraforming 293..296, 297, 298..300
+terraforming 292..309  (some of these are in the _Ikkuro file)
 
 ----------------------------------------
 Initial Techs
@@ -534,18 +534,20 @@ Superior Gravitic Resonance		174
 Superior Gravitic Modulation	529
 
 
-Biome Shaping:
-791
-792
-793
-794
-795
+Biome Shaping IDs:
+	791
+	792
+	793
+	794
+	795
 
 rows:
-oceanic..swamp	292..294
- 295
-biome..terraforming 296..297
-plains..volcanic 298..300
- 301..309
-
-310+ filled
+	292	ocean
+	294	continental
+	296	swamp
+	298 biome
+	300 terraforming
+	301 plains
+	303 desert
+	306 ice
+	309 volcanic
