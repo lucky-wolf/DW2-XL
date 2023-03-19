@@ -3,6 +3,11 @@ Publish on Steam:
 
 	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
 
+BUGS:
+1. Dhayut enhanced slavery now overlaps energy collection line (row) - command row and all below need to move +1
+2. Cost of some DLC techs are out of XL standards
+3. Size of fusion weapons are out of XL standards
+
 Cool Ideas:
 - Assault variants
 	- less weapons / bays, more general slots for assault pods
