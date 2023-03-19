@@ -7,6 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.2](#v1112)
+		- [v1.11.1](#v1111)
 		- [v1.11.0](#v1110)
 		- [v1.10.5](#v1105)
 		- [v1.10.4](#v1104)
@@ -126,6 +128,14 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.2
+- Bug fix: Enhanced Slavery was overlapping row with solar panels
+- Adjusted tech costs for any remaining DLC tech that was out of norm for XL
+- Adjusted fusion beam component sizes to match XL (5/11/22/44)
+
+### v1.11.1
+- Disallowed bombardment from Ikkuro
 
 ### v1.11.0
 - Updated for DLC compatibility
