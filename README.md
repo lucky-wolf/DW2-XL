@@ -130,7 +130,9 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.11.2
-- Glitch: Enhanced Slavery was overlapping row with solar panels
+- Bug fix: Enhanced Slavery was overlapping row with solar panels
+- Adjusted tech costs for any remaining DLC tech that was out of norm for XL
+- Adjusted fusion beam component sizes to match XL (5/11/22/44)
 
 ### v1.11.1
 - Disallowed bombardment from Ikkuro
