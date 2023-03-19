@@ -1,7 +1,9 @@
 # grab all research files that we'll adj
 param(
-	[parameter(Mandatory = $true)][int]$start,
-	[parameter(Mandatory = $true)][int]$end,
+	[parameter(Mandatory = $true)][int]$rowstart,
+	[parameter(Mandatory = $true)][int]$rowend,
+	[parameter(Mandatory = $true)][int]$colstart,
+	[parameter(Mandatory = $true)][int]$colend,
 	[parameter(Mandatory = $true)][int]$offset
 )
 
@@ -14,5 +16,5 @@ foreach ($Item in $files) {
 	$target = "XL/$Item"
 	$source = "temp/$Item"
 	Copy $target $source
-	perl "AdjustRow.pl" $source $start $end $offset $target
+	perl "AdjustRow.pl" $source $rowstart $rowend $colstart $colend $offset $target
 }
