@@ -945,7 +945,14 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<!-- from Ikkuro splinters -->
+				<ResearchProjectId>330</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>BoardingAssault</Type>
@@ -27563,6 +27570,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>319</Row>
+		<DisallowedRaceIds>
+			<!-- Ikkuro are NOT happier mining and would not approve! -->
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>290</ResearchProjectId>
