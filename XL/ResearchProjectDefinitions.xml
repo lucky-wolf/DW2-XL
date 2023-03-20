@@ -27545,27 +27545,27 @@
 		<ResearchProjectId>664</ResearchProjectId>
 		<Name>Advanced Mining Research</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>3</Column>
 		<Row>319</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>382</ResearchProjectId>
+				<ResearchProjectId>290</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
