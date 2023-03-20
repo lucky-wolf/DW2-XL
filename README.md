@@ -7,6 +7,8 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.4](#v1114)
+		- [v1.11.3](#v1113)
 		- [v1.11.2](#v1112)
 		- [v1.11.1](#v1111)
 		- [v1.11.0](#v1110)
@@ -128,6 +130,16 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.4
+- Added path from Ikkuro splinters to Zero-G combat techs as an alternative to having boarding pods
+- Added more docking bays to advanced construction yards (docking/construction: 1/1, 1/1, 2/2, 3/3, 4/4)
+- Moved Advanced Mining Techniques to T3 from T5 (same level as many of the other empire boosting techs)
+  - Disallowed Advanced Mining Techniques from Ikkuro (they're anti mining on principle)
+- Set all mining engines to an asteroid radius of 3000 (so that they don't overlap as game evolves)
+
+### v1.11.3
+- Removed research barriers for DLC tech (XL has no such barriers on any tech at all)
 
 ### v1.11.2
 - Bug fix: Enhanced Slavery was overlapping row with solar panels
