@@ -1634,7 +1634,7 @@
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>250</Size>
-		<MaximumSize>750</MaximumSize>
+		<MaximumSize>800</MaximumSize>
 		<DisplaySize>2200</DisplaySize>
 		<ModelName>Ships/Ikkuro/Ikkuro Spaceport Small</ModelName>
 		<CockpitImageFilename />
@@ -38226,7 +38226,7 @@
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>250</Size>
-		<MaximumSize>750</MaximumSize>
+		<MaximumSize>800</MaximumSize>
 		<DisplaySize>410</DisplaySize>
 		<ModelName>Ships/Ikkuro/Ikkuro Cruiser</ModelName>
 		<CockpitImageFilename />
@@ -38356,7 +38356,7 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
+			<!-- <ComponentBay>
 				<ComponentBayId>6</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>39</MaximumComponentSize>
@@ -38423,7 +38423,7 @@
 					<Y>0</Y>
 					<Z>0</Z>
 				</DisplayEffectOffset>
-			</ComponentBay>
+			</ComponentBay> -->
 			<ComponentBay>
 				<ComponentBayId>10</ComponentBayId>
 				<Type>Engine</Type>
