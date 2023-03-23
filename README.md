@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.6](#v1116)
 		- [v1.11.5](#v1115)
 		- [v1.11.4](#v1114)
 		- [v1.11.3](#v1113)
@@ -131,6 +132,9 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.6
+- Fixed city lights on planets
 
 ### v1.11.5
 - Upgraded small spaceports to capacity 800 (was 750)
