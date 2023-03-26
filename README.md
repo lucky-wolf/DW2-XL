@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.7](#v1117)
 		- [v1.11.6](#v1116)
 		- [v1.11.5](#v1115)
 		- [v1.11.4](#v1114)
@@ -95,6 +96,7 @@ Author: Mordachai (lucky-wolf)
 	- [DW2-XL Engines](#dw2-xl-engines)
 	- [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix)
 	- [DW2-XL Colonization Matrix](#dw2-xl-colonization-matrix)
+	- [DW2-XL Planetary Quality (base) Ranges](#dw2-xl-planetary-quality-base-ranges)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -132,6 +134,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.7
+- Adjusted Snowball/Ice/Tundra to be a little more habitable
+- Gave Zenox a +10 basis for Tundra (was 0)
+- Disallowed Dhayut from diplomacy and trading facilities
+- Fixed Zenox tech costs
+- Fixed Human bulwark missile \[S\] stats (added a v3 tier)
 
 ### v1.11.6
 - Fixed city lights on planets
@@ -926,3 +935,14 @@ If the species primary world is on the left, then their incompatibility is that 
 
 ## DW2-XL Colonization Matrix
 ![](Colonization%20Matrix.png)
+
+## DW2-XL Planetary Quality (base) Ranges
+
+These are base ranges.  The galaxy generator modifies these based on your colony and indy preferences to skew them in various ways that I have no control over.
+
+| Minimum | Maximum | Planet Types                  |
+| ------: | ------: | ----------------------------- |
+|      .2 |      .6 | carbonaceous worlds           |
+|      .2 |      .7 | volcanic worlds               |
+|      .3 |      .7 | desert, scrub, and ice worlds |
+|      .4 |      .8 | blue and green worlds         |

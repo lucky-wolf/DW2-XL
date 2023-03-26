@@ -19455,6 +19455,11 @@
 				<RaceId>6</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Dhayut cannot be traders -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -20415,6 +20420,11 @@
 				<RaceId>6</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Dhayut cannot be traders -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -20857,7 +20867,7 @@
 		<ResearchProjectId>487</ResearchProjectId>
 		<Name>Advanced Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -27352,6 +27362,11 @@
 				<RaceId>6</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Dhayut cannot be traders -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27680,6 +27695,11 @@
 			<!-- Boskarans cannot be diplomats -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Dhayut cannot be diplomats -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -36483,6 +36503,11 @@
 				<RaceId>6</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Dhayut cannot be diplomats -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -36595,7 +36620,7 @@
 		<ResearchProjectId>1081</ResearchProjectId>
 		<Name>Extended Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -36650,7 +36675,7 @@
 		<ResearchProjectId>1082</ResearchProjectId>
 		<Name>Large Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -36760,7 +36785,7 @@
 		<ResearchProjectId>1084</ResearchProjectId>
 		<Name>Advanced Large Star Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
