@@ -3,10 +3,10 @@ Publish on Steam:
 
 	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
 
-BUGS:
-1. Dhayut enhanced slavery now overlaps energy collection line (row) - command row and all below need to move +1
-2. Cost of some DLC techs are out of XL standards
-3. Size of fusion weapons are out of XL standards
+LET'S fix:
+- Nova Missile to have a genuinely high value
+- Rail cannons - slow them down, make them higher dps (medium)
+- Shield power requirements!!
 
 Cool Ideas:
 - Assault variants

@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.11.8](#v1118)
 		- [v1.11.7](#v1117)
 		- [v1.11.6](#v1116)
 		- [v1.11.5](#v1115)
@@ -134,6 +135,12 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.11.8
+- Simplified Fighter/Bomber upgrade paths
+- Added barren world habitability modifiers
+- Adjusted speed of Dhayut Velocity Drive to better match XL
+- Increased accuracy of all jump drives
 
 ### v1.11.7
 - Adjusted Snowball/Ice/Tundra to be a little more habitable
