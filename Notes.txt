@@ -4,9 +4,17 @@ Publish on Steam:
 	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
 
 LET'S fix:
-- Nova Missile to have a genuinely high value
-- Rail cannons - slow them down, make them higher dps (medium)
-- Shield power requirements!!
+- Nova missiles
+	- genuinely high dmg / aoe
+- Rail cannons
+	- reduce rof
+	- increase dmg/slug
+- Torps
+	- balance effectiveness on 2nd-wave of them?
+- Shields
+	- power requirements!!
+	- leakiness
+
 
 Cool Ideas:
 - Assault variants

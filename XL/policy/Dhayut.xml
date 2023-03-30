@@ -39,7 +39,7 @@
 	<ExecuteCapturedForeignAgents>false</ExecuteCapturedForeignAgents>
 	<Priorities>
 		<BonusPriority>
-			<Type>TroopGroundAttack</Type>
+			<Type>HyperjumpSpeed</Type>
 			<Priority>1.5</Priority>
 		</BonusPriority>
 		<BonusPriority>
@@ -49,7 +49,7 @@
 	</Priorities>
 	<ComponentSelectionFactors>
 		<WeaponCloseInFactor>1</WeaponCloseInFactor>
-		<WeaponStandoffFactor>1.25</WeaponStandoffFactor>
+		<WeaponStandoffFactor>1</WeaponStandoffFactor>
 		<WeaponInterceptFactor>1</WeaponInterceptFactor>
 		<WeaponIonFactor>1</WeaponIonFactor>
 		<WeaponBombardFactor>1.25</WeaponBombardFactor>
@@ -58,7 +58,7 @@
 		<ShieldFactor>1</ShieldFactor>
 		<ArmorFactor>1</ArmorFactor>
 		<AssaultPodFactor>1</AssaultPodFactor>
-		<EngineFactor>1.25</EngineFactor>
+		<EngineFactor>1</EngineFactor>
 		<TractorBeamFactor>1</TractorBeamFactor>
 		<ScannerLongFactor>1</ScannerLongFactor>
 		<ScannerTraceFactor>1</ScannerTraceFactor>
@@ -82,8 +82,8 @@
 		<WeaponCloseInFireRateFactor>1</WeaponCloseInFireRateFactor>
 		<WeaponCloseInEnergyUsageFactor>1</WeaponCloseInEnergyUsageFactor>
 		<WeaponStandoffRangeFactor>1</WeaponStandoffRangeFactor>
-		<WeaponStandoffDamageRawFactor>2</WeaponStandoffDamageRawFactor>
-		<WeaponStandoffDamageAtRangeFactor>2</WeaponStandoffDamageAtRangeFactor>
+		<WeaponStandoffDamageRawFactor>1.5</WeaponStandoffDamageRawFactor>
+		<WeaponStandoffDamageAtRangeFactor>1.5</WeaponStandoffDamageAtRangeFactor>
 		<WeaponStandoffDamageRateFactor>1</WeaponStandoffDamageRateFactor>
 		<WeaponStandoffDamageAtRangeRateFactor>1</WeaponStandoffDamageAtRangeRateFactor>
 		<WeaponStandoffFireRateFactor>1</WeaponStandoffFireRateFactor>
@@ -111,12 +111,12 @@
 		<WeaponBombardRangeFactor>1</WeaponBombardRangeFactor>
 		<WeaponBombardDamageInfrastructureFactor>1.5</WeaponBombardDamageInfrastructureFactor>
 		<WeaponBombardDamageMilitaryFactor>1.5</WeaponBombardDamageMilitaryFactor>
-		<WeaponBombardDamagePopulationFactor>2</WeaponBombardDamagePopulationFactor>
-		<WeaponBombardDamageQualityFactor>2</WeaponBombardDamageQualityFactor>
+		<WeaponBombardDamagePopulationFactor>1.5</WeaponBombardDamagePopulationFactor>
+		<WeaponBombardDamageQualityFactor>1.5</WeaponBombardDamageQualityFactor>
 		<WeaponBombardDamageRateInfrastructureFactor>1.5</WeaponBombardDamageRateInfrastructureFactor>
 		<WeaponBombardDamageRateMilitaryFactor>1.5</WeaponBombardDamageRateMilitaryFactor>
-		<WeaponBombardDamageRatePopulationFactor>2</WeaponBombardDamageRatePopulationFactor>
-		<WeaponBombardDamageRateQualityFactor>2</WeaponBombardDamageRateQualityFactor>
+		<WeaponBombardDamageRatePopulationFactor>1.5</WeaponBombardDamageRatePopulationFactor>
+		<WeaponBombardDamageRateQualityFactor>1.5</WeaponBombardDamageRateQualityFactor>
 		<WeaponBombardFireRateFactor>1</WeaponBombardFireRateFactor>
 		<WeaponBombardEnergyUsageFactor>1</WeaponBombardEnergyUsageFactor>
 		<WeaponAreaRangeFactor>1</WeaponAreaRangeFactor>
@@ -131,9 +131,9 @@
 		<ShieldResistanceFactor>1</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
-		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
+		<HyperDriveSpeedFactor>1.5</HyperDriveSpeedFactor>
 		<HyperDriveEnergyUsageFactor>1</HyperDriveEnergyUsageFactor>
-		<HyperDriveJumpRangeFactor>1</HyperDriveJumpRangeFactor>
+		<HyperDriveJumpRangeFactor>1.5</HyperDriveJumpRangeFactor>
 		<HyperDriveInitiationTimeFactor>1</HyperDriveInitiationTimeFactor>
 		<HyperDriveRechargeTimeFactor>1</HyperDriveRechargeTimeFactor>
 		<AreaShieldRangeFactor>1</AreaShieldRangeFactor>

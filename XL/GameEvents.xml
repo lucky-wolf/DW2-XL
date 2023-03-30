@@ -11166,15 +11166,15 @@ The final entry is a panicked description of a colossal wall of energy approachi
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Diplomatic Messages Retrieved</MessageTitle>
 				<Description>Our investigation of an abandoned base, {0} in the {1} system, has revealed some interesting messages between ancient factions as they battled a terrible threat known as the Shakturi.
-          
-One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows: 
-          
-"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds. 
-          
+
+One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows:
+
+"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds.
+
 We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously."
-          
+
 Following this is an outline of current fleet positions and strengths for the Alliance.
-          
+
 A note has also been appended to this message, apparently by the Ackdarian diplomatic consul commanding the Monitoring Station. The note reads: "Top Secret, Forward urgently to the Humans, we cannot allow this dangerous situation to continue"...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -32665,12 +32665,39 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 		<PlacementRaceId>6</PlacementRaceId>
 		<PlacementActions>
 			<GameEventAction>
-				<Type>GenerateIndependentColony</Type>
+				<Type>GeneratePlanetarySystem</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>12</Id1>
+				<Value1>0.45</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<GeneratedItemEventNames />
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateIndependentColony</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -32701,7 +32728,7 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35275,12 +35302,39 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 		<PlacementRaceId>6</PlacementRaceId>
 		<PlacementActions>
 			<GameEventAction>
-				<Type>GenerateIndependentColony</Type>
+				<Type>GeneratePlanetarySystem</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>MediumEmptySystem</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>12</Id1>
+				<Value1>0.45</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<GeneratedItemEventNames />
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>GenerateIndependentColony</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35310,7 +35364,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35335,7 +35389,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35362,7 +35416,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35387,7 +35441,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35414,7 +35468,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -35440,7 +35494,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
