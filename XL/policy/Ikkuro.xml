@@ -43,22 +43,26 @@
 			<Priority>1.5</Priority>
 		</BonusPriority>
 		<BonusPriority>
-			<Type>WeaponsDamage</Type>
+			<Type>DamageControl</Type>
+			<Priority>2</Priority>
+		</BonusPriority>
+		<BonusPriority>
+			<Type>PlagueCuring</Type>
 			<Priority>1.5</Priority>
 		</BonusPriority>
 	</Priorities>
 	<ComponentSelectionFactors>
-		<WeaponCloseInFactor>1</WeaponCloseInFactor>
-		<WeaponStandoffFactor>1.25</WeaponStandoffFactor>
+		<WeaponCloseInFactor>1.5</WeaponCloseInFactor>
+		<WeaponStandoffFactor>1</WeaponStandoffFactor>
 		<WeaponInterceptFactor>1</WeaponInterceptFactor>
 		<WeaponIonFactor>1</WeaponIonFactor>
-		<WeaponBombardFactor>1.25</WeaponBombardFactor>
+		<WeaponBombardFactor>1</WeaponBombardFactor>
 		<WeaponAreaFactor>1</WeaponAreaFactor>
 		<FighterFactor>1</FighterFactor>
 		<ShieldFactor>1</ShieldFactor>
 		<ArmorFactor>1</ArmorFactor>
-		<AssaultPodFactor>1</AssaultPodFactor>
-		<EngineFactor>1.25</EngineFactor>
+		<AssaultPodFactor>1.5</AssaultPodFactor>
+		<EngineFactor>1</EngineFactor>
 		<TractorBeamFactor>1</TractorBeamFactor>
 		<ScannerLongFactor>1</ScannerLongFactor>
 		<ScannerTraceFactor>1</ScannerTraceFactor>
@@ -66,11 +70,11 @@
 		<HyperStopFactor>1</HyperStopFactor>
 		<CountermeasuresFactor>1</CountermeasuresFactor>
 		<TargetingFactor>1</TargetingFactor>
-		<DamageControlFactor>1</DamageControlFactor>
+		<DamageControlFactor>2</DamageControlFactor>
 		<EngineManeuveringFactor>1</EngineManeuveringFactor>
 		<IonDefenseFactor>1</IonDefenseFactor>
 		<StealthFactor>1</StealthFactor>
-		<TroopCompartmentFactor>1.25</TroopCompartmentFactor>
+		<TroopCompartmentFactor>1.5</TroopCompartmentFactor>
 		<ConstructionYardFactor>1</ConstructionYardFactor>
 		<ResearchLabFactor>1</ResearchLabFactor>
 		<SmallSizeFactor>1</SmallSizeFactor>
@@ -82,15 +86,15 @@
 		<WeaponCloseInFireRateFactor>1</WeaponCloseInFireRateFactor>
 		<WeaponCloseInEnergyUsageFactor>1</WeaponCloseInEnergyUsageFactor>
 		<WeaponStandoffRangeFactor>1</WeaponStandoffRangeFactor>
-		<WeaponStandoffDamageRawFactor>2</WeaponStandoffDamageRawFactor>
-		<WeaponStandoffDamageAtRangeFactor>2</WeaponStandoffDamageAtRangeFactor>
-		<WeaponStandoffDamageRateFactor>1</WeaponStandoffDamageRateFactor>
-		<WeaponStandoffDamageAtRangeRateFactor>1</WeaponStandoffDamageAtRangeRateFactor>
+		<WeaponStandoffDamageRawFactor>1</WeaponStandoffDamageRawFactor>
+		<WeaponStandoffDamageAtRangeFactor>1</WeaponStandoffDamageAtRangeFactor>
+		<WeaponStandoffDamageRateFactor>1.5</WeaponStandoffDamageRateFactor>
+		<WeaponStandoffDamageAtRangeRateFactor>1.5</WeaponStandoffDamageAtRangeRateFactor>
 		<WeaponStandoffFireRateFactor>1</WeaponStandoffFireRateFactor>
 		<WeaponStandoffEnergyUsageFactor>1</WeaponStandoffEnergyUsageFactor>
 		<WeaponInterceptRangeFactor>1</WeaponInterceptRangeFactor>
 		<WeaponInterceptDamageFactor>1</WeaponInterceptDamageFactor>
-		<WeaponInterceptDamageRateFactor>1</WeaponInterceptDamageRateFactor>
+		<WeaponInterceptDamageRateFactor>1.5</WeaponInterceptDamageRateFactor>
 		<WeaponInterceptFireRateFactor>1</WeaponInterceptFireRateFactor>
 		<WeaponInterceptEnergyUsageFactor>1</WeaponInterceptEnergyUsageFactor>
 		<WeaponIonRangeFactor>1</WeaponIonRangeFactor>
@@ -109,14 +113,14 @@
 		<WeaponIonFireRateFactor>1</WeaponIonFireRateFactor>
 		<WeaponIonEnergyUsageFactor>1</WeaponIonEnergyUsageFactor>
 		<WeaponBombardRangeFactor>1</WeaponBombardRangeFactor>
-		<WeaponBombardDamageInfrastructureFactor>1.5</WeaponBombardDamageInfrastructureFactor>
+		<WeaponBombardDamageInfrastructureFactor>1</WeaponBombardDamageInfrastructureFactor>
 		<WeaponBombardDamageMilitaryFactor>1.5</WeaponBombardDamageMilitaryFactor>
-		<WeaponBombardDamagePopulationFactor>2</WeaponBombardDamagePopulationFactor>
-		<WeaponBombardDamageQualityFactor>2</WeaponBombardDamageQualityFactor>
-		<WeaponBombardDamageRateInfrastructureFactor>1.5</WeaponBombardDamageRateInfrastructureFactor>
+		<WeaponBombardDamagePopulationFactor>1</WeaponBombardDamagePopulationFactor>
+		<WeaponBombardDamageQualityFactor>1</WeaponBombardDamageQualityFactor>
+		<WeaponBombardDamageRateInfrastructureFactor>1</WeaponBombardDamageRateInfrastructureFactor>
 		<WeaponBombardDamageRateMilitaryFactor>1.5</WeaponBombardDamageRateMilitaryFactor>
-		<WeaponBombardDamageRatePopulationFactor>2</WeaponBombardDamageRatePopulationFactor>
-		<WeaponBombardDamageRateQualityFactor>2</WeaponBombardDamageRateQualityFactor>
+		<WeaponBombardDamageRatePopulationFactor>1</WeaponBombardDamageRatePopulationFactor>
+		<WeaponBombardDamageRateQualityFactor>1</WeaponBombardDamageRateQualityFactor>
 		<WeaponBombardFireRateFactor>1</WeaponBombardFireRateFactor>
 		<WeaponBombardEnergyUsageFactor>1</WeaponBombardEnergyUsageFactor>
 		<WeaponAreaRangeFactor>1</WeaponAreaRangeFactor>
@@ -124,11 +128,11 @@
 		<WeaponAreaDamageRateFactor>1</WeaponAreaDamageRateFactor>
 		<WeaponAreaFireRateFactor>1</WeaponAreaFireRateFactor>
 		<WeaponAreaEnergyUsageFactor>1</WeaponAreaEnergyUsageFactor>
-		<ArmorStrengthFactor>1</ArmorStrengthFactor>
-		<ArmorReactiveFactor>1</ArmorReactiveFactor>
+		<ArmorStrengthFactor>1.5</ArmorStrengthFactor>
+		<ArmorReactiveFactor>1.5</ArmorReactiveFactor>
 		<ShieldStrengthFactor>1</ShieldStrengthFactor>
 		<ShieldRechargeFactor>1</ShieldRechargeFactor>
-		<ShieldResistanceFactor>1</ShieldResistanceFactor>
+		<ShieldResistanceFactor>2</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
 		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
@@ -140,19 +144,19 @@
 		<AreaShieldPowerFactor>1</AreaShieldPowerFactor>
 		<AreaShieldEnergyUsageFactor>1</AreaShieldEnergyUsageFactor>
 		<AssaultPodStrengthFactor>1</AssaultPodStrengthFactor>
-		<AssaultPodRangeFactor>1</AssaultPodRangeFactor>
+		<AssaultPodRangeFactor>1.5</AssaultPodRangeFactor>
 		<AssaultPodEnergyUsageFactor>1</AssaultPodEnergyUsageFactor>
 		<AssaultPodShieldPenetrationFactor>1.5</AssaultPodShieldPenetrationFactor>
 		<AssaultPodLaunchRateFactor>1</AssaultPodLaunchRateFactor>
 		<AssaultDefenseFactor>1</AssaultDefenseFactor>
-		<DamageReductionFactor>1</DamageReductionFactor>
-		<DamageRepairFactor>1</DamageRepairFactor>
+		<DamageReductionFactor>2</DamageReductionFactor>
+		<DamageRepairFactor>2</DamageRepairFactor>
 		<DockingBayThroughputFactor>1</DockingBayThroughputFactor>
 		<DockingBayShipCountFactor>1</DockingBayShipCountFactor>
-		<EngineMaximumThrustFactor>1</EngineMaximumThrustFactor>
+		<EngineMaximumThrustFactor>1.5</EngineMaximumThrustFactor>
 		<EngineCruiseThrustFactor>1</EngineCruiseThrustFactor>
 		<EngineEnergyUsageFactor>1</EngineEnergyUsageFactor>
-		<EngineVectoringFactor>1</EngineVectoringFactor>
+		<EngineVectoringFactor>2</EngineVectoringFactor>
 		<FighterBayCapacityFactor>1</FighterBayCapacityFactor>
 		<FighterBayBuildRateFactor>1</FighterBayBuildRateFactor>
 		<FighterBayRepairRateFactor>1</FighterBayRepairRateFactor>
