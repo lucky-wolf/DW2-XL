@@ -10375,7 +10375,7 @@ The messages indicate that this fleet was part of a fearsome empire called the S
 			<GameEventAction>
 				<Type>GenerateSpaceItem</Type>
 				<MessageTitle />
-				<Description>We have come across a message while salvaging a damaged computer core from the alien debris field in the {1} system.
+				<Description>We have come across a message while salvaging a damaged computer core.
 
 The message describes a vast attack plan involving dozens of fleets. While in hyperspace jumping towards their final attack target, the ship progressively lost contact with all of their allied fleets.
 
@@ -12075,9 +12075,15 @@ The last part of the message is a brief video clip of the base commander telling
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>An Ancient Battleship</MessageTitle>
-				<Description>During your exploration of {1}, an sudden earthquake reveals part of an ancient buried starship
+				<Description>During your exploration of {1}, an sudden earthquake reveals part of an ancient buried starship.
 
-,\n\nA bit more investigation suggests that it was once a remarkably large warship of Human design that landed or crashed on this planet and was buried during previous seismic activity.\n\nThe current seismic activity is ongoing and while the aftershocks continue, exploring this wreck is extremely dangerous. Further exploration is clearly of great interest, but there are only two realistic ways to proceed.  \n\nWe can attempt to stabilize the area, or wait until the seismic activity subsides on its own before exploring. \n\nWhich path will you choose - pay to attempt a stabilitization of tthe buried hull in order to explore more quickly or wait for the seismic aftershocks to settle down naturally before proceeding with exploration?</Description>
+A bit more investigation suggests that it was once a remarkably large warship of Human design that landed or crashed on this planet and was buried during previous seismic activity.
+
+The current seismic activity is ongoing and while the aftershocks continue, exploring this wreck is extremely dangerous. Further exploration is clearly of great interest, but there are only two realistic ways to proceed.
+
+We can attempt to stabilize the area, or wait until the seismic activity subsides on its own before exploring.
+
+Which path will you choose - pay to attempt a stabilitization of the buried hull in order to explore more quickly or wait for the seismic aftershocks to settle down naturally before proceeding with exploration?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -15031,6 +15037,9 @@ The last part of the message is a brief video clip of the base commander telling
 		<TriggerType>EncounterLocation</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>0</short>
+		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
@@ -15402,6 +15411,9 @@ The last part of the message is a brief video clip of the base commander telling
 		<TriggerType>Investigate</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>0</short>
+		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
@@ -15684,6 +15696,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 		<TriggerType>Investigate</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>0</short>
+		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<PlacementAtGameStart>true</PlacementAtGameStart>
@@ -46854,7 +46869,7 @@ During negotiations, our diplomats were able to glean some facts about the ancie
 				<MessageTitle>Horazon in Need</MessageTitle>
 				<Description>We have received an urgent message from Horazon.
 
-Teekans, we have heard of your mining expertise. Will you help us? We have had a terrible mining accident on our world. Hundreds of minors are trapped underground, and we have no means of safely extracting them. An important politician of our world was visiting the mine during the collapse. A failure to rescue this politician will cause upheaval on our world. If you can help us, you would have our gratitude, and we would be willing to share some of our space travel technology with you as well as tell you some of what we know of your ancestors.</Description>
+Teekans, we have heard of your mining expertise. Will you help us? We have had a terrible mining accident on our world. Hundreds of miners are trapped underground, and we have no means of safely extracting them. An important politician of our world was visiting the mine during the collapse. A failure to rescue this politician will cause upheaval on our world. If you can help us, you would have our gratitude, and we would be willing to share some of our space travel technology with you as well as tell you some of what we know of your ancestors.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
