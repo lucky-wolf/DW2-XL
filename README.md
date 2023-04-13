@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.0](#v1130)
 		- [v1.12.0](#v1120)
 		- [v1.11.9](#v1119)
 		- [v1.11.8](#v1118)
@@ -137,6 +138,24 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.0
+- Increased Armor strength (approx 2x)
+  - Added 16 new armor techs, and 32 total armors (including all of the strike craft variants)
+  - Armors were rebalanced substantially - along the same lines as before, but all armor is substantially more resilient, but much slower to repair
+  - Armors have less damage reduction - so they're more susceptible to constant small weapons fire
+- Reduced Damage Control repair rates (approx by half)
+  - Added 2 new levels of damage control components & tech (4 total including the Ikkuro's organic hulls)
+  - Rebalanced damage control to be substantially reduced until late game
+- Removed damage control and damage reduction from command components
+  - Helms (Command) improve ECM and Targeting, but not damage control or reduction
+- Rebalanced Targeting & Countermeasures
+  - Targeting computers are stronger
+  - Countermeasures are stronger
+  - Rounded out Sensors to offer a small amount of ECM
+  - Updated all Sensors to reflect targeting strength changes
+- Added medium energy collectors to all tech levels
+  - single slot variant offers 2x the power absorption at a cost of 2x space, crew, and materials
 
 ### v1.12.0
 - Updated data file changes from 1.1.3.4 fixes
@@ -827,69 +846,17 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 ## DW2-XL Armor
 
-| Ship Armor           | Blast Rating | Reactive |  Ion |
-| -------------------- | -----------: | -------: | ---: |
-| Standard             |           80 |        2 |    0 |
-|                      |              |          |      |
-| Ion Sheath           |           96 |        3 |    8 |
-| Reactive             |           96 |        5 |    2 |
-| Heavy                |          120 |        3 |    1 |
-| Flux Sheath          |          120 |        4 |    4 |
-|                      |              |          |      |
-| Enhanced Ion Sheath  |          144 |        4 |   16 |
-| Enhanced Reactive    |          144 |        6 |    3 |
-| Enhanced Heavy       |          180 |        4 |    2 |
-| Flux Enhanced        |          180 |        6 |    6 |
-|                      |              |          |      |
-| Hardened Ion Sheath  |          216 |        6 |   24 |
-| Hardened Reactive    |          216 |        8 |    4 |
-| Hardened Heavy       |          270 |        6 |    3 |
-| Flux Hardened        |          270 |        8 |    8 |
-|                      |              |          |      |
-| Ultra-Dense Ion      |          320 |        8 |   32 |
-| Ultra-Dense Reactive |          320 |       10 |    5 |
-| Ultra-Dense Heavy    |          400 |        8 |    4 |
-| Flux Ultra-Dense     |          400 |       10 |   10 |
-|                      |              |          |      |
-| Absorbing Ion Sheath |          480 |       10 |   40 |
-| Absorbing Reactive   |          480 |       12 |    6 |
-| Absorbing Heavy      |          600 |       10 |    5 |
-| Flux Absorbing       |          600 |       12 |   12 |
-|                      |              |          |      |
-| Stellar              |          900 |       14 |   48 |
+| Ship Armor | Blast Rating | Reactive |  Ion |
+| ---------- | -----------: | -------: | ---: |
+
+![](Armor.png)
 
 ## DW2-XL Fighter/Bomber Armor
 
-| Fighter/Bomber Armor   | Blast Rating | Reactive |  Ion |
-| ---------------------- | -----------: | -------: | ---: |
-| Standard               |           14 |        0 |    0 |
-|                        |              |          |      |
-| Ion Sheath             |           16 |        1 |    4 |
-| Reactive               |           16 |        2 |    0 |
-| Heavy                  |           25 |        0 |    0 |
-| Flux Sheath            |           25 |        2 |    2 |
-|                        |              |          |      |
-| Enhanced Ion Sheath    |           19 |        2 |    8 |
-| Enhanced Reactive      |           19 |        3 |    0 |
-| Enhanced Heavy         |           30 |        1 |    0 |
-| Flux Enhanced          |           30 |        3 |    3 |
-|                        |              |          |      |
-| Hardened Ion Sheath    |           23 |        3 |   12 |
-| Hardened Reactive      |           23 |        4 |    4 |
-| Hardened Heavy         |           36 |        2 |    4 |
-| Flux Hardened          |           36 |        4 |    4 |
-|                        |              |          |      |
-| Ultra-Dense Ion Sheath |           27 |        4 |   16 |
-| Ultra-Dense Reactive   |           27 |        5 |    8 |
-| Ultra-Dense Heavy      |           45 |        3 |    8 |
-| Flux Ultra-Dense       |           45 |        5 |    5 |
-|                        |              |          |      |
-| Absorbing Ion Sheath   |           34 |        5 |   20 |
-| Absorbing Reactive     |           34 |        6 |   12 |
-| Absorbing Heavy        |           54 |        4 |   12 |
-| Flux Absorbing         |           54 |        6 |    6 |
-|                        |              |          |      |
-| Stellar                |           64 |        7 |   24 |
+| Fighter/Bomber Armor | Blast Rating | Reactive |  Ion |
+| -------------------- | -----------: | -------: | ---: |
+
+Currently in a spreadsheet - will try to find a way to restore here in a future version
 
 ## DW2-XL Reactors
 
