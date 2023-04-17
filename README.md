@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.1](#v1131)
 		- [v1.13.0](#v1130)
 		- [v1.12.0](#v1120)
 		- [v1.11.9](#v1119)
@@ -138,6 +139,15 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.1
+- Surveillance Oligarchy now also gives basic targeting computers since those a prerequisites to short range sensors in XL
+- Added Central Espionage Agency as a 2nd tier planetary espionage facility
+- Gave Haakonish and Dhayut direct access to the earlier Espionage Academy planetary facility from game-start
+- Reduced size of all planetary facilities to reduce the odds of them getting destroyed during invasions
+- Fixed a few issues in the planetary defense and special ops portion of the tech tree so everything lines up a bit better and has level-appropriate costs
+- Clarified the prerequisites for diplomacy focus so that it requires contact with other social creatures (not with Boskarans nor Dhayut)
+- Robotic troops are now size 2000 which should make them faster to recruit and possible to fit more on your transports, making up for their otherwise anemic stats
 
 ### v1.13.0
 - Increased Armor strength (approx 2x)

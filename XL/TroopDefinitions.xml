@@ -4,9 +4,9 @@
 		<TroopDefinitionId>0</TroopDefinitionId>
 		<RaceId>255</RaceId>
 		<Type>Infantry</Type>
-		<Size>4000</Size>
+		<Size>2000</Size>
 		<RecruitmentCost>
-			<Money>1250</Money>
+			<Money>1200</Money>
 			<Resources />
 		</RecruitmentCost>
 		<MaintenanceCost>100</MaintenanceCost>
@@ -18,7 +18,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battle Robot Brigade</Name>
+		<Name>Battlebot Unit</Name>
 		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -31,15 +31,15 @@
 			<Resources />
 		</RecruitmentCost>
 		<MaintenanceCost>150</MaintenanceCost>
-		<AttackStrength>120</AttackStrength>
-		<DefendStrength>150</DefendStrength>
+		<AttackStrength>140</AttackStrength>
+		<DefendStrength>140</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Synthetics Brigade</Name>
+		<Name>Synthetic Unit</Name>
 		<ImageFilename>Extras/TroopSymbols/Synthetic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -81,7 +81,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Heavy Armor Brigade</Name>
+		<Name>'Mech Brigade</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -187,7 +187,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Destroyer Group</Name>
+		<Name>'Mech Group</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -293,7 +293,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Gravity Brigade</Name>
+		<Name>'Mech Brigade</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -336,7 +336,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Reconaissance Brigade</Name>
+		<Name>Recon Brigade</Name>
 		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -399,7 +399,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Conqueror Force</Name>
+		<Name>'Mechs Force</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -505,7 +505,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Vanguard Hive</Name>
+		<Name>'Mech Hive</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -548,7 +548,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Hidden Hive</Name>
+		<Name>Vanguard Hive</Name>
 		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -590,7 +590,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Defender Brigade</Name>
+		<Name>Defender Pod</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -611,7 +611,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Brigade</Name>
+		<Name>'Mech Pod</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -633,7 +633,7 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Interceptor Force</Name>
+		<Name>Interceptor Pod</Name>
 		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -654,7 +654,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Special Operations Force</Name>
+		<Name>SpecOps Pod</Name>
 		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -675,7 +675,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Mobile Titan Force</Name>
+		<Name>Titan Pod</Name>
 		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -717,7 +717,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Arctic Mechanized Force</Name>
+		<Name>Arctic 'Mech Force</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -739,7 +739,7 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Arctic Guardians Group</Name>
+		<Name>Arctic Guardians Force</Name>
 		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -795,9 +795,12 @@
 		<MaintenanceCost>200</MaintenanceCost>
 		<AttackStrength>134</AttackStrength>
 		<DefendStrength>201</DefendStrength>
+		<SabotageStrength>0</SabotageStrength>
+		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<Name>Sentinel Force</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
@@ -969,7 +972,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>BattleMech Brigade</Name>
+		<Name>Battle Brigade</Name>
 		<Description>Placeholder</Description>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
@@ -991,7 +994,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Scout Group</Name>
+		<Name>Forward Guard</Name>
 		<Description>Placeholder</Description>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
@@ -1057,7 +1060,7 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>WarBot Brigade</Name>
+		<Name>War Brigade</Name>
 		<Description>Placeholder</Description>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
@@ -1067,8 +1070,8 @@
 		<Type>Infantry</Type>
 		<Size>5000</Size>
 		<MaintenanceCost>0</MaintenanceCost>
-		<AttackStrength>0</AttackStrength>
-		<DefendStrength>0</DefendStrength>
+		<AttackStrength>100</AttackStrength>
+		<DefendStrength>160</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0</EvasionArmor>
@@ -1093,7 +1096,7 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Mech Guardians</Name>
+		<Name>Guardians</Name>
 		<Description>Placeholder</Description>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
