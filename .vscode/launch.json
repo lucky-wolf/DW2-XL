@@ -26,6 +26,21 @@
 				"-script",
 				"renamehulls.txt"
 			]
+		},
+		{
+			"name": "XML",
+			"type": "go",
+			"request": "launch",
+			"mode": "debug",
+			"program": "cmd/xml/main.go",
+			"output": "${workspaceFolder}/xml.exe",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"-source",
+				"XL/ShipHulls_Dhayut.xml",
+				"-target",
+				"temp/ShipHulls_Dhayut.xml"
+			]
 		}
 	]
 }
