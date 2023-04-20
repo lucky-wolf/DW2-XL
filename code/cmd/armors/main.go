@@ -50,7 +50,18 @@ func run() (err error) {
 	}
 
 	// debug: just print out the tree
-	log.Print(tree)
+	// log.Print(tree)
+
+	// bytes, err := xml.MarshalIndent(tree, "", "\t")
+	// if err != nil {
+	// 	return
+	// }
+
+	// log.Print(string(bytes))
+
+	e := xmltree.NewEncoder(os.Stdout)
+	e.SetIndent("", "\t")
+	err = tree.Encode(e)
 
 	// // finally, swap the new races files so it's ready to go
 	// err = swap(oldfile, newfile)
