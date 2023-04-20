@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.2](#v1132)
 		- [v1.13.1](#v1131)
 		- [v1.13.0](#v1130)
 		- [v1.12.0](#v1120)
@@ -139,6 +140,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.2
+- Dhayut are no longer allowed to choose Hive Mind government
+- Boskara can only choose Hive Mind government
 
 ### v1.13.1
 - Surveillance Oligarchy now also gives basic targeting computers since those a prerequisites to short range sensors in XL
