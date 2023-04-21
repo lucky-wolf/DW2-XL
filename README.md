@@ -144,6 +144,9 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.13.2
 - Dhayut are no longer allowed to choose Hive Mind government
 - Boskara can only choose Hive Mind government
+- Updated to beta 1.1.3.5 data files
+  - Dhayut Resort Base fixed
+  - All other fixes are included automatically
 
 ### v1.13.1
 - Surveillance Oligarchy now also gives basic targeting computers since those a prerequisites to short range sensors in XL
