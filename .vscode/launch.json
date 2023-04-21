@@ -36,10 +36,10 @@
 			"output": "code/bin/armors.exe",
 			"cwd": "${workspaceFolder}",
 			"args": [
+				"-source",
+				"temp/Races.xml",
 				"-target",
-				"temp/Test.xml",
-				// "-data",
-				// "temp/ShipHulls_Dhayut.xml"
+				"temp/Races.xml",
 			]
 		},
 		{

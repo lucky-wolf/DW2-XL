@@ -5,6 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"strings"
+	"unicode/utf8"
 )
 
 // we encode a tree to a stream or file
@@ -44,7 +46,7 @@ func NewEncoder(stream io.Writer) (e *encoder) {
 }
 
 // Configures this encoder to use the given prefix + indent
-func (e *encoder) SetIndent(prefix, indent string) {
+func (e *encoder) Configure(prefix, indent string) {
 	e.prefix = prefix
 	e.indent = indent
 	return
@@ -142,4 +144,106 @@ func (e *encoder) WriteByte(c byte) (err error) {
 	}
 	err = e.writer.WriteByte(c)
 	return
+}
+
+func QuotedString(value string) string {
+	return `"` + EscapeString(value) + `"`
+}
+
+var (
+	escQuote = []byte("&quot;")
+	escTick  = []byte("&apos;")
+	escAmp   = []byte("&amp;")
+	escLT    = []byte("&lt;")
+	escGT    = []byte("&gt;")
+	escTab   = []byte("&#x9;")
+	escNL    = []byte("&#xA;")
+	escCR    = []byte("&#xD;")
+	escFF    = []byte("\uFFFD") // Unicode replacement character
+)
+
+// full set to escape within a string
+var strictMapping = map[rune][]byte{
+	'"':  escQuote,
+	'\'': escTick,
+	'&':  escAmp,
+	'<':  escLT,
+	'>':  escGT,
+	'\t': escTab,
+	'\n': escNL,
+	'\r': escCR,
+}
+
+// only < and & are strictly illegal in XML
+var looseMapping = map[rune][]byte{
+	'&': escAmp,
+	'<': escLT,
+}
+
+// EscapeString returns the properly escaped XML equivalent of the plain text data s
+func EscapeString(s string) string {
+	sb := &strings.Builder{}
+	WriteEscapedText(s, sb, true)
+	return sb.String()
+}
+
+func WriteEscapedText(s string, sb ByteAndStringWriter, strict bool) (err error) {
+
+	// choose the strict or loose character mapping
+	var mapping map[rune][]byte
+	if strict {
+		mapping = strictMapping
+	} else {
+		mapping = looseMapping
+	}
+
+	// walk the input string substituting as we go
+	last := 0
+	var esc []byte
+	for i := 0; i < len(s); {
+		// get next rune
+		r, width := utf8.DecodeRuneInString(s[i:])
+		i += width
+
+		// check if we have an esc mapping for this rune
+		esc = mapping[r]
+		if len(esc) == 0 && (!IsInCharacterRange(r) || (r == 0xFFFD && width == 1)) {
+			esc = escFF
+		} else if len(esc) == 0 {
+			// no mapping: continue
+			continue
+		}
+
+		// we have an esc substitution, so write up to but not including current rune
+		_, err = sb.WriteString(s[last : i-width])
+		if err != nil {
+			return
+		}
+
+		// and write the substitution
+		_, err = sb.Write(esc)
+		if err != nil {
+			return
+		}
+
+		// start the next span
+		last = i
+	}
+
+	// write any trailing bit
+	_, err = sb.WriteString(s[last:])
+
+	return
+}
+
+// Decide whether the given rune is in the XML Character Range, per
+// the Char production of https://www.xml.com/axml/testaxml.htm,
+// Section 2.2 Characters.
+func IsInCharacterRange(r rune) bool {
+	return r == 0x09 ||
+		r == 0x0A ||
+		r == 0x0D ||
+		r >= 0x20 && r <= 0xD7FF ||
+		r >= 0xE000 && r <= 0xFFFD ||
+		r >= 0x10000 && r <= 0x10FFFF
 }

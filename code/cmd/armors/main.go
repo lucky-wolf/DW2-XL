@@ -5,20 +5,21 @@ import (
 	"log"
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"os"
+	"time"
 )
 
 var (
 	source string
-	output string
+	target string
 	data   string
 )
 
 func main() {
 
-	flag.StringVar(&source, "target", "", "specifies the file to apply the changes to")
+	flag.StringVar(&source, "source", "", "input filename")
+	flag.StringVar(&target, "target", "", "target filename")
 	// flag.StringVar(&data, "data", "", "specifies the data file to extract new values from")
 	flag.Parse()
-	output = source + ".bak"
 
 	log.SetFlags(0)
 
@@ -29,10 +30,12 @@ func main() {
 
 	log.Printf("cwd=%s", path)
 
+	t := time.Now()
 	err = run()
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Printf("time=%s", time.Since(t).String())
 }
 
 func run() (err error) {
@@ -43,7 +46,7 @@ func run() (err error) {
 	// 	return
 	// }
 
-	// process our input + data -> output
+	// process our input + data -> target
 	tree, err := xmltree.LoadFromFile(source)
 	if err != nil {
 		return
@@ -59,9 +62,10 @@ func run() (err error) {
 
 	// log.Print(string(bytes))
 
-	e := xmltree.NewEncoder(os.Stdout)
-	e.SetIndent("", "\t")
-	err = tree.Encode(e)
+	err = tree.WriteToFile(target)
+	// e := xmltree.NewEncoder(os.Stdout)
+	// e.Configure("", "\t")
+	// err = tree.Encode(e)
 
 	// // finally, swap the new races files so it's ready to go
 	// err = swap(oldfile, newfile)

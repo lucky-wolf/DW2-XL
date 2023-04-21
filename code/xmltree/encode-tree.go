@@ -4,8 +4,6 @@ import (
 	"encoding/xml"
 	"io"
 	"os"
-	"strings"
-	"unicode/utf8"
 )
 
 // writes ourself out to the given file (file is created / truncated to just our contents)
@@ -20,6 +18,9 @@ func (tree *XMLTree) WriteToFile(filename string) (err error) {
 
 	encoder := NewEncoder(stream)
 	defer encoder.Close()
+
+	// use default formating for a file
+	encoder.Configure("", "\t")
 
 	// then we need to write to the stream
 	err = tree.Encode(encoder)
@@ -196,92 +197,6 @@ func EncodeAttr(a xml.Attr, encoder FormattedEncoder) (err error) {
 	}
 	_, err = encoder.WriteString(`"` + EscapeString(a.Value) + `"`)
 	return
-}
-
-func QuotedString(value string) string {
-	return `"` + EscapeString(value) + `"`
-}
-
-var (
-	escQuote = []byte("&#34;") // shorter than "&quot;"
-	escTick  = []byte("&#39;") // shorter than "&apos;"
-	escAmp   = []byte("&amp;")
-	escLT    = []byte("&lt;")
-	escGT    = []byte("&gt;")
-	escTab   = []byte("&#x9;")
-	escNL    = []byte("&#xA;")
-	escCR    = []byte("&#xD;")
-	escFF    = []byte("\uFFFD") // Unicode replacement character
-)
-
-// EscapeString returns the properly escaped XML equivalent of the plain text data s
-func EscapeString(s string) string {
-	sb := &strings.Builder{}
-	WriteEscapedText(s, sb, true)
-	return sb.String()
-}
-
-func WriteEscapedText(s string, sb ByteAndStringWriter, newlines bool) (err error) {
-	var esc []byte
-	last := 0
-	for i := 0; i < len(s); {
-		r, width := utf8.DecodeRuneInString(s[i:])
-		i += width
-		switch r {
-		case '"':
-			esc = escQuote
-		case '\'':
-			esc = escTick
-		case '&':
-			esc = escAmp
-		case '<':
-			esc = escLT
-		case '>':
-			esc = escGT
-		case '\t':
-			if newlines {
-				esc = escTab
-			}
-		case '\n':
-			if newlines {
-				esc = escNL
-			}
-		case '\r':
-			if newlines {
-				esc = escCR
-			}
-		default:
-			if !IsInCharacterRange(r) || (r == 0xFFFD && width == 1) {
-				esc = escFF
-				break
-			}
-			continue
-		}
-		_, err = sb.WriteString(s[last : i-width])
-		if err != nil {
-			return
-		}
-		_, err = sb.Write(esc)
-		if err != nil {
-			return
-		}
-		last = i
-	}
-	_, err = sb.WriteString(s[last:])
-
-	return
-}
-
-// Decide whether the given rune is in the XML Character Range, per
-// the Char production of https://www.xml.com/axml/testaxml.htm,
-// Section 2.2 Characters.
-func IsInCharacterRange(r rune) bool {
-	return r == 0x09 ||
-		r == 0x0A ||
-		r == 0x0D ||
-		r >= 0x20 && r <= 0xD7FF ||
-		r >= 0xE000 && r <= 0xFFFD ||
-		r >= 0x10000 && r <= 0x10FFFF
 }
 
 func (e *XMLComment) Encode(w ByteAndStringWriter) (err error) {
