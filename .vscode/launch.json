@@ -37,9 +37,11 @@
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-source",
-				"temp/Races.xml",
+				"XL/Races.xml",
 				"-target",
 				"temp/Races.xml",
+				"-script",
+				"XL Armor.csv",
 			]
 		},
 		{

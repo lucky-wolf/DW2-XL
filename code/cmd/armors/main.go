@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"log"
+	"lucky-wolf/DW2-XL/code/xform"
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"os"
 	"time"
@@ -11,14 +12,14 @@ import (
 var (
 	source string
 	target string
-	data   string
+	script string
 )
 
 func main() {
 
 	flag.StringVar(&source, "source", "", "input filename")
 	flag.StringVar(&target, "target", "", "target filename")
-	// flag.StringVar(&data, "data", "", "specifies the data file to extract new values from")
+	flag.StringVar(&script, "script", "", "script filename")
 	flag.Parse()
 
 	log.SetFlags(0)
@@ -40,11 +41,13 @@ func main() {
 
 func run() (err error) {
 
-	// // build the new map of race id -> factors
-	// actions, err := load()
-	// if err != nil {
-	// 	return
-	// }
+	// load our transform script
+	actions, err := xform.LoadFromFile(script)
+	if err != nil {
+		return
+	}
+
+	log.Print(actions)
 
 	// process our input + data -> target
 	tree, err := xmltree.LoadFromFile(source)
