@@ -5,7 +5,6 @@ import (
 	"log"
 	"lucky-wolf/DW2-XL/code/xform"
 	"lucky-wolf/DW2-XL/code/xmltree"
-	"os"
 	"time"
 )
 
@@ -24,15 +23,15 @@ func main() {
 
 	log.SetFlags(0)
 
-	path, err := os.Getwd()
-	if err != nil {
-		return
-	}
-
-	log.Printf("cwd=%s", path)
+	// log our cwd
+	// path, err := os.Getwd()
+	// if err != nil {
+	// 	return
+	// }
+	// log.Printf("cwd=%s", path)
 
 	t := time.Now()
-	err = run()
+	err := run()
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -41,13 +40,18 @@ func main() {
 
 func run() (err error) {
 
+	log.Print("source: ", source)
+	log.Print("target: ", target)
+	log.Print("script: ", script)
+
 	// load our transform script
 	actions, err := xform.LoadFromFile(script)
 	if err != nil {
 		return
 	}
 
-	log.Print(actions)
+	// debug: log the action script
+	// log.Print(actions)
 
 	// process our input + data -> target
 	tree, err := xmltree.LoadFromFile(source)
@@ -55,20 +59,20 @@ func run() (err error) {
 		return
 	}
 
-	// debug: just print out the tree
+	// attempt to apply our actions to the data tree
+	stats, err := actions.ApplyTo(tree)
+	if err != nil {
+		return
+	}
+
+	// log the search & replace stats
+	log.Print(stats)
+
+	// debug: log the xml tree
 	// log.Print(tree)
 
-	// bytes, err := xml.MarshalIndent(tree, "", "\t")
-	// if err != nil {
-	// 	return
-	// }
-
-	// log.Print(string(bytes))
-
+	// write out the new file
 	err = tree.WriteToFile(target)
-	// e := xmltree.NewEncoder(os.Stdout)
-	// e.Configure("", "\t")
-	// err = tree.Encode(e)
 
 	// // finally, swap the new races files so it's ready to go
 	// err = swap(oldfile, newfile)

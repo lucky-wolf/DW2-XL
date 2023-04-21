@@ -66,6 +66,12 @@ func (e *XMLValue) HasMultipleChildren() bool {
 	return ok
 }
 
+// returns the string value of this value iff it is a simple value
+func (e *XMLValue) Value() (s string, ok bool) {
+	s, ok = e.contents.(string)
+	return
+}
+
 ////////////////////////////////////////////////////
 // simple string representation
 
