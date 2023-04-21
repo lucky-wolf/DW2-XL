@@ -38634,7 +38634,7 @@
 		<Column>3</Column>
 		<Row>340</Row>
 		<AllowedRaceIds>
-			<!-- Haakonish and Dhayut get access to the espionage facility through this easier route -->
+			<!-- Haakonish and Dhayut only -->
 			<RaceProbability>
 				<RaceId>3</RaceId>
 				<Probability>1</Probability>
@@ -38646,7 +38646,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>697</ResearchProjectId>
+				<ResearchProjectId>701</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>3</RaceId>

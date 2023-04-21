@@ -17,8 +17,8 @@
 			"type": "go",
 			"request": "launch",
 			"mode": "debug",
-			"program": "cmd/replace/main.go",
-			"output": "${workspaceFolder}/replace.exe",
+			"program": "code/cmd/replace/main.go",
+			"output": "code/bin/replace.exe",
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-target",
@@ -28,12 +28,29 @@
 			]
 		},
 		{
+			"name": "Armors",
+			"type": "go",
+			"request": "launch",
+			"mode": "debug",
+			"program": "code/cmd/armors/main.go",
+			"output": "code/bin/armors.exe",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"-source",
+				"XL/ComponentDefinitions.xml",
+				"-target",
+				"temp/ComponentDefinitions.xml",
+				"-script",
+				"XL Armor.csv",
+			]
+		},
+		{
 			"name": "XML",
 			"type": "go",
 			"request": "launch",
 			"mode": "debug",
-			"program": "cmd/xml/main.go",
-			"output": "${workspaceFolder}/xml.exe",
+			"program": "code/cmd/xml/main.go",
+			"output": "code/bin/xml.exe",
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-source",
