@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.3](#v1133)
 		- [v1.13.2](#v1132)
 		- [v1.13.1](#v1131)
 		- [v1.13.0](#v1130)
@@ -140,6 +141,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.3
+- Fixed Central Espionage Agency planetary facility can now be built
+- Updated some hyperdrive values (small tweaks)
+- Updated Hyperdrive appendix in this readme
 
 ### v1.13.2
 - Dhayut are no longer allowed to choose Hive Mind government
@@ -905,23 +911,24 @@ Currently in a spreadsheet - will try to find a way to restore here in a future 
 
 ## DW2-XL Hyperdrives
 
-| Hyperdrive            | Tech | Size | Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
-| --------------------- | ---: | ---: | ----: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
-| Skip Drive            |    0 |   20 |  100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
-| Warp Bubble Generator |    1 |   20 |  200K |  120M |     5000 |             5 |          60/s |        17s |      28s |             |            |
-| Gerax                 |    2 |   20 |  300K |  140M |     4250 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Calista-Dal           |    3 |   16 |  400K |  200M |     3500 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Calista-Dal (v2)      |    4 |    - |  500K |  280M |     3000 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Calista-Dal (v3)      |    6 |    - |  700K |  440M |     2000 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Calista-Dal (v4)      |    8 |    - |  900K |  600M |     1000 |             2 |         130/s |        20s |      10s |           7 |         40 |
-| Kaldos                |    3 |   18 |  500K |  160M |     3500 |            16 |          90/s |        12s |      12s |           2 |         15 |
-| Kaldos (v2)           |    4 |    - |  700K |  200M |     3000 |            16 |         100/s |        10s |      10s |           3 |         20 |
-| Kaldos (v3)           |    6 |    - | 1100K |  280M |     2000 |            16 |         120/s |         6s |       6s |           5 |         30 |
-| Kaldos (v4)           |    8 |    - | 1500K |  360M |     1000 |            16 |         140/s |         2s |       2s |           7 |         40 |
-| Equinox               |    3 |   20 |  600K |  180M |     4500 |             8 |         110/s |        16s |      22s |           2 |         15 |
-| Equinox (v2)          |    4 |    - |  900K |  240M |     4000 |             8 |         130/s |        14s |      20s |           3 |         20 |
-| Equinox (v3)          |    6 |    - | 1500K |  360M |     3000 |             8 |         170/s |        12s |      18s |           5 |         30 |
-| Equinox (v4)          |    8 |    - | 2100K |  480M |     2000 |             8 |         210/s |        10s |      16s |           7 |         40 |
+| Hyperdrive            | Tech | Size |   Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
+| --------------------- | ---: | ---: | ------: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
+| Skip Drive            |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
+| Warp Bubble Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
+| Gerax                 |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
+| Calista-Dal           |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Calista-Dal (v2)      |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Calista-Dal (v3)      |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Calista-Dal (v4)      |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Kaldos                |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
+| Kaldos (v2)           |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
+| Kaldos (v3)           |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
+| Kaldos (v4)           |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
+| Equinox               |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
+| Equinox (v2)          |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
+| Equinox (v3)          |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
+| Equinox (v4)          |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
+| Wormhole              |   11 |   20 | 10,000K |  480M |      150 |            10 |         200/s |         2s |       2s |          10 |         50 |
 
 ## DW2-XL Engines
 
