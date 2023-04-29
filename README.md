@@ -146,6 +146,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.13.5
 - Significantly increased mining rates to try to compensate for current failures of civilian economy never having fuel for your military or reserves
+- Made Caslon rarer, but abundant when you do find it
 - Restricted fighter-interceptor weapons to size 5 for DLC races (same as all other races)
 - Updated Fleet Template to default invasion fleets to 33% fuel range
 
