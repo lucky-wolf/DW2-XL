@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.5](#v1135)
 		- [v1.13.4](#v1134)
 		- [v1.13.3](#v1133)
 		- [v1.13.2](#v1132)
@@ -142,6 +143,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.5
+- Significantly increased mining rates to try to compensate for current failures of civilian economy never having fuel for your military or reserves
+- Restricted fighter-interceptor weapons to size 5 for DLC races (same as all other races)
+- Updated Fleet Template to default invasion fleets to 33% fuel range
 
 ### v1.13.4
 - Haakonish can no longer research standard gravitic weapons (their racial weapons are better)
