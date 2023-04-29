@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.4](#v1134)
 		- [v1.13.3](#v1133)
 		- [v1.13.2](#v1132)
 		- [v1.13.1](#v1131)
@@ -141,6 +142,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.4
+- Haakonish can no longer research standard gravitic weapons (their racial weapons are better)
+- Fixed access to gravitic mines & distortion fields from Haakonish racial tech
+- Fixed Armor Plating+ to have a research cost
+- Fixed Mortalen torpedo tech costs (they were at least double what they should have been t4 and up)
+- Added missing scanner values for Advanced Target Tracking, Multilock Sensors, and Fleet Targeting Sensors
 
 ### v1.13.3
 - Fixed Central Espionage Agency planetary facility can now be built
