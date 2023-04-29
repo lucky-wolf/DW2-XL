@@ -411,6 +411,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>20</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>58</ResearchProjectId>
@@ -1307,6 +1314,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>20</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>13</ResearchProjectId>
@@ -3948,6 +3962,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>20</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>34</ResearchProjectId>
@@ -5136,7 +5157,13 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>490</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>1</ParentProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>46</ComponentId>
@@ -5174,6 +5201,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>20</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>92</ResearchProjectId>
@@ -5240,7 +5274,13 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>490</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>47</ComponentId>
@@ -7991,6 +8031,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>20</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>117</ResearchProjectId>
@@ -14379,25 +14426,25 @@
 		<ResearchProjectId>329</ResearchProjectId>
 		<Name>Rapid Energy Recharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>4000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -33877,25 +33924,25 @@
 		<ResearchProjectId>1031</ResearchProjectId>
 		<Name>Superior Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5700</Size>
 		<InitiationCost>
-			<Money>16000</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -33932,25 +33979,25 @@
 		<ResearchProjectId>1032</ResearchProjectId>
 		<Name>Advanced Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>32000</Money>
+			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -33987,25 +34034,25 @@
 		<ResearchProjectId>1033</ResearchProjectId>
 		<Name>Overwhelming Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>21600</Size>
 		<InitiationCost>
-			<Money>32000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34042,25 +34089,25 @@
 		<ResearchProjectId>1034</ResearchProjectId>
 		<Name>Extreme Energetic Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34097,25 +34144,25 @@
 		<ResearchProjectId>1035</ResearchProjectId>
 		<Name>Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>4000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>800</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34152,25 +34199,25 @@
 		<ResearchProjectId>1036</ResearchProjectId>
 		<Name>Superior Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5700</Size>
 		<InitiationCost>
-			<Money>16000</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>1600</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34207,25 +34254,25 @@
 		<ResearchProjectId>1037</ResearchProjectId>
 		<Name>Advanced Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>32000</Money>
+			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34262,25 +34309,25 @@
 		<ResearchProjectId>1038</ResearchProjectId>
 		<Name>Overwhelming Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>21600</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34317,25 +34364,25 @@
 		<ResearchProjectId>1039</ResearchProjectId>
 		<Name>Extreme Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
-			<Money>64000</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>6400</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -38668,6 +38715,23 @@
 		<Name>Armor Plating+</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
+		<InitiationCost>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
