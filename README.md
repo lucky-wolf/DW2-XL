@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.13.6](#v1136)
 		- [v1.13.5](#v1135)
 		- [v1.13.4](#v1134)
 		- [v1.13.3](#v1133)
@@ -143,6 +144,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.13.6
+- Fixed a couple of tech costs (5700->5400)
+- Fixed Diplomatic Specialization to require social species, but ony 5 (if you're social, you count as one of those)
+- Fixed Long Range Sensors to use the same ID as vanilla (433)
+  - This fixes Hive Mind Government to offer Long Range Sensors, may also become compatible with other mods that rely on that ID...
+- Further reduced prevalence of Caslon (fewer large deposits instead of many small ones)
 
 ### v1.13.5
 - Significantly increased mining rates to try to compensate for current failures of civilian economy never having fuel for your military or reserves
