@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.14.0](#v1140)
 		- [v1.13.6](#v1136)
 		- [v1.13.5](#v1135)
 		- [v1.13.4](#v1134)
@@ -144,6 +145,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.14.0
+- Radically reduced static energy usage to try to help address fuel logistics problems
+- Added one more level of construction yard
 
 ### v1.13.6
 - Fixed a couple of tech costs (5700->5400)
@@ -868,33 +873,30 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 | Shield           | Ion Def | Strength | Resistance | Pen Chance | Pen Ratio | Recharge/s | Energy Use |
 | ---------------- | ------: | -------: | ---------: | ---------: | --------: | ---------: | ---------: |
-| Deflectors       |         |      144 |            |        25% |       75% |        0.5 |          5 |
-| Deflectors (v2)  |       1 |      192 |            |        20% |       50% |        0.6 |          8 |
-| Megatron Z4      |       2 |      250 |          1 |        10% |       30% |        1.2 |         16 |
-| Megatron Z4 (v2) |       3 |      350 |          2 |         8% |       20% |        2.3 |         26 |
-| Megatron Z4 (v3) |       4 |      550 |          3 |         5% |       10% |        3.4 |         36 |
-| Megatron Z4 (v4) |       5 |      700 |          5 |         3% |        5% |        4.5 |         46 |
-| Talassos         |       2 |      200 |          1 |        15% |       40% |        1.1 |         15 |
-| Talassos (v2)    |       3 |      300 |          2 |        10% |       30% |        2.2 |         25 |
-| Talassos (v3)    |       4 |      500 |          3 |         8% |       20% |        3.3 |         35 |
-| Talassos (v4)    |       5 |      650 |          4 |         5% |       10% |        4.4 |         45 |
-| Corvidian        |       2 |      250 |          1 |        15% |       40% |        1.0 |         11 |
-| Corvidian (v2)   |       3 |      350 |          1 |        10% |       30% |        2.0 |         20 |
-| Corvidian (v3)   |       4 |      500 |          2 |         8% |       20% |        3.0 |         29 |
-| Corvidian (v4)   |       5 |      700 |          4 |         5% |       10% |        4.0 |         38 |
-| Deucalios        |       2 |      300 |          1 |        10% |       35% |        0.8 |         16 |
-| Deucalios (v2)   |       3 |      500 |          2 |        10% |       25% |        1.6 |         26 |
-| Deucalios (v3)   |       4 |      700 |          3 |        10% |       15% |        2.4 |         36 |
-| Deucalios (v4)   |       5 |      900 |          4 |        10% |        5% |        3.2 |         46 |
-| Meridian         |       6 |     1000 |          5 |            |           |        5.0 |         48 |
-| Meridian (v2)    |       8 |     1200 |          6 |            |           |        7.0 |         64 |
-| Meridian (v3)    |      10 |     1400 |          7 |            |           |        9.0 |         80 |
-
+| Deflectors       |         |      144 |            |        25% |       75% |        0.5 |          3 |
+| Deflectors (v2)  |       1 |      192 |            |        20% |       50% |        0.6 |          3 |
+| Megatron Z4      |       2 |      250 |          1 |        10% |       30% |        1.2 |          4 |
+| Megatron Z4 (v2) |       3 |      350 |          2 |         8% |       20% |        2.3 |          5 |
+| Megatron Z4 (v3) |       4 |      550 |          3 |         5% |       10% |        3.4 |          6 |
+| Megatron Z4 (v4) |       5 |      700 |          5 |         3% |        5% |        4.5 |          7 |
+| Talassos         |       2 |      200 |          1 |        15% |       40% |        1.1 |          4 |
+| Talassos (v2)    |       3 |      300 |          2 |        10% |       30% |        2.2 |          5 |
+| Talassos (v3)    |       4 |      500 |          3 |         8% |       20% |        3.3 |          6 |
+| Talassos (v4)    |       5 |      650 |          4 |         5% |       10% |        4.4 |          7 |
+| Corvidian        |       2 |      250 |          1 |        15% |       40% |        1.0 |          4 |
+| Corvidian (v2)   |       3 |      350 |          1 |        10% |       30% |        2.0 |          5 |
+| Corvidian (v3)   |       4 |      500 |          2 |         8% |       20% |        3.0 |          6 |
+| Corvidian (v4)   |       5 |      700 |          4 |         5% |       10% |        4.0 |          7 |
+| Deucalios        |       2 |      300 |          1 |        10% |       35% |        0.8 |          4 |
+| Deucalios (v2)   |       3 |      500 |          2 |        10% |       25% |        1.6 |          5 |
+| Deucalios (v3)   |       4 |      700 |          3 |        10% |       15% |        2.4 |          6 |
+| Deucalios (v4)   |       5 |      900 |          4 |        10% |        5% |        3.2 |          7 |
+| Meridian         |       6 |     1000 |          5 |            |           |        5.0 |          8 |
+| Meridian (v2)    |       8 |     1200 |          6 |            |           |        7.0 |          9 |
+| Meridian (v3)    |      10 |     1400 |          7 |            |           |        9.0 |         10 |
+| Citadel          |      10 |     2400 |         10 |            |           |       15.0 |         12 |
 
 ## DW2-XL Armor
-
-| Ship Armor | Blast Rating | Reactive |  Ion |
-| ---------- | -----------: | -------: | ---: |
 
 ![](Armor.png)
 
