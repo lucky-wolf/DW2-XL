@@ -13483,7 +13483,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>433</ResearchProjectId>
+				<ResearchProjectId>1066</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -13594,7 +13594,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>433</ResearchProjectId>
+				<ResearchProjectId>1066</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -18676,7 +18676,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>433</ResearchProjectId>
+		<ResearchProjectId>1066</ResearchProjectId>
 		<Name>Enhanced Long Range Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
@@ -18699,7 +18699,7 @@
 		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1066</ResearchProjectId>
+				<ResearchProjectId>433</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -19790,7 +19790,7 @@
 		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>433</ResearchProjectId>
+				<ResearchProjectId>1066</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -24940,7 +24940,7 @@
 		<ResearchProjectId>579</ResearchProjectId>
 		<Name>Self-Regenerating Energy Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>24000</Money>
 			<Resources>
@@ -33924,7 +33924,7 @@
 		<ResearchProjectId>1031</ResearchProjectId>
 		<Name>Superior Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -34199,7 +34199,7 @@
 		<ResearchProjectId>1036</ResearchProjectId>
 		<Name>Superior Compact Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -35779,7 +35779,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1066</ResearchProjectId>
+		<ResearchProjectId>433</ResearchProjectId>
 		<Name>Long Range Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
@@ -36484,108 +36484,112 @@
 			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
+			<!-- Social races only -->
 			<ResearchPath>
+				<!-- Human -->
 				<ResearchProjectId>690</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Ackdarian -->
 				<ResearchProjectId>694</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Teekan -->
 				<ResearchProjectId>698</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Haakonish -->
 				<ResearchProjectId>702</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Mortalen -->
 				<ResearchProjectId>706</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Ikkuro -->
 				<ResearchProjectId>710</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>714</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
+				<!-- Zenox -->
 				<ResearchProjectId>718</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Wekkarus -->
 				<ResearchProjectId>722</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Atuuk -->
 				<ResearchProjectId>726</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>730</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>734</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
+				<!-- Ketarov -->
 				<ResearchProjectId>738</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Kiadian -->
 				<ResearchProjectId>742</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Naxxilian -->
 				<ResearchProjectId>746</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Quameno -->
 				<ResearchProjectId>750</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Securan -->
 				<ResearchProjectId>754</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Shandar -->
 				<ResearchProjectId>758</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Sluken -->
 				<ResearchProjectId>762</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Ugnari -->
 				<ResearchProjectId>766</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>6</PrerequisiteProjectsMinimumPathCount>
+		<!-- advanced diplomacy requires four other social races -->
+		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>1002</short>
 		</PlanetaryFacilityIds>
