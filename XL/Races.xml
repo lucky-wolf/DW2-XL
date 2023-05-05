@@ -6187,7 +6187,15 @@ Sluken are found on Marshy Swamp and Mangrove Swamp planets.</Description>
 		</ColonizationSuitabilityModifiers>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId>
 				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>

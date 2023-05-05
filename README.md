@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.14.1](#v1141)
 		- [v1.14.0](#v1140)
 		- [v1.13.6](#v1136)
 		- [v1.13.5](#v1135)
@@ -145,6 +146,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.14.1
+- Diplomatic facilities no longer negatively impact mining
+  - Rather, they increase war weariness and reduce troop recruitment
+- Adjusted Ugnari to have better Snowball adaptation
 
 ### v1.14.0
 - Radically reduced static energy usage to try to help address fuel logistics problems
