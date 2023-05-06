@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.14.3](#v1143)
 		- [v1.14.2](#v1142)
 		- [v1.14.1](#v1141)
 		- [v1.14.0](#v1140)
@@ -110,6 +111,7 @@ Author: Mordachai (lucky-wolf)
 	- [DW2-XL Engines](#dw2-xl-engines)
 	- [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix)
 	- [DW2-XL Planetary Quality (base) Ranges](#dw2-xl-planetary-quality-base-ranges)
+	- [Weapon Speeds](#weapon-speeds)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -147,6 +149,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.14.3
+- Substantially improved rail gun related weapon speeds to between 750-1000 (was 325-525)
+- Fixed velocity shard [ftr] wasn't being unlocked (one level too low) starting at Total Energy Acceleration
+- Adjusted Firestorm Torpedo [L] to have same speed as their S/M/Ftr siblings
 
 ### v1.14.2
 - Updated for 1.1.3.9 beta game engine
@@ -1005,3 +1012,50 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |      .3 |      .8 | volcanic worlds               |
 |      .4 |      .9 | desert, scrub, and ice worlds |
 |      .5 |     1.0 | blue and green worlds         |
+
+## Weapon Speeds
+
+|    speed | weapon                                                     |
+| -------: | ---------------------------------------------------------- |
+|      250 | Intimidator Surge Blast                                    |
+|  200-300 | Bombs                                                      |
+|      210 | Derasian Shock Wave                                        |
+|      250 | Ion & Graviton Pulse                                       |
+|      250 | Shock & Gravitic Mines                                     |
+|      325 | Shockwave Torpedoes                                        |
+|  325-350 | Ion Bombs                                                  |
+|      350 | Pulse Torpedoes                                            |
+|  350-450 | Neutron Exterminator [B]                                   |
+|  350-375 | Missiles                                                   |
+|  350-450 | Eclipse Mass Driver [B]                                    |
+|  300-375 | Firestorm Torpedoes                                        |
+|  300-400 | Energy Torpedoes                                           |
+|  300-425 | Lance Missiles                                             |
+|  400-475 | Velocity Shards                                            |
+|      450 | Plasma Thunderbolt Torpedo                                 |
+|  400-500 | Interceptor Missiles                                       |
+|  450-500 | Nova Missiles & Planetary Missiles                         |
+|      475 | Hunter Missile Battery                                     |
+|  475-500 | Quantum Shards                                             |
+|  475-525 | Aegis Missile Battery                                      |
+|      500 | Lightning & Hive & Replicating Swarm Missiles              |
+|      500 | Ion Beams + PD                                             |
+|      600 | Supernova Torpedo                                          |
+|  550-650 | Bulwark Missile Battery                                    |
+|      750 | EM Wave Cannon                                             |
+|  750-825 | Tractor Beams                                              |
+|      750 | Long Range Cannon                                          |
+|  800-850 | Point Defense Cannon                                       |
+|  875-900 | Linked Point Defense Battery                               |
+|  800-875 | Rail Gun                                                   |
+|  825-875 | Heavy Rail Gun                                             |
+| 900-1000 | Forge Rail Battery                                         |
+| 900-1000 | Terminator Autocannon [S] + [Ftr]                          |
+| 950-1000 | Terminator Autocannon Battery [PD]                         |
+| 900-1000 | Hail Cannon                                                |
+| 900-1100 | Long Range & High Power Tractor Beams                      |
+|     1100 | Maxos & Impact Blasters                                    |
+|     1200 | Titan Blaster                                              |
+|     1500 | Phaser Cannon & Solar Blaster                              |
+|     2000 | Quantum Singularity & Black Hole Projector                 |
+|     5000 | DF Beams (Thuon, Graviton, Phaser, EM Lance, Shatterforce) |
