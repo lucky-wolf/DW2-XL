@@ -290,6 +290,7 @@
 			<xs:enumeration value="WeaponsDamage" />
 			<xs:enumeration value="WeaponsRange" />
 			<xs:enumeration value="ShieldRechargeRate" />
+			<xs:enumeration value="ShieldRechargeEnergyUsage" />
 			<xs:enumeration value="DamageControl" />
 			<xs:enumeration value="RepairRate" />
 			<xs:enumeration value="HyperjumpSpeed" />
@@ -415,6 +416,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="ScannerTracePower" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ScannerTraceRange" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ShieldRechargeRate" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="ShieldRechargeEnergyUsage" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ShieldResistance" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ShieldStrength" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ShieldPenetrationChance" type="xs:float" />

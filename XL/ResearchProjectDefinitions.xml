@@ -19594,6 +19594,12 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>821</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PlanetaryFacilityIds>
 			<short>40</short>
@@ -32421,6 +32427,74 @@
 		<Column>0</Column>
 		<Row>0</Row>
 	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>821</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>822</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>823</ResearchProjectId>
+		<Name>Ancient Guardian Vault Investigations</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>400</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>204</Row>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>824</ResearchProjectId>
+		<Name>Basic Vault Systems</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>1600</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>204</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>825</ResearchProjectId>
+		<Name>Basic Vault Structures</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>1600</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>205</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+	</ResearchProjectDefinition>
+	<!-- End Vanilla, Begin XL -->
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1000</ResearchProjectId>
 		<Name>Heavy Troop Transports</Name>

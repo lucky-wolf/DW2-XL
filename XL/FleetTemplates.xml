@@ -16,8 +16,7 @@
 		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>true</OverrideShipTacticsWithFleet>
-
+		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
 		<Items>
 			<FleetTemplateItem>
 				<Role>Frigate</Role>
@@ -45,6 +44,12 @@
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Carrier</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>FuelTanker</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
 				<Amount>2</Amount>
@@ -87,6 +92,12 @@
 				<DesignId>-2147483648</DesignId>
 				<Amount>1</Amount>
 			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>FuelTanker</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>1</Amount>
+			</FleetTemplateItem>
 		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
@@ -125,6 +136,12 @@
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
 				<Amount>2</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>FuelTanker</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>1</Amount>
 			</FleetTemplateItem>
 		</Items>
 	</FleetTemplate>
@@ -170,6 +187,18 @@
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
 				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Carrier</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>1</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>FuelTanker</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>2</Amount>
 			</FleetTemplateItem>
 		</Items>
 	</FleetTemplate>
