@@ -45,8 +45,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Surveillance Oligarchy)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>5</DelaySecondsMinimum>
-				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<DelaySecondsMinimum>1</DelaySecondsMinimum>
+				<DelaySecondsMaximum>1</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -80,11 +80,13 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Surveillance Oligarchy</MessageTitle>
-				<Description>Due to our chosen government, we have gained insight into:
+				<Description>Per your wishes we have developed and improved on the latest methods of tracking our citezens every move, within and without our empire, having completed:
 
-					Targeting Computers
+					Basic Target Tracking
 					Penetrating Scanners
-					Improved Sensors</Description>
+					Standard Sensors
+
+					Nothing will move that we will not know about, and we will be able to control from our central hub here on our homeworld.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -107,7 +109,6 @@
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<!-- give basic target tracking for XL (since standard sensors needs it) -->
 				<Type>ResearchBreakthrough</Type>
 				<MessageTitle />
 				<Description />
@@ -117,6 +118,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Basic Target Tracking -->
 				<Id1>384</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -143,6 +145,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Penetrating Scanners -->
 				<Id1>402</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -169,6 +172,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Standard Sensors -->
 				<Id1>403</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>

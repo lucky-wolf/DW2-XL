@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="PlanetaryFacilityDefinition">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="PlanetaryFacilityDefinitionId" type="xs:short" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ItemBonuses" type="ArrayOfBonus" />
 			<xs:element minOccurs="0" maxOccurs="1" name="EmpireBonuses" type="ArrayOfBonus" />
@@ -47,7 +47,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfBonus">
 		<xs:sequence>
@@ -55,14 +55,14 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Bonus">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
 			<xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">
@@ -164,10 +164,10 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="Price">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Money" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Resources" type="ArrayOfResourceQuantity" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfResourceQuantity">
 		<xs:sequence>
@@ -175,10 +175,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ResourceQuantity">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfUnsignedByte">
 		<xs:sequence>

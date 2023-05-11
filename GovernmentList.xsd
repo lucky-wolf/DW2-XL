@@ -7,9 +7,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Government">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="GovernmentId" type="xs:short" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="StartingGameEventNames" type="ArrayOfString" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="LeaderTitle" type="xs:string" />
@@ -17,7 +18,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="EconomicFactors" type="EconomyFactorSet" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfIndexFactor" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
-			<xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementLikelihood" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementTypicalPeriod" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementDisruption" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementBoost" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementCharacterPool" type="ArrayOfCharacterRole" />
@@ -39,13 +40,13 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="EmpireNameAdjectives" type="ArrayOfString" />
 			<xs:element minOccurs="0" maxOccurs="1" name="EmpireNameNouns" type="ArrayOfString" />
 			<xs:element minOccurs="0" maxOccurs="1" name="AllowControlMiningShips" type="xs:boolean" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="EconomyFactorSet">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="0" maxOccurs="1" name="IncomeFactors" type="ArrayOfFloat" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ExpenseFactors" type="ArrayOfFloat" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfFloat">
 		<xs:sequence>
@@ -90,10 +91,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="IndexFactor">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Index" type="xs:int" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfBonus">
 		<xs:sequence>
@@ -101,14 +102,14 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Bonus">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">

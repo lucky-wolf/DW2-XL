@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="TroopDefinition">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="TroopDefinitionId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="TroopType" />
@@ -16,18 +16,18 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="MaintenanceCost" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AttackStrength" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DefendStrength" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="SabotageStrength" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EvasionInfantry" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EvasionArmor" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EvasionTitan" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EvasionPlanetaryDefense" type="xs:float" />
-			<xs:element minOccurs="1" maxOccurs="1" name="EvasionSpecialForces" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="SabotageStrength" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EvasionInfantry" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EvasionArmor" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EvasionTitan" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EvasionPlanetaryDefense" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EvasionSpecialForces" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="IsRobotic" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="InterceptWeaponComponentId" type="xs:short" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="TroopType">
 		<xs:restriction base="xs:string">
@@ -42,10 +42,10 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="Price">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Money" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Resources" type="ArrayOfResourceQuantity" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfResourceQuantity">
 		<xs:sequence>
@@ -53,9 +53,9 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ResourceQuantity">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 </xs:schema>

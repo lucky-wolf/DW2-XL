@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Race">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="BundleName" type="xs:string" />
@@ -24,6 +24,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Aggression" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Caution" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="Dependability" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" default="1" name="ImportanceOfOthersReputations" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="IsPlayable" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" name="PreventUseAsIndependent" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" name="PreferredGovernmentIds" type="ArrayOfShort" />
@@ -45,15 +46,16 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="AllowableIntelligenceMissionTypes" type="ArrayOfIntelligenceMission" />
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="Color">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfString">
 		<xs:sequence>
@@ -70,20 +72,41 @@
 			<xs:element minOccurs="0" maxOccurs="unbounded" name="short" type="xs:short" />
 		</xs:sequence>
 	</xs:complexType>
+	<xs:complexType name="ArrayOfIntelligenceMission">
+		<xs:sequence>
+			<!-- todo: define the enum of CharacterMissionType -->
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="CharacterMissionType" nillable="true" type="CharacterMissionType" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="CharacterMissionType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CounterIntelligence" />
+			<xs:enumeration value="StealTerritoryMap" />
+			<xs:enumeration value="StealGalaxyMap" />
+			<xs:enumeration value="StealOperationsMap" />
+			<xs:enumeration value="StealTechData" />
+			<xs:enumeration value="SabotageConstruction" />
+			<xs:enumeration value="SabotageColony" />
+			<xs:enumeration value="DestroyBase" />
+			<xs:enumeration value="InciteRevolution" />
+			<xs:enumeration value="AssassinateCharacter" />
+			<xs:enumeration value="DeepCover" />
+		</xs:restriction>
+	</xs:simpleType>
 	<xs:complexType name="ArrayOfBonus">
 		<xs:sequence>
 			<xs:element minOccurs="0" maxOccurs="unbounded" name="Bonus" nillable="true" type="Bonus" />
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Bonus">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">
@@ -190,10 +213,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ResourceQuantity">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfOrbTypeFactor">
 		<xs:sequence>
@@ -201,10 +224,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="OrbTypeFactor">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfRaceFactor">
 		<xs:sequence>
@@ -212,10 +235,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="RaceFactor">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfVictoryCondition">
 		<xs:sequence>
@@ -223,12 +246,12 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="VictoryCondition">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="VictoryConditionType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Proportion" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="VictoryConditionType">
 		<xs:restriction base="xs:string">

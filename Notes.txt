@@ -66,33 +66,35 @@ race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
 20 Shakturi
 249 Hive (?)
 
-Planet Types
+Habitable Planet Types
 7	Continental
 8	Marshy Swamp
-9	Ocean
+9	Warm Ocean
 10	Sandy Desert
 11	Snowball
-12	Volcanic
-13	Rocky Silicon
-17	Forest
+12	Rocky Volcanic
+17	Continental Forests
 18	Grasslands
 19	Rocky Desert
 20	Savanna
 21	Tundra
 22	Ice
-23	Deep Ocean
+23	Cold Ocean
+27	Mangrove Swamp
+29	Carbonaceous Hothouse
+30	Sulphur Volcanic
+
+Airless Bodies
+13	Rocky Silicon
 25	Rocky Metallic
 26	Rocky Ice
-27	Mangrove Swamp
-29	Carbonaceous
-30	Sulphur Volcanic
 
 Asteroid Fields
 16	Rocky Asteroid
 
 PQ is currently
 .2 - .5 carbonaceous
-.2 - .7 volcanic,  sulfuric volcanic
+.2 - .7 volcanic,  Sulphur volcanic
 .3 - .7 snow, ice, tundra, deserts (all), savannah
 .4 - .8 continental, swamp, mangrove, oceans, grasslands, forests
 
@@ -139,6 +141,7 @@ Area Weapons		2
 Torpedo Weapons		3
 Missile Weapons		4
 Kinetic Weapons		5
+Ground Combat		6
 Pulsed Wave Weapons 7 (Wekarus)
 Tractor Beams		35
 Bombardment Weapons 17
@@ -593,4 +596,7 @@ rows:
 	306 ice
 	309 volcanic
 
-
+democracy
+388	basic transport systems
+394 Basic Recreation Systems
+670 civilian transports

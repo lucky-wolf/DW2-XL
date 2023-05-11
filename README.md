@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.14.4](#v1144)
 		- [v1.14.3](#v1143)
 		- [v1.14.2](#v1142)
 		- [v1.14.1](#v1141)
@@ -149,6 +150,16 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.14.4
+- Galactic Mining Center now boosts mining and income, but reduces happiness and has negative health effects
+- Synthetic Troop Facilities are separate from Robotic Troop Facilities (both can be built on the same world)
+  - Synthetic Troops have been made stronger but with increased maintainance costs
+- Planetary Weapons Facilities have 2x Guns each (was 1)
+- Planetary Ion Cannons now do 100 and 200 ion damage for v1 and v2, respectively
+- Adjusted all initial racial techs and their game events to announce what you have started your game with
+- Adjusted all government events to better craft what tech or other items are given in better accord with the government ethos
+  - Added better flavor text to hopefully create a more immersive experience
 
 ### v1.14.3
 - Substantially improved rail gun related weapon speeds to between 750-1000 (was 325-525)
@@ -336,7 +347,7 @@ YMMV, but this is my take on making it Extra Large!
 - Defaulted defense fleets to engage within 33% of fuel range instead of sector range
 
 ### v1.9.7
-- Quameno have +20% and 40 minimum habitability for Ocean habitats, and +10% to Deep ocean and Swamps
+- Quameno have +20% and 40 minimum habitability for Ocean habitats, and +10% to Cold Ocean and Swamps
 - Added recruitment bonus to troop cloning facility (reduced it for planetary defense center)
 
 ### v1.9.6

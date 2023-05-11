@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="CreatureType">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="CreatureTypeId" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="PrefabName" type="xs:string" />
@@ -80,7 +80,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfSortableTextValue">
 		<xs:sequence>
@@ -88,13 +88,13 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="SortableTextValue">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Text2" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Text3" type="xs:string" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfEffectEntity">
 		<xs:sequence>
@@ -102,7 +102,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="EffectEntity">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="0" maxOccurs="1" name="EntityPath" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="SoundEffectPath" type="xs:string" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Duration" type="xs:float" />
@@ -111,22 +111,22 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="NegateZ" type="xs:boolean" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TintColor" type="Color" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Children" type="ArrayOfEffectEntity" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="Color">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="Vector3">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfShort">
 		<xs:sequence>
@@ -149,14 +149,14 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Bonus">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">
