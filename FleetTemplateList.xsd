@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="FleetTemplate">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="FleetTemplateId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Role" type="FleetRole" />
@@ -25,9 +25,8 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="OverrideShipTacticsWithFleet" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" name="IsActive" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
-			<xs:element minOccurs="0" maxOccurs="1" name="ShipAmounts" type="ArrayOfShipRoleFactor" />
-			<xs:element minOccurs="0" maxOccurs="1" name="DesignIdsPerRole" type="ArrayOfInt" />
-		</xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="Items" type="ArrayOfFleetTemplateItems" />
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="FleetRole">
 		<xs:restriction base="xs:string">
@@ -103,16 +102,18 @@
 			<xs:enumeration value="NeverInvade" />
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:complexType name="ArrayOfShipRoleFactor">
+	<xs:complexType name="ArrayOfFleetTemplateItems">
 		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ShipRoleFactor" type="ShipRoleFactor" />
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="FleetTemplateItem" type="FleetTemplateItem" />
 		</xs:sequence>
 	</xs:complexType>
-	<xs:complexType name="ShipRoleFactor">
-		<xs:sequence>
+	<xs:complexType name="FleetTemplateItem">
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Role" type="ShipRole" />
-			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-		</xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="ShipHullId" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="DesignId" type="xs:int" />
+			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="ShipRole">
 		<xs:restriction base="xs:string">
@@ -146,9 +147,4 @@
 			<xs:enumeration value="PlanetDestroyer" />
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:complexType name="ArrayOfInt">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
-		</xs:sequence>
-	</xs:complexType>
 </xs:schema>

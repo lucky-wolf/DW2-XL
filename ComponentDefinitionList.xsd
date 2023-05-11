@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ComponentDefinition">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ComponentId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:int" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Category" type="ComponentCategory" />
@@ -31,7 +31,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="IconFilename" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="ComponentCategory">
 		<xs:restriction base="xs:string">
@@ -103,12 +103,12 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Color">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="ModelRotationType">
 		<xs:restriction base="xs:string">
@@ -126,7 +126,7 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="WeaponEffect">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="0" maxOccurs="1" name="UseDirectionalComponent" type="xs:boolean" />
 			<xs:element minOccurs="0" maxOccurs="1" name="FlipbookMode" type="FlipbookMode" />
 			<xs:element minOccurs="0" maxOccurs="1" name="StaticTextureFilepath" type="xs:string" />
@@ -183,7 +183,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectLifetime" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TrailEffectSpawnRate" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TrailDriftRate" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="FlipbookMode">
 		<xs:restriction base="xs:string">
@@ -194,10 +194,10 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="Vector2">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfBonus">
 		<xs:sequence>
@@ -205,14 +205,14 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Bonus">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">
@@ -320,10 +320,10 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ResourceQuantity">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfComponentStats">
 		<xs:sequence>
@@ -331,7 +331,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ComponentStats">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeAmount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeEnergyUsedPerUnitCharged" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeRange" type="xs:float" />
@@ -466,7 +466,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="WeaponSpeed" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="WeaponVolleyAmount" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="WeaponVolleyFireRate" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="WeaponDamageType">
 		<xs:restriction base="xs:string">

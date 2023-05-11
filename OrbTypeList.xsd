@@ -7,7 +7,7 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="OrbType">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Category" type="OrbCategory" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
@@ -97,7 +97,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceCountMaximum" type="xs:int" />
 			<xs:element minOccurs="0" maxOccurs="1" name="PossibleResources" type="ArrayOfResourcePrevalence" />
 			<xs:element minOccurs="0" maxOccurs="1" name="RuinLocationDescriptions" type="ArrayOfString" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="OrbCategory">
 		<xs:restriction base="xs:string">
@@ -135,12 +135,12 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="Color">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfBonusRange">
 		<xs:sequence>
@@ -148,13 +148,13 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="BonusRange">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Minimum" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Maximum" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AppearanceChance" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Descriptions" type="ArrayOfString" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:simpleType name="BonusType">
 		<xs:restriction base="xs:string">
@@ -249,10 +249,10 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:complexType name="OrbTypeFactor">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="ArrayOfOrbTypeFactor">
 		<xs:sequence>
@@ -265,11 +265,11 @@
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="ResourcePrevalence">
-		<xs:sequence>
+		<xs:all>
 			<xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Prevalence" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AbundanceMinimum" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="AbundanceMaximum" type="xs:float" />
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
 </xs:schema>

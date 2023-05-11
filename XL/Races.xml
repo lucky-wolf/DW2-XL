@@ -192,26 +192,40 @@
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>4</short>
-			<short>6</short>
-			<short>5</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
-			<short>5</short>
-			<short>197</short>
-			<short>17</short>
-			<short>201</short>
-			<short>203</short>
-			<short>228</short>
-			<short>20</short>
-			<short>27</short>
+			<!-- Rail Gun [Ftr] -->
 			<short>202</short>
+			<!-- Rail Gun [S] -->
+			<short>20</short>
+			<!-- Rail Gun [M] -->
 			<short>204</short>
+			<!-- Heavy Rail Gun [M] -->
 			<short>301</short>
-			<short>39</short>
-			<short>50</short>
+			<!-- Heavy Rail Gun [L] -->
+			<short>27</short>
+			<!-- Hail Cannon [Ftr] -->
 			<short>45</short>
+			<!-- Hail Cannon [S] -->
 			<short>298</short>
+			<!-- Hail Cannon [M] -->
+			<short>390</short>
+			<!-- Seeking Missile [Ftr] -->
+			<short>197</short>
+			<!-- Seeking Missile [S] -->
+			<short>5</short>
+			<!-- Concussion Missile [Ftr] -->
+			<short>201</short>
+			<!-- Concussion Missile [S] -->
+			<short>17</short>
+			<!-- Concussion Missile [M] -->
+			<short>203</short>
+			<!-- Concussion Missile [L] -->
+			<short>228</short>
+			<!-- Bulwark Missile Battery [S] -->
+			<short>50</short>
+			<!-- Phaser Lance [L] -->
+			<!-- <short>39</short> -->
 		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
@@ -635,12 +649,23 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>0</short>
-			<short>3</short>
-			<short>6</short>
-			<short>768</short>
 		</StartingResearchProjectIds>
-		<PreferredWeaponComponentIds></PreferredWeaponComponentIds>
+		<PreferredWeaponComponentIds>
+			<!-- Plasma Blaster [Ftr] -->
+			<short>245</short>
+			<!-- Plasma Blaster [S] -->
+			<short>247</short>
+			<!-- Plasma Blaster [M] -->
+			<short>250</short>
+			<!-- Plasma Torpedo [S] -->
+			<short>4</short>
+			<!-- Epsilon Torpedo [Ftr] -->
+			<short>198</short>
+			<!-- Epsilon Torpedo [S] -->
+			<short>15</short>
+			<!-- Epsilon Torpedo [M] -->
+			<short>59</short>
+		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
@@ -1047,15 +1072,14 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>2</short>
-			<short>6</short>
-			<short>1</short>
-			<short>35</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
-			<short>12</short>
+			<!-- Ion Field Projector [S]< -->
 			<short>1</short>
+			<!-- Wave Bomb [L] -->
 			<short>2</short>
+			<!-- Ion Bomb [L] -->
+			<short>12</short>
 		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
@@ -1488,16 +1512,17 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>2</short>
-			<short>6</short>
-			<short>768</short>
-			<short>35</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
-			<short>239</short>
-			<short>293</short>
+			<!-- Dealbreaker Beam [S] -->
 			<short>341</short>
+			<!-- Dealbreaker Beam [M] -->
+			<short>293</short>
+			<!-- Dealbreaker Beam [L] -->
+			<short>239</short>
+			<!-- Graviton Flux Projector [L] -->
 			<short>3</short>
+			<!-- Grapple Beam [S] -->
 			<short>313</short>
 		</PreferredWeaponComponentIds>
 		<Biases>
@@ -1909,24 +1934,24 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>3</short>
-			<short>5</short>
-			<short>6</short>
-			<short>384</short>
-			<short>266</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
-			<short>342</short>
-			<short>253</short>
-			<short>258</short>
+			<!-- Pulse Torpedo [Ftr] -->
 			<short>296</short>
+			<!-- Pulse Torpedo [S] -->
+			<short>342</short>
+			<!-- Pulse Torpedo [M] -->
+			<short>258</short>
+			<!-- Pulse Torpedo [L] -->
+			<short>253</short>
+			<!-- Rail Gun [Ftr] -->
 			<short>202</short>
-			<short>204</short>
+			<!-- Rail Gun [S] -->
 			<short>20</short>
+			<!-- Rail Gun [M] -->
+			<short>204</short>
+			<!-- Heavy Rail Gun [L] -->
 			<short>27</short>
-			<!--short>25</short>
-      <short>230</short>
-      <short>231</short-->
 		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
@@ -2644,22 +2669,30 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>3</short>
-			<short>768</short>
-			<short>6</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
+			<!-- Plasma Blaster [Ftr] -->
 			<short>245</short>
+			<!-- Plasma Blaster [S] -->
 			<short>247</short>
+			<!-- Plasma Blaster [M] -->
 			<short>250</short>
+			<!-- Firestorm Torpedo [Ftr] -->
 			<short>24</short>
-			<short>161</short>
+			<!-- Firestorm Torpedo [S] -->
 			<short>235</short>
-			<short>3</short>
+			<!-- Firestorm Torpedo [M] -->
+			<short>236</short>
+			<!-- Firestorm Torpedo [L] -->
+			<short>161</short>
+			<!-- Plasma Torpedo [S] -->
 			<short>4</short>
-			<short>15</short>
-			<short>59</short>
+			<!-- Epsilon Torpedo [Ftr] -->
 			<short>198</short>
+			<!-- Epsilon Torpedo [S] -->
+			<short>15</short>
+			<!-- Epsilon Torpedo [M] -->
+			<short>59</short>
 		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
@@ -3071,18 +3104,20 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
-			<short>4</short>
-			<short>0</short>
-			<short>251</short>
-			<short>6</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
-			<short>244</short>
-			<short>246</short>
-			<short>255</short>
-			<short>249</short>
-			<short>0</short>
+			<!-- Laser Cannon [Ftr] -->
 			<short>7</short>
+			<!-- Laser Cannon [S] -->
+			<short>0</short>
+			<!-- Star Beam [Ftr] -->
+			<short>244</short>
+			<!-- tar Beam [S] -->
+			<short>246</short>
+			<!-- Star Beam [M] -->
+			<short>249</short>
+			<!-- Star Beam [L] -->
+			<short>255</short>
 		</PreferredWeaponComponentIds>
 		<Biases>
 			<RaceFactor>
@@ -5325,7 +5360,7 @@ They also love to experiment with exotic scientific principles, and in the proce
 
 Quamenos take a tremendous interest in galactic history. They also seek out peculiar prehistoric artifacts. Their studies have led many Quameno scholars to claim that there are large gaps in our understanding of past events.
 
-Quameno communities typically live in semi-submerged, high-tech biodomes in the shallow coastal areas of Ocean or Deep Ocean planets.</Description>
+Quameno communities typically live in semi-submerged, high-tech biodomes in the shallow coastal areas of Ocean or Cold Ocean planets.</Description>
 	</Race>
 	<Race>
 		<RaceId>16</RaceId>
