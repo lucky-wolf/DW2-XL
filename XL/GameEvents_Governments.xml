@@ -975,9 +975,8 @@
 
 					Basic Space Commerce
 					Enhanced Commerce Center
-					Open Trade Network
 
-					Our homeworld thrums with the sound of commerce at our newly constructed Open Trade Network.</Description>
+					Our homeworld thrums with the sound of commerce, awaiting your bold expansion plans.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1054,7 +1053,7 @@
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -1065,7 +1064,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Open Trade Network -->
 				<Id1>447</Id1>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1080,7 +1079,7 @@
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<GameEventAction>
+			<!-- <GameEventAction>
 				<Type>BuildFacility</Type>
 				<MessageTitle />
 				<Description />
@@ -1106,7 +1105,7 @@
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
+			</GameEventAction> -->
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
@@ -1713,9 +1712,12 @@
 
 					Coordinated Command
 					Crew Systems
-					Planetary Palace
+					Royal Palace
 
-					Your elite royal guard standads at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coronation.</Description>
+					Your elite royal guard stands at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coronation.
+
+					Millions of your subjects look on from the courtyard below and are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?
+				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1801,7 +1803,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Planetary Palace -->
+				<!-- Royal Palace -->
 				<Id1>816</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>

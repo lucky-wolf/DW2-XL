@@ -7,6 +7,7 @@ Author: Mordachai (lucky-wolf)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+	- [v1.14.5](#v1145)
 		- [v1.14.4](#v1144)
 		- [v1.14.3](#v1143)
 		- [v1.14.2](#v1142)
@@ -150,6 +151,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+## v1.14.5
+- Removed Explosive Area Weapons from Ikkuro racial tech
+- Ikkuro can now choose Republic (much more thematic and less problematic than Feudalism)
+- Boskara now have a serious racial leader quality bonus
+- Nerfed Mercantile Guild a little
+- Fixed planetary facility build times
 
 ### v1.14.4
 - Galactic Mining Center now boosts mining and income, but reduces happiness and has negative health effects
