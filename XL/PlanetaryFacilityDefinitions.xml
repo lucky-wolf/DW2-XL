@@ -2263,6 +2263,8 @@
 			<short>33</short>
 			<short>38</short>
 			<short>56</short>
+			<short>60</short>
+			<short>64</short>
 		</TroopIdsRecruitable>
 		<Name>Mech Foundry</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Armor Barracks</ImageFilename>
@@ -2342,6 +2344,8 @@
 			<short>35</short>
 			<short>40</short>
 			<short>58</short>
+			<short>62</short>
+			<short>66</short>
 		</TroopIdsRecruitable>
 		<Name>Special Operations Training Facilites</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Special Operations Barracks</ImageFilename>
@@ -2414,6 +2418,8 @@
 			<short>36</short>
 			<short>41</short>
 			<short>59</short>
+			<short>63</short>
+			<short>67</short>
 		</TroopIdsRecruitable>
 		<Name>Titan Manufacturing Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Titan Manufacturing Center</ImageFilename>
@@ -2456,6 +2462,8 @@
 			<short>34</short>
 			<short>39</short>
 			<short>57</short>
+			<short>61</short>
+			<short>65</short>
 		</TroopIdsRecruitable>
 		<Name>Planetary Defense Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
@@ -2569,57 +2577,47 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>CharacterQualityAmbassador</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityColonyGovernor</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>CharacterQualityFleetAdmiral</Type>
-				<Amount>0.2</Amount>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityIntelligenceAgent</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityScientist</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>CharacterQualityShipCaptain</Type>
-				<Amount>0.2</Amount>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityTroopGeneral</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
