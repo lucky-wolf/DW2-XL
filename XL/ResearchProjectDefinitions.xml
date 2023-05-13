@@ -35,6 +35,10 @@
 		<Row>13</Row>
 		<Components>
 			<Component>
+				<ComponentId>417</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>1</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -1162,32 +1166,32 @@
 		<ResearchProjectId>31</ResearchProjectId>
 		<Name>Ion Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>2000</Money>
+			<Money>500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>200</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>200</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>200</Amount>
+					<Amount>50</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>12</Row>
+		<Column>2</Column>
+		<Row>9</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>10</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<ResearchProjectId>1</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -6822,32 +6826,32 @@
 		<ResearchProjectId>150</ResearchProjectId>
 		<Name>Superior Ion Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>12</Row>
+		<Column>6</Column>
+		<Row>9</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>327</ResearchProjectId>
@@ -11060,19 +11064,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>254</ResearchProjectId>
-		<Name>Starship Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>230</Row>
-		<Components>
-			<Component>
-				<ComponentId>140</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>255</ResearchProjectId>
@@ -11328,39 +11326,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>263</ResearchProjectId>
-		<Name>Enhanced Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>100</Size>
-		<InitiationCost>
-			<Money>500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>254</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>218</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>264</ResearchProjectId>
@@ -11399,7 +11371,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>265</ResearchProjectId>
-		<Name>Fighter Bays</Name>
+		<Name>Starfighter Hangar Bays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
 		<InitiationCost>
@@ -11423,6 +11395,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
 		<Row>236</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>255</ResearchProjectId>
@@ -12127,130 +12106,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>280</ResearchProjectId>
-		<Name>Efficient Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
-		<InitiationCost>
-			<Money>2000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>229</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>263</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>288</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>281</ResearchProjectId>
-		<Name>Increased Maneuverability</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
-		<InitiationCost>
-			<Money>2000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>231</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>263</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>289</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>282</ResearchProjectId>
-		<Name>Swift Acceleration</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
-		<InitiationCost>
-			<Money>2000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>232</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>4</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>263</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>290</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>283</ResearchProjectId>
@@ -12336,7 +12218,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1165</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -12423,7 +12311,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1165</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterBomber</Role>
@@ -13017,131 +12911,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>300</ResearchProjectId>
-		<Name>Omni-Directional Thrust</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
-		<InitiationCost>
-			<Money>12500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>228</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>345</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>285</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
-				<ComponentId>172</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>301</ResearchProjectId>
-		<Name>Synchronized Vectors</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
-		<InitiationCost>
-			<Money>12500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>229</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>346</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>288</ComponentId>
-				<Level>2</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>302</ResearchProjectId>
-		<Name>Superior Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
-		<InitiationCost>
-			<Money>12500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>1250</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>231</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>348</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>289</ComponentId>
-				<Level>2</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>303</ResearchProjectId>
@@ -13282,6 +13078,11 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1167</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
@@ -13332,6 +13133,11 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1167</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
@@ -13371,6 +13177,11 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1023</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -13509,6 +13320,12 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
@@ -14348,28 +14165,28 @@
 		<ResearchProjectId>327</ResearchProjectId>
 		<Name>Advanced Ion Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>800</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>800</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>800</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>12</Row>
+		<Column>4</Column>
+		<Row>9</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>31</ResearchProjectId>
@@ -15187,173 +15004,43 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>345</ResearchProjectId>
-		<Name>Hybrid Thrusters</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>228</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>262</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>263</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
-		<Components>
-			<Component>
-				<ComponentId>285</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>172</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>346</ResearchProjectId>
-		<Name>Coordinated Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>229</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>280</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>288</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>347</ResearchProjectId>
-		<Name>Advanced Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>263</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>218</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>348</ResearchProjectId>
-		<Name>High Speed Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>231</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>281</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>289</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>349</ResearchProjectId>
@@ -15533,6 +15220,11 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
@@ -15626,6 +15318,11 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
@@ -15711,7 +15408,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>208</ComponentId>
@@ -16686,50 +16389,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>376</ResearchProjectId>
-		<Name>Immediate Acceleration</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
-		<InitiationCost>
-			<Money>8000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>800</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>232</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>4</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>282</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>290</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>377</ResearchProjectId>
@@ -16790,7 +16456,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>379</ResearchProjectId>
-		<Name>Improved Fighter Bays</Name>
+		<Name>Improved Starfighter Hangar Bays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -16818,6 +16484,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>236</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>265</ResearchProjectId>
@@ -21973,53 +21646,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>510</ResearchProjectId>
-		<Name>Immediate Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
-		<InitiationCost>
-			<Money>18000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>301</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>302</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
-		<Components>
-			<Component>
-				<ComponentId>291</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>511</ResearchProjectId>
@@ -22127,6 +21760,11 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1016</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1168</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -23341,142 +22979,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>542</ResearchProjectId>
-		<Name>Unified Thrust</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
-		<InitiationCost>
-			<Money>24500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>228</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>300</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>285</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
-				<ComponentId>172</ComponentId>
-				<Level>2</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>543</ResearchProjectId>
-		<Name>Instant Maneuvering</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
-		<InitiationCost>
-			<Money>24500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>510</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>291</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>544</ResearchProjectId>
-		<Name>Instant Acceleration</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
-		<InitiationCost>
-			<Money>24500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>2450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>232</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>4</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>376</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>4</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>290</ComponentId>
-				<Level>2</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>545</ResearchProjectId>
@@ -23645,6 +23174,11 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1168</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
@@ -23742,6 +23276,11 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1016</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1168</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -25223,47 +24762,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>585</ResearchProjectId>
-		<Name>Inertia Cancellation</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
-		<InitiationCost>
-			<Money>32000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>3200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>543</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>291</ComponentId>
-				<Level>2</Level>
-			</Component>
-		</Components>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>586</ResearchProjectId>
@@ -26611,63 +26116,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>628</ResearchProjectId>
-		<Name>Improved Vector Thrust</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
-		<InitiationCost>
-			<Money>40500</Money>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
-		<Row>229</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>585</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>629</ResearchProjectId>
-		<Name>Reduced Vector Energy Usage</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
-		<InitiationCost>
-			<Money>40500</Money>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
-		<Row>230</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>585</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>630</ResearchProjectId>
-		<Name>Reduced Vector Size</Name>
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
-		<InitiationCost>
-			<Money>40500</Money>
-		</InitiationCost>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
-		<Row>231</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>585</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>631</ResearchProjectId>
@@ -33248,7 +32723,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1016</ResearchProjectId>
-		<Name>Superior Fighter Bays</Name>
+		<Name>Superior Starfighter Hangar Bays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>21600</Size>
 		<InitiationCost>
@@ -33276,6 +32751,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>236</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1023</ResearchProjectId>
@@ -33642,7 +33124,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1023</ResearchProjectId>
-		<Name>Advanced Fighter Bays</Name>
+		<Name>Advanced Starfighter Hangar Bays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5400</Size>
 		<InitiationCost>
@@ -33670,6 +33152,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
 		<Row>236</Row>
+		<DisallowedRaceIds>
+			<!-- Ackdarians have better tech -->
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>379</ResearchProjectId>
@@ -39788,7 +39277,7 @@
 	</ResearchProjectDefinition>
 
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1200</ResearchProjectId>
+		<ResearchProjectId>1164</ResearchProjectId>
 		<Name>Galactic Espionage Agency</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5400</Size>
@@ -39839,4 +39328,249 @@
 		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
 
+	<!-- Adding new fighterbay tech to Ackdarian Research tree moved them one row down from normal should be room there-->
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1165</ResearchProjectId>
+		<Name>Stellar Hangar Bays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>100</Size>
+		<InitiationCost>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>235</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>255</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>253</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>415</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>416</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>FighterInterceptor</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FighterBomber</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+		</ShipHulls>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1166</ResearchProjectId>
+		<Name>Improved Stellar Hangar Bays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>8000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>235</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1165</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>415</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>416</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1167</ResearchProjectId>
+		<Name>Advanced Stellar Hangar Bays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>16000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>235</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>415</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>416</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1168</ResearchProjectId>
+		<Name>Superior Stellar Hangar Bays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>16000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>235</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1167</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>414</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>415</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>416</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

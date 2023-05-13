@@ -53,7 +53,15 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>To the Stars!</MessageTitle>
-				<Description>For countless generations, we have looked to the stars while living among the remains of the civilization of our ancestors.\n\nTales from those days of a terrible cataclysm which destroyed them were passed down to us, but only recently has our science allowed us to better understand the artifacts they left behind. We now know for certain that we are not the first of our kind to leave our planet. \n\nThey went to the stars before us and left behind a path for us to follow, in the form of these ancient relics. Our long study of these ruins has helped us learn to construct starships and possibly even faster than light travel without the effects of time dilation.  We have also recovered a great many unusual resources vital to these technologies from the ruins. Most of these resources do not otherwise exist on our world and must be used carefully. As our first priority, we must find more of these resources our ancestors had access to, to allow our research and exploration to continue.\n\nWe must also complete our hyperspace research to allow us to much more rapidly explore our system and beyond!\n\nPerhaps, just perhaps, our ancestors are still out there somewhere, waiting for us, but the legends of destruction mean that we must also prepare our defenses for whatever we may find.</Description>
+				<Description>For countless generations, we have looked to the stars while living among the remains of the civilization of our ancestors.
+
+Tales from those days of a terrible cataclysm which destroyed them were passed down to us, but only recently has our science allowed us to better understand the artifacts they left behind. We now know for certain that we are not the first of our kind to leave our planet.
+
+They went to the stars before us and left behind a path for us to follow, in the form of these ancient relics. Our long study of these ruins has helped us learn to construct starships and possibly even faster than light travel without the effects of time dilation.  We have also recovered a great many unusual resources vital to these technologies from the ruins. Most of these resources do not otherwise exist on our world and must be used carefully. As our first priority, we must find more of these resources our ancestors had access to, to allow our research and exploration to continue.
+
+We must also complete our hyperspace research to allow us to much more rapidly explore our system and beyond!
+
+Perhaps, just perhaps, our ancestors are still out there somewhere, waiting for us, but the legends of destruction mean that we must also prepare our defenses for whatever we may find.</Description>
 				<ImageFilepath>UserInterface/Races/Human</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -2379,7 +2387,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
 		<GroupName />
 		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
+		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!
+
+We only have time to download one piece of information: either some star system maps or important research data.
+
+Which item should we download?</Description>
 		<ImageFilepath />
 		<MusicFilepath />
 		<TriggerType>Acquire</TriggerType>
@@ -3487,7 +3499,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.
+
+A collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.
+
+The base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3772,7 +3788,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.
+
+A collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.
+
+The base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3939,7 +3959,9 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient DataCore found</MessageTitle>
-				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.
+
+We should investigate further - it may be possible to salvage something useful from the datacore.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4012,7 +4034,9 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient DataCore found</MessageTitle>
-				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.
+
+We should investigate further - it may be possible to salvage something useful from the datacore.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4085,7 +4109,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Mysterious Object Encountered</MessageTitle>
-				<Description>We have encountered some strange debris. It looks to be biological in origin and very old.\n\nIts appearance matches ancient descriptions of terrifying space monsters - it seems to be the carcass of one of these huge monsters.\n\nWe should investigate further, it may be possible to salvage something useful from the carcass.</Description>
+				<Description>We have encountered some strange debris. It looks to be biological in origin and very old.
+
+Its appearance matches ancient descriptions of terrifying space monsters - it seems to be the carcass of one of these huge monsters.
+
+We should investigate further, it may be possible to salvage something useful from the carcass.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4157,7 +4185,9 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Mining Bonanza</MessageTitle>
-				<Description>We have discovered a strange magnetic anomaly that has caused seismic disturbances at all locations across our home system.\n\nAs a result mining for resources has become significantly easier. Thus for at least the next year we will enjoy a large mining bonus!</Description>
+				<Description>We have discovered a strange magnetic anomaly that has caused seismic disturbances at all locations across our home system.
+
+As a result mining for resources has become significantly easier. Thus for at least the next year we will enjoy a large mining bonus!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -4618,7 +4648,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
 		<GroupName />
 		<Title>Which Data Should We Download?</Title>
-		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
+		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!
+
+We only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.
+
+Which item should we download?</Description>
 		<ImageFilepath />
 		<MusicFilepath />
 		<TriggerType>Acquire</TriggerType>
@@ -4760,7 +4794,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Massive Quake Triggered at our Homeworld!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage, even damaging the quality of the planet itself.\n\nHowever it has also revealed an abundant new resource at our homeworld!</Description>
+				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!
+
+The quake has caused extensive damage, even damaging the quality of the planet itself.
+
+However it has also revealed an abundant new resource at our homeworld!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -4857,7 +4895,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Massive Quake Triggered at our Homeworld!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage has even damaged the quality of the planet itself.\n\nHowever it has also revealed intriguing geological features at our homeworld that has given us a permanent bonus to all of our research!</Description>
+				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!
+
+The quake has caused extensive damage has even damaged the quality of the planet itself.
+
+However it has also revealed intriguing geological features at our homeworld that has given us a permanent bonus to all of our research!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -4954,7 +4996,11 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>SetOrbDamage</Type>
 				<MessageTitle>Massive Quake Triggered at our Homeworld!</MessageTitle>
-				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!\n\nThe quake has caused extensive damage has even damaged the quality of the planet itself.\n\nHowever it has also changed aspects of our homeworld, actually making it more hospitable to our race. As a result our homeworld now has a permanent population growth bonus!</Description>
+				<Description>As our team enters the ruins a massive quake is mysteriously triggered at our homeworld in the same system!
+
+The quake has caused extensive damage has even damaged the quality of the planet itself.
+
+However it has also changed aspects of our homeworld, actually making it more hospitable to our race. As a result our homeworld now has a permanent population growth bonus!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -8811,7 +8857,9 @@ Maybe we can then unlock the mystery of their demise.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this ship was part of the 4th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
 
@@ -9242,7 +9290,9 @@ Maybe we can then unlock the mystery of their demise.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this ship was part of the 7th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
 
@@ -9673,7 +9723,9 @@ Maybe we can then unlock the mystery of their demise.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this ship was part of the 9th Alliance Fleet. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they were unsuccessful...
 
@@ -10104,7 +10156,9 @@ Maybe we can then unlock the mystery of their demise.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have also been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have also been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this ship was part of an ancient Mortalen fleet. This fleet was tasked with attacking a fearsome adversary known as the Shakturi. Apparently the Shakturi won the battle...
 
@@ -10600,7 +10654,9 @@ Our deeper understanding now allows us to cure this dangerous virus.</Descriptio
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Ackdarian Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
 				<ImageFilepath />
@@ -10700,7 +10756,9 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Human Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
 				<ImageFilepath />
@@ -10800,7 +10858,9 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Zenox Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this fleet was part of an empire called The Freedom Alliance. This fleet was tasked with defending a nearby system against something called the Shakturi. It appears that they lost the battle...</Description>
 				<ImageFilepath />
@@ -10900,7 +10960,9 @@ The messages indicate that this fleet was part of an empire called The Freedom A
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Partial Logs recovered from Ancient Boskara Fleet</MessageTitle>
-				<Description>We have boarded {0} and taken control.\n\nAlthough much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
+				<Description>We have boarded {0} and taken control.
+
+Although much has been lost, we have been able to retrieve a small portion of the logs from the central computer core.
 
 The messages indicate that this fleet was part of a fearsome empire called the Shaktur Axis. Their last intact log entry indicates that they were jumping to attack a Haakonish core world. The logs contain no indication of a battle, yet this fleet was clearly destroyed by something...</Description>
 				<ImageFilepath />
@@ -11034,7 +11096,11 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.
+
+The debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.
+
+The field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11167,7 +11233,11 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.
+
+The debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.
+
+The field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11300,7 +11370,11 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.
+
+The debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.
+
+The field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12362,7 +12436,17 @@ The last part of the message is a brief video clip of the base commander telling
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Ancient Orders</MessageTitle>
-				<Description>Hail, Dirtsider!  We are the Ghost Fleet and we have long watched over your primitive world. Our old legends tell us that many, many years ago, some our ancestors settled among you.\n\nAs a result, of all the plague-filled dirtballs in the galaxy, we've been a bit protective of yours and we've generally discouraged other of the clans from raiding your system.  Now, this has cost us over time as some of the clans are fairly ultra-violent.\n\nAnyway, the legends also said that someday you would take to the stars again and that when that day came, we would be able to re-join our dirt-based ancestors in one happy new clan.  Well, seeing as this has now happened, we figure it's time for a chat.\n\nThe only thing is, we've been re-reading the legend and also talking over the cost of protecting your dirt-ball over the generations and the legend says that re-joining you will "return us to prosperity".\n\nWe figure this means you need to pay up and if you do, we'll know the prophecy was right and we'll join up with you.\n\nOtherwise, well... I guess we all know not all stories turn out to be true.  So what do you say?</Description>
+				<Description>Hail, Dirtsider!  We are the Ghost Fleet and we have long watched over your primitive world. Our old legends tell us that many, many years ago, some our ancestors settled among you.
+
+As a result, of all the plague-filled dirtballs in the galaxy, we've been a bit protective of yours and we've generally discouraged other of the clans from raiding your system.  Now, this has cost us over time as some of the clans are fairly ultra-violent.
+
+Anyway, the legends also said that someday you would take to the stars again and that when that day came, we would be able to re-join our dirt-based ancestors in one happy new clan.  Well, seeing as this has now happened, we figure it's time for a chat.
+
+The only thing is, we've been re-reading the legend and also talking over the cost of protecting your dirt-ball over the generations and the legend says that re-joining you will "return us to prosperity".
+
+We figure this means you need to pay up and if you do, we'll know the prophecy was right and we'll join up with you.
+
+Otherwise, well... I guess we all know not all stories turn out to be true.  So what do you say?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12376,7 +12460,8 @@ The last part of the message is a brief video clip of the base commander telling
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Pay the Ghost Fleet\n[-25,000cr]</ChoiceButtonText>
+				<ChoiceButtonText>Pay the Ghost Fleet
+[-25,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Integrate Ghost Fleet (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -12401,7 +12486,8 @@ The last part of the message is a brief video clip of the base commander telling
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Refuse the Pirate Offer\n[-20 Relations]</ChoiceButtonText>
+				<ChoiceButtonText>Refuse the Pirate Offer
+[-20 Relations]</ChoiceButtonText>
 				<GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -12491,7 +12577,11 @@ The last part of the message is a brief video clip of the base commander telling
 			<GameEventAction>
 				<Type>IntegrateEmpire</Type>
 				<MessageTitle>The Legends were True.</MessageTitle>
-				<Description>Allright, a sign of good faith and gratitude from dirtsiders...\n\nI guess the legends were true after all, which means we share some common ancestors.  If all the legends are true, then we have a lot to tell you and maybe we need to also return to some of the older ways.\n\nFor now, we'll join our clans into one and share with you what our legends tell us.</Description>
+				<Description>Allright, a sign of good faith and gratitude from dirtsiders...
+
+I guess the legends were true after all, which means we share some common ancestors.  If all the legends are true, then we have a lot to tell you and maybe we need to also return to some of the older ways.
+
+For now, we'll join our clans into one and share with you what our legends tell us.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12543,7 +12633,25 @@ The last part of the message is a brief video clip of the base commander telling
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Legend of the Ghost Fleet</MessageTitle>
-				<Description>Two ages ago, before the Age of Shadows, there was no separation between space clans and dirt clans.  \n\nWe were one people, united against a terrible ancient enemy, The Shak-tur, that killed our people, destroyed our ships and our worlds and tore space itself apart.  This was a battle to the finish and defeating this enemy cost us most of our people, ships and worlds.\n\nBy the end of the war, the worlds were full of disease and wracked with natural disasters.  Only the toughest survived and those that went back dirtstide were usually lost.\n\nWe learned to survive in space.  We were part of a clan called the 8th Fleet back then and the only one that made it through the end.\n\nOur last orders were to protect this system, to keep it safe and hidden from the enemy, to do whatever it took to survive until the final victory when the worlds and the star clans would reunite and return to prosperity and cooperation.\n\nAfter two generations passed, some decided to go back dirtside and help those still alive there, but eventually they stopped communicating too.  We who remained started calling ourselves the Ghost Fleet because the ghosts of our ancestors fought with us.  We fought against the terrors of the void that appeared at the end of the last age, keeping them out of our system and away from our  resources.  We fought against and with some of the other star clans that survived.\n\nIt turned out some of the enemy survived too and we fought a long war against the "Hive" for many generations, losing many ships and much of the clan, but also meeting and sometimes trading with and fighting alongside other star clans, other fleets.\n\nEventually, we drove the last of the enemy away and then some of the clans turned on each other and we've been fighting them mostly for the last three generations or so.\n\nThere aren't as many clans as there used to be and it's been a while we've been watching and seeing the dirtsiders grow in number, guessing the plagues and disasters were over and someday we'd meet again.\n\nThe galaxy's a dangerous place and there's no telling what out there beyond this system, but working together we'll have a better chance at survival.</Description>
+				<Description>Two ages ago, before the Age of Shadows, there was no separation between space clans and dirt clans.
+
+We were one people, united against a terrible ancient enemy, The Shak-tur, that killed our people, destroyed our ships and our worlds and tore space itself apart.  This was a battle to the finish and defeating this enemy cost us most of our people, ships and worlds.
+
+By the end of the war, the worlds were full of disease and wracked with natural disasters.  Only the toughest survived and those that went back dirtstide were usually lost.
+
+We learned to survive in space.  We were part of a clan called the 8th Fleet back then and the only one that made it through the end.
+
+Our last orders were to protect this system, to keep it safe and hidden from the enemy, to do whatever it took to survive until the final victory when the worlds and the star clans would reunite and return to prosperity and cooperation.
+
+After two generations passed, some decided to go back dirtside and help those still alive there, but eventually they stopped communicating too.  We who remained started calling ourselves the Ghost Fleet because the ghosts of our ancestors fought with us.  We fought against the terrors of the void that appeared at the end of the last age, keeping them out of our system and away from our  resources.  We fought against and with some of the other star clans that survived.
+
+It turned out some of the enemy survived too and we fought a long war against the "Hive" for many generations, losing many ships and much of the clan, but also meeting and sometimes trading with and fighting alongside other star clans, other fleets.
+
+Eventually, we drove the last of the enemy away and then some of the clans turned on each other and we've been fighting them mostly for the last three generations or so.
+
+There aren't as many clans as there used to be and it's been a while we've been watching and seeing the dirtsiders grow in number, guessing the plagues and disasters were over and someday we'd meet again.
+
+The galaxy's a dangerous place and there's no telling what out there beyond this system, but working together we'll have a better chance at survival.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12691,7 +12799,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Stabilize and Explore \n[-20,000cr]</ChoiceButtonText>
+				<ChoiceButtonText>Stabilize and Explore
+[-20,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Stabilize Buried Battleship (Human)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -12824,7 +12933,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Successful Stabilization</MessageTitle>
-				<Description>Quick action succeeds in stabilizing the area around the battleship and while the ongoing tremors cause some shifting and a few injuries, your team is able to fully explore the wreck and its secrets.\n\nThe ancient remains you discover throughout the ship suggest that its arrival on the surface of the planet was unplanned and sudden.  The structure shows indications of battle scars as well as a crash landing, with extensive damage which was exacerbated by the centuries of seismic activity. \n\nRecovered fragments indicate that this was once the SRS Liberty, a Battleship of the Human Solar Republic and flagship of the 8th Fleet, with roughly 800 crew and 200 marines.\n\nIn addition to this information, your exploration teams are able to recover significant remains of advanced Hyperdrive and Sensor technologies.</Description>
+				<Description>Quick action succeeds in stabilizing the area around the battleship and while the ongoing tremors cause some shifting and a few injuries, your team is able to fully explore the wreck and its secrets.
+
+The ancient remains you discover throughout the ship suggest that its arrival on the surface of the planet was unplanned and sudden.  The structure shows indications of battle scars as well as a crash landing, with extensive damage which was exacerbated by the centuries of seismic activity.
+
+Recovered fragments indicate that this was once the SRS Liberty, a Battleship of the Human Solar Republic and flagship of the 8th Fleet, with roughly 800 crew and 200 marines.
+
+In addition to this information, your exploration teams are able to recover significant remains of advanced Hyperdrive and Sensor technologies.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>TriggeringItem</ActionLocationHint>
@@ -12920,7 +13035,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A Chasm Appears</MessageTitle>
-				<Description>Unfortunately the seismic events continued, with a major quake opening a new chasm which swallowed most of the ancient ship's remains for good.\n\nHowever, this chasm also uncovered a second, smaller ship which was buried near  the first.  It appears that it was escorting the larger Battleship until some event caused both to crash land on this planet.\n\nYour teams are able to recover some advanced Hyperdrive technologyy from the one remaining piece of the larger ship.  An exploration of the smaller ship reveals it to be the ancient Human Destroyer SRS Intrepid.  The state of the hull and the remains within suggest that it was in a battle of some kind before crashing here and that its crew perished with it.\n\nFortunately, much of the Destroyer's reactor remained intact and you are also able to recover valuable insights into reactor technology from this wreck.</Description>
+				<Description>Unfortunately the seismic events continued, with a major quake opening a new chasm which swallowed most of the ancient ship's remains for good.
+
+However, this chasm also uncovered a second, smaller ship which was buried near  the first.  It appears that it was escorting the larger Battleship until some event caused both to crash land on this planet.
+
+Your teams are able to recover some advanced Hyperdrive technologyy from the one remaining piece of the larger ship.  An exploration of the smaller ship reveals it to be the ancient Human Destroyer SRS Intrepid.  The state of the hull and the remains within suggest that it was in a battle of some kind before crashing here and that its crew perished with it.
+
+Fortunately, much of the Destroyer's reactor remained intact and you are also able to recover valuable insights into reactor technology from this wreck.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>TriggeringItem</ActionLocationHint>
@@ -13019,7 +13140,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>An Ancient Colony</MessageTitle>
-				<Description>The ruins on this ancient world extend across the planet both above and below ground and are relatively unstable.\n\nThis world clearly suffered from a bombardment and some other cataclysm in the distant past.\n\nThe above ground ruins seem more residential in nature.  What little your team has explored below ground indicates those ruins are more industrial in nature.  However, exploring above ground could collapse some of the below ground ruins and below ground exploration could also cause similar issues.\n\nGiven the instability, do you choose to focus your exploration above or below ground?</Description>
+				<Description>The ruins on this ancient world extend across the planet both above and below ground and are relatively unstable.
+
+This world clearly suffered from a bombardment and some other cataclysm in the distant past.
+
+The above ground ruins seem more residential in nature.  What little your team has explored below ground indicates those ruins are more industrial in nature.  However, exploring above ground could collapse some of the below ground ruins and below ground exploration could also cause similar issues.
+
+Given the instability, do you choose to focus your exploration above or below ground?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -13144,7 +13271,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>You have discovered an Artifact!</MessageTitle>
-				<Description>Amid the residential ruins of the {1} in the {0} system, your exploration team finds widespread decay and destruction, as well as many ancient remains which indicate sudden and often violent deaths.\n\nThere are indications that much of the massive seismic damage which is evident occured at the same time as many of the deaths in this ancient colony world, with indications of additional smaller seismic events continuing over time.\n\nFrom the remains, you determine that this world was once named Cygnus. \n\nIn one of the residences, your team discovers one somehow still functional artifact of the ancient age is amid some remains, well buried in the rubble. What wonders will this artifact reveal to us about the ancient times?</Description>
+				<Description>Amid the residential ruins of the {1} in the {0} system, your exploration team finds widespread decay and destruction, as well as many ancient remains which indicate sudden and often violent deaths.
+
+There are indications that much of the massive seismic damage which is evident occured at the same time as many of the deaths in this ancient colony world, with indications of additional smaller seismic events continuing over time.
+
+From the remains, you determine that this world was once named Cygnus.
+
+In one of the residences, your team discovers one somehow still functional artifact of the ancient age is amid some remains, well buried in the rubble. What wonders will this artifact reveal to us about the ancient times?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -13190,7 +13323,17 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>The Underground Ruins of {0}</MessageTitle>
-				<Description>In the underground ruins of the {0} in the {1} system, you have discovered extensive signs of ancient industry and as well as extensive remains, mostly but not entirely human in origin.\n\nMost of the underground facilities are completely ruined, but one data bank is still accessible and contains a great deal of information on this ancient Human colony, which it turns out was once named Cygnus.\n\n From the fragmented pieces of recoverable data, it becomes clear that it was considered a relatively unimportant frontier colony with a rapidly growing population of various species totaling around 500 million. Shortly after it was colonized, a great war against a terrible power known as the Shaktur Axis began, which resulted in an increasing influx of refugees from various parts of the galaxy. \n\nThis sudden surge in population, along with the strains of what appears to have been a full mobilization of the population towards wartime goals, resulted in scarce resources and an increase in property crimes. \n\nAn ancient interstellar law enforcement organization called the Terran Rangers appears to have been  put in charge of maintaining order, but its methods out on the frontier were at times harsh and not always welcomed by the locals.\n\nThe underground ruins were largely part of the rapid wartime mobilization to build out an industrial base that could support the war effort. The most recent data entries seem to be from roughly a millennia ago and do not give any indication of how this place came to ruin.</Description>
+				<Description>In the underground ruins of the {0} in the {1} system, you have discovered extensive signs of ancient industry and as well as extensive remains, mostly but not entirely human in origin.
+
+Most of the underground facilities are completely ruined, but one data bank is still accessible and contains a great deal of information on this ancient Human colony, which it turns out was once named Cygnus.
+
+ From the fragmented pieces of recoverable data, it becomes clear that it was considered a relatively unimportant frontier colony with a rapidly growing population of various species totaling around 500 million. Shortly after it was colonized, a great war against a terrible power known as the Shaktur Axis began, which resulted in an increasing influx of refugees from various parts of the galaxy.
+
+This sudden surge in population, along with the strains of what appears to have been a full mobilization of the population towards wartime goals, resulted in scarce resources and an increase in property crimes.
+
+An ancient interstellar law enforcement organization called the Terran Rangers appears to have been  put in charge of maintaining order, but its methods out on the frontier were at times harsh and not always welcomed by the locals.
+
+The underground ruins were largely part of the rapid wartime mobilization to build out an industrial base that could support the war effort. The most recent data entries seem to be from roughly a millennia ago and do not give any indication of how this place came to ruin.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -13291,7 +13434,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Ancient Vault Discovered!</MessageTitle>
-				<Description>Further extensive excavations in the {1} system have revealed a previously unknown sub-level which contains a massive vault, complete with an active ancient security system.\n\nAfter further careful investigation, some of our scientists believe the only way to get inside is to use some of our most powerful plasma cutting and explosive devices.\n\nOthers think that with more time, we may be able to interface with the ancient security systems and "hack" a way past the defense measures, but how long this will take is unclear and it also risks setting them off.\n\nWhich method will you attempt?</Description>
+				<Description>Further extensive excavations in the {1} system have revealed a previously unknown sub-level which contains a massive vault, complete with an active ancient security system.
+
+After further careful investigation, some of our scientists believe the only way to get inside is to use some of our most powerful plasma cutting and explosive devices.
+
+Others think that with more time, we may be able to interface with the ancient security systems and "hack" a way past the defense measures, but how long this will take is unclear and it also risks setting them off.
+
+Which method will you attempt?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -13362,7 +13511,11 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Damaged Vault</MessageTitle>
-				<Description>Your exploration teams in the {1} system successfully cut and then blast an opening into the ancient vault, but it requires quite a lot of engineering and blasting due to the remarkable alloy used by the ancients to construct the vault.\n\nIt turns out the vault contained a large databank.  Unfortunately, time has resulted in a gret deal of data deterioration and the blast damage likely caused further harm.\n\nYour scientists are however able to recover some navigational information  suggesting another ancient location of significant interest.  We are also able to learn a great deal about the engineering of these ancient super-alloys used in the vault's construction.</Description>
+				<Description>Your exploration teams in the {1} system successfully cut and then blast an opening into the ancient vault, but it requires quite a lot of engineering and blasting due to the remarkable alloy used by the ancients to construct the vault.
+
+It turns out the vault contained a large databank.  Unfortunately, time has resulted in a gret deal of data deterioration and the blast damage likely caused further harm.
+
+Your scientists are however able to recover some navigational information  suggesting another ancient location of significant interest.  We are also able to learn a great deal about the engineering of these ancient super-alloys used in the vault's construction.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -13483,7 +13636,15 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Vault Opened!</MessageTitle>
-				<Description>After extensive study of the ancient underground vault in the {1} system, our scientists find a way to interface with the vault's systems.  \n\nSome of the security measures are unfortunately triggered, killing one scientist, costing us some valuable equipment and resulting in additional injuries to personnel despite our precautions. \n\nHowever, over time, the vault's encryption is deciphered and we are able to successfully open the vault.\n\nInside we discover a larger ancient Human databank.  Much of the data has deteriorated over time, but we are able to recover two important navigational coordinates, leading to significant locations of ancient Human science and settlement.\n\nOur ability to interface with the ancient systems also leads to a major leap in our understanding of computational systems and architectures.</Description>
+				<Description>After extensive study of the ancient underground vault in the {1} system, our scientists find a way to interface with the vault's systems.
+
+Some of the security measures are unfortunately triggered, killing one scientist, costing us some valuable equipment and resulting in additional injuries to personnel despite our precautions.
+
+However, over time, the vault's encryption is deciphered and we are able to successfully open the vault.
+
+Inside we discover a larger ancient Human databank.  Much of the data has deteriorated over time, but we are able to recover two important navigational coordinates, leading to significant locations of ancient Human science and settlement.
+
+Our ability to interface with the ancient systems also leads to a major leap in our understanding of computational systems and architectures.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -14412,7 +14573,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>An Ancient Industrial World</MessageTitle>
-				<Description>The planet-spanning ruins on this world show that is was once a highly populated and advanced industrial world, focused on manufacturing of all kinds of technologies for the Ancient Human Solar Republic.\n\nThere is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The ionic storms on the planet and within the system appear to be remnants of that cataclysm.\n\nNo life remains on the surface, although countless remains of ancient Humans and various wildlife are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.\n\nThe ruins also prove to be an abundant source of several important and valuable resources.  From the remains, coordinates for another location of significant interest are also discovered.</Description>
+				<Description>The planet-spanning ruins on this world show that is was once a highly populated and advanced industrial world, focused on manufacturing of all kinds of technologies for the Ancient Human Solar Republic.
+
+There is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The ionic storms on the planet and within the system appear to be remnants of that cataclysm.
+
+No life remains on the surface, although countless remains of ancient Humans and various wildlife are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
+
+The ruins also prove to be an abundant source of several important and valuable resources.  From the remains, coordinates for another location of significant interest are also discovered.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -14716,7 +14883,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>An Ancient Research World</MessageTitle>
-				<Description>The extensive ruins on this world show that is was once a highly populated and advanced research world, focused on advancing science for the Ancient Human Solar Republic.\n\nThere is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.\n\nNo life remains on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.\n\nThe ruins also prove to be an abundant source of several important and valuable resources, including a supply of unique crystals with gravitic properties. From the remains, coordinates for another location of significant interest are also discovered.</Description>
+				<Description>The extensive ruins on this world show that is was once a highly populated and advanced research world, focused on advancing science for the Ancient Human Solar Republic.
+
+There is clear evidence of a massive sudden cataclysm which struck it, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.
+
+No life remains on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
+
+The ruins also prove to be an abundant source of several important and valuable resources, including a supply of unique crystals with gravitic properties. From the remains, coordinates for another location of significant interest are also discovered.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -15072,7 +15245,11 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A Destroyed Fortress World</MessageTitle>
-				<Description>The extensive ruins on this world show that is was once an extensively militarized and heavily defended world, perhaps on the frontier of the Ancient Human Solar Republic.\n\nThere is clear evidence of an orbital bombardment as well as a massive sudden cataclysm, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.\n\nNo life survives on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
+				<Description>The extensive ruins on this world show that is was once an extensively militarized and heavily defended world, perhaps on the frontier of the Ancient Human Solar Republic.
+
+There is clear evidence of an orbital bombardment as well as a massive sudden cataclysm, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.
+
+No life survives on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
 
 		The ruins also prove to be an abundant source of several important and valuable resources and some of the damaged military facilities may be of interest,</Description>
 				<ImageFilepath />
@@ -15196,7 +15373,17 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>A New Way or a False Path?</MessageTitle>
-				<Description>One of our colonies, {0}, has discovered a previously buried Ancient Human underground facility.  \n\nInitial communications indicated a functional Ancient databank, with much more information than we've been able to previously recover.  \n\nAs we assembled a larger team to lead the exploration and recovery, communications with our colony became more "unusual".  We have now been delivered an ultimatum of sorts.  \n\nOur colony tells us that they have found "a better way" and no longer wish to remain part of our empire.  We are told we must let them go their own way and they have issued a Declaration of Independence, though we are apparently free to join them in this "new way" if we are willing to abandon our existing form of government.  \n\nThis is clearly a major crisis and they have made clear they are only willing to speak further at the highest levels, with our Leader, in person.\n\nDo we risk sending our Leader to this rebellious colony, or do we refuse their demands and seek other means to enforce unity and prevent secession?</Description>
+				<Description>One of our colonies, {0}, has discovered a previously buried Ancient Human underground facility.
+
+Initial communications indicated a functional Ancient databank, with much more information than we've been able to previously recover.
+
+As we assembled a larger team to lead the exploration and recovery, communications with our colony became more "unusual".  We have now been delivered an ultimatum of sorts.
+
+Our colony tells us that they have found "a better way" and no longer wish to remain part of our empire.  We are told we must let them go their own way and they have issued a Declaration of Independence, though we are apparently free to join them in this "new way" if we are willing to abandon our existing form of government.
+
+This is clearly a major crisis and they have made clear they are only willing to speak further at the highest levels, with our Leader, in person.
+
+Do we risk sending our Leader to this rebellious colony, or do we refuse their demands and seek other means to enforce unity and prevent secession?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>BestColonyNonCapital</ActionLocationHint>
@@ -15318,7 +15505,13 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A New Path</MessageTitle>
-				<Description>Our leader traveled to {1} to speak with our rebellious citizens and found there a society already partially transformed.  \n\nThe teachings within the ancient Databanks had advanced both the reason and intuition of our people to a remarkable degree.  \n\nIn a shocking change for the rest of our empire, after discussion and study, our Leader has declared that {1} will be allowed to follow this path, that our Leader will join them and that the rest of the Empire should follow.  \n\nThe Path of the Ancients as a Government type has now been revealed to us, will we and our new Leader choose to follow it?</Description>
+				<Description>Our leader traveled to {1} to speak with our rebellious citizens and found there a society already partially transformed.
+
+The teachings within the ancient Databanks had advanced both the reason and intuition of our people to a remarkable degree.
+
+In a shocking change for the rest of our empire, after discussion and study, our Leader has declared that {1} will be allowed to follow this path, that our Leader will join them and that the rest of the Empire should follow.
+
+The Path of the Ancients as a Government type has now been revealed to us, will we and our new Leader choose to follow it?</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>BestColonyNonCapital</ActionLocationHint>
@@ -15444,7 +15637,9 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Secession!</MessageTitle>
-				<Description>Our greatest colony, {1} has declared independence and followed through on its ultimatum to us!  \n\nThey are now independent of our Empire and it will require great diplomatic or military efforts to return them to us again.</Description>
+				<Description>Our greatest colony, {1} has declared independence and followed through on its ultimatum to us!
+
+They are now independent of our Empire and it will require great diplomatic or military efforts to return them to us again.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -15522,7 +15717,15 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Our Ancient Home</MessageTitle>
-				<Description>Within the sanctuary on this world is a treasure trove of data from the Ancient Human Solar Republic which will take us many years to fully understand. \n\nWe have already learned enough to understand that in the ancient times, the Solar Republic together with the Ackdarian Technocracy founded the Freedom Alliance, focused on defending against the powerful Shaktur Axis.  The Shaktur Axis was in the service of the Shakturi, an extremely advanced and powerful alien race of unknown origins.  They traveled the galaxy by tearing holes in space-time using their "wormhole drives".\n\nWhen this sanctuary was created, the war had been going on for several years and many worlds and lives had already been lost.  The hope was that the information here might survive, come what may.\n\nAmong the various important discoveries, we also located a star map which shows clearly the location of the ancient home world of the Solar Republic.  \n\nAt long last, we may find out what happened to our ancestors!  The coordinates have now been added to our current star map.</Description>
+				<Description>Within the sanctuary on this world is a treasure trove of data from the Ancient Human Solar Republic which will take us many years to fully understand.
+
+We have already learned enough to understand that in the ancient times, the Solar Republic together with the Ackdarian Technocracy founded the Freedom Alliance, focused on defending against the powerful Shaktur Axis.  The Shaktur Axis was in the service of the Shakturi, an extremely advanced and powerful alien race of unknown origins.  They traveled the galaxy by tearing holes in space-time using their "wormhole drives".
+
+When this sanctuary was created, the war had been going on for several years and many worlds and lives had already been lost.  The hope was that the information here might survive, come what may.
+
+Among the various important discoveries, we also located a star map which shows clearly the location of the ancient home world of the Solar Republic.
+
+At long last, we may find out what happened to our ancestors!  The coordinates have now been added to our current star map.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -17797,7 +18000,7 @@ Withered Ackdarian bodies have been found in damaged stasis pods on another part
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Vectoring Engines</GeneratedItemName>
+				<GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Engines</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>45</DelaySecondsMinimum>
 				<DelaySecondsMaximum>75</DelaySecondsMaximum>
@@ -17822,7 +18025,7 @@ Withered Ackdarian bodies have been found in damaged stasis pods on another part
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Fighter Bays</GeneratedItemName>
+				<GeneratedItemName>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Stellar Hangar Bays</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>105</DelaySecondsMinimum>
 				<DelaySecondsMaximum>135</DelaySecondsMaximum>
@@ -18040,7 +18243,7 @@ We have gained:</Description>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Vectoring Engines</Name>
+		<Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Engines</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -18095,6 +18298,8 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Ultra Efficient Engines -->
+				<Id1>275</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -18113,7 +18318,7 @@ We have gained:</Description>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Fighter Bays</Name>
+		<Name>Rebuild Ancient Spaceport Choice (Ackdarian) Delayed Research Stellar Hangar Bays</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -18135,8 +18340,8 @@ We have gained:</Description>
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Secrets of Fighter Bays Deciphered</MessageTitle>
-				<Description>In the process of rebuilding, we have received a tech boost in fighter bays.</Description>
+				<MessageTitle>Secrets of Stellar Hangar Bays Deciphered</MessageTitle>
+				<Description>In the process of rebuilding, we have received a tech boost in stellar hangar bays.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -18168,6 +18373,8 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Stellar Hangar Bays -->
+				<Id1>1165</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>

@@ -2,12 +2,14 @@
 Distant Worlds 2 - XL
 
 Author: Mordachai (lucky-wolf)
+Contributors: Rah (Ackdarian Stellar Hangar Bays)
 
 - [DW2-XL](#dw2-xl)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-	- [v1.14.5](#v1145)
+		- [v1.15.0](#v1150)
+		- [v1.14.5](#v1145)
 		- [v1.14.4](#v1144)
 		- [v1.14.3](#v1143)
 		- [v1.14.2](#v1142)
@@ -152,7 +154,18 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-## v1.14.5
+### v1.15.0
+- Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
+  - Ackdarian racial tech that holds 50% more strike craft than standard bays
+- Integrated "Archivist Government" by @Rah
+  - A Zenox only archivist focused government
+- Added early Ion Field Projector [Ftr]
+  - Improved tech progression of ion weapons slightly
+  - Gives Teekans a base weapon for their Attack Shuttles
+- Fully removed all vector engine techs from the game
+- Improved the Ancient Ackdarian Spaceport event to give Ackdarian specific tech boosts
+
+### v1.14.5
 - Removed Explosive Area Weapons from Ikkuro racial tech
 - Ikkuro can now choose Republic (much more thematic and less problematic than Feudalism)
 - Boskara now have a serious racial leader quality bonus
@@ -838,7 +851,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Fighters and Bombers
 - The Fighter and Bomber craft portion of the tech tree has been made more elegant and rational.
-- Fighter Bays themselves have been simplified to hold 4/8/16 craft for S/M/L bays.
+- Starfighter Hangar Bays themselves have been simplified to hold 4/8/16 craft for S/M/L bays.
   - Rather than holding more units as you tech up, they instead simply get faster at replenishing them.
     - The point being to make fighters & bombers a great tool on the battlefield, but not an automatic "I win" button.
   - So to get more fighters & bombers, you need more bays, larger ships, etc., which is a more natural flow.
