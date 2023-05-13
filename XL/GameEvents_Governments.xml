@@ -41,8 +41,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Republic)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -81,8 +81,7 @@
 
 					Diplomatic Focus
 
-					Our homeworld will become a beacon for peace and prosperity with our newly finished Planetary Administration Center, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.
-				</Description>
+					Our homeworld will become a beacon for peace and prosperity with our newly finished Planetary Administration Center, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -229,8 +228,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Democracy)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -440,8 +439,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Feudalism)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -474,7 +473,7 @@
 				<MessageTitle>Feudalism</MessageTitle>
 				<Description>Your vassals stand ready to serve your glorious reign, having recently completed:
 
-					Fighter Bays
+					Starfighter Hangar Bays
 					Zero-G Combat
 					Assault Pods
 
@@ -510,7 +509,7 @@
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Fighter Bays -->
+				<!-- Starfighter Hangar Bays -->
 				<Id1>265</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -939,8 +938,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Mercantile Guild)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1149,8 +1148,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Military Dictatorship)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -1676,8 +1675,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Monarchy)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2205,8 +2204,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Technocracy)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2416,8 +2415,8 @@
 				<ChoiceButtonText />
 				<GeneratedItemName>Initialise Government 2 (Hive Mind)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>1</DelaySecondsMinimum>
-				<DelaySecondsMaximum>1</DelaySecondsMaximum>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
@@ -2647,6 +2646,215 @@
 						<ComparisonValue>1500000000</ComparisonValue>
 					</GameEventCondition>
 				</Conditions>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Initialise Government (Archivist)</Name>
+		<GroupName />
+		<Title />
+		<Description />
+		<ImageFilepath />
+		<MusicFilepath />
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions />
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActions />
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TechLevelThreshold>0</TechLevelThreshold>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Initialise Government 2 (Archivist)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Initialise Government 2 (Archivist)</Name>
+		<GroupName />
+		<Title />
+		<Description />
+		<ImageFilepath />
+		<MusicFilepath />
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions />
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>5</PlacementRaceId>
+		<PlacementActions />
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TechLevelThreshold>0</TechLevelThreshold>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Archivist</MessageTitle>
+				<Description>Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons.
+
+					Librarian, we have just completed our initial research efforts to kickstart our efforts:
+
+					Standard Sensors
+					Long Range Sensors
+					Exploration Scanners
+					Planetary Exploration
+				</Description>
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>403</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>433</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>405</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>406</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
