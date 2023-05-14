@@ -160,8 +160,15 @@ YMMV, but this is my take on making it Extra Large!
 - Completely removed the old Ackdarian fast interceptors techs
 - Galactic Archive moved up to t5 (was t10)
 - Armor reflective values for reflective, flux, and all [ftr] armors nerfed a bit
-- Nerfed Meridian shields slightly (less resistance)
+- Nerfed Meridian shields slightly (less resistance, less strength, same recharge rate)
 - Gave very small "Destroyed Repair Chance" to base Damage Control Units
+- Adjusted random tech to be a bit more random generally, but to guarantee some essential techs (e.g. fast mining)
+- Adjusted Stellar Hangar Bay links to be Ackdarian only
+- Added a small Kaasian Crystal component to stellar hangar bays
+- Reduced Crew requirements for Ackdarian Stellar Hangar Bays
+- Fixed Ion Defense for all hangar bays
+- Improved government naming for shadow oligarchy and harmonious utopias
+- Gave all races a direct and indirect fire weapon in their races file to try to avoid having the game gift them a random one
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah

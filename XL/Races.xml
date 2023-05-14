@@ -192,6 +192,10 @@
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Kinetic Weapons -->
+			<short>5</short>
+			<!-- Missile Weapons -->
+			<short>4</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Rail Gun [Ftr] -->
@@ -649,6 +653,10 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Pulse Weapons -->
+			<short>768</short>
+			<!-- Torpedo Weapons -->
+			<short>3</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Plasma Blaster [Ftr] -->
@@ -1072,6 +1080,10 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Ion Weapons -->
+			<short>1</short>
+			<!-- Area Weapons -->
+			<short>2</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Ion Field Projector [S]< -->
@@ -1512,6 +1524,10 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Tractor Beams -->
+			<short>35</short>
+			<!-- Missile Weapons -->
+			<short>4</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Dealbreaker Beam [S] -->
@@ -1934,6 +1950,10 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Kinetic Weapons -->
+			<short>5</short>
+			<!-- Torpedo Weapons -->
+			<short>3</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Pulse Torpedo [Ftr] -->
@@ -2674,6 +2694,10 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Pulse Weapons -->
+			<short>768</short>
+			<!-- Torpedo Weapons -->
+			<short>3</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Plasma Blaster [Ftr] -->
@@ -3108,6 +3132,8 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
 		<StartingResearchProjectIds>
+			<!-- Beam Weapons -->
+			<short>0</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Laser Cannon [Ftr] -->
