@@ -24843,7 +24843,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>591</ResearchProjectId>
-		<Name>Advanced Energy Secrets</Name>
+		<Name>Fuel Conversion Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -24883,6 +24883,10 @@
 		<Components>
 			<Component>
 				<ComponentId>189</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>418</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -26298,7 +26302,7 @@
 		<Row>318</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>591</ResearchProjectId>
+				<ResearchProjectId>1170</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -26318,7 +26322,7 @@
 		<Row>320</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>591</ResearchProjectId>
+				<ResearchProjectId>1170</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -39112,7 +39116,6 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
-
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1164</ResearchProjectId>
 		<Name>Galactic Espionage Agency</Name>
@@ -39412,6 +39415,50 @@
 			<Component>
 				<ComponentId>416</ComponentId>
 				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1170</ResearchProjectId>
+		<Name>Efficient Energy Conversion</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>319</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>591</ResearchProjectId>
+				<PathAppearanceLikelihood>0.8</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>189</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>418</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

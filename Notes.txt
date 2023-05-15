@@ -623,3 +623,13 @@ democracy
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>0</Column>
 		<Row>0</Row>
+
+---------------------------------------------------------------------------------------------------
+dw2bt help
+dw2bt help list
+dw2bt help extract
+dw2bt help convert
+
+dw2bt extract "C:\Steam\steamapps\common\Distant Worlds 2\data\db\bundles\Human.bundle" "UserInterface/Races/Human"
+
+dw2bt convert "UserInterface\Races\Human" "UserInterface\Races\human.dds"

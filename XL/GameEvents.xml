@@ -773,6 +773,33 @@ There will be new riches to uncover and make our own. We will never give up seek
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Tractor Beams -->
 				<Id1>35</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>HyperDrive</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Starfighter Hangar Bays -->
+				<Id1>265</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -11797,7 +11824,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 
 One message appears to be an intercepted communication between the Zenox Technocracy and the Shaktur Axis, which reads as follows:
 
-"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds. 
+"In accordance with our previous agreement we provide you this update on the Alliance battle plans. Thank you for avoiding attacks against our core worlds.
 
 We must also warn you that some of the Zenox High Council suspect our arrangement, so we must proceed cautiously."
 
@@ -15107,7 +15134,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A Destroyed Fortress World</MessageTitle>
         <Description>The extensive ruins on this world show that is was once an extensively militarized and heavily defended world, perhaps on the frontier of the Ancient Human Solar Republic.\n\nThere is clear evidence of an orbital bombardment as well as a massive sudden cataclysm, followed by many smaller events over the centuries.  The gravitic storms on the planet and within the system appear to be remnants of that cataclysm and remain extremely dangerous.\n\nNo life survives on the surface, although countless remains of ancient Humans and various flora and fauna are evident. The planet itself has also been nearly torn apart by past massive seismic events.  In its present state, it would be very difficult for life to return and survive.
-		
+
 		The ruins also prove to be an abundant source of several important and valuable resources and some of the damaged military facilities may be of interest,</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -17577,7 +17604,7 @@ Our own home world may never again be habitable. My only solace is that it seems
 
 One message appears to be written by a Gizurean official, part of which reads as follows:
 
-"Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness. 
+"Nobody knows the outcome of the last battle or where the Shakturi have gone. Queen Hikhare has dropped dead, possibly by assassination, and many members of the court are descending into madness.
 
 No messengers have returned and there has been no contact from any Shakturi or our other allies. Spies are everywhere. Trust no one. Forward immediately any communication or information about the latest events."</Description>
 				<ImageFilepath />
@@ -19547,7 +19574,7 @@ We've also recovered various resources.</Description>
 			<GameEventAction>
 				<Type>AddCargo</Type>
 				<MessageTitle />
-				<Description>1,000 Kaaisan Crystal</Description>
+				<Description>1,000 Kaasian Crystal</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -19801,7 +19828,7 @@ We have lost 5k for destroyed equipment, but have received a mining tech boost. 
 			<GameEventAction>
 				<Type>AddCargo</Type>
 				<MessageTitle />
-				<Description>500 Kaaisan Crystal</Description>
+				<Description>500 Kaasian Crystal</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -20084,7 +20111,7 @@ We've also recovered various resources.</Description>
 			<GameEventAction>
 				<Type>AddCargo</Type>
 				<MessageTitle />
-				<Description>1,000 Kaaisan Crystal</Description>
+				<Description>1,000 Kaasian Crystal</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -20286,7 +20313,7 @@ We have lost 5k for destroyed equipment, but have received a mining tech boost.<
 			<GameEventAction>
 				<Type>AddCargo</Type>
 				<MessageTitle />
-				<Description>500 Kaaisan Crystal</Description>
+				<Description>500 Kaasian Crystal</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -36195,7 +36222,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Incoming Communication</MessageTitle>
-        <Description>"You are unknown to us. You are strangers. You are not of the Guardians. 
+        <Description>"You are unknown to us. You are strangers. You are not of the Guardians.
 
 We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
 				<ImageFilepath />

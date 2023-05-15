@@ -173,6 +173,9 @@ YMMV, but this is my take on making it Extra Large!
 - All recruitment facilities boost recruitment rate by 15%
 - All planetary defense installations boost recruitment by 10%
 - Tweaked military academy, hq, and command network
+- Normalized all super weapon tech to be size 30, 50, or 60 (bomb, direct, seeking)
+- Teekans now get 50% progress towards Starfighter Hangar Bays
+- Fuel converters are now size 20
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
@@ -843,17 +846,23 @@ YMMV, but this is my take on making it Extra Large!
   - Gives you the ability to reason about trade-offs between different weapon systems using their many other factors, such as power use, range, alpha-damage v. sustained damage, etc.
   - Offers you and the AIs to design better ships overall (and typically more weapons at any given ship class).
   - Direct fire weapons:
-    - Small = 11
-    - Medium = 22
-    - Large = 44
+    - Ftr = 5
+    - S = 11
+    - M = 22
+    - L = 44
+    - X = 50
   - Tracking weapons:
-    - Small = 13
-    - Medium = 26
-    - Large = 52
+    - Ftr = 10
+    - S = 13
+    - M = 26
+    - L = 52
+    - X = 60
   - Area weapons:
-    - Large = 52
+    - L = 52
+    - X = 60
   - Bombard weapons:
-    - Medium = 26
+    - B = 26
+    - X = 30
 
 ## Kinetic Weapons
 - Do not lose damage with distance (slugs don't slow down in a vacuum, or lose energy).
