@@ -174,7 +174,7 @@ YMMV, but this is my take on making it Extra Large!
 - All planetary defense installations boost recruitment by 10%
 - Tweaked military academy, hq, and command network
 - Normalized all super weapon tech to be size 30, 50, or 60 (bomb, direct, seeking)
-- Teekans now get 50% progress towards Starfighter Hangar Bays
+- Teekans now start with 50% progress for Starfighter Hangar Bays
 - Fuel converters are now size 20
 
 ### v1.15.0
