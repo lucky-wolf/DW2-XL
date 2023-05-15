@@ -169,6 +169,10 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Ion Defense for all hangar bays
 - Improved government naming for shadow oligarchy and harmonious utopias
 - Gave all races a direct and indirect fire weapon in their races file to try to avoid having the game gift them a random one
+- Improved size of large transport by +50 capacity
+- All recruitment facilities boost recruitment rate by 15%
+- All planetary defense installations boost recruitment by 10%
+- Tweaked military academy, hq, and command network
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
