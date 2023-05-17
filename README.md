@@ -155,7 +155,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.15.1
-- Updated for 1.1.4.1 Game Engine
+- Updated for 1.1.4.3 Beta Engine
 - Ancient Guardian tech moved to bottom of tech tree where it doesn't conflict with anything else
 - Completely removed the old Ackdarian fast interceptors techs
 - Galactic Archive moved up to t5 (was t10)
@@ -175,7 +175,13 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked military academy, hq, and command network
 - Normalized all super weapon tech to be size 30, 50, or 60 (bomb, direct, seeking)
 - Teekans now start with 50% progress for Starfighter Hangar Bays
-- Fuel converters are now size 20
+- Energy->Fuel converters are now size [M] 20 or [L] 40
+- Energy->Fuel converters have tech level 10 upgrades
+- AOE weapons are size 30 now
+- Fusion Reactors now produce as much energy as Fission Reactors, but at the same size footprint as Antimatter Reactors
+  - This makes Fusion worse for space efficiency than Fission or Antimatter, since both of those produce higher output per space used
+  - They remain however the fuel efficiency king
+- Fixed up all [ftr] reactor variants to have the same fuel efficiency as their non-ftr ship components
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah

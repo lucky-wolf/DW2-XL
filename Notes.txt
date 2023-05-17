@@ -255,6 +255,7 @@ FuelRatio = 1000 * ReactorFuelUnitsForFullCharge/ReactorEnergyStorageCapacity
 
 ReactorFuelUnitsForFullCharge = ReactorEnergyStorageCapacity*FuelRatio/1000
 
+ =  260  * .0013
 
 						v2
 Space Reactors		68/115/.2			.0017391
@@ -268,9 +269,11 @@ Novacore 	20		120/240/.24		150/300/.3		188/375/.375
 Zero		15		311/605/.6
 Dark Star	20		500/1000/.875
 
-Fusion					0.0013			0.0012			0.0011
-Fission					0.00165			0.0016			0.0015
-Quantum					0.0024			0.0022			0.0020
+                         Fuel ratio/1k
+----------------------------------------------------------------
+Fusion					0.0015			0.0014			0.0013
+Fission					0.0017			0.0016			0.0015
+Quantum					0.0019			0.0018			0.0017
 
 [ftr]		size		v1		v2		v3		v4		Hyper	v1		v2		v3
 Space		10			19		21

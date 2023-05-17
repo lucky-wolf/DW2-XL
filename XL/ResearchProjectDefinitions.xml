@@ -11577,6 +11577,10 @@
 			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
 					<Amount>200</Amount>
 				</ResourceQuantity>
@@ -11593,7 +11597,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>259</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -12538,7 +12542,7 @@
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -14255,7 +14259,7 @@
 			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -14282,6 +14286,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<!-- guarantee fusion for Ikkuro so they have access to their racial tech line -->
+				<ResearchProjectId>259</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
@@ -14303,7 +14314,15 @@
 			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
 					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -14319,7 +14338,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>270</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -15440,7 +15459,7 @@
 			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -15464,7 +15483,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>331</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -15512,7 +15531,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>333</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -20724,7 +20743,7 @@
 			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -20748,7 +20767,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>361</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -20772,7 +20791,7 @@
 			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -20844,7 +20863,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>362</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -22333,7 +22352,7 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>5</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -24258,6 +24277,14 @@
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
 					<Amount>3200</Amount>
@@ -32078,7 +32105,15 @@
 			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
 					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -32094,7 +32129,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>332</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -34456,7 +34491,7 @@
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>4</ResourceId>
 					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -34504,7 +34539,7 @@
 			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>4</ResourceId>
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -34552,7 +34587,7 @@
 			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
+					<ResourceId>4</ResourceId>
 					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
