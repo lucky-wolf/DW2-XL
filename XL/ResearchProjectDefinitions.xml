@@ -31794,6 +31794,15 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
 		<Row>370</Row>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>824</ResearchProjectId>
@@ -31812,6 +31821,15 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>825</ResearchProjectId>
@@ -31830,6 +31848,35 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>826</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>827</ResearchProjectId>
+		<Name>Undefined</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<!-- End Vanilla, Begin XL -->
 	<ResearchProjectDefinition>
