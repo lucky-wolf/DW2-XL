@@ -182,6 +182,7 @@ YMMV, but this is my take on making it Extra Large!
   - This makes Fusion worse for space efficiency than Fission or Antimatter, since both of those produce higher output per space used
   - They remain however the fuel efficiency king
 - Fixed up all [ftr] reactor variants to have the same fuel efficiency as their non-ftr ship components
+- Fixed missing Derasian Shock Wave v2 component stats
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
