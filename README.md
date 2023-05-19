@@ -177,12 +177,20 @@ YMMV, but this is my take on making it Extra Large!
 - Teekans now start with 50% progress for Starfighter Hangar Bays
 - Energy->Fuel converters are now size [M] 20 or [L] 40
 - Energy->Fuel converters have tech level 10 upgrades
-- AOE weapons are size 30 now
 - Fusion Reactors now produce as much energy as Fission Reactors, but at the same size footprint as Antimatter Reactors
   - This makes Fusion worse for space efficiency than Fission or Antimatter, since both of those produce higher output per space used
   - They remain however the fuel efficiency king
 - Fixed up all [ftr] reactor variants to have the same fuel efficiency as their non-ftr ship components
 - Fixed missing Derasian Shock Wave v2 component stats
+- Added [M] sized AOE weapons for:
+  - Wave Bomb
+  - Derasian Shock Wave
+  - Intimidator Surge Blast
+  - Ion Bomb
+  - Ion Pulse
+  - Graviton Pulse
+  - Nova Pulse Wave
+  - Transient Singularity
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
