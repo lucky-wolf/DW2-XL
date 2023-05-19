@@ -37,6 +37,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="PlagueBonuses" type="ArrayOfBonus" />
 			<xs:element minOccurs="0" maxOccurs="1" name="DiplomacyFactors" type="ArrayOfEmpireIncidentFactor" />
 			<xs:element minOccurs="0" maxOccurs="1" name="DiplomacyFactorRaceIds" type="ArrayOfUnsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" name="EmpireBonuses" type="ArrayOfBonus" />
 		</xs:all>
 	</xs:complexType>
 	<xs:complexType name="Price">
@@ -84,6 +85,7 @@
 			<xs:enumeration value="ResearchConstruction" />
 			<xs:enumeration value="ResearchHighTech" />
 			<xs:enumeration value="ResearchIndustrial" />
+			<xs:enumeration value="ResearchAncientKnowledge" />
 			<xs:enumeration value="ColonyIncome" />
 			<xs:enumeration value="ColonyDevelopment" />
 			<xs:enumeration value="ColonyHappiness" />

@@ -8,6 +8,7 @@ Contributors: Rah (Ackdarian Stellar Hangar Bays)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.1](#v1151)
 		- [v1.15.0](#v1150)
 		- [v1.14.5](#v1145)
 		- [v1.14.4](#v1144)
@@ -109,7 +110,6 @@ Contributors: Rah (Ackdarian Stellar Hangar Bays)
 	- [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
 	- [DW2-XL Shields](#dw2-xl-shields)
 	- [DW2-XL Armor](#dw2-xl-armor)
-	- [DW2-XL Fighter/Bomber Armor](#dw2-xl-fighterbomber-armor)
 	- [DW2-XL Reactors](#dw2-xl-reactors)
 	- [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 	- [DW2-XL Engines](#dw2-xl-engines)
@@ -153,6 +153,44 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.1
+- Updated for 1.1.4.3 Beta Engine
+- Ancient Guardian tech moved to bottom of tech tree where it doesn't conflict with anything else
+- Completely removed the old Ackdarian fast interceptors techs
+- Galactic Archive moved up to t5 (was t10)
+- Armor reflective values for reflective, flux, and all [ftr] armors nerfed a bit
+- Nerfed Meridian shields slightly (less resistance, less strength, same recharge rate)
+- Gave very small "Destroyed Repair Chance" to base Damage Control Units
+- Adjusted random tech to be a bit more random generally, but to guarantee some essential techs (e.g. fast mining)
+- Adjusted Stellar Hangar Bay links to be Ackdarian only
+- Added a small Kaasian Crystal component to stellar hangar bays
+- Reduced Crew requirements for Ackdarian Stellar Hangar Bays
+- Fixed Ion Defense for all hangar bays
+- Improved government naming for shadow oligarchy and harmonious utopias
+- Gave all races a direct and indirect fire weapon in their races file to try to avoid having the game gift them a random one
+- Improved size of large transport by +50 capacity
+- All recruitment facilities boost recruitment rate by 15%
+- All planetary defense installations boost recruitment by 10%
+- Tweaked military academy, hq, and command network
+- Normalized all super weapon tech to be size 30, 50, or 60 (bomb, direct, seeking)
+- Teekans now start with 50% progress for Starfighter Hangar Bays
+- Energy->Fuel converters are now size [M] 20 or [L] 40
+- Energy->Fuel converters have tech level 10 upgrades
+- Fusion Reactors now produce as much energy as Fission Reactors, but at the same size footprint as Antimatter Reactors
+  - This makes Fusion worse for space efficiency than Fission or Antimatter, since both of those produce higher output per space used
+  - They remain however the fuel efficiency king
+- Fixed up all [ftr] reactor variants to have the same fuel efficiency as their non-ftr ship components
+- Fixed missing Derasian Shock Wave v2 component stats
+- Added [M] sized AOE weapons for:
+  - Wave Bomb
+  - Derasian Shock Wave
+  - Intimidator Surge Blast
+  - Ion Bomb
+  - Ion Pulse
+  - Graviton Pulse
+  - Nova Pulse Wave
+  - Transient Singularity
 
 ### v1.15.0
 - Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
@@ -823,17 +861,23 @@ YMMV, but this is my take on making it Extra Large!
   - Gives you the ability to reason about trade-offs between different weapon systems using their many other factors, such as power use, range, alpha-damage v. sustained damage, etc.
   - Offers you and the AIs to design better ships overall (and typically more weapons at any given ship class).
   - Direct fire weapons:
-    - Small = 11
-    - Medium = 22
-    - Large = 44
+    - Ftr = 5
+    - S = 11
+    - M = 22
+    - L = 44
+    - X = 50
   - Tracking weapons:
-    - Small = 13
-    - Medium = 26
-    - Large = 52
+    - Ftr = 10
+    - S = 13
+    - M = 26
+    - L = 52
+    - X = 60
   - Area weapons:
-    - Large = 52
+    - L = 52
+    - X = 60
   - Bombard weapons:
-    - Medium = 26
+    - B = 26
+    - X = 30
 
 ## Kinetic Weapons
 - Do not lose damage with distance (slugs don't slow down in a vacuum, or lose energy).
@@ -943,21 +987,14 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 | Deucalios (v2)   |       3 |      500 |          2 |        10% |       25% |        1.6 |               8 |             5 |
 | Deucalios (v3)   |       4 |      700 |          3 |        10% |       15% |        2.4 |              12 |             6 |
 | Deucalios (v4)   |       5 |      900 |          4 |        10% |        5% |        3.2 |              16 |             7 |
-| Meridian         |       6 |     1000 |          5 |            |           |        5.0 |              25 |             8 |
-| Meridian (v2)    |       8 |     1200 |          6 |            |           |        7.0 |              35 |             9 |
-| Meridian (v3)    |      10 |     1400 |          7 |            |           |        9.0 |              45 |            10 |
-| Citadel          |      12 |     2400 |          9 |            |           |       15.0 |              60 |            15 |
+| Meridian         |       6 |      800 |          5 |            |           |        5.0 |              25 |             8 |
+| Meridian (v2)    |       8 |     1200 |          5 |            |           |        7.0 |              35 |             9 |
+| Meridian (v3)    |      10 |     1600 |          5 |            |           |        9.0 |              45 |            10 |
+| Citadel          |      12 |     2400 |          6 |            |           |       15.0 |              60 |            15 |
 
 ## DW2-XL Armor
 
-![](Armor.png)
-
-## DW2-XL Fighter/Bomber Armor
-
-| Fighter/Bomber Armor | Blast Rating | Reactive |  Ion |
-| -------------------- | -----------: | -------: | ---: |
-
-Currently in a spreadsheet - will try to find a way to restore here in a future version
+Armor Values can be found [here](https://docs.google.com/spreadsheets/d/1fTY8h7v4bO55rcOgnzHQFej2PVviYY8wVmkJ28Q2Gqs)
 
 ## DW2-XL Reactors
 

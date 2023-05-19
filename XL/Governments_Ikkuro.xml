@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Government>
+    <GovernmentId>11</GovernmentId>
+    <Name>Harmonious Utopia</Name>
+	<StartingGameEventNames>
+		<string>Initialise Government (Harmonious Utopia)</string>
+	</StartingGameEventNames>
+    <Description>Harmonious Utopias are a form of ideal society which attempts to achieve a way for its members to live in peace, happiness, and prosperity. It is at times more of a fantasy than a reality, though some species and cultures are able to reach the ideal more closely than others.
+
+In practice Harmonious Utopias can be stifling for some due to the emphasis on harmony. This emphasis creates societal pressure to silence any discontent or expression of disagreement. There is also the risk of a degree of stagnation if harmony and happiness are more fully achieved.
+
+The typical goals of the leaders and people in a Harmonious Utopia are longevity, harmony, and wisdom as well as pleasurable new experiences. By and large such places draw others from all over the galaxy because they come closest to realizing the idea of paradise.
+
+Harmonious Utopias are generally open societies and can struggle in times of conflict and strife, as the measures required for defense or offense are often contrary to their basic philosophies.</Description>
+    <ImageFilename />
+	  <LeaderTitle>Guardian of Life</LeaderTitle>
+    <CabinetTitle />
+    <EconomicFactors>
+      <IncomeFactors>
+        <float>1</float> <!-- Undefined, i.e. Unused -->
+        <float>1</float> <!-- ColonyTax -->
+        <float>1</float> <!-- ResourceTrading -->
+        <float>1</float> <!-- Fuel -->
+        <float>1</float> <!-- Information -->
+        <float>1</float> <!-- Tribute -->
+        <float>1</float> <!-- Raiding -->
+        <float>1</float> <!-- Missions -->
+        <float>0</float> <!-- ColonyCrime -->
+        <float>1</float> <!-- Tourism -->
+        <float>1</float> <!-- ShipBuilding -->
+        <float>1</float> <!-- Discoveries -->
+        <float>1</float> <!-- TradeBonuses -->
+        <float>1</float> <!-- PrivateColonyRevenue -->
+      </IncomeFactors>
+      <ExpenseFactors>
+        <float>1</float> <!-- Undefined, i.e. Unused -->
+        <float>1</float> <!-- ColonyDevelopment -->
+        <float>1</float> <!-- Research -->
+        <float>1</float> <!-- ShipMaintenance -->
+        <float>1</float> <!-- TroopMaintenance -->
+        <float>1</float> <!-- FacilityMaintenance -->
+        <float>1</float> <!-- Ships -->
+        <float>1</float> <!-- TroopRecruitment -->
+        <float>1</float> <!-- Facilities -->
+        <float>1</float> <!-- ResourceTrading -->
+        <float>1</float> <!-- Fuel -->
+        <float>1</float> <!-- Information -->
+        <float>1</float> <!-- Tribute -->
+        <float>1</float> <!-- Missions -->
+        <float>1</float> <!-- EnemyRaids -->
+      </ExpenseFactors>
+    </EconomicFactors>
+    <Biases />
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>WarWearinessReduction</Type>
+        <Amount>-0.3</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>CounterEspionage</Type>
+        <Amount>-0.10</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>Diplomacy</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.2</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>TroopRecruitment</Type>
+        <Amount>-0.3</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>MiningRate</Type>
+        <Amount>-0.25</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>TourismIncome</Type>
+        <Amount>0.25</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+      <Bonus>
+        <Type>PlanetaryFacilityMaintenance</Type>
+        <Amount>-0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+        <FilterId>0</FilterId>
+        <DiscoveryLevel>0</DiscoveryLevel>
+        <Description />
+      </Bonus>
+    </Bonuses>
+	  <LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
+	  <LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+	  <LeaderReplacementBoost>10</LeaderReplacementBoost>
+	  <LeaderReplacementCharacterPool>
+		  <CharacterRole>Ambassador</CharacterRole>
+	  </LeaderReplacementCharacterPool>
+	  <LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+	  <Stability>1.1</Stability>
+    <ConcernForOwnReputation>1.3</ConcernForOwnReputation>
+    <ImportanceOfOthersReputations>1.5</ImportanceOfOthersReputations>
+	  <MigrationFactor>1.5</MigrationFactor>
+    <UsesCabinet>true</UsesCabinet>
+    <CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+    <CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+    <CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+    <CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+    <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+    <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+	  <EmpireNameAdjectives>
+		  <string>Harmonious</string>
+		  <string>United</string>
+		  <string>Benevolent</string>
+		  <string>Grand</string>
+		  <string>Idyllic</string>
+	  </EmpireNameAdjectives>
+	  <EmpireNameNouns>
+		  <string>Utopia</string>
+		  <string>Paradise</string>
+		  <string>Perfection</string>
+		  <string>Bliss</string>
+		  <string>Serenity</string>
+		  <string>Nirvana</string>
+		  <string>Tranquility</string>
+		  <string>Commune</string>
+		  <string>Cooperative</string>
+	  </EmpireNameNouns>
+  </Government>
+</ArrayOfGovernment>
