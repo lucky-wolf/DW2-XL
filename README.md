@@ -164,7 +164,13 @@ YMMV, but this is my take on making it Extra Large!
 - Assault Pods turn around time improves with higher technology
 - Splinter Pods follow a similar advancement cadence
 - Integrated and expanded Baronfuming's design names mod
+- Added Gerax Hyperdrives back into the mix (they're long range)
+- Rebalanced Calista-Dal Hyperdrives to be more on par with other options
 - Integrated SharkMolester's "HyperDrive Fix" mod to give races more diversity in preferred hyperdrive choices
+  - Ackdarian, Humans = Gerax
+  - Boskarans, Mortalen = Equinox
+  - Haakonish, Zenox = Kaldos
+  - Teekans, Ikkuro = Calista-Dal
 
 ### v1.15.1
 - Updated for 1.1.4.3 Beta Engine

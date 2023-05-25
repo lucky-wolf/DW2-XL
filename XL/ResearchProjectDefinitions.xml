@@ -11088,7 +11088,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>252</ResearchProjectId>
-		<Name>Warp Field Experiments</Name>
+		<Name>Stable Warpfields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -11294,7 +11294,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>261</ResearchProjectId>
-		<Name>Stable Warp Fields</Name>
+		<Name>Improved Warp Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
 		<InitiationCost>
@@ -11335,8 +11335,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>138</ComponentId>
-				<Level>0</Level>
+				<ComponentId>65</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -11840,7 +11840,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>274</ResearchProjectId>
-		<Name>HyperDrive Technology</Name>
+		<Name>Advanced Warp Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -11892,7 +11892,7 @@
 		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>155</ComponentId>
+				<ComponentId>138</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -12856,17 +12856,33 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>218</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1009</ResearchProjectId>
+				<ResearchProjectId>368</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>369</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>370</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>371</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>306</ComponentId>
@@ -14811,7 +14827,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>217</Row>
+		<Row>216</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>274</ResearchProjectId>
@@ -14828,7 +14844,55 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>341</ResearchProjectId>
-		<Name>Enhanced HyperDrives</Name>
+		<Name>Long Jump HyperDrives</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>217</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>274</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>155</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>342</ResearchProjectId>
+		<Name>Long Haul HyperDrives</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -14852,54 +14916,6 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>218</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>274</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>155</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>342</ResearchProjectId>
-		<Name>Long Range HyperDrives</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
-		<InitiationCost>
-			<Money>4500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>450</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
 					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -15923,7 +15939,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>217</Row>
+		<Row>216</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>340</ResearchProjectId>
@@ -15940,14 +15956,14 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>369</ResearchProjectId>
-		<Name>Jump Sequence Optimization</Name>
+		<Name>Jump Range Optimization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
+					<ResourceId>78</ResourceId>
 					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
@@ -15971,7 +15987,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>218</Row>
+		<Row>217</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>341</ResearchProjectId>
@@ -15982,7 +15998,7 @@
 		<Components>
 			<Component>
 				<ComponentId>155</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -16003,15 +16019,15 @@
 					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
 					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
 					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -21283,7 +21299,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>217</Row>
+		<Row>216</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>368</ResearchProjectId>
@@ -21315,15 +21331,15 @@
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
 					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
@@ -22710,20 +22726,20 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
-			<Money>32000</Money>
+			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>3200</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>210</Row>
 		<PrerequisiteProjects>
@@ -32288,7 +32304,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>217</Row>
+		<Row>216</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>504</ResearchProjectId>
@@ -32353,38 +32369,38 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1009</ResearchProjectId>
-		<Name>Gerax Mastery</Name>
+		<Name>Sustained Jumps</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
-					<Amount>1250</Amount>
+					<ResourceId>78</ResourceId>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>218</Row>
+		<Column>6</Column>
+		<Row>217</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>369</ResearchProjectId>
@@ -32395,7 +32411,7 @@
 		<Components>
 			<Component>
 				<ComponentId>155</ComponentId>
-				<Level>3</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -34044,27 +34060,27 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
-			<Money>36000</Money>
+			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>3600</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>3600</Amount>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>3600</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>3600</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>3600</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -34496,19 +34512,19 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -39613,6 +39629,54 @@
 			<Component>
 				<ComponentId>418</ComponentId>
 				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1171</ResearchProjectId>
+		<Name>Mega Jump Initiation</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>217</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1009</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>155</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
