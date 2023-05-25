@@ -336,42 +336,153 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Bordeaux</string>
-			<string>Bayeux</string>
-			<string>Nazaire</string>
-			<string>Lyon</string>
-			<string>Monaco</string>
-			<string>Montpellier</string>
-			<string>Avignon</string>
-			<string>Strasbourg</string>
-			<string>Douai</string>
-			<string>Besancon</string>
-			<string>Montauban</string>
-			<string>Bayonne</string>
-			<string>Carcassonne</string>
-			<string>Narbonne</string>
-			<string>Bergerac</string>
-			<string>Chateauroux</string>
-			<string>Vendome</string>
-			<string>Valence</string>
-			<string>Cavaillon</string>
-			<string>Carpentras</string>
-			<string>Dijon</string>
-			<string>Beauvais</string>
-			<string>Calais</string>
-			<string>Versailles</string>
-			<string>Chartres</string>
-			<string>Chaumont</string>
-			<string>Massif</string>
-			<string>Anjou</string>
-			<string>Artois</string>
-			<string>Picardie</string>
-			<string>Rochefort</string>
-			<string>Auxerre</string>
-			<string>Montargis</string>
-			<string>Cherbourg</string>
-			<string>Verdun</string>
-			<string>Dunkerque</string>
+			<string>Acacia</string>
+			<string>Agile Arbiter</string>
+			<string>Aloe</string>
+			<string>Angelica</string>
+			<string>Arboreal Protector</string>
+			<string>Arboreal</string>
+			<string>Aura Adept</string>
+			<string>Aura Artisan</string>
+			<string>Bamboo</string>
+			<string>Banyan</string>
+			<string>Baobab</string>
+			<string>Barkbound Innovator</string>
+			<string>Barkbound Stalwart</string>
+			<string>Bergamot</string>
+			<string>Biomass</string>
+			<string>Bitterroot</string>
+			<string>Blossom</string>
+			<string>Botanic Builder</string>
+			<string>Botanic</string>
+			<string>Branchbound Seeker</string>
+			<string>Branchwalker</string>
+			<string>Cactus</string>
+			<string>Calendula</string>
+			<string>Canopy Cruiser</string>
+			<string>Canopy</string>
+			<string>Catnip</string>
+			<string>Cedar</string>
+			<string>Cedarwood</string>
+			<string>Chamomile</string>
+			<string>Chloris</string>
+			<string>Chloroplast</string>
+			<string>Clary-sage</string>
+			<string>Comfrey</string>
+			<string>Cypress</string>
+			<string>Dandelion</string>
+			<string>Echinacea</string>
+			<string>Elderberry</string>
+			<string>Eucalyptus</string>
+			<string>Fennel</string>
+			<string>Fern</string>
+			<string>Fir</string>
+			<string>Flora Voyager</string>
+			<string>Flora</string>
+			<string>Florafinder</string>
+			<string>Floral Engineer</string>
+			<string>Floral Enigma</string>
+			<string>Foliage</string>
+			<string>Forest Avenger</string>
+			<string>Forest Sentinel</string>
+			<string>Frankincense</string>
+			<string>Gaia</string>
+			<string>Geranium</string>
+			<string>Germination</string>
+			<string>Ginger</string>
+			<string>Ginseng</string>
+			<string>Greenleaf Guardian</string>
+			<string>Greenleaf Knight</string>
+			<string>Grove</string>
+			<string>Harmony's Call</string>
+			<string>Harmony's Hand</string>
+			<string>Hawthorn</string>
+			<string>Herbal Healer</string>
+			<string>Herbalist</string>
+			<string>Ivy</string>
+			<string>Jasmine</string>
+			<string>Jungle Guardian</string>
+			<string>Jungle Juggernaut</string>
+			<string>Juniper</string>
+			<string>Kapok</string>
+			<string>Lavandin</string>
+			<string>Lavender</string>
+			<string>Leaf Sentinel</string>
+			<string>Leafblade</string>
+			<string>Leafguardian</string>
+			<string>Leafstrider</string>
+			<string>Lemon-balm</string>
+			<string>Lemongrass</string>
+			<string>Liana</string>
+			<string>Licorice</string>
+			<string>Machina Enhancer</string>
+			<string>Machina Mastermind</string>
+			<string>Mahogany</string>
+			<string>Maple</string>
+			<string>Marigold</string>
+			<string>Mecha Maestro</string>
+			<string>Mecha Whisperer</string>
+			<string>Mechanical Sage</string>
+			<string>Mechanical Savant</string>
+			<string>Mechanical Seer</string>
+			<string>Mossy</string>
+			<string>Myrrh</string>
+			<string>Nectar</string>
+			<string>Neroli</string>
+			<string>Nightshade Navigator</string>
+			<string>Oak</string>
+			<string>Orchard</string>
+			<string>Orchid</string>
+			<string>Palm</string>
+			<string>Patchouli</string>
+			<string>Peppermint</string>
+			<string>Petal</string>
+			<string>Photosphere</string>
+			<string>Photosynth</string>
+			<string>Pine</string>
+			<string>Pistil</string>
+			<string>Pollen</string>
+			<string>Primate's Fury</string>
+			<string>Primate's Pride</string>
+			<string>Redwood</string>
+			<string>Rhizome</string>
+			<string>Rooted Innovator</string>
+			<string>Rooted Renegade</string>
+			<string>Rose</string>
+			<string>Rosehip</string>
+			<string>Sandalwood</string>
+			<string>Sapling</string>
+			<string>Sequoia</string>
+			<string>Sonar Seeker</string>
+			<string>Sonar Shifter</string>
+			<string>Sonic Ears</string>
+			<string>Sonic Shaper</string>
+			<string>Spearmint</string>
+			<string>Spruce</string>
+			<string>Stamen</string>
+			<string>Stinging-nettle</string>
+			<string>Swift Repairer</string>
+			<string>Swiftleaf Slicer</string>
+			<string>Swiftleaf Striker</string>
+			<string>Sylva</string>
+			<string>Thornvine</string>
+			<string>Timber Technomancer</string>
+			<string>Timber Tinkerer</string>
+			<string>Turmeric</string>
+			<string>Valerian</string>
+			<string>Verdant Vessel</string>
+			<string>Verdant Voyager</string>
+			<string>Verdant</string>
+			<string>Vernal</string>
+			<string>Vetiver</string>
+			<string>Vineborn Vanguard</string>
+			<string>Vineborn Voyager</string>
+			<string>Vineyard</string>
+			<string>Virid</string>
+			<string>Wildfire Warden</string>
+			<string>Willow</string>
+			<string>Willowbark</string>
+			<string>Yarrow</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Gokut</string>

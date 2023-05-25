@@ -1,13 +1,19 @@
-# DW2-XL
-Distant Worlds 2 - XL
+# Distant Worlds 2 - XL
 
-Author: Mordachai (lucky-wolf)
-Contributors: Rah (Ackdarian Stellar Hangar Bays)
+## Authors and Contributors
+- Mordachai: Principle author
+- Rah: Stellar Hangar Bays mod
+- Baronfuming, Mordachai, ChatGPT: Extended Ship Design Names mod
+- SharkMolester: HyperDrive Diversity mod
 
-- [DW2-XL](#dw2-xl)
+## Table of Contents
+- [Distant Worlds 2 - XL](#distant-worlds-2---xl)
+	- [Authors and Contributors](#authors-and-contributors)
+	- [Table of Contents](#table-of-contents)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.2](#v1152)
 		- [v1.15.1](#v1151)
 		- [v1.15.0](#v1150)
 		- [v1.14.5](#v1145)
@@ -153,6 +159,12 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.2
+- Assault Pods turn around time improves with higher technology
+- Splinter Pods follow a similar advancement cadence
+- Integrated and expanded Baronfuming's design names mod
+- Integrated SharkMolester's "HyperDrive Fix" mod to give races more diversity in preferred hyperdrive choices
 
 ### v1.15.1
 - Updated for 1.1.4.3 Beta Engine

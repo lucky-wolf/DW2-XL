@@ -345,42 +345,181 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Excelsior</string>
-			<string>Titan</string>
-			<string>Colossia</string>
-			<string>Striker</string>
-			<string>Thunder</string>
-			<string>Royale</string>
-			<string>Centurion</string>
-			<string>Consul</string>
-			<string>Senator</string>
-			<string>Praetor</string>
-			<string>Quaestor</string>
-			<string>Imperator</string>
-			<string>Maximus</string>
-			<string>Praefectus</string>
-			<string>Tetrarch</string>
-			<string>Decimator</string>
-			<string>Argossia</string>
-			<string>Apulon</string>
-			<string>Battleaxe</string>
-			<string>Javelin</string>
-			<string>Trident</string>
-			<string>Shadow</string>
-			<string>Cossack</string>
-			<string>Minotaur</string>
-			<string>Medusa</string>
-			<string>Victory</string>
-			<string>Vengeance</string>
-			<string>Eclipse</string>
-			<string>Enforcer</string>
-			<string>Sovereign</string>
-			<string>Executor</string>
-			<string>Venator</string>
-			<string>Dominator</string>
+			<string>Adamantium</string>
+			<string>Aegis</string>
+			<string>Aether</string>
+			<string>Aetherium</string>
+			<string>Agincourt</string>
 			<string>Allegiance</string>
+			<string>Andromeda</string>
+			<string>Apollo</string>
+			<string>Apulon</string>
+			<string>Arc</string>
+			<string>Argossia</string>
+			<string>Ascendant</string>
+			<string>Ascension</string>
+			<string>Assassin</string>
+			<string>Astral</string>
+			<string>Aurora</string>
+			<string>Austerlitz</string>
+			<string>Avenger</string>
+			<string>Bannockburn</string>
+			<string>Binary</string>
+			<string>Blade</string>
+			<string>Borealis</string>
+			<string>Cannae</string>
+			<string>Caravan</string>
+			<string>Celestial</string>
+			<string>Centurion</string>
+			<string>Chaser</string>
+			<string>Chronium</string>
+			<string>Colossia</string>
+			<string>Comet</string>
+			<string>Constellation</string>
+			<string>Consul</string>
+			<string>Cosmic</string>
+			<string>Cosmos</string>
+			<string>Cossack</string>
+			<string>Dawn</string>
+			<string>Decimator</string>
 			<string>Decurion</string>
+			<string>Destiny</string>
+			<string>Discovery</string>
+			<string>Disruptor</string>
+			<string>Dominator</string>
+			<string>Dreamer</string>
+			<string>Eagle</string>
+			<string>Eclipse</string>
+			<string>Electrum</string>
+			<string>Ember</string>
+			<string>Endeavor</string>
+			<string>Enforcer</string>
+			<string>Enigma</string>
+			<string>Etheric</string>
+			<string>Excelsior</string>
+			<string>Executor</string>
+			<string>Exoplanet</string>
+			<string>Falkirk</string>
+			<string>Frontier</string>
+			<string>Fusion</string>
+			<string>Galactic</string>
+			<string>Galaxy</string>
+			<string>Gettysburg</string>
+			<string>Gladiator</string>
+			<string>Grace</string>
+			<string>Graviton</string>
+			<string>Hammerhead</string>
+			<string>Hastings</string>
+			<string>Horizon</string>
+			<string>Hyperion</string>
+			<string>Hypernova</string>
+			<string>Imperator</string>
+			<string>Infinity</string>
+			<string>Interplanetary</string>
+			<string>Interstellar</string>
+			<string>Ion</string>
+			<string>Iridium</string>
+			<string>Javelin</string>
+			<string>Juggernaut</string>
+			<string>Kursk</string>
+			<string>Legacy</string>
+			<string>Legionnaires</string>
+			<string>Lunar</string>
+			<string>Marathon</string>
+			<string>Marauder</string>
+			<string>Maximus</string>
+			<string>Medusa</string>
+			<string>Mercury</string>
+			<string>Meteor</string>
+			<string>Midway</string>
+			<string>Minotaur</string>
+			<string>Mithril</string>
+			<string>Nebula</string>
+			<string>Nethersteel</string>
+			<string>Neutron</string>
+			<string>Neutronium</string>
+			<string>Nomad</string>
+			<string>Normandy</string>
+			<string>Nova</string>
+			<string>Obsidian</string>
+			<string>Odysseus</string>
+			<string>Odyssey</string>
+			<string>Orbital</string>
+			<string>Orion</string>
+			<string>Particle</string>
+			<string>Pathfinder</string>
+			<string>Phobium</string>
+			<string>Phoenix</string>
+			<string>Photon</string>
+			<string>Pioneer</string>
+			<string>Plasma</string>
+			<string>Plasmatite</string>
+			<string>Praefectus</string>
+			<string>Praetor</string>
+			<string>Prospect</string>
+			<string>Pulsar</string>
+			<string>Pulse</string>
+			<string>Quaestor</string>
+			<string>Quantum</string>
+			<string>Quest</string>
+			<string>Railgun</string>
+			<string>Rover</string>
+			<string>Royale</string>
+			<string>Sabot</string>
 			<string>Sabre</string>
+			<string>Salamis</string>
+			<string>Saturn</string>
+			<string>Scythe</string>
+			<string>Seeker</string>
+			<string>Senator</string>
+			<string>Sentinel</string>
+			<string>Serpent</string>
+			<string>Shadow</string>
+			<string>Singularity</string>
+			<string>Skimmer</string>
+			<string>Solar</string>
+			<string>Solaris</string>
+			<string>Sovereign</string>
+			<string>Space</string>
+			<string>Spectre</string>
+			<string>Stalingrad</string>
+			<string>Star</string>
+			<string>Starborn</string>
+			<string>Starfire</string>
+			<string>Starseeker</string>
+			<string>Stellar</string>
+			<string>Storm</string>
+			<string>Stratos</string>
+			<string>Striker</string>
+			<string>Supernova</string>
+			<string>Surfer</string>
+			<string>Surveyor</string>
+			<string>Swift</string>
+			<string>Tetrarch</string>
+			<string>Thermopylae</string>
+			<string>Thunder</string>
+			<string>Titan</string>
+			<string>Titanus</string>
+			<string>Trafalgar</string>
+			<string>Trident</string>
+			<string>Ursa</string>
+			<string>Utopia</string>
+			<string>Vanguard</string>
+			<string>Venator</string>
+			<string>Vengeance</string>
+			<string>Verdun</string>
+			<string>Vibranium</string>
+			<string>Victory</string>
+			<string>Vision</string>
+			<string>Voidsteel</string>
+			<string>Voyager</string>
+			<string>Wanderer</string>
+			<string>Warlord</string>
+			<string>Waterloo</string>
+			<string>Xerite</string>
+			<string>Ypres</string>
+			<string>Zama</string>
+			<string>Zephyr</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Donato</string>
@@ -782,42 +921,125 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Deliverance</string>
-			<string>Axos</string>
-			<string>Arcadia</string>
-			<string>Atlantis</string>
-			<string>Equinox</string>
-			<string>Epsilon</string>
-			<string>Meridian</string>
-			<string>Nimitz</string>
-			<string>Phoenix</string>
-			<string>Raptor</string>
-			<string>Rekallios</string>
-			<string>Sentinel</string>
-			<string>Tarassian</string>
+			<string>Abyssal Striker</string>
+			<string>Abyssal</string>
+			<string>Amphibion</string>
+			<string>Aqua Celestial</string>
+			<string>Aqua Paradigm</string>
+			<string>Aqua Serenity</string>
+			<string>Aquabane</string>
+			<string>Aquablade</string>
+			<string>Aquadancer</string>
+			<string>Aquadron</string>
+			<string>Aquaforce</string>
+			<string>Aqualight</string>
+			<string>Aquamancer</string>
+			<string>Aquashade</string>
+			<string>Aquashield</string>
+			<string>Aquatic Dawn</string>
+			<string>Aquatica</string>
+			<string>Aquaticus</string>
+			<string>Aquilon</string>
+			<string>Azure Skies</string>
+			<string>Cetacean Cruiser</string>
+			<string>Coral Breeze</string>
+			<string>Coral Citadel</string>
+			<string>Coral Haven</string>
+			<string>Coral Opulence</string>
+			<string>Coral Reef</string>
+			<string>Coral Spear</string>
+			<string>Coralbane</string>
+			<string>Coralblade</string>
+			<string>Coralbreaker</string>
+			<string>Coralbringer</string>
+			<string>Coralheart</string>
+			<string>Coraline</string>
+			<string>Coralpiercer</string>
+			<string>Coralspike</string>
+			<string>Coralwind</string>
+			<string>Cosmic Current</string>
+			<string>Deepsea</string>
+			<string>Deepwater Guardian</string>
+			<string>Deepwater</string>
+			<string>Euryale</string>
+			<string>Harmony's Crest</string>
+			<string>Hydra</string>
+			<string>Hydrodynamic</string>
+			<string>Hydrofoil</string>
+			<string>Hydrogenius</string>
+			<string>Hydrosprite</string>
+			<string>Hydrostar</string>
+			<string>Hydrostorm</string>
+			<string>Kraken</string>
+			<string>Leviathan's Call</string>
+			<string>Leviathan</string>
+			<string>Manta</string>
+			<string>Mariana</string>
+			<string>Marina Monarch</string>
+			<string>Marina's Grace</string>
+			<string>Marine Explorer</string>
+			<string>Marine Majesty</string>
+			<string>Marine Mirage</string>
+			<string>Mariner's Dream</string>
+			<string>Mariner's Fortune</string>
+			<string>Mariner</string>
+			<string>Maritima</string>
+			<string>Maritime Beacon</string>
+			<string>Maritime Glory</string>
+			<string>Nautica Nova</string>
+			<string>Nautilus</string>
+			<string>Nebulon</string>
+			<string>Neptunia's Embrace</string>
+			<string>Oceandancer</string>
+			<string>Oceania</string>
+			<string>Oceanic Skimmer</string>
+			<string>Oceanic</string>
+			<string>Oceanus</string>
+			<string>Oceanwatch</string>
+			<string>Pearl Seeker</string>
+			<string>Poseidon</string>
+			<string>Sea Serpent</string>
+			<string>Seabound Voyager</string>
+			<string>Seafarer</string>
+			<string>Seafire</string>
+			<string>Sealight Explorer</string>
+			<string>Seashell</string>
+			<string>Seashimmer</string>
+			<string>Seastar Sovereign</string>
+			<string>Seastar</string>
+			<string>Seastorm</string>
+			<string>Seawind Serenade</string>
+			<string>Seawitch</string>
+			<string>Seraph</string>
+			<string>Siren Song</string>
+			<string>Siren</string>
+			<string>Sirenia Sentinel</string>
+			<string>Starfisher</string>
+			<string>Stellar Grotto</string>
+			<string>Stellar Seafarer</string>
+			<string>Stellar Shoal</string>
+			<string>Stellaris</string>
+			<string>Stingray</string>
+			<string>Submarine Star</string>
+			<string>Submerge</string>
+			<string>Swiftfin</string>
+			<string>Thunderclap</string>
+			<string>Tidal Voyager</string>
+			<string>Tidal</string>
+			<string>Tidalforce</string>
+			<string>Tidalwave</string>
+			<string>Tidewalker</string>
+			<string>Trident</string>
+			<string>Triton's Legacy</string>
+			<string>Triton</string>
+			<string>Turbofoam</string>
+			<string>Turbulence</string>
+			<string>Typhoon</string>
 			<string>Vortex</string>
-			<string>Verossus</string>
-			<string>Xeros</string>
-			<string>Corellos</string>
-			<string>Cantras</string>
-			<string>Challenger</string>
-			<string>Discovery</string>
-			<string>Enterprise</string>
-			<string>Falcon</string>
-			<string>Giraxon</string>
-			<string>Hercules</string>
-			<string>Lapricus</string>
-			<string>Portia</string>
-			<string>Eagle</string>
-			<string>Osprey</string>
-			<string>Pegasus</string>
-			<string>Sentry</string>
-			<string>Viper</string>
-			<string>Liberty</string>
-			<string>Archaea</string>
-			<string>Condor</string>
-			<string>Iridos</string>
-			<string>Independence</string>
+			<string>Wavebreaker</string>
+			<string>Wavechaser</string>
+			<string>Whalesong</string>
+			<string>Whirlpool</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Equia</string>
@@ -895,7 +1117,7 @@ Ackdarians are famous for cultivating Nepthys seaweed, from which they make Nept
 
 They are also masters of underwater construction, building vast and elaborate underwater cities. These cities have many levels, some of which reach far down into the vast depths of the oceans they inhabit. At the deepest levels Ackdarians seek out precious resources like the rare Ucantium pearl.
 
-Ackdarians also inhabit the small islands and shallow coastal areas of Ocean planets.</Description>
+Ackdarians prefer Ocean worlds.</Description>
 	</Race>
 	<Race>
 		<RaceId>2</RaceId>
@@ -1207,42 +1429,106 @@ Ackdarians also inhabit the small islands and shallow coastal areas of Ocean pla
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Lusaka</string>
-			<string>Bindura</string>
-			<string>Sofala</string>
-			<string>Lobito</string>
-			<string>Zanzibar</string>
-			<string>Mombasa</string>
-			<string>Mahajanga</string>
-			<string>Comoros</string>
-			<string>Kinshasa</string>
-			<string>Cabinda</string>
-			<string>Nairobi</string>
-			<string>Axum</string>
-			<string>Senanga</string>
-			<string>Ubundu</string>
-			<string>Aketi</string>
-			<string>Turkana</string>
-			<string>Nyasa</string>
-			<string>Asmera</string>
-			<string>Atbara</string>
-			<string>Calabar</string>
-			<string>Sokoto</string>
-			<string>Takoradi</string>
-			<string>Abidjan</string>
-			<string>Monrovia</string>
-			<string>Bamako</string>
-			<string>Dakar</string>
-			<string>Ibadan</string>
-			<string>Tripoli</string>
-			<string>Aswan</string>
-			<string>Cairo</string>
-			<string>Giza</string>
-			<string>Suez</string>
-			<string>Casablanca</string>
-			<string>Tangiers</string>
-			<string>Agadir</string>
-			<string>Kaduna</string>
+			<string>Debris Destroyer</string>
+			<string>Debris Diver</string>
+			<string>Debris Drifter</string>
+			<string>Deconstructer</string>
+			<string>Desert Dasher</string>
+			<string>Desert Dawn</string>
+			<string>Desert Delight</string>
+			<string>Desert Digger</string>
+			<string>Desert Dragoon</string>
+			<string>Desert Drifter</string>
+			<string>Desert Rat</string>
+			<string>Desert Rose</string>
+			<string>Desertwind</string>
+			<string>Duneblaster</string>
+			<string>Dust Devil</string>
+			<string>Dust Dynamo</string>
+			<string>Dustrunner</string>
+			<string>Gravel Glider</string>
+			<string>Gravel Grinder</string>
+			<string>Gravel Guardian</string>
+			<string>Graveler</string>
+			<string>Iron Hauler</string>
+			<string>Junk Jammer</string>
+			<string>Junk Jet</string>
+			<string>Junk Juggernaut</string>
+			<string>Junkhauler</string>
+			<string>Junkyarder</string>
+			<string>Mechaship</string>
+			<string>Metal Mariner</string>
+			<string>Metal Maven</string>
+			<string>Miner's Pride</string>
+			<string>Mineral Marauder</string>
+			<string>Mineral Master</string>
+			<string>Mineral Maverick</string>
+			<string>Mineral Monarch</string>
+			<string>Mineral Mule</string>
+			<string>Rebuildr</string>
+			<string>Reclaimer</string>
+			<string>Reconstructer</string>
+			<string>Reconstructive Vessel</string>
+			<string>Repurposer</string>
+			<string>Resource Raptor</string>
+			<string>Resource Retriever</string>
+			<string>Resource Rover</string>
+			<string>Restoration Runner</string>
+			<string>Rockhopper</string>
+			<string>Rubble Racer</string>
+			<string>Rubble Raider</string>
+			<string>Rubble Reclaimer</string>
+			<string>Rubble Rider</string>
+			<string>Rubble Runner</string>
+			<string>Rustbucket</string>
+			<string>Rustic Ranger</string>
+			<string>Rustic Recon</string>
+			<string>Rustic Rider</string>
+			<string>Rustic Rover</string>
+			<string>Rusty Raider</string>
+			<string>Rusty Relic</string>
+			<string>Rusty Rover</string>
+			<string>Salvage Scrapper</string>
+			<string>Salvage Seeker</string>
+			<string>Salvage Seeker</string>
+			<string>Salvage Star</string>
+			<string>Salvage Starship</string>
+			<string>Salvager</string>
+			<string>Sand Crawler</string>
+			<string>Sand Sailor</string>
+			<string>Sand Shark</string>
+			<string>Sand Skipper</string>
+			<string>Sand Slicer</string>
+			<string>Sandsailor</string>
+			<string>Sandscout</string>
+			<string>Sandship</string>
+			<string>Sandsnake</string>
+			<string>Sandsprint</string>
+			<string>Sandstormer</string>
+			<string>Sandstreaker</string>
+			<string>Sandstrider</string>
+			<string>Sandsweeper</string>
+			<string>Sandswimmer</string>
+			<string>Scavenger</string>
+			<string>Scoutbuggy</string>
+			<string>Scrap Scavenger</string>
+			<string>Scrap Scourge</string>
+			<string>Scrap Seeker</string>
+			<string>Scrap Seeker</string>
+			<string>Scrap Serpent</string>
+			<string>Scrap Surfer</string>
+			<string>Scrapmaster</string>
+			<string>Scrapper's Delight</string>
+			<string>Scrapseeker</string>
+			<string>Star Surfer</string>
+			<string>Starstrider</string>
+			<string>Starstruck</string>
+			<string>Starstruck Voyager</string>
+			<string>Waste Wagon</string>
+			<string>Waste Wanderer</string>
+			<string>Waste Wanderer</string>
+			<string>Waste Warden</string>
+			<string>Wreckchaser</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Darrat</string>
@@ -1641,42 +1927,118 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Medan</string>
-			<string>Pattani</string>
-			<string>Malacca</string>
-			<string>Letong</string>
-			<string>Tenasserim</string>
-			<string>Tavoy</string>
-			<string>Henzada</string>
-			<string>Chon Buri</string>
-			<string>Vung Tau</string>
-			<string>Chiang Mai</string>
-			<string>Mandalay</string>
-			<string>Haiphong</string>
-			<string>Saigon</string>
-			<string>Bangkok</string>
-			<string>Kelang</string>
-			<string>Singapore</string>
-			<string>Lumpur</string>
-			<string>Jakarta</string>
-			<string>Sarawak</string>
-			<string>Andaman</string>
-			<string>Surabaya</string>
-			<string>Bandar Seri</string>
-			<string>Semarang</string>
-			<string>Kalimanta</string>
-			<string>Surakarta</string>
-			<string>Sumbawa</string>
-			<string>Telok</string>
-			<string>Saravane</string>
-			<string>Samarinda</string>
-			<string>Kandangan</string>
-			<string>Phan Thiet</string>
-			<string>Mekong</string>
-			<string>Sumatra</string>
-			<string>Hanoi</string>
-			<string>Kuantan</string>
-			<string>Sanggau</string>
+			<string>Ambassador of Snouts</string>
+			<string>Aristocratic Drake</string>
+			<string>Aristocratic Seraph</string>
+			<string>Aristocratic Talon</string>
+			<string>Arrogance Domain</string>
+			<string>Arrogance Dominion</string>
+			<string>Arrogant Seraph</string>
+			<string>Arrogant Serpent</string>
+			<string>Arrogant Wyrm</string>
+			<string>Dignified Drake</string>
+			<string>Dignified Talon</string>
+			<string>Dominion</string>
+			<string>Dominion of Scales</string>
+			<string>Draconian Dominance</string>
+			<string>Draconic Conqueror</string>
+			<string>Dragon's Gaze</string>
+			<string>Dragon's Might</string>
+			<string>Dragonborn</string>
+			<string>Dragonheart</string>
+			<string>Elite Dominion</string>
+			<string>Elite Drake</string>
+			<string>Elite Reptile</string>
+			<string>Eminence</string>
+			<string>Eminence's Seraph</string>
+			<string>Exalted</string>
+			<string>Exalted Serpent</string>
+			<string>Exalted's Supremacy</string>
+			<string>Exquisite</string>
+			<string>Glorious Dominion</string>
+			<string>Glorious Leviathan</string>
+			<string>Glorious Reptile</string>
+			<string>Grandiose</string>
+			<string>Haughty Claw</string>
+			<string>Haughty Serpent</string>
+			<string>Haughty Wyrm</string>
+			<string>Imperator's Legacy</string>
+			<string>Imperial Command</string>
+			<string>Imperial Leviathan</string>
+			<string>Imperial Scentor</string>
+			<string>Imperial Scion</string>
+			<string>Imperial Scourge</string>
+			<string>Imperial Seraph</string>
+			<string>Imperial Serpent</string>
+			<string>Imperious</string>
+			<string>Imperious Wyrm</string>
+			<string>Majestic Claw</string>
+			<string>Majestic Wyrm</string>
+			<string>Monarch</string>
+			<string>Monarch's Pride</string>
+			<string>Nasalium Hunter</string>
+			<string>Nobility's Quest</string>
+			<string>Noble</string>
+			<string>Noble Drake</string>
+			<string>Noble Leviathan</string>
+			<string>Noble Reptile</string>
+			<string>Overlord</string>
+			<string>Paramount</string>
+			<string>Paramount Leviathan</string>
+			<string>Paramount Seraph</string>
+			<string>Paramount Wyrm</string>
+			<string>Perfection</string>
+			<string>Perfection's Fang</string>
+			<string>Perfection's Majesty</string>
+			<string>Perfection's Majesty</string>
+			<string>Perfection's Pride</string>
+			<string>Perfection's Reach</string>
+			<string>Perfection's Wing</string>
+			<string>Pinnacle</string>
+			<string>Pinnacle Serpent</string>
+			<string>Pinnacle Wyrm</string>
+			<string>Precision Scentor</string>
+			<string>Prestige Ascendant</string>
+			<string>Pretentious Dominion</string>
+			<string>Pretentious Serpent</string>
+			<string>Pretentious Vessel</string>
+			<string>Pride of Haakon</string>
+			<string>Proud</string>
+			<string>Proud Dominion</string>
+			<string>Regal Apex</string>
+			<string>Regal Dominator</string>
+			<string>Regal Elegance</string>
+			<string>Regal Reptile</string>
+			<string>Regal Serpent</string>
+			<string>Regal Wyrm</string>
+			<string>Regnant</string>
+			<string>Regnant Claw</string>
+			<string>Reptilian Majesty</string>
+			<string>Rex's Fury</string>
+			<string>Rex's Reign</string>
+			<string>Royal Apex</string>
+			<string>Royal Drake</string>
+			<string>Royal Majesty</string>
+			<string>Royal Serpent</string>
+			<string>Royal Talon</string>
+			<string>Scaleborn Sovereign</string>
+			<string>Scalebound Dominator</string>
+			<string>Scalebound Monarch</string>
+			<string>Scalebound Regent</string>
+			<string>Scaleforge Protector</string>
+			<string>Scaleforge Vanguard</string>
+			<string>Sentinel of Scales</string>
+			<string>Serpent's Pride</string>
+			<string>Sovereign</string>
+			<string>Sovereign's Pride</string>
+			<string>Sovereign's Vengeance</string>
+			<string>Superior Talon</string>
+			<string>Supreme</string>
+			<string>Supreme Command</string>
+			<string>Supreme Regnant</string>
+			<string>Supreme Scentor</string>
+			<string>Supreme Snout</string>
+			<string>Vanguardian</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Equia</string>
@@ -2091,42 +2453,151 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Isfahan</string>
-			<string>Shiraz</string>
-			<string>Bushehr</string>
-			<string>Tabriz</string>
-			<string>Mashhad</string>
-			<string>Ashkhabad</string>
-			<string>Hamadan</string>
-			<string>Yerevan</string>
-			<string>Ahvaz</string>
-			<string>Sanandaj</string>
-			<string>Kashan</string>
-			<string>Ankara</string>
-			<string>Trabzon</string>
-			<string>Istanbul</string>
-			<string>Tarsus</string>
-			<string>Adana</string>
-			<string>Mersin</string>
-			<string>Izmir</string>
-			<string>Iskenderun</string>
-			<string>Sarikamis</string>
-			<string>Hakkari</string>
-			<string>Ordu</string>
-			<string>Mosul</string>
-			<string>Nasiriyah</string>
-			<string>Aleppo</string>
-			<string>Malatya</string>
-			<string>Baku</string>
-			<string>Baqubah</string>
-			<string>Abadan</string>
-			<string>Rutbah</string>
-			<string>Ramadi</string>
-			<string>Bubiyan</string>
-			<string>Astara</string>
-			<string>Latakia</string>
-			<string>Zagros</string>
-			<string>Arak</string>
+			<string>Avenging Blade</string>
+			<string>Baneblade</string>
+			<string>Banebreaker</string>
+			<string>Battleborn Triumph</string>
+			<string>Battleborn</string>
+			<string>Battlebringer</string>
+			<string>Battlecry</string>
+			<string>Battlefury</string>
+			<string>Battlestorm</string>
+			<string>Battleworn</string>
+			<string>Bladesong</string>
+			<string>Bloodcrusher</string>
+			<string>Bloodfang Ravager</string>
+			<string>Bloodhunter</string>
+			<string>Bloodlust</string>
+			<string>Bloodmaw</string>
+			<string>Bloodreaper</string>
+			<string>Bloodscale</string>
+			<string>Bloodstrike</string>
+			<string>Bloodsworn Conqueror</string>
+			<string>Bloodthirst</string>
+			<string>Burning Wrath</string>
+			<string>Conquest's Wrath</string>
+			<string>Death's Embrace</string>
+			<string>Deathprowler</string>
+			<string>Deathslicer</string>
+			<string>Deathstalker</string>
+			<string>Deathstorm</string>
+			<string>Deathsworn</string>
+			<string>Deathwing</string>
+			<string>Direclaw</string>
+			<string>Doomclaw</string>
+			<string>Doomfang</string>
+			<string>Dragonblade</string>
+			<string>Dragonborn</string>
+			<string>Dragonfire</string>
+			<string>Dragonheart</string>
+			<string>Dreadclaw</string>
+			<string>Dreadstorm</string>
+			<string>Fang and Claw</string>
+			<string>Fangblade</string>
+			<string>Fearsome Leviathan</string>
+			<string>Ferocious Fury</string>
+			<string>Fierce Fang</string>
+			<string>Fiery Fang</string>
+			<string>Flamefang</string>
+			<string>Flamewrath</string>
+			<string>Frenzied Assault</string>
+			<string>Honorbound Avenger</string>
+			<string>Honorbound Guardian</string>
+			<string>Honorbound</string>
+			<string>Ironjaw</string>
+			<string>Ironscale</string>
+			<string>Ironscales</string>
+			<string>Mortal Claw</string>
+			<string>Mortalen's Dominance</string>
+			<string>Mortalen's Dominator</string>
+			<string>Mortalen's Fury</string>
+			<string>Mortalen's Furyblade</string>
+			<string>Mortalen's Might</string>
+			<string>Mortalen's Roar</string>
+			<string>Mortalen's Triumph</string>
+			<string>Rageblade</string>
+			<string>Ragefire</string>
+			<string>Raging Storm</string>
+			<string>Rampage</string>
+			<string>Rampaging Reptile</string>
+			<string>Rampaging Wrath</string>
+			<string>Rampant Fury</string>
+			<string>Rampant Ravager</string>
+			<string>Rampant Retribution</string>
+			<string>Ravageclaw</string>
+			<string>Reckoning's Talon</string>
+			<string>Reptilian Fury</string>
+			<string>Reptilian Valor</string>
+			<string>Retribution's Resolve</string>
+			<string>Retribution's Roar</string>
+			<string>Savage Fury</string>
+			<string>Savage Hunter</string>
+			<string>Savage Serpent</string>
+			<string>Savageclaw</string>
+			<string>Savagefire</string>
+			<string>Scales of Retribution</string>
+			<string>Scorching Skies</string>
+			<string>Serpent's Embrace</string>
+			<string>Serpent's Fury</string>
+			<string>Serpent's Gaze</string>
+			<string>Serpent's Talon</string>
+			<string>Serpent's Wrath</string>
+			<string>Serpent's Wrathbearer</string>
+			<string>Shadowfang</string>
+			<string>Skyscorcher</string>
+			<string>Slaughter's Embrace</string>
+			<string>Slaughter's Wrath</string>
+			<string>Steelclad</string>
+			<string>Steelheart</string>
+			<string>Steelhide</string>
+			<string>Steelreign</string>
+			<string>Steelscale</string>
+			<string>Steelshroud</string>
+			<string>Stormborn</string>
+			<string>Stormbreaker</string>
+			<string>Stormbringer</string>
+			<string>Stormcrusher</string>
+			<string>Stormfury</string>
+			<string>Stormrage</string>
+			<string>Stormreign</string>
+			<string>Stormrider</string>
+			<string>Stormwielder</string>
+			<string>Swiftblade</string>
+			<string>Swiftstrike</string>
+			<string>Swordwind</string>
+			<string>Thunderclaw</string>
+			<string>Thunderfang</string>
+			<string>Thundering Scales</string>
+			<string>Thunderous Retribution</string>
+			<string>Thunderstrike</string>
+			<string>Valor's Might</string>
+			<string>Valor's Vanguard</string>
+			<string>Vengeance Seeker</string>
+			<string>Vengeance's Fury</string>
+			<string>Vengeance's Roar</string>
+			<string>Vengeful Fang</string>
+			<string>Vengeful Serpent</string>
+			<string>Venombite</string>
+			<string>Venomfang</string>
+			<string>Venomous Viper</string>
+			<string>Venomspike</string>
+			<string>Venomstrike</string>
+			<string>Victory's Call</string>
+			<string>Victory's Embrace</string>
+			<string>Viperscale</string>
+			<string>Viperstorm</string>
+			<string>Viperswift</string>
+			<string>Warborn Avenger</string>
+			<string>Warborn</string>
+			<string>Warbringer</string>
+			<string>Warfang</string>
+			<string>Warpath</string>
+			<string>Warrior's Resolve</string>
+			<string>Windrider</string>
+			<string>Wrath of the Reptile</string>
+			<string>Wrath of the Storm</string>
+			<string>Wrathbringer</string>
+			<string>Wrathful Retaliation</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Balluk</string>
@@ -2830,42 +3301,110 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Jaipur</string>
-			<string>Kathmandu</string>
-			<string>Varanasi</string>
-			<string>Guntur</string>
-			<string>Agra</string>
-			<string>Kochi</string>
-			<string>Dhaka</string>
-			<string>Karachi</string>
-			<string>Kashmir</string>
-			<string>Delhi</string>
-			<string>Orissa</string>
-			<string>Pradesh</string>
-			<string>Dehra Dun</string>
-			<string>Bhopal</string>
-			<string>Jamnagar</string>
-			<string>Bhavnagar</string>
-			<string>Kanpur</string>
-			<string>Bihar</string>
-			<string>Bhatpara</string>
-			<string>Akola</string>
-			<string>Hyderabad</string>
-			<string>Bangalore</string>
-			<string>Tenali</string>
-			<string>Proddatur</string>
-			<string>Sira</string>
-			<string>Bhatkal</string>
-			<string>Badagara</string>
-			<string>Imphal</string>
-			<string>Alwar</string>
-			<string>Gurkha</string>
-			<string>Simikot</string>
-			<string>Bengal</string>
-			<string>Ratlam</string>
-			<string>Sikar</string>
-			<string>Ranchi</string>
-			<string>Srinagar</string>
+			<string>Annihilator</string>
+			<string>Assassin</string>
+			<string>Blade of Conflagration</string>
+			<string>Blade of Conquest</string>
+			<string>Blade of Havoc</string>
+			<string>Blade of Ruin</string>
+			<string>Blade of Treachery</string>
+			<string>Blazing Ravager</string>
+			<string>Blazing Scorpion</string>
+			<string>Blazing Scourge</string>
+			<string>Blight</string>
+			<string>Chaos Destroyer</string>
+			<string>Chaos Devourer</string>
+			<string>Chaos Inflictor</string>
+			<string>Conqueror</string>
+			<string>Corruptor</string>
+			<string>Deceptive Despoiler</string>
+			<string>Deceptive Serpent</string>
+			<string>Deceptive Shadowscythe</string>
+			<string>Defiler</string>
+			<string>Demolisher</string>
+			<string>Desecrator</string>
+			<string>Desolator</string>
+			<string>Despoiler</string>
+			<string>Destructor</string>
+			<string>Devastator</string>
+			<string>Deviant</string>
+			<string>Devourer</string>
+			<string>Disruptor</string>
+			<string>Dominator</string>
+			<string>Doombringer</string>
+			<string>Dreadfire Destructor</string>
+			<string>Dreadfire Fury</string>
+			<string>Dreadfire Tormentor</string>
+			<string>Eliminator</string>
+			<string>Enforcer</string>
+			<string>Eradicator</string>
+			<string>Explosive Inferno</string>
+			<string>Explosive Tormentor</string>
+			<string>Explosive Venomblade</string>
+			<string>Exterminator</string>
+			<string>Extinguisher</string>
+			<string>Extirpator</string>
+			<string>Flamecore Destructor</string>
+			<string>Flamecore Obliterator</string>
+			<string>Flamestorm Desecrator</string>
+			<string>Flamestorm Devastator</string>
+			<string>Flamestorm Ravager</string>
+			<string>Fury</string>
+			<string>Harasser</string>
+			<string>Harbinger</string>
+			<string>Havoc</string>
+			<string>Immolator</string>
+			<string>Impaler</string>
+			<string>Incinerator</string>
+			<string>Infernal Aggressor</string>
+			<string>Infernal Desolator</string>
+			<string>Inferno's Fury</string>
+			<string>Inflictor</string>
+			<string>Malefactor</string>
+			<string>Marauder</string>
+			<string>Menace</string>
+			<string>Molten Annihilator</string>
+			<string>Molten Devastator</string>
+			<string>Molten Dominator</string>
+			<string>Molten Doombringer</string>
+			<string>Molten Viper</string>
+			<string>Obliterator</string>
+			<string>Oppressor</string>
+			<string>Persecutor</string>
+			<string>Plunderer</string>
+			<string>Predator</string>
+			<string>Rampager</string>
+			<string>Ravager</string>
+			<string>Ravisher</string>
+			<string>Reaver</string>
+			<string>Ruiner</string>
+			<string>Ruthless Hornet</string>
+			<string>Ruthless Incinerator</string>
+			<string>Ruthless Obliterator</string>
+			<string>Saboteur</string>
+			<string>Scorch</string>
+			<string>Scorching Havoc</string>
+			<string>Scorching Menace</string>
+			<string>Scourge of Betrayal</string>
+			<string>Scourge</string>
+			<string>Searing Conqueror</string>
+			<string>Searing Onslaught</string>
+			<string>Searing Scourge</string>
+			<string>Shadowstrike Devourer</string>
+			<string>Shadowstrike Reaper</string>
+			<string>Shaktur Desolation</string>
+			<string>Shaktur Firestorm</string>
+			<string>Shaktur Flamebreaker</string>
+			<string>Slaughterer</string>
+			<string>Sunderer</string>
+			<string>Terror</string>
+			<string>Terrorizer</string>
+			<string>Tormentor</string>
+			<string>Vanquisher</string>
+			<string>Vengeance</string>
+			<string>Volcanic Dominator</string>
+			<string>Volcanic Incinerator</string>
+			<string>Volcanic Vengeance</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Qarg</string>
@@ -3263,42 +3802,150 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Constantia</string>
-			<string>Stara Zagora</string>
-			<string>Oradea</string>
-			<string>Foscani</string>
-			<string>Satu Mare</string>
-			<string>Napoca</string>
-			<string>Zalau</string>
-			<string>Rimnicu</string>
-			<string>Varna</string>
-			<string>Negru Voda</string>
-			<string>Medias</string>
-			<string>Venezia</string>
-			<string>Rovigo</string>
-			<string>Rimini</string>
-			<string>Brindisi</string>
-			<string>Cosenza</string>
-			<string>Capri</string>
-			<string>Livorno</string>
-			<string>Alassio</string>
-			<string>Macerata</string>
-			<string>Taranto</string>
-			<string>Salerno</string>
-			<string>Bergamo</string>
-			<string>Imperia</string>
-			<string>Barcelona</string>
-			<string>Valencia</string>
-			<string>Cartagena</string>
-			<string>Zaragoza</string>
-			<string>Lerida</string>
-			<string>Montblanc</string>
-			<string>Toledo</string>
-			<string>Portalegre</string>
-			<string>Sintra</string>
-			<string>Segovia</string>
-			<string>Legrono</string>
-			<string>Agricento</string>
+			<string>Ancient Lorekeeper</string>
+			<string>Ancient Scrollbearer</string>
+			<string>Ancient Scrollkeeper</string>
+			<string>Arcticblast</string>
+			<string>Arcticchill</string>
+			<string>Arcticflare</string>
+			<string>Arcticfrost</string>
+			<string>Arcticglow</string>
+			<string>Arcticshadow</string>
+			<string>Arcticwind</string>
+			<string>Aurora Sentinel</string>
+			<string>Aurora Voyager</string>
+			<string>Aurora</string>
+			<string>Blizzard</string>
+			<string>Blizzardheart</string>
+			<string>Blizzardwing</string>
+			<string>Celestial Librarian</string>
+			<string>Celestial Lorekeeper</string>
+			<string>Chronicle Ascendance</string>
+			<string>Chronicle Ascendant</string>
+			<string>Chronicle Voyager</string>
+			<string>Chrono Explorer</string>
+			<string>Chrono Sage</string>
+			<string>Crystalblizzard</string>
+			<string>Crystalglacier</string>
+			<string>Crystalice</string>
+			<string>Crystalstorm</string>
+			<string>Crystalwing</string>
+			<string>Enigmatic Historian</string>
+			<string>Enigmatic Loreguard</string>
+			<string>Enigmatic Scribe</string>
+			<string>Eternal Chronicler</string>
+			<string>Eternal Mythmaker</string>
+			<string>Everlasting Archive</string>
+			<string>Everlasting Explorer</string>
+			<string>Everlasting Legacy</string>
+			<string>Frostbite Guardian</string>
+			<string>Frostbite Sage</string>
+			<string>Frostbite Seraph</string>
+			<string>Frostbite</string>
+			<string>Frostblade</string>
+			<string>Frostbolt</string>
+			<string>Frostborn</string>
+			<string>Frostbreaker</string>
+			<string>Frostburn</string>
+			<string>Frostchill</string>
+			<string>Frostclaw</string>
+			<string>Frostfall</string>
+			<string>Frostfallen</string>
+			<string>Frostfang</string>
+			<string>Frostfire</string>
+			<string>Frostflare</string>
+			<string>Frostforge</string>
+			<string>Frostfury</string>
+			<string>Frostgale</string>
+			<string>Frostgaze</string>
+			<string>Frostglow</string>
+			<string>Frostlight</string>
+			<string>Frostlotus</string>
+			<string>Frostmark</string>
+			<string>Frostnova</string>
+			<string>Frostpeak</string>
+			<string>Frostpulse</string>
+			<string>Frostquill</string>
+			<string>Frostshard</string>
+			<string>Frostshield</string>
+			<string>Frostspark</string>
+			<string>Froststeel</string>
+			<string>Frostsworn</string>
+			<string>Frostveil</string>
+			<string>Frostwave</string>
+			<string>Frostweaver</string>
+			<string>Frostwing</string>
+			<string>Galactic Ancestry</string>
+			<string>Galactic Chronicles</string>
+			<string>Galactic Voyager</string>
+			<string>Glacial</string>
+			<string>Glacialstorm</string>
+			<string>Glacialwind</string>
+			<string>Glacierbane</string>
+			<string>Glacierfall</string>
+			<string>Glaciersong</string>
+			<string>Golden Remembrance</string>
+			<string>Golden Starstrider</string>
+			<string>Golden Tomebearer</string>
+			<string>Icebound Odyssey</string>
+			<string>Icebound Relic</string>
+			<string>Icebound</string>
+			<string>Icebreaker</string>
+			<string>Icebringer</string>
+			<string>Iceclaw</string>
+			<string>Icecore</string>
+			<string>Iceflow</string>
+			<string>Icehowl</string>
+			<string>Icemane</string>
+			<string>Icemist</string>
+			<string>Icerift</string>
+			<string>Iceshadow</string>
+			<string>Iceshatter</string>
+			<string>Icespire</string>
+			<string>Icestorm</string>
+			<string>Icestrike</string>
+			<string>Iceveil</string>
+			<string>Icewhisper</string>
+			<string>Icicle</string>
+			<string>Legacy Guardian</string>
+			<string>Legacy Voyager</string>
+			<string>Mythweaver's Journey</string>
+			<string>Mythweaver's Legacy</string>
+			<string>Mythweaver's Pride</string>
+			<string>Polarfire</string>
+			<string>Snowbound</string>
+			<string>Snowcrystal</string>
+			<string>Snowdrift</string>
+			<string>Snowdrifter</string>
+			<string>Snowflake</string>
+			<string>Snowglide</string>
+			<string>Snowhammer</string>
+			<string>Snowhawk</string>
+			<string>Snowprowler</string>
+			<string>Snowshroud</string>
+			<string>Snowstalker</string>
+			<string>Snowstorm</string>
+			<string>Snowstrike</string>
+			<string>Snowwhisper</string>
+			<string>Snowwing</string>
+			<string>Solaris Archivist</string>
+			<string>Solaris Chronicle</string>
+			<string>Solaris Guardian</string>
+			<string>Solaris</string>
+			<string>Starlight Guardian</string>
+			<string>Starlight Historian</string>
+			<string>Starlight Loreseeker</string>
+			<string>Stellar Loreseeker</string>
+			<string>Stellar Remembrance</string>
+			<string>Stellarfrost</string>
+			<string>Timeless Archivist</string>
+			<string>Timeless Historian</string>
+			<string>Timeless Remembrance</string>
+			<string>Whispering Archive</string>
+			<string>Whispering Odyssey</string>
+			<string>Whispering Saga</string>
+			<string>Wisdom's Passage</string>
+			<string>Wisdom's Resonance</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Lebon</string>
