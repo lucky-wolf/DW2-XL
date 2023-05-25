@@ -171,6 +171,9 @@ YMMV, but this is my take on making it Extra Large!
   - Boskarans, Mortalen = Equinox
   - Haakonish, Zenox = Kaldos
   - Teekans, Ikkuro = Calista-Dal
+- Rebalanced some of the Planetary Defense facilities (e.g. Missile Batteries have fewer missiles per volley, but they're much more damaging)
+- Mellowed Diplomatic and Espionage related planetary facilities
+- Nerfed mining significantly, but still a bit faster than vanilla
 
 ### v1.15.1
 - Updated for 1.1.4.3 Beta Engine
