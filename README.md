@@ -161,19 +161,24 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.15.2
-- Assault Pods turn around time improves with higher technology
-- Splinter Pods follow a similar advancement cadence
-- Integrated and expanded Baronfuming's design names mod
-- Added Gerax Hyperdrives back into the mix (they're long range)
-- Rebalanced Calista-Dal Hyperdrives to be more on par with other options
-- Integrated SharkMolester's "HyperDrive Fix" mod to give races more diversity in preferred hyperdrive choices
-  - Ackdarian, Humans = Gerax
-  - Boskarans, Mortalen = Equinox
-  - Haakonish, Zenox = Kaldos
-  - Teekans, Ikkuro = Calista-Dal
-- Rebalanced some of the Planetary Defense facilities (e.g. Missile Batteries have fewer missiles per volley, but they're much more damaging)
-- Mellowed Diplomatic and Espionage related planetary facilities
-- Nerfed mining significantly, but still a bit faster than vanilla
+- Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up
+  - They'll drop waves of invaders more frequently as you tech-up
+- Inspired by Baronfuming's design names mod, added 100+ design names per race
+- Rebalanced Hyperdrives
+  - Reintroduced Gerax Drive as a long range but otherwise avg option
+  - Reintroduced Torrent Drive as an endgame unifying hyperdrive available to all races (T10)
+  - Moved the specialization decision up to T2 (was T3)
+  - Inspired by SharkMolester's HyperDrive Fix, gave races more diversity in preferred hyperdrives:
+    - Ackdarian, Humans   = Gerax       = Long Range
+    - Boskarans, Mortalen = Equinox     = High Speed
+    - Haakonish, Zenox    = Kaldos      = Quick Jump
+    - Teekans,   Ikkuro   = Calista-Dal = Efficiency
+    - Dayhut              = Velocity    = High Performance
+- Rebalanced some of the Planetary Defense facilities
+  - Missile Batteries have fewer missiles per volley, but they're much more damaging per missile
+  - Mellowed Diplomatic and Espionage related planetary facilities
+- Rebalanced mining now that game engine is handling this aspect better
+- Tweaked Talassos shields back to previous strength
 
 ### v1.15.1
 - Updated for 1.1.4.3 Beta Engine
