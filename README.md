@@ -1,13 +1,19 @@
-# DW2-XL
-Distant Worlds 2 - XL
+# Distant Worlds 2 - XL
 
-Author: Mordachai (lucky-wolf)
-Contributors: Rah (Ackdarian Stellar Hangar Bays)
+## Authors and Contributors
+- Mordachai: Principle author
+- Rah: Stellar Hangar Bays mod
+- Baronfuming, Mordachai, ChatGPT: Extended Ship Design Names mod
+- SharkMolester: HyperDrive Diversity mod
 
-- [DW2-XL](#dw2-xl)
+## Table of Contents
+- [Distant Worlds 2 - XL](#distant-worlds-2---xl)
+	- [Authors and Contributors](#authors-and-contributors)
+	- [Table of Contents](#table-of-contents)
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.2](#v1152)
 		- [v1.15.1](#v1151)
 		- [v1.15.0](#v1150)
 		- [v1.14.5](#v1145)
@@ -153,6 +159,26 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.2
+- Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up
+  - They'll drop waves of invaders more frequently as you tech-up
+- Inspired by Baronfuming's design names mod, added 100+ design names per race
+- Rebalanced Hyperdrives
+  - Reintroduced Gerax Drive as a long range but otherwise avg option
+  - Reintroduced Torrent Drive as an endgame unifying hyperdrive available to all races (T10)
+  - Moved the hyperdrive specialization decision up to T2 (was T3)
+  - Inspired by SharkMolester's HyperDrive Fix, gave races more diversity in preferred hyperdrives:
+    - Ackdarian, Humans   = Gerax       = Long Range
+    - Boskarans, Mortalen = Equinox     = High Speed
+    - Haakonish, Zenox    = Kaldos      = Quick Jump
+    - Teekans,   Ikkuro   = Calista-Dal = Efficiency
+    - Dayhut              = Velocity    = High Performance
+- Rebalanced some of the Planetary Defense facilities
+  - Missile Batteries have fewer missiles per volley, but they're much more damaging per missile
+  - Mellowed Diplomatic and Espionage related planetary facilities
+- Rebalanced mining now that game engine is handling this aspect better
+- Tweaked Talassos shields back to previous strength
 
 ### v1.15.1
 - Updated for 1.1.4.3 Beta Engine

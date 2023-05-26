@@ -1363,7 +1363,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to be at war -->
 				<Type>WarWearinessReduction</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -1381,7 +1381,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to join military -->
 				<Type>TroopRecruitment</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -1463,7 +1463,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1478,12 +1478,12 @@
 			</Bonus>
 			<Bonus>
 				<Type>Espionage</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1498,12 +1498,12 @@
 			</Bonus>
 			<Bonus>
 				<Type>PsyOps</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>Assassination</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -1515,7 +1515,7 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -3216,13 +3216,13 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to be at war -->
 				<Type>WarWearinessReduction</Type>
-				<Amount>-1.0</Amount>
+				<Amount>-0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to join military -->
 				<Type>TroopRecruitment</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -3240,7 +3240,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to join military -->
 				<Type>TroopRecruitment</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -3311,12 +3311,12 @@
 			</Bonus>
 			<Bonus>
 				<Type>Espionage</Type>
-				<Amount>0.35</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -3331,24 +3331,24 @@
 			</Bonus>
 			<Bonus>
 				<Type>PsyOps</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>Assassination</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyIncome</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
