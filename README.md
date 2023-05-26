@@ -167,7 +167,7 @@ YMMV, but this is my take on making it Extra Large!
 - Rebalanced Hyperdrives
   - Reintroduced Gerax Drive as a long range but otherwise avg option
   - Reintroduced Torrent Drive as an endgame unifying hyperdrive available to all races (T10)
-  - Moved the specialization decision up to T2 (was T3)
+  - Moved the hyperdrive specialization decision up to T2 (was T3)
   - Inspired by SharkMolester's HyperDrive Fix, gave races more diversity in preferred hyperdrives:
     - Ackdarian, Humans   = Gerax       = Long Range
     - Boskarans, Mortalen = Equinox     = High Speed
