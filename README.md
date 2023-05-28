@@ -162,19 +162,31 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.15.3
-- Increased size-capacity of spaceports and defensive bases
-- Adjusted sizes of Colony ships to create better differentiation between sizes
-- Fixed Orbital Escape Launchers link off of Stellar Hangar Bays
-- Added link to Hyper Accelerated Projectiles off of Advanced Rail Batteries
+- Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays
+- Fixed: Vanilla bug that caused any government event buildings to increase planetary quality
+- Fixed: Enhanced Research to have correct costs
+- Fixed: Hyperfusion reactor size to 18 (was too small)
+- Adjusted sizes of spaceports and defensive bases
+  - look better relative to each other
+  - hold more components
+- Adjusted sizes of Colony ships
+  - Creates better differentiation between sizes
+- Adjusted kinetic PD to have a +10% targeting modifier
+  - should be on par with pulse PD
+- Advanced Rail Batteries also leads to Hyper Accelerated Projectiles
   - Allows research to progress forward once ftr/sm/med railguns line ends into med/lrg line
+- Added habitability information for Crazed Hive Insects, Shakturi, and Mortalen AI since they keep cropping up in-game
+- Improved construction tech tree
+  - Spread out late game construction tech tree to give more of a punctuated equilibrium cadence
+  - Broke out military orbitals from space port techs
+  - Moved tankers out of construction and into military transports techs
+  - Moved civilian transport techs into their own line, separate from other civilian ships line
+- Tweaked races to have some diversity in shield choices
 - Planetary Defense Units
   - Reduced size to 8K (was 15K)
   - Reduced cost to 3K (was 3.5K)
   - Doubled attack power (still weaker than infantry)
-- Added habitability information for Crazed Hive Insects, Shakturi, and Mortalen AI since they keep cropping up in-game
-- Spread out late game construction tech tree to give more punctuated equilibrium levels to the tech
-- Fixed size of Hyperfusion reactors
-- Tweaked races to have some diversity in shield choices
+  - Improved their AA weapon to have bonus to hit as they tech up
 
 ### v1.15.2
 - Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up

@@ -104,19 +104,19 @@
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>BuildFacility</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Planetary Administration -->
-				<Id1>425</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
+				<!-- Planetary Administration Center -->
+				<Id1>38</Id1>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -131,20 +131,19 @@
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>BuildFacility</Type>
+				<Type>ResearchBreakthrough</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Planetary Administration Center -->
-				<Id1>38</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
-				<Value2>1</Value2>
+				<!-- Planetary Administration -->
+				<Id1>425</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1078,33 +1077,6 @@
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<!-- <GameEventAction>
-				<Type>BuildFacility</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>23</Id1>
-				<Id2>0</Id2>
-				<Value1>1</Value1>
-				<Value2>1</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction> -->
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
@@ -1301,7 +1273,6 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Mech Foundry -->
 				<Id1>61</Id1>
-				<Id2>0</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -1830,7 +1801,8 @@
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>94</Id1>
-				<Id2>0</Id2>
+<!-- this causes a bug in the engine where the world become higher PQ than it should -->
+<!-- <Id2>0</Id2> -->
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
