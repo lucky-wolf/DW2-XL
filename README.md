@@ -172,6 +172,8 @@ YMMV, but this is my take on making it Extra Large!
   - Reduced cost to 3K (was 3.5K)
   - Doubled attack power (still weaker than infantry)
 - Added habitability information for Crazed Hive Insects, Shakturi, and Mortalen AI since they keep cropping up in-game
+- Spread out late game construction tech tree to give more punctuated equilibrium levels to the tech
+- Fixed size of Hyperfusion reactors
 
 ### v1.15.2
 - Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up
