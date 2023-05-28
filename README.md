@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.3](#v1153)
 		- [v1.15.2](#v1152)
 		- [v1.15.1](#v1151)
 		- [v1.15.0](#v1150)
@@ -159,6 +160,17 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.3
+- Increased size-capacity of spaceports and defensive bases
+- Adjusted sizes of Colony ships to create better differentiation between sizes
+- Fixed Orbital Escape Launchers link off of Stellar Hangar Bays
+- Added link to Hyper Accelerated Projectiles off of Advanced Rail Batteries
+  - Allows research to progress forward once ftr/sm/med railguns line ends into med/lrg line
+- Planetary Defense Units
+  - Reduced size to 8K (was 15K)
+  - Reduced cost to 3K (was 3.5K)
+  - Doubled attack power (still weaker than infantry)
 
 ### v1.15.2
 - Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up

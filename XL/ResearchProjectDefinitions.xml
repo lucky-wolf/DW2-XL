@@ -4569,6 +4569,11 @@
 		<Row>43</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>102</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>1096</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -15187,7 +15192,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>1165</ResearchProjectId>
+				<ResearchProjectId>1166</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -21673,7 +21678,7 @@
 		<ResearchProjectId>515</ResearchProjectId>
 		<Name>Massive Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -21697,7 +21702,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>7</Column>
 		<Row>254</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27457,7 +27462,7 @@
 		<ResearchProjectId>677</ResearchProjectId>
 		<Name>Expanded Space Stations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -27477,7 +27482,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>254</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27497,7 +27502,7 @@
 		<ResearchProjectId>678</ResearchProjectId>
 		<Name>Improved Bases</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -27517,7 +27522,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>254</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
