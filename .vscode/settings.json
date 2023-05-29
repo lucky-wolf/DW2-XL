@@ -2,63 +2,83 @@
 	"xml.fileAssociations": [
 		{
 			"pattern": "Artifacts.xml",
-			"systemId": "ArtifactList.xsd"
+			"systemId": "xsd/ArtifactList.xsd"
 		},
 		{
 			"pattern": "ColonyEventDefinitions.xml",
-			"systemId": "ColonyEventDefinitionList.xsd"
+			"systemId": "xsd/ColonyEventDefinitionList.xsd"
 		},
 		{
 			"pattern": "ComponentDefinitions.xml",
-			"systemId": "ComponentDefinitionList.xsd"
+			"systemId": "xsd/ComponentDefinitionList.xsd"
 		},
 		{
 			"pattern": "CreatureTypes.xml",
-			"systemId": "CreatureTypeList.xsd"
+			"systemId": "xsd/CreatureTypeList.xsd"
 		},
 		{
 			"pattern": "FleetTemplates.xml",
-			"systemId": "FleetTemplateList.xsd"
+			"systemId": "xsd/FleetTemplateList.xsd"
 		},
 		{
 			"pattern": "GameEvents.xml",
-			"systemId": "GameEventList.xsd"
+			"systemId": "xsd/GameEventList.xsd"
+		},
+		{
+			"pattern": "GameEvents*.xml",
+			"systemId": "xsd/GameEventList.xsd"
 		},
 		{
 			"pattern": "Governments.xml",
-			"systemId": "GovernmentList.xsd"
+			"systemId": "xsd/GovernmentList.xsd"
+		},
+		{
+			"pattern": "Governments*.xml",
+			"systemId": "xsd/GovernmentList.xsd"
 		},
 		{
 			"pattern": "OrbTypes.xml",
-			"systemId": "OrbTypeList.xsd"
+			"systemId": "xsd/OrbTypeList.xsd"
 		},
 		{
 			"pattern": "PlanetaryFacilityDefinitions.xml",
-			"systemId": "PlanetaryFacilityDefinitionList.xsd"
+			"systemId": "xsd/PlanetaryFacilityDefinitionList.xsd"
 		},
 		{
 			"pattern": "Races.xml",
-			"systemId": "RaceList.xsd"
+			"systemId": "xsd/RaceList.xsd"
+		},
+		{
+			"pattern": "Races*.xml",
+			"systemId": "xsd/RaceList.xsd"
 		},
 		{
 			"pattern": "ResearchProjectDefinitions.xml",
-			"systemId": "ResearchProjectDefinitionList.xsd"
+			"systemId": "xsd/ResearchProjectDefinitionList.xsd"
 		},
 		{
 			"pattern": "Resources.xml",
-			"systemId": "RescourceList.xsd"
+			"systemId": "xsd/RescourceList.xsd"
 		},
 		{
 			"pattern": "ShipHulls.xml",
-			"systemId": "ShipHullList.xsd"
+			"systemId": "xsd/ShipHullList.xsd"
+		},
+		{
+			"pattern": "ShipHulls*.xml",
+			"systemId": "xsd/ShipHullList.xsd"
 		},
 		{
 			"pattern": "SpaceItemDefinitions.xml",
-			"systemId": "SpaceItemDefinitionList.xsd"
+			"systemId": "xsd/SpaceItemDefinitionList.xsd"
 		},
 		{
 			"pattern": "TroopDefinitions.xml",
-			"systemId": "TroopDefinitionList.xsd"
+			"systemId": "xsd/TroopDefinitionList.xsd"
+		},
+		{
+			"pattern": "TroopDefinitions*.xml",
+			"systemId": "xsd/TroopDefinitionList.xsd"
 		}
 	],
 	"cSpell.words": [

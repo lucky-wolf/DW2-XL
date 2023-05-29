@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.3](#v1153)
 		- [v1.15.2](#v1152)
 		- [v1.15.1](#v1151)
 		- [v1.15.0](#v1150)
@@ -159,6 +160,34 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.3
+- Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays
+- Fixed: Vanilla bug that caused any government event buildings to increase planetary quality
+- Fixed: Enhanced Research to have correct costs
+- Fixed: Hyperfusion reactor size to 18 (was too small)
+- Adjusted sizes of spaceports and defensive bases
+  - look better relative to each other
+  - hold more components
+- Adjusted sizes of Colony ships
+  - Creates better differentiation between sizes
+- Adjusted kinetic PD to have a +10% targeting modifier
+  - should be on par with pulse PD
+- Advanced Rail Batteries also leads to Hyper Accelerated Projectiles
+  - Allows research to progress forward once ftr/sm/med railguns line ends into med/lrg line
+- Added habitability information for Crazed Hive Insects, Shakturi, and Mortalen AI since they keep cropping up in-game
+- Improved construction tech tree
+  - Spread out late game construction tech tree to give more of a punctuated equilibrium cadence
+  - Broke out military orbitals from space port techs
+  - Moved tankers out of construction and into military transports techs
+  - Moved civilian transport techs into their own line, separate from other civilian ships line
+  - Moved Advanced Construction up a level to where it will be more useful & relevant to games
+- Tweaked races to have some diversity in shield choices
+- Planetary Defense Units
+  - Reduced size to 8K (was 15K)
+  - Reduced cost to 3K (was 3.5K)
+  - Doubled attack power (still weaker than infantry)
+  - Improved their AA weapon to have bonus to hit as they tech up
 
 ### v1.15.2
 - Improved Assault Pods and Splinter Pods to improve turn around time as they tech-up
