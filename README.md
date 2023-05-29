@@ -181,6 +181,7 @@ YMMV, but this is my take on making it Extra Large!
   - Broke out military orbitals from space port techs
   - Moved tankers out of construction and into military transports techs
   - Moved civilian transport techs into their own line, separate from other civilian ships line
+  - Moved Advanced Construction up a level to where it will be more useful & relevant to games
 - Tweaked races to have some diversity in shield choices
 - Planetary Defense Units
   - Reduced size to 8K (was 15K)

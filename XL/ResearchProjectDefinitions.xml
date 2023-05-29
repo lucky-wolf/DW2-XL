@@ -13443,27 +13443,27 @@
 		<ResearchProjectId>313</ResearchProjectId>
 		<Name>Accelerated Construction</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
-			<Money>18000</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1800</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>251</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
+				<ResearchProjectId>380</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -26500,23 +26500,23 @@
 		<ResearchProjectId>657</ResearchProjectId>
 		<Name>Advanced Construction</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>9000</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>900</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>2</Column>
 		<Row>251</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>358</ResearchProjectId>
+				<ResearchProjectId>267</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
