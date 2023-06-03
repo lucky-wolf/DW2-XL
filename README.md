@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.4](#v1154)
 		- [v1.15.3](#v1153)
 		- [v1.15.2](#v1152)
 		- [v1.15.1](#v1151)
@@ -160,6 +161,12 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.4
+- Improved Diplomatic Focus & Specialization Facility diplomacy factors
+- Quantum Capacitors have much lower static drain
+- *Hopefully* Improved hyperdrive selection biases for some races so that it's easier to override with your own tech choices, while still using the racial policies by default
+- Updated for 1.1.4.8 Beta (but not required)
 
 ### v1.15.3
 - Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays

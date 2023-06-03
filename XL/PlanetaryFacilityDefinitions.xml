@@ -1352,7 +1352,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -3205,7 +3205,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.4</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -3216,7 +3216,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to be at war -->
 				<Type>WarWearinessReduction</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -3235,12 +3235,6 @@
 			<Bonus>
 				<Type>ColonyHappiness</Type>
 				<Amount>0.3</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<!-- Diplomacy doesn't reduce mining, it reduces desire to join military -->
-				<Type>TroopRecruitment</Type>
-				<Amount>-0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>

@@ -139,11 +139,12 @@
 		<ShieldResistanceFactor>1.5</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
+		<!-- force it to choose Calista-Dal over Gerax by using energy and range as factors -->
 		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
-		<HyperDriveEnergyUsageFactor>5</HyperDriveEnergyUsageFactor>
-		<HyperDriveJumpRangeFactor>2</HyperDriveJumpRangeFactor>
-		<HyperDriveInitiationTimeFactor>1</HyperDriveInitiationTimeFactor>
-		<HyperDriveRechargeTimeFactor>1</HyperDriveRechargeTimeFactor>
+		<HyperDriveEnergyUsageFactor>2</HyperDriveEnergyUsageFactor>
+		<HyperDriveJumpRangeFactor>1.5</HyperDriveJumpRangeFactor>
+		<HyperDriveInitiationTimeFactor>0.1</HyperDriveInitiationTimeFactor>
+		<HyperDriveRechargeTimeFactor>0.1</HyperDriveRechargeTimeFactor>
 		<AreaShieldRangeFactor>1</AreaShieldRangeFactor>
 		<AreaShieldPowerFactor>1</AreaShieldPowerFactor>
 		<AreaShieldEnergyUsageFactor>1</AreaShieldEnergyUsageFactor>
