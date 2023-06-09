@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.15.5](#v1155)
 		- [v1.15.4](#v1154)
 		- [v1.15.3](#v1153)
 		- [v1.15.2](#v1152)
@@ -161,6 +162,25 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.15.5
+- Updated for 1.1.4.9 beta (not required)
+- Reduced the Space Reactor efficiency to limit early game expansion
+- Broke out Administration Facilities into separate buildings, rather than upgrades
+  - Hopefully this allows the AIs to build them and be a bit more competitive further into the game
+- Super techs now cost between T9 and T10 levels
+  - Should allow greater access to them during a game
+  - Should allow AIs to research & develop them should they luck out and find one and live long enough
+- Diplomacy buildings have less war weariness but add some corruption as a better balanced mechanic
+- Rebalanced terraforming facilities
+  - Requires 20y to terraform to that facility's limit
+  - Cost scales from 25K to 200K and 10% for maintenance
+  - Standard line scales from 10-50% improvement
+  - Ikkuro line scales from 10-80% improvement
+- Reduced size of Citadel shields to 20, like all other shields
+- Fixed maximum size of Dhayut small and medium colonizers to be the same as other races
+- Planetary Bastion is now a direct upgrade from Planetary Defense Center
+- Shakturi should no longer appear as independents in a (new) game
 
 ### v1.15.4
 - Improved Diplomatic Focus & Specialization Facility diplomacy factors

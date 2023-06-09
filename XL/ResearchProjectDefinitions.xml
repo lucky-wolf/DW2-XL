@@ -1869,7 +1869,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>47</ResearchProjectId>
-		<Name>Planetary Defense Units</Name>
+		<Name>Planetary Defense Center</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -3812,6 +3812,12 @@
 				<ResearchProjectId>427</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>84</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>1</Priority>
+				<RaceId>11</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -10709,7 +10715,7 @@
 		<ResearchProjectId>242</ResearchProjectId>
 		<Name>Death Ray</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10750,7 +10756,7 @@
 		<ResearchProjectId>243</ResearchProjectId>
 		<Name>Solar Blaster</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10787,7 +10793,7 @@
 		<ResearchProjectId>244</ResearchProjectId>
 		<Name>Super Ion Blast</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10836,7 +10842,7 @@
 		<ResearchProjectId>245</ResearchProjectId>
 		<Name>Super Area Blast</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10885,7 +10891,7 @@
 		<ResearchProjectId>246</ResearchProjectId>
 		<Name>Super Singularity</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10934,7 +10940,7 @@
 		<ResearchProjectId>247</ResearchProjectId>
 		<Name>Super Torpedo</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -10975,7 +10981,7 @@
 		<ResearchProjectId>248</ResearchProjectId>
 		<Name>Super Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -11012,7 +11018,7 @@
 		<ResearchProjectId>249</ResearchProjectId>
 		<Name>Super Exterminator</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -13087,6 +13093,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>234</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>355</ResearchProjectId>
@@ -13293,8 +13305,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>408</ComponentId>
-				<Level>1</Level>
+				<ComponentId>428</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -15183,6 +15195,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>234</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>379</ResearchProjectId>
@@ -16373,6 +16391,12 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>408</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>ConstructionShip</Role>
@@ -17948,6 +17972,12 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>834</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
@@ -18428,11 +18458,11 @@
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
+				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
+				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.05</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -23022,6 +23052,12 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>234</Row>
+		<DisallowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>307</ResearchProjectId>
@@ -23245,8 +23281,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>408</ComponentId>
-				<Level>2</Level>
+				<ComponentId>428</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -23378,6 +23414,12 @@
 				<ResearchProjectId>88</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>836</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>1</Priority>
+				<RaceId>11</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -24735,6 +24777,12 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>832</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
@@ -25195,7 +25243,7 @@
 		<ResearchProjectId>601</ResearchProjectId>
 		<Name>Super Reactor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25240,7 +25288,7 @@
 		<ResearchProjectId>602</ResearchProjectId>
 		<Name>Super Shields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25289,7 +25337,7 @@
 		<ResearchProjectId>603</ResearchProjectId>
 		<Name>Super Drive</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25334,7 +25382,7 @@
 		<ResearchProjectId>604</ResearchProjectId>
 		<Name>Super Engine</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25379,7 +25427,7 @@
 		<ResearchProjectId>605</ResearchProjectId>
 		<Name>Super Maneuvering</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25416,7 +25464,7 @@
 		<ResearchProjectId>606</ResearchProjectId>
 		<Name>Super Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25453,7 +25501,7 @@
 		<ResearchProjectId>607</ResearchProjectId>
 		<Name>Super Ship</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 		</InitiationCost>
@@ -25466,7 +25514,7 @@
 		<ResearchProjectId>608</ResearchProjectId>
 		<Name>Super Combat Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25495,7 +25543,7 @@
 		<ResearchProjectId>609</ResearchProjectId>
 		<Name>Super Stealth</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25532,7 +25580,7 @@
 		<ResearchProjectId>610</ResearchProjectId>
 		<Name>Super Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -25565,7 +25613,7 @@
 		<ResearchProjectId>611</ResearchProjectId>
 		<Name>Super Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 		</InitiationCost>
@@ -26638,7 +26686,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>661</ResearchProjectId>
-		<Name>Reinforced Construction</Name>
+		<Name>Planetary Bastion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -30752,11 +30800,11 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<MinimumColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
-				<OrbTypeId>18</OrbTypeId>
+				<OrbTypeId>20</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
-				<OrbTypeId>20</OrbTypeId>
+				<OrbTypeId>18</OrbTypeId>
 				<Factor>-0.1</Factor>
 			</OrbTypeFactor>
 		</MinimumColonizationSuitabilityModifiers>
@@ -31242,7 +31290,7 @@
 		<ResearchProjectId>787</ResearchProjectId>
 		<Name>Planet Destroyer</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -31279,7 +31327,7 @@
 		<ResearchProjectId>788</ResearchProjectId>
 		<Name>Super Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>109350</Size>
+		<Size>60750</Size>
 		<InitiationCost>
 			<Money>50000</Money>
 			<Resources>
@@ -32085,10 +32133,10 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>253</Row>
+		<Row>256</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>310</ResearchProjectId>
+				<ResearchProjectId>1175</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -39553,6 +39601,7 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
+
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1170</ResearchProjectId>
 		<Name>Efficient Energy Conversion</Name>
@@ -39645,7 +39694,6 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
-
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1172</ResearchProjectId>
 		<Name>Orbital Defenses</Name>
@@ -39823,5 +39871,127 @@
 				<Level>2</Level>
 			</ShipHullReference>
 		</ShipHulls>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1176</ResearchProjectId>
+		<Name>Zero Point Energy Leveraging</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>48000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>204</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>578</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>304</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>187</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1177</ResearchProjectId>
+		<Name>Zero Point Energy Mastery</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>204</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1176</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>304</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>187</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

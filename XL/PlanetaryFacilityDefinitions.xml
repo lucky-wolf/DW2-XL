@@ -213,7 +213,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Missile Defence Mk2</Name>
+		<Name>Planetary Missile Defense Mk2</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1363,7 +1363,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to be at war -->
 				<Type>WarWearinessReduction</Type>
-				<Amount>-0.25</Amount>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -1376,6 +1376,11 @@
 			<Bonus>
 				<Type>ColonyHappiness</Type>
 				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1400,7 +1405,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Galactic Diplomatic Center</Name>
+		<Name>Diplomatic Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1430,19 +1435,19 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
-			<Money>10000</Money>
+			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>200</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1455,7 +1460,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Administration Center</Name>
+		<Name>Planetary Administration I</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1631,41 +1636,41 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
 			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>300</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1674,11 +1679,11 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<ColonyCorruptionReductionProjectionRange>100000</ColonyCorruptionReductionProjectionRange>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>20</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyId>61</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Administration Complex</Name>
+		<Name>Planetary Administration II</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1686,41 +1691,41 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.3</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
-			<Money>25000</Money>
+			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1729,11 +1734,11 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<ColonyCorruptionReductionProjectionRange>100000</ColonyCorruptionReductionProjectionRange>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>20</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<FacilityFamilyId>62</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Administration District</Name>
+		<Name>Planetary Administration III</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1741,41 +1746,41 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1784,11 +1789,11 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<ColonyCorruptionReductionProjectionRange>100000</ColonyCorruptionReductionProjectionRange>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>20</FacilityFamilyId>
-		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<FacilityFamilyId>63</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Administration Metropolis</Name>
+		<Name>Planetary Administration IV</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1910,9 +1915,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>47</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>100000</Money>
+			<Money>55000</Money>
 		</BuildCost>
-		<MaintenanceCost>4000</MaintenanceCost>
+		<MaintenanceCost>5500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1933,9 +1938,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>48</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>200000</Money>
+			<Money>82500</Money>
 		</BuildCost>
-		<MaintenanceCost>4000</MaintenanceCost>
+		<MaintenanceCost>8250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1943,7 +1948,7 @@
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<TerraformingDamageRepairRate>0.03</TerraformingDamageRepairRate>
-		<TerraformingQualityImprovementRate>0.01</TerraformingQualityImprovementRate>
+		<TerraformingQualityImprovementRate>0.015</TerraformingQualityImprovementRate>
 		<TerraformingQualityMaximum>0.30</TerraformingQualityMaximum>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>21</FacilityFamilyId>
@@ -1956,9 +1961,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>49</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>400000</Money>
+			<Money>110000</Money>
 		</BuildCost>
-		<MaintenanceCost>4000</MaintenanceCost>
+		<MaintenanceCost>11000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2595,8 +2600,13 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDefense</Type>
+				<Type>TroopRecoveryRate</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2612,7 +2622,8 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>38</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>4</short>
@@ -2635,17 +2646,17 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>1.0</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2660,9 +2671,23 @@
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>39</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+		<FacilityFamilyId>38</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
+		<TroopIdsRecruitable>
+			<short>4</short>
+			<short>9</short>
+			<short>14</short>
+			<short>19</short>
+			<short>24</short>
+			<short>29</short>
+			<short>34</short>
+			<short>39</short>
+			<short>57</short>
+			<short>61</short>
+			<short>65</short>
+		</TroopIdsRecruitable>
 		<Name>Planetary Bastion</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
 	</PlanetaryFacilityDefinition>
@@ -2874,9 +2899,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>77</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>27500</Money>
 		</BuildCost>
-		<MaintenanceCost>4000</MaintenanceCost>
+		<MaintenanceCost>2750</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2897,9 +2922,9 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>78</PlanetaryFacilityDefinitionId>
 		<BuildCost>
-			<Money>1000000</Money>
+			<Money>220000</Money>
 		</BuildCost>
-		<MaintenanceCost>4000</MaintenanceCost>
+		<MaintenanceCost>22000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -3216,7 +3241,7 @@
 			<Bonus>
 				<!-- Diplomacy doesn't reduce mining, it reduces desire to be at war -->
 				<Type>WarWearinessReduction</Type>
-				<Amount>-0.25</Amount>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -3235,6 +3260,11 @@
 			<Bonus>
 				<Type>ColonyHappiness</Type>
 				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
