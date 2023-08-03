@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<GameEvent>
 		<Name>Initialise Government (Republic)</Name>
@@ -115,7 +115,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Planetary Administration Center -->
 				<Id1>38</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -204,7 +204,7 @@
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-    		<TechLevelThreshold>1</TechLevelThreshold>
+		<TechLevelThreshold>1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -1274,7 +1274,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Mech Foundry -->
 				<Id1>61</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -1804,7 +1804,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Royal Palace -->
 				<Id1>94</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>

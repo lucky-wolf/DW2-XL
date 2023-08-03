@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.0](#v1160)
 		- [v1.15.5](#v1155)
 		- [v1.15.4](#v1154)
 		- [v1.15.3](#v1153)
@@ -163,6 +164,17 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.16.0
+- Updated for 1.1.6.0 beta (required)
+  - Added weapon families to all components
+  - Moved XL component IDs to start at 400 (avoiding current collisions with vanilla)
+    - Also moved XL specific components into its own file
+    - NOTE: !#$!@#@! DW2 needs to !@!@#$ get off its ass and allow this to be a map, NOT an array!!!
+  - Adjusted some game events to match vanilla
+  - Adjusted some planetary facilities to match vanilla costs
+- Tweaked Advanced Construction Yard (v2) to be 33% faster at construction (matches Rama Construction Yard, but only 2 bays)
+- Adjusted some governments' starting research
+
 ### v1.15.5
 - Updated for 1.1.4.9 beta (not required)
 - Reduced the Space Reactor efficiency to limit early game expansion
@@ -174,9 +186,9 @@ YMMV, but this is my take on making it Extra Large!
 - Diplomacy buildings have less war weariness but add some corruption as a better balanced mechanic
 - Rebalanced terraforming facilities
   - Requires 20y to terraform to that facility's limit
-  - Cost scales from 25K to 200K and 10% for maintenance
+  - Cost scales from 25K to 220K and 10% for maintenance
   - Standard line scales from 10-50% improvement
-  - Ikkuro line scales from 10-80% improvement
+  - Ikkuro line scales from 10-75% improvement
 - Reduced size of Citadel shields to 20, like all other shields
 - Fixed maximum size of Dhayut small and medium colonizers to be the same as other races
 - Planetary Bastion is now a direct upgrade from Planetary Defense Center

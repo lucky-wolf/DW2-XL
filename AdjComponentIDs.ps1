@@ -1,4 +1,5 @@
-# grab all research files that we'll adj
+# usage:
+# ./AdjComponentIDs.ps1 start end offset
 param(
 	[parameter(Mandatory = $true)][int]$startid,
 	[parameter(Mandatory = $true)][int]$endid,
@@ -14,7 +15,7 @@ foreach ($Item in $files) {
 	$Item = $Item.Name
 	$target = "XL/$Item"
 	$source = "temp/$Item"
-	Copy $target $source
+	Copy-Item $target $source
 	perl "AdjustComponentId.pl" $source $startid $endid $offset $target
 }
 
@@ -27,6 +28,6 @@ foreach ($Item in $files) {
 	$Item = $Item.Name
 	$target = "XL/$Item"
 	$source = "temp/$Item"
-	Copy $target $source
+	Copy-Item $target $source
 	perl "AdjustComponentId.pl" $source $startid $endid $offset $target
 }
