@@ -165,11 +165,11 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.16.0
-- Updated for 1.1.6.0 beta (required)
+- Updated for 1.1.6.1 beta (required)
   - Added weapon families to all components
   - Moved XL component IDs to start at 400 (avoiding current collisions with vanilla)
     - Also moved XL specific components into its own file
-    - NOTE: !#$!@#@! DW2 needs to !@!@#$ get off its ass and allow this to be a map, NOT an array!!!
+    - NOTE: !#$!@#@! DW2 needs to !@!@#$ allow this to be a map, NOT an array!!!
   - Adjusted some game events to match vanilla
   - Adjusted some planetary facilities to match vanilla costs
 - Tweaked Advanced Construction Yard (v2) to be 33% faster at construction (matches Rama Construction Yard, but only 2 bays)
