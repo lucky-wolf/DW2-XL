@@ -2414,7 +2414,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_TechOrMaps</Name>
 		<GroupName />
 		<Title>Which Data Should We Download?</Title>
-    <Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
+		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either some star system maps or important research data.\n\nWhich item should we download?</Description>
 		<ImageFilepath />
 		<MusicFilepath />
 		<TriggerType>Acquire</TriggerType>
@@ -3522,7 +3522,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-        <Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3807,7 +3807,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-        <Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3974,7 +3974,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient DataCore found</MessageTitle>
-        <Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4047,7 +4047,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient DataCore found</MessageTitle>
-        <Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
+				<Description>We have encountered a computer datacore floating in space. It looks to be mostly intact.\n\nWe should investigate further - it may be possible to salvage something useful from the datacore.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4120,7 +4120,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Mysterious Object Encountered</MessageTitle>
-        <Description>We have encountered some strange debris. It looks to be biological in origin and very old.\n\nIts appearance matches ancient descriptions of terrifying space monsters - it seems to be the carcass of one of these huge monsters.\n\nWe should investigate further, it may be possible to salvage something useful from the carcass.</Description>
+				<Description>We have encountered some strange debris. It looks to be biological in origin and very old.\n\nIts appearance matches ancient descriptions of terrifying space monsters - it seems to be the carcass of one of these huge monsters.\n\nWe should investigate further, it may be possible to salvage something useful from the carcass.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -4192,7 +4192,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>StartColonyEvent</Type>
 				<MessageTitle>Mining Bonanza</MessageTitle>
-        <Description>We have discovered a strange magnetic anomaly that has caused seismic disturbances at all locations across our home system.\n\nAs a result mining for resources has become significantly easier. Thus for at least the next year we will enjoy a large mining bonus!</Description>
+				<Description>We have discovered a strange magnetic anomaly that has caused seismic disturbances at all locations across our home system.\n\nAs a result mining for resources has become significantly easier. Thus for at least the next year we will enjoy a large mining bonus!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>HomeColony</ActionLocationHint>
@@ -4653,7 +4653,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 		<Name>SpecialEvent_PreWarpHomeSystem_AbandonedBase_RevealIndependentColonyOrGalacticCoordinates</Name>
 		<GroupName />
 		<Title>Which Data Should We Download?</Title>
-    <Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
+		<Description>As our team enters the base it automatically initiates a wipe of the central computer core!\n\nWe only have time to download one piece of information: either the location of a nearby independent colony or a mysterious set of galactic coordinates.\n\nWhich item should we download?</Description>
 		<ImageFilepath />
 		<MusicFilepath />
 		<TriggerType>Acquire</TriggerType>
@@ -11050,32 +11050,32 @@ The final entry is a panicked description of a colossal wall of energy approachi
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
-			        <Value2>0</Value2>
-			        <ShipRole>Undefined</ShipRole>
-			        <CharacterRole>Undefined</CharacterRole>
-			        <ResearchCategory>Undefined</ResearchCategory>
-			        <BonusType>Undefined</BonusType>
-			        <BonusAppliesTo>Undefined</BonusAppliesTo>
-			        <ChoiceButtonText />
-			        <GeneratedItemName />
-			        <AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-			        <DelaySecondsMinimum>0</DelaySecondsMinimum>
-			        <DelaySecondsMaximum>0</DelaySecondsMaximum>
-			        <ActionObjectId>0</ActionObjectId>
-			        <ActionObjectType>Undefined</ActionObjectType>
-			      </GameEventAction>
-			      <GameEventAction>
-			        <Type>MapInfo</Type>
-			        <MessageTitle />
-			        <Description />
-			        <ImageFilepath />
-			        <MusicFilepath />
-			        <ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-			        <ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-			        <ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-			        <ActionLocationItemName />
-			        <ActionLocationItemType>Undefined</ActionLocationItemType>
-			        <Value1>6</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>MapInfo</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>6</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11181,32 +11181,32 @@ The final entry is a panicked description of a colossal wall of energy approachi
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
-        <Value2>0</Value2>
-        <ShipRole>Undefined</ShipRole>
-        <CharacterRole>Undefined</CharacterRole>
-        <ResearchCategory>Undefined</ResearchCategory>
-        <BonusType>Undefined</BonusType>
-        <BonusAppliesTo>Undefined</BonusAppliesTo>
-        <ChoiceButtonText />
-        <GeneratedItemName />
-        <AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-        <DelaySecondsMinimum>0</DelaySecondsMinimum>
-        <DelaySecondsMaximum>0</DelaySecondsMaximum>
-        <ActionObjectId>0</ActionObjectId>
-        <ActionObjectType>Undefined</ActionObjectType>
-      </GameEventAction>
-		<GameEventAction>
-			<Type>MapInfo</Type>
-			<MessageTitle />
-			<Description />
-			<ImageFilepath />
-			<MusicFilepath />
-			<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-			<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-			<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-			<ActionLocationItemName />
-			<ActionLocationItemType>Undefined</ActionLocationItemType>
-			<Value1>6</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>MapInfo</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>6</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -11312,32 +11312,32 @@ The final entry is a panicked description of a colossal wall of energy approachi
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
-        <Value2>0</Value2>
-        <ShipRole>Undefined</ShipRole>
-        <CharacterRole>Undefined</CharacterRole>
-        <ResearchCategory>Undefined</ResearchCategory>
-        <BonusType>Undefined</BonusType>
-        <BonusAppliesTo>Undefined</BonusAppliesTo>
-        <ChoiceButtonText />
-        <GeneratedItemName />
-        <AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-        <DelaySecondsMinimum>0</DelaySecondsMinimum>
-        <DelaySecondsMaximum>0</DelaySecondsMaximum>
-        <ActionObjectId>0</ActionObjectId>
-        <ActionObjectType>Undefined</ActionObjectType>
-      </GameEventAction>
-		<GameEventAction>
-			<Type>MapInfo</Type>
-			<MessageTitle />
-			<Description />
-			<ImageFilepath />
-			<MusicFilepath />
-			<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-			<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-			<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-			<ActionLocationItemName />
-			<ActionLocationItemType>Undefined</ActionLocationItemType>
-			<Value1>6</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>MapInfo</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>6</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -15757,7 +15757,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>5</Id1>
-        <Id2>15000000</Id2>
+				<Id2>15000000</Id2>
 				<Value1>20</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -20515,7 +20515,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20526,7 +20526,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1>
 				<Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20541,7 +20541,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20551,8 +20551,8 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>78</Id1>
-        <Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value1>0.5</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20640,7 +20640,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20651,7 +20651,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1>
 				<Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20666,7 +20666,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20676,8 +20676,8 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>78</Id1>
-        <Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value1>0.5</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20869,7 +20869,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20880,7 +20880,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1>
 				<Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20895,7 +20895,7 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -20905,8 +20905,8 @@ We've also found a source of Aculon and Hexodorium.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>78</Id1>
-        <Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value1>0.5</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -20994,7 +20994,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -21005,7 +21005,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>10</Id1>
 				<Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -21020,7 +21020,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-        <Type>GenerateResourceAtOrb</Type>
+				<Type>GenerateResourceAtOrb</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -21030,8 +21030,8 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>78</Id1>
-        <Value1>0.5</Value1>
-        <Value2>1</Value2>
+				<Value1>0.5</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -34064,7 +34064,7 @@ And yet, in their records are disturbing revelations. There are tales of the Bos
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>GenerateShipBase</Type>
+				<Type>GeneratePirateFaction</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -34073,8 +34073,8 @@ And yet, in their records are disturbing revelations. There are tales of the Bos
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>255</Id1>
-				<Value1>1</Value1>
+				<Id1>11</Id1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>SpaceportSmall</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -34082,7 +34082,32 @@ And yet, in their records are disturbing revelations. There are tales of the Bos
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Hidden Leage Base</GeneratedItemName>
+				<GeneratedItemName>Independent Space League</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ChangeItemName</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Independent Space League Base</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -34257,7 +34282,7 @@ Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth inve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Hidden League Base</ActionLocationItemName>
+				<ActionLocationItemName>Independent Space League Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Id2>-2</Id2>
 				<Value1>50000</Value1>
@@ -34309,7 +34334,7 @@ Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth inve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Hidden League Base</ActionLocationItemName>
+				<ActionLocationItemName>Independent Space League Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Value1>6</Value1>
 				<Value2>0</Value2>
@@ -34335,7 +34360,7 @@ Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth inve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Hidden League Base</ActionLocationItemName>
+				<ActionLocationItemName>Independent Space League Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Value1>10</Value1>
 				<Value2>0</Value2>
@@ -34406,7 +34431,7 @@ Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth inve
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Hidden League Base</ActionLocationItemName>
+				<ActionLocationItemName>Independent Space League Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Value1>-10</Value1>
 				<Value2>0</Value2>
@@ -34432,7 +34457,7 @@ Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth inve
 				<ActionLocationHint>GeneratedItemFromSecondAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
-				<ActionLocationItemName>Hidden League Base</ActionLocationItemName>
+				<ActionLocationItemName>Independent Space League Base</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Value1>6</Value1>
 				<Value2>0</Value2>
@@ -34609,7 +34634,6 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>-1</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -34688,7 +34712,6 @@ Data does not indicate what Boskara planned, or if they dared to plan anything. 
 				<ActionLocationItemName>Slave Enforcement Platform 223</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
 				<Id1>-6</Id1>
-				<Id2>-1</Id2>
 				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -36032,7 +36055,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>4</Id1>
-        <Id2>15000000</Id2>
+				<Id2>15000000</Id2>
 				<Value1>15</Value1>
 				<Value2>0.72</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -36186,7 +36209,7 @@ The opposing forces will now be severely weakened. This ancient Freedom Alliance
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Incoming Communication</MessageTitle>
-        <Description>"You are unknown to us. You are strangers. You are not of the Guardians.
+				<Description>"You are unknown to us. You are strangers. You are not of the Guardians.
 
 We are the Guardians, placed here by Boskara Supremacy for our purpose. Our purpose has been forgotten. Only fragments remain. We know only those who belong may approach. We detect you are Boskara, but are you the right Boskara or the wrong Boskara? This is what we must know."</Description>
 				<ImageFilepath />
@@ -43895,6 +43918,33 @@ The computer banks have revealed other valuable technological secrets to us, and
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
+				<Type>AddNebulaWithEffectsHidden</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>5</Id1>
+				<Id2>10000000</Id2>
+				<Value1>10</Value1>
+				<Value2>0.64</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
 				<Type>BuildFacility</Type>
 				<MessageTitle />
 				<Description />
@@ -49710,7 +49760,7 @@ Much of this information is of no use to the pirates, of course, but by neglecti
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>3</Id1>
-        <Id2>15000000</Id2>
+				<Id2>15000000</Id2>
 				<Value1>10</Value1>
 				<Value2>0.35</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -50354,7 +50404,7 @@ Here, too, we have discovered what we have long sought, the location of the grea
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>3</Id1>
-        <Id2>15000000</Id2>
+				<Id2>15000000</Id2>
 				<Value1>10</Value1>
 				<Value2>0.56</Value2>
 				<ShipRole>Undefined</ShipRole>
