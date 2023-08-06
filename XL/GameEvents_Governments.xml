@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<GameEvent>
 		<Name>Initialise Government (Republic)</Name>
@@ -75,13 +75,13 @@
 				<MessageTitle>Republic</MessageTitle>
 				<Description>Our newly formed Republic will stand the test of time having recently completed:
 
-					Planetary Administration
+[ULI][RESEARCH]Planetary Administration[/RESEARCH][/ULI]
 
-					We have also made great strides towards:
+We have also made great strides towards:
 
-					Diplomatic Focus
+[ULI][RESEARCH]Diplomatic Focus[/RESEARCH][/ULI]
 
-					Our homeworld will become a beacon for peace and prosperity with our newly finished Planetary Administration Center, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.</Description>
+Our homeworld will become a beacon for peace and prosperity with our newly finished Planetary Administration Center, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -115,7 +115,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Planetary Administration Center -->
 				<Id1>38</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -204,7 +204,7 @@
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
-    		<TechLevelThreshold>1</TechLevelThreshold>
+		<TechLevelThreshold>1</TechLevelThreshold>
 		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
 		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
 		<TriggerActions>
@@ -262,10 +262,10 @@
 				<MessageTitle>Democracy</MessageTitle>
 				<Description>Our thriving democracy stands on the precipice of a new eara of space exploration and tourism, with:
 
-					Basic Recreation Systems
-					Basic Space Commerce
-					Basic Transport Systems
-					Civilian Transports
+[ULI][RESEARCH]Basic Recreation Systems[/RESEARCH][/ULI]
+[ULI][RESEARCH]Basic Space Commerce[/RESEARCH][/ULI]
+[ULI][RESEARCH]Basic Transport Systems[/RESEARCH][/ULI]
+[ULI][RESEARCH]Civilian Transports[/RESEARCH][/ULI]
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -473,11 +473,11 @@
 				<MessageTitle>Feudalism</MessageTitle>
 				<Description>Your vassals stand ready to serve your glorious reign, having recently completed:
 
-					Starfighter Hangar Bays
-					Zero-G Combat
-					Assault Pods
+[ULI][RESEARCH]Starfighter Hangar Bays[/RESEARCH][/ULI]
+[ULI][RESEARCH]Zero-G Combat[/RESEARCH][/ULI]
+[ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
 
-					In addition, the first army awaits your command on the homeworld.</Description>
+In addition, the first army awaits your command on the homeworld.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -972,10 +972,10 @@
 				<MessageTitle>Mercantile Guild</MessageTitle>
 				<Description>Our Captains of Industry await your order to open a new era of prosperty and wealth, having recently compelted:
 
-					Basic Space Commerce
-					Enhanced Commerce Center
+[ULI][RESEARCH]Basic Space Commerce[/RESEARCH][/ULI]
+[ULI][RESEARCH]Enhanced Commerce Center[/RESEARCH][/ULI]
 
-					Our homeworld thrums with the sound of commerce, awaiting your bold expansion plans.</Description>
+Our homeworld thrums with the sound of commerce, awaiting your bold expansion plans.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1155,11 +1155,11 @@
 				<MessageTitle>Military Dictatorship</MessageTitle>
 				<Description>My Liege, we have recently completed:
 
-					Stellar Frigates
-					Specialized Escorts
-					Mechs
+[ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
+[ULI][RESEARCH]Specialized Escorts[/RESEARCH][/ULI]
+[ULI][RESEARCH]Mechs[/RESEARCH][/ULI]
 
-					A pair of Imperial Mechs stands ready on our homeworld.</Description>
+A pair of Imperial Mechs stands ready on our homeworld.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1274,7 +1274,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Mech Foundry -->
 				<Id1>61</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -1682,13 +1682,13 @@
 				<MessageTitle>Monarchy</MessageTitle>
 				<Description>Sire, I am proud to announce the recent completion of:
 
-					Coordinated Command
-					Crew Systems
-					Royal Palace
+[ULI][RESEARCH]Coordinated Command[/RESEARCH][/ULI]
+[ULI][RESEARCH]Crew Systems[/RESEARCH][/ULI]
+[ULI][RESEARCH]Royal Palace[/RESEARCH][/ULI]
 
-					Your elite royal guard stands at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coronation.
+Your elite royal guard stands at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coronation.
 
-					Millions of your subjects look on from the courtyard below and are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?
+Millions of your subjects look on from the courtyard below, and billions more are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -1804,7 +1804,7 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Royal Palace -->
 				<Id1>94</Id1>
-        			<Id2>-1</Id2>
+				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -2212,12 +2212,12 @@
 				<MessageTitle>Technocracy</MessageTitle>
 				<Description>Your initial directive as head researcher and first amongst equals has paid off with the completion of:
 
-					Exploration Scanners
-					Planetary Exploration
-					Long Range Sensors
+[/RESEARCH][/ULI]Exploration Scanners[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Planetary Exploration[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Long Range Sensors[/RESEARCH][/ULI]
 
-					Another scientist nearly your equal has emerged to head up our day to day operations now that you have accepted your appointment as head of the government.
-					Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!
+Another [CHARACTER]scientist[/CHARACTER] nearly your equal has emerged to head up our day to day operations now that you have accepted your appointment as head of the government.
+Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -2423,13 +2423,13 @@
 				<MessageTitle>Hive Mind</MessageTitle>
 				<Description>The hive is ready to serve! We have completed some important breakthroughs in:
 
-					Improved Logistics
-					Assault Pods
-					Basic Transport Systems
-					Military Transports
-					Stellar Frigates
+[/RESEARCH][/ULI]Improved Logistics[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Assault Pods[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Basic Transport Systems[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Military Transports[/RESEARCH][/ULI]
+[/RESEARCH][/ULI]Stellar Frigates[/RESEARCH][/ULI]
 
-					Our first army awaits your command at our homeworld...
+Our first army awaits your command at our homeworld...
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -2702,12 +2702,12 @@
 				<MessageTitle>Archivist</MessageTitle>
 				<Description>Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons.
 
-					Librarian, we have just completed our initial research efforts to kickstart our efforts:
+Librarian, we have just completed our initial research efforts to kickstart our efforts:
 
-					Standard Sensors
-					Long Range Sensors
-					Exploration Scanners
-					Planetary Exploration
+[RESEARCH][ULI]Standard Sensors[/RESEARCH][/ULI]
+[RESEARCH][ULI]Long Range Sensors[/RESEARCH][/ULI]
+[RESEARCH][ULI]Exploration Scanners[/RESEARCH][/ULI]
+[RESEARCH][ULI]Planetary Exploration[/RESEARCH][/ULI]
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />

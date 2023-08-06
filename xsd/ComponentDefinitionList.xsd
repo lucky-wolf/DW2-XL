@@ -11,6 +11,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="ComponentId" type="xs:short" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:int" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Category" type="ComponentCategory" />
+			<xs:element minOccurs="0" maxOccurs="1" name="Family" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="SoundEffectFilename" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" name="SoundEffectFilenameAlternate" type="xs:string" />
 			<xs:element minOccurs="0" maxOccurs="1" default="1" name="SoundEffectVolume" type="xs:float" />
@@ -426,6 +427,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="StealthRating" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TargetingBonus" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TargetingFleetBonus" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TargetingBonusPerFleetShip" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TractorBeamDwellTime" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TractorBeamEnergyPerShot" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="TractorBeamFireRate" type="xs:float" />

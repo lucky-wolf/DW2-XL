@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Race>
 		<RaceId>0</RaceId>
@@ -7016,6 +7016,7 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 	</Race>
 	<Race>
 		<RaceId>249</RaceId>
+		<BundleName>Hive</BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>128</G>
@@ -7356,7 +7357,7 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 
 	<Race>
 		<RaceId>20</RaceId>
-		<BundleName>Shakturi</BundleName>
+		<BundleName></BundleName>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -7377,7 +7378,7 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 		<Dependability>1</Dependability>
 		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
-	  	<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>

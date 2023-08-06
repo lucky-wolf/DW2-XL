@@ -27,7 +27,7 @@ func (xs XScript) ApplyTo(tree *xmltree.XMLTree) (stats Stats, err error) {
 
 	// this is a very specific way of encoding the transformations, so we'll keep the logic here...
 	var targetValue string
-	var p, e *xmltree.XMLElement
+	var e *xmltree.XMLElement
 	var subindex int
 	for r := 0; r < len(xs.Values); r++ {
 
@@ -40,7 +40,7 @@ func (xs XScript) ApplyTo(tree *xmltree.XMLTree) (stats Stats, err error) {
 		} else {
 			// non-blank search value: search for it explicitly
 			targetValue = xs.Values[r][searchColumn]
-			p, e = tree.Find(searchTag, targetValue)
+			_, e = tree.Find(searchTag, targetValue)
 			if e == nil {
 				log.Printf("warn: did not find %s = %s", searchTag, targetValue)
 				continue
@@ -50,9 +50,9 @@ func (xs XScript) ApplyTo(tree *xmltree.XMLTree) (stats Stats, err error) {
 
 		// now to build a way to apply the transform data to the node we found (and its underlying tiers)
 		// for each column in our values, apply it
-		for c := range xs.Header {
+		// for c := range xs.Header {
 
-		}
+		// }
 
 		//todo: we'll need to apply rows with no id as additional component tiers.
 	}

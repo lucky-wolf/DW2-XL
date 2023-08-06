@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<GameEvent>
 		<Name>Home Ruin Generation (Ikkuro)</Name>
@@ -7991,13 +7991,13 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Damazy Orbital Defense Base</GeneratedItemName>
+        <GeneratedItemName>Damazy Orbital Space Port</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<GeneratedItemEventNames>
-					<string>Destroy Damazy Orbital Defense Base (Ikkuro)</string>
-					<string>Capture Damazy Orbital Defense Base (Ikkuro)</string>
+          <string>Destroy Damazy Orbital Space Port (Ikkuro)</string>
+          <string>Capture Damazy Orbital Space Port (Ikkuro)</string>
 				</GeneratedItemEventNames>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
@@ -9190,7 +9190,7 @@
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Destroy Damazy Orbital Defense Base (Ikkuro)</Name>
+    <Name>Destroy Damazy Orbital Space Port (Ikkuro)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -9241,7 +9241,7 @@
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Capture Damazy Orbital Defense Base (Ikkuro)</Name>
+    <Name>Capture Damazy Orbital Space Port (Ikkuro)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -9307,7 +9307,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Destroy Damazy Orbital Defense Base (Ikkuro)</GeneratedItemName>
+        <GeneratedItemName>Destroy Damazy Orbital Space Port (Ikkuro)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -10750,7 +10750,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Destroy Damazy Orbital Defense Base (Ikkuro)</GeneratedItemName>
+        <GeneratedItemName>Destroy Damazy Orbital Space Port (Ikkuro)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -10775,7 +10775,7 @@
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Capture Damazy Orbital Defense Base (Ikkuro)</GeneratedItemName>
+        <GeneratedItemName>Capture Damazy Orbital Space Port (Ikkuro)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -11828,7 +11828,7 @@
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>5</Id1>
-				<Id2>30000000</Id2>
+				<Id2>12000000</Id2>
 				<Value1>5</Value1>
 				<Value2>0.68</Value2>
 				<ShipRole>Undefined</ShipRole>
