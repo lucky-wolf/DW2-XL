@@ -450,7 +450,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>14</ResearchProjectId>
-		<Name>Energy Torpedo Weapons</Name>
+		<Name>Epsilon Torpedoes</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -1438,7 +1438,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>37</ResearchProjectId>
-		<Name>Enhanced Torpedos</Name>
+		<Name>Enhanced Epsilon Torpedos</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -2460,7 +2460,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>60</ResearchProjectId>
-		<Name>Advanced Torpedos</Name>
+		<Name>Advanced Epsilon Torpedos</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -12221,6 +12221,10 @@
 					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
 					<Amount>200</Amount>
 				</ResourceQuantity>
@@ -17348,11 +17352,11 @@
 		<Row>322</Row>
 		<Components>
 			<Component>
-				<ComponentId>237</ComponentId>
+				<ComponentId>92</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>92</ComponentId>
+				<ComponentId>237</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -18124,11 +18128,11 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>312</ComponentId>
+				<ComponentId>108</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>108</ComponentId>
+				<ComponentId>312</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -20958,12 +20962,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>312</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
 				<ComponentId>311</ComponentId>
 				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>312</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
