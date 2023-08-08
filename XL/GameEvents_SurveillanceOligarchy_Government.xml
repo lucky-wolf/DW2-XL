@@ -80,13 +80,14 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Surveillance Oligarchy</MessageTitle>
-				<Description>Per your wishes we have developed and improved on the latest methods of tracking our citezens every move, within and without our empire, having completed:
+				<Description>Per your wishes we have developed and improved the latest methods of tracking our enemies every move, within and without our empire, having completed:
 
-					Basic Target Tracking
-					Penetrating Scanners
-					Standard Sensors
+[ULI][RESEARCH]Basic Target Tracking[/RESEARCH][/ULI]
+[ULI][RESEARCH]Penetrating Scanners[/RESEARCH][/ULI]
+[ULI][RESEARCH]Standard Sensors[/RESEARCH][/ULI]
+[ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
 
-					Nothing will move that we will not know about, and we will be able to control from our central hub here on our homeworld.</Description>
+Nothing will move that we will not know about! Our webs of intrigue and intel shall grow to encompass the entire galaxy, which we shall dominate!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -174,6 +175,33 @@
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Standard Sensors -->
 				<Id1>403</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Long Range Sensors -->
+				<Id1>433</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>

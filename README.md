@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.1](#v1161)
 		- [v1.16.0](#v1160)
 		- [v1.15.5](#v1155)
 		- [v1.15.4](#v1154)
@@ -163,6 +164,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.1
+- Ensured that all Ancient Guardian techs appear in a group at end of the tech tree
+- Tweaked & fixed formatting of government event descriptions
+- Tweaked diplomatic facilities to not increase corruption, but always reduce recruitment empire-wide
 
 ### v1.16.0
 - Updated for 1.1.6.1 beta (required)

@@ -266,6 +266,8 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 [ULI][RESEARCH]Basic Space Commerce[/RESEARCH][/ULI]
 [ULI][RESEARCH]Basic Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Civilian Transports[/RESEARCH][/ULI]
+
+It is time for our people to unite and reach for the stars!
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
@@ -2212,9 +2214,9 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<MessageTitle>Technocracy</MessageTitle>
 				<Description>Your initial directive as head researcher and first amongst equals has paid off with the completion of:
 
-[/RESEARCH][/ULI]Exploration Scanners[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Planetary Exploration[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Long Range Sensors[/RESEARCH][/ULI]
+[ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
+[ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
+[ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
 
 Another [CHARACTER]scientist[/CHARACTER] nearly your equal has emerged to head up our day to day operations now that you have accepted your appointment as head of the government.
 Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!
@@ -2423,11 +2425,11 @@ Worry not that we will execute your directions with all professional alacrity as
 				<MessageTitle>Hive Mind</MessageTitle>
 				<Description>The hive is ready to serve! We have completed some important breakthroughs in:
 
-[/RESEARCH][/ULI]Improved Logistics[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Assault Pods[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Basic Transport Systems[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Military Transports[/RESEARCH][/ULI]
-[/RESEARCH][/ULI]Stellar Frigates[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Logistics[/RESEARCH][/ULI]
+[ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
+[ULI][RESEARCH]Basic Transport Systems[/RESEARCH][/ULI]
+[ULI][RESEARCH]Military Transports[/RESEARCH][/ULI]
+[ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
 
 Our first army awaits your command at our homeworld...
 				</Description>
@@ -2700,14 +2702,14 @@ Our first army awaits your command at our homeworld...
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Archivist</MessageTitle>
-				<Description>Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons.
+				<Description>Librarian, we have just completed our initial research efforts to kickstart our efforts:
 
-Librarian, we have just completed our initial research efforts to kickstart our efforts:
+[ULI][RESEARCH]Standard Sensors[/RESEARCH][/ULI]
+[ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
+[ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
+[ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 
-[RESEARCH][ULI]Standard Sensors[/RESEARCH][/ULI]
-[RESEARCH][ULI]Long Range Sensors[/RESEARCH][/ULI]
-[RESEARCH][ULI]Exploration Scanners[/RESEARCH][/ULI]
-[RESEARCH][ULI]Planetary Exploration[/RESEARCH][/ULI]
+Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons!
 				</Description>
 				<ImageFilepath />
 				<MusicFilepath />
