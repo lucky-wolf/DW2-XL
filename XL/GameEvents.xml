@@ -53096,7 +53096,7 @@ We have dispatched our best techno-agents to gain access to their planetary data
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Excavate the Outpost 35,000cr</ChoiceButtonText>
+				<ChoiceButtonText>Excavate the Outpost [-35,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Excavate the Outpost (Zenox)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -53194,6 +53194,32 @@ Also among the ruins we discovered another lost artifact of our glorious past. I
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>22</Id1>
 				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TransferMoney</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id2>-5</Id2>
+				<Value1>35000</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -53318,7 +53344,7 @@ Also among the ruins we discovered another lost artifact of our glorious past. I
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Excavate the Outpost 35,000cr</ChoiceButtonText>
+				<ChoiceButtonText>Excavate the Outpost [-35,000cr]</ChoiceButtonText>
 				<GeneratedItemName>Excavate the Outpost (Non Zenox)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
@@ -53412,6 +53438,32 @@ Also among the ruins we discovered an ancient poem called "The Epic of the Betra
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>22</Id1>
 				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TransferMoney</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id2>-5</Id2>
+				<Value1>35000</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

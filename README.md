@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.2](#v1162)
 		- [v1.16.1](#v1161)
 		- [v1.16.0](#v1160)
 		- [v1.15.5](#v1155)
@@ -164,6 +165,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.2
+- Updated for 1.1.6.4 beta (required)
+  - minor tweaks to game event and slowed hive hyperdrive (but not as much as vanilla)
 
 ### v1.16.1
 - Ensured that all Ancient Guardian techs appear in a group at end of the tech tree
