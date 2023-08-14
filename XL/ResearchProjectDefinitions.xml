@@ -11722,14 +11722,6 @@
 		</Components>
 		<ShipHulls>
 			<ShipHullReference>
-				<Role>MiningStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ResearchStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
@@ -12997,10 +12989,6 @@
 			</Component>
 		</Components>
 		<ShipHulls>
-			<ShipHullReference>
-				<Role>MiningStation</Role>
-				<Level>1</Level>
-			</ShipHullReference>
 			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>1</Level>
@@ -28648,6 +28636,14 @@
 				<Role>SpaceportSmall</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ResearchStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -28723,6 +28719,10 @@
 			<ShipHullReference>
 				<Role>SpaceportSmall</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>1</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -32946,7 +32946,7 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>793</ResearchProjectId>
+		<ResearchProjectId>792</ResearchProjectId>
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>0</Size>
@@ -33280,23 +33280,57 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>824</ResearchProjectId>
-		<Name>Undefined</Name>
+		<Name>Basic Vault Systems</Name>
+		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
+		<Size>1600</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>370</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>825</ResearchProjectId>
-		<Name>Undefined</Name>
+		<Name>Basic Vault Structures</Name>
+		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
+		<Size>1600</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>371</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>826</ResearchProjectId>
@@ -33527,7 +33561,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>371</Row>
+		<Row>372</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33554,7 +33588,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>372</Row>
+		<Row>373</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33581,7 +33615,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>373</Row>
+		<Row>374</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33608,7 +33642,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>374</Row>
+		<Row>375</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33635,7 +33669,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>375</Row>
+		<Row>376</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33662,7 +33696,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>376</Row>
+		<Row>377</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33689,7 +33723,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>377</Row>
+		<Row>378</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33716,7 +33750,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>378</Row>
+		<Row>379</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33743,7 +33777,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>379</Row>
+		<Row>380</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33770,7 +33804,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>380</Row>
+		<Row>381</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33797,7 +33831,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>381</Row>
+		<Row>382</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33824,7 +33858,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>382</Row>
+		<Row>383</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33851,7 +33885,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>383</Row>
+		<Row>384</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33878,7 +33912,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>384</Row>
+		<Row>385</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33905,7 +33939,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>385</Row>
+		<Row>386</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33932,7 +33966,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>386</Row>
+		<Row>387</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33959,7 +33993,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>387</Row>
+		<Row>388</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33986,7 +34020,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>388</Row>
+		<Row>389</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34013,7 +34047,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>389</Row>
+		<Row>390</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34040,7 +34074,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>390</Row>
+		<Row>391</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34067,7 +34101,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>391</Row>
+		<Row>392</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34094,7 +34128,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>392</Row>
+		<Row>393</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
