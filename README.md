@@ -169,6 +169,12 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.16.3
 - Fixed couple of issues with Ancient Guardian Vault techs
+- Moved XL components into the 5xx range to avoid collisions
+- Seperated "Derelict Reactor" so that they'll have plenty of power and won't be confused with antimatter reactors in XL
+- Added defense improvement factors to Mech improvement techs
+- Added all around improvement factors to Robotic Troop improvement techs
+- Reduced chance of Caslon to 1% per gas giant (game has screwed up system, and this should result in approx 6% rate plus story elements)
+- Fixed Planetary Pulsed Defenses (had dead component reference)
 
 ### v1.16.2
 - Updated for 1.1.6.4 beta (required)
