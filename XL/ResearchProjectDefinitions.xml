@@ -35,7 +35,7 @@
 		<Row>13</Row>
 		<Components>
 			<Component>
-				<ComponentId>445</ComponentId>
+				<ComponentId>545</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -55,7 +55,7 @@
 		<Row>60</Row>
 		<Components>
 			<Component>
-				<ComponentId>448</ComponentId>
+				<ComponentId>548</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -348,7 +348,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>451</ComponentId>
+				<ComponentId>551</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -388,7 +388,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>449</ComponentId>
+				<ComponentId>549</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -1255,7 +1255,7 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>433</ComponentId>
+				<ComponentId>533</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -1295,7 +1295,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>449</ComponentId>
+				<ComponentId>549</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -2310,7 +2310,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>451</ComponentId>
+				<ComponentId>551</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -2358,7 +2358,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>450</ComponentId>
+				<ComponentId>550</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -3151,7 +3151,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.25</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.25</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3194,10 +3194,10 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0.05</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<RecoveryRateFactor>0.05</RecoveryRateFactor>
+				<AttackStrengthFactor>0.05</AttackStrengthFactor>
+				<DefendStrengthFactor>0.05</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.05</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -4497,7 +4497,7 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>418</ComponentId>
+				<ComponentId>518</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -4641,7 +4641,7 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.25</AttackStrengthFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -4994,7 +4994,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>452</ComponentId>
+				<ComponentId>552</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -5041,7 +5041,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>451</ComponentId>
+				<ComponentId>551</ComponentId>
 				<Level>2</Level>
 			</Component>
 			<Component>
@@ -5129,7 +5129,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>450</ComponentId>
+				<ComponentId>550</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -5341,7 +5341,7 @@
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>453</ComponentId>
+				<ComponentId>553</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -6257,7 +6257,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.25</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.25</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -7075,7 +7075,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>453</ComponentId>
+				<ComponentId>553</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -7414,7 +7414,7 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>418</ComponentId>
+				<ComponentId>518</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -7465,7 +7465,7 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<AttackStrengthFactor>0.25</AttackStrengthFactor>
 				<DefendStrengthFactor>0.25</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -7789,7 +7789,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>433</ComponentId>
+				<ComponentId>533</ComponentId>
 				<Level>2</Level>
 			</Component>
 			<Component>
@@ -7836,7 +7836,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>451</ComponentId>
+				<ComponentId>551</ComponentId>
 				<Level>3</Level>
 			</Component>
 			<Component>
@@ -7929,7 +7929,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>454</ComponentId>
+				<ComponentId>554</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -8920,7 +8920,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.5</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.5</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -8971,10 +8971,10 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0.1</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -9132,7 +9132,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.5</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.5</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -9736,7 +9736,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>454</ComponentId>
+				<ComponentId>554</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -9808,7 +9808,7 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>455</ComponentId>
+				<ComponentId>555</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -10127,7 +10127,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>5</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10174,6 +10174,7 @@
 				<Values>
 					<ComponentStats>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10189,7 +10190,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>6</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10220,7 +10221,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>34</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10252,7 +10253,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>10</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10268,6 +10269,7 @@
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10283,7 +10285,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>11</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10314,7 +10316,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>16</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10359,7 +10361,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>60</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10390,7 +10392,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>61</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10421,7 +10423,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>22</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10452,7 +10454,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>20</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10483,7 +10485,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>21</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10514,7 +10516,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>24</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10537,6 +10539,7 @@
 				<Values>
 					<ComponentStats>
 						<TractorBeamRange>0.05</TractorBeamRange>
+						<TractorBeamPowerFalloff>-0.05</TractorBeamPowerFalloff>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10552,7 +10555,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>25</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10590,7 +10593,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>26</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10628,7 +10631,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>23</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10677,7 +10680,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>53</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10744,7 +10747,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>54</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10803,7 +10806,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>52</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10820,6 +10823,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10829,6 +10833,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10838,6 +10843,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10847,6 +10853,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10862,7 +10869,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>83</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10925,7 +10932,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10984,7 +10991,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>70</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11015,7 +11022,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>71</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11046,7 +11053,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>72</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11077,7 +11084,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>42</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11136,7 +11143,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>43</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11177,7 +11184,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>44</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11217,7 +11224,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>190</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11250,7 +11257,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11722,14 +11729,6 @@
 		</Components>
 		<ShipHulls>
 			<ShipHullReference>
-				<Role>MiningStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ResearchStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
@@ -11770,7 +11769,7 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>440</ComponentId>
+				<ComponentId>540</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -12998,10 +12997,6 @@
 		</Components>
 		<ShipHulls>
 			<ShipHullReference>
-				<Role>MiningStation</Role>
-				<Level>1</Level>
-			</ShipHullReference>
-			<ShipHullReference>
 				<Role>ConstructionShip</Role>
 				<Level>1</Level>
 			</ShipHullReference>
@@ -13122,7 +13117,7 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>440</ComponentId>
+				<ComponentId>540</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -13901,7 +13896,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>456</ComponentId>
+				<ComponentId>556</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -14450,7 +14445,7 @@
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>452</ComponentId>
+				<ComponentId>552</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -14766,7 +14761,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>433</ComponentId>
+				<ComponentId>533</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -14986,7 +14981,7 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>164</ComponentId>
+				<ComponentId>547</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -15972,7 +15967,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>436</ComponentId>
+				<ComponentId>536</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -16144,7 +16139,7 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>164</ComponentId>
+				<ComponentId>547</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -17007,7 +17002,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>436</ComponentId>
+				<ComponentId>536</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -17136,7 +17131,7 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>441</ComponentId>
+				<ComponentId>541</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -17821,7 +17816,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>402</ComponentId>
+				<ComponentId>502</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -18781,7 +18776,7 @@
 		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>434</ComponentId>
+				<ComponentId>534</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -20272,7 +20267,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>434</ComponentId>
+				<ComponentId>534</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -21494,7 +21489,7 @@
 				<Level>2</Level>
 			</Component>
 			<Component>
-				<ComponentId>164</ComponentId>
+				<ComponentId>547</ComponentId>
 				<Level>2</Level>
 			</Component>
 		</Components>
@@ -22515,7 +22510,7 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>441</ComponentId>
+				<ComponentId>541</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -23909,7 +23904,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>456</ComponentId>
+				<ComponentId>556</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -24180,7 +24175,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>435</ComponentId>
+				<ComponentId>535</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
@@ -25528,7 +25523,7 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>446</ComponentId>
+				<ComponentId>546</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -25651,7 +25646,7 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>435</ComponentId>
+				<ComponentId>535</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
@@ -26276,7 +26271,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>35</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26347,7 +26342,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>32</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26406,7 +26401,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>33</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26465,7 +26460,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26524,7 +26519,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>203</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26552,7 +26547,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>204</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26591,7 +26586,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>205</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26630,7 +26625,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>103</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26651,7 +26646,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>104</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26690,7 +26685,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>105</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26729,7 +26724,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>217</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26760,7 +26755,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>218</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26780,7 +26775,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>220</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26804,7 +26799,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>223</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26845,7 +26840,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>224</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26886,7 +26881,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>226</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26937,7 +26932,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>233</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26976,7 +26971,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>245</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27015,7 +27010,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>237</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27054,7 +27049,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>238</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27090,7 +27085,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>239</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27126,7 +27121,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>241</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27162,7 +27157,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>242</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27198,7 +27193,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>243</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27241,7 +27236,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>234</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27277,7 +27272,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>96</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27332,7 +27327,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>97</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27387,7 +27382,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>253</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27418,7 +27413,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>252</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27449,7 +27444,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>259</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27482,7 +27477,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>318</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27503,7 +27498,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>320</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27534,7 +27529,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>285</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27581,7 +27576,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27612,7 +27607,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27643,7 +27638,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>280</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27674,7 +27669,7 @@
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>280</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27695,7 +27690,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>274</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27726,7 +27721,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>277</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27757,7 +27752,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>297</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27806,7 +27801,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>301</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -27843,7 +27838,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>304</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -28648,6 +28643,14 @@
 				<Role>SpaceportSmall</Role>
 				<Level>0</Level>
 			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>ResearchStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -28723,6 +28726,10 @@
 			<ShipHullReference>
 				<Role>SpaceportSmall</Role>
 				<Level>2</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>MiningStation</Role>
+				<Level>1</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -31872,7 +31879,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>2</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -31979,7 +31986,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>3</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32008,6 +32015,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32017,6 +32025,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32026,6 +32035,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32035,6 +32045,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32044,6 +32055,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32053,6 +32065,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32062,6 +32075,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32071,6 +32085,7 @@
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -32086,7 +32101,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>13</Column>
+		<Column>11</Column>
 		<Row>4</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32946,7 +32961,7 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>793</ResearchProjectId>
+		<ResearchProjectId>792</ResearchProjectId>
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>0</Size>
@@ -33280,23 +33295,57 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>824</ResearchProjectId>
-		<Name>Undefined</Name>
+		<Name>Basic Vault Systems</Name>
+		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
+		<Size>1600</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>370</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>825</ResearchProjectId>
-		<Name>Undefined</Name>
+		<Name>Basic Vault Structures</Name>
+		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
+		<Size>1600</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>371</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>823</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>826</ResearchProjectId>
@@ -33527,7 +33576,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>371</Row>
+		<Row>372</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33554,7 +33603,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>372</Row>
+		<Row>373</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33581,7 +33630,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>373</Row>
+		<Row>374</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33608,7 +33657,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>374</Row>
+		<Row>375</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33635,7 +33684,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>375</Row>
+		<Row>376</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33662,7 +33711,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>376</Row>
+		<Row>377</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33689,7 +33738,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>377</Row>
+		<Row>378</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33716,7 +33765,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>378</Row>
+		<Row>379</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33743,7 +33792,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>379</Row>
+		<Row>380</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33770,7 +33819,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>380</Row>
+		<Row>381</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33797,7 +33846,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>381</Row>
+		<Row>382</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33824,7 +33873,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>382</Row>
+		<Row>383</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33851,7 +33900,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>383</Row>
+		<Row>384</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33878,7 +33927,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>384</Row>
+		<Row>385</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33905,7 +33954,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>385</Row>
+		<Row>386</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33932,7 +33981,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>386</Row>
+		<Row>387</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33959,7 +34008,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>387</Row>
+		<Row>388</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -33986,7 +34035,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>388</Row>
+		<Row>389</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34013,7 +34062,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>389</Row>
+		<Row>390</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34040,7 +34089,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>390</Row>
+		<Row>391</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34067,7 +34116,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>391</Row>
+		<Row>392</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>
@@ -34094,7 +34143,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>392</Row>
+		<Row>393</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>823</ResearchProjectId>

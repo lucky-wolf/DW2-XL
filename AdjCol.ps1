@@ -15,6 +15,7 @@ foreach ($Item in $files) {
 	$Item = $Item.Name
 	$target = "XL/$Item"
 	$source = "temp/$Item"
-	Copy $target $source
-	perl "AdjustRow.pl" $source $rowstart $rowend $colstart $colend $offset $target
+	Copy-Item $target $source
+	# input:	source-filename rowstart rowend colsstart coleend coffset output-filename
+	perl "AdjustCol.pl" $source $rowstart $rowend $colstart $colend $offset $target
 }

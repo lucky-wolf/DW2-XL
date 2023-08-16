@@ -234,6 +234,7 @@
 		<xs:all>
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponInterceptComponentTargetingBonus" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponInterceptRange" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="WeaponDamageFalloffRatio" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponInterceptFireRate" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponEnergyPerShot" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponFireRate" type="xs:float" />
@@ -243,6 +244,7 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponAreaEffectRange" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponAreaBlastWaveSpeed" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TractorBeamRange" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="TractorBeamPowerFalloff" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TractorBeamEnergyPerShot" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TractorBeamPower" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="WeaponInterceptDamageDirectFire" type="xs:float" />

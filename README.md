@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.3](#v1163)
 		- [v1.16.2](#v1162)
 		- [v1.16.1](#v1161)
 		- [v1.16.0](#v1160)
@@ -165,6 +166,18 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.3
+- Updated for 1.1.6.5 beta (required)
+  - Consisted of some very minor changes for repeatable techs
+- Fixed couple of issues with Ancient Guardian Vault techs
+- Moved XL components into the 500 range to avoid collisions
+- Separated "Derelict Reactor" so that they'll have plenty of power and won't be confused with antimatter reactors in XL
+- Added defense improvement factors to Mech improvement techs
+- Added all around improvement factors to Robotic Troop improvement techs
+- Reduced chance of Caslon to approx 6% of all gas giants outside of story based systems
+- Fixed Planetary Pulsed Defenses (had dead component reference)
+- Moved repeatable techs to T11 (was T13)
 
 ### v1.16.2
 - Updated for 1.1.6.4 beta (required)
