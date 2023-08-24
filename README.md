@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.5](#v1165)
 		- [v1.16.4](#v1164)
 		- [v1.16.3](#v1163)
 		- [v1.16.2](#v1162)
@@ -167,6 +168,9 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.5
+- Tweaked the Planetary Admin facilities to have increasing construction and maintainance costs
 
 ### v1.16.4
 - Reverted Planetary Administration facilities to be levels of the same family
