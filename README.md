@@ -171,6 +171,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.16.5
 - Tweaked the Planetary Admin facilities to have increasing construction and maintainance costs
+- Reduced tech cost of level 3 and 4 government facilities to same as level 2, to try to make the AIs not totally fail
 
 ### v1.16.4
 - Reverted Planetary Administration facilities to be levels of the same family
