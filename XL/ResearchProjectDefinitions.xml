@@ -122,7 +122,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>6</ResearchProjectId>
-		<Name>Improved Ground Combat</Name>
+		<Name>Ground Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -134,8 +134,8 @@
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.05</AttackStrengthFactor>
-				<DefendStrengthFactor>0.05</DefendStrengthFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -791,7 +791,7 @@
 		<Row>190</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -820,7 +820,7 @@
 		<Row>191</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -849,7 +849,7 @@
 		<Row>192</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -882,7 +882,7 @@
 		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -923,7 +923,7 @@
 		<Row>195</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -1017,7 +1017,7 @@
 		<Row>200</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -1858,7 +1858,7 @@
 		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -1887,7 +1887,7 @@
 		<Row>197</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>6</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -22287,7 +22287,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>457</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -22375,7 +22381,13 @@
 				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>457</ResearchProjectId>
+				<PathAppearanceLikelihood>0</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>

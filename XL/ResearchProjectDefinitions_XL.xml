@@ -1398,6 +1398,34 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<ResearchProjectId>1027</ResearchProjectId>
+		<Name>Improved Ground Combat</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>100</Size>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>193</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1027</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Infantry</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.05</AttackStrengthFactor>
+				<DefendStrengthFactor>0.05</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
 		<ResearchProjectId>1028</ResearchProjectId>
 		<Name>Maelstrom Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
