@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.7](#v1167)
 		- [v1.16.6](#v1166)
 		- [v1.16.5](#v1165)
 		- [v1.16.4](#v1164)
@@ -169,6 +170,14 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.7
+- Added basic Ground Combat tech (and all races start with it), which leads to Improved Ground Combat
+- Tweaked heavy battleships and carriers to require advanced long range sensors
+- Reduced Ion Shields to size 10
+- Fixed bug that didn't allow synthetic units to be built
+- Added Improved Crew Modules
+  - Made Marine Barracks depend on Zero-G Combat
 
 ### v1.16.6
 - Updated for 1.1.6.6 beta (strongly recommended)
