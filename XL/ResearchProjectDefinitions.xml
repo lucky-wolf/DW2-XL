@@ -128,7 +128,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<TroopTechs>
 			<TroopTech>
 				<Type>Infantry</Type>
@@ -846,7 +846,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>192</Row>
+		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -879,7 +879,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -944,7 +944,7 @@
 		<ResearchProjectId>26</ResearchProjectId>
 		<Name>Zero-G Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>100</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -960,7 +960,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>1</Column>
 		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -1855,7 +1855,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>194</Row>
+		<Row>192</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -3227,7 +3227,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>192</Row>
+		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>23</ResearchProjectId>
@@ -3272,7 +3272,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>24</ResearchProjectId>
@@ -3452,14 +3452,20 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>325</Row>
+		<Row>324</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>392</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>26</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>344</ComponentId>
@@ -3471,7 +3477,7 @@
 		<ResearchProjectId>82</ResearchProjectId>
 		<Name>Ship Defense Training</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -3499,7 +3505,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>247</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -4628,7 +4634,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>194</Row>
+		<Row>192</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>46</ResearchProjectId>
@@ -6329,7 +6335,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>192</Row>
+		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>76</ResearchProjectId>
@@ -6382,7 +6388,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>77</ResearchProjectId>
@@ -6565,7 +6571,7 @@
 		<ResearchProjectId>144</ResearchProjectId>
 		<Name>Assault Marines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -6593,7 +6599,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6616,7 +6622,7 @@
 		<ResearchProjectId>145</ResearchProjectId>
 		<Name>Advanced Defense Measures</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -6644,7 +6650,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>247</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -7452,7 +7458,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>194</Row>
+		<Row>192</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>104</ResearchProjectId>
@@ -9012,7 +9018,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>192</Row>
+		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>139</ResearchProjectId>
@@ -9065,7 +9071,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>140</ResearchProjectId>
@@ -9118,7 +9124,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>194</Row>
+		<Row>192</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>160</ResearchProjectId>
@@ -9301,7 +9307,7 @@
 		<ResearchProjectId>198</ResearchProjectId>
 		<Name>Armored Assault Marines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -9329,7 +9335,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -10084,7 +10090,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>192</Row>
+		<Row>193</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>190</ResearchProjectId>
@@ -10111,8 +10117,13 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>195</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>67</short>
 		</PlanetaryFacilityIds>
@@ -11258,7 +11269,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>193</Row>
+		<Row>194</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>212</ResearchProjectId>
@@ -17280,7 +17291,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>324</Row>
+		<Row>325</Row>
 		<Components>
 			<Component>
 				<ComponentId>88</ComponentId>
@@ -17953,7 +17964,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>324</Row>
+		<Row>325</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>392</ResearchProjectId>
@@ -19633,7 +19644,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>324</Row>
+		<Row>325</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>411</ResearchProjectId>
@@ -20604,7 +20615,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>324</Row>
+		<Row>325</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>448</ResearchProjectId>
@@ -22431,7 +22442,28 @@
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<!-- Superior Sensors -->
+				<ResearchProjectId>1062</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Superior Crystal Sensors -->
+				<ResearchProjectId>1064</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>7</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Superior M-T Sensors -->
+				<ResearchProjectId>1101</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>4</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Cruiser</Role>
@@ -23866,10 +23898,16 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>514</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>523</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Carrier</Role>
@@ -23954,10 +23992,16 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>516</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>523</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>CapitalShip</Role>
@@ -24649,7 +24693,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>324</Row>
+		<Row>325</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>475</ResearchProjectId>
@@ -24841,12 +24885,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>312</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
 				<ComponentId>310</ComponentId>
 				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>312</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

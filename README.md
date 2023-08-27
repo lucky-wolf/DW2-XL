@@ -176,8 +176,10 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked heavy battleships and carriers to require advanced long range sensors
 - Reduced Ion Shields to size 10
 - Fixed bug that didn't allow synthetic units to be built
-- Added Improved Crew Modules
-  - Made Marine Barracks depend on Zero-G Combat
+- Shipboard Marine Barracks requires on Zero-G Combat
+- Feudalism starts get Shipboard Marine tech
+- Specialized Cruisers and Advanced Cruisers require correspondingly high tech sensors
+- Heavy Capital Ships and Super Capital Ships require correspondingly high tech long range sensors
 
 ### v1.16.6
 - Updated for 1.1.6.6 beta (strongly recommended)
