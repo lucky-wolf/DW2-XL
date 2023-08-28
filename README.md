@@ -180,6 +180,7 @@ YMMV, but this is my take on making it Extra Large!
 - Feudalism starts get Shipboard Marine tech
 - Specialized Cruisers and Advanced Cruisers require correspondingly high tech sensors
 - Heavy Capital Ships and Super Capital Ships require correspondingly high tech long range sensors
+- Rebalanced the Ikkuro terraforming techs to be cheap, slow, steady with a better maximum at each technology level
 
 ### v1.16.6
 - Updated for 1.1.6.6 beta (strongly recommended)
