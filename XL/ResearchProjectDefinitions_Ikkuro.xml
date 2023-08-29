@@ -85,7 +85,7 @@
 		<ResearchProjectId>330</ResearchProjectId>
 		<Name>Regenerating Hull Splinters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>100</Size>
+		<Size>33</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -101,7 +101,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>0</Column>
 		<Row>244</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -109,14 +109,14 @@
 				<Probability>1</Probability>
 			</RaceProbability>
 		</AllowedRaceIds>
-		<PrerequisiteProjects>
+		<!-- <PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>265</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>5</RaceId>
 			</ResearchPath>
-		</PrerequisiteProjects>
+		</PrerequisiteProjects> -->
 		<Components>
 			<Component>
 				<ComponentId>309</ComponentId>
@@ -176,7 +176,7 @@
 		<ResearchProjectId>377</ResearchProjectId>
 		<Name>Fast Splinter Expulsion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>300</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -192,7 +192,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>244</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -333,7 +333,7 @@
 		<ResearchProjectId>511</ResearchProjectId>
 		<Name>Improved Splinter Integrity</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -349,7 +349,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>244</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -376,7 +376,7 @@
 		<ResearchProjectId>546</ResearchProjectId>
 		<Name>Splinter Swarms</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -392,7 +392,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>244</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
