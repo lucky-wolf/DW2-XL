@@ -129,6 +129,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="ActionLocationItemType" type="ItemType" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id1" type="xs:int" />
 			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id2" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id3" type="xs:int" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Value1" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="Value2" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ShipRole" type="ShipRole" />

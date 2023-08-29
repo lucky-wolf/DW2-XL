@@ -172,6 +172,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.16.7
+- Updated for 1.1.6.7 beta (recommended)
 - Added basic Ground Combat tech (and all races start with it), which leads to Improved Ground Combat
 - Tweaked heavy battleships and carriers to require advanced long range sensors
 - Reduced Ion Shields to size 10
