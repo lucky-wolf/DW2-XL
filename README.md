@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
 		- [v1.16.6](#v1166)
 		- [v1.16.5](#v1165)
@@ -170,6 +171,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.8
+- Removed infantry upgrades from robotic troop techs
+- Better aligned the repeatable techs with XL's tech tree
+- Fixed some repeatable techs' components so they refer to the right things
 
 ### v1.16.7
 - Updated for 1.1.6.7 beta (recommended)

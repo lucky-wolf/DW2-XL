@@ -8042,4 +8042,33 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1178</ResearchProjectId>
+		<Name>Improved Max Hull Size (Battleships)</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>109350</Size>
+		<InitiationCost>
+			<Money>162000</Money>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>259</Row>
+		<PrerequisiteProjects>
+			<!-- colossal battleships -->
+			<ResearchPath>
+				<ResearchProjectId>1048</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableShipHullValues>
+			<ShipHullValues>
+				<Role>CapitalShip</Role>
+				<Level>3</Level>
+				<MaximumSize>0.05</MaximumSize>
+			</ShipHullValues>
+		</RepeatableShipHullValues>
+	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>
