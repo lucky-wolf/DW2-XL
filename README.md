@@ -176,6 +176,8 @@ YMMV, but this is my take on making it Extra Large!
 - Removed infantry upgrades from robotic troop techs
 - Better aligned the repeatable techs with XL's tech tree
 - Fixed some repeatable techs' components so they refer to the right things
+- Reduced the size range of habitable planets by -1K
+- Tweaked Proton Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
 
 ### v1.16.7
 - Updated for 1.1.6.7 beta (recommended)
