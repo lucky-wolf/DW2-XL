@@ -176,8 +176,10 @@ YMMV, but this is my take on making it Extra Large!
 - Removed infantry upgrades from robotic troop techs
 - Better aligned the repeatable techs with XL's tech tree
 - Fixed some repeatable techs' components so they refer to the right things
-- Reduced the size range of habitable planets by -1K
+- Reduced the size range of habitable planets by -1000 (was 4000-6500, now 3000-5500)
 - Tweaked Proton Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
+- Changed all hyperdrives to have accuracy of 2000 to try to cope with the BUGGY DW2 ENGINE that tries to jump endless and cannot ever arrive at their destination
+- Tweaked policies to also attempt to address the MASSIVELY BUGGY and BROKEN DW2 that tries to order & build thousands of troops at every mature world
 
 ### v1.16.7
 - Updated for 1.1.6.7 beta (recommended)

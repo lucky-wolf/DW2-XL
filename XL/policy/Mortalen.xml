@@ -196,16 +196,16 @@
 	<CashflowColonyGrowthFunding>0.7</CashflowColonyGrowthFunding>
 	<CashflowResearchFunding>0.3</CashflowResearchFunding>
 	<CashflowStateShipMaintenance>0.6</CashflowStateShipMaintenance>
-	<CashflowTroopMaintenance>0.3</CashflowTroopMaintenance>
-	<CashflowFacilityMaintenance>0.1</CashflowFacilityMaintenance>
+	<CashflowTroopMaintenance>0.05</CashflowTroopMaintenance>
+	<CashflowFacilityMaintenance>0.30</CashflowFacilityMaintenance>
 	<CashflowResourceTrading>0</CashflowResourceTrading>
-	<CashflowUncommitted>0.1</CashflowUncommitted>
-	<ColonyTroopGarrisonLevel>1</ColonyTroopGarrisonLevel>
-	<AttackTroopLevel>1</AttackTroopLevel>
-	<ConstructionSpaceportLargePopulationRequired>5E+09</ConstructionSpaceportLargePopulationRequired>
-	<ConstructionSpaceportMediumPopulationRequired>2E+09</ConstructionSpaceportMediumPopulationRequired>
-	<ConstructionSpaceportSmallPopulationRequired>0.2E+09</ConstructionSpaceportSmallPopulationRequired>
-	<ConstructionSpaceportNearestDistance>5E+03</ConstructionSpaceportNearestDistance>
+	<CashflowUncommitted>0.15</CashflowUncommitted>
+	<ColonyTroopGarrisonLevel>0.5</ColonyTroopGarrisonLevel>
+	<AttackTroopLevel>0.5</AttackTroopLevel>
+	<ConstructionSpaceportLargePopulationRequired>10E+09</ConstructionSpaceportLargePopulationRequired>
+	<ConstructionSpaceportMediumPopulationRequired>5E+09</ConstructionSpaceportMediumPopulationRequired>
+	<ConstructionSpaceportSmallPopulationRequired>250E+03</ConstructionSpaceportSmallPopulationRequired>
+	<ConstructionSpaceportNearestDistance>0</ConstructionSpaceportNearestDistance>
 	<ConstructionLevelSpaceport>1</ConstructionLevelSpaceport>
 	<ConstructionLevelDefensiveBases>0.5</ConstructionLevelDefensiveBases>
 	<ConstructionLevelMonitoring>0.5</ConstructionLevelMonitoring>
@@ -229,7 +229,7 @@
 	<MilitaryShipMissionRatioPatrol>0.5</MilitaryShipMissionRatioPatrol>
 	<MilitaryShipMissionRatioRaid>0</MilitaryShipMissionRatioRaid>
 	<EngageInTourism>true</EngageInTourism>
-	<ColonizationMinimumSuitability>0.10</ColonizationMinimumSuitability>
+	<ColonizationMinimumSuitability>0.01</ColonizationMinimumSuitability>
 	<IntelligenceMissionCounterIntelRatio>0.34</IntelligenceMissionCounterIntelRatio>
 	<IntelligenceMissionAggressiveness>1</IntelligenceMissionAggressiveness>
 	<IntelligenceMissionCaution>1</IntelligenceMissionCaution>
