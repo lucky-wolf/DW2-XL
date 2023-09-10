@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
 		- [v1.16.6](#v1166)
 		- [v1.16.5](#v1165)
@@ -170,6 +171,15 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.8
+- Removed infantry upgrades from robotic troop techs
+- Better aligned the repeatable techs with XL's tech tree
+- Fixed some repeatable techs' components so they refer to the right things
+- Reduced the size range of habitable planets by -1000 (was 4000-6500, now 3000-5500)
+- Tweaked Proton Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
+- Changed all hyperdrives to have accuracy of 2000 to try to cope with the BUGGY DW2 ENGINE that tries to jump endless and cannot ever arrive at their destination
+- Tweaked policies to also attempt to address the MASSIVELY BUGGY and BROKEN DW2 that tries to order & build thousands of troops at every mature world
 
 ### v1.16.7
 - Updated for 1.1.6.7 beta (recommended)

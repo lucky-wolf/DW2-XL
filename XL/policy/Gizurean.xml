@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <EmpirePolicy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<AutomationSettings>
 		<AutomationLevel>Automated</AutomationLevel>
@@ -25,12 +25,12 @@
 		<AutomationLevel>Automated</AutomationLevel>
 		<AutomationLevel>Automated</AutomationLevel>
 	</AutomationSettings>
-	<AttackOvermatchFactor>1.5</AttackOvermatchFactor>
+	<AttackOvermatchFactor>2</AttackOvermatchFactor>
 	<CaptureTargetConditionShip>WhenHighTechOrLargerThanCanBuild</CaptureTargetConditionShip>
-	<CaptureTargetConditionBase>Always</CaptureTargetConditionBase>
+	<CaptureTargetConditionBase>WhenBaseInOwnTerritory</CaptureTargetConditionBase>
 	<CaptureEnlistMilitaryShip>Always</CaptureEnlistMilitaryShip>
 	<CaptureDisassembleMilitaryShip>DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney</CaptureDisassembleMilitaryShip>
-	<CaptureEnlistCivilianShip>WhenNOTHighTechOrLargerThanCanBuild</CaptureEnlistCivilianShip>
+	<CaptureEnlistCivilianShip>Never</CaptureEnlistCivilianShip>
 	<CaptureDisassembleCivilianShip>DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney</CaptureDisassembleCivilianShip>
 	<CaptureEnlistBase>Always</CaptureEnlistBase>
 	<UpgradeEnlistedMilitaryShips>true</UpgradeEnlistedMilitaryShips>
@@ -38,45 +38,29 @@
 	<CharacterHandlingWhenTakeoverShipOrColony>CaptureIfEnemyReturnHomeIfOther</CharacterHandlingWhenTakeoverShipOrColony>
 	<ExecuteCapturedForeignAgents>false</ExecuteCapturedForeignAgents>
 	<Priorities>
-		<BonusPriority>
-			<Type>DamageControl</Type>
-			<Priority>1.5</Priority>
-		</BonusPriority>
-		<BonusPriority>
-			<Type>BoardingAssault</Type>
-			<Priority>1.5</Priority>
-		</BonusPriority>
-		<BonusPriority>
-			<Type>ShipMaintenanceAll</Type>
-			<Priority>1.5</Priority>
-		</BonusPriority>
-		<BonusPriority>
-			<Type>MiningRate</Type>
-			<Priority>1.5</Priority>
-		</BonusPriority>
 	</Priorities>
 	<ComponentSelectionFactors>
 		<WeaponCloseInFactor>1</WeaponCloseInFactor>
 		<WeaponStandoffFactor>1</WeaponStandoffFactor>
 		<WeaponInterceptFactor>1</WeaponInterceptFactor>
-		<WeaponIonFactor>3</WeaponIonFactor>
+		<WeaponIonFactor>1</WeaponIonFactor>
 		<WeaponBombardFactor>1</WeaponBombardFactor>
-		<WeaponAreaFactor>1.5</WeaponAreaFactor>
+		<WeaponAreaFactor>1</WeaponAreaFactor>
 		<FighterFactor>1</FighterFactor>
 		<ShieldFactor>1</ShieldFactor>
-		<ArmorFactor>1</ArmorFactor>
-		<AssaultPodFactor>2</AssaultPodFactor>
+		<ArmorFactor>1.5</ArmorFactor>
+		<AssaultPodFactor>1.5</AssaultPodFactor>
 		<EngineFactor>1</EngineFactor>
-		<TractorBeamFactor>1.25</TractorBeamFactor>
+		<TractorBeamFactor>1</TractorBeamFactor>
 		<ScannerLongFactor>1</ScannerLongFactor>
 		<ScannerTraceFactor>1</ScannerTraceFactor>
 		<HyperDenyFactor>1</HyperDenyFactor>
 		<HyperStopFactor>1</HyperStopFactor>
 		<CountermeasuresFactor>1</CountermeasuresFactor>
 		<TargetingFactor>1</TargetingFactor>
-		<DamageControlFactor>2</DamageControlFactor>
+		<DamageControlFactor>1</DamageControlFactor>
 		<EngineManeuveringFactor>1</EngineManeuveringFactor>
-		<IonDefenseFactor>2</IonDefenseFactor>
+		<IonDefenseFactor>1</IonDefenseFactor>
 		<StealthFactor>1</StealthFactor>
 		<TroopCompartmentFactor>1</TroopCompartmentFactor>
 		<ConstructionYardFactor>1</ConstructionYardFactor>
@@ -87,34 +71,34 @@
 		<WeaponCloseInDamageAtRangeFactor>1</WeaponCloseInDamageAtRangeFactor>
 		<WeaponCloseInDamageRateFactor>1</WeaponCloseInDamageRateFactor>
 		<WeaponCloseInDamageAtRangeRateFactor>1</WeaponCloseInDamageAtRangeRateFactor>
-		<WeaponCloseInFireRateFactor>2</WeaponCloseInFireRateFactor>
+		<WeaponCloseInFireRateFactor>3</WeaponCloseInFireRateFactor>
 		<WeaponCloseInEnergyUsageFactor>1</WeaponCloseInEnergyUsageFactor>
 		<WeaponStandoffRangeFactor>1</WeaponStandoffRangeFactor>
 		<WeaponStandoffDamageRawFactor>1</WeaponStandoffDamageRawFactor>
 		<WeaponStandoffDamageAtRangeFactor>1</WeaponStandoffDamageAtRangeFactor>
 		<WeaponStandoffDamageRateFactor>1</WeaponStandoffDamageRateFactor>
 		<WeaponStandoffDamageAtRangeRateFactor>1</WeaponStandoffDamageAtRangeRateFactor>
-		<WeaponStandoffFireRateFactor>2</WeaponStandoffFireRateFactor>
+		<WeaponStandoffFireRateFactor>3</WeaponStandoffFireRateFactor>
 		<WeaponStandoffEnergyUsageFactor>1</WeaponStandoffEnergyUsageFactor>
 		<WeaponInterceptRangeFactor>1</WeaponInterceptRangeFactor>
 		<WeaponInterceptDamageFactor>1</WeaponInterceptDamageFactor>
 		<WeaponInterceptDamageRateFactor>1</WeaponInterceptDamageRateFactor>
-		<WeaponInterceptFireRateFactor>1</WeaponInterceptFireRateFactor>
+		<WeaponInterceptFireRateFactor>3</WeaponInterceptFireRateFactor>
 		<WeaponInterceptEnergyUsageFactor>1</WeaponInterceptEnergyUsageFactor>
-		<WeaponIonRangeFactor>1.5</WeaponIonRangeFactor>
-		<WeaponIonEngineDamageFactor>1.5</WeaponIonEngineDamageFactor>
-		<WeaponIonWeaponDamageFactor>1.5</WeaponIonWeaponDamageFactor>
-		<WeaponIonGeneralDamageFactor>1.5</WeaponIonGeneralDamageFactor>
+		<WeaponIonRangeFactor>1</WeaponIonRangeFactor>
+		<WeaponIonEngineDamageFactor>1</WeaponIonEngineDamageFactor>
+		<WeaponIonWeaponDamageFactor>1</WeaponIonWeaponDamageFactor>
+		<WeaponIonGeneralDamageFactor>1</WeaponIonGeneralDamageFactor>
 		<WeaponIonHyperDriveDamageFactor>1</WeaponIonHyperDriveDamageFactor>
 		<WeaponIonSensorDamageFactor>1</WeaponIonSensorDamageFactor>
 		<WeaponIonShieldDamageFactor>1</WeaponIonShieldDamageFactor>
-		<WeaponIonEngineDamageRateFactor>1.5</WeaponIonEngineDamageRateFactor>
+		<WeaponIonEngineDamageRateFactor>1</WeaponIonEngineDamageRateFactor>
 		<WeaponIonHyperDriveDamageRateFactor>1</WeaponIonHyperDriveDamageRateFactor>
 		<WeaponIonSensorDamageRateFactor>1</WeaponIonSensorDamageRateFactor>
 		<WeaponIonShieldDamageRateFactor>1</WeaponIonShieldDamageRateFactor>
-		<WeaponIonWeaponDamageRateFactor>1.5</WeaponIonWeaponDamageRateFactor>
-		<WeaponIonGeneralDamageRateFactor>1.5</WeaponIonGeneralDamageRateFactor>
-		<WeaponIonFireRateFactor>1</WeaponIonFireRateFactor>
+		<WeaponIonWeaponDamageRateFactor>1</WeaponIonWeaponDamageRateFactor>
+		<WeaponIonGeneralDamageRateFactor>1</WeaponIonGeneralDamageRateFactor>
+		<WeaponIonFireRateFactor>3</WeaponIonFireRateFactor>
 		<WeaponIonEnergyUsageFactor>1</WeaponIonEnergyUsageFactor>
 		<WeaponBombardRangeFactor>1</WeaponBombardRangeFactor>
 		<WeaponBombardDamageInfrastructureFactor>1</WeaponBombardDamageInfrastructureFactor>
@@ -127,38 +111,37 @@
 		<WeaponBombardDamageRateQualityFactor>1</WeaponBombardDamageRateQualityFactor>
 		<WeaponBombardFireRateFactor>1</WeaponBombardFireRateFactor>
 		<WeaponBombardEnergyUsageFactor>1</WeaponBombardEnergyUsageFactor>
-		<WeaponAreaRangeFactor>1.5</WeaponAreaRangeFactor>
+		<WeaponAreaRangeFactor>1</WeaponAreaRangeFactor>
 		<WeaponAreaDamageFactor>1</WeaponAreaDamageFactor>
-		<WeaponAreaDamageRateFactor>1.5</WeaponAreaDamageRateFactor>
+		<WeaponAreaDamageRateFactor>1</WeaponAreaDamageRateFactor>
 		<WeaponAreaFireRateFactor>1</WeaponAreaFireRateFactor>
 		<WeaponAreaEnergyUsageFactor>1</WeaponAreaEnergyUsageFactor>
 		<ArmorStrengthFactor>1</ArmorStrengthFactor>
-		<ArmorReactiveFactor>1</ArmorReactiveFactor>
+		<ArmorReactiveFactor>2.5</ArmorReactiveFactor>
 		<ShieldStrengthFactor>1</ShieldStrengthFactor>
-		<ShieldRechargeFactor>1.5</ShieldRechargeFactor>
-		<ShieldResistanceFactor>1.5</ShieldResistanceFactor>
+		<ShieldRechargeFactor>1</ShieldRechargeFactor>
+		<ShieldResistanceFactor>1</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
-		<!-- force it to choose Calista-Dal over Gerax by using energy and range as factors -->
 		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
-		<HyperDriveEnergyUsageFactor>2</HyperDriveEnergyUsageFactor>
-		<HyperDriveJumpRangeFactor>1.5</HyperDriveJumpRangeFactor>
-		<HyperDriveInitiationTimeFactor>0.1</HyperDriveInitiationTimeFactor>
-		<HyperDriveRechargeTimeFactor>0.1</HyperDriveRechargeTimeFactor>
+		<HyperDriveEnergyUsageFactor>1</HyperDriveEnergyUsageFactor>
+		<HyperDriveJumpRangeFactor>1</HyperDriveJumpRangeFactor>
+		<HyperDriveInitiationTimeFactor>3</HyperDriveInitiationTimeFactor>
+		<HyperDriveRechargeTimeFactor>1</HyperDriveRechargeTimeFactor>
 		<AreaShieldRangeFactor>1</AreaShieldRangeFactor>
 		<AreaShieldPowerFactor>1</AreaShieldPowerFactor>
 		<AreaShieldEnergyUsageFactor>1</AreaShieldEnergyUsageFactor>
-		<AssaultPodStrengthFactor>1.5</AssaultPodStrengthFactor>
-		<AssaultPodRangeFactor>1.5</AssaultPodRangeFactor>
+		<AssaultPodStrengthFactor>1</AssaultPodStrengthFactor>
+		<AssaultPodRangeFactor>1</AssaultPodRangeFactor>
 		<AssaultPodEnergyUsageFactor>1</AssaultPodEnergyUsageFactor>
-		<AssaultPodShieldPenetrationFactor>1</AssaultPodShieldPenetrationFactor>
-		<AssaultPodLaunchRateFactor>1</AssaultPodLaunchRateFactor>
+		<AssaultPodShieldPenetrationFactor>1.5</AssaultPodShieldPenetrationFactor>
+		<AssaultPodLaunchRateFactor>1.5</AssaultPodLaunchRateFactor>
 		<AssaultDefenseFactor>1</AssaultDefenseFactor>
-		<DamageReductionFactor>1.5</DamageReductionFactor>
-		<DamageRepairFactor>1.5</DamageRepairFactor>
+		<DamageReductionFactor>1</DamageReductionFactor>
+		<DamageRepairFactor>1</DamageRepairFactor>
 		<DockingBayThroughputFactor>1</DockingBayThroughputFactor>
 		<DockingBayShipCountFactor>1</DockingBayShipCountFactor>
-		<EngineMaximumThrustFactor>1.5</EngineMaximumThrustFactor>
+		<EngineMaximumThrustFactor>1</EngineMaximumThrustFactor>
 		<EngineCruiseThrustFactor>1</EngineCruiseThrustFactor>
 		<EngineEnergyUsageFactor>1</EngineEnergyUsageFactor>
 		<EngineVectoringFactor>1</EngineVectoringFactor>
@@ -182,10 +165,10 @@
 		<ScannerEmpireMaskingFactor>1</ScannerEmpireMaskingFactor>
 		<ScannerRoleMaskingFactor>1</ScannerRoleMaskingFactor>
 		<ReactorOutputFactor>1</ReactorOutputFactor>
-		<ReactorStorageFactor>1</ReactorStorageFactor>
+		<ReactorStorageFactor>3</ReactorStorageFactor>
 		<ReactorFuelUsageFactor>1</ReactorFuelUsageFactor>
-		<TractorBeamPowerFactor>1.5</TractorBeamPowerFactor>
-		<TractorBeamRangeFactor>1.5</TractorBeamRangeFactor>
+		<TractorBeamPowerFactor>1</TractorBeamPowerFactor>
+		<TractorBeamRangeFactor>1</TractorBeamRangeFactor>
 		<TractorBeamEnergyUsageFactor>1</TractorBeamEnergyUsageFactor>
 	</ComponentSelectionFactors>
 	<ExplorationWhenSendSurveyTeam>HiddenItemsPresentOrColonizableOrPopulated</ExplorationWhenSendSurveyTeam>
@@ -209,7 +192,7 @@
 	<CashflowResourceTrading>0</CashflowResourceTrading>
 	<CashflowUncommitted>0.15</CashflowUncommitted>
 	<ColonyTroopGarrisonLevel>0.5</ColonyTroopGarrisonLevel>
-	<AttackTroopLevel>0.5</AttackTroopLevel>
+	<AttackTroopLevel>1.5</AttackTroopLevel>
 	<ConstructionSpaceportLargePopulationRequired>10E+09</ConstructionSpaceportLargePopulationRequired>
 	<ConstructionSpaceportMediumPopulationRequired>5E+09</ConstructionSpaceportMediumPopulationRequired>
 	<ConstructionSpaceportSmallPopulationRequired>250E+03</ConstructionSpaceportSmallPopulationRequired>
@@ -282,13 +265,13 @@
 		<string></string>
 		<string></string>
 		<string></string>
-		<string>Blasters</string>
+		<string>Rail Guns</string>
 		<!-- CloseIn Weapons -->
-		<string>Missiles</string>
+		<string></string>
 		<!-- Standoff Weapons -->
 		<string></string>
 		<!-- Ion Weapons -->
-		<string>Missiles</string>
+		<string>Rail Guns</string>
 		<!-- Intercept Weapons -->
 		<string></string>
 		<!-- Bombard Weapons -->
