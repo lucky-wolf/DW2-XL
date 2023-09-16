@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.20.0](#v1200)
 		- [v1.16.9](#v1169)
 		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
@@ -172,6 +173,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.20.0
+- DLC2 Now Required
+- 1.1.6.8 Beta Recommended
+-
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
