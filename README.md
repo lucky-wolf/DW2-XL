@@ -174,6 +174,9 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.16.9
+- 1.1.6.8 Beta Update
+  - Dhayut game event spelling corrections
+  - Dhayut ship hull definition fixes
 - Teekan prewarp start events updated to be more compatible with XL
   - now grants a more reasonable level of terraformer facility
   - also fixes the double Teekan population weirdness

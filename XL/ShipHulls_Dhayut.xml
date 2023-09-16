@@ -709,7 +709,7 @@
 			<ComponentBay>
 				<ComponentBayId>6</ComponentBayId>
 				<Type>Sensor</Type>
-				<MaximumComponentSize>120</MaximumComponentSize>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -743,7 +743,7 @@
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
 				<Type>Sensor</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
+				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -6021,7 +6021,7 @@
 		<BaseCost>1000</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
-		<EngineLimit>2</EngineLimit>
+		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
@@ -19942,30 +19942,23 @@
 		<Role>ResortBase</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>225</Size>
-		<MaximumSize>725</MaximumSize>
-		<DisplaySize>1200</DisplaySize>
+		<Size>325</Size>
+		<MaximumSize>925</MaximumSize>
+		<DisplaySize>1283</DisplaySize>
 		<ModelName>Ships/Dhayut/SM_ResearchStation_01</ModelName>
 		<CockpitImageFilename />
-		<BaseCost>4000</BaseCost>
-		<ArmorReactiveRating>2</ArmorReactiveRating>
-		<IonDefense>1</IonDefense>
+		<BaseCost>4500</BaseCost>
+		<ArmorReactiveRating>3</ArmorReactiveRating>
+		<IonDefense>0</IonDefense>
 		<EngineLimit>-1</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
-		<TargetingBonus>0</TargetingBonus>
+		<TargetingBonus>0.1</TargetingBonus>
 		<TurnRollRate>0</TurnRollRate>
 		<MaximumTurnRollAngle>0</MaximumTurnRollAngle>
-		<BuildSpeedFactor>0.5</BuildSpeedFactor>
+		<BuildSpeedFactor>0.67</BuildSpeedFactor>
 		<Bonuses>
 			<Bonus>
 				<Type>WeaponsRange</Type>
-				<Amount>0.5</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-			<Bonus>
-				<Type>ShieldRechargeRate</Type>
 				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
@@ -20083,7 +20076,7 @@
 			<ComponentBay>
 				<ComponentBayId>6</ComponentBayId>
 				<Type>Sensor</Type>
-				<MaximumComponentSize>120</MaximumComponentSize>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -20117,7 +20110,7 @@
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
 				<Type>Sensor</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
+				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -21464,6 +21457,10 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
+				<Amount>112</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
@@ -29893,7 +29890,7 @@
 		<BaseCost>1300</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
-		<EngineLimit>-1</EngineLimit>
+		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
@@ -88483,7 +88480,7 @@
 		<BaseCost>1230</BaseCost>
 		<ArmorReactiveRating>2</ArmorReactiveRating>
 		<IonDefense>0</IonDefense>
-		<EngineLimit>-1</EngineLimit>
+		<EngineLimit>4</EngineLimit>
 		<CountermeasuresBonus>0</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
