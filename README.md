@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.16.9](#v1169)
 		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
 		- [v1.16.6](#v1166)
@@ -171,6 +172,16 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.16.9
+- Teekan prewarp start events updated to be more compatible with XL
+  - now grants a more reasonable level of terraformer facility
+  - also fixes the double Teekan population weirdness
+- Reduced early game range
+  - Reduced basic fuel cell capacity
+  - Reduced skip drive range
+- Ackdarian ancient starbase event now offers racial tech and not verboten tech
+- Further adjusted AI Policies to attempt to have more reasonable troop levels on worlds and better spending ratios
 
 ### v1.16.8
 - Removed infantry upgrades from robotic troop techs
