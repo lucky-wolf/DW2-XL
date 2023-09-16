@@ -168,22 +168,26 @@ Shield-Weapon-Hybrids	90..91 (2)
 
 Weapons		  0.. 99
 
-Armor       100..103
+Armor       100..
+	Standard 100..102
+	Flux     110
+	Interlaced (Gizurean) 120..121
 
-Dmg-ctrl    120..121
+Dmg-ctrl    130..131
 
-Shields		150..156   [quantum capacitors, z4, ...]
+Shields		140..146   [quantum capacitors, z4, ...]
 
 Troops		200..211
 
-Reactors 	212..215
-hyperjump	225...?
+Reactors 	250..252
 
-terraforming 302..319  (some of these are in the _Ikkuro file)
+hyperjump	320..330
 
-Diplomacy  355..374
+terraforming 402..419  (some of these are in the _Ikkuro file)
 
-Ancient Guardian 380..???
+Diplomacy  455..474
+
+Ancient Guardian 480..???
 
 ----------------------------------------
 Initial Techs
