@@ -147,28 +147,17 @@ PQ is currently
 -                 ROWS                 -
 ----------------------------------------
 
-pulsed  	0..6   (7)
-
-ion   		10..16 (7)
-
-gravitic 	20..28 (9)
-
-beam  		30..27 (8)
-
-kinetic   	40..44 (5)
-
-torps		50..57 (8)
-
-area 		60..62 (3)
-
-bombs		70..72 (3)
-
-missile 	80..86 (7)
-
-Shield-Weapon-Hybrids	90..91 (2)
-
-
 Weapons		  0.. 99
+	pulsed  	0..6   (7)
+	ion   		10..16 (7)
+	gravitic 	20..28 (9)
+	beam  		30..27 (8)
+	kinetic   	40..44 (5)
+	torps		50..57 (8)
+	area 		60..62 (3)
+	bombs		70..72 (3)
+	missile 	80..86 (7)
+	misc		90..91 (2)
 
 Armor       100..
 	Standard 100..102
@@ -206,7 +195,7 @@ Colonizing 	340..361
 
 Storage
 &
-transport	380..385
+Transport	380..385
 
 Mining &
 Energy		390..392

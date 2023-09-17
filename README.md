@@ -177,7 +177,9 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.20.0
 - DLC2 Now Required
 - 1.1.6.8 Beta Recommended
--
+- Fixed missing upgrades in "Special Operations" tech
+- Increased range of some railguns
+- Advanced Robotic Foundaries now upgrades recruitment rate above the base robotic foundry
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
