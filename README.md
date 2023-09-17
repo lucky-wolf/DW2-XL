@@ -180,6 +180,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed missing upgrades in "Special Operations" tech
 - Increased range of some railguns
 - Advanced Robotic Foundaries now upgrades recruitment rate above the base robotic foundry
+- Fixed some high end long range scanners to always give fleet bonuses, not ship bonuses (see short range scanners for those)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
