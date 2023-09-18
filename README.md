@@ -181,6 +181,9 @@ YMMV, but this is my take on making it Extra Large!
 - Increased range of some railguns
 - Advanced Robotic Foundaries now upgrades recruitment rate above the base robotic foundry
 - Fixed some high end long range scanners to always give fleet bonuses, not ship bonuses (see short range scanners for those)
+- Added countermeasures to sensors in with balance wth targeting bonuses
+- Added void sensors to repeatable techs so that they're also affected by them
+- TODO: I need to add requirements of researching counter measures to the various sensors
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
