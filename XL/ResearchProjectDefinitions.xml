@@ -6566,7 +6566,7 @@
 		<ResearchProjectId>145</ResearchProjectId>
 		<Name>Advanced Defense Measures</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -9243,7 +9243,7 @@
 		<ResearchProjectId>198</ResearchProjectId>
 		<Name>Armored Assault Marines</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -22158,13 +22158,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>249</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>306</ResearchProjectId>
@@ -22180,6 +22173,13 @@
 				<ResearchProjectId>1168</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>840</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
@@ -23535,11 +23535,6 @@
 				<RaceId>2</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -23556,6 +23551,13 @@
 				<ResearchProjectId>1168</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>840</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
@@ -25274,19 +25276,18 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>247</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<!-- Ikkuro going from t2 to t10 isn't happening in XL -->
 			<ResearchPath>
 				<ResearchProjectId>548</ResearchProjectId>
 				<PathAppearanceLikelihood>0.75</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>548</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1024</ResearchProjectId>
@@ -25339,18 +25340,17 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>249</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>513</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>513</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<ShipHulls>
@@ -26928,7 +26928,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>263</Row>
+		<Row>260</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>586</ResearchProjectId>
@@ -27232,7 +27232,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>260</Row>
+		<Row>250</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>588</ResearchProjectId>

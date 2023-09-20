@@ -184,7 +184,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added countermeasures to sensors in with balance wth targeting bonuses
 - Added void sensors to repeatable techs so that they're also affected by them
 - TODO: I need to add requirements of researching counter measures to the various sensors
-- Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many rebelling colonies)
+- Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update

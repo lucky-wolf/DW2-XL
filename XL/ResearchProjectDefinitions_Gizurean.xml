@@ -469,7 +469,7 @@
 		<ResearchProjectId>837</ResearchProjectId>
 		<Name>Hive Star Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>150</Size>
+		<Size>100</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -490,7 +490,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>604</Row>
+		<Row>250</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -514,10 +514,6 @@
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
-				<ComponentId>312</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
 				<ComponentId>380</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -537,28 +533,28 @@
 		<ResearchProjectId>838</ResearchProjectId>
 		<Name>Medium Hive Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1600</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>2000</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>200</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>200</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>604</Row>
+		<Column>3</Column>
+		<Row>250</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -582,10 +578,6 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>1</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
 				<Level>2</Level>
 			</ShipHullReference>
 			<ShipHullReference>
@@ -598,28 +590,28 @@
 		<ResearchProjectId>839</ResearchProjectId>
 		<Name>Large Hive Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>3200</Size>
+		<Size>5400</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>16000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>604</Row>
+		<Column>5</Column>
+		<Row>250</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -643,10 +635,6 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>3</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
 				<Level>4</Level>
 			</ShipHullReference>
 			<ShipHullReference>
@@ -659,32 +647,32 @@
 		<ResearchProjectId>840</ResearchProjectId>
 		<Name>Advanced Hive Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1920</Size>
+		<Size>21600</Size>
 		<InitiationCost>
-			<Money>8000</Money>
+			<Money>16000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>800</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>800</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>800</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>800</Amount>
+					<Amount>1600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>604</Row>
+		<Column>7</Column>
+		<Row>250</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -700,14 +688,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>312</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
-				<ComponentId>380</ComponentId>
-				<Level>1</Level>
-			</Component>
 			<Component>
 				<ComponentId>379</ComponentId>
 				<Level>1</Level>
@@ -723,9 +703,9 @@
 		<Name>Orbital Hive Defense</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>150</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>1000</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
@@ -735,8 +715,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
-		<Row>605</Row>
+		<Column>2</Column>
+		<Row>251</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -745,6 +725,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- small hive fighters -->
 				<ResearchProjectId>837</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -760,7 +741,7 @@
 		<Name>Improved Orbital Defense</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1600</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -772,8 +753,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>605</Row>
+		<Column>4</Column>
+		<Row>251</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -782,6 +763,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- medium hive fighters -->
 				<ResearchProjectId>838</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -797,7 +779,7 @@
 		<Name>Large Hive Fighter Bases</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>3200</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -813,8 +795,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>605</Row>
+		<Column>6</Column>
+		<Row>251</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -823,6 +805,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- large hive fighters -->
 				<ResearchProjectId>839</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -838,24 +821,24 @@
 		<Name>Massive Hive Fighter Bases</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>25600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>32400</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>3240</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>3240</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>605</Row>
+		<Column>8</Column>
+		<Row>251</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -864,6 +847,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- advanced hive fighters -->
 				<ResearchProjectId>840</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
