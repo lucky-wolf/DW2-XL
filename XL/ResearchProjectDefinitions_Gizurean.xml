@@ -294,24 +294,24 @@
 		<Name>Networked Targeting System</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>187.5</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>50</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>50</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
-		<Row>626</Row>
+		<Column>2</Column>
+		<Row>324</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -320,7 +320,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>384</ResearchProjectId>
+				<ResearchProjectId>398</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -338,24 +338,24 @@
 		<Name>Enhanced Network Targeting System</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2000</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>4000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>626</Row>
+		<Row>324</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -382,7 +382,7 @@
 		<Name>Advanced Network Targeting System </Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4000</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -399,7 +399,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>626</Row>
+		<Row>324</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -426,7 +426,7 @@
 		<Name>Integrated Network Targeting System</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32000</Size>
+		<Size>21600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -443,7 +443,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>626</Row>
+		<Row>324</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -922,4 +922,307 @@
 			</RaceProbability>
 		</AllowedRaceIds>
 	</ResearchProjectDefinition>
+
+	<!-- XL Extensions -->
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1199</ResearchProjectId>
+		<Name>Matrix Network Targeting System</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>324</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>836</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>378</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1200</ResearchProjectId>
+		<Name>Networking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>302</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<!-- improved sensors -->
+				<ResearchProjectId>419</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Networked Targeting System -->
+				<ResearchProjectId>833</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>532</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1201</ResearchProjectId>
+		<Name>Advanced Networking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>8000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>302</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1200</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Enhanced Networked Targeting System -->
+				<ResearchProjectId>834</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>532</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1202</ResearchProjectId>
+		<Name>Superior Networking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>302</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1201</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Advanced Networked Targeting System -->
+				<ResearchProjectId>835</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>532</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1203</ResearchProjectId>
+		<Name>Optimal Networking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>302</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1202</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Integrated Network Targeting System -->
+				<ResearchProjectId>836</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>532</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1204</ResearchProjectId>
+		<Name>Omni Networking Sensors</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>302</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1203</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1199</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>532</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
 </ArrayOfResearchProjectDefinition>
