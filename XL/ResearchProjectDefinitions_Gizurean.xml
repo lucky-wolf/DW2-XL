@@ -926,7 +926,7 @@
 	<!-- XL Extensions -->
 
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1199</ResearchProjectId>
+		<ResearchProjectId>1200</ResearchProjectId>
 		<Name>Matrix Network Targeting System</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -970,7 +970,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1200</ResearchProjectId>
+		<ResearchProjectId>1201</ResearchProjectId>
 		<Name>Networking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
@@ -1022,7 +1022,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1201</ResearchProjectId>
+		<ResearchProjectId>1202</ResearchProjectId>
 		<Name>Advanced Networking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
@@ -1051,7 +1051,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1200</ResearchProjectId>
+				<ResearchProjectId>1201</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -1073,7 +1073,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1202</ResearchProjectId>
+		<ResearchProjectId>1203</ResearchProjectId>
 		<Name>Superior Networking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
@@ -1102,7 +1102,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1201</ResearchProjectId>
+				<ResearchProjectId>1202</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -1124,7 +1124,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1203</ResearchProjectId>
+		<ResearchProjectId>1204</ResearchProjectId>
 		<Name>Optimal Networking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
@@ -1153,7 +1153,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1202</ResearchProjectId>
+				<ResearchProjectId>1203</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -1175,7 +1175,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1204</ResearchProjectId>
+		<ResearchProjectId>1205</ResearchProjectId>
 		<Name>Omni Networking Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>72900</Size>
@@ -1204,13 +1204,13 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1203</ResearchProjectId>
+				<ResearchProjectId>1204</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>1199</ResearchProjectId>
+				<ResearchProjectId>1200</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
