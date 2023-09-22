@@ -8,8 +8,9 @@
 		<Size>400</Size>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<!-- medical area -->
 		<Column>0</Column>
-		<Row>711</Row>
+		<Row>410</Row>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -29,7 +30,7 @@
 		<Name>Interlaced Armor</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>800</Size>
+		<Size>300</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -80,7 +81,7 @@
 		<ResearchProjectId>830</ResearchProjectId>
 		<Name>Enhanced Interlaced Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1600</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -108,7 +109,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>120</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -130,16 +131,8 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>266</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
 				<ComponentId>373</ComponentId>
 				<Level>1</Level>
-			</Component>
-			<Component>
-				<ComponentId>205</ComponentId>
-				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -147,7 +140,7 @@
 		<ResearchProjectId>831</ResearchProjectId>
 		<Name>Resistant Interlaced Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2560</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -183,7 +176,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>6</Column>
 		<Row>120</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -205,16 +198,8 @@
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>266</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
 				<ComponentId>374</ComponentId>
 				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>205</ComponentId>
-				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -222,7 +207,7 @@
 		<ResearchProjectId>832</ResearchProjectId>
 		<Name>Multi-Layered Interlaced Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>25600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -254,7 +239,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>8</Column>
 		<Row>120</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -276,15 +261,7 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>269</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
 				<ComponentId>375</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>206</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -1221,6 +1198,70 @@
 			<Component>
 				<ComponentId>532</ComponentId>
 				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1206</ResearchProjectId>
+		<Name>Non-Repeating Interlaced Armor</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>49000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>120</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>832</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>558</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>557</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
