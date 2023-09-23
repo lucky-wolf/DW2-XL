@@ -548,6 +548,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
 				<ComponentId>379</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -604,6 +608,14 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>379</ComponentId>
+				<Level>1</Level>
+			</Component>
 			<Component>
 				<ComponentId>381</ComponentId>
 				<Level>0</Level>
@@ -666,8 +678,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>380</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
 				<ComponentId>379</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>381</ComponentId>
