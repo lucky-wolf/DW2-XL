@@ -2,18 +2,24 @@
 // patterns and replacements are regex expressions
 // whole line comments are ignored
 // blank lines are ignored
+// USE WITH code/cmd/replace/main.go
 
 // note: you'll need to check each of these - some overlap non-military ships and need to be reset before pushing them up to github
 // we did set small spaceport v0 to 800
 <MaximumSize>415</MaximumSize>		<MaximumSize>450</MaximumSize>
 <MaximumSize>490</MaximumSize>		<MaximumSize>540</MaximumSize>
+<MaximumSize>500</MaximumSize>		<MaximumSize>450</MaximumSize>
 <MaximumSize>675</MaximumSize>		<MaximumSize>720</MaximumSize>
 <MaximumSize>750</MaximumSize>		<MaximumSize>800</MaximumSize>
 <MaximumSize>840</MaximumSize>		<MaximumSize>960</MaximumSize>
 <MaximumSize>900</MaximumSize>		<MaximumSize>1120</MaximumSize>
+//<MaximumSize>1100</MaximumSize>		<MaximumSize>1350</MaximumSize>
 <MaximumSize>1300</MaximumSize>		<MaximumSize>1440</MaximumSize>
+<MaximumSize>1350</MaximumSize>		<MaximumSize>1700</MaximumSize>
 <MaximumSize>1500</MaximumSize>		<MaximumSize>1680</MaximumSize>
 <MaximumSize>1800</MaximumSize>		<MaximumSize>1920</MaximumSize>
+<MaximumSize>3000</MaximumSize>		<MaximumSize>3850</MaximumSize>
+<MaximumSize>6000</MaximumSize>		<MaximumSize>4850</MaximumSize>
 
 <Name>Light Interceptor</Name>		<Name>Fighter</Name>
 <Name>Attack Fighter</Name>			<Name>Improved Fighter</Name>

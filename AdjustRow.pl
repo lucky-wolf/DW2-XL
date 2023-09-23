@@ -1,8 +1,8 @@
 # input:	research-filename start-row end-row offset
 # output:	stdout
-# example:  ResearchProjectDefinitions.xml 10 999 2
+# example:  ResearchProjectDefinitions.xml 10 999 2 ResearchProjectDefinitions (adjusted).xml
 #   all techs, starting from row 10, are adjusted downwards by 2 rows (e.g. row 10 -> row 12, 11 -> 13, etc...)
-#   perl adjustrow.pl XL/ResearchProjectDefinitions.xml 10 9999 2 > "temp\ResearchProjectDefinitions.xml"
+#   perl adjustrow.pl XL/ResearchProjectDefinitions.xml 10 9999 2 "temp\ResearchProjectDefinitions.xml"
 
 sub ProcessFile
 {

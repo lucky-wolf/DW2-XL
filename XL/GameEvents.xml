@@ -2571,7 +2571,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2671,7 +2671,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2770,7 +2770,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2869,7 +2869,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -2968,7 +2968,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3067,7 +3067,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3610,7 +3610,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>4</Id1>
 				<Id2>1</Id2>
-				<Value1>3</Value1>
+				<Value1>2</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -5182,7 +5182,7 @@ The extraordinary gravitic effects make this location a highly tempting research
 This appears to be the original entry point for the ancient Shakturi when they arrived in our galaxy so long ago. The dangerous gravitic effects certainly match what we know about their destructive Wormhole Drives...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -25755,6 +25755,9 @@ These aliens have proved themselves vile not only in appearance, but also in beh
 		<TriggerType>Acquire</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>4</short>
+		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
@@ -25806,6 +25809,9 @@ These aliens have proved themselves vile not only in appearance, but also in beh
 		<TriggerType>Investigate</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerRaceIds>
+			<short>4</short>
+		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<PlacementAtGameStart>false</PlacementAtGameStart>
@@ -37997,6 +38003,31 @@ But important revelation. Location of Boskara homeworld discovered! Origin of ou
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
 				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>DisableEvent</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Secret Boskara Research Facility (Boskara)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>

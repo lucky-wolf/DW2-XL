@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.0](#v1170)
 		- [v1.16.9](#v1169)
 		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
@@ -172,6 +173,20 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.17.0
+- DLC2 Now Required
+- Updated for 1.1.7.1 Beta (Recommended)
+- Fixed missing upgrades in "Special Operations" tech
+- Increased range of some railguns
+- Advanced Robotic Foundries now upgrades recruitment rate above the base robotic foundry
+- Fixed some high end long range scanners to always give fleet bonuses, not ship bonuses (see short range scanners for those)
+- Added countermeasures to sensors in with balance wth targeting bonuses
+- Added all short range sensors to repeatable sensor techs
+- Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
+- Synthetic Units now cost $4K to recruit (previous $2k which is cost of a normal infantry)
+- Made Quantum Energy Capacitors High tech (start at T6)
+- NOTE: this adds Gizureans, but not Quameno (perhaps next weekend if all goes well)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
@@ -1164,7 +1179,8 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 ## DW2-XL Armor
 
-Armor Values can be found [here](https://docs.google.com/spreadsheets/d/1fTY8h7v4bO55rcOgnzHQFej2PVviYY8wVmkJ28Q2Gqs)
+![](Armor.png)
+Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d/1fTY8h7v4bO55rcOgnzHQFej2PVviYY8wVmkJ28Q2Gqs)
 
 ## DW2-XL Reactors
 

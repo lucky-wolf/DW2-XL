@@ -143,41 +143,76 @@ PQ is currently
 .3 - .7 snow, ice, tundra, deserts (all), savannah
 .4 - .8 continental, swamp, mangrove, oceans, grasslands, forests
 
-- ROWS -
+----------------------------------------
+-                 ROWS                 -
+----------------------------------------
 
-pulsed  	0..6   (7)
+Weapons		  0.. 99
+	pulsed  	0..6   (7)
+	ion   		10..16 (7)
+	gravitic 	20..28 (9)
+	beam  		30..27 (8)
+	kinetic   	40..44 (5)
+	torps		50..57 (8)
+	area 		60..62 (3)
+	bombs		70..72 (3)
+	missile 	80..86 (7)
+	misc		90..91 (2)
 
-ion   		10..16 (7)
+Armor       100..
+	Standard 100..102
+	Flux     110
+	Interlaced (Gizurean) 120..121
 
-gravitic 	20..28 (9)
+Dmg-ctrl    130..131
 
-beam  		30..27 (8)
+Shields		140..146   [quantum capacitors, z4, ...]
 
-kinetic   	40..44 (5)
+Troops		160..171
 
-torps		50..57 (8)
+Reactors 	180..182
 
-area 		60..62 (3)
+hyperjump	200..210
 
-bombs		70..72 (3)
+Engines     220..236
 
-missile 	80..86 (7)
+Hangars &
+Fighters	240..249
 
-Shield-Weapon-Hybrids	90..91 (2)
+Assault Pods
+& Marines 	260..253
 
-Armor/dmg con 95..99 (5)
+Construction 280..289
 
-Shields		100..106 (7)
+Sensors
+& Stealth	300..307
 
-Troops		190..201 (12)
-Reactors 	202..205 (4)
-hyperjump	215...?
+Targeting	320..324
+Countermeasures 330..333
 
-terraforming 292..309  (some of these are in the _Ikkuro file)
+Exploration
+&
+Colonizing 	340..361
 
-Diplomacy  345..364
+Storage
+&
+Transport	380..385
 
-Ancient Guardian 370..???
+Mining &
+Energy		390..392
+
+Command &
+Medical		400..413
+
+Commerce &
+Recreation	420..421
+
+Research	440..446
+
+Espionage &
+Diplomacy  	460..484
+
+Ancient Guardian 500..523
 
 ----------------------------------------
 Initial Techs
@@ -441,7 +476,7 @@ Superior Multi-Tracking	84
 Optimal Multi-Tracking	557
 
 Multi-Tracking Sensors 				895
-Advanced M-T Sensors 	889
+Advanced Multi-Tracking Sensors 	889
 
 Long Range Sensors		433
 Advanced Long Range Sensors 457
