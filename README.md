@@ -1178,7 +1178,8 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 ## DW2-XL Armor
 
-Armor Values can be found [here](https://docs.google.com/spreadsheets/d/1fTY8h7v4bO55rcOgnzHQFej2PVviYY8wVmkJ28Q2Gqs)
+![](Armor.png)
+Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d/1fTY8h7v4bO55rcOgnzHQFej2PVviYY8wVmkJ28Q2Gqs)
 
 ## DW2-XL Reactors
 

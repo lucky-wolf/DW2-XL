@@ -27,7 +27,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>829</ResearchProjectId>
-		<Name>Interlaced Armor</Name>
+		<Name>Hex Armor</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
@@ -79,7 +79,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>830</ResearchProjectId>
-		<Name>Enhanced Interlaced Armor</Name>
+		<Name>Reactive Hex Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -119,7 +119,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>829</ResearchProjectId>
+				<ResearchProjectId>1206</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -127,18 +127,18 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>376</ComponentId>
-				<Level>1</Level>
+				<ComponentId>377</ComponentId>
+				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>373</ComponentId>
-				<Level>1</Level>
+				<ComponentId>374</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>831</ResearchProjectId>
-		<Name>Resistant Interlaced Armor</Name>
+		<Name>Dense Hex Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -186,7 +186,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>830</ResearchProjectId>
+				<ResearchProjectId>1207</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -194,18 +194,18 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>377</ComponentId>
+				<ComponentId>559</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>374</ComponentId>
+				<ComponentId>375</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>832</ResearchProjectId>
-		<Name>Multi-Layered Interlaced Armor</Name>
+		<Name>Multi-Dimensional Hex Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -249,7 +249,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>831</ResearchProjectId>
+				<ResearchProjectId>1208</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -257,11 +257,11 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>377</ComponentId>
-				<Level>1</Level>
+				<ComponentId>560</ComponentId>
+				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>375</ComponentId>
+				<ComponentId>557</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -1204,7 +1204,249 @@
 
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1206</ResearchProjectId>
-		<Name>Non-Repeating Interlaced Armor</Name>
+		<Name>Hex Armor+</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>120</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>829</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>376</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>373</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1207</ResearchProjectId>
+		<Name>Reactive Hex Armor+</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>9000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>120</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>830</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>377</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>374</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1208</ResearchProjectId>
+		<Name>Dense Hex Armor+</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>25000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2500</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>120</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>831</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>559</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>375</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1209</ResearchProjectId>
+		<Name>Multi-Dimensional Hex Armor+</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>120</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>832</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>11</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>560</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>557</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1210</ResearchProjectId>
+		<Name>Infinite Hex Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>72900</Size>
 		<InitiationCost>
@@ -1248,7 +1490,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>832</ResearchProjectId>
+				<ResearchProjectId>1209</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>11</RaceId>
@@ -1256,11 +1498,11 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>558</ComponentId>
+				<ComponentId>561</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>557</ComponentId>
+				<ComponentId>558</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
