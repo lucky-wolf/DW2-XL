@@ -13,7 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-		- [v1.20.0](#v1200)
+		- [v1.17.0](#v1170)
 		- [v1.16.9](#v1169)
 		- [v1.16.8](#v1168)
 		- [v1.16.7](#v1167)
@@ -174,16 +174,15 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.20.0
+### v1.17.0
 - DLC2 Now Required
-- 1.1.6.8 Beta Recommended
+- Updated for 1.1.7.1 Beta (Recommended)
 - Fixed missing upgrades in "Special Operations" tech
 - Increased range of some railguns
 - Advanced Robotic Foundaries now upgrades recruitment rate above the base robotic foundry
 - Fixed some high end long range scanners to always give fleet bonuses, not ship bonuses (see short range scanners for those)
 - Added countermeasures to sensors in with balance wth targeting bonuses
-- Added void sensors to repeatable techs so that they're also affected by them
-- TODO: I need to add requirements of researching counter measures to the various sensors
+- Added all short range sensors to repeatable sensor techs
 - Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
 - Synthetic Units now cost $4K to recruit (previous $2k which is cost of a normal infantry)
 
