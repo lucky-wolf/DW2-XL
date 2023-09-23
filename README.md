@@ -184,6 +184,7 @@ YMMV, but this is my take on making it Extra Large!
   - Improved crew systems
   - Progress towards either standard crew systems or marine barracks
   - Royal Palace
+- Terraforming facilities are now cheaper 20K, 50K, 100K, 200K, 400K (was 27.5, 55, 87.5, 110, 220)
 
 ### v1.17.1
 - Gizureans will now start with Basic Target Tracking
