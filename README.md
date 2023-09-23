@@ -185,6 +185,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added all short range sensors to repeatable sensor techs
 - Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
 - Synthetic Units now cost $4K to recruit (previous $2k which is cost of a normal infantry)
+- Made Quantum Energy Capacitors High tech (start at T6)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update

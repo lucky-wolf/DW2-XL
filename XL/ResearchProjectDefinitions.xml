@@ -13123,36 +13123,36 @@
 		<ResearchProjectId>294</ResearchProjectId>
 		<Name>Rapid Energy Surge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>32400</Size>
 		<InitiationCost>
-			<Money>12500</Money>
+			<Money>24500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>2450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>140</Row>
+		<Column>8</Column>
+		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>334</ResearchProjectId>
@@ -13236,7 +13236,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>146</Row>
+		<Row>147</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>271</ResearchProjectId>
@@ -13697,6 +13697,11 @@
 			<!-- Boskara have better tech -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Gizurean have better tech -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -14953,39 +14958,54 @@
 		<ResearchProjectId>334</ResearchProjectId>
 		<Name>Quantum Energy Suspension</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>10800</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>18000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>140</Row>
+		<Column>6</Column>
+		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>260</ResearchProjectId>
+				<ResearchProjectId>579</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1042</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1043</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1085</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15823,6 +15843,11 @@
 			<!-- Boskara have better tech -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Gizurean have better tech -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -22999,36 +23024,36 @@
 		<ResearchProjectId>532</ResearchProjectId>
 		<Name>Instant Energy Surge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>72900</Size>
 		<InitiationCost>
-			<Money>24500</Money>
+			<Money>49000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>4900</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>2450</Amount>
+					<Amount>4900</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>140</Row>
+		<Column>10</Column>
+		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>294</ResearchProjectId>
@@ -23162,7 +23187,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>145</Row>
+		<Row>146</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>8</RaceId>
@@ -23199,7 +23224,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>146</Row>
+		<Row>147</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>296</ResearchProjectId>
@@ -23764,6 +23789,11 @@
 			<!-- Boskara have better tech -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Gizurean have better tech -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -25435,6 +25465,11 @@
 			<!-- Boskara have better tech -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Gizurean have better tech -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -29365,6 +29400,11 @@
 			<!-- Boskara have better tech -->
 			<RaceProbability>
 				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Gizurean have better tech -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
