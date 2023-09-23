@@ -27716,7 +27716,32 @@
 		<Row>300</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- ultr long range -->
 				<ResearchProjectId>595</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- omni -->
+				<ResearchProjectId>1108</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- crystal -->
+				<ResearchProjectId>1110</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- multi-tracking -->
+				<ResearchProjectId>1107</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- networked -->
+				<ResearchProjectId>1205</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27724,6 +27749,7 @@
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
 			<ComponentValues>
+				<!-- Ultra Long Range Sensors -->
 				<ComponentId>122</ComponentId>
 				<Values>
 					<ComponentStats>
@@ -27732,7 +27758,35 @@
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>135</ComponentId>
+				<!-- zenox sensors -->
+				<ComponentId>308</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- advanced sensors -->
+				<ComponentId>531</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- mortalen sensors -->
+				<ComponentId>532</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- gizurean sensors -->
+				<ComponentId>562</ComponentId>
 				<Values>
 					<ComponentStats>
 						<ScannerLongRange>0.05</ScannerLongRange>
@@ -27755,7 +27809,32 @@
 		<Row>304</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- ultr long range -->
 				<ResearchProjectId>595</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- omni -->
+				<ResearchProjectId>1108</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- crystal -->
+				<ResearchProjectId>1110</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- multi-tracking -->
+				<ResearchProjectId>1107</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- networked -->
+				<ResearchProjectId>1205</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27763,15 +27842,44 @@
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
 			<ComponentValues>
+				<!-- Ultra Long Range Sensors -->
 				<ComponentId>122</ComponentId>
 				<Values>
 					<ComponentStats>
-						<ScannerLongRangePower>0.05</ScannerLongRangePower>
+						<ScannerLongRange>0.05</ScannerLongRange>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>135</ComponentId>
+				<!-- zenox sensors -->
+				<ComponentId>308</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- advanced sensors -->
+				<ComponentId>531</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- mortalen sensors -->
+				<ComponentId>532</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ScannerLongRange>0.05</ScannerLongRange>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<!-- gizurean sensors -->
+				<ComponentId>562</ComponentId>
 				<Values>
 					<ComponentStats>
 						<ScannerLongRange>0.05</ScannerLongRange>
