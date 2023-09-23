@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.2](#v1172)
 		- [v1.17.1](#v1171)
 		- [v1.17.0](#v1170)
 		- [v1.16.9](#v1169)
@@ -175,12 +176,23 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.17.2
+- Gizureans will now start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
+- Added troop recruitment bonus to Gizurean Fighter Bases (like all other XL bases)
+- Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
+- Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
+  - Improved crew systems
+  - Progress towards either standard crew systems or marine barracks
+  - Royal Palace
+
 ### v1.17.1
 - Gizureans will now start with Basic Target Tracking
 - Fixed: Hive Fighter Bays required Basic Maneuvering, which isn't part of XL (switched to Starship Engines)
 
 ### v1.17.0
 - DLC2 Now Required
+- QUAMENO NOT YET AVAILABLE
+  - This adds Gizureans, but not Quameno (perhaps next weekend if all goes well)
 - Updated for 1.1.7.1 Beta (Recommended)
 - Fixed missing upgrades in "Special Operations" tech
 - Increased range of some railguns
@@ -191,7 +203,6 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
 - Synthetic Units now cost $4K to recruit (previous $2k which is cost of a normal infantry)
 - Made Quantum Energy Capacitors High tech (start at T6)
-- NOTE: this adds Gizureans, but not Quameno (perhaps next weekend if all goes well)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update

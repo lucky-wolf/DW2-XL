@@ -8211,4 +8211,27 @@
 			</ShipHullValues>
 		</RepeatableShipHullValues>
 	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1179</ResearchProjectId>
+		<Name>Improved Crew Systems</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>100</Size>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>404</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>392</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>88</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>
