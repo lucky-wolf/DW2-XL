@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.1](#v1171)
 		- [v1.17.0](#v1170)
 		- [v1.16.9](#v1169)
 		- [v1.16.8](#v1168)
@@ -173,6 +174,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.17.1
+- Gizureans will now start with Basic Target Tracking
+- Fixed: Hive Fighter Bays required Basic Maneuvering, which isn't part of XL (switched to Starship Engines)
 
 ### v1.17.0
 - DLC2 Now Required
