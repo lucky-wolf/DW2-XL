@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ArrayOfFleetTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<FleetTemplate>
-		<FleetTemplateId>0</FleetTemplateId>
-		<RaceId>-1</RaceId>
+		<FleetTemplateId>4</FleetTemplateId>
+		<RaceId>11</RaceId>
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
 		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
+		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
 		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
+		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
 		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
@@ -22,25 +22,25 @@
 				<Role>Frigate</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>8</Amount>
+				<Amount>12</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Destroyer</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>6</Amount>
+				<Amount>9</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Cruiser</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>4</Amount>
+				<Amount>6</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>CapitalShip</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>2</Amount>
+				<Amount>1</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Carrier</Role>
@@ -57,14 +57,52 @@
 		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
-		<FleetTemplateId>1</FleetTemplateId>
-		<RaceId>-1</RaceId>
+		<FleetTemplateId>5</FleetTemplateId>
+		<RaceId>11</RaceId>
 		<Role>Raid</Role>
 		<Name>Raiding Force</Name>
 		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
+		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength100</DefaultRetreatOverwhelmed>
 		<DefaultStance>Cautious</DefaultStance>
+
+		<ShipsEngagementRange>System</ShipsEngagementRange>
+		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
+		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
+		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
+		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
+		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
+		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
+		<Items>
+			<FleetTemplateItem>
+				<Role>Escort</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>9</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Frigate</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>Destroyer</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>3</Amount>
+			</FleetTemplateItem>
+		</Items>
+	</FleetTemplate>
+	<FleetTemplate>
+		<FleetTemplateId>6</FleetTemplateId>
+		<RaceId>11</RaceId>
+		<Role>Defend</Role>
+		<Name>Defense Fleet</Name>
+		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
+		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
+		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
+		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
@@ -78,91 +116,45 @@
 				<Role>Frigate</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>6</Amount>
+				<Amount>9</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Destroyer</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>4</Amount>
-			</FleetTemplateItem>
-			<FleetTemplateItem>
-				<Role>Cruiser</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
-				<Amount>2</Amount>
-			</FleetTemplateItem>
-			<FleetTemplateItem>
-				<Role>FuelTanker</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
-				<Amount>1</Amount>
-			</FleetTemplateItem>
-		</Items>
-	</FleetTemplate>
-	<FleetTemplate>
-		<FleetTemplateId>2</FleetTemplateId>
-		<RaceId>-1</RaceId>
-		<Role>Defend</Role>
-		<Name>Defense Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
-		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
-		<DefaultStance>Neutral</DefaultStance>
-
-		<ShipsEngagementRange>System</ShipsEngagementRange>
-		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
-		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
-		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
-		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
-		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
-
-		<Items>
-			<FleetTemplateItem>
-				<Role>Frigate</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
 				<Amount>6</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
-				<Role>Destroyer</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
-				<Amount>4</Amount>
-			</FleetTemplateItem>
-			<FleetTemplateItem>
 				<Role>Cruiser</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>2</Amount>
+				<Amount>3</Amount>
 			</FleetTemplateItem>
 		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
-		<FleetTemplateId>3</FleetTemplateId>
-		<RaceId>-1</RaceId>
+		<FleetTemplateId>7</FleetTemplateId>
+		<RaceId>11</RaceId>
 		<Role>Invade</Role>
 		<Name>Invasion Fleet</Name>
 		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
-		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
-		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
+		<DefaultRetreatStrength>LessThan50</DefaultRetreatStrength>
+		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
 		<ShipsAttackRangeNormal>Neutral</ShipsAttackRangeNormal>
 		<ShipsAttackRangeStronger>Neutral</ShipsAttackRangeStronger>
-		<ShipsRetreatWhen>Shields20OrArmor50</ShipsRetreatWhen>
-		<ShipsInvadeWhen>InvadeImmediately</ShipsInvadeWhen>
+		<ShipsRetreatWhen>NonDefenseComponentDestroyedOrDamaged20</ShipsRetreatWhen>
+		<ShipsInvadeWhen>InvadeWhenClear</ShipsInvadeWhen>
 		<AllowShipRoleReassignment>true</AllowShipRoleReassignment>
 		<OverrideShipTacticsWithFleet>false</OverrideShipTacticsWithFleet>
-
 		<Items>
 			<FleetTemplateItem>
 				<Role>Frigate</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>8</Amount>
+				<Amount>9</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Destroyer</Role>
@@ -174,19 +166,13 @@
 				<Role>Cruiser</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>4</Amount>
+				<Amount>3</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>TroopTransport</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>6</Amount>
-			</FleetTemplateItem>
-			<FleetTemplateItem>
-				<Role>CapitalShip</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
-				<Amount>1</Amount>
+				<Amount>8</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Carrier</Role>

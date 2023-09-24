@@ -177,21 +177,26 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.17.2
-- Gizureans will now start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
-- Added troop recruitment bonus to Gizurean Fighter Bases (like all other XL bases)
+- Gizureans
+  - Start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
+  - Hex Armor +1 reactive rating
+  - +5 habitability for Sandy Deserts
+  - Swarm Targeting Computer reduced to size 5 (like all other targeting computers in XL)
+  - Improved government names
+  - +10% recruitment bonus on Swarm Fighter Bases
+  - Added another level of Medium Hangars in order to trick the automation into using it more often
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
   - Improved crew systems
-  - Progress towards either standard crew systems or marine barracks
+  - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
   - Royal Palace
-- Terraforming facilities are now cheaper 20K, 50K, 100K, 200K, 400K (was 27.5, 55, 87.5, 110, 220)
-- Gizurean Hex Armor +1 reactive rating
-- Gizurean +5 habitability for sandy deserts (their primary biome)
-- Gizurean Swarm Targeting Computer reduced to size 5 (like all other targeting computers in XL)
+- Terraforming facilities are a bit cheaper at the low end, more expensive at the high end
+- Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
 
 ### v1.17.1
-- Gizureans will now start with Basic Target Tracking
-- Fixed: Hive Fighter Bays required Basic Maneuvering, which isn't part of XL (switched to Starship Engines)
+- Gizureans
+  - Start with Basic Target Tracking
+- Fixed: Hive Fighter Bays now require Starship Engines, not Basic Maneuvering (which isn't part of XL)
 
 ### v1.17.0
 - DLC2 Now Required
