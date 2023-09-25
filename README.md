@@ -185,6 +185,7 @@ YMMV, but this is my take on making it Extra Large!
   - Improved government names
   - +10% recruitment bonus on Swarm Fighter Bases
   - Added another level of Medium Hangars in order to trick the automation into using it more often
+  - Swarm Fighter Bases now cost more as they increase in size & power
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
   - Improved crew systems
