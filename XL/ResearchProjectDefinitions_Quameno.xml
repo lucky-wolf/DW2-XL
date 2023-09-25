@@ -443,7 +443,7 @@
 		<Name>Tests of Merit</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>187.5</Size>
+		<Size>100</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -455,8 +455,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>600</Row>
+		<Column>1</Column>
+		<Row>452</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -465,7 +465,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>414</ResearchProjectId>
+				<ResearchProjectId>395</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -480,7 +480,7 @@
 		<Name>Transcendence</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>48600</Size>
 		<InitiationCost>
 			<Money>40500</Money>
 			<Resources>
@@ -497,7 +497,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>601</Row>
+		<Row>407</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -506,30 +506,28 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Genetic Rewiring -->
 				<ResearchProjectId>574</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Reality Replacement -->
 				<ResearchProjectId>575</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>576</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>577</ResearchProjectId>
+				<!-- Efficient Research -->
+				<ResearchProjectId>1075</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>96</short>
 		</PlanetaryFacilityIds>
@@ -597,7 +595,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>602</Row>
+		<Row>441</Row>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -617,7 +615,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>603</Row>
+		<Row>442</Row>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
