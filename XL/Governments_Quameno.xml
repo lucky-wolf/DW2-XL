@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Government>
+		<GovernmentId>13</GovernmentId>
+		<Name>Geniocracy</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Geniocracy)</string>
+		</StartingGameEventNames>
+		<Description>A Geniocracy is ruled by the most intelligent members of a society – the geniuses. Those who wish to lead must first pass elaborate tests of intelligence and problem-solving abilities, which generally begin shortly after birth. These tests are comprehensive and continuous as a candidate seeks to rise through the ranks. The ultimate goal is to ensure that only those who have proven themselves the most intellectually capable are in charge.
+
+A Geniocracy also organizes society's purpose and efforts towards one goal – to advance knowledge. All other considerations are secondary, which means that Geniocracies can seem relatively austere and single-minded. Through the advancement of science, all other needs are expected to be met over time. The pursuit of knowledge as the primary goal results in innovations in all areas that progress the general well-being. In order to maintain that focus, Geniocracies are generally harmonious, but that harmony is enforced through a strict internal order.</Description>
+		<ImageFilename />
+		<LeaderTitle>Enlightened Master</LeaderTitle>
+		<CabinetTitle />
+		<EconomicFactors />
+		<Biases />
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+		</Bonuses>
+
+		<ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+		<ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+		<ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+		<ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>7</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool>
+			<CharacterRole>Scientist</CharacterRole>
+		</LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<Stability>1.1</Stability>
+		<ConcernForOwnReputation>0.8</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<EmpireNameAdjectives>
+			<string>Wise</string>
+			<string>Astute</string>
+			<string>Hallowed</string>
+			<string>Dignified</string>
+			<string>Lofty</string>
+			<string>Sagacious</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Academy</string>
+			<string>Foundation</string>
+			<string>Council</string>
+			<string>Order</string>
+			<string>Assembly</string>
+		</EmpireNameNouns>
+		<ExtraIntelligenceMissionTypes />
+		<ColonyGrowthFundingFactor>0</ColonyGrowthFundingFactor>
+		<SpendScientistCrashBreakthrough>true</SpendScientistCrashBreakthrough>
+		<SpendScientistCriticalResearchFailure>true</SpendScientistCriticalResearchFailure>
+	</Government>
+</ArrayOfGovernment>

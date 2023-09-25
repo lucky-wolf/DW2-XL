@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.3](#v1173)
 		- [v1.17.2](#v1172)
 		- [v1.17.1](#v1171)
 		- [v1.17.0](#v1170)
@@ -175,6 +176,11 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.17.3
+- Geniocracy
+  - Gives basic targeting as well as standard sensors (prerequisite)
+  - Improved government names
 
 ### v1.17.2
 - Quameno
