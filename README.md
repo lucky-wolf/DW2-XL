@@ -194,6 +194,9 @@ YMMV, but this is my take on making it Extra Large!
 - Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
 - Tweaked AI Policies again to give a little more funds to troops
 - Found a bunch of references to the dead Fast Interceptors and Fast Bombers tech in various events and converted them to Improved Fighters and Bombers instead
+- Quantum Capacitors
+  - high tech
+  - size 10
 
 ### v1.17.1
 - Gizureans
