@@ -181,6 +181,8 @@ YMMV, but this is my take on making it Extra Large!
 - Geniocracy
   - Gives basic targeting as well as standard sensors (prerequisite)
   - Improved government names
+- Quameno
+  - Updated ship hulls to conform to XL
 
 ### v1.17.2
 - Quameno

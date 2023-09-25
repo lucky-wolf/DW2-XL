@@ -13,7 +13,7 @@
 			// "cwd": "${workspaceFolderBasename}"
 		},
 		{
-			"name": "Replace",
+			"name": "Replace Quameno Ship Hulls",
 			"type": "go",
 			"request": "launch",
 			"mode": "debug",
@@ -22,7 +22,7 @@
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-target",
-				"XL/ShipHulls_Gizurean.xml",
+				"XL/ShipHulls_Quameno.xml",
 				"-script",
 				"FixHulls.txt"
 			]
