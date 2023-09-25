@@ -5,7 +5,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Attack</Role>
 		<Name>Attack Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -78,19 +78,19 @@
 				<Role>Frigate</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>3</Amount>
+				<Amount>6</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Destroyer</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>2</Amount>
+				<Amount>4</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Cruiser</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>1</Amount>
+				<Amount>2</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>FuelTanker</Role>
@@ -107,7 +107,7 @@
 		<Name>Defense Fleet</Name>
 		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
-		<DefaultRetreatOverwhelmed>EnemyStrength200</DefaultRetreatOverwhelmed>
+		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
 
 		<ShipsEngagementRange>System</ShipsEngagementRange>
@@ -137,12 +137,6 @@
 				<DesignId>-2147483648</DesignId>
 				<Amount>2</Amount>
 			</FleetTemplateItem>
-			<FleetTemplateItem>
-				<Role>FuelTanker</Role>
-				<ShipHullId>-1</ShipHullId>
-				<DesignId>-2147483648</DesignId>
-				<Amount>1</Amount>
-			</FleetTemplateItem>
 		</Items>
 	</FleetTemplate>
 	<FleetTemplate>
@@ -150,7 +144,7 @@
 		<RaceId>-1</RaceId>
 		<Role>Invade</Role>
 		<Name>Invasion Fleet</Name>
-		<DefaultEngagementRange>FuelRange33</DefaultEngagementRange>
+		<DefaultEngagementRange>FuelRange50</DefaultEngagementRange>
 		<DefaultRetreatStrength>LessThan75</DefaultRetreatStrength>
 		<DefaultRetreatOverwhelmed>EnemyStrength150</DefaultRetreatOverwhelmed>
 		<DefaultStance>Neutral</DefaultStance>
@@ -168,25 +162,31 @@
 				<Role>Frigate</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>6</Amount>
+				<Amount>8</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Destroyer</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>4</Amount>
+				<Amount>6</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Cruiser</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
-				<Amount>2</Amount>
+				<Amount>4</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>TroopTransport</Role>
 				<ShipHullId>-1</ShipHullId>
 				<DesignId>-2147483648</DesignId>
 				<Amount>6</Amount>
+			</FleetTemplateItem>
+			<FleetTemplateItem>
+				<Role>CapitalShip</Role>
+				<ShipHullId>-1</ShipHullId>
+				<DesignId>-2147483648</DesignId>
+				<Amount>1</Amount>
 			</FleetTemplateItem>
 			<FleetTemplateItem>
 				<Role>Carrier</Role>

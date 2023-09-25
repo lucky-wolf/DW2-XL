@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Government>
+		<GovernmentId>14</GovernmentId>
+		<Name>Cell Hegemony</Name>
+		<StartingGameEventNames>
+			<string>Initialise Government (Cell Hegemony)</string>
+		</StartingGameEventNames>
+		<Description>A Cell Hegemony is a form of government where the rulers are chosen based on their ability to share an empathic connection with groups of their citizens. Only those who are able to maintain such a connection are considered suitable for leadership.
+
+The society itself is divided into many groups that are able to share such limited connections, which are referred to as Cells. These cells self-organize through their ability to form empathic bonds with each other and end up similar in character to a tribe. Within their Cell, they are able to share feelings and impressions of thoughts and memories to a limited extent. Each Cell is generally ruled by the member with the strongest connection, who becomes the Hegemon of that Cell.
+
+These Hegemons then form a larger Cell which makes decisions for the society. Usually the Hegemons are able to form connections with one another, but not always as strongly as within their own Cell. This Council of Hegemons rules the Cell Hegemony based on their collective will and that of the various Cells, expressed through them.
+
+A Cell Hegemony is in some ways a different form of Hive Mind, more limited in what it can share and more divided, but still based on the principle that these empathic connections are the best basis for overall unity and effective governance. In practice, the differences between Cells and the Hegemons result in more individualism than is found in a full Hive Mind but also tends towards oligarchy.</Description>
+		<ImageFilename />
+		<LeaderTitle>Overlord</LeaderTitle>
+		<CabinetTitle />
+		<EconomicFactors />
+		<Biases />
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+		</Bonuses>
+
+		<CharacterTraitFactorInspiringPresence>2</CharacterTraitFactorInspiringPresence>
+		<CharacterTraitFactorDemoralizing>0.3</CharacterTraitFactorDemoralizing>
+		<LuxuryResourceConsumptionRateFactor>0.75</LuxuryResourceConsumptionRateFactor>
+
+		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>5</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool />
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<Stability>1</Stability>
+		<ConcernForOwnReputation>0.4</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.8</ImportanceOfOthersReputations>
+		<UsesCabinet>false</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<EmpireNameAdjectives>
+			<string>Magnificent</string>
+			<string>Greatest</string>
+			<string>Powerful</string>
+			<string>Best</string>
+			<string>Brilliant</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Devourers</string>
+			<string>Horde</string>
+			<string>Swarm</string>
+		</EmpireNameNouns>
+		<ExtraIntelligenceMissionTypes />
+	</Government>
+</ArrayOfGovernment>

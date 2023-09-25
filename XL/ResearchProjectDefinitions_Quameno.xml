@@ -4,7 +4,7 @@
 		<ResearchProjectId>258</ResearchProjectId>
 		<Name>Fusion Ignition</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>187.5</Size>
+		<Size>100</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -21,7 +21,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>563</Row>
+		<Row>183</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -51,7 +51,7 @@
 		<ResearchProjectId>292</ResearchProjectId>
 		<Name>Enhanced Fusion Reactions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2000</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -68,7 +68,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>563</Row>
+		<Row>183</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -98,7 +98,7 @@
 		<ResearchProjectId>491</ResearchProjectId>
 		<Name>Intense Fusion Reactions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>4000</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -115,7 +115,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>563</Row>
+		<Row>183</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -145,7 +145,7 @@
 		<ResearchProjectId>530</ResearchProjectId>
 		<Name>Zero Fusion Threshhold</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32000</Size>
+		<Size>21600</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -162,7 +162,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>563</Row>
+		<Row>183</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -193,7 +193,7 @@
 		<Name>Hard Energy Experiments</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1000</Size>
+		<Size>900</Size>
 		<InitiationCost>
 			<Money>2000</Money>
 			<Resources>
@@ -222,7 +222,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>568</Row>
+		<Row>148</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -231,12 +231,14 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>251</ResearchProjectId>
+				<!-- advanced deflectors -->
+				<ResearchProjectId>260</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- fusion ignition -->
 				<ResearchProjectId>258</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -260,7 +262,7 @@
 		<Name>Hardened Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>3000</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -289,7 +291,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>568</Row>
+		<Row>148</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -320,7 +322,7 @@
 		<Name>Reinforced Hard Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8000</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -349,7 +351,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>568</Row>
+		<Row>148</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -381,7 +383,7 @@
 		<Name>Impenetrable Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>64000</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>32000</Money>
 			<Resources>
@@ -410,7 +412,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>568</Row>
+		<Row>148</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -424,14 +426,7 @@
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>530</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>372</ComponentId>
@@ -448,7 +443,7 @@
 		<Name>Tests of Merit</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>187.5</Size>
+		<Size>100</Size>
 		<InitiationCost>
 			<Money>500</Money>
 			<Resources>
@@ -460,8 +455,8 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>675</Row>
+		<Column>1</Column>
+		<Row>452</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -470,7 +465,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>414</ResearchProjectId>
+				<ResearchProjectId>395</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -485,7 +480,7 @@
 		<Name>Transcendence</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>19200</Size>
+		<Size>48600</Size>
 		<InitiationCost>
 			<Money>40500</Money>
 			<Resources>
@@ -502,7 +497,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>676</Row>
+		<Row>407</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>15</RaceId>
@@ -511,30 +506,28 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Genetic Rewiring -->
 				<ResearchProjectId>574</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Reality Replacement -->
 				<ResearchProjectId>575</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>576</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>577</ResearchProjectId>
+				<!-- Efficient Research -->
+				<ResearchProjectId>1075</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>96</short>
 		</PlanetaryFacilityIds>
@@ -602,7 +595,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>710</Row>
+		<Row>441</Row>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -622,7 +615,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>711</Row>
+		<Row>442</Row>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -633,4 +626,71 @@
 			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
+
+	<!-- XL Extensions -->
+
+	<ResearchProjectDefinition>
+		<!-- replaces vanilla fast interceptors (that XL doesn't use) -->
+		<ResearchProjectId>351</ResearchProjectId>
+		<Name>Indestructable Shields</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>64000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>6400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>148</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>820</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>372</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>371</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<!-- 1180 + 1181 are also Quemeno -->
+
 </ArrayOfResearchProjectDefinition>

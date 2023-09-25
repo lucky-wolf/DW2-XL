@@ -102,7 +102,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>260</Row>
+		<Row>266</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -193,7 +193,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>260</Row>
+		<Row>266</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -350,7 +350,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>260</Row>
+		<Row>266</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -393,7 +393,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>260</Row>
+		<Row>266</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>5</RaceId>
@@ -1934,4 +1934,54 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
+
+	<!-- XL Extensions -->
+
+	<ResearchProjectDefinition>
+		<!-- replaces fast bombers -->
+		<ResearchProjectId>353</ResearchProjectId>
+		<Name>Splinter Super Swarms</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>49000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4900</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>266</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>546</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>309</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<!-- 1182-1184 are also Ikkuro -->
+
 </ArrayOfResearchProjectDefinition>

@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.2](#v1172)
 		- [v1.17.1](#v1171)
 		- [v1.17.0](#v1170)
 		- [v1.16.9](#v1169)
@@ -175,12 +176,44 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.17.2
+- Quameno
+  - Are playable
+  - Integrated tech tree
+  - Have a t10 level of their shields (ship + ftr)
+  - Have repeatables for their shields
+- Gizureans
+  - Start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
+  - Hex Armor +1 reactive rating
+  - +5 habitability for Sandy Deserts
+  - Swarm Targeting Computer reduced to size 5 (like all other targeting computers in XL)
+  - Improved government names
+  - +10% recruitment bonus on Swarm Fighter Bases
+  - Added another level of Medium Hangars in order to trick the automation into using it more often
+  - Swarm Fighter Bases now cost more as they increase in size & power
+- Ikkuro
+  - Have a 5th level of splinter (boarding pod)
+  - Have repeatables techs for their splinter pods
+- Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
+- Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
+  - Improved crew systems
+  - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
+  - Royal Palace
+- Terraforming facilities are a bit cheaper at the low end, more expensive at the high end
+- Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
+- Tweaked AI Policies again to give a little more funds to troops
+- Found a bunch of references to the dead Fast Interceptors and Fast Bombers tech in various events and converted them to Improved Fighters and Bombers instead
+- Quantum Capacitors are now much higher tech (size 10)
+
 ### v1.17.1
-- Gizureans will now start with Basic Target Tracking
-- Fixed: Hive Fighter Bays required Basic Maneuvering, which isn't part of XL (switched to Starship Engines)
+- Gizureans
+  - Start with Basic Target Tracking
+- Fixed: Hive Fighter Bays now require Starship Engines, not Basic Maneuvering (which isn't part of XL)
 
 ### v1.17.0
 - DLC2 Now Required
+- QUAMENO NOT YET AVAILABLE
+  - This adds Gizureans, but not Quameno (perhaps next weekend if all goes well)
 - Updated for 1.1.7.1 Beta (Recommended)
 - Fixed missing upgrades in "Special Operations" tech
 - Increased range of some railguns
@@ -191,7 +224,6 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked AI policies to require +4 minimum suitability for colonization (had it at +1, but too many AI colonies were rebelling)
 - Synthetic Units now cost $4K to recruit (previous $2k which is cost of a normal infantry)
 - Made Quantum Energy Capacitors High tech (start at T6)
-- NOTE: this adds Gizureans, but not Quameno (perhaps next weekend if all goes well)
 
 ### v1.16.9
 - 1.1.6.8 Beta Update
