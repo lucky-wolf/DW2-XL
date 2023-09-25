@@ -177,6 +177,10 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.17.2
+- Quameno
+  - Are playable
+  - Integrated tech tree
+  - Have a t10 level of their shields (ship + ftr)
 - Gizureans
   - Start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
   - Hex Armor +1 reactive rating
