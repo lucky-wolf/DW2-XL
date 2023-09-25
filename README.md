@@ -181,6 +181,7 @@ YMMV, but this is my take on making it Extra Large!
   - Are playable
   - Integrated tech tree
   - Have a t10 level of their shields (ship + ftr)
+  - Have repeatables for their shields
 - Gizureans
   - Start with kinetics (game engine will generally force-assign one stand-off tech at random in addition)
   - Hex Armor +1 reactive rating
@@ -190,6 +191,9 @@ YMMV, but this is my take on making it Extra Large!
   - +10% recruitment bonus on Swarm Fighter Bases
   - Added another level of Medium Hangars in order to trick the automation into using it more often
   - Swarm Fighter Bases now cost more as they increase in size & power
+- Ikkuro
+  - Have a 5th level of splinter (boarding pod)
+  - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
   - Improved crew systems
