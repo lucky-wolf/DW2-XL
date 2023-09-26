@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.5](#v1175)
 		- [v1.17.4](#v1174)
 		- [v1.17.3](#v1173)
 		- [v1.17.2](#v1172)
@@ -177,6 +178,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.17.5
+- Restricted Quameno from all irrelevant reactor techs
+- Fixed: Another overlap in Ancient Guardian Tech
 
 ### v1.17.4
 - Updated troop definitions for Gizurean and Quameno to XL standards
