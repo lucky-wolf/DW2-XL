@@ -181,6 +181,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.17.4
 - Updated troop definitions for Gizurean and Quameno to XL standards
 - Fixed Quameno Hard Energy Experiments to have the correct tech cost for T2
+- Fixed Ancient Guardian Vault and Basic Vault techs so they don't overlap
 - Added connections from Quameno shields to Quantum Capacitors, Shield Reinforcement Projection, and planetary shields
 - Cleaned up the tech tree arrangement
 - Disallowed Quameno from standard shield lines
