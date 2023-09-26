@@ -12223,7 +12223,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>141</Row>
+		<Row>142</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -12335,6 +12335,11 @@
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -13152,7 +13157,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>144</Row>
+		<Row>145</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>334</ResearchProjectId>
@@ -13236,12 +13241,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>147</Row>
+		<Row>140</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Zenox Shields -->
 				<ResearchProjectId>271</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>7</RaceId>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>336</ResearchProjectId>
@@ -13257,6 +13264,13 @@
 				<ResearchProjectId>338</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Quameno Shields -->
+				<ResearchProjectId>817</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
@@ -14987,12 +15001,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>144</Row>
+		<Row>145</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Zenox Shields -->
 				<ResearchProjectId>579</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>7</RaceId>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1042</ResearchProjectId>
@@ -15008,6 +15024,13 @@
 				<ResearchProjectId>1085</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Quameno Shields -->
+				<ResearchProjectId>818</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -15098,11 +15121,16 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -15164,6 +15192,11 @@
 				<RaceId>7</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -15221,6 +15254,11 @@
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -16173,7 +16211,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>141</Row>
+		<Row>142</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -16232,11 +16270,16 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -16302,6 +16345,11 @@
 				<RaceId>7</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -16359,6 +16407,11 @@
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -21526,7 +21579,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>141</Row>
+		<Row>142</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -21633,11 +21686,16 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -21697,11 +21755,20 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>143</Row>
+		<DisallowedRaceIds>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Zenox Shields -->
 				<ResearchProjectId>579</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+				<RaceId>7</RaceId>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1042</ResearchProjectId>
@@ -21769,6 +21836,11 @@
 			<!-- Zenox have better tech -->
 			<RaceProbability>
 				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
 		</DisallowedRaceIds>
@@ -23055,7 +23127,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>144</Row>
+		<Row>145</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>294</ResearchProjectId>
@@ -23107,14 +23179,29 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>142</Row>
+		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Meridian Shields -->
 				<ResearchProjectId>501</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<!-- Quantum Energy Suspension -->
+				<ResearchProjectId>334</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Quameno Shields -->
+				<ResearchProjectId>819</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>185</ComponentId>
@@ -23160,6 +23247,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>143</Row>
+		<DisallowedRaceIds>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>501</ResearchProjectId>
@@ -23226,7 +23320,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>147</Row>
+		<Row>140</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>296</ResearchProjectId>
@@ -25012,7 +25106,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>141</Row>
+		<Row>142</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>7</RaceId>
@@ -25076,7 +25170,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>142</Row>
+		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>533</ResearchProjectId>
@@ -25129,6 +25223,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
 		<Row>143</Row>
+		<DisallowedRaceIds>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>534</ResearchProjectId>
@@ -26719,6 +26820,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
 		<Row>142</Row>
+		<DisallowedRaceIds>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>581</ResearchProjectId>
@@ -26758,6 +26866,13 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
 		<Row>144</Row>
+		<DisallowedRaceIds>
+			<!-- Quameno have better tech -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>581</ResearchProjectId>
