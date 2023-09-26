@@ -960,7 +960,8 @@
 		<Type>Infantry</Type>
 		<Size>5000</Size>
 		<RecruitmentCost>
-			<Money>2000</Money>
+			<!-- Quameno are very expensive to use in combat -->
+			<Money>5000</Money>
 			<Resources />
 		</RecruitmentCost>
 		<MaintenanceCost>200</MaintenanceCost>

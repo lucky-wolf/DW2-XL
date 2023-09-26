@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TroopDefinition>
+		<TroopDefinitionId>64</TroopDefinitionId>
+		<RaceId>11</RaceId>
+		<Type>Armored</Type>
+		<Size>10000</Size>
+		<RecruitmentCost>
+			<Money>3750</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>375</MaintenanceCost>
+		<AttackStrength>230</AttackStrength>
+		<DefendStrength>92</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<Name>Battlepod Swarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>65</TroopDefinitionId>
+		<RaceId>11</RaceId>
+		<Type>PlanetaryDefense</Type>
+		<Size>8000</Size>
+		<RecruitmentCost>
+			<Money>3000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>300</MaintenanceCost>
+		<AttackStrength>97</AttackStrength>
+		<DefendStrength>130</DefendStrength>
+		<EvasionInfantry>0.1</EvasionInfantry>
+		<EvasionArmor>0.1</EvasionArmor>
+		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
+		<Name>Exo Defense Swarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>66</TroopDefinitionId>
+		<RaceId>11</RaceId>
+		<Type>SpecialForces</Type>
+		<Size>5000</Size>
+		<RecruitmentCost>
+			<Money>5000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>184</AttackStrength>
+		<DefendStrength>104</DefendStrength>
+		<SabotageStrength>100</SabotageStrength>
+		<EvasionInfantry>0.25</EvasionInfantry>
+		<EvasionArmor>0.35</EvasionArmor>
+		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
+		<Name>Infiltration Swarm</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
+	</TroopDefinition>
+	<TroopDefinition>
+		<TroopDefinitionId>67</TroopDefinitionId>
+		<RaceId>11</RaceId>
+		<Type>Titan</Type>
+		<Size>20000</Size>
+		<RecruitmentCost>
+			<Money>10000</Money>
+		</RecruitmentCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<AttackStrength>460</AttackStrength>
+		<DefendStrength>414</DefendStrength>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.4</EvasionSpecialForces>
+		<Name>Swarm Carrier</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
+	</TroopDefinition>
+</ArrayOfTroopDefinition>

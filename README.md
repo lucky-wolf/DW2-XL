@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.4](#v1174)
 		- [v1.17.3](#v1173)
 		- [v1.17.2](#v1172)
 		- [v1.17.1](#v1171)
@@ -176,6 +177,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.17.4
+- Updated troop definitions for Gizurean and Quameno to XL standards
+- Fixed Quameno Hard Energy Experiments to have the correct tech cost for T2
+- Fixed Ancient Guardian Vault and Basic Vault techs so they don't overlap
+- Added connections from Quameno shields to Quantum Capacitors, Shield Reinforcement Projection, and planetary shields
+- Disallowed Quameno from standard shield lines
 
 ### v1.17.3
 - Geniocracy
