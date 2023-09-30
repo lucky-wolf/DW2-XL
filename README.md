@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.17.6](#v1176)
 		- [v1.17.5](#v1175)
 		- [v1.17.4](#v1174)
 		- [v1.17.3](#v1173)
@@ -179,6 +180,9 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.17.6
+- Renamed reactors to better fit the DW2 universe
+
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
 - Fixed: Another overlap in Ancient Guardian Tech
@@ -297,7 +301,7 @@ YMMV, but this is my take on making it Extra Large!
   - Consisted of some very minor changes for repeatable techs
 - Fixed couple of issues with Ancient Guardian Vault techs
 - Moved XL components into the 500 range to avoid collisions
-- Separated "Derelict Reactor" so that they'll have plenty of power and won't be confused with antimatter reactors in XL
+- Separated "Derelict Reactor" so that they'll have plenty of power and won't be confused with plasmatic caslon reactors in XL
 - Added defense improvement factors to Mech improvement techs
 - Added all around improvement factors to Robotic Troop improvement techs
 - Reduced chance of Caslon to approx 6% of all gas giants outside of story based systems
@@ -326,7 +330,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.15.5
 - Updated for 1.1.4.9 beta (not required)
-- Reduced the Space Reactor efficiency to limit early game expansion
+- Reduced the Caslon Reactor efficiency to limit early game expansion
 - Broke out Administration Facilities into separate buildings, rather than upgrades
   - Hopefully this allows the AIs to build them and be a bit more competitive further into the game
 - Super techs now cost between T9 and T10 levels
@@ -353,7 +357,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays
 - Fixed: Vanilla bug that caused any government event buildings to increase planetary quality
 - Fixed: Enhanced Research to have correct costs
-- Fixed: Hyperfusion reactor size to 18 (was too small)
+- Fixed: Caslon Hyperfusion Reactor size to 18 (was too small)
 - Adjusted sizes of spaceports and defensive bases
   - look better relative to each other
   - hold more components
@@ -420,8 +424,8 @@ YMMV, but this is my take on making it Extra Large!
 - Teekans now start with 50% progress for Starfighter Hangar Bays
 - Energy->Fuel converters are now size [M] 20 or [L] 40
 - Energy->Fuel converters have tech level 10 upgrades
-- Fusion Reactors now produce as much energy as Fission Reactors, but at the same size footprint as Antimatter Reactors
-  - This makes Fusion worse for space efficiency than Fission or Antimatter, since both of those produce higher output per space used
+- Caslon Fusion Reactors now produce as much energy as Harmonic Caslon Reactors, but at the same size footprint as Plasmatic Caslon Reactors
+  - This makes Caslon Fusion worse for space efficiency than Harmonic Caslon or Plasmatic Caslon, since both of those produce higher output per space used
   - They remain however the fuel efficiency king
 - Fixed up all [ftr] reactor variants to have the same fuel efficiency as their non-ftr ship components
 - Fixed missing Derasian Shock Wave v2 component stats
@@ -947,11 +951,11 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted AI policies to allocate more cashflow to troops & facilities
 
 ### v1.3.0
-- Expanded the reactors line to 6-deep for all 3 main techs (fusion, fission, quantum)
-  - fusion is the most compact but the lowest output and capacity
-  - fission is 50% larger for 50% more output and 20% more capacity
-  - quantum is 100% larger than fusion for 100% more output and 80% greater capacity
-  - fusion is the most fuel efficient, fission in the middle, and quantum is the worst
+- Expanded the reactors line to 6-deep for all 3 main techs (caslon fusion, harmonic caslon, coronal)
+  - caslon fusion is the most compact but the lowest output and capacity
+  - harmonic caslon is 50% larger for 50% more output and 20% more capacity
+  - coronal is 100% larger than caslon fusion for 100% more output and 80% greater capacity
+  - caslon fusion is the most fuel efficient, harmonic caslon in the middle, and coronal is the worst
 - Added AI policies to help them be more competitive
 
 ### v1.2.3
@@ -1149,14 +1153,14 @@ YMMV, but this is my take on making it Extra Large!
 - Have had the various types extended and balanced a bit so that every path is viable, with obvious trade-offs between lag, in flight speed, and balanced performance.
   - Kaldos drives are all about snappy response, but sacrifice range for a single hop.
   - Equinox drives are about flight-speed, and have a middling range per hop.
-  - Calista Dal drives are all about range per hop, but sacrifice response time, being quite slow to spin up, as well as significantly slower than either Kaldos or Equinox.  However, they're much lower energy consumption so make for an intriguing option well suited to fusion reactors.
+  - Calista Dal drives are all about range per hop, but sacrifice response time, being quite slow to spin up, as well as significantly slower than either Kaldos or Equinox.  However, they're much lower energy consumption so make for an intriguing option well suited to caslon fusion reactors.
 
 ## Reactors
 - Have had the various types extended and balanced so that every major type is in-principle viable and competitive, depending on your empire's strategic situation.
-  - Fusion reactors are small sized, low-power, efficient with fuel consumpiton.
-  - Fission reactors are medium sized, mid-power, and balanced with fuel consumpiton.
-  - Antimatter reactors are large sized, high-power, fuel-hogs.
-- All reactor types improve on all ares with tech, but fusion remains the gas-sipping king, fission the middle ground, and antimatter the power king.
+  - Caslon Fusion reactors are small sized, low-power, efficient with fuel consumpiton.
+  - Harmonic Caslon reactors are medium sized, mid-power, and balanced with fuel consumpiton.
+  - Plasmatic Caslon reactors are large sized, high-power, fuel-hogs.
+- All reactor types improve on all ares with tech, but caslon fusion remains the gas-sipping king, harmonic caslon the middle ground, and plasmatic caslon the power king.
 - All reactor tech lines have been greatly extended to higher levels of tech.
 
 ## Targeting and Countermeasures
@@ -1242,30 +1246,30 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 
 ## DW2-XL Reactors
 
-| Ship Reactor                    | Tech | Size | Energy | Capacity | Fuel Efficiency |
-| ------------------------------- | ---: | ---: | -----: | -------: | --------------: |
-| Space Reactor                   |    0 |   23 |   54/s |       90 |      2.333/1000 |
-| Space Reactor (v2)              |    1 |   23 |   68/s |      115 |      1.739/1000 |
-| Fusion Reactor                  |    2 |   16 |   80/s |      120 |      1.500/1000 |
-| Fusion Reactor (v2)             |    3 |    - |  100/s |      144 |      1.400/1000 |
-| Fusion Reactor (v3)             |    4 |    - |  120/s |      173 |      1.300/1000 |
-| Hyperfusion Reactor             |    5 |   14 |  160/s |      200 |      1.200/1000 |
-| Hyperfusion Reactor (v2)        |    6 |    - |  200/s |      240 |      1.100/1000 |
-| Hyperfusion Reactor (v3)        |    7 |    - |  240/s |      280 |      1.000/1000 |
-| Fission Reactor                 |    2 |   20 |  120/s |      144 |      1.700/1000 |
-| Fission Reactor (v2)            |    3 |    - |  140/s |      173 |      1.600/1000 |
-| Fission Reactor (v3)            |    4 |    - |  160/s |      207 |      1.500/1000 |
-| Hyperfission Reactor            |    5 |   18 |  200/s |      240 |      1.400/1000 |
-| Hyperfission Reactor (v2)       |    6 |    - |  240/s |      288 |      1.300/1000 |
-| Hyperfission Reactor (v3)       |    7 |    - |  280/s |      346 |      1.200/1000 |
-| Antimatter Reactor              |    2 |   24 |  160/s |      216 |      1.900/1000 |
-| Antimatter Reactor (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
-| Antimatter Reactor (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
-| Antimatter Cycling Reactor      |    5 |   22 |  240/s |      360 |      1.600/1000 |
-| Antimatter Cycling Reactor (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
-| Antimatter Cycling Reactor (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
-| Zero Point Reactor              |    8 |   20 |  311/s |      605 |      1.000/1000 |
-| Dark Star Reactor               |   12 |   20 |  500/s |     1000 |      0.900/1000 |
+| Ship Reactor                          | Tech | Size | Energy | Capacity | Fuel Efficiency |
+| ------------------------------------- | ---: | ---: | -----: | -------: | --------------: |
+| Caslon Reactor                        |    0 |   23 |   54/s |       90 |      2.333/1000 |
+| Caslon Reactor (v2)                   |    1 |   23 |   68/s |      115 |      1.739/1000 |
+| Caslon Fusion Reactor                 |    2 |   16 |   80/s |      120 |      1.500/1000 |
+| Caslon Fusion Reactor (v2)            |    3 |    - |  100/s |      144 |      1.400/1000 |
+| Caslon Fusion Reactor (v3)            |    4 |    - |  120/s |      173 |      1.300/1000 |
+| Caslon Hyperfusion Reactor            |    5 |   14 |  160/s |      200 |      1.200/1000 |
+| Caslon Hyperfusion Reactor (v2)       |    6 |    - |  200/s |      240 |      1.100/1000 |
+| Caslon Hyperfusion Reactor (v3)       |    7 |    - |  240/s |      280 |      1.000/1000 |
+| Harmonic Caslon Reactor               |    2 |   20 |  120/s |      144 |      1.700/1000 |
+| Harmonic Caslon Reactor (v2)          |    3 |    - |  140/s |      173 |      1.600/1000 |
+| Harmonic Caslon Reactor (v3)          |    4 |    - |  160/s |      207 |      1.500/1000 |
+| Resonant Caslon Reactor               |    5 |   18 |  200/s |      240 |      1.400/1000 |
+| Resonant Caslon Reactor (v2)          |    6 |    - |  240/s |      288 |      1.300/1000 |
+| Resonant Caslon Reactor (v3)          |    7 |    - |  280/s |      346 |      1.200/1000 |
+| Plasmatic Caslon Reactor              |    2 |   24 |  160/s |      216 |      1.900/1000 |
+| Plasmatic Caslon Reactor (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
+| Plasmatic Caslon Reactor (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
+| Plasmatic Caslon Cycling Reactor      |    5 |   22 |  240/s |      360 |      1.600/1000 |
+| Plasmatic Caslon Cycling Reactor (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
+| Plasmatic Caslon Cycling Reactor (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
+| Zero Point Reactor                    |    8 |   20 |  311/s |      605 |      1.000/1000 |
+| Dark Star Reactor                     |   12 |   20 |  500/s |     1000 |      0.900/1000 |
 
 ## DW2-XL Hyperdrives
 

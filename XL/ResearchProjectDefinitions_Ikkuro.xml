@@ -41,19 +41,13 @@
 			</RaceProbability>
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
+			<!-- caslon fusion -->
 			<ResearchPath>
 				<ResearchProjectId>8</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>5</RaceId>
 			</ResearchPath>
-			<!-- no need for antimatter in XL, just fusion -->
-			<!-- <ResearchPath>
-				<ResearchProjectId>333</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>5</RaceId>
-			</ResearchPath> -->
 			<ResearchPath>
 				<ResearchProjectId>331</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -464,7 +458,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>774</ResearchProjectId>
-		<Name>Improved Fusion Weapons</Name>
+		<Name>Improved Caslon Fusion Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5400</Size>
 		<InitiationCost>
