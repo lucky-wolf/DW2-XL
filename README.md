@@ -155,7 +155,7 @@ YMMV, but this is my take on making it Extra Large!
 - Specialized tech is viable throughout the game
   - This mod makes sure that you don't have to also research the common techs in order to access some of the later features or facilities, rather they're available to everyone
 - More specializations to choose from
-  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Proton engines are all about maneuverability
+  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Pulsed Ion engines are all about maneuverability
   - Warp technology is now more strongly differentiated
     - Snap are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
     - Sojourn are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
@@ -184,7 +184,8 @@ YMMV, but this is my take on making it Extra Large!
 - Renamed reactors to better fit the DW2 universe
 - Renamed quantum engines to compact ion engines
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
-- Renamed most "basic" things to something better
+- Renamed most "Basic" technologies to something more interesting
+- Renamed "Proton Engines" to "Pulsed Ion Engines"
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -271,7 +272,7 @@ YMMV, but this is my take on making it Extra Large!
 - Better aligned the repeatable techs with XL's tech tree
 - Fixed some repeatable techs' components so they refer to the right things
 - Reduced the size range of habitable planets by -1000 (was 4000-6500, now 3000-5500)
-- Tweaked Proton Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
+- Tweaked Pulsed Ion Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
 - Changed all hyperdrives to have accuracy of 2000 to try to cope with the BUGGY DW2 ENGINE that tries to jump endless and cannot ever arrive at their destination
 - Tweaked policies to also attempt to address the MASSIVELY BUGGY and BROKEN DW2 that tries to order & build thousands of troops at every mature world
 
@@ -1315,9 +1316,9 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | Compact Ion Engine        |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
 | Compact Ion Engine (v2)   |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
 | Compact Ion Engine (v3)   |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
-| Proton Engine             |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
-| Proton Engine (v2)        |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
-| Proton Engine (v3)        |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
+| Pulsed Ion Engine             |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
+| Pulsed Ion Engine (v2)        |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
+| Pulsed Ion Engine (v3)        |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
 | Acceleros Engine          |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
 | Acceleros Engine (v2)     |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
 | Acceleros Engine (v3)     |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
