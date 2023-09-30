@@ -181,11 +181,12 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.17.6
-- Renamed reactors to better fit the DW2 universe
-- Renamed quantum engines to compact ion engines
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
-- Renamed most "Basic" technologies to something more interesting
-- Renamed "Proton Engines" to "Pulsed Ion Engines"
+- Renamed
+  - Reactors
+  - Engines
+  - "Basic" to something more interesting
+  - "Target Tracking" to "Targeting"
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -236,7 +237,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.17.1
 - Gizureans
-  - Start with Basic Target Tracking
+  - Start with Starship Targeting
 - Fixed: Hive Fighter Bays now require Starship Engines, not Starship Maneuvering (which isn't part of XL)
 
 ### v1.17.0
@@ -520,7 +521,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed access to gravitic mines & distortion fields from Haakonish racial tech
 - Fixed Armor Plating+ to have a research cost
 - Fixed Mortalen torpedo tech costs (they were at least double what they should have been t4 and up)
-- Added missing scanner values for Advanced Target Tracking, Multilock Sensors, and Fleet Targeting Sensors
+- Added missing scanner values for Advanced Targeting, Multilock Sensors, and Fleet Targeting Sensors
 
 ### v1.13.3
 - Fixed Central Espionage Agency planetary facility can now be built
