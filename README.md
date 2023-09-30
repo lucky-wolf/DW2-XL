@@ -182,6 +182,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.17.6
 - Renamed reactors to better fit the DW2 universe
+- Renamed quantum engines to compact ion engines
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -1298,9 +1299,9 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | ------------------------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
 | Ion Engine                |    0 |   20 |      15.0K |      2.8/s |           12K |         2.0/s |            70 |         2.0/s |                 |             |
 | Ion Engine (v2)           |    1 |    - |      16.5K |      2.0/s |         13.2K |         1.4/s |            90 |         1.0/s |            2.5% |           1 |
-| Quantum Engine            |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
-| Quantum Engine (v2)       |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
-| Quantum Engine (v3)       |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
+| Compact Ion Engine        |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
+| Compact Ion Engine (v2)   |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
+| Compact Ion Engine (v3)   |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
 | Proton Engine             |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
 | Proton Engine (v2)        |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
 | Proton Engine (v3)        |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
