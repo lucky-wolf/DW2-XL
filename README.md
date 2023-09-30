@@ -184,6 +184,7 @@ YMMV, but this is my take on making it Extra Large!
 - Renamed reactors to better fit the DW2 universe
 - Renamed quantum engines to compact ion engines
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
+- Renamed most "basic" things to something better
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -235,7 +236,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.17.1
 - Gizureans
   - Start with Basic Target Tracking
-- Fixed: Hive Fighter Bays now require Starship Engines, not Basic Maneuvering (which isn't part of XL)
+- Fixed: Hive Fighter Bays now require Starship Engines, not Starship Maneuvering (which isn't part of XL)
 
 ### v1.17.0
 - DLC2 Now Required
