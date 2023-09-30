@@ -257,7 +257,7 @@ Dmg Con:		20
 
 Assault Pods:	10
 
-HyperDrives:	15-2?
+Hyperdrives:	15-2?
 Power:			15-24
 Engines:		15-20
 
@@ -284,31 +284,31 @@ perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\Researc
 hyper drive fuel efficiency (purely speed/energyK)
 type          |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
 ---------------------------------------------------------------
-Gerax-Torrent |.2    |.15   |.1111 |.0916 |.0666 |.0542 |.0388
-Kaldos        |      |.1616 |.1333 |      |.0888 |      |.0555
-Calista-Dal   |      |.14   |.1143 |      |.06   |      |.0357
-Equinox       |      |.1692 |.1333 |      |.0871 |      |.0538
+Sojourn-Torrent |.2    |.15   |.1111 |.0916 |.0666 |.0542 |.0388
+Snap        |      |.1616 |.1333 |      |.0888 |      |.0555
+Austere   |      |.14   |.1143 |      |.06   |      |.0357
+Hyperstream       |      |.1692 |.1333 |      |.0871 |      |.0538
 
 type 		 efficiency			  accuracy		range	init	recharge	insulation
 --------------------------------------------------------------------------------------
 Skip		 50:100K=.5				5000		.75M	20		30				 0
 Bubble 		 70:200K=.35			5000		120M	17		28				 0
-Gerax		 80:400K=.2				4250		140M	16		25				10
+Sojourn		 80:400K=.2				4250		140M	16		25				10
 		     90:600K=.15			3750		168M	15		23				15
 		    100:900K=.1111			3250		216M	14		21				20
 		    110:1200K=.0916			2750		246M	13		19				25
 Torrent		120:1.8M=.0666			2250		293M	 9		15				30
 			130:2.4M=.0542			1750		374M	 8		12				35
 			140:3.6M=.0388			1250		450M	 6		10				40
-Kaldos	    100:600K=.1616			3500		140M	12		12				15
+Snap	    100:600K=.1616			3500		140M	12		12				15
 			120:900K=.1333			3000		180M	10		10				20
 			160:1.8M=.0888			2000		220M	 6		 6				30
 			200:3.6M=.0555			1000		260M	 2		 2				40
-Calista-Dal	 70:500K=.14			3500		225M	26		13				15
+Austere	 70:500K=.14			3500		225M	26		13				15
 			 80:700K=.1143			3000		350M	24		12				20
 			 90:1.4M=.06			2000		500M	22		11				30
 			100:2.8M=.0357			1000		650M	20		10				40
-Equinox		110:650K=.1692			4500		168M	16		22				15
+Hyperstream		110:650K=.1692			4500		168M	16		22				15
 			130:975K=.1333			4000		216M	14		20				20
 			170:1.95M=.0871			3000		293M	12		18				30
 			210:3.9M=.0538			2000		450M	10		16				40
@@ -692,10 +692,10 @@ Transient Singularity 66, 427
 improved warp fields <ResearchProjectId>261</ResearchProjectId>
 
 -standard values-
-Gerax:	Long, Avg...
-Kaldos:	Quick, Avg...
+Sojourn:	Long, Avg...
+Snap:	Quick, Avg...
 Calista: Long, Cheap, Slow, Avg...
-Equinox: Fast, Avg...
+Hyperstream: Fast, Avg...
 
 ion:				     2    4    6    8
 insulation: 		    10   20   30   40
