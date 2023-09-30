@@ -182,11 +182,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.17.6
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
-- Renamed
-  - Reactors
-  - Engines
-  - "Basic" to something more interesting
-  - "Target Tracking" to "Targeting"
+- Added countermeasure tech requirements to short and long range sensors
+- Fixed a few glitched values in various sensors to align with their underlying techs
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
