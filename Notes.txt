@@ -174,7 +174,7 @@ Reactors 	180..183
 
 hyperjump	200..210
 
-Engines     220..236
+Engines     220..231
 
 Hangars &
 Fighters	240..249
@@ -326,16 +326,12 @@ FuelRatio = 1000 * ReactorFuelUnitsForFullCharge/ReactorEnergyStorageCapacity
 
 ReactorFuelUnitsForFullCharge = ReactorEnergyStorageCapacity*FuelRatio/1000
 
- =  260  * .0013
-
-						v2
-Space Reactors		68/115/.2			.0017391
 
 Reactors	size		v1				v2				v3				hyper 	v2		v3
-Space		23		 54/ 90/.21		 68/115/.2
+Caslon		23		 54/ 90/.21		 68/115/.2
 Fusion 		16		 80/120/.26		100/150/.3		120/187.5/.33		160		200		240
-Fission		20		120/180/.495	140/225/.6		160/281.25/.675		200		240		280
-Quantum		24		160/240/.96		180/300/1.1		200/375/1.2			240		280		320
+Harmonic	20		120/180/.495	140/225/.6		160/281.25/.675		200		240		280
+Coronal		24		160/240/.96		180/300/1.1		200/375/1.2			240		280		320
 Novacore 	20		120/240/.24		150/300/.3		188/375/.375
 Zero		15		311/605/.6
 Dark Star	20		500/1000/.875
@@ -348,15 +344,15 @@ Dark Star	20		500/1000/.875
 
                          Fuel ratio/1k
 ----------------------------------------------------------------
-Fusion					0.0015			0.0014			0.0013
-Fission					0.0017			0.0016			0.0015
-Quantum					0.0019			0.0018			0.0017
+Caslon Fusion					0.0015			0.0014			0.0013
+Harmonic Caslon					0.0017			0.0016			0.0015
+Coronal					0.0019			0.0018			0.0017
 
 [ftr]		size		v1		v2		v3		v4		Hyper	v1		v2		v3
-Space		10			19		21
+Basic		10			19		21
 Fusion 		 6			24		27		33				4		40		48		57
-Fission		 8			26		30		37				6		45		54		64
-Antimatter	10			35		41		50				8		60		71		83
+Harmonic	 8			26		30		37				6		45		54		64
+Plasmatic	10			35		41		50				8		60		71		83
 Novacore	 7			35		43		52		64
 Zero Point	 5			83
 Dark Star	 7			130
@@ -364,30 +360,30 @@ Dark Star	 7			130
 Hyperfusion	 180/177				180/350			216/420			259/504
 Hyperfusion							0.001314		0.00119			0.00141
 
-Hyperfission 380/381
+Resonant Caslon 380/381
 Hyperquantum 382/383
 
 Advanced Reactors	259
 
-Fission Supercharging		270
-Fission Mastery				233
-Fission Perfection			795
+Harmonic Caslon Supercharging		270
+Harmonic Caslon Mastery				233
+Harmonic Caslon Perfection			795
 
-Fusion Physics				331
-Advanced Fusion Physics		361
-Fusion Cycle Secrets		495
+Caslon Fusion Physics				331
+Advanced Caslon Fusion Physics		361
+Caslon Fusion Cycle Secrets		495
 
-Quantum Exploitation		333
-Quantum Microutilization	362
-Quantum Mastery				497
+Coronal Exploitation		333
+Coronal Microutilization	362
+Coronal Mastery				497
 
 Hyperfusion Discovery		293
 Hyperfusion Intensification	496
 Hyperfusion Equilibrium		531
 
-Hyperfission Discovery		840
-Hyperfission Intensification 841
-Hyperfission Equilibrium	842
+Resonant Caslon Discovery		840
+Resonant Caslon Intensification 841
+Resonant Caslon Equilibrium	842
 
 Hyperquantum Discovery		843
 Hyperquantum Intensification 844
@@ -463,7 +459,7 @@ Shipboard Marines II 806
 Shipboard Marines III 807
 Shipboard Marines IV 815
 
-Fusion Ignition 		258
+Caslon Fusion Ignition 		258
 
 Basic Target Tracking    384
 Improved Target Tracking 398
