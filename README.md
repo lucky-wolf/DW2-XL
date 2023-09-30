@@ -157,10 +157,10 @@ YMMV, but this is my take on making it Extra Large!
 - More specializations to choose from
   - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Proton engines are all about maneuverability
   - Warp technology is now more strongly differentiated
-    - Kaldos are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
-    - Gerax are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
-    - Equinox are power-hungry version of Gerax with similar range and slightly worse efficiency, gaining over time, but at increased power and fuel consumption.
-    - Calista-Dal are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
+    - Snap are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
+    - Sojourn are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
+    - Hyperstream are power-hungry version of Sojourn with similar range and slightly worse efficiency, gaining over time, but at increased power and fuel consumption.
+    - Austere are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
 - Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appreciable impact on the game
   - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on, so I removed them (hid them, they're still in game, so as not to break other mods or game-events).
   - The couple of specialized interceptors for the Ackdarians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
@@ -183,6 +183,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.17.6
 - Renamed reactors to better fit the DW2 universe
 - Renamed quantum engines to compact ion engines
+- Tweaked automation policies to ensure race preferred hyperdrive in effect
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -387,15 +388,26 @@ YMMV, but this is my take on making it Extra Large!
   - They'll drop waves of invaders more frequently as you tech-up
 - Inspired by Baronfuming's design names mod, added 100+ design names per race
 - Rebalanced Hyperdrives
-  - Reintroduced Gerax Drive as a long range but otherwise avg option
+  - Reintroduced Sojourn Drive as a long range but otherwise avg option
   - Reintroduced Torrent Drive as an endgame unifying hyperdrive available to all races (T10)
   - Moved the hyperdrive specialization decision up to T2 (was T3)
   - Inspired by SharkMolester's HyperDrive Fix, gave races more diversity in preferred hyperdrives:
-    - Ackdarian, Humans   = Gerax       = Long Range
-    - Boskarans, Mortalen = Equinox     = High Speed
-    - Haakonish, Zenox    = Kaldos      = Quick Jump
-    - Teekans,   Ikkuro   = Calista-Dal = Efficiency
-    - Dayhut              = Velocity    = High Performance
+    - Sojourn (Long Range)
+      - Ackdarian
+      - Humans
+    - Hyperstream (High Speed)
+      - Boskarans
+      - Mortalen
+      - Quameno
+    - Snap (Quick Jump)
+      - Haakonish
+      - Zenox
+      - Gizurean
+    - Austere (High Efficiency + Long Range)
+      - Teekans
+      - Ikkuro
+    - Velocity (Racial Tech)
+      - Dayhut
 - Rebalanced some of the Planetary Defense facilities
   - Missile Batteries have fewer missiles per volley, but they're much more damaging per missile
   - Mellowed Diplomatic and Espionage related planetary facilities
@@ -604,7 +616,7 @@ YMMV, but this is my take on making it Extra Large!
 - Updated for DLC compatibility
   - Added a 4th tier for Ikkuro Fusion Beams
   - Adjusted Ikkuro habitability techs to be better aligned with XL
-  - Adjusted Dhayut HyperDrives to be better aligned with XL
+  - Adjusted Dhayut Hyperdrives to be better aligned with XL
   - Updated biome habitability for both races for XL
 - Updated all Fighter and Bomber class names
 - Updated some ship hull names to better correspond to technologies
@@ -903,8 +915,8 @@ YMMV, but this is my take on making it Extra Large!
   -  Added dual tech requirements to support newest beta engine (no longer defaults to "all required")
 
 ### v1.3.6
-- Swapped Gerax & Equinox sizes (22<->17) (Equinox is now the larger of the two)
-- Increased Equinox speeds from 650/975/1950/3800 -> 700/1050/2100/4200
+- Swapped Sojourn & Hyperstream sizes (22<->17) (Hyperstream is now the larger of the two)
+- Increased Hyperstream speeds from 650/975/1950/3800 -> 700/1050/2100/4200
 
 ### v1.3.5
 - Tiny tweaks to Automation Policies
@@ -970,11 +982,11 @@ YMMV, but this is my take on making it Extra Large!
 - Upgraded super armor to have ion sheath properties
 
 ### v1.2.1
-- Normalized all hyperdrives to increase speed of hyperdrives in general (starting above base Gerax)
-  - Gerax/Torrent gives incremental improvement in all areas for higher research cost overall
-  - Kaldos offers the quickest init & recharge times plus best accuracy, but with limited range and 2nd worst efficiency
-  - Equinox offers the highest speeds, but with the worst efficiency and poor accuracy
-  - Calista-Dal offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
+- Normalized all hyperdrives to increase speed of hyperdrives in general (starting above base Sojourn)
+  - Sojourn/Torrent gives incremental improvement in all areas for higher research cost overall
+  - Snap offers the quickest init & recharge times plus best accuracy, but with limited range and 2nd worst efficiency
+  - Hyperstream offers the highest speeds, but with the worst efficiency and poor accuracy
+  - Austere offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
 - Super Drives (Flux) now have respectable vector thrust
 - +5 Energy to Ftr Reactors (were a bit anemic)
 
@@ -1024,21 +1036,21 @@ YMMV, but this is my take on making it Extra Large!
 - Removed "Robo-" from Zenox troop names (now they're are Ice whatever) since they're not robotic, so it made no sense!
 
 ### v1.1.4
-- Tweaked Long Haul hyper drives to make them a little more attractive
+- Tweaked Smart hyper drives to make them a little more attractive
 - Moved ion defenses to appear near shields && reorganized point deflectors (right next to them)
   - both are rooted in advanced deflectors rather than in weapons techs
 - Separated scanners and jammers into their own tech-lines (independent of each other)
 - Further tweaked hyperdrives to make long-haul drives truly efficient in multiple analysis (also the most accurate drive)
-- Tweaked Kaldos further to decrease range and increase energy consumption
-- Fixed gerax line to make its accuracy improve continually through the whole series
-- Updated hyperdrives to consume similar amounts of energy for what they do, with Calista-Dal being most efficient, and Equinox least, but Kaldos now has to pay for its super-speed short-hops.
-- Tweaked the Kaldos line to be fixed range (1.4M) but to be much, much faster (so short, fast hops)
+- Tweaked Snap further to decrease range and increase energy consumption
+- Fixed sojourn line to make its accuracy improve continually through the whole series
+- Updated hyperdrives to consume similar amounts of energy for what they do, with Austere being most efficient, and Hyperstream least, but Snap now has to pay for its super-speed short-hops.
+- Tweaked the Snap line to be fixed range (1.4M) but to be much, much faster (so short, fast hops)
 - Fixed: re-disabled the interceptors line (shouldn't have been visible - pointless duplicate of vanilla)
 - Got rid of a bunch of cycles in tech tree
 - Restored the efficient hyperdrive line
 - Made Hyperdrive lines all usable to endgame
   - Kalista-Dal are efficient, slower, but have extreme range (long-haul hyperdrives)
-  - Kaldos have more limited range, but become crazy fast at turnaround times
+  - Snap have more limited range, but become crazy fast at turnaround times
 - Increased the cost of late game tech (and rebalanced the scaling to be pure doubling)
 - Rooted the various planetary weapon facilities earlier in their respective trees so that all races should be able to build them without having to research pointless branches just to find that...
 - Simplified a lot of the earlier changes I made now that I understand how the tech .xml files work with the engine to use the simplest approach that works reliably
@@ -1152,9 +1164,9 @@ YMMV, but this is my take on making it Extra Large!
 ## Hyper Drives
 - Experimental Warp Fields allow for nearby exploration, making for a more gradual early game.
 - Have had the various types extended and balanced a bit so that every path is viable, with obvious trade-offs between lag, in flight speed, and balanced performance.
-  - Kaldos drives are all about snappy response, but sacrifice range for a single hop.
-  - Equinox drives are about flight-speed, and have a middling range per hop.
-  - Calista Dal drives are all about range per hop, but sacrifice response time, being quite slow to spin up, as well as significantly slower than either Kaldos or Equinox.  However, they're much lower energy consumption so make for an intriguing option well suited to caslon fusion reactors.
+  - Snap drives are all about snappy response, but sacrifice range for a single hop.
+  - Hyperstream drives are about flight-speed, and have a middling range per hop.
+  - Calista Dal drives are all about range per hop, but sacrifice response time, being quite slow to spin up, as well as significantly slower than either Snap or Hyperstream.  However, they're much lower energy consumption so make for an intriguing option well suited to caslon fusion reactors.
 
 ## Reactors
 - Have had the various types extended and balanced so that every major type is in-principle viable and competitive, depending on your empire's strategic situation.
@@ -1278,19 +1290,19 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | --------------------- | ---: | ---: | ------: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
 | Skip Drive            |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
 | Warp Bubble Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
-| Gerax                 |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Calista-Dal           |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Calista-Dal (v2)      |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Calista-Dal (v3)      |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Calista-Dal (v4)      |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
-| Kaldos                |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
-| Kaldos (v2)           |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
-| Kaldos (v3)           |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
-| Kaldos (v4)           |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
-| Equinox               |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
-| Equinox (v2)          |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
-| Equinox (v3)          |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
-| Equinox (v4)          |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
+| Sojourn               |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
+| Austere               |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Austere (v2)          |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Austere (v3)          |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Austere (v4)          |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Snap                  |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
+| Snap (v2)             |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
+| Snap (v3)             |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
+| Snap (v4)             |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
+| Hyperstream           |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
+| Hyperstream (v2)      |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
+| Hyperstream (v3)      |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
+| Hyperstream (v4)      |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
 | Wormhole              |   11 |   20 | 10,000K |  480M |      150 |            10 |         200/s |         2s |       2s |          10 |         50 |
 
 ## DW2-XL Engines
