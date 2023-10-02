@@ -4995,10 +4995,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>2</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>2</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>2</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>4</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -5020,10 +5020,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1350</WeaponRange>
+				<WeaponRange>1800</WeaponRange>
 				<WeaponRawDamage>24</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>900</WeaponSpeed>
+				<WeaponSpeed>1200</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5129,10 +5129,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>1</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>1</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>1</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>2</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -5154,10 +5154,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1425</WeaponRange>
+				<WeaponRange>1950</WeaponRange>
 				<WeaponRawDamage>36</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>950</WeaponSpeed>
+				<WeaponSpeed>1300</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5263,10 +5263,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>1</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>1</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>1</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>2</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -5288,10 +5288,11 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1500</WeaponRange>
+				<!-- range is 1.5 x speed -->
+				<WeaponRange>2100</WeaponRange>
 				<WeaponRawDamage>54</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1000</WeaponSpeed>
+				<WeaponSpeed>1400</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5721,10 +5722,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>2</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>2</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>2</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>4</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -5746,10 +5747,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1725</WeaponRange>
+				<WeaponRange>1950</WeaponRange>
 				<WeaponRawDamage>48</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1150</WeaponSpeed>
+				<WeaponSpeed>1300</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5855,10 +5856,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>1</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>1</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>1</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>2</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -5880,10 +5881,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1875</WeaponRange>
+				<WeaponRange>2100</WeaponRange>
 				<WeaponRawDamage>72</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1250</WeaponSpeed>
+				<WeaponSpeed>1400</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5989,10 +5990,10 @@
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
 				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>1</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>1</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>1</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>2</WeaponBombardDamageQuality>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
@@ -6015,10 +6016,10 @@
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
 				<!-- range is 1.5 x speed -->
-				<WeaponRange>2025</WeaponRange>
+				<WeaponRange>2250</WeaponRange>
 				<WeaponRawDamage>108</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1350</WeaponSpeed>
+				<WeaponSpeed>1500</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
