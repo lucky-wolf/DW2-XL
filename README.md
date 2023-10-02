@@ -184,6 +184,16 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
 - Added countermeasure tech requirements to short and long range sensors
 - Fixed a few glitched values in various sensors to align with their underlying techs
+- All kinetic guns now have a single shot per volley
+  - 6.0s per volley
+  - T5 and below are -33% armor bypass (poor against armor)
+  - T6 and above have no armor penalty
+  - Medium are 2x as damaging as a small
+  - Large are 2x as damaging as a medium
+- Removed shield bypass from Annihilator Shock Mines
+- Only PD and FTR weapons now have intercept rating
+  - i.e. removed intercept from all S,M,L weapons
+- Tweaked reactor names and sizes
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
