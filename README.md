@@ -194,6 +194,7 @@ YMMV, but this is my take on making it Extra Large!
 - Only PD and FTR weapons now have intercept rating
   - i.e. removed intercept from all S,M,L weapons
 - Tweaked reactor names and sizes
+- Fixed Improved Terraforming to cost 8K not 18K
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
