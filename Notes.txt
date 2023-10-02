@@ -328,10 +328,10 @@ ReactorFuelUnitsForFullCharge = ReactorEnergyStorageCapacity*FuelRatio/1000
 
 
 Reactors	size		v1				v2				v3				hyper 	v2		v3
-Caslon		23		 54/ 90/.21		 68/115/.2
+Caslon		23		 54/ 90/.21	    68/115/.2
 Fusion 		16		 80/120/.26		100/150/.3		120/187.5/.33		160		200		240
 Harmonic	20		120/180/.495	140/225/.6		160/281.25/.675		200		240		280
-Coronal		24		160/240/.96		180/300/1.1		200/375/1.2			240		280		320
+Plasmatic	24		160/240/.96		180/300/1.1		200/375/1.2			240		280		320
 Novacore 	20		120/240/.24		150/300/.3		188/375/.375
 Zero		15		311/605/.6
 Dark Star	20		500/1000/.875
@@ -343,7 +343,7 @@ Harmonic Caslon					0.0017			0.0016			0.0015
 Coronal					0.0019			0.0018			0.0017
 
 [ftr]		size		v1		v2		v3		v4		Hyper	v1		v2		v3
-Starfighter		10			19		21
+Starfighter	10			19		21
 Fusion 		 6			24		27		33				4		40		48		57
 Harmonic	 8			26		30		37				6		45		54		64
 Plasmatic	10			35		41		50				8		60		71		83

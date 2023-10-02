@@ -1577,6 +1577,11 @@
 		<PlanetaryFacilityDefinitionId>41</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>CharacterAppearanceFleetAdmiral</Type>
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
