@@ -13,7 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
-		- [v1.17.6](#v1176)
+		- [v1.18.0](#v1180)
 		- [v1.17.5](#v1175)
 		- [v1.17.4](#v1174)
 		- [v1.17.3](#v1173)
@@ -180,7 +180,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.17.6
+### v1.18.0
 - Tweaked automation policies to ensure race preferred hyperdrive in effect
 - Added countermeasure tech requirements to short and long range sensors
 - Fixed a few glitched values in various sensors to align with their underlying techs
@@ -209,14 +209,13 @@ YMMV, but this is my take on making it Extra Large!
   - 1:2:4 damage ratio
   - restored medium shockwave torpedoes
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
-- Adjusted Plasma Blasters
-  - removed all bombardment rating (they're either a small or double small weapon)
+- Updated Blasters, Phasers, ...
+  - removed all bombardment rating (all blasters and phasers are multishot small weapons)
+  - bullet speeds to 2200 (faster than any rail guns, but less than half the speed of beams)
 - Overhauled PD
   - it has only PD component (no direct fire value)
-  - generally faster (more opportunities to hit)
+  - much faster (many more opportunities to hit)
   - fighter weapons now have no PD against seeking weapons, only other fighters (to give me a chance to dial in some numbers)
-- Updated blaster, phaser, and related weapons
-  - bullet speeds to 2200 (faster than any rail guns, but less then 1/2 speed of beams)
 - Disallowed Ikkuro from all but Fusion line of reactors
 - Disallowed Dhayut from all but their Velocity drive
 
