@@ -211,6 +211,10 @@ YMMV, but this is my take on making it Extra Large!
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
 - Adjusted Plasma Blasters
   - removed all bombardment rating (they're either a small or double small weapon)
+- Overhauled PD
+  - it has only PD component (no direct fire value)
+  - generally faster (more opportunities to hit)
+- Updated blaster, phaser, and related weapon bullet speeds to 2200 (faster than any rail guns, but less then 1/2 speed of beams)
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
