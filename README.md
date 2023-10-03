@@ -200,6 +200,15 @@ YMMV, but this is my take on making it Extra Large!
   - Range is 2x speed, which increases with tech and muzzle size
   - Autocannons and Hail cannons only have 1.5x range to speed
   - Removed bombardment values from everything except large rail guns and forge cannons
+- Overhauled beam weapons
+  - larges are always 4x as powerful as a small at the same interval
+  - follows 1:2:4 ratio of power (small, medium, large)
+  - similar dps as blasters and rail guns
+- Overhauled energy torpedoes
+  - single shot per volley
+  - 1:2:4 damage ratio
+  - restored medium shockwave torpedoes
+  - adjusted to follow similar dps schedule as beams, blasters, and kinetics
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
