@@ -209,6 +209,8 @@ YMMV, but this is my take on making it Extra Large!
   - 1:2:4 damage ratio
   - restored medium shockwave torpedoes
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
+- Adjusted Plasma Blasters
+  - removed all bombardment rating (they're either a small or double small weapon)
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
