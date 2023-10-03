@@ -13,6 +13,6 @@ foreach ($Item in $files) {
 	$Item = $Item.Name
 	$target = "XL/$Item"
 	$source = "temp/$Item"
-	Copy $target $source
+	Copy-Item $target $source
 	perl "AdjustRow.pl" $source $start $end $offset $target
 }
