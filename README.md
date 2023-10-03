@@ -214,7 +214,10 @@ YMMV, but this is my take on making it Extra Large!
 - Overhauled PD
   - it has only PD component (no direct fire value)
   - generally faster (more opportunities to hit)
-- Updated blaster, phaser, and related weapon bullet speeds to 2200 (faster than any rail guns, but less then 1/2 speed of beams)
+- Updated blaster, phaser, and related weapons
+  - bullet speeds to 2200 (faster than any rail guns, but less then 1/2 speed of beams)
+- Disallowed Ikkuro from all but Fusion line of reactors
+- Disallowed Dhayut from all but their Velocity drive
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
