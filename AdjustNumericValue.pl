@@ -20,18 +20,24 @@ sub ProcessFile
 	open(OF, '>', $target) or die "$!";
 
 	# read in each line of the file
+	$ln = 0;
 	while ($line = <SF>)
 	{
+		# keep track of 1 based line number
+		++$ln;
+
 		# matches xml key
 		if ($line =~ /^([ \t]+)<([^>]+)>(\d+)<\/([^>]+)>(.*)$/)
 		{
 			$value = $3 + 0;
 
 			# and is within criteria
-			if ($key == $2 && $value >= $min && $value <= $max)
+			if ($key eq $2 && $value >= $min && $value <= $max)
 			{
+				$new = $value + $adj;
+				print "$ln: matched $2 for $value -> $new\n";
 				# adjust the value
-				$line = sprintf("$1<${key}>%g</${key}>$5\n", $value + $adj);
+				$line = sprintf("$1<${key}>%g</${key}>$5\n", $new);
 			}
 		}
 

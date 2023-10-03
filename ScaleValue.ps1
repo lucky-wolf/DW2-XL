@@ -2,9 +2,9 @@
 param(
 	[parameter(Mandatory = $true)][string]$filenamepattern,
 	[parameter(Mandatory = $true)][string]$key,
-	[parameter(Mandatory = $true)][int]$min,
-	[parameter(Mandatory = $true)][int]$max,
-	[parameter(Mandatory = $true)][int]$scale
+	[parameter(Mandatory = $true)][float]$min,
+	[parameter(Mandatory = $true)][float]$max,
+	[parameter(Mandatory = $true)][float]$scale
 )
 
 # note: this is global, not just this file...
