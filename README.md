@@ -214,6 +214,7 @@ YMMV, but this is my take on making it Extra Large!
 - Overhauled PD
   - it has only PD component (no direct fire value)
   - generally faster (more opportunities to hit)
+  - fighter weapons now have no PD against seeking weapons, only other fighters (to give me a chance to dial in some numbers)
 - Updated blaster, phaser, and related weapons
   - bullet speeds to 2200 (faster than any rail guns, but less then 1/2 speed of beams)
 - Disallowed Ikkuro from all but Fusion line of reactors
