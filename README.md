@@ -181,15 +181,23 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.0
-- Tweaked automation policies to ensure race preferred hyperdrive in effect
-- Added countermeasure tech requirements to short and long range sensors
-- Fixed a few glitched values in various sensors to align with their underlying techs
-- Tweaked reactor names and sizes
-- Fixed Improved Terraforming to cost 8K not 18K
-- Removed shield bypass from Annihilator Shock Mines
-- Overhauled PD
-  - only dedicated PD and FTR have an intercept rating
-- Overhauled kinetic weapons
+- AI/Automation Policies
+  - Tweaked policies to ensure race preferred hyperdrive in effect
+- Fixes
+  - Fixed Improved Terraforming to cost 8K not 18K
+  - Fixed Stellar Armor [Ftr] to have reasonable values
+  - Disallowed Ikkuro from all but Fusion line of reactors
+  - Disallowed Dhayut from all but their Velocity drive
+  - Removed shield bypass from Annihilator Shock Mines
+  - Tweaked reactor names and sizes
+- Sensors
+  - Added countermeasure tech requirements to short and long range sensors
+  - Tweaked ratings to align with targeting and countermeasure prerequisites
+- PD
+  - Fires much more frequently (4x or more)
+  - Less energy per shot
+  - Only dedicated PD and direct-fire FTR weapons have any intercept rating at all
+- Kinetics
   - single shot per volley
   - much slower firing (6s vs. 2.2s)
   - T5 and below are -33% armor bypass (poor against armor)
@@ -200,29 +208,26 @@ YMMV, but this is my take on making it Extra Large!
   - Range is 2x speed, which increases with tech and muzzle size
   - Autocannons and Hail cannons only have 1.5x range to speed
   - Removed bombardment values from everything except large rail guns and forge cannons
-- Overhauled beam weapons
+- Beams
   - larges are always 4x as powerful as a small at the same interval
   - follows 1:2:4 ratio of power (small, medium, large)
   - similar dps as blasters and rail guns
-- Overhauled energy torpedoes
+- Torpedoes
   - single shot per volley
   - 1:2:4 damage ratio
   - restored medium shockwave torpedoes
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
-- Updated Blasters, Phasers, ...
+  - [ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+- Blasters and Phasers
   - removed all bombardment rating (all blasters and phasers are multishot small weapons)
   - bullet speeds to 2200 (faster than any rail guns, but less than half the speed of beams)
-- Overhauled PD
-  - it has only PD component (no direct fire value)
-  - much faster (many more opportunities to hit)
-  - fighter weapons now have no PD against seeking weapons, only other fighters (to give me a chance to dial in some numbers)
-- Disallowed Ikkuro from all but Fusion line of reactors
-- Disallowed Dhayut from all but their Velocity drive
-- Fixed Stellar Armor [Ftr] to have reasonable values
-- Scaled Armor
+- Missiles
+  - doubled warhead strengths
+  - [ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+- Armor
   - x2 Blast Rating
   - +1 Reactive Rating
-- Scaled Shields
+- Shields
   - x2 Strength
   - +1 Resistance
   - x1.5 Recharge Rate
