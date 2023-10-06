@@ -2953,7 +2953,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>70</ResearchProjectId>
-		<Name>Dual Phase Point Defense</Name>
+		<Name>Advanced Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>5400</Size>
 		<InitiationCost>
@@ -2990,8 +2990,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>38</ComponentId>
-				<Level>0</Level>
+				<ComponentId>19</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -4422,8 +4422,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>38</ComponentId>
-				<Level>1</Level>
+				<ComponentId>54</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -6109,7 +6109,7 @@
 		<Components>
 			<Component>
 				<ComponentId>54</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -8758,7 +8758,7 @@
 		<Components>
 			<Component>
 				<ComponentId>54</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -28964,7 +28964,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>668</ResearchProjectId>
-		<Name>Advanced Point Defense</Name>
+		<Name>Efficient Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>

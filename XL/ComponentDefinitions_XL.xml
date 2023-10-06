@@ -4299,15 +4299,15 @@
 				<WeaponDamageFalloffRatio>0.19</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>0</WeaponEnergyPerShot>
-				<WeaponFireRate>0</WeaponFireRate>
+				<WeaponEnergyPerShot>22</WeaponEnergyPerShot>
+				<WeaponFireRate>5</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0.575</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>25</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>70</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>50</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>3</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptDamageSeeking>70</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>1.5</WeaponInterceptEnergyPerShot>
 				<WeaponInterceptFireRate>0.25</WeaponInterceptFireRate>
 				<WeaponInterceptRange>1360</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
@@ -4317,8 +4317,8 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>0</WeaponRange>
-				<WeaponRawDamage>0</WeaponRawDamage>
+				<WeaponRange>1580</WeaponRange>
+				<WeaponRawDamage>70</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
 				<WeaponSpeed>2200</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
@@ -4433,15 +4433,15 @@
 				<WeaponDamageFalloffRatio>0.19</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>0</WeaponEnergyPerShot>
-				<WeaponFireRate>0</WeaponFireRate>
+				<WeaponEnergyPerShot>22</WeaponEnergyPerShot>
+				<WeaponFireRate>5</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0.625</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>30</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>101</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>60</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>3</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptDamageSeeking>101</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>1.5</WeaponInterceptEnergyPerShot>
 				<WeaponInterceptFireRate>0.25</WeaponInterceptFireRate>
 				<WeaponInterceptRange>1680</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
@@ -4451,8 +4451,8 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>0</WeaponRange>
-				<WeaponRawDamage>0</WeaponRawDamage>
+				<WeaponRange>1920</WeaponRange>
+				<WeaponRawDamage>101</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
 				<WeaponSpeed>2200</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
@@ -5298,7 +5298,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Terminator Autocannon [S]</Name>
-		<ImageFilename>Environment/Components/338-Terminator Autocannon</ImageFilename>
+		<ImageFilename>Environment/Components/038-Linked Point Defense Battery</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>517</ComponentId>
@@ -15446,7 +15446,7 @@
 				<WeaponInterceptDamageFighter>7</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
 				<WeaponInterceptDamageSeeking>70</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>6</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptEnergyPerShot>3</WeaponInterceptEnergyPerShot>
 				<WeaponInterceptFireRate>0.8</WeaponInterceptFireRate>
 				<WeaponInterceptRange>220</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
