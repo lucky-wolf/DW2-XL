@@ -220,8 +220,12 @@ YMMV, but this is my take on making it Extra Large!
 - Disallowed Dhayut from all but their Velocity drive
 - Fixed Stellar Armor [Ftr] to have reasonable values
 - Scaled Armor
-  - x2 blast rating
-  - +1 Reactive rating
+  - x2 Blast Rating
+  - +1 Reactive Rating
+- Scaled Shields
+  - x2 Strength
+  - +1 Resistance
+  - x2 Recharge Rate
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
@@ -1352,9 +1356,9 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | Compact Ion Engine        |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
 | Compact Ion Engine (v2)   |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
 | Compact Ion Engine (v3)   |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
-| Pulsed Ion Engine             |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
-| Pulsed Ion Engine (v2)        |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
-| Pulsed Ion Engine (v3)        |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
+| Pulsed Ion Engine         |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
+| Pulsed Ion Engine (v2)    |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
+| Pulsed Ion Engine (v3)    |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
 | Acceleros Engine          |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
 | Acceleros Engine (v2)     |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
 | Acceleros Engine (v3)     |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
@@ -1412,18 +1416,8 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |  550-650 | Bulwark Missile Battery                                    |
 |      750 | EM Wave Cannon                                             |
 |  750-825 | Tractor Beams                                              |
-|      750 | Long Range Cannon                                          |
-|  800-850 | Point Defense Cannon                                       |
-|  875-900 | Linked Point Defense Battery                               |
-|  800-875 | Rail Gun                                                   |
-|  825-875 | Heavy Rail Gun                                             |
-| 900-1000 | Forge Rail Battery                                         |
-| 900-1000 | Terminator Autocannon [S] + [Ftr]                          |
-| 950-1000 | Terminator Autocannon Battery [PD]                         |
-| 900-1000 | Hail Cannon                                                |
+| 750-1500 | Kinetic Weapons                                            |
 | 900-1100 | Long Range & High Power Tractor Beams                      |
-|     1100 | Maxos & Impact Blasters                                    |
-|     1200 | Titan Blaster                                              |
-|     1500 | Phaser Cannon & Solar Blaster                              |
 |     2000 | Quantum Singularity & Black Hole Projector                 |
+|     2200 | Blasters & Phasers                                         |
 |     5000 | DF Beams (Thuon, Graviton, Phaser, EM Lance, Shatterforce) |
