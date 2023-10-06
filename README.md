@@ -219,6 +219,9 @@ YMMV, but this is my take on making it Extra Large!
 - Disallowed Ikkuro from all but Fusion line of reactors
 - Disallowed Dhayut from all but their Velocity drive
 - Fixed Stellar Armor [Ftr] to have reasonable values
+- Scaled Armor
+  - x2 blast rating
+  - +1 Reactive rating
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
