@@ -218,6 +218,7 @@ YMMV, but this is my take on making it Extra Large!
   - fighter weapons now have no PD against seeking weapons, only other fighters (to give me a chance to dial in some numbers)
 - Disallowed Ikkuro from all but Fusion line of reactors
 - Disallowed Dhayut from all but their Velocity drive
+- Fixed Stellar Armor [Ftr] to have reasonable values
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
