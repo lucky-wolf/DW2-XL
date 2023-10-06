@@ -225,7 +225,7 @@ YMMV, but this is my take on making it Extra Large!
 - Scaled Shields
   - x2 Strength
   - +1 Resistance
-  - x2 Recharge Rate
+  - x1.5 Recharge Rate
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
