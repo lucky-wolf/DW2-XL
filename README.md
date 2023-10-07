@@ -212,6 +212,7 @@ YMMV, but this is my take on making it Extra Large!
   - larges are always 4x as powerful as a small at the same interval
   - follows 1:2:4 ratio of power (small, medium, large)
   - similar dps as blasters and rail guns
+  - added another tech level to Omega beams and shifted everything else earlier by one tech level
 - Torpedoes
   - single shot per volley
   - 1:2:4 damage ratio
