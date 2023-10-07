@@ -1975,7 +1975,7 @@
 		<ResearchProjectId>50</ResearchProjectId>
 		<Name>Long Range Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>2700</Size>
 		<InitiationCost>
 			<Money>4500</Money>
 			<Resources>
@@ -1995,7 +1995,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>33</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -3584,7 +3584,7 @@
 		<ResearchProjectId>85</ResearchProjectId>
 		<Name>Advanced Beam Focusing</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>5400</Size>
 		<InitiationCost>
 			<Money>8000</Money>
 			<Resources>
@@ -3604,7 +3604,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>33</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -3706,7 +3706,7 @@
 		<ResearchProjectId>87</ResearchProjectId>
 		<Name>Phaser Focusing</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>21600</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -3734,7 +3734,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>34</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -4762,7 +4762,7 @@
 		<ResearchProjectId>108</ResearchProjectId>
 		<Name>High Intensity Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>21600</Size>
+		<Size>10800</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
@@ -4782,7 +4782,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>33</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -6684,7 +6684,7 @@
 		<ResearchProjectId>147</ResearchProjectId>
 		<Name>Advanced Phaser Capacitors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -6712,7 +6712,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>34</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -7554,7 +7554,7 @@
 		<ResearchProjectId>164</ResearchProjectId>
 		<Name>Superior Phased Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>21600</Size>
 		<InitiationCost>
 			<Money>18000</Money>
 			<Resources>
@@ -7582,7 +7582,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>32</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -9468,7 +9468,7 @@
 		<ResearchProjectId>202</ResearchProjectId>
 		<Name>Extreme Phased Energy</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>48600</Size>
+		<Size>32400</Size>
 		<InitiationCost>
 			<Money>24500</Money>
 			<Resources>
@@ -9496,7 +9496,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>8</Column>
 		<Row>32</Row>
 		<DisallowedRaceIds>
 			<!-- Zenox have better tech -->
@@ -9574,40 +9574,27 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>202</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<ResearchProjectId>1196</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>147</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>900</ResearchProjectId>
-				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>5</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- can't require both branches if we want ikkuro to get here too -->
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>165</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>148</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>152</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>64</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

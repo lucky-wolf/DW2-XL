@@ -9266,4 +9266,85 @@
 		</Components>
 	</ResearchProjectDefinition>
 
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1196</ResearchProjectId>
+		<Name>Beam Unification</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>48600</Size>
+		<InitiationCost>
+			<Money>32000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>3200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>33</Row>
+		<DisallowedRaceIds>
+			<!-- Zenox have better tech -->
+			<RaceProbability>
+				<RaceId>7</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>202</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>147</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>900</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<!-- can't require both branches if we want ikkuro to get here too -->
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>165</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>148</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>152</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>64</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
 </ArrayOfResearchProjectDefinition>
