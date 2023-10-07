@@ -10,13 +10,13 @@ param(
 # Set-PSDebug -Trace 1
 
 # update the components themselves
-$files = Get-ChildItem "XL/ComponentDefinitions*.xml"
+$files = Get-ChildItem "../XL/ComponentDefinitions*.xml"
 foreach ($Item in $files) {
 	$Item = $Item.Name
-	$target = "XL/$Item"
-	$source = "temp/$Item"
+	$target = "../XL/$Item"
+	$source = "../temp/$Item"
 	Copy-Item $target $source
-	perl "AdjustComponentId.pl" $source $startid $endid $offset $target
+	perl "scripts/AdjustComponentId.pl" $source $startid $endid $offset $target
 }
 
 # update research references to those components
@@ -26,8 +26,8 @@ foreach ($Item in $files) {
 $files = Get-ChildItem "XL/ResearchProjectDefinitions*.xml"
 foreach ($Item in $files) {
 	$Item = $Item.Name
-	$target = "XL/$Item"
-	$source = "temp/$Item"
+	$target = "../XL/$Item"
+	$source = "../temp/$Item"
 	Copy-Item $target $source
-	perl "AdjustComponentId.pl" $source $startid $endid $offset $target
+	perl "scripts/AdjustComponentId.pl" $source $startid $endid $offset $target
 }

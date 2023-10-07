@@ -14,5 +14,5 @@ foreach ($Item in $files) {
 	$target = "XL/$Item"
 	$source = "temp/$Item"
 	Copy-Item $target $source
-	perl "AdjustResearchId.pl" $source $startid $endid $offset $target
+	perl "scripts/AdjustResearchId.pl" $source $startid $endid $offset $target
 }

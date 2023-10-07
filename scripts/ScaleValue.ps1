@@ -16,5 +16,5 @@ foreach ($Item in $files) {
 	$target = "XL/$Item"
 	$source = "temp/$Item"
 	Copy-Item $target $source
-	perl "ScaleNumericValue.pl" $source $key $min $max $scale $target
+	perl "scripts/ScaleNumericValue.pl" $source $key $min $max $scale $target
 }
