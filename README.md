@@ -234,6 +234,9 @@ YMMV, but this is my take on making it Extra Large!
   - x2 Strength
   - +1 Resistance
   - x1.5 Recharge Rate
+- Galaxy Generation
+  - Slightly reduced the probable habitability of desert planets
+  - Slightly increased frequency of blue-green planets
 
 ### v1.17.5
 - Restricted Quameno from all irrelevant reactor techs
