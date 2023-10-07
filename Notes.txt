@@ -738,4 +738,4 @@ cool regex:
 	// non-zero decimal pattern:
 		((0\.|[1-9]\.?)\d*)
 	// any decimal or floating or scientific notation number:
-		((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)
+		((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)
