@@ -190,6 +190,8 @@ YMMV, but this is my take on making it Extra Large!
   - Disallowed Dhayut from all but their Velocity drive
   - Removed shield bypass from Annihilator Shock Mines
   - Tweaked reactor names and sizes
+- Engines
+  - Improved Vector Engine output & countermeasure bonus
 - Sensors
   - Added countermeasure tech requirements to short and long range sensors
   - Tweaked ratings to align with targeting and countermeasure prerequisites
