@@ -157,10 +157,10 @@ YMMV, but this is my take on making it Extra Large!
 - More specializations to choose from
   - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Pulsed Ion engines are all about maneuverability
   - Warp technology is now more strongly differentiated
-    - Snap are super quick to initiate and fast point-to-point, but have very limited range, requiring multiple zig-zagging hops to get anywhere distant.
-    - Sojourn are a steady climber in all categories - gaining speed, range, fuel efficiency, and quickness steadily throughout their entire lineage.
-    - Hyperstream are power-hungry version of Sojourn with similar range and slightly worse efficiency, gaining over time, but at increased power and fuel consumption.
-    - Austere are "long-haul" drives - slower, but much more efficient than any of the others, and able to sustain their warp-bubbles for greater distance than any of the others, making them ideal for long-haul operations or non-combat ships (albeit they're an interesting choice and very playable for your warships depending on your galaxy, and how open or obstructed it is with nebulas)
+    - Snap prioritize minimizing jump transition time.
+    - Sojourn prioritize range.
+    - Hyperstream prioritize flight-speed.
+    - Smart prioritize efficiency.
 - Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appreciable impact on the game
   - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on, so I removed them (hid them, they're still in game, so as not to break other mods or game-events).
   - The couple of specialized interceptors for the Ackdarians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
@@ -457,7 +457,7 @@ YMMV, but this is my take on making it Extra Large!
       - Haakonish
       - Zenox
       - Gizurean
-    - Austere (High Efficiency + Long Range)
+    - Smart (High Efficiency + Long Range)
       - Teekans
       - Ikkuro
     - Velocity (Racial Tech)
@@ -1040,7 +1040,7 @@ YMMV, but this is my take on making it Extra Large!
   - Sojourn/Torrent gives incremental improvement in all areas for higher research cost overall
   - Snap offers the quickest init & recharge times plus best accuracy, but with limited range and 2nd worst efficiency
   - Hyperstream offers the highest speeds, but with the worst efficiency and poor accuracy
-  - Austere offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
+  - Smart offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
 - Super Drives (Flux) now have respectable vector thrust
 - +5 Energy to Ftr Reactors (were a bit anemic)
 
@@ -1097,7 +1097,7 @@ YMMV, but this is my take on making it Extra Large!
 - Further tweaked hyperdrives to make long-haul drives truly efficient in multiple analysis (also the most accurate drive)
 - Tweaked Snap further to decrease range and increase energy consumption
 - Fixed sojourn line to make its accuracy improve continually through the whole series
-- Updated hyperdrives to consume similar amounts of energy for what they do, with Austere being most efficient, and Hyperstream least, but Snap now has to pay for its super-speed short-hops.
+- Updated hyperdrives to consume similar amounts of energy for what they do, with Smart being most efficient, and Hyperstream least, but Snap now has to pay for its super-speed short-hops.
 - Tweaked the Snap line to be fixed range (1.4M) but to be much, much faster (so short, fast hops)
 - Fixed: re-disabled the interceptors line (shouldn't have been visible - pointless duplicate of vanilla)
 - Got rid of a bunch of cycles in tech tree
@@ -1345,10 +1345,10 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | Skip Drive            |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
 | Warp Bubble Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
 | Sojourn               |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Austere               |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Austere (v2)          |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Austere (v3)          |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Austere (v4)          |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Smart               |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Smart (v2)          |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Smart (v3)          |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Smart (v4)          |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
 | Snap                  |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
 | Snap (v2)             |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
 | Snap (v3)             |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
