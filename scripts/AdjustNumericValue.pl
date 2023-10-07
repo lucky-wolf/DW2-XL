@@ -27,7 +27,7 @@ sub ProcessFile
 		++$ln;
 
 		# matches xml key with floating point number (including sci notation)
-		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
+		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
 		{
 			$value = $3 + 0.0;
 
