@@ -181,6 +181,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.0
+- Updated for 1173 beta
 - AI/Automation Policies
   - Tweaked policies to ensure race preferred hyperdrive in effect
 - Fixes
