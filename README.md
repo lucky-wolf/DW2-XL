@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.1](#v1181)
 		- [v1.18.0](#v1180)
 		- [v1.17.5](#v1175)
 		- [v1.17.4](#v1174)
@@ -179,6 +180,9 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.1
+- fixed Corvidian v2,v3 resistance (was 1 lower than it should have been)
 
 ### v1.18.0
 - Updated for 1174 beta
