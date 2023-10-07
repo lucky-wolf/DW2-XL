@@ -13,9 +13,9 @@ param(
 $files = Get-ChildItem "XL/ResearchProjectDefinitions*.xml"
 foreach ($Item in $files) {
 	$Item = $Item.Name
-	$target = "XL/$Item"
-	$source = "temp/$Item"
+	$target = "../XL/$Item"
+	$source = "../temp/$Item"
 	Copy-Item $target $source
 	# input:	source-filename rowstart rowend colsstart coleend coffset output-filename
-	perl "AdjustCol.pl" $source $rowstart $rowend $colstart $colend $offset $target
+	perl "scripts/AdjustCol.pl" $source $rowstart $rowend $colstart $colend $offset $target
 }

@@ -181,7 +181,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.0
-- Updated for 1173 beta
+- Updated for 1174 beta
 - AI/Automation Policies
   - Tweaked policies to ensure race preferred hyperdrive in effect
 - Fixes
@@ -199,16 +199,16 @@ YMMV, but this is my take on making it Extra Large!
 - PD
   - Fires much more frequently (4x or more)
   - Less energy per shot
-  - Only dedicated PD and direct-fire FTR weapons have any intercept rating at all
+  - Only dedicated [PD] and direct-fire [Ftr] weapons have any intercept rating at all
 - Kinetics
   - single shot per volley
   - much slower firing (6s vs. 2.2s)
-  - T5 and below are -33% armor bypass (poor against armor)
-  - T6 and above have no armor penalty
+  - Forge Rail Batteries have reduced armor penalty (-16.66% vs. -33%)
   - No kinetics have shield bypass (previously had as much as 50%)
   - Medium are 2x as damaging as a small
   - Large are 2x as damaging as a medium
-  - Range is 2x speed, which increases with tech and muzzle size
+  - [S] and [M] Kinetics other than Forge Batteries have 1.5x range to speed
+  - Forge Batteries have 2x range to speed
   - Autocannons and Hail cannons only have 1.5x range to speed
   - Removed bombardment values from everything except large rail guns and forge cannons
 - Beams
@@ -221,13 +221,13 @@ YMMV, but this is my take on making it Extra Large!
   - 1:2:4 damage ratio
   - restored medium shockwave torpedoes
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
-  - [ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+  - [Ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
 - Blasters and Phasers
   - removed all bombardment rating (all blasters and phasers are multishot small weapons)
   - bullet speeds to 2200 (faster than any rail guns, but less than half the speed of beams)
 - Missiles
   - doubled warhead strengths
-  - [ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+  - [Ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
 - Armor
   - x2 Blast Rating
   - +1 Reactive Rating
@@ -236,7 +236,7 @@ YMMV, but this is my take on making it Extra Large!
   - +1 Resistance
   - x1.5 Recharge Rate
 - Galaxy Generation
-  - Slightly reduced the probable habitability of desert planets
+  - Slightly reduced the habitability curve of desert planets
   - Slightly increased frequency of blue-green planets
 
 ### v1.17.5

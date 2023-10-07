@@ -4,9 +4,9 @@ sub ProcessFile
 {
 	my($source) = $_[0];
 	my($key) = $_[1];
-	my($min) = $_[2] + 0;
-	my($max) = $_[3] + 0;
-	my($adj) = $_[4] + 0;
+	my($min) = $_[2] + 0.0;
+	my($max) = $_[3] + 0.0;
+	my($adj) = $_[4] + 0.0;
 	my($target) = $_[5];
 
 	print "source = $source\n";
@@ -26,10 +26,10 @@ sub ProcessFile
 		# keep track of 1 based line number
 		++$ln;
 
-		# matches xml key
-		if ($line =~ /^([ \t]+)<([^>]+)>(\d+)<\/([^>]+)>(.*)$/)
+		# matches xml key with floating number
+		if ($line =~ /^([ \t]+)<([^>]+)>([+-]?([0-9]*[.])?[0-9]+)<\/([^>]+)>(.*)$/)
 		{
-			$value = $3 + 0;
+			$value = $3 + 0.0;
 
 			# and is within criteria
 			if ($key eq $2 && $value >= $min && $value <= $max)
