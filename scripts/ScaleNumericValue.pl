@@ -32,7 +32,7 @@ sub ProcessFile
 		++$ln;
 
 		# matches xml key with floating point number (including sci notation)
-		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
+		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
 		{
 			# convert to numeric value
 			# a non-number's value will presumably be 0, and we explicitly skip zeros, so we're safe enough here (I think)
