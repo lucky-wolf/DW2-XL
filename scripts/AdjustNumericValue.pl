@@ -26,8 +26,8 @@ sub ProcessFile
 		# keep track of 1 based line number
 		++$ln;
 
-		# matches xml key with floating number
-		if ($line =~ /^([ \t]+)<([^>]+)>([+-]?([0-9]*[.])?[0-9]+)<\/([^>]+)>(.*)$/)
+		# matches xml key with floating point number (including sci notation)
+		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
 		{
 			$value = $3 + 0.0;
 
