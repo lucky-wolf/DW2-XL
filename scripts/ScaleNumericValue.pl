@@ -17,7 +17,7 @@ sub ProcessFile
 	print "factor = $factor\n";
 
 	if ($factor == 0.0 && $min <= 0.0 && $max >= 0.0) {
-		print "error: cannot scale zero by zero"
+		print "error: cannot scale zero by zero";
 		return
 	}
 
@@ -31,9 +31,11 @@ sub ProcessFile
 		# keep track of 1 based line number
 		++$ln;
 
-		# matches xml key
-		if ($line =~ /^([ \t]+)<([^>]+)>([+-]?([0-9]*[.])?[0-9]+)<\/([^>]+)>(.*)$/)
+		# matches xml key with floating point number (including sci notation)
+		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
 		{
+			# convert to numeric value
+			# a non-number's value will presumably be 0, and we explicitly skip zeros, so we're safe enough here (I think)
 			$value = $3 + 0.0;
 
 			# and is within criteria
@@ -45,11 +47,11 @@ sub ProcessFile
 				}
 				elsif ($value < $min)
 				{
-					print "$ln: X $value < $min\n";
+					# print "$ln: X $value < $min\n";
 				}
 				elsif ($value > $max)
 				{
-					print "$ln: X $value > $max\n";
+					# print "$ln: X $value > $max\n";
 				}
 				else
 				{

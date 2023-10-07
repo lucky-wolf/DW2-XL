@@ -735,4 +735,7 @@ Rail guns do not lose damage potential with distance
 
 cool regex:
 
-	// non-zero decimal pattern:  (0\.|[1-9]\.?)\d*
+	// non-zero decimal pattern:
+		((0\.|[1-9]\.?)\d*)
+	// any decimal or floating or scientific notation number:
+		((0\.|[1-9]\.?)\d*(e(\+|-)\d+)?)
