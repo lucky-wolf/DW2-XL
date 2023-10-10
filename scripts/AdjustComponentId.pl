@@ -35,6 +35,30 @@ sub ProcessFile
 				$line = sprintf("$1<ComponentId>%d</ComponentId>$3\n", $ComponentId + $offset);
 			}
 		}
+		elsif ($line =~ /^([ \t]+)<WeaponComponentId>([0-9.]+)<\/WeaponComponentId>(.*)$/)
+		{
+			# convert to a number
+			$ComponentId = $2 + 0;
+
+			# and is within criteria
+			if ($ComponentId >= $starting && $ComponentId <= $ending)
+			{
+				# adjust the ComponentId
+				$line = sprintf("$1<WeaponComponentId>%d</WeaponComponentId>$3\n", $ComponentId + $offset);
+			}
+		}
+		elsif ($line =~ /^([ \t]+)<InterceptWeaponComponentId>([0-9.]+)<\/InterceptWeaponComponentId>(.*)$/)
+		{
+			# convert to a number
+			$ComponentId = $2 + 0;
+
+			# and is within criteria
+			if ($ComponentId >= $starting && $ComponentId <= $ending)
+			{
+				# adjust the ComponentId
+				$line = sprintf("$1<WeaponComponentId>%d</WeaponComponentId>$3\n", $ComponentId + $offset);
+			}
+		}
 
 		# copy this line to output
 		print OF $line;

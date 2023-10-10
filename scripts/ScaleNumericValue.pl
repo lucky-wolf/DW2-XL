@@ -32,10 +32,10 @@ sub ProcessFile
 		++$ln;
 
 		# matches xml key with floating point number (including sci notation)
-		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
+		# doesn't handle leading decimal point, nor trailing one - but requires a leading and trailing digit(s)
+		if ($line =~ /^([ \t]+)<([^>]+)>((\d+\.\d+)|(\d+)([eE][+-]\d+)?)<\/([^>]+)>(.*)$/)
 		{
 			# convert to numeric value
-			# a non-number's value will presumably be 0, and we explicitly skip zeros, so we're safe enough here (I think)
 			$value = $3 + 0.0;
 
 			# and is within criteria
@@ -58,7 +58,7 @@ sub ProcessFile
 					$new = $value * $factor;
 					print "$ln: matched $2 for $value -> $new\n";
 					# adjust the value
-					$line = sprintf("$1<${key}>%g</${key}>$5\n", $new);
+					$line = sprintf("$1<${key}>%.2g</${key}>$5\n", $new);
 				}
 			}
 		}

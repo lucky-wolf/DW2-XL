@@ -5438,7 +5438,7 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
+		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
 		<Row>28</Row>
@@ -5456,9 +5456,9 @@
 		</PrerequisiteProjects>
 		<!-- advanced tractor beams OR teekan extended range tractor beams -->
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<PlanetaryFacilityIds>
+		<!-- <PlanetaryFacilityIds>
 			<short>5</short>
-		</PlanetaryFacilityIds>
+		</PlanetaryFacilityIds> -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>122</ResearchProjectId>
@@ -8212,7 +8212,7 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
+		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>28</Row>
@@ -8223,9 +8223,9 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PlanetaryFacilityIds>
+		<!-- <PlanetaryFacilityIds>
 			<short>12</short>
-		</PlanetaryFacilityIds>
+		</PlanetaryFacilityIds> -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>178</ResearchProjectId>
@@ -11616,7 +11616,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<Components>
 			<Component>
 				<ComponentId>210</ComponentId>
@@ -11822,7 +11822,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>251</ResearchProjectId>
@@ -12108,15 +12108,15 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
-			<Money>500</Money>
+			<Money>2000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>50</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>50</Amount>
+					<Amount>200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -12886,19 +12886,19 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
-			<Money>2000</Money>
+			<Money>8000</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>200</Amount>
+					<Amount>800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -16106,19 +16106,19 @@
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
