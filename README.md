@@ -182,14 +182,12 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.1
-- Fixed Corvidian v2,v3 resistance (was 1 lower than it should have been)
 - Removed planetary gravitic facilities (cause weird behavior)
+- Fixed Corvidian v2,v3 resistance (was 1 lower than it should have been)
 - Fixed missing cost to upgrading fighter bases and other planetary defenses
 - Fixed cost of specialized hull research
 - Fixed glitch that was causing Planetary Pulsed Beam Defense not to have a weapon associated to it
 - Fixed Trace Jammers to offer 4% increments to jamming
-
-TODO: adjust turtle shields & reactors to better fit XL (both are weak as they progress)
 
 ### v1.18.0
 - Updated for 1174 beta
