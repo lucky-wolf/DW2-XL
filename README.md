@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.1](#v1181)
 		- [v1.18.0](#v1180)
 		- [v1.17.5](#v1175)
 		- [v1.17.4](#v1174)
@@ -179,6 +180,15 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.1
+- Removed planetary gravitic facilities (cause weird behavior)
+- Fixed Corvidian v2,v3 resistance (was 1 lower than it should have been)
+- Fixed missing cost to upgrading fighter bases and other planetary defenses
+- Fixed cost of specialized hull research
+- Fixed glitch that was causing Planetary Pulsed Beam Defense not to have a weapon associated to it
+- Fixed Trace Jammers to offer 4% increments to jamming
+- Fixed Crystal Sensors to have the correct CM and CCM values
 
 ### v1.18.0
 - Updated for 1174 beta
