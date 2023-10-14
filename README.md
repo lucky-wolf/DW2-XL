@@ -183,7 +183,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.2
--
+- Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)
