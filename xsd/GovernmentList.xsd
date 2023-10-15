@@ -26,6 +26,7 @@
 			<xs:element minOccurs="1" maxOccurs="1" name="Stability" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ConcernForOwnReputation" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="ImportanceOfOthersReputations" type="xs:float" />
+			<xs:element minOccurs="1" maxOccurs="1" name="MigrationFactor" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="UsesCabinet" type="xs:boolean" />
 			<xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorNavalChief" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorGroundForcesChief" type="xs:float" />

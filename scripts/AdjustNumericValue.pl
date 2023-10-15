@@ -37,7 +37,7 @@ sub ProcessFile
 				$new = $value + $adj;
 				print "$ln: matched $2 for $value -> $new\n";
 				# adjust the value
-				$line = sprintf("$1<${key}>%g</${key}>$5\n", $new);
+				$line = sprintf("$1<${key}>%g</${key}>\n", $new);
 			}
 		}
 

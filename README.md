@@ -190,6 +190,8 @@ YMMV, but this is my take on making it Extra Large!
 - Greatly improved the design names for the Ikkuro
 - Removed 2nd weapon from basic interceptors for Ikkuro (like all other races)
 - Tweaked Human, Ikkuro, Teekan, and Zenox weapon policies to match their racial preferences better
+- Slightly reduced energy costs of Smart Drive
+- Tweaked the names of Ikkuro Utopian Government
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)

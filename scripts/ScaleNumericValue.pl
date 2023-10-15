@@ -58,7 +58,7 @@ sub ProcessFile
 					$new = $value * $factor;
 					print "$ln: matched $2 for $value -> $new\n";
 					# adjust the value
-					$line = sprintf("$1<${key}>%.2g</${key}>$5\n", $new);
+					$line = sprintf("$1<${key}>%.2g</${key}>\n", $new);
 				}
 			}
 		}
