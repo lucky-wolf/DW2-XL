@@ -186,6 +186,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
 - Doubled racial affinity/animosity
 - Halved racial assimilation rates
+- Utopia Govt now gives partial research progess in medical and recreation (v2 levels)
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)

@@ -41,14 +41,15 @@
 			</RaceProbability>
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
-			<!-- caslon fusion -->
 			<ResearchPath>
-				<ResearchProjectId>8</ResearchProjectId>
+				<!-- Beam Weapons -->
+				<ResearchProjectId>0</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>5</RaceId>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Caslon Fusion Physics -->
 				<ResearchProjectId>331</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
