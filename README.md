@@ -201,6 +201,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed glitch that was causing Planetary Pulsed Beam Defense not to have a weapon associated to it
 - Fixed Trace Jammers to offer 4% increments to jamming
 - Fixed Crystal Sensors to have the correct CM and CCM values
+- Reduced energy requirement of Ikkuro organic hulls
 
 ### v1.18.0
 - Updated for 1174 beta
