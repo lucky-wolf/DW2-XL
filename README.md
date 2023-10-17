@@ -192,6 +192,7 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked Human, Ikkuro, Teekan, and Zenox weapon policies to match their racial preferences better
 - Slightly reduced energy costs of Smart Drive
 - Tweaked the names of Ikkuro Utopian Government
+- Ikkuro Frigates now get 3 thuster slots (Patrol gets 4)
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)
