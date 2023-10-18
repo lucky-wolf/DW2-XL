@@ -193,7 +193,6 @@ YMMV, but this is my take on making it Extra Large!
 - Slightly reduced energy costs of Smart Drive
 - Tweaked the names of Ikkuro Utopian Government
 - Added a bunch of ship design names for Ikkuro vessels
-- Ikkuro Frigates now get 3 thuster slots (Patrol gets 4)
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)
