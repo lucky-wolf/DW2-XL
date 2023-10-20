@@ -284,10 +284,10 @@ perl adjustcol.pl data\ResearchProjectDefinitions.old 1 999 10 99 4 data\Researc
 hyper drive fuel efficiency (purely speed/energyK)
 type          |  L2  |  L3  |  L4  |  L5  |  L6  |  L7  |  L8
 ---------------------------------------------------------------
-Sojourn-Torrent |.2    |.15   |.1111 |.0916 |.0666 |.0542 |.0388
-Snap        |      |.1616 |.1333 |      |.0888 |      |.0555
-Smart   |      |.14   |.1143 |      |.06   |      |.0357
-Hyperstream       |      |.1692 |.1333 |      |.0871 |      |.0538
+Sojourn       |.2    |.15   |.1111 |.0916 |.0666 |.0542 |.0388
+Snap          |      |.1616 |.1333 |      |.0888 |      |.0555
+Smart         |      |.14   |.1143 |      |.06   |      |.0357
+Hyperstream   |      |.1692 |.1333 |      |.0871 |      |.0538
 
 type 		 efficiency			  accuracy		range	init	recharge	insulation
 --------------------------------------------------------------------------------------
@@ -325,6 +325,8 @@ X = ReactorEnergyStorageCapacity/ReactorFuelUnitsForFullCharge
 FuelRatio = 1000 * ReactorFuelUnitsForFullCharge/ReactorEnergyStorageCapacity
 
 ReactorFuelUnitsForFullCharge = ReactorEnergyStorageCapacity*FuelRatio/1000
+
+= 300 * .001333
 
 
 Reactors	size		v1				v2				v3				hyper 	v2		v3

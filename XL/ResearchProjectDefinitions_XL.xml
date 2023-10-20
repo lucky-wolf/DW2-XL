@@ -4439,7 +4439,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- advanced diplomacy requires four other social races -->
+		<!-- Xeno Studies requires four other social races -->
 		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>1002</short>
@@ -5921,7 +5921,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>320</Row>
+		<Row>322</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>4</RaceId>
@@ -6248,7 +6248,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>322</Row>
+		<Row>321</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>558</ResearchProjectId>

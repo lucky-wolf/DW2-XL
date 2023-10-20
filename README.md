@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.2](#v1182)
 		- [v1.18.1](#v1181)
 		- [v1.18.0](#v1180)
 		- [v1.17.5](#v1175)
@@ -181,6 +182,20 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.18.2
+- Updated for 1176 beta release
+- Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
+- Doubled racial affinity/animosity
+- Halved racial assimilation rates
+- Utopia Govt now gives partial research progess in medical and recreation (v2 levels)
+- Greatly improved the design names for the Ikkuro
+- Removed 2nd weapon from basic interceptors for Ikkuro (like all other races)
+- Tweaked Human, Ikkuro, Teekan, and Zenox weapon policies to match their racial preferences better
+- Slightly reduced energy costs of Smart Drive
+- Tweaked the names of Ikkuro Utopian Government
+- Added a bunch of ship design names for Ikkuro vessels
+- Improved the output of Novacore reactors
+
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)
 - Fixed Corvidian v2,v3 resistance (was 1 lower than it should have been)
@@ -189,6 +204,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed glitch that was causing Planetary Pulsed Beam Defense not to have a weapon associated to it
 - Fixed Trace Jammers to offer 4% increments to jamming
 - Fixed Crystal Sensors to have the correct CM and CCM values
+- Reduced energy requirement of Ikkuro organic hulls
 
 ### v1.18.0
 - Updated for 1174 beta

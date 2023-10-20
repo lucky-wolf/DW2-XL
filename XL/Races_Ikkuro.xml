@@ -24,8 +24,7 @@
 			<A>255</A>
 		</SecondaryColor>
 		<ReproductionRate>1.05</ReproductionRate>
-		<AssimilationRate>1</AssimilationRate>
-		<MigrationFactor>1.1</MigrationFactor>
+		<AssimilationRate>0.5</AssimilationRate> <MigrationFactor>1.1</MigrationFactor>
 		<Aggression>0.8</Aggression>
 		<Caution>1.11</Caution>
 		<Dependability>1.5</Dependability>
@@ -223,63 +222,63 @@
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>1</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>2</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>3</RaceId>
-				<Factor>-0.4</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>4</RaceId>
-				<Factor>-0.4</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>6</RaceId>
-				<Factor>-1</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>7</RaceId>
-				<Factor>-0.3</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>8</RaceId>
-				<Factor>-0.1</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>9</RaceId>
 				<Factor>-0.8</Factor>
 			</RaceFactor>
 			<RaceFactor>
+				<RaceId>4</RaceId>
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId>
+				<Factor>-2.0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId>
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId>
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId>
+				<Factor>-1.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
 				<RaceId>10</RaceId>
-				<Factor>-1</Factor>
+				<Factor>-2.0</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>11</RaceId>
-				<Factor>-0.4</Factor>
+				<Factor>-0.8</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>12</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>13</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>14</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>15</RaceId>
-				<Factor>0.1</Factor>
+				<Factor>0.2</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>16</RaceId>
@@ -287,15 +286,19 @@
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>17</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>18</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>19</RaceId>
-				<Factor>-0.4</Factor>
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>20</RaceId>
+				<Factor>-2</Factor>
 			</RaceFactor>
 		</Biases>
 		<FeatureExplanations>
@@ -338,153 +341,189 @@
 			</VictoryCondition>
 		</VictoryConditions>
 		<DesignNames>
-			<string>Acacia</string>
-			<string>Agile Arbiter</string>
-			<string>Aloe</string>
-			<string>Angelica</string>
-			<string>Arboreal Protector</string>
-			<string>Arboreal</string>
-			<string>Aura Adept</string>
-			<string>Aura Artisan</string>
-			<string>Bamboo</string>
-			<string>Banyan</string>
-			<string>Baobab</string>
-			<string>Barkbound Innovator</string>
-			<string>Barkbound Stalwart</string>
-			<string>Bergamot</string>
-			<string>Biomass</string>
-			<string>Bitterroot</string>
-			<string>Blossom</string>
-			<string>Botanic Builder</string>
-			<string>Botanic</string>
-			<string>Branchbound Seeker</string>
-			<string>Branchwalker</string>
-			<string>Cactus</string>
-			<string>Calendula</string>
-			<string>Canopy Cruiser</string>
-			<string>Canopy</string>
-			<string>Catnip</string>
-			<string>Cedar</string>
-			<string>Cedarwood</string>
-			<string>Chamomile</string>
-			<string>Chloris</string>
-			<string>Chloroplast</string>
-			<string>Clary-sage</string>
-			<string>Comfrey</string>
-			<string>Cypress</string>
-			<string>Dandelion</string>
-			<string>Echinacea</string>
-			<string>Elderberry</string>
-			<string>Eucalyptus</string>
-			<string>Fennel</string>
-			<string>Fern</string>
-			<string>Fir</string>
-			<string>Flora Voyager</string>
-			<string>Flora</string>
-			<string>Florafinder</string>
-			<string>Floral Engineer</string>
-			<string>Floral Enigma</string>
-			<string>Foliage</string>
-			<string>Forest Avenger</string>
-			<string>Forest Sentinel</string>
-			<string>Frankincense</string>
-			<string>Gaia</string>
-			<string>Geranium</string>
-			<string>Germination</string>
-			<string>Ginger</string>
-			<string>Ginseng</string>
-			<string>Greenleaf Guardian</string>
-			<string>Greenleaf Knight</string>
-			<string>Grove</string>
-			<string>Harmony's Call</string>
-			<string>Harmony's Hand</string>
-			<string>Hawthorn</string>
-			<string>Herbal Healer</string>
-			<string>Herbalist</string>
-			<string>Ivy</string>
-			<string>Jasmine</string>
-			<string>Jungle Guardian</string>
-			<string>Jungle Juggernaut</string>
-			<string>Juniper</string>
-			<string>Kapok</string>
-			<string>Lavandin</string>
-			<string>Lavender</string>
-			<string>Leaf Sentinel</string>
-			<string>Leafblade</string>
-			<string>Leafguardian</string>
-			<string>Leafstrider</string>
-			<string>Lemon-balm</string>
-			<string>Lemongrass</string>
-			<string>Liana</string>
-			<string>Licorice</string>
-			<string>Machina Enhancer</string>
-			<string>Machina Mastermind</string>
-			<string>Mahogany</string>
-			<string>Maple</string>
-			<string>Marigold</string>
-			<string>Mecha Maestro</string>
-			<string>Mecha Whisperer</string>
-			<string>Mechanical Sage</string>
-			<string>Mechanical Savant</string>
-			<string>Mechanical Seer</string>
-			<string>Mossy</string>
-			<string>Myrrh</string>
-			<string>Nectar</string>
-			<string>Neroli</string>
-			<string>Nightshade Navigator</string>
-			<string>Oak</string>
-			<string>Orchard</string>
-			<string>Orchid</string>
-			<string>Palm</string>
-			<string>Patchouli</string>
-			<string>Peppermint</string>
-			<string>Petal</string>
-			<string>Photosphere</string>
-			<string>Photosynth</string>
-			<string>Pine</string>
-			<string>Pistil</string>
-			<string>Pollen</string>
-			<string>Primate's Fury</string>
-			<string>Primate's Pride</string>
-			<string>Redwood</string>
-			<string>Rhizome</string>
-			<string>Rooted Innovator</string>
-			<string>Rooted Renegade</string>
-			<string>Rose</string>
-			<string>Rosehip</string>
-			<string>Sandalwood</string>
-			<string>Sapling</string>
-			<string>Sequoia</string>
-			<string>Sonar Seeker</string>
-			<string>Sonar Shifter</string>
-			<string>Sonic Ears</string>
-			<string>Sonic Shaper</string>
-			<string>Spearmint</string>
-			<string>Spruce</string>
-			<string>Stamen</string>
-			<string>Stinging-nettle</string>
-			<string>Swift Repairer</string>
-			<string>Swiftleaf Slicer</string>
-			<string>Swiftleaf Striker</string>
-			<string>Sylva</string>
-			<string>Thornvine</string>
-			<string>Timber Technomancer</string>
-			<string>Timber Tinkerer</string>
-			<string>Turmeric</string>
-			<string>Valerian</string>
-			<string>Verdant Vessel</string>
-			<string>Verdant Voyager</string>
-			<string>Verdant</string>
-			<string>Vernal</string>
-			<string>Vetiver</string>
-			<string>Vineborn Vanguard</string>
-			<string>Vineborn Voyager</string>
-			<string>Vineyard</string>
-			<string>Virid</string>
-			<string>Wildfire Warden</string>
-			<string>Willow</string>
-			<string>Willowbark</string>
-			<string>Yarrow</string>
+			<string>Abyssal Arborescence</string>
+			<string>Abyssal Bloom Battlecruiser</string>
+			<string>Abyssal Botanist</string>
+			<string>Abyssal Faunecide</string>
+			<string>Abyssal Gravewarden</string>
+			<string>Baneblossom Dreadship</string>
+			<string>Beastbriar Destructor</string>
+			<string>Bio-Plague Dreadcruiser</string>
+			<string>Biohazard Battlemaw</string>
+			<string>Biohazard Thornscape</string>
+			<string>Blightbloom Blade</string>
+			<string>Blightfang Scion</string>
+			<string>Blightspine Butcher</string>
+			<string>Bloodbloom Reaper</string>
+			<string>Bloodblossom Legion</string>
+			<string>Bloodvine Battler</string>
+			<string>Bloodvine Rager</string>
+			<string>Carnage Creeper</string>
+			<string>Carnageleaf Dreadclaw</string>
+			<string>Carnivorous Forest</string>
+			<string>Carnivorous Starbane</string>
+			<string>Carrion Canopyslash</string>
+			<string>Carrionblade Cruiser</string>
+			<string>Carrionflower Invader</string>
+			<string>Choking Vineslayer</string>
+			<string>Corpsepetal Cruiser</string>
+			<string>Corruptor's Canopy</string>
+			<string>Crimson Venomshade</string>
+			<string>Cursed Canopy</string>
+			<string>Darkbloom Conqueror</string>
+			<string>Deathpetal Harbinger</string>
+			<string>Deathspore Devastator</string>
+			<string>Deathvineshadow</string>
+			<string>Devastaspore Scion</string>
+			<string>Devouring Canopy</string>
+			<string>Devouring Starstorm</string>
+			<string>Devouring Veilship</string>
+			<string>Dreadbark Dominator</string>
+			<string>Dreadroot Destructor</string>
+			<string>Dreadshroud Scourge</string>
+			<string>Dreadspore Dominion</string>
+			<string>Ebonthorn Reaver</string>
+			<string>Ensnaring Wrathship</string>
+			<string>Envenomed Ent</string>
+			<string>Envenomed Entropy</string>
+			<string>Exo-Eradicator</string>
+			<string>Exo-Exterminator</string>
+			<string>Feral Flora Frigate</string>
+			<string>Feralbark Marauder</string>
+			<string>Ferocious Foliage</string>
+			<string>Ferocious Fungibane</string>
+			<string>Fungal Annihilation</string>
+			<string>Fungoid Furyship</string>
+			<string>Fungoid Infestation</string>
+			<string>Fungoid Inflictor</string>
+			<string>Fungoid Warlash</string>
+			<string>Fungusbane Frigate</string>
+			<string>Grimroot Cataclysm</string>
+			<string>Infected Thornscape</string>
+			<string>Infested Arboretum</string>
+			<string>Infestideath Vanguard</string>
+			<string>Ironroot Fury</string>
+			<string>Lethal Mycelium</string>
+			<string>Malicebloom Interceptor</string>
+			<string>Malicemaw Leviathan</string>
+			<string>Mycelium Marauder</string>
+			<string>Mycelium Mauler</string>
+			<string>Myco-Deathbringer</string>
+			<string>Myco-Monarch</string>
+			<string>Myco-Monstrosity</string>
+			<string>Mycogeddon Destructor</string>
+			<string>Nightfall Nettler</string>
+			<string>Nightmare Nettleship</string>
+			<string>Nightshade Ravager</string>
+			<string>Noxious Nebulon</string>
+			<string>Noxious Nectarblade</string>
+			<string>Obsidian Mycolord</string>
+			<string>Obsidian Orchidship</string>
+			<string>Obsidianfern Obliterator</string>
+			<string>Parasitic Starshroud</string>
+			<string>Perdition's Petal</string>
+			<string>Pestilent Marauder</string>
+			<string>Pestilent Podship</string>
+			<string>Phantombark Legion</string>
+			<string>Plagueleaf Dreadnought</string>
+			<string>Plaguethorn Despoiler</string>
+			<string>Poisonthorn Ravager</string>
+			<string>Predator's Rose</string>
+			<string>Predatory Fernship</string>
+			<string>Primal Pestilent</string>
+			<string>Ravageblossom Dreadnought</string>
+			<string>Ravaging Rootstalk</string>
+			<string>Razorbloom Onslaught</string>
+			<string>Razorleaf Ravager</string>
+			<string>Rootwrath Ravager</string>
+			<string>Rotclaw Dreadnaught</string>
+			<string>Rotthorn Carnivore</string>
+			<string>Ruinbark Eviscerator</string>
+			<string>Savage Thornbloom</string>
+			<string>Scorched Stamen Raider</string>
+			<string>Serpent's Embrace</string>
+			<string>Serpentbark Raider</string>
+			<string>Serpentine Sporestalker</string>
+			<string>Serpentroot Onslaught</string>
+			<string>Shadowbark Scourge</string>
+			<string>Shadowbloom Armada</string>
+			<string>Shadowthorn Sentinel</string>
+			<string>Sinister Stamen</string>
+			<string>Slumbering Serpentship</string>
+			<string>Sporeborne Warlord</string>
+			<string>Sporeclaw Reaver</string>
+			<string>Sporepocalypse Specter</string>
+			<string>Sporescourge Overlord</string>
+			<string>Stalkbinder Annihilator</string>
+			<string>Starbinder Maelstrom</string>
+			<string>Starborn Parasite</string>
+			<string>Starfury Blightcrusher</string>
+			<string>Starfury Strangler</string>
+			<string>Starleaf Devourer</string>
+			<string>Starthorn Annihilator</string>
+			<string>Stranglethorn Slayer</string>
+			<string>Tanglethorn Scrapper</string>
+			<string>Tendrilbane Reaver</string>
+			<string>Thorned Desolation</string>
+			<string>Thorned Tyrantship</string>
+			<string>Thorned Vortex</string>
+			<string>Thornfang Warlord</string>
+			<string>Thornforge Terror</string>
+			<string>Thornforge Tyrant</string>
+			<string>Thornspire Dominator</string>
+			<string>Thornstorm Tyranny</string>
+			<string>Thornstrike Reaper</string>
+			<string>Thornwarden Dominance</string>
+			<string>Thornweb Tempest</string>
+			<string>Toxic Orchid</string>
+			<string>Umbra-Vine Voidship</string>
+			<string>Umbral Shroudship</string>
+			<string>Venomcoil Warbringer</string>
+			<string>Venomfang Arboreal</string>
+			<string>Venomfang Wargrove</string>
+			<string>Venomfury Invictus</string>
+			<string>Venomfury Leviathan</string>
+			<string>Venomous Starshade</string>
+			<string>Venomous Thistle</string>
+			<string>Venomous Verdigris</string>
+			<string>Venomous Verdure</string>
+			<string>Venomous Vineblade</string>
+			<string>Venomous Vinefire</string>
+			<string>Venomous Vortexclaw</string>
+			<string>Venomous Wildwrath</string>
+			<string>Venomroot Infliction</string>
+			<string>Venomroot Marauder</string>
+			<string>Venomroot Voidplague</string>
+			<string>Venomroot Voidscourge</string>
+			<string>Venomshroud Nightshade</string>
+			<string>Venomshroud Venomship</string>
+			<string>Venomstrike Vorpal</string>
+			<string>Venomthorn Doomclaw</string>
+			<string>Venomveil Incursion</string>
+			<string>Venomvine Dominator</string>
+			<string>Venomvine Tempest</string>
+			<string>Verdant Venomclaw</string>
+			<string>Verdant Vipership</string>
+			<string>Vileblossom Carnage</string>
+			<string>Viperbark Annihilator</string>
+			<string>Viral Verdantripper</string>
+			<string>Virulence Vanguard</string>
+			<string>Virulent Petal</string>
+			<string>Virulent Thorn</string>
+			<string>Virulent Vine</string>
+			<string>Virulent Voidwraith</string>
+			<string>Vortexbane Reaper</string>
+			<string>Vortexbloom Tyrant</string>
+			<string>Warbark Marauder</string>
+			<string>Warpwood Warbringer</string>
+			<string>Witherbark Onslaught</string>
+			<string>Withering Wake</string>
+			<string>Wrathful Gardner</string>
+			<string>Wrathful Weedship</string>
+			<string>Wrathful Wildwood</string>
+			<string>Wrathful Witherbark</string>
+			<string>Wrathful Wormwood</string>
+			<string>Wrathful Zephyr</string>
 		</DesignNames>
 		<CharacterFirstNames>
 			<string>Gokut</string>

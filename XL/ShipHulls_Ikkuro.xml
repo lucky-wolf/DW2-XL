@@ -19903,7 +19903,7 @@
 		<BaseCost>3000</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>2</IonDefense>
-		<EngineLimit>-1</EngineLimit>
+		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.1</CountermeasuresBonus>
 		<TargetingBonus>0</TargetingBonus>
 		<TurnRollRate>0.25</TurnRollRate>
@@ -82078,7 +82078,7 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
+			<!-- <ComponentBay>
 				<ComponentBayId>1</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>5</MaximumComponentSize>
@@ -82094,7 +82094,7 @@
 					<Y>0</Y>
 					<Z>0</Z>
 				</DisplayEffectOffset>
-			</ComponentBay>
+			</ComponentBay> -->
 			<ComponentBay>
 				<ComponentBayId>2</ComponentBayId>
 				<Type>Engine</Type>

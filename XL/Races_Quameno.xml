@@ -24,7 +24,7 @@
 			<A>0</A>
 		</SecondaryColor>
 		<ReproductionRate>1.05</ReproductionRate>
-		<AssimilationRate>0.75</AssimilationRate>
+		<AssimilationRate>0.38</AssimilationRate>
 		<MigrationFactor>0.8</MigrationFactor>
 		<Aggression>0.7</Aggression>
 		<Caution>1.25</Caution>
@@ -328,79 +328,83 @@
 		<Biases>
 			<RaceFactor>
 				<RaceId>0</RaceId>
-				<Factor>-0.2</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>1</RaceId>
-				<Factor>-0.2</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>2</RaceId>
-				<Factor>-0.2</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>3</RaceId>
-				<Factor>-0.5</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>4</RaceId>
-				<Factor>-0.3</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>5</RaceId>
-				<Factor>-0.2</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>6</RaceId>
-				<Factor>-1</Factor>
-			</RaceFactor>
-			<RaceFactor>
-				<RaceId>7</RaceId>
 				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
+				<RaceId>1</RaceId>
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId>
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId>
+				<Factor>-1.0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId>
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId>
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId>
+				<Factor>-2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId>
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
 				<RaceId>8</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>9</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>10</RaceId>
-				<Factor>-0.8</Factor>
+				<Factor>-1.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>11</RaceId>
-				<Factor>-0.5</Factor>
+				<Factor>-1.0</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>12</RaceId>
-				<Factor>-0.3</Factor>
+				<Factor>-0.6</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>13</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>14</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>16</RaceId>
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>17</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>18</RaceId>
-				<Factor>-0.5</Factor>
+				<Factor>-1.0</Factor>
 			</RaceFactor>
 			<RaceFactor>
 				<RaceId>19</RaceId>
-				<Factor>-0.2</Factor>
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>20</RaceId>
+				<Factor>-2</Factor>
 			</RaceFactor>
 		</Biases>
 		<DesignNames>
