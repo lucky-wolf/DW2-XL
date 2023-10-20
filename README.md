@@ -183,6 +183,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.2
+- Updated for 1177 beta release
 - Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
 - Doubled racial affinity/animosity
 - Halved racial assimilation rates
