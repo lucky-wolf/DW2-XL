@@ -189,6 +189,7 @@ YMMV, but this is my take on making it Extra Large!
   - This will double again PD / intercept strength as there are fewer targets to shoot down
   - This should make the combat more visually interesting and less of a cloud of ordinance
   - This will effectively double shields & armor
+  - Fringe Benefit: will reduce processing requirements on your machine (combat processing should speed up)
 
 ### v1.18.2
 - Updated for 1176 beta release
