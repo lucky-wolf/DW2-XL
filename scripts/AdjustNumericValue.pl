@@ -9,12 +9,12 @@ sub ProcessFile
 	my($adj) = $_[4] + 0.0;
 	my($target) = $_[5];
 
-	print "source = $source\n";
-	print "target = $target\n";
-	print "key = $key\n";
-	print "min = $min\n";
-	print "max = $max\n";
-	print "adj = $adj\n";
+	# print "source = $source\n";
+	# print "target = $target\n";
+	# print "key = $key\n";
+	# print "min = $min\n";
+	# print "max = $max\n";
+	# print "adj = $adj\n";
 
 	open(SF, '<', $source) or die "$!";
 	open(OF, '>', $target) or die "$!";
@@ -29,15 +29,19 @@ sub ProcessFile
 		# matches xml key with floating point number (including sci notation)
 		if ($line =~ /^([ \t]+)<([^>]+)>((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)<\/([^>]+)>(.*)$/)
 		{
+			# extract source value
 			$value = $3 + 0.0;
 
-			# and is within criteria
+			# if within criteria
 			if ($key eq $2 && $value >= $min && $value <= $max)
 			{
 				$new = $value + $adj;
-				print "$ln: matched $2 for $value -> $new\n";
+
+				# this format lets VSCode give you a jump to file & line number option!
+				printf("$target:$ln: $value -> $new (%.5g)\n", $new);
+
 				# adjust the value
-				$line = sprintf("$1<${key}>%g</${key}>\n", $new);
+				$line = sprintf("$1<${key}>%.5g</${key}>\n", $new);
 			}
 		}
 

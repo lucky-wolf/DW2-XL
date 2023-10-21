@@ -185,6 +185,10 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.18.3
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
+- Slowed all non-intercept weapons fire down by 1/2 (half as many shots per time periord)
+  - This will double again PD / intercept strength as there are fewer targets to shoot down
+  - This should make the combat more visually interesting and less of a cloud of ordinance
+  - This will effectively double shields & armor
 
 ### v1.18.2
 - Updated for 1176 beta release
