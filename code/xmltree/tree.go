@@ -67,9 +67,37 @@ func (e *XMLValue) HasMultipleChildren() bool {
 }
 
 // returns the string value of this value iff it is a simple value
-func (e *XMLValue) Value() (s string, ok bool) {
+func (e *XMLValue) StringValue() (s string, ok bool) {
 	s, ok = e.contents.(string)
 	return
+}
+
+// returns the string value of this value
+// panics if it is not a string
+func (e *XMLValue) GetStringValue() string {
+	return e.contents.(string)
+}
+
+// returns the string value of this value iff it is a simple value
+func (e *XMLValue) StringValueEquals(value string) bool {
+	s, ok := e.contents.(string)
+	return ok && s == value
+}
+
+// set our contents to the given string value-string
+func (e *XMLValue) SetString(value string) {
+	_, ok := e.contents.(string)
+	if !ok {
+		panic("not a simple value type: cannot write a simple value into it")
+	}
+	e.contents = value
+}
+
+// set our contents to the given value
+// value can be any kind of scalar or string
+func (e *XMLValue) SetSimpleValue(value any) {
+	// todo: would be nice to ensure that value is a simple scalar and not an array or etc.
+	e.SetString(fmt.Sprint(value))
 }
 
 ////////////////////////////////////////////////////

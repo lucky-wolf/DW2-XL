@@ -190,6 +190,12 @@ YMMV, but this is my take on making it Extra Large!
   - This should make the combat more visually interesting and less of a cloud of ordinance
   - This will effectively double shields & armor
   - Fringe Benefit: will reduce processing requirements on your machine (combat processing should speed up)
+- Redid hangar bay sizes for most hull sizes
+  - Military Bases: 100
+  - Civilian Bases: 50
+  - Dedicated Carriers: 50
+  - All other ships: 25
+
 
 ### v1.18.2
 - Updated for 1176 beta release

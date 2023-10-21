@@ -14,9 +14,27 @@
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-source",
-				"XL/Governments_Dhayut.xml.xml",
+				"XL/Governments_Dhayut.xml",
 				"-target",
 				"temp/Governments_Dhayut.xml"
+			]
+		},
+		{
+			"name": "Adjust Hangar Bays",
+			"type": "go",
+			"request": "launch",
+			"mode": "debug",
+			"program": "code/cmd/xmltree/main.go",
+			"output": "code/bin/xmltree.exe",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"-source",
+				"XL/ShipHulls_Dhayut.xml",
+				"-target",
+				"temp/ShipHulls_Dhayut.xml",
+				"-algorithm",
+				"HangarBays",
+				"-quiet"
 			]
 		},
 		{
