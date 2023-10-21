@@ -199,7 +199,9 @@ YMMV, but this is my take on making it Extra Large!
   - It is the designs themselves that limit what can be put where
 - Redid component ion defenses for hangar bays to make them more more reasonable
 - Rebalanced hangar bay build & repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
--
+- Fixed a few locations that were intended to give Improved Ground Combat but were not
+  - Quameno, Stratocracy
+
 ### v1.18.2
 - Updated for 1176 beta release
 - Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
@@ -320,7 +322,7 @@ YMMV, but this is my take on making it Extra Large!
   - Have a 5th level of splinter (boarding pod)
   - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
-- Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
+- Tweaked Monarchy, Feudal, and Stratocracy governments to offer
   - Improved crew systems
   - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
   - Royal Palace

@@ -136,6 +136,9 @@ func HangarBays(root *xmltree.XMLTree) (statistics Statistics, err error) {
 			case "DefensiveBase", "MonitoringStation", "SpaceportSmall", "SpaceportMedium", "SpaceportLarge":
 				// military bases get huge bays
 				size = 100
+			case "ConstructionShip":
+				// constructors need a size 100!
+				size = 100
 			}
 
 			elements := statistics.elements
