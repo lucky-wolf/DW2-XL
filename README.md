@@ -195,8 +195,11 @@ YMMV, but this is my take on making it Extra Large!
   - Civilian Bases: 50
   - Dedicated Carriers: 50
   - All other ships: 25
-
-
+- All 3 sizes of hangar bays are available for all tech levels
+  - It is the designs themselves that limit what can be put where
+- Redid component ion defenses for hangar bays to make them more more reasonable
+- Rebalanced hangar bay build & repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
+-
 ### v1.18.2
 - Updated for 1176 beta release
 - Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
@@ -451,7 +454,7 @@ YMMV, but this is my take on making it Extra Large!
 - Updated for 1.1.4.8 Beta (but not required)
 
 ### v1.15.3
-- Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays
+- Fixed: Orbital Escape Launchers link off Stellar of Hangar Bays
 - Fixed: Vanilla bug that caused any government event buildings to increase planetary quality
 - Fixed: Enhanced Research to have correct costs
 - Fixed: Caslon Hyperfusion Reactor size to 18 (was too small)
@@ -519,8 +522,8 @@ YMMV, but this is my take on making it Extra Large!
 - Gave very small "Destroyed Repair Chance" to base Damage Control Units
 - Adjusted random tech to be a bit more random generally, but to guarantee some essential techs (e.g. fast mining)
 - Adjusted Stellar Hangar Bay links to be Ackdarian only
-- Added a small Kaasian Crystal component to stellar hangar bays
-- Reduced Crew requirements for Ackdarian Stellar Hangar Bays
+- Added a small Kaasian Crystal component Stellar to Hangar bays
+- Reduced Crew requirements for Stellar Ackdarian Hangar Bays
 - Fixed Ion Defense for all hangar bays
 - Improved government naming for shadow oligarchy and harmonious utopias
 - Gave all races a direct and indirect fire weapon in their races file to try to avoid having the game gift them a random one
@@ -548,7 +551,7 @@ YMMV, but this is my take on making it Extra Large!
   - Transient Singularity
 
 ### v1.15.0
-- Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
+- Integrated "Stellar Ackdarian Hangar Bays" mod by @Rah
   - Ackdarian racial tech that holds 50% more strike craft than standard bays
 - Integrated "Archivist Government" by @Rah
   - A Zenox only archivist focused government
