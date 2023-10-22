@@ -202,6 +202,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed a few locations that were intended to give Improved Ground Combat but were not
   - Quameno, Stratocracy
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
+- Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
 
 ### v1.18.2
 - Updated for 1176 beta release
