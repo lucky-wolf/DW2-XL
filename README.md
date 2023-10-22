@@ -201,6 +201,7 @@ YMMV, but this is my take on making it Extra Large!
 - Rebalanced hangar bay build & repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
 - Fixed a few locations that were intended to give Improved Ground Combat but were not
   - Quameno, Stratocracy
+- Basic Bombers now have only 1 weapon, same as Basic Fighters
 
 ### v1.18.2
 - Updated for 1176 beta release
