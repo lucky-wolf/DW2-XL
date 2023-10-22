@@ -791,6 +791,8 @@ static:   2.56, 3.2, 4,   5, 6.25,  7.8125, 9.7656,   12.207
 recharge: .3, .6,  .9, 1.8, 2.7,  3.6,  4.5,    5.4
 r-energy:  1,  2,   3,   6,   9,   12,   15,     18,
 
+Tortoise follows it's own scale starting at 680 strength scaling by 1.25 per tier, 2 recharge rate at a cost of 2.5x, and a static cost of 1% rounded down to integer minus 1
+
 Merridian:
 strength:  1525.8789, 1907.3486, 2384.1857, 2980.2321, 3725.29
 static:      15.2587,   19.0735,   23.8418,   29.8023,   37.2529
@@ -798,5 +800,18 @@ static:      15.2587,   19.0735,   23.8418,   29.8023,   37.2529
 recharge:   6.3, 7.2, 8.1, 9.0, 9.9
 r-energy:    21,  24,  27,  30,  33
 
+Citadel are effectively T9 (2980 / 29.8 / 9.0 / 30)
 
-Tortoise follows it's own scale starting at 680 strength scaling by 1.25 per tier, 2 recharge rate at a cost of 2.5x, and a static cost of 1% rounded down to integer minus 1
+[Ftr] shields are
+strength: 1/5
+static:   1/5
+
+recharge: 1/5
+r-energy: 1/5
+
+ion: 	    same
+resistance: same
+
+penn-chance: same
+penn-pct:    same
+
