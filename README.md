@@ -185,11 +185,11 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.18.3
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
-- Slowed all non-intercept weapons fire down by 1/2 (half as many shots per time periord)
-  - This will double again PD / intercept strength as there are fewer targets to shoot down
-  - This should make the combat more visually interesting and less of a cloud of ordinance
-  - This will effectively double shields & armor
-  - Fringe Benefit: will reduce processing requirements on your machine (combat processing should speed up)
+- Reduced ROF by 50% (non-intercept)
+- Increase damage per shot 50% (non-intercept)
+- Rebalanced shields
+  - Buffed Tortoise
+  - Normalized values for all standard shields (still need to apply those changes to [Ftr] - will build a script for that)
 - Redid hangar bay sizes for most hull sizes
   - Military Bases: 100
   - Civilian Bases: 50
@@ -203,7 +203,6 @@ YMMV, but this is my take on making it Extra Large!
   - Quameno, Stratocracy
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
-- Rebalanced shields which buffs Tortoise and makes a clean comparsion between standard shield lines
 
 ### v1.18.2
 - Updated for 1176 beta release
