@@ -203,6 +203,7 @@ YMMV, but this is my take on making it Extra Large!
   - Quameno, Stratocracy
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
+- Gizurean Hive Bays now hold the same count of units as Ackdarian Stellar bays (50% more than starfighter hangar bays)
 
 ### v1.18.2
 - Updated for 1176 beta release
