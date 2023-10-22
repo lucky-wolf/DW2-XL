@@ -1251,13 +1251,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>1.5</ShieldRechargeRate>
+				<ShieldRechargeRate>2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>5</ShieldRechargeEnergyUsage>
 				<ShieldResistance>4</ShieldResistance>
 				<ShieldStrength>680</ShieldStrength>
-				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.35</ShieldPenetrationRatio>
-				<StaticEnergyUsed>4</StaticEnergyUsed>
+				<ShieldPenetrationChance>0.10</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.30</ShieldPenetrationRatio>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1386,13 +1386,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>2.25</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>8</ShieldRechargeEnergyUsage>
+				<ShieldRechargeRate>3</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>7.5</ShieldRechargeEnergyUsage>
 				<ShieldResistance>6</ShieldResistance>
-				<ShieldStrength>880</ShieldStrength>
-				<ShieldPenetrationChance>0.02</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.3</ShieldPenetrationRatio>
-				<StaticEnergyUsed>6</StaticEnergyUsed>
+				<ShieldStrength>1062.5</ShieldStrength>
+				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.20</ShieldPenetrationRatio>
+				<StaticEnergyUsed>9</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1521,13 +1521,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>3.75</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>13</ShieldRechargeEnergyUsage>
-				<ShieldResistance>7</ShieldResistance>
-				<ShieldStrength>1300</ShieldStrength>
+				<ShieldRechargeRate>4</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>10</ShieldRechargeEnergyUsage>
+				<ShieldResistance>8</ShieldResistance>
+				<ShieldStrength>1660.1562</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>8</StaticEnergyUsed>
+				<StaticEnergyUsed>15</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1657,12 +1657,12 @@
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
 				<ShieldRechargeRate>6</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>21</ShieldRechargeEnergyUsage>
-				<ShieldResistance>8</ShieldResistance>
-				<ShieldStrength>2200</ShieldStrength>
+				<ShieldRechargeEnergyUsage>15</ShieldRechargeEnergyUsage>
+				<ShieldResistance>10</ShieldResistance>
+				<ShieldStrength>2593.9941</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>12</StaticEnergyUsed>
+				<StaticEnergyUsed>24</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1791,10 +1791,10 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>9</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>34</ShieldRechargeEnergyUsage>
-				<ShieldResistance>9</ShieldResistance>
-				<ShieldStrength>3200</ShieldStrength>
+				<ShieldRechargeRate>8</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>20</ShieldRechargeEnergyUsage>
+				<ShieldResistance>12</ShieldResistance>
+				<ShieldStrength>4053.1158</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
 				<StaticEnergyUsed>18</StaticEnergyUsed>
@@ -1844,7 +1844,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortise Shields</Name>
+		<Name>Tortoise Shields</Name>
 		<ImageFilename>Environment/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -2555,7 +2555,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortise Shields [Ftr]</Name>
+		<Name>Tortoise Shields [Ftr]</Name>
 		<ImageFilename>Environment/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

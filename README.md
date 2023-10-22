@@ -198,12 +198,12 @@ YMMV, but this is my take on making it Extra Large!
 - All 3 sizes of hangar bays are available for all tech levels
   - It is the designs themselves that limit what can be put where
 - Redid component ion defenses for hangar bays to make them more more reasonable
-- Rebalanced hangar bay build & repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
+- Rebalanced hangar bay capacity and build/repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
 - Fixed a few locations that were intended to give Improved Ground Combat but were not
   - Quameno, Stratocracy
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
-- Gizurean Hive Bays now hold the same count of units as Ackdarian Stellar bays (50% more than starfighter hangar bays)
+- Rebalanced shields which buffs Tortoise and makes a clean comparsion between standard shield lines
 
 ### v1.18.2
 - Updated for 1176 beta release
