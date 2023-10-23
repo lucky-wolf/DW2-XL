@@ -188,6 +188,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced standard weapon ROF by 50%
 - Increased standard weapon damage per shot by 50% (non-intercept)
 - Set PD ROF = 5x standard of same class
+- Halved PD dmg vs. fighters
 - Rebalanced shields
   - Buffed Tortoise
   - Normalized values for all standard shields (still need to apply those changes to [Ftr] - will build a script for that)
@@ -204,6 +205,7 @@ YMMV, but this is my take on making it Extra Large!
   - Quameno, Stratocracy
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
+- Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
 
 ### v1.18.2
 - Updated for 1176 beta release
