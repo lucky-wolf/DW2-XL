@@ -187,7 +187,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
 - Reduced standard weapon ROF by 50%
 - Increased standard weapon damage per shot by 50% (non-intercept)
-- Reduced intercept weapon ROF by 200%
+- Set PD ROF = 5x standard of same class
 - Rebalanced shields
   - Buffed Tortoise
   - Normalized values for all standard shields (still need to apply those changes to [Ftr] - will build a script for that)
