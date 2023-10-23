@@ -100,6 +100,7 @@ func (e *XMLValue) CloneContents() any {
 
 func CloneContents(contents any) any {
 	switch v := contents.(type) {
+
 	case []any:
 		// multiple child elements
 		elements := []any{}
@@ -107,14 +108,18 @@ func CloneContents(contents any) any {
 			elements = append(elements, CloneContents(e))
 		}
 		return elements
-	case XMLProcInst:
-		return v.Copy()
+
+	case *XMLElement:
+		e := v.Clone()
+		return &e
 	case XMLComment:
 		return v.Copy()
 	case XMLDirective:
 		return v.Copy()
 	case XMLElement:
 		return v.Clone()
+	case XMLProcInst:
+		return v.Copy()
 	case string:
 		return v
 	}

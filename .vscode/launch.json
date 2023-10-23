@@ -47,9 +47,9 @@
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-source",
-				"XL/ComponentDefinitions_Quameno.xml",
-				"-target",
 				"temp/ComponentDefinitions_Quameno.xml",
+				"-target",
+				"XL/ComponentDefinitions_Quameno.xml",
 				"-algorithm",
 				"FighterShields",
 				// "-quiet"

@@ -19,6 +19,7 @@ func FighterShields(root *xmltree.XMLTree) (statistics Statistics, err error) {
 
 	// the root will result in a single ArrayOf[RootObjectType]
 	for _, e := range root.Elements.Elements() {
+
 		err = AssertIs(e, "ArrayOfComponentDefinition")
 		if err != nil {
 			return
@@ -51,7 +52,7 @@ func FighterShields(root *xmltree.XMLTree) (statistics Statistics, err error) {
 				continue
 			}
 
-			// copy and modify the values into our ftr shield
+			// copy values into our ftr shield
 			sourceValues := sourceDefinition.Child("Values")
 			targetValues := e.Child("Values")
 			if targetValues == nil {
@@ -61,28 +62,27 @@ func FighterShields(root *xmltree.XMLTree) (statistics Statistics, err error) {
 				targetValues.SetContents(sourceValues.CloneContents())
 			}
 
-			// for _, componentStats := range sourceValues.Elements() {
+			// now that we have our own copy of the component stats (same number of levels too)
+			// we can update each of those to scale for [Ftr] version
+			for _, componentStats := range targetValues.Elements() {
 
-			// 	// every element should be a component bay
-			// 	err = AssertIs(componentStats, "componentStats")
-			// 	if err != nil {
-			// 		return
-			// 	}
+				// every element should be a component bay
+				err = AssertIs(componentStats, "ComponentStats")
+				if err != nil {
+					return
+				}
 
-			// 	// for each component bay whose type is Hangar
-			// 	if componentStats.Find("Type", "Hangar") != nil {
+				// scale / modify the values for the component to match source
+				componentStats.Child("CrewRequirement").SetString("0")
+				componentStats.Child("ShieldRechargeRate").ScaleBy(0.2)
+				componentStats.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
+				componentStats.Child("ShieldResistance").ScaleBy(0.2)
+				componentStats.Child("ShieldStrength").ScaleBy(0.2)
+				componentStats.Child("StaticEnergyUsed").ScaleBy(0.2)
 
-			// 		// find and update the MaximumComponentSize
-			// 		c := componentStats.Child("MaximumComponentSize")
-			// 		v := fmt.Sprint(size)
-			// 		if c.GetStringValue() != v {
-			// 			c.SetString(v)
-			// 			statistics.changed++
-			// 		}
-
-			// 		statistics.elements++
-			// 	}
-			// }
+				statistics.changed++
+				statistics.elements++
+			}
 
 			statistics.objects++
 		}

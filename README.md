@@ -206,6 +206,7 @@ YMMV, but this is my take on making it Extra Large!
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
+- Synchronized all Ftr shields to be ~20% of ship version of same accross the board (I now have an automated tool for this)
 
 ### v1.18.2
 - Updated for 1176 beta release

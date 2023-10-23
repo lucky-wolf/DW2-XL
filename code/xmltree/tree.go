@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
+	"strconv"
 	"strings"
 )
 
@@ -104,6 +105,25 @@ func (e *XMLValue) SetString(value string) {
 func (e *XMLValue) SetSimpleValue(value any) {
 	// todo: would be nice to ensure that value is a simple scalar and not an array or etc.
 	e.SetString(fmt.Sprint(value))
+}
+
+// our contents must be a simple string which is a parsable number
+// updates it to be scaled by the given input
+func (e *XMLValue) ScaleBy(value float64) {
+
+	s, ok := e.contents.(string)
+	if !ok {
+		panic("not a simple value type: cannot write a simple value into it")
+	}
+
+	f, err := strconv.ParseFloat(s, 64)
+	if err != nil {
+		panic(err)
+	}
+
+	f *= value
+
+	e.contents = fmt.Sprintf("%.5g", f)
 }
 
 ////////////////////////////////////////////////////
