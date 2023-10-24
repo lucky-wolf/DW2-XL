@@ -141,14 +141,14 @@ func (target *XMLElement) VisitChildren(visit func(*XMLElement) error) (err erro
 func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XMLElement, err error) {
 
 	// get source
-	source = from.Child("ResourcesRequired")
+	source = from.Child(tag)
 	if source == nil {
 		err = fmt.Errorf("source doesn't have a <%s> node!", tag)
 		return
 	}
 
 	// get target
-	target = e.Child("ResourcesRequired")
+	target = e.Child(tag)
 	if target == nil {
 		err = fmt.Errorf("target doesn't have a <%s> node!", tag)
 		return
