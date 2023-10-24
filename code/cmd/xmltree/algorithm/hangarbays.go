@@ -81,29 +81,26 @@ func (j *job) applyHangarBays() (err error) {
 				elements := statistics.elements
 
 				// for all hangar bay modules, apply the new size
-				bays := e.Child("ComponentBays")
-				if bays != nil {
-					for _, componentBay := range bays.Elements() {
+				for _, componentBay := range e.Child("ComponentBays").Elements() {
 
-						// every element should be a component bay
-						err = assertIs(componentBay, "ComponentBay")
-						if err != nil {
-							return
+					// every element should be a component bay
+					err = assertIs(componentBay, "ComponentBay")
+					if err != nil {
+						return
+					}
+
+					// for each component bay whose type is Hangar
+					if componentBay.Has("Type", "Hangar") {
+
+						// find and update the MaximumComponentSize
+						c := componentBay.Child("MaximumComponentSize")
+						v := fmt.Sprint(size)
+						if c.GetStringValue() != v {
+							c.SetString(v)
+							statistics.changed++
 						}
 
-						// for each component bay whose type is Hangar
-						if componentBay.Has("Type", "Hangar") {
-
-							// find and update the MaximumComponentSize
-							c := componentBay.Child("MaximumComponentSize")
-							v := fmt.Sprint(size)
-							if c.GetStringValue() != v {
-								c.SetString(v)
-								statistics.changed++
-							}
-
-							statistics.elements++
-						}
+						statistics.elements++
 					}
 				}
 

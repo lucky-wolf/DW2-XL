@@ -1,8 +1,8 @@
 package algorithm
 
 import (
-	"fmt"
 	"log"
+	"lucky-wolf/DW2-XL/code/xmltree"
 	"strings"
 )
 
@@ -74,36 +74,39 @@ func (j *job) applyFighterArmor() (err error) {
 					continue
 				}
 
-				// copy values into our ftr shield
-				sourceValues := sourceDefinition.Child("Values")
-				targetValues := e.Child("Values")
-				if targetValues == nil {
-					panic(fmt.Errorf("%s doesn't have a values node?!", targetName))
-					// e.AddChild(sourceValues.Clone())
-				} else {
-					targetValues.SetContents(sourceValues.CloneContents())
+				// copy and scale resource requirements
+				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
+				if err != nil {
+					return
+				}
+
+				// copy values
+				var targetValues *xmltree.XMLElement
+				_, targetValues, err = e.CopyByTag("Values", sourceDefinition)
+				if err != nil {
+					return
 				}
 
 				// now that we have our own copy of the component stats (same number of levels too)
 				// we can update each of those to scale for [Ftr] version
-				for _, componentStats := range targetValues.Elements() {
+				for _, e := range targetValues.Elements() {
 
 					// every element should be a component bay
-					err = assertIs(componentStats, "ComponentStats")
+					err = assertIs(e, "ComponentStats")
 					if err != nil {
 						return
 					}
 
 					// scale / modify the values for the component to match source
-					componentStats.Child("ArmorBlastRating").ScaleBy(0.2)
-					componentStats.Child("ArmorReactiveRating").ScaleBy(0.2)
-					componentStats.Child("IonDamageDefense").ScaleBy(0.2)
-					componentStats.Child("CrewRequirement").SetValue(0)
+					e.Child("ArmorBlastRating").ScaleBy(0.2)
+					e.Child("ArmorReactiveRating").ScaleBy(0.2)
+					e.Child("IonDamageDefense").ScaleBy(0.2)
+					e.Child("CrewRequirement").SetValue(0)
 
-					statistics.changed++
-					statistics.elements++
 				}
 
+				statistics.changed++
+				statistics.elements++
 				statistics.objects++
 			}
 		}

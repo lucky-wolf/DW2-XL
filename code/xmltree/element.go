@@ -125,3 +125,53 @@ func CloneContents(contents any) any {
 	}
 	panic(fmt.Errorf("cannot clone: invalid contents: %T", contents))
 }
+
+// visits each child with the given visitor function (aborts on error)
+func (target *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
+	for _, e := range target.Elements() {
+		err = visit(e)
+		if err != nil {
+			return
+		}
+	}
+	return
+}
+
+// copies the specified child from the given element to the ourself (replacing any we already have)
+func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XMLElement, err error) {
+
+	// get source
+	source = from.Child("ResourcesRequired")
+	if source == nil {
+		err = fmt.Errorf("source doesn't have a <%s> node!", tag)
+		return
+	}
+
+	// get target
+	target = e.Child("ResourcesRequired")
+	if target == nil {
+		err = fmt.Errorf("target doesn't have a <%s> node!", tag)
+		return
+	}
+
+	// clone source to target
+	target.SetContents(source.CloneContents())
+
+	return
+}
+
+// copies the specified child from the given element to the ourself (replacing any we already have)
+// and visits the new elements
+func (e *XMLElement) CopyAndVisitByTag(tag string, from *XMLElement, visit func(*XMLElement) error) (err error) {
+
+	// copy by tag
+	_, target, err := e.CopyByTag(tag, from)
+	if err != nil {
+		return
+	}
+
+	// visit the new elements
+	target.VisitChildren(visit)
+
+	return
+}
