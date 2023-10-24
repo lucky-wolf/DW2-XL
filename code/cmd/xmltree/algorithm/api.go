@@ -23,9 +23,9 @@ func (statistics *Statistics) For(filename string) string {
 }
 
 func assertIs(e *xmltree.XMLElement, kind string) (err error) {
-	if !Quiet {
-		log.Println(e.Name.Local)
-	}
+	// if !Quiet {
+	// 	log.Println(e.Name.Local)
+	// }
 	if e.Name.Local != kind {
 		err = fmt.Errorf("invalid file: expected %s but found %s", kind, e.Name.Local)
 	}
@@ -33,7 +33,7 @@ func assertIs(e *xmltree.XMLElement, kind string) (err error) {
 }
 
 type job struct {
-	xfiles []xmlfile
+	xfiles []*xmlfile
 }
 
 type xmlfile struct {
@@ -66,7 +66,7 @@ func findMatchingFiles(root, pattern string) (matches []string, err error) {
 	return
 }
 
-func loadJobFor(root, pattern string) (j *job, err error) {
+func loadJobFor(root, pattern string) (j job, err error) {
 
 	// get the list of files applicable
 	filenames, err := findMatchingFiles(root, pattern)
@@ -81,7 +81,7 @@ func loadJobFor(root, pattern string) (j *job, err error) {
 		if err != nil {
 			return
 		}
-		j.xfiles = append(j.xfiles, xmlfile{filename: filenames[i], root: root})
+		j.xfiles = append(j.xfiles, &xmlfile{filename: filenames[i], root: root})
 	}
 
 	return

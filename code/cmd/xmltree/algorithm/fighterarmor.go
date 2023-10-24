@@ -97,7 +97,8 @@ func (j *job) applyFighterArmor() (err error) {
 					// scale / modify the values for the component to match source
 					componentStats.Child("ArmorBlastRating").ScaleBy(0.2)
 					componentStats.Child("ArmorReactiveRating").ScaleBy(0.2)
-					// componentStats.Child("IonDamageDefense").ScaleBy(0.2)
+					componentStats.Child("IonDamageDefense").ScaleBy(0.2)
+					componentStats.Child("CrewRequirement").SetValue(0)
 
 					statistics.changed++
 					statistics.elements++

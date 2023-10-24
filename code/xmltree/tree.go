@@ -102,7 +102,7 @@ func (e *XMLValue) SetString(value string) {
 
 // set our contents to the given value
 // value can be any kind of scalar or string
-func (e *XMLValue) SetSimpleValue(value any) {
+func (e *XMLValue) SetValue(value any) {
 	// todo: would be nice to ensure that value is a simple scalar and not an array or etc.
 	e.SetString(fmt.Sprint(value))
 }
