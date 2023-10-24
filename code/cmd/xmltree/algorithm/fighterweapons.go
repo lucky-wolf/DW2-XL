@@ -10,9 +10,10 @@ func FighterWeapons(folder string) (err error) {
 
 	if !Quiet {
 		log.Println("All strikecraft weapons will be set to:")
-		log.Println("- 20% Blast rating")
-		log.Println("- 20% Reactive rating")
-		log.Println("- 100% Ion Defense")
+		log.Println("- 50% Energy / shot")
+		log.Println("- 10x Rate of fire")
+		log.Println("- 25% Range")
+		log.Println("- 20% Damage / shot")
 	}
 
 	// load all component definition files
@@ -67,29 +68,31 @@ func (j *job) applyFighterWeapons() (err error) {
 				}
 
 				// find the corresponding small weapon by name
-				sourceName := strings.Replace(targetName, "[Ftr]", "[S]", 0)
+				sourceName := strings.Replace(targetName, "[Ftr]", "[S]", 1)
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
 					continue
 				}
 
+				// debug
+				log.Printf("processing %s from %s...\n", targetName, sourceName)
+
 				// copy and scale resource requirements
-				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
+				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
 				if err != nil {
 					return
 				}
 
 				// copy component stats
-				var targetValues *xmltree.XMLElement
-				_, targetValues, err = e.CopyByTag("Values", sourceDefinition)
+				err = e.CopyByTag("Values", sourceDefinition)
 				if err != nil {
 					return
 				}
 
 				// now that we have our own copy of the component stats (same number of levels too)
 				// we can update each of those to scale for [Ftr] version
-				for _, e := range targetValues.Elements() {
+				for _, e := range e.Child("Values").Elements() {
 
 					// every element should be a component bay
 					err = assertIs(e, "ComponentStats")

@@ -122,14 +122,18 @@ func CloneContents(contents any) any {
 	case *XMLElement:
 		e := v.Clone()
 		return &e
-	case XMLComment:
-		return v.Copy()
+	case *XMLComment:
+		e := v.Copy()
+		return &e
 	case XMLDirective:
-		return v.Copy()
+		e := v.Copy()
+		return &e
 	case XMLElement:
-		return v.Clone()
+		e := v.Clone()
+		return &e
 	case XMLProcInst:
-		return v.Copy()
+		e := v.Copy()
+		return &e
 	case string:
 		return v
 	}
@@ -138,30 +142,33 @@ func CloneContents(contents any) any {
 
 // visits each child with the given visitor function (aborts on error)
 func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
+
 	if e == nil {
 		return
 	}
+
 	for _, e := range e.Elements() {
 		err = visit(e)
 		if err != nil {
 			return
 		}
 	}
+
 	return
 }
 
 // copies the specified child from the given element to the ourself (replacing any we already have)
-func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XMLElement, err error) {
+func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (err error) {
 
 	// get source
-	source = from.Child(tag)
+	source := from.Child(tag)
 	if source == nil {
 		// err = fmt.Errorf("source doesn't have a <%s> node!", tag)
 		return
 	}
 
 	// get target
-	target = e.Child(tag)
+	target := e.Child(tag)
 	if target == nil {
 		err = fmt.Errorf("target doesn't have a <%s> node!", tag)
 		return
@@ -169,6 +176,8 @@ func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XM
 
 	// clone source to target
 	target.SetContents(source.CloneContents())
+
+	// warn: target is wrong somehow?
 
 	return
 }
@@ -178,13 +187,16 @@ func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XM
 func (e *XMLElement) CopyAndVisitByTag(tag string, from *XMLElement, visit func(*XMLElement) error) (err error) {
 
 	// copy by tag
-	_, target, err := e.CopyByTag(tag, from)
+	err = e.CopyByTag(tag, from)
 	if err != nil {
 		return
 	}
 
 	// visit the new elements
-	target.VisitChildren(visit)
+	err = e.Child(tag).VisitChildren(visit)
+	if err != nil {
+		return
+	}
 
 	return
 }

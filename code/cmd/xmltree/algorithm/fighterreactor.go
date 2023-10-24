@@ -81,15 +81,14 @@ func (j *job) applyFighterReactors() (err error) {
 				}
 
 				// copy component stats
-				var targetValues *xmltree.XMLElement
-				_, targetValues, err = e.CopyByTag("Values", sourceDefinition)
+				err = e.CopyByTag("Values", sourceDefinition)
 				if err != nil {
 					return
 				}
 
 				// now that we have our own copy of the component stats (same number of levels too)
 				// we can update each of those to scale for [Ftr] version
-				for _, e := range targetValues.Elements() {
+				for _, e := range e.Child("Values").Elements() {
 
 					// every element should be a component bay
 					err = assertIs(e, "ComponentStats")
