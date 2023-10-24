@@ -68,14 +68,14 @@ func (e *XMLValue) HasMultipleChildren() bool {
 }
 
 // returns the string value of this value iff it is a simple value
-func (e *XMLValue) StringValue() (s string, ok bool) {
+func (e *XMLValue) GetStringValue() (s string, ok bool) {
 	s, ok = e.contents.(string)
 	return
 }
 
 // returns the string value of this value
 // panics if it is not a string
-func (e *XMLValue) GetStringValue() string {
+func (e *XMLValue) StringValue() string {
 	return e.contents.(string)
 }
 
@@ -121,6 +121,7 @@ func (e *XMLValue) SetValue(value any) {
 	}
 }
 
+// if the value is simple and parsable as float, returns that
 func (e *XMLValue) GetNumericValue() (value float64, err error) {
 	// must be simple
 	s, ok := e.contents.(string)
@@ -131,6 +132,12 @@ func (e *XMLValue) GetNumericValue() (value float64, err error) {
 
 	// must be parsable as a float
 	return strconv.ParseFloat(s, 64)
+}
+
+// grab string & parse (may end up hiding errors and being zero)
+func (e *XMLValue) NumericValue() (value float64) {
+	value, _ = strconv.ParseFloat(e.StringValue(), 64)
+	return
 }
 
 // our contents must be a simple string which is a parsable number

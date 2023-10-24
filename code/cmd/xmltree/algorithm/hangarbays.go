@@ -95,7 +95,7 @@ func (j *job) applyHangarBays() (err error) {
 						// find and update the MaximumComponentSize
 						c := componentBay.Child("MaximumComponentSize")
 						v := fmt.Sprint(size)
-						if c.GetStringValue() != v {
+						if c.StringValue() != v {
 							c.SetString(v)
 							statistics.changed++
 						}

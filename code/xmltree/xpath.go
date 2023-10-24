@@ -31,7 +31,7 @@ func (tree *XMLTree) Find(tag, value string) (parent, element *XMLElement) {
 
 		// check if we've found our target
 		if pc.Child.Name.Local == tag {
-			v, ok := pc.Child.StringValue()
+			v, ok := pc.Child.GetStringValue()
 			if ok && v == value {
 				parent = pc.Parent
 				element = pc.Child

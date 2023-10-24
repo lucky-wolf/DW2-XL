@@ -61,7 +61,7 @@ func (j *job) applyFighterArmor() (err error) {
 				}
 
 				// for fighters...
-				targetName := e.Child("Name").GetStringValue()
+				targetName := e.Child("Name").StringValue()
 				if !strings.HasSuffix(targetName, "[Ftr]") {
 					continue
 				}
