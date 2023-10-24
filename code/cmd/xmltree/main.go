@@ -42,6 +42,8 @@ func main() {
 		err = algorithm.FighterReactors(folder)
 	case "FighterShields":
 		err = algorithm.FighterShields(folder)
+	case "FighterWeapons":
+		err = algorithm.FighterWeapons(folder)
 	case "HangarBays":
 		err = algorithm.HangarBays(folder)
 	default:

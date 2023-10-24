@@ -86,6 +86,12 @@ func (e *XMLValue) StringValueEquals(value string) bool {
 }
 
 // returns the string value of this value iff it is a simple value
+func (e *XMLValue) StringValueStartsWith(value string) bool {
+	s, ok := e.contents.(string)
+	return ok && strings.HasPrefix(s, value)
+}
+
+// returns the string value of this value iff it is a simple value
 func (e *XMLValue) StringValueEndsWith(value string) bool {
 	s, ok := e.contents.(string)
 	return ok && strings.HasSuffix(s, value)

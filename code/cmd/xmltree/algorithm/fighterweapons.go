@@ -3,14 +3,13 @@ package algorithm
 import (
 	"log"
 	"lucky-wolf/DW2-XL/code/xmltree"
-	"math"
 	"strings"
 )
 
-func FighterEngines(folder string) (err error) {
+func FighterWeapons(folder string) (err error) {
 
 	if !Quiet {
-		log.Println("All strikecraft engines will be set to:")
+		log.Println("All strikecraft weapons will be set to:")
 		log.Println("- 20% Blast rating")
 		log.Println("- 20% Reactive rating")
 		log.Println("- 100% Ion Defense")
@@ -23,7 +22,7 @@ func FighterEngines(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyFighterEngines()
+	err = j.applyFighterWeapons()
 	if err != nil {
 		return
 	}
@@ -34,7 +33,7 @@ func FighterEngines(folder string) (err error) {
 	return
 }
 
-func (j *job) applyFighterEngines() (err error) {
+func (j *job) applyFighterWeapons() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -56,8 +55,8 @@ func (j *job) applyFighterEngines() (err error) {
 					return
 				}
 
-				// only engines...
-				if !e.Has("Category", "Engine") {
+				// only weapons...
+				if !e.HasPrefix("Category", "Weapon") {
 					continue
 				}
 
@@ -67,24 +66,12 @@ func (j *job) applyFighterEngines() (err error) {
 					continue
 				}
 
-				// find the corresponding ship engines by same name
-				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
+				// find the corresponding small weapon by name
+				sourceName := strings.Replace(targetName, "[Ftr]", "[S]", 0)
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
 					continue
-				}
-
-				// scale our size
-				size := sourceDefinition.Child("Size")
-				if size != nil {
-					var value float64
-					value, err = size.GetNumericValue()
-					if err != nil {
-						return
-					}
-					// size must be an integer value
-					e.Child("Size").SetValue(math.Round(value / 4))
 				}
 
 				// copy and scale resource requirements
@@ -111,20 +98,17 @@ func (j *job) applyFighterEngines() (err error) {
 					}
 
 					// scale / modify the values for the component to match source
-					e.Child("EngineMainCruiseThrust").ScaleBy(0.5)
-					e.Child("EngineMainCruiseThrustEnergyUsage").ScaleBy(0.5) // .SetValue(0.7)
-
-					e.Child("EngineMainMaximumThrust").ScaleBy(0.6)
-					e.Child("EngineMainMaximumThrustEnergyUsage").ScaleBy(0.6) //.SetValue(1)
-
-					e.Child("EngineVectoringThrust").ScaleBy(0.25)
-					e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25) // .SetValue(1)
+					e.Child("WeaponEnergyPerShot").ScaleBy(0.5)
+					e.Child("WeaponFireRate").ScaleBy(10)
+					e.Child("WeaponRange").ScaleBy(0.25)
+					e.Child("WeaponRawDamage").ScaleBy(0.2)
 
 					// never a crew requirement for fighter components
 					e.Child("CrewRequirement").SetValue(0)
-
-					// no static energy usage for engines
 					e.Child("StaticEnergyUsed").SetValue(0)
+
+					// copy our own values into intercept capabilities
+					// WeaponInterceptRange
 				}
 
 				statistics.changed++

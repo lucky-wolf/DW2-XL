@@ -57,10 +57,20 @@ func (e *XMLElement) Has(tag string, value string) bool {
 	return e.Find(tag, value) != nil
 }
 
-// like Find, but looks for anything with the value that matches as a suffix
-func (e *XMLElement) HasEndsWith(tag string, tail string) bool {
+// like Find, but looks for anything with the value that matches as a prefix
+func (e *XMLElement) HasPrefix(tag string, prefix string) bool {
 	for _, e = range e.Elements() {
-		if e.Name.Local == tag && e.StringValueEquals(tail) {
+		if e.Name.Local == tag && e.StringValueStartsWith(prefix) {
+			return true
+		}
+	}
+	return false
+}
+
+// like Find, but looks for anything with the value that matches as a suffix
+func (e *XMLElement) HasSuffix(tag string, suffix string) bool {
+	for _, e = range e.Elements() {
+		if e.Name.Local == tag && e.StringValueEndsWith(suffix) {
 			return true
 		}
 	}

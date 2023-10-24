@@ -80,7 +80,7 @@ func (j *job) applyFighterArmor() (err error) {
 					return
 				}
 
-				// copy values
+				// copy component stats
 				var targetValues *xmltree.XMLElement
 				_, targetValues, err = e.CopyByTag("Values", sourceDefinition)
 				if err != nil {

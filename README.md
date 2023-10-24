@@ -197,8 +197,8 @@ YMMV, but this is my take on making it Extra Large!
   - Civilian Bases: 50
   - Dedicated Carriers: 50
   - All other ships: 25
-- All 3 sizes of hangar bays are available for all tech levels
-  - It is the designs themselves that limit what can be put where
+- All 3 sizes of hangar bays are available for all tech levels for all 3 lineages
+  - It is the hulls themselves that limit what can be put where
 - Redid component ion defenses for hangar bays to make them more more reasonable
 - Rebalanced hangar bay capacity and build/repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
 - Fixed a few locations that were intended to give Improved Ground Combat but were not
@@ -206,10 +206,10 @@ YMMV, but this is my take on making it Extra Large!
 - Basic Bombers now have only 1 weapon, same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
-- Synchronized all Ftr armor to be ~20% of ship version of same accross the board (I now have an automated tool for this)
-- Synchronized all Ftr shields to be ~20% of ship version of same accross the board (I now have an automated tool for this)
-- Synchronized all Ftr engines to be ~20% of ship version of same accross the board (I now have an automated tool for this)
-- Synchronized all Ftr reactors to be ~20% of ship version of same accross the board (I now have an automated tool for this)
+- Synchronized all Ftr armor to be ~20% of ship version of same accross the board
+- Synchronized all Ftr shields to be ~20% of ship version of same accross the board
+- Synchronized all Ftr engines to be ~20% of ship version of same accross the board
+- Synchronized all Ftr reactors to be ~20% of ship version of same accross the board
 
 ### v1.18.2
 - Updated for 1176 beta release
