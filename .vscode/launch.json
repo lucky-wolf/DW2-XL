@@ -104,6 +104,20 @@
 			]
 		},
 		{
+			"name": "PointDefense",
+			"type": "go",
+			"request": "launch",
+			"mode": "debug",
+			"program": "code/cmd/xmltree/main.go",
+			"output": "code/bin/xmltree.exe",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"-algorithm",
+				"PointDefense",
+				"-quiet"
+			]
+		},
+		{
 			"name": "Replace Quameno Ship Hulls",
 			"type": "go",
 			"request": "launch",

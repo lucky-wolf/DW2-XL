@@ -87,41 +87,9 @@ func (j *job) applyFighterWeapons() (err error) {
 
 				// now that we have our own copy of the component stats (same number of levels too)
 				// we can update each of those to scale for [Ftr] version
-				for _, e := range e.Child("Values").Elements() {
-
-					// every element should be a component bay
-					err = assertIs(e, "ComponentStats")
-					if err != nil {
-						return
-					}
-
-					// NOTE: do this before we scale the main guns so we're scaling off of the [S] value, independently of our standard output (below)
-					e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 20) // when doing intercept duty (PD) we operate at a higher ROF
-
-					// scale relative to [S]
-					e.Child("WeaponEnergyPerShot").ScaleBy(0.5)
-					e.Child("WeaponRawDamage").ScaleBy(0.5)
-					e.Child("WeaponRange").ScaleBy(0.3)
-					e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
-					e.Child("WeaponFireRate").ScaleBy(0.25)          // 4x rate of fire against ships compared to small weapons
-
-					// all other intercept values are same scale as our standard output
-					e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
-					e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").StringValue())
-					e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 2)
-					e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").StringValue())
-
-					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetValue(0)
-					e.Child("StaticEnergyUsed").SetValue(0)
-
-					// fighter weapons generically get a +10% targeting across the board
-					e.Child("ComponentTargetingBonus").AdjustValue(0.1)
-
-					// fighters never do bombard damage
-					for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
-						e.SetValue(0)
-					}
+				err = scaleFighterOrPDValues(e)
+				if err != nil {
+					log.Printf("%s: %s from %s", err, targetName, sourceName)
 				}
 
 				statistics.changed++
@@ -131,5 +99,48 @@ func (j *job) applyFighterWeapons() (err error) {
 		}
 	}
 	err = nil
+	return
+}
+
+// scale all component stats from the copy from our [S] source weapon
+func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
+
+	for _, e := range e.Child("Values").Elements() {
+
+		// every element should be a component bay
+		err = assertIs(e, "ComponentStats")
+		if err != nil {
+			return
+		}
+
+		// NOTE: do this before we scale the main guns so we're scaling off of the [S] value, independently of our standard output (below)
+		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 20) // when doing intercept duty (PD) we operate at a higher ROF
+
+		// scale standard fire relative to [S] identically to FighterWeapons
+		e.Child("WeaponEnergyPerShot").ScaleBy(0.5)
+		e.Child("WeaponRawDamage").ScaleBy(0.5)
+		e.Child("WeaponRange").ScaleBy(0.3)
+		e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
+		e.Child("WeaponFireRate").ScaleBy(0.25)          // 4x rate of fire against ships compared to small weapons
+
+		// all other intercept values are same scale as our standard output
+		e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
+		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").StringValue())
+		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 2)
+		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").StringValue())
+
+		// never a crew requirement for fighter components
+		e.Child("CrewRequirement").SetValue(0)
+		e.Child("StaticEnergyUsed").SetValue(0)
+
+		// fighter weapons generically get a +10% targeting across the board
+		e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+
+		// fighters never do bombard damage
+		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
+			e.SetValue(0)
+		}
+	}
+
 	return
 }

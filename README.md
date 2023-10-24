@@ -208,6 +208,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
 - Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
 - Added missing t8 ion PD and Ftr tech
+- Synchronized all [PD] components to that of the [S] equivalent
 
 ### v1.18.2
 - Updated for 1176 beta release
