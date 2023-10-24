@@ -127,8 +127,11 @@ func CloneContents(contents any) any {
 }
 
 // visits each child with the given visitor function (aborts on error)
-func (target *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
-	for _, e := range target.Elements() {
+func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
+	if e == nil {
+		return
+	}
+	for _, e := range e.Elements() {
 		err = visit(e)
 		if err != nil {
 			return
@@ -143,7 +146,7 @@ func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (source, target *XM
 	// get source
 	source = from.Child(tag)
 	if source == nil {
-		err = fmt.Errorf("source doesn't have a <%s> node!", tag)
+		// err = fmt.Errorf("source doesn't have a <%s> node!", tag)
 		return
 	}
 
