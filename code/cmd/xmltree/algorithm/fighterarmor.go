@@ -6,14 +6,13 @@ import (
 	"strings"
 )
 
-func FighterShields(folder string) (err error) {
+func FighterArmor(folder string) (err error) {
 
 	if !Quiet {
-		log.Println("All strikecraft shields will be set to:")
-		log.Println("- 20% Strength (and energy cost)")
-		log.Println("- 20% Recharge (and energy cost)")
-		log.Println("- 100% Ion Defense and Component Defense")
-		log.Println("- 100% Resistance and Component Defense")
+		log.Println("All strikecraft armor will be set to:")
+		log.Println("- 20% Blast rating")
+		log.Println("- 20% Reactive rating")
+		log.Println("- 100% Ion Defense")
 	}
 
 	// load all component definition files
@@ -23,7 +22,7 @@ func FighterShields(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyFighterShields()
+	err = j.applyFighterArmor()
 	if err != nil {
 		return
 	}
@@ -34,7 +33,7 @@ func FighterShields(folder string) (err error) {
 	return
 }
 
-func (j *job) applyFighterShields() (err error) {
+func (j *job) applyFighterArmor() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -56,8 +55,8 @@ func (j *job) applyFighterShields() (err error) {
 					return
 				}
 
-				// only shields...
-				if !e.Has("Category", "Shields") {
+				// only armor...
+				if !e.Has("Category", "Armor") {
 					continue
 				}
 
@@ -67,7 +66,7 @@ func (j *job) applyFighterShields() (err error) {
 					continue
 				}
 
-				// find the corresponding ship shields by same name
+				// find the corresponding ship armor by same name
 				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
@@ -96,12 +95,9 @@ func (j *job) applyFighterShields() (err error) {
 					}
 
 					// scale / modify the values for the component to match source
-					componentStats.Child("CrewRequirement").SetString("0")
-					componentStats.Child("ShieldRechargeRate").ScaleBy(0.2)
-					componentStats.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
-					componentStats.Child("ShieldResistance").ScaleBy(0.2)
-					componentStats.Child("ShieldStrength").ScaleBy(0.2)
-					componentStats.Child("StaticEnergyUsed").ScaleBy(0.2)
+					componentStats.Child("ArmorBlastRating").ScaleBy(0.2)
+					componentStats.Child("ArmorReactiveRating").ScaleBy(0.2)
+					// componentStats.Child("IonDamageDefense").ScaleBy(0.2)
 
 					statistics.changed++
 					statistics.elements++

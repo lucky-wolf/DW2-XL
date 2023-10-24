@@ -6,27 +6,18 @@ package main
 import (
 	"flag"
 	"log"
-	"lucky-wolf/DW2-XL/code/xmltree"
 	"os"
 
 	"lucky-wolf/DW2-XL/code/cmd/xmltree/algorithm"
-)
-
-type Transformation = algorithm.Transformation
-
-var (
-	source   string
-	target   string
-	function string
 )
 
 func main() {
 
 	log.SetFlags(0)
 
-	flag.StringVar(&source, "source", "", "source filename")
-	flag.StringVar(&target, "target", "", "target filename")
+	var function, folder string
 	flag.StringVar(&function, "algorithm", "", "algorithm to apply")
+	flag.StringVar(&folder, "folder", "XL", "folder to apply changes to")
 	flag.BoolVar(&algorithm.Quiet, "quiet", false, "set if you don't want debug output")
 	flag.Parse()
 
@@ -43,37 +34,13 @@ func main() {
 	case "":
 		log.Println("no algorithm selected: will simply copy source to target")
 	case "HangarBays":
-		err = run(algorithm.HangarBays)
+		err = algorithm.HangarBays(folder)
+	case "FighterArmor":
+		err = algorithm.FighterArmor(folder)
 	case "FighterShields":
-		err = run(algorithm.FighterShields)
+		err = algorithm.FighterShields(folder)
 	}
 	if err != nil {
 		log.Fatal(err)
 	}
-}
-
-func run(transformer Transformation) (err error) {
-
-	// any xml file should be readable
-	values, err := xmltree.LoadFromFile(source)
-	if err != nil {
-		return
-	}
-
-	// apply requested transformation (if any)
-	if transformer != nil {
-		var statistics algorithm.Statistics
-
-		statistics, err = transformer(values)
-		if err != nil {
-			return
-		}
-
-		log.Println(statistics.For(target))
-	}
-
-	// convert it to output
-	err = values.WriteToFile(target)
-
-	return
 }
