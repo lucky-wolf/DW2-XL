@@ -6,14 +6,13 @@ import (
 	"strings"
 )
 
-func FighterShields(folder string) (err error) {
+func FighterReactors(folder string) (err error) {
 
 	if !Quiet {
-		log.Println("All strikecraft shields will be set to:")
-		log.Println("- 20% Strength (and energy cost)")
-		log.Println("- 20% Recharge (and energy cost)")
-		log.Println("- 100% Ion Defense and Component Defense")
-		log.Println("- 100% Resistance and Component Defense")
+		log.Println("All strikecraft reactors will be set to:")
+		log.Println("- 20% Power")
+		log.Println("- 20% Energy Storage capacity")
+		log.Println("- Fuel storage set to 2x energy storage")
 	}
 
 	// load all component definition files
@@ -23,7 +22,7 @@ func FighterShields(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyFighterShields()
+	err = j.applyFighterReactors()
 	if err != nil {
 		return
 	}
@@ -34,7 +33,7 @@ func FighterShields(folder string) (err error) {
 	return
 }
 
-func (j *job) applyFighterShields() (err error) {
+func (j *job) applyFighterReactors() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -56,8 +55,8 @@ func (j *job) applyFighterShields() (err error) {
 					return
 				}
 
-				// only shields...
-				if !e.Has("Category", "Shields") {
+				// only reactors...
+				if !e.Has("Category", "Reactor") {
 					continue
 				}
 
@@ -67,7 +66,7 @@ func (j *job) applyFighterShields() (err error) {
 					continue
 				}
 
-				// find the corresponding ship shields by same name
+				// find the corresponding ship reactors by same name
 				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
@@ -99,11 +98,14 @@ func (j *job) applyFighterShields() (err error) {
 					}
 
 					// scale / modify the values for the component to match source
-					e.Child("ShieldRechargeRate").ScaleBy(0.2)
-					e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
-					e.Child("ShieldResistance").ScaleBy(0.2)
-					e.Child("ShieldStrength").ScaleBy(0.2)
-					e.Child("StaticEnergyUsed").ScaleBy(0.2)
+					e.Child("ReactorEnergyOutputPerSecond").ScaleBy(0.2)
+					e.Child("ReactorEnergyStorageCapacity").ScaleBy(0.2)
+					e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(0.2)
+
+					// set the fuel units to be enough for 10 recharges
+					var value float64
+					value, err = e.Child("ReactorFuelUnitsForFullCharge").GetNumericValue()
+					e.Child("FuelStorageCapacity").SetValue(value * 100)
 
 					// never a crew requirement for fighter components
 					e.Child("CrewRequirement").SetValue(0)

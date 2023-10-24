@@ -5,6 +5,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"os"
 
@@ -39,6 +40,10 @@ func main() {
 		err = algorithm.FighterArmor(folder)
 	case "FighterShields":
 		err = algorithm.FighterShields(folder)
+	case "FighterReactor":
+		err = algorithm.FighterReactors(folder)
+	default:
+		err = fmt.Errorf("unknown algorithm: %s", function)
 	}
 	if err != nil {
 		log.Fatal(err)

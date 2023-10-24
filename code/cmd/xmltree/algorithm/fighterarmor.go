@@ -101,8 +101,9 @@ func (j *job) applyFighterArmor() (err error) {
 					e.Child("ArmorBlastRating").ScaleBy(0.2)
 					e.Child("ArmorReactiveRating").ScaleBy(0.2)
 					e.Child("IonDamageDefense").ScaleBy(0.2)
-					e.Child("CrewRequirement").SetValue(0)
 
+					// never a crew requirement for fighter components
+					e.Child("CrewRequirement").SetValue(0)
 				}
 
 				statistics.changed++

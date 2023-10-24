@@ -103,27 +103,41 @@ func (e *XMLValue) SetString(value string) {
 // set our contents to the given value
 // value can be any kind of scalar or string
 func (e *XMLValue) SetValue(value any) {
-	// todo: would be nice to ensure that value is a simple scalar and not an array or etc.
-	e.SetString(fmt.Sprint(value))
+	switch v := value.(type) {
+	case string:
+		e.SetString(v)
+	case int, int16, int32, int64, int8, uint, uint16, uint32, uint64, uint8:
+		e.SetString(fmt.Sprint(v))
+	case float32, float64:
+		e.SetString(fmt.Sprintf("%.6g", v))
+	default:
+		e.SetString(fmt.Sprint(v))
+	}
+}
+
+func (e *XMLValue) GetNumericValue() (value float64, err error) {
+	// must be simple
+	s, ok := e.contents.(string)
+	if !ok {
+		err = fmt.Errorf("XMLValue is not simple: cannot extract a value from it")
+		return
+	}
+
+	// must be parsable as a float
+	return strconv.ParseFloat(s, 64)
 }
 
 // our contents must be a simple string which is a parsable number
 // updates it to be scaled by the given input
-func (e *XMLValue) ScaleBy(value float64) {
+func (e *XMLValue) ScaleBy(scale float64) (err error) {
 
-	s, ok := e.contents.(string)
-	if !ok {
-		panic("not a simple value type: cannot write a simple value into it")
-	}
-
-	f, err := strconv.ParseFloat(s, 64)
+	value, err := e.GetNumericValue()
 	if err != nil {
-		panic(err)
+		return
 	}
 
-	f *= value
-
-	e.contents = fmt.Sprintf("%.5g", f)
+	e.contents = fmt.Sprintf("%.5g", value*scale)
+	return
 }
 
 ////////////////////////////////////////////////////
