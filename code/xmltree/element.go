@@ -1,6 +1,11 @@
 package xmltree
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+	"log"
+	"regexp"
+)
 
 // element member functions
 
@@ -42,6 +47,26 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 	return nil
 }
 
+// returns the first matching element from the list of elements based on regex of tag-name
+func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
+
+	// // build the regex
+	// r, err := regexp.Compile(pattern)
+	// if err != nil {
+	// 	err = fmt.Errorf("Pattern is not valid regex: %s", err)
+	// 	return
+	// }
+
+	// scan our elements for those that match
+	for _, e = range e.Elements() {
+		if r.MatchString(e.Name.Local) {
+			children = append(children, e)
+		}
+	}
+
+	return
+}
+
 // returns the first matching child element whose tag and value equal the find tag and value
 func (e *XMLElement) Find(tag string, value string) *XMLElement {
 	for _, e = range e.Elements() {
@@ -77,24 +102,7 @@ func (e *XMLElement) HasSuffix(tag string, suffix string) bool {
 	return false
 }
 
-// clones the given element (always a deep copy)
-func (e *XMLElement) Clone() (c XMLElement) {
-
-	// nil -> nil
-	if e == nil {
-		return
-	}
-
-	// copy our start element
-	c.StartElement = e.StartElement.Copy()
-
-	// copy our contents
-	c.XMLValue = e.XMLValue.Clone()
-
-	return
-}
-
-func (e *XMLValue) Clone() (v XMLValue) {
+func (e XMLValue) Clone() (v XMLValue) {
 	v.contents = CloneContents(e.contents)
 	return
 }
@@ -109,35 +117,42 @@ func (e *XMLValue) CloneContents() any {
 }
 
 func CloneContents(contents any) any {
+
 	switch v := contents.(type) {
 
 	case []any:
-		// multiple child elements
-		elements := []any{}
+		// multiple child contents
+		contents := []any{}
 		for _, e := range v {
-			elements = append(elements, CloneContents(e))
+			contents = append(contents, CloneContents(e))
 		}
-		return elements
+		return contents
 
 	case *XMLElement:
-		e := v.Clone()
-		return &e
+		return &XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
 	case *XMLComment:
-		e := v.Copy()
-		return &e
-	case XMLDirective:
-		e := v.Copy()
-		return &e
-	case XMLElement:
-		e := v.Clone()
-		return &e
-	case XMLProcInst:
-		e := v.Copy()
-		return &e
+		return &XMLComment{Comment: v.Copy()}
+	case *XMLDirective:
+		return &XMLDirective{Directive: v.Copy()}
+	case *XMLProcInst:
+		return &XMLProcInst{ProcInst: v.Copy()}
+
+	// case XMLElement:
+	// 	return XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
+	// case XMLComment:
+	// 	return XMLComment{Comment: v.Copy()}
+	// case XMLDirective:
+	// 	return XMLDirective{Directive: v.Copy()}
+	// case XMLProcInst:
+	// 	return XMLProcInst{ProcInst: v.Copy()}
+
 	case string:
 		return v
 	}
-	panic(fmt.Errorf("cannot clone: invalid contents: %T", contents))
+
+	err := fmt.Errorf("cannot clone: invalid contents: %T", contents)
+	log.Fatal(err)
+	panic(err)
 }
 
 // visits each child with the given visitor function (aborts on error)
@@ -157,27 +172,28 @@ func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
 	return
 }
 
+var ErrSourceNodeNotFound = errors.New("source doesn't have a node to copy from")
+var ErrTargetNodeNotFound = errors.New("target doesn't have a node to copy to")
+
 // copies the specified child from the given element to the ourself (replacing any we already have)
 func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (err error) {
 
 	// get source
 	source := from.Child(tag)
 	if source == nil {
-		// err = fmt.Errorf("source doesn't have a <%s> node!", tag)
+		err = ErrSourceNodeNotFound
 		return
 	}
 
 	// get target
 	target := e.Child(tag)
 	if target == nil {
-		err = fmt.Errorf("target doesn't have a <%s> node!", tag)
+		err = ErrTargetNodeNotFound
 		return
 	}
 
 	// clone source to target
 	target.SetContents(source.CloneContents())
-
-	// warn: target is wrong somehow?
 
 	return
 }

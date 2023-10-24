@@ -77,13 +77,13 @@ func (j *job) applyFighterArmor() (err error) {
 				// copy and scale resource requirements
 				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
 				if err != nil {
-					return
+					log.Println(err)
 				}
 
 				// copy component stats
 				err = e.CopyByTag("Values", sourceDefinition)
 				if err != nil {
-					return
+					log.Println(err)
 				}
 
 				// now that we have our own copy of the component stats (same number of levels too)
@@ -111,5 +111,6 @@ func (j *job) applyFighterArmor() (err error) {
 			}
 		}
 	}
+	err = nil
 	return
 }

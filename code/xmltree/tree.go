@@ -146,6 +146,18 @@ func (e *XMLValue) ScaleBy(scale float64) (err error) {
 	return
 }
 
+// updates it to be current value + adjustment
+func (e *XMLValue) AdjustValue(adjustment float64) (err error) {
+
+	value, err := e.GetNumericValue()
+	if err != nil {
+		return
+	}
+
+	e.contents = fmt.Sprintf("%.5g", value+adjustment)
+	return
+}
+
 ////////////////////////////////////////////////////
 // simple string representation
 

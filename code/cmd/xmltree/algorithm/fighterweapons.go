@@ -3,6 +3,7 @@ package algorithm
 import (
 	"log"
 	"lucky-wolf/DW2-XL/code/xmltree"
+	"regexp"
 	"strings"
 )
 
@@ -76,18 +77,18 @@ func (j *job) applyFighterWeapons() (err error) {
 				}
 
 				// debug
-				log.Printf("processing %s from %s...\n", targetName, sourceName)
+				log.Printf("%s from %s...\n", targetName, sourceName)
 
 				// copy and scale resource requirements
 				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
 				if err != nil {
-					return
+					log.Println(err)
 				}
 
 				// copy component stats
 				err = e.CopyByTag("Values", sourceDefinition)
 				if err != nil {
-					return
+					log.Println(err)
 				}
 
 				// now that we have our own copy of the component stats (same number of levels too)
@@ -100,11 +101,20 @@ func (j *job) applyFighterWeapons() (err error) {
 						return
 					}
 
-					// scale / modify the values for the component to match source
-					e.Child("WeaponEnergyPerShot").ScaleBy(0.5)
-					e.Child("WeaponFireRate").ScaleBy(10)
-					e.Child("WeaponRange").ScaleBy(0.25)
-					e.Child("WeaponRawDamage").ScaleBy(0.2)
+					// fighter weapons generically get a +10% targeting across the board
+					e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+
+					// fighters never do bombard damage
+					for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
+						e.SetValue(0)
+					}
+
+					// scale relative to [S]
+					e.Child("WeaponEnergyPerShot").ScaleBy(0.25)
+					e.Child("WeaponRawDamage").ScaleBy(0.25)
+					e.Child("WeaponRange").ScaleBy(0.33333)
+					e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
+					e.Child("WeaponFireRate").ScaleBy(0.1)           // 10x = 1/10 delay
 
 					// never a crew requirement for fighter components
 					e.Child("CrewRequirement").SetValue(0)
@@ -120,5 +130,6 @@ func (j *job) applyFighterWeapons() (err error) {
 			}
 		}
 	}
+	err = nil
 	return
 }
