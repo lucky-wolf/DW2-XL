@@ -15317,15 +15317,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>11</ResourceId>
-				<Amount>2</Amount>
+				<Amount>1</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>0</ResourceId>
-				<Amount>1</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>5</ResourceId>
-				<Amount>1</Amount>
+				<Amount>0.5</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -15438,34 +15434,34 @@
 				<WeaponDamageFalloffRatio>0.3</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>7</WeaponEnergyPerShot>
-				<WeaponFireRate>1.6</WeaponFireRate>
+				<WeaponEnergyPerShot>10</WeaponEnergyPerShot>
+				<WeaponFireRate>3.5</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>0.25</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptComponentTargetingBonus>-0.1</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>6</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>6.75</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>60</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>7</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>1.6</WeaponInterceptFireRate>
-				<WeaponInterceptRange>220</WeaponInterceptRange>
-				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>0</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>7</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>7</WeaponIonWeaponDamage>
+				<WeaponInterceptDamageSeeking>13.5</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>10</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.7</WeaponInterceptFireRate>
+				<WeaponInterceptRange>240</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
+				<WeaponIonEngineDamage>18</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>18</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>18</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>18</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>18</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>220</WeaponRange>
-				<WeaponRawDamage>6</WeaponRawDamage>
+				<WeaponRange>240</WeaponRange>
+				<WeaponRawDamage>6.75</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
 				<WeaponSpeed>500</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Ion Field Blaster [Ftr]</Name>
-		<ImageFilename>Environment/Components/021-Ion Pulse Blaster</ImageFilename>
+		<Name>Ion Field Projector [Ftr]</Name>
+		<ImageFilename>Environment/Components/001-Ion Field Projector</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>546</ComponentId>

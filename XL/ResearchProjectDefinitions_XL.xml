@@ -9347,4 +9347,53 @@
 		</Components>
 	</ResearchProjectDefinition>
 
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1197</ResearchProjectId>
+		<Name>Extreme Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>24500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>2450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>9</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>150</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
 </ArrayOfResearchProjectDefinition>
