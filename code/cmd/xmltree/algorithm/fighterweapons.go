@@ -105,6 +105,9 @@ func (j *job) applyFighterWeapons() (err error) {
 // scale all component stats from the copy from our [S] source weapon
 func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 
+	// distinguish if this component is only for strike craft
+	isFighterOnly := e.Has("IsFighterOnly", "true")
+
 	for _, e := range e.Child("Values").Elements() {
 
 		// every element should be a component bay
@@ -112,8 +115,6 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 		if err != nil {
 			return
 		}
-
-		isFighter := e.Has("IsFighterOnly", "true")
 
 		// "flatten" source volleys to 1 per shot but at 1/x fire rate (same dps, but distributed instead of burste firing)
 		if va := e.Child("WeaponVolleyAmount").NumericValue(); va != 1 {
@@ -145,7 +146,7 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 		}
 
 		// some things just don't apply to fighters (but do to PD)
-		if isFighter {
+		if isFighterOnly {
 			e.Child("CrewRequirement").SetValue(0)
 			e.Child("StaticEnergyUsed").SetValue(0)
 		}
