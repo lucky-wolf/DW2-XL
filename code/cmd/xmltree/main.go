@@ -48,6 +48,8 @@ func main() {
 		err = algorithm.HangarBays(folder)
 	case "PointDefense":
 		err = algorithm.PointDefense(folder)
+	case "ResearchCosts":
+		err = algorithm.ResearchCosts(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}

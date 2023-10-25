@@ -140,6 +140,12 @@ func (e *XMLValue) NumericValue() (value float64) {
 	return
 }
 
+// grab string & parse (may end up hiding errors and being zero)
+func (e *XMLValue) IntValue() int {
+	v, _ := strconv.ParseInt(e.StringValue(), 10, 64)
+	return int(v)
+}
+
 // our contents must be a simple string which is a parsable number
 // updates it to be scaled by the given input
 func (e *XMLValue) ScaleBy(scale float64) (err error) {
