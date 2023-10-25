@@ -209,6 +209,8 @@ YMMV, but this is my take on making it Extra Large!
 - Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
 - Added missing t8 ion PD and Ftr tech
 - Synchronized all [PD] components to that of the [S] equivalent
+- Added a bunch of new [PD] tech levels
+- Normalized all research costs
 
 ### v1.18.2
 - Updated for 1176 beta release
