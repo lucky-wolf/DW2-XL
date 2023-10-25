@@ -85,6 +85,8 @@ func (j *job) applyResearchCosts() (err error) {
 				default:
 					if strings.HasPrefix(techName, "Ancient Guardian") {
 						col = 4
+					} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
+						col = 1
 					}
 				}
 
