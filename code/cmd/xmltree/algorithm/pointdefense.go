@@ -2,7 +2,6 @@ package algorithm
 
 import (
 	"log"
-	"lucky-wolf/DW2-XL/code/xmltree"
 	"strings"
 )
 
@@ -60,7 +59,7 @@ func (j *job) applyPointDefense() (err error) {
 				}
 
 				// find the corresponding small weapon by name
-				sourceName := getSourceOf(targetName)
+				sourceName := getSourceOfPD(targetName)
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("Missing: %s (for %s)", sourceName, targetName)
@@ -72,8 +71,8 @@ func (j *job) applyPointDefense() (err error) {
 					log.Printf("%s from %s\n", targetName, sourceName)
 				}
 
-				// copy and scale resource requirements
-				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
+				// copy resource requirements
+				err = e.CopyByTag("ResourcesRequired", sourceDefinition)
 				if err != nil {
 					log.Printf("%s: %s from %s", err, targetName, sourceName)
 				}
@@ -84,7 +83,7 @@ func (j *job) applyPointDefense() (err error) {
 					log.Printf("%s: %s from %s", err, targetName, sourceName)
 				}
 
-				// scale PD identically to FTR weapons
+				// scale PD nearly identically to fighter weapons
 				err = scaleFighterOrPDValues(e)
 				if err != nil {
 					log.Printf("%s: %s from %s", err, targetName, sourceName)
@@ -100,7 +99,7 @@ func (j *job) applyPointDefense() (err error) {
 	return
 }
 
-func getSourceOf(targetName string) string {
+func getSourceOfPD(targetName string) string {
 	targetName = targetName[:len(targetName)-len(" [PD]")]
 	switch targetName {
 	case "Buckler Repeating Blaster":
@@ -124,6 +123,6 @@ func getSourceOf(targetName string) string {
 		// terminator autocannon
 		// hive missile battery
 		// reinforcing swarm battery
-		return strings.Replace(targetName, "[PD]", "[S]", 1)
+		return targetName + " [S]"
 	}
 }

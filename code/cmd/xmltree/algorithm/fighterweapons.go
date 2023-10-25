@@ -113,32 +113,41 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 			return
 		}
 
-		// NOTE: do this before we scale the main guns so we're scaling off of the [S] value, independently of our standard output (below)
-		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 20) // when doing intercept duty (PD) we operate at a higher ROF
+		isFighter := e.Has("IsFighterOnly", "true")
+
+		// "flatten" source volleys to 1 per shot but at 1/x fire rate (same dps, but distributed instead of burste firing)
+		if va := e.Child("WeaponVolleyAmount").NumericValue(); va != 1 {
+			e.Child("WeaponFireRate").ScaleBy(1.0 / va)
+			e.Child("WeaponVolleyAmount").SetValue(1)
+		}
+		e.Child("WeaponVolleyFireRate").SetValue(0)
 
 		// scale standard fire relative to [S] identically to FighterWeapons
-		e.Child("WeaponEnergyPerShot").ScaleBy(0.5)
-		e.Child("WeaponRawDamage").ScaleBy(0.5)
+		e.Child("WeaponFireRate").ScaleBy(0.25) // 4x rate of fire against ships compared to small weapons
+		e.Child("WeaponRawDamage").ScaleBy(0.25)
+		e.Child("WeaponEnergyPerShot").ScaleBy(0.25)
 		e.Child("WeaponRange").ScaleBy(0.3)
 		e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
-		e.Child("WeaponFireRate").ScaleBy(0.25)          // 4x rate of fire against ships compared to small weapons
 
 		// all other intercept values are same scale as our standard output
+		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 4)           // 4x standard action (which is currently 4x source gun rof)
+		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").NumericValue() / 2)     // x4/2 = x2 effective dps vs. fighters
+		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 1)     // x4/1 = x4 effective dps vs. seeking ordinance
+		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").NumericValue() / 2) // x4/2 = x2 energy cost during intercept mode
 		e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
-		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").StringValue())
-		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 2)
-		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").StringValue())
 
-		// never a crew requirement for fighter components
-		e.Child("CrewRequirement").SetValue(0)
-		e.Child("StaticEnergyUsed").SetValue(0)
-
-		// fighter weapons generically get a +10% targeting across the board
+		// fighter & PD weapons generically get a +10% targeting across the board
 		e.Child("ComponentTargetingBonus").AdjustValue(0.1)
 
-		// fighters never do bombard damage
+		// fighters and PD never do bombard damage
 		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
 			e.SetValue(0)
+		}
+
+		// some things just don't apply to fighters (but do to PD)
+		if isFighter {
+			e.Child("CrewRequirement").SetValue(0)
+			e.Child("StaticEnergyUsed").SetValue(0)
 		}
 	}
 
