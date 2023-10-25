@@ -79,12 +79,12 @@ func (j *job) applyResearchCosts() (err error) {
 					"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
 					col = 2
 				case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
-					col = 4
+					col = 3
 				case "Basic Vault Systems", "Basic Vault Structures":
-					col = 4
+					col = 3
 				default:
 					if strings.HasPrefix(techName, "Ancient Guardian") {
-						col = 4
+						col = 3
 					} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
 						col = 1
 					}
