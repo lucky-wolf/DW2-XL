@@ -201,6 +201,7 @@ YMMV, but this is my take on making it Extra Large!
 - Synchronized all [PD] components to that of the [S] equivalent
 - Added a bunch of new [PD] tech levels
 - Normalized all research costs
+- TODO: increase divergence of fusion between tech lineages (1x, 1.5x, 2x)
 
 ### v1.18.2
 - Updated for 1176 beta release

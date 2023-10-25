@@ -3,6 +3,7 @@ package algorithm
 import (
 	"fmt"
 	"log"
+	"strings"
 )
 
 func ResearchCosts(folder string) (err error) {
@@ -77,12 +78,14 @@ func (j *job) applyResearchCosts() (err error) {
 				case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
 					"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
 					col = 2
-				case "Study Degenerate Gizureans":
+				case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
 					col = 4
 				case "Basic Vault Systems", "Basic Vault Structures":
-					col = 5
-				case "Restore Gizurean Hive Mind":
-					col = 8
+					col = 4
+				default:
+					if strings.HasPrefix(techName, "Ancient Guardian") {
+						col = 4
+					}
 				}
 
 				// set size from that
