@@ -185,26 +185,16 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.18.3
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
-- Reduced standard weapon ROF by 50%
-- Increased standard weapon damage per shot by 50% (non-intercept)
-- Set PD ROF = 5x standard of same class
-- Halved PD dmg vs. fighters
+- Reduced standard weapon ROF by 50%, and increased standard weapon damage per shot by 50% (effectively -25% dps)
 - Rebalanced shields
-  - Buffed Tortoise
-  - Normalized values for all standard shields (still need to apply those changes to [Ftr] - will build a script for that)
-- Redid hangar bay sizes for most hull sizes
-  - Military Bases: 100
-  - Civilian Bases: 50
-  - Dedicated Carriers: 50
-  - All other ships: 25
-- All 3 sizes of hangar bays are available for all tech levels for all 3 lineages
-  - It is the hulls themselves that limit what can be put where
+- Non-Carrier ships now only sport an auxiliary hangar bay
+- Military bases and stations now have a full compliment of 100 size bays
+- All 3 sizes of hangar bays are available for all tech levels for all 3 tech-lineages
 - Redid component ion defenses for hangar bays to make them more more reasonable
 - Rebalanced hangar bay capacity and build/repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
-- Fixed a few locations that were intended to give Improved Ground Combat but were not
-  - Quameno, Stratocracy
-- Basic Bombers now have only 1 weapon, same as Basic Fighters
-- Fixed Ackdarian Medium Troop Transport weapon arcs (swapped front 180 and 360 firing arcs)
+- Quameno race and Stratocracy government now give Improved Ground Combat
+- Basic Bombers have only 1 weapon now, the same as Basic Fighters
+- Fixed Ackdarian Medium Troop Transport's front weapon arc
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
 - Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
 - Added missing t8 ion PD and Ftr tech
