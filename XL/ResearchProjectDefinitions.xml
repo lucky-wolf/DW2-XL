@@ -1034,7 +1034,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>28</ResearchProjectId>
-		<Name>Efficient Point Defense</Name>
+		<Name>Advanced Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -1052,7 +1052,7 @@
 		<Row>0</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>49</ResearchProjectId>
+				<ResearchProjectId>1198</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -1060,7 +1060,7 @@
 		<Components>
 			<Component>
 				<ComponentId>8</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -7471,7 +7471,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>162</ResearchProjectId>
-		<Name>Superior Point Defense</Name>
+		<Name>Superior Beam Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>32400</Size>
 		<InitiationCost>
@@ -7501,11 +7501,11 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>9</Column>
 		<Row>30</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>772</ResearchProjectId>
+				<ResearchProjectId>1205</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -8558,7 +8558,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>82</Row>
 		<DisallowedRaceIds>
 			<!-- Humans have better tech -->
@@ -9418,7 +9418,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>201</ResearchProjectId>
-		<Name>Extreme Point Defense</Name>
+		<Name>Extreme Beam Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>72900</Size>
 		<InitiationCost>
@@ -14636,7 +14636,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>325</ResearchProjectId>
-		<Name>Long Range Point Defense</Name>
+		<Name>Efficient Beam Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -14650,7 +14650,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>3</Column>
 		<Row>30</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -28959,7 +28959,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>668</ResearchProjectId>
-		<Name>Efficient Point Defense</Name>
+		<Name>Advanced Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -32291,7 +32291,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>770</ResearchProjectId>
-		<Name>Augmented Point Defense</Name>
+		<Name>Synchronized Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
@@ -32309,15 +32309,15 @@
 		<Row>0</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>28</ResearchProjectId>
+				<ResearchProjectId>1199</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>8</ComponentId>
-				<Level>2</Level>
+				<ComponentId>563</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -32374,21 +32374,29 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>772</ResearchProjectId>
-		<Name>Area Point Defense</Name>
+		<Name>Long Range Beam Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>10800</Size>
 		<InitiationCost>
 			<Money>12500</Money>
 			<Resources>
 				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1250</Amount>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>4</Column>
 		<Row>30</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -32399,8 +32407,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>28</ComponentId>
-				<Level>2</Level>
+				<ComponentId>564</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

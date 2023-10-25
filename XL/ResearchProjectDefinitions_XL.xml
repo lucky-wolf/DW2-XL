@@ -1486,7 +1486,7 @@
 		<Row>0</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>770</ResearchProjectId>
+				<ResearchProjectId>1200</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -3677,7 +3677,7 @@
 		<Row>0</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1028</ResearchProjectId>
+				<ResearchProjectId>1201</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -3685,7 +3685,7 @@
 		<Components>
 			<Component>
 				<ComponentId>514</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -3885,15 +3885,15 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>183</ResearchProjectId>
+				<ResearchProjectId>1207</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>51</ComponentId>
-				<Level>2</Level>
+				<ComponentId>567</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -9391,6 +9391,414 @@
 			</Component>
 			<Component>
 				<ComponentId>57</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1198</ResearchProjectId>
+		<Name>Efficient Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>50</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>0</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>49</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>8</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1199</ResearchProjectId>
+		<Name>High Power Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>0</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>28</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>563</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1200</ResearchProjectId>
+		<Name>Devastating Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>0</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>770</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>563</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1201</ResearchProjectId>
+		<Name>Superior Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>72900</Size>
+		<InitiationCost>
+			<Money>50000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>5000</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>0</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1028</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>514</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1202</ResearchProjectId>
+		<Name>Advanced Beam Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>30</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>772</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>564</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1203</ResearchProjectId>
+		<Name>Intense Beam Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>30</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1202</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>564</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1204</ResearchProjectId>
+		<Name>Superior Phased Beam Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>30</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1203</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>565</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1205</ResearchProjectId>
+		<Name>Extreme Phased Beam Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>18000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>1800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>30</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1204</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>565</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1206</ResearchProjectId>
+		<Name>High Cap Missile Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>82</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>183</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>566</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1207</ResearchProjectId>
+		<Name>Decoy Swarm Missile Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>32400</Size>
+		<InitiationCost>
+			<Money>12500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>1250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>82</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1206</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>566</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
