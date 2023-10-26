@@ -123,18 +123,18 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 		}
 		e.Child("WeaponVolleyFireRate").SetValue(0)
 
-		// scale standard fire relative to [S] identically to FighterWeapons
-		e.Child("WeaponFireRate").ScaleBy(0.25) // 4x rate of fire against ships compared to small weapons
+		// scale standard fire relative to our source weapon
+		e.Child("WeaponFireRate").ScaleBy(0.25) // 4x rate of fire
 		e.Child("WeaponRawDamage").ScaleBy(0.25)
 		e.Child("WeaponEnergyPerShot").ScaleBy(0.25)
-		e.Child("WeaponRange").ScaleBy(0.3)
+		e.Child("WeaponRange").ScaleBy(0.3333333)
 		e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
 
 		// all other intercept values are same scale as our standard output
-		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 4)           // 4x standard action (which is currently 4x source gun rof)
-		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").NumericValue() / 2)     // x4/2 = x2 effective dps vs. fighters
-		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 1)     // x4/1 = x4 effective dps vs. seeking ordinance
-		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").NumericValue() / 2) // x4/2 = x2 energy cost during intercept mode
+		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 8)           // x8 standard rof
+		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").NumericValue() / 2)     // x8/2 = x4 effective dps vs. fighters
+		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 1)     // x8/1 = x8 effective dps vs. seeking ordinance
+		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").NumericValue() / 8) // x8/8 = x1 energy cost during intercept mode
 		e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
 
 		// fighter & PD weapons generically get a +10% targeting across the board
