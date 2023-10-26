@@ -4618,7 +4618,121 @@
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>true</UseLargeMeshIfAvailable>
-		<WeaponMeshType>ShortTurret</WeaponMeshType>
+		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
+		<WeaponEffect>
+			<UseDirectionalComponent>true</UseDirectionalComponent>
+			<FlipbookMode>Off</FlipbookMode>
+			<StaticTextureFilepath>Effects/Weapons/RedLaser1</StaticTextureFilepath>
+			<BodyScaling>
+				<X>2</X>
+				<Y>2</Y>
+			</BodyScaling>
+			<BodyScalingAbsolute>
+				<X>0</X>
+				<Y>0</Y>
+			</BodyScalingAbsolute>
+			<FlipbookFramesPerSecond>0</FlipbookFramesPerSecond>
+			<FlipbookDimensions>
+				<X>0</X>
+				<Y>0</Y>
+			</FlipbookDimensions>
+			<FlipbookRow>0</FlipbookRow>
+			<PulsingIntensity>0</PulsingIntensity>
+			<PulsingSpeed>0</PulsingSpeed>
+			<UVScrollRatio>0</UVScrollRatio>
+			<UVScrollCycleLength>0</UVScrollCycleLength>
+			<EndFadeLengthRatio>0</EndFadeLengthRatio>
+			<TextureTintColor>
+				<R>255</R>
+				<G>255</G>
+				<B>0</B>
+				<A>255</A>
+			</TextureTintColor>
+			<TextureTintColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TextureTintColor2>
+			<TintCycleLength>0</TintCycleLength>
+			<FiringEffectFilepath>VFXPrefabs/PulseTorpedoMuzzle</FiringEffectFilepath>
+			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
+			<ArmorImpactEffectTintColor>
+				<R>255</R>
+				<G>255</G>
+				<B>0</B>
+				<A>255</A>
+			</ArmorImpactEffectTintColor>
+			<HullImpactEffectTintColor>
+				<R>255</R>
+				<G>255</G>
+				<B>0</B>
+				<A>255</A>
+			</HullImpactEffectTintColor>
+			<FiringEffectTintColor>
+				<R>255</R>
+				<G>255</G>
+				<B>0</B>
+				<A>255</A>
+			</FiringEffectTintColor>
+			<WeaponChargeupLength>0</WeaponChargeupLength>
+			<WeaponChargeupPulseColor1>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupPulseColor1>
+			<WeaponChargeupPulseColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupPulseColor2>
+			<WeaponChargeupBackgroundColor1>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupBackgroundColor1>
+			<WeaponChargeupBackgroundColor2>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupBackgroundColor2>
+			<WeaponChargeupUVScrollingRate>
+				<X>0</X>
+				<Y>0</Y>
+			</WeaponChargeupUVScrollingRate>
+			<WeaponChargeupColorOscillationRate>0</WeaponChargeupColorOscillationRate>
+			<WeaponChargeupEffectTintColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</WeaponChargeupEffectTintColor>
+			<TrailEffectTintColor>
+				<R>255</R>
+				<G>255</G>
+				<B>0</B>
+				<A>255</A>
+			</TrailEffectTintColor>
+			<TrailEffectTintAltColor>
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+				<A>0</A>
+			</TrailEffectTintAltColor>
+			<TrailEffectColorTransitionStartTime>0</TrailEffectColorTransitionStartTime>
+			<TrailEffectColorTransitionEndTime>0</TrailEffectColorTransitionEndTime>
+			<TrailEffectScaleX>0</TrailEffectScaleX>
+			<TrailEffectScaleY>0</TrailEffectScaleY>
+			<TrailEffectScaleChangeRateX>0</TrailEffectScaleChangeRateX>
+			<TrailEffectScaleChangeRateY>0</TrailEffectScaleChangeRateY>
+			<TrailEffectLifetime>0</TrailEffectLifetime>
+			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
+			<TrailDriftRate>0</TrailDriftRate>
+		</WeaponEffect>
 		<IsFighterOnly>false</IsFighterOnly>
 		<Values>
 			<ComponentStats>
@@ -4748,12 +4862,12 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>5275</WeaponRange>
-				<WeaponRawDamage>54</WeaponRawDamage>
+				<WeaponRange>5000</WeaponRange>
+				<WeaponRawDamage>216</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
-				<WeaponVolleyAmount>4</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
@@ -4883,11 +4997,11 @@
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
 				<WeaponRange>6380</WeaponRange>
-				<WeaponRawDamage>78</WeaponRawDamage>
+				<WeaponRawDamage>312</WeaponRawDamage>
 				<WeaponShieldBypass>0.25</WeaponShieldBypass>
 				<WeaponSpeed>5000</WeaponSpeed>
-				<WeaponVolleyAmount>4</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
 		<Name>Planetary Pulsed Beam Defense</Name>

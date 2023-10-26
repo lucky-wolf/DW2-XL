@@ -196,13 +196,15 @@ YMMV, but this is my take on making it Extra Large!
 - Basic Bombers have only 1 weapon now, the same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport's front weapon arc
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
+- Ion weapons: added t8 research and components
 - Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
-- Added missing t8 ion PD and Ftr tech
 - Synchronized all [PD] components to that of the [S] equivalent
 - Added a bunch of new [PD] tech levels
 - Normalized all research costs
 - Improved Academic planetary facilities
 - Added 125 crew size crew accommodations at tech level 3
+- Found and fixed all planetary defense weapons visual effects (so that they always have one)
+-
 - TODO: increase divergence of fuel efficiency between tech lineages (1000/1000, 1500/1000, 2000/1000)
 - TODO: double Teekans hangar bays (either size or count)
 
