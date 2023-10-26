@@ -190,9 +190,9 @@ YMMV, but this is my take on making it Extra Large!
 - Non-Carrier ships now only sport an auxiliary hangar bay
 - Military bases and stations now have a full compliment of 100 size bays
 - All 3 sizes of hangar bays are available for all tech levels for all 3 tech-lineages
-- Redid component ion defenses for hangar bays to make them more more reasonable
+- Redid component ion defenses for hangar bays to make them more reasonable
 - Rebalanced hangar bay capacity and build/repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
-- Quameno race and Stratocracy government now give Improved Ground Combat
+- Quameno race and Stratocracy government (formerly Military Dictatorship) now give Improved Ground Combat
 - Basic Bombers have only 1 weapon now, the same as Basic Fighters
 - Fixed Ackdarian Medium Troop Transport's front weapon arc
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
@@ -201,7 +201,10 @@ YMMV, but this is my take on making it Extra Large!
 - Synchronized all [PD] components to that of the [S] equivalent
 - Added a bunch of new [PD] tech levels
 - Normalized all research costs
-- TODO: increase divergence of fusion between tech lineages (1x, 1.5x, 2x)
+- Improved Academic planetary facilities
+- Added 125 crew size crew accommodations at tech level 3
+- TODO: increase divergence of fuel efficiency between tech lineages (1000/1000, 1500/1000, 2000/1000)
+- TODO: double Teekans hangar bays (either size or count)
 
 ### v1.18.2
 - Updated for 1176 beta release
