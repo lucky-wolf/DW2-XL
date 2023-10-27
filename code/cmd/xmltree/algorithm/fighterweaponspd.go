@@ -7,7 +7,11 @@ import (
 	"strings"
 )
 
-func FighterWeapons(folder string) (err error) {
+func FighterWeaponsAndPD(folder string) (err error) {
+
+	if !Quiet {
+		log.Println("Fighter weapons and PD will be generated from corresponding [S] weapons")
+	}
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")
@@ -16,7 +20,7 @@ func FighterWeapons(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyFighterWeapons()
+	err = j.applyFighterWeaponsAndPD()
 	if err != nil {
 		return
 	}
@@ -27,7 +31,7 @@ func FighterWeapons(folder string) (err error) {
 	return
 }
 
-func (j *job) applyFighterWeapons() (err error) {
+func (j *job) applyFighterWeaponsAndPD() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -56,12 +60,15 @@ func (j *job) applyFighterWeapons() (err error) {
 
 				// for fighters...
 				targetName := e.Child("Name").StringValue()
-				if !strings.HasSuffix(targetName, "[Ftr]") {
+				if !strings.HasSuffix(targetName, "[Ftr]") && !strings.HasSuffix(targetName, "[PD]") {
 					continue
 				}
 
+				// distinguish if this component is only for strike craft
+				isFighterOnly := e.Has("IsFighterOnly", "true")
+
 				// find the corresponding small weapon by name
-				sourceName := strings.Replace(targetName, "[Ftr]", "[S]", 1)
+				sourceName := getSourceOfPD(targetName, isFighterOnly)
 				sourceDefinition, _ := j.find("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("Missing: %s (for %s)", sourceName, targetName)
@@ -73,8 +80,12 @@ func (j *job) applyFighterWeapons() (err error) {
 					log.Printf("%s from %s\n", targetName, sourceName)
 				}
 
-				// copy and scale resource requirements
-				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
+				// copy (and scale fighter) resource requirements
+				if isFighterOnly {
+					err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
+				} else {
+					err = e.CopyByTag("ResourcesRequired", sourceDefinition)
+				}
 				if err != nil {
 					log.Printf("%s: %s from %s", err, targetName, sourceName)
 				}
@@ -87,7 +98,7 @@ func (j *job) applyFighterWeapons() (err error) {
 
 				// now that we have our own copy of the component stats (same number of levels too)
 				// we can update each of those to scale for [Ftr] version
-				err = scaleFighterOrPDValues(e)
+				err = scaleFighterOrPDValues(e, isFighterOnly)
 				if err != nil {
 					log.Printf("%s: %s from %s", err, targetName, sourceName)
 				}
@@ -103,10 +114,7 @@ func (j *job) applyFighterWeapons() (err error) {
 }
 
 // scale all component stats from the copy from our [S] source weapon
-func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
-
-	// distinguish if this component is only for strike craft
-	isFighterOnly := e.Has("IsFighterOnly", "true")
+func scaleFighterOrPDValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
 
 	for _, e := range e.Child("Values").Elements() {
 
@@ -130,15 +138,16 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 		e.Child("WeaponRange").ScaleBy(0.3333333)
 		e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
 
+		// fighter & PD weapons generically get a +10% targeting across the board
+		e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+
 		// all other intercept values are same scale as our standard output
 		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 8)           // x8 standard rof
 		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").NumericValue() / 2)     // x8/2 = x4 effective dps vs. fighters
 		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 1)     // x8/1 = x8 effective dps vs. seeking ordinance
 		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").NumericValue() / 8) // x8/8 = x1 energy cost during intercept mode
 		e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
-
-		// fighter & PD weapons generically get a +10% targeting across the board
-		e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+		e.Child("WeaponInterceptComponentTargetingBonus").SetValue(e.Child("ComponentTargetingBonus").NumericValue() + 0.1) // PD must actually hit for it to be useful
 
 		// fighters and PD never do bombard damage
 		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
@@ -149,6 +158,45 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement) (err error) {
 		if isFighterOnly {
 			e.Child("CrewRequirement").SetValue(0)
 			e.Child("StaticEnergyUsed").SetValue(0)
+		}
+	}
+
+	return
+}
+
+func getSourceOfPD(targetName string, isFighterOnly bool) (sourceName string) {
+
+	// find the corresponding small weapon by name
+	// PD in particular uses asymmetric sources
+	switch targetName {
+	case "Buckler Repeating Blaster [PD]":
+		sourceName = "Maxos Blaster [S]"
+	case "Guardian Defense Grid [PD]":
+		sourceName = "Omega Beam [S]"
+	case "Maelstrom Defender [PD]":
+		sourceName = "Titan Blaster [S]"
+	case "Point Defense Cannon [PD]":
+		sourceName = "Rail Gun [S]"
+	case "Sentinel Multi-Beam Defense [PD]":
+		sourceName = "Thuon Beam [S]"
+	case "Interceptor Missile [PD]":
+		sourceName = "Concussion Missile [S]"
+	case "Aegis Missile Battery [PD]":
+		sourceName = "Lightning Missile [S]"
+	default:
+		// simply use the component name [S] as our source component
+
+		// ion cannon
+		// ion rapid pulse array
+		// impact assault blaster
+		// terminator autocannon
+		// hive missile battery
+		// reinforcing swarm battery
+
+		if isFighterOnly {
+			sourceName = targetName[:len(targetName)-len(" [Ftr]")] + " [S]"
+		} else {
+			sourceName = targetName[:len(targetName)-len(" [PD]")] + " [S]"
 		}
 	}
 
