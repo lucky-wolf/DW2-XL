@@ -184,6 +184,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.3
+- 1179 beta compatible
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
 - Reduced standard weapon ROF by 50%, and increased standard weapon damage per shot by 50% (effectively -25% dps)
 - Rebalanced shields
