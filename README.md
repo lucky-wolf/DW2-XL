@@ -185,6 +185,8 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.4
+- Futzed with shield and armor Ion defenses for fighters and bombers
+  - I have no idea wtf I'm doing there...
 
 ### v1.18.3
 - 1179 beta compatible

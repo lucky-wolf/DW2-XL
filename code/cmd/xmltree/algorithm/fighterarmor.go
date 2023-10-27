@@ -96,10 +96,13 @@ func (j *job) applyFighterArmor() (err error) {
 						return
 					}
 
+					// scale down the ion defenses (or ion PD / ftr weapons will never penetrate)
+					e.Child("ComponentIonDefense").ScaleBy(0.5)
+					e.Child("IonDamageDefense").ScaleBy(0.2)
+
 					// scale / modify the values for the component to match source
 					e.Child("ArmorBlastRating").ScaleBy(0.2)
 					e.Child("ArmorReactiveRating").ScaleBy(0.2)
-					e.Child("IonDamageDefense").ScaleBy(0.2)
 
 					// never a crew requirement for fighter components
 					e.Child("CrewRequirement").SetValue(0)

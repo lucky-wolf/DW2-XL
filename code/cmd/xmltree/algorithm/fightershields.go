@@ -97,6 +97,10 @@ func (j *job) applyFighterShields() (err error) {
 						return
 					}
 
+					// scale down the ion defenses (or ion PD / ftr weapons will never penetrate)
+					e.Child("ComponentIonDefense").ScaleBy(0.5)
+					e.Child("IonDamageDefense").ScaleBy(0.2)
+
 					// scale / modify the values for the component to match source
 					e.Child("ShieldRechargeRate").ScaleBy(0.2)
 					e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
