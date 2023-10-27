@@ -432,7 +432,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -461,6 +466,11 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1000,11 +1010,16 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>PlagueContainment</Type>
 				<Amount>0.7</Amount>
@@ -1400,7 +1415,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Diplomatic Center</Name>
+		<Name>Diplomatic Affairs Academy</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1611,6 +1626,11 @@
 			<Bonus>
 				<Type>ColonyDefense</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -1893,6 +1913,11 @@
 				<Type>ColonyDefense</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
@@ -2284,7 +2309,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2302,7 +2327,7 @@
 		<FacilityFamilyId>30</FacilityFamilyId>
 		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Danula Engineering Center</Name>
+		<Name>Danula Industrial Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2370,6 +2395,11 @@
 				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -2409,6 +2439,11 @@
 				<Amount>0.10</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -2436,7 +2471,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2464,6 +2504,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2505,6 +2550,11 @@
 				<Amount>0.20</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
@@ -2533,7 +2583,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.35</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2561,6 +2616,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2612,6 +2672,11 @@
 				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>20000</Money>
@@ -2660,6 +2725,11 @@
 			<Bonus>
 				<Type>ColonyDefense</Type>
 				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>

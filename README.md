@@ -201,11 +201,13 @@ YMMV, but this is my take on making it Extra Large!
 - Synchronized all [PD] components to that of the [S] equivalent
 - Added a bunch of new [PD] tech levels
 - Normalized all research costs
-- Improved Academic planetary facilities
 - Added 125 crew size crew accommodations at tech level 3
-- Found and fixed all planetary defense weapons visual effects (so that they always have one)
+- Improved Academic planetary facilities
+- Improved troop construction facilities to offer a small planetary development boost
+- Improved planetary defense facilities to always have visual effects
 -
 - TODO: increase divergence of fuel efficiency between tech lineages (1000/1000, 1500/1000, 2000/1000)
+  - we'll need to have large and small fuel tanks for this - otherwise plasma is going to have no range at all
 - TODO: double Teekans hangar bays (either size or count)
 
 ### v1.18.2
