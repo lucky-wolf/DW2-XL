@@ -9,12 +9,12 @@ sub ProcessFile
 	my($factor) = $_[4] + 0.0;
 	my($target) = $_[5];
 
-	print "source = $source\n";
-	print "target = $target\n";
-	print "key = $key\n";
-	print "min = $min\n";
-	print "max = $max\n";
-	print "factor = $factor\n";
+	# print "source = $source\n";
+	# print "target = $target\n";
+	# print "key = $key\n";
+	# print "min = $min\n";
+	# print "max = $max\n";
+	# print "factor = $factor\n";
 
 	if ($factor == 0.0 && $min <= 0.0 && $max >= 0.0) {
 		print "error: cannot scale zero by zero";
@@ -39,27 +39,17 @@ sub ProcessFile
 			$value = $3 + 0.0;
 
 			# and is within criteria
-			if ($key eq $2)
+			# subtle: ignore zero because that will always result in zero
+			if ($key eq $2 && $value != 0.0 && $value >= $min && $value <= $max)
 			{
-				if ($value == 0.0)
-				{
-					# skip it
-				}
-				elsif ($value < $min)
-				{
-					# print "$ln: X $value < $min\n";
-				}
-				elsif ($value > $max)
-				{
-					# print "$ln: X $value > $max\n";
-				}
-				else
-				{
-					$new = $value * $factor;
-					print "$ln: matched $2 for $value -> $new\n";
-					# adjust the value
-					$line = sprintf("$1<${key}>%.2g</${key}>\n", $new);
-				}
+				# compute new value
+				$new = $value * $factor;
+
+				# this format lets VSCode give you a jump to file & line number option!
+				printf("$target:$ln: $value -> $new (%.5g)\n", $new);
+
+				# adjust the value
+				$line = sprintf("$1<${key}>%.5g</${key}>\n", $new);
 			}
 		}
 

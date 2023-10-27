@@ -174,7 +174,7 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>HyperDrive</ResearchCategory>
+				<ResearchCategory>Diplomacy</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -476,6 +476,7 @@ It is time for our people to unite and reach for the stars!
 				<Description>Your vassals stand ready to serve your glorious reign, having recently completed:
 
 [ULI][RESEARCH]Starfighter Hangar Bays[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Ground Combat[/RESEARCH][/ULI]
 [ULI][RESEARCH]Zero-G Combat[/RESEARCH][/ULI]
 [ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Crew Systems[/RESEARCH][/ULI]
@@ -614,7 +615,7 @@ In addition, the first army awaits your command on the homeworld.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProgress</Type>
+				<Type>ResearchBreakthrough</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -623,9 +624,9 @@ In addition, the first army awaits your command on the homeworld.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Shipboard Marines -->
-				<Id1>81</Id1>
-				<Value1>0.5</Value1>
+				<!-- Improved Ground Combat -->
+				<Id1>1027</Id1>
+				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -657,6 +658,33 @@ In addition, the first army awaits your command on the homeworld.</Description>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Shipboard Marines -->
+				<Id1>81</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>CrewQuarters</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -1182,7 +1210,7 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>CommerceCenter</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -1196,7 +1224,7 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Initialise Government (Military Dictatorship)</Name>
+		<Name>Initialise Government (Stratocracy)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -1234,7 +1262,7 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Initialise Government 2 (Military Dictatorship)</GeneratedItemName>
+				<GeneratedItemName>Initialise Government 2 (Stratocracy)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>5</DelaySecondsMinimum>
 				<DelaySecondsMaximum>5</DelaySecondsMaximum>
@@ -1244,7 +1272,7 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Initialise Government 2 (Military Dictatorship)</Name>
+		<Name>Initialise Government 2 (Stratocracy)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -1267,17 +1295,20 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Military Dictatorship</MessageTitle>
-				<Description>My Liege, we have recently completed:
+				<MessageTitle>Stratocracy</MessageTitle>
+				<Description>General! we have recently completed:
 
 [ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Crew Systems[/RESEARCH][/ULI]
+[ULI][RESEARCH]Zero-G Combat[/RESEARCH][/ULI]
+[ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Ground Combat[/RESEARCH][/ULI]
 [ULI][RESEARCH]Mechs[/RESEARCH][/ULI]
 [ULI][RESEARCH]Royal Palace[/RESEARCH][/ULI]
 
-Your top generals stand at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coup and rise to dominance over your people.  No longer does another hold a real threat to your claim on sole dictatorship.
+Your top generals stand at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day you take command over our people.  No longer does another stand above you in the chain of command.
 
-Additionally, two units of state of teh art mechs have just been commissioned and are ready to begin your conquest of the stars!</Description>
+Additionally, two units of state of the art mechs have just been completed and yours to conquer the stars with!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1336,6 +1367,60 @@ Additionally, two units of state of teh art mechs have just been commissioned an
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Zero-G Combat -->
+				<Id1>26</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Assault Pods -->
+				<Id1>264</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Improved Crew Systems -->
 				<Id1>1179</Id1>
 				<Value1>0</Value1>
@@ -1354,7 +1439,7 @@ Additionally, two units of state of teh art mechs have just been commissioned an
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProgress</Type>
+				<Type>ResearchBreakthrough</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -1363,9 +1448,9 @@ Additionally, two units of state of teh art mechs have just been commissioned an
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Shipboard Marines -->
-				<Id1>81</Id1>
-				<Value1>0.5</Value1>
+				<!-- Improved Ground Combat -->
+				<Id1>1027</Id1>
+				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1424,6 +1509,33 @@ Additionally, two units of state of teh art mechs have just been commissioned an
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Shipboard Marines -->
+				<Id1>81</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>CrewQuarters</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -1981,7 +2093,7 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>CrewQuarters</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />

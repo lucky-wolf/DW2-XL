@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.3](#v1183)
 		- [v1.18.2](#v1182)
 		- [v1.18.1](#v1181)
 		- [v1.18.0](#v1180)
@@ -182,6 +183,32 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.18.3
+- 1179 beta compatible
+- Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox
+- Reduced standard weapon ROF by 50%, and increased standard weapon damage per shot by 50% (effectively -25% dps)
+- Rebalanced shields
+- Non-Carrier ships now only sport an auxiliary hangar bay
+- Military bases and stations now have a full compliment of 100 size bays
+- All 3 sizes of hangar bays are available for all tech levels for all 3 tech-lineages
+- Redid component ion defenses for hangar bays to make them more reasonable
+- Rebalanced hangar bay capacity and build/repair rates for all three lines of hangars (generic, Ackdarian, and Gizurean)
+- Quameno race and Stratocracy government (formerly Military Dictatorship) now give Improved Ground Combat
+- Basic Bombers have only 1 weapon now, the same as Basic Fighters
+- Fixed Ackdarian Medium Troop Transport's front weapon arc
+- Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
+- Ion weapons: added t8 research and components
+- Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
+- Synchronized all [PD] components to that of the [S] equivalent
+- Added a bunch of new [PD] tech levels
+- Normalized all research costs
+- Added 125 crew size crew accommodations at tech level 3
+- Improved Academic planetary facilities
+- Improved troop construction facilities to offer a small planetary development boost
+- Improved planetary defense facilities to always have visual effects
+- Humans: improved firing arcs for rear turret on FF and DD hulls
+- Teekans: have full carrier bays on all of their ships
+
 ### v1.18.2
 - Updated for 1176 beta release
 - Fixed Mortalen to start on Rocky Desert worlds normally (was choosing sandy deserts)
@@ -302,7 +329,7 @@ YMMV, but this is my take on making it Extra Large!
   - Have a 5th level of splinter (boarding pod)
   - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
-- Tweaked Monarchy, Feudal, and Military Dictatorship governments to offer
+- Tweaked Monarchy, Feudal, and Stratocracy governments to offer
   - Improved crew systems
   - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
   - Royal Palace
@@ -436,7 +463,7 @@ YMMV, but this is my take on making it Extra Large!
 - Updated for 1.1.4.8 Beta (but not required)
 
 ### v1.15.3
-- Fixed: Orbital Escape Launchers link off of Stellar Hangar Bays
+- Fixed: Orbital Escape Launchers link off Stellar of Hangar Bays
 - Fixed: Vanilla bug that caused any government event buildings to increase planetary quality
 - Fixed: Enhanced Research to have correct costs
 - Fixed: Caslon Hyperfusion Reactor size to 18 (was too small)
@@ -504,8 +531,8 @@ YMMV, but this is my take on making it Extra Large!
 - Gave very small "Destroyed Repair Chance" to base Damage Control Units
 - Adjusted random tech to be a bit more random generally, but to guarantee some essential techs (e.g. fast mining)
 - Adjusted Stellar Hangar Bay links to be Ackdarian only
-- Added a small Kaasian Crystal component to stellar hangar bays
-- Reduced Crew requirements for Ackdarian Stellar Hangar Bays
+- Added a small Kaasian Crystal component Stellar to Hangar bays
+- Reduced Crew requirements for Stellar Ackdarian Hangar Bays
 - Fixed Ion Defense for all hangar bays
 - Improved government naming for shadow oligarchy and harmonious utopias
 - Gave all races a direct and indirect fire weapon in their races file to try to avoid having the game gift them a random one
@@ -533,7 +560,7 @@ YMMV, but this is my take on making it Extra Large!
   - Transient Singularity
 
 ### v1.15.0
-- Integrated "Ackdarian Stellar Hangar Bays" mod by @Rah
+- Integrated "Stellar Ackdarian Hangar Bays" mod by @Rah
   - Ackdarian racial tech that holds 50% more strike craft than standard bays
 - Integrated "Archivist Government" by @Rah
   - A Zenox only archivist focused government

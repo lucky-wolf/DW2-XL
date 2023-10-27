@@ -432,7 +432,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -461,6 +466,11 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1000,11 +1010,16 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>PlagueContainment</Type>
 				<Amount>0.7</Amount>
@@ -1400,7 +1415,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Diplomatic Center</Name>
+		<Name>Diplomatic Affairs Academy</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -1611,6 +1626,11 @@
 			<Bonus>
 				<Type>ColonyDefense</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -1894,6 +1914,11 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
 			<Money>150000</Money>
@@ -1917,7 +1942,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
+		<MaintenanceCost>2500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1940,7 +1965,7 @@
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
+		<MaintenanceCost>5000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1963,7 +1988,7 @@
 		<BuildCost>
 			<Money>200000</Money>
 		</BuildCost>
-		<MaintenanceCost>20000</MaintenanceCost>
+		<MaintenanceCost>10000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1993,12 +2018,12 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchSensors</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2031,17 +2056,17 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchArmor</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchTroops</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2074,17 +2099,17 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchShields</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2117,7 +2142,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2150,12 +2175,12 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchEngines</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2181,12 +2206,12 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchSensors</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2212,17 +2237,17 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchArmor</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchTroops</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2248,17 +2273,17 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchShields</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchHyperDrive</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2284,7 +2309,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2302,7 +2327,7 @@
 		<FacilityFamilyId>30</FacilityFamilyId>
 		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Danula Engineering Center</Name>
+		<Name>Danula Industrial Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2310,12 +2335,12 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchEngines</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -2370,6 +2395,11 @@
 				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -2409,6 +2439,11 @@
 				<Amount>0.10</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -2436,7 +2471,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2464,6 +2504,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2505,6 +2550,11 @@
 				<Amount>0.20</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
@@ -2533,7 +2583,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.35</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2561,6 +2616,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2612,6 +2672,11 @@
 				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.10</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>20000</Money>
@@ -2660,6 +2725,11 @@
 			<Bonus>
 				<Type>ColonyDefense</Type>
 				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2904,7 +2974,7 @@
 		<BuildCost>
 			<Money>20000</Money>
 		</BuildCost>
-		<MaintenanceCost>2000</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2927,7 +2997,7 @@
 		<BuildCost>
 			<Money>400000</Money>
 		</BuildCost>
-		<MaintenanceCost>40000</MaintenanceCost>
+		<MaintenanceCost>20000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>

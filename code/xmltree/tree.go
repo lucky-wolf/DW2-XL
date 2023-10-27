@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
+	"strconv"
 	"strings"
 )
 
@@ -67,8 +68,106 @@ func (e *XMLValue) HasMultipleChildren() bool {
 }
 
 // returns the string value of this value iff it is a simple value
-func (e *XMLValue) Value() (s string, ok bool) {
+func (e *XMLValue) GetStringValue() (s string, ok bool) {
 	s, ok = e.contents.(string)
+	return
+}
+
+// returns the string value of this value
+// panics if it is not a string
+func (e *XMLValue) StringValue() string {
+	return e.contents.(string)
+}
+
+// returns the string value of this value iff it is a simple value
+func (e *XMLValue) StringValueEquals(value string) bool {
+	s, ok := e.contents.(string)
+	return ok && s == value
+}
+
+// returns the string value of this value iff it is a simple value
+func (e *XMLValue) StringValueStartsWith(value string) bool {
+	s, ok := e.contents.(string)
+	return ok && strings.HasPrefix(s, value)
+}
+
+// returns the string value of this value iff it is a simple value
+func (e *XMLValue) StringValueEndsWith(value string) bool {
+	s, ok := e.contents.(string)
+	return ok && strings.HasSuffix(s, value)
+}
+
+// set our contents to the given string value-string
+func (e *XMLValue) SetString(value string) {
+	_, ok := e.contents.(string)
+	if !ok {
+		panic("not a simple value type: cannot write a simple value into it")
+	}
+	e.contents = value
+}
+
+// set our contents to the given value
+// value can be any kind of scalar or string
+func (e *XMLValue) SetValue(value any) {
+	switch v := value.(type) {
+	case string:
+		e.SetString(v)
+	case int, int16, int32, int64, int8, uint, uint16, uint32, uint64, uint8:
+		e.SetString(fmt.Sprint(v))
+	case float32, float64:
+		e.SetString(fmt.Sprintf("%.6g", v))
+	default:
+		e.SetString(fmt.Sprint(v))
+	}
+}
+
+// if the value is simple and parsable as float, returns that
+func (e *XMLValue) GetNumericValue() (value float64, err error) {
+	// must be simple
+	s, ok := e.contents.(string)
+	if !ok {
+		err = fmt.Errorf("XMLValue is not simple: cannot extract a value from it")
+		return
+	}
+
+	// must be parsable as a float
+	return strconv.ParseFloat(s, 64)
+}
+
+// grab string & parse (may end up hiding errors and being zero)
+func (e *XMLValue) NumericValue() (value float64) {
+	value, _ = strconv.ParseFloat(e.StringValue(), 64)
+	return
+}
+
+// grab string & parse (may end up hiding errors and being zero)
+func (e *XMLValue) IntValue() int {
+	v, _ := strconv.ParseInt(e.StringValue(), 10, 64)
+	return int(v)
+}
+
+// our contents must be a simple string which is a parsable number
+// updates it to be scaled by the given input
+func (e *XMLValue) ScaleBy(scale float64) (err error) {
+
+	value, err := e.GetNumericValue()
+	if err != nil {
+		return
+	}
+
+	e.contents = fmt.Sprintf("%.5g", value*scale)
+	return
+}
+
+// updates it to be current value + adjustment
+func (e *XMLValue) AdjustValue(adjustment float64) (err error) {
+
+	value, err := e.GetNumericValue()
+	if err != nil {
+		return
+	}
+
+	e.contents = fmt.Sprintf("%.5g", value+adjustment)
 	return
 }
 

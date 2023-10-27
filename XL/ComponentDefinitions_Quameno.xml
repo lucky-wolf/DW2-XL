@@ -580,150 +580,14 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
-				<Amount>3</Amount>
+				<Amount>1.2</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId>
-				<Amount>2</Amount>
+				<Amount>0.6</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
-			<ComponentStats>
-				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
-				<AreaShieldRechargeEnergyUsedPerUnitCharged>0</AreaShieldRechargeEnergyUsedPerUnitCharged>
-				<AreaShieldRechargeRange>0</AreaShieldRechargeRange>
-				<ArmorBlastRating>0</ArmorBlastRating>
-				<ArmorReactiveRating>0</ArmorReactiveRating>
-				<AssaultDefense>0</AssaultDefense>
-				<AssaultPodBoardingRange>0</AssaultPodBoardingRange>
-				<AssaultPodEnergyPerLaunch>0</AssaultPodEnergyPerLaunch>
-				<AssaultPodLaunchRate>0</AssaultPodLaunchRate>
-				<AssaultPodMovementSpeed>0</AssaultPodMovementSpeed>
-				<AssaultPodShieldPenetration>0</AssaultPodShieldPenetration>
-				<AssaultPodStrength>0</AssaultPodStrength>
-				<CargoCapacity>0</CargoCapacity>
-				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
-				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
-				<CommerceTradeBonus>0</CommerceTradeBonus>
-				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>1</ComponentIonDefense>
-				<ComponentTargetingBonus>0</ComponentTargetingBonus>
-				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
-				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
-				<ConstructionYardCount>0</ConstructionYardCount>
-				<CountermeasuresBonus>0</CountermeasuresBonus>
-				<CountermeasuresFleetBonus>0</CountermeasuresFleetBonus>
-				<CrewCapacity>0</CrewCapacity>
-				<CrewRequirement>0</CrewRequirement>
-				<DamageReduction>0</DamageReduction>
-				<DamageRepair>0</DamageRepair>
-				<DestroyedRepairChance>0</DestroyedRepairChance>
-				<HullRepair>0</HullRepair>
-				<DockingBayShipCount>0</DockingBayShipCount>
-				<DockingBayThroughput>0</DockingBayThroughput>
-				<EnergyCollectionRate>0</EnergyCollectionRate>
-				<EnergyFuelProductionRate>0</EnergyFuelProductionRate>
-				<EngineMainCruiseThrust>0</EngineMainCruiseThrust>
-				<EngineMainCruiseThrustEnergyUsage>0</EngineMainCruiseThrustEnergyUsage>
-				<EngineMainMaximumThrust>0</EngineMainMaximumThrust>
-				<EngineMainMaximumThrustEnergyUsage>0</EngineMainMaximumThrustEnergyUsage>
-				<EngineVectoringEnergyUsage>0</EngineVectoringEnergyUsage>
-				<EngineVectoringThrust>0</EngineVectoringThrust>
-				<ExtractionRate>0</ExtractionRate>
-				<ExtractionRangeAsteroid>0</ExtractionRangeAsteroid>
-				<RemoteFuelTransferRate>0</RemoteFuelTransferRate>
-				<RemoteFuelTransferRange>0</RemoteFuelTransferRange>
-				<FighterBayBuildRate>0</FighterBayBuildRate>
-				<FighterBayCapacity>0</FighterBayCapacity>
-				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>72</FuelStorageCapacity>
-				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
-				<HyperDenyRange>0</HyperDenyRange>
-				<HyperDenyStrength>0</HyperDenyStrength>
-				<HyperDriveBlockingInsulation>0</HyperDriveBlockingInsulation>
-				<HyperDriveEnergyUsage>0</HyperDriveEnergyUsage>
-				<HyperDriveJumpInitiationTime>0</HyperDriveJumpInitiationTime>
-				<HyperDriveJumpRange>0</HyperDriveJumpRange>
-				<HyperDriveRechargeTime>0</HyperDriveRechargeTime>
-				<HyperDriveSpeed>0</HyperDriveSpeed>
-				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
-				<HyperStopRange>0</HyperStopRange>
-				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>0</IonDamageDefense>
-				<MedicalRating>0</MedicalRating>
-				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>30</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>72</ReactorEnergyStorageCapacity>
-				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.4</ReactorFuelUnitsForFullCharge>
-				<RecreationRating>0</RecreationRating>
-				<ResearchLabOutput>0</ResearchLabOutput>
-				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
-				<ScannerExplorationPower>0</ScannerExplorationPower>
-				<ScannerExplorationRange>0</ScannerExplorationRange>
-				<ScannerExplorationSurveyAmount>0</ScannerExplorationSurveyAmount>
-				<ScannerExplorationSurveyMaximumLevel>0</ScannerExplorationSurveyMaximumLevel>
-				<ScannerExplorationSurveyTime>0</ScannerExplorationSurveyTime>
-				<ScannerExplorationTime>0</ScannerExplorationTime>
-				<ScannerJammingPower>0</ScannerJammingPower>
-				<ScannerJumpTrackingChance>0</ScannerJumpTrackingChance>
-				<ScannerLongRange>0</ScannerLongRange>
-				<ScannerLongRangePower>0</ScannerLongRangePower>
-				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
-				<ScannerTracePower>0</ScannerTracePower>
-				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>0</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>0</ShieldRechargeEnergyUsage>
-				<ShieldResistance>0</ShieldResistance>
-				<ShieldStrength>0</ShieldStrength>
-				<ShieldPenetrationChance>0</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0</StaticEnergyUsed>
-				<StealthRating>0</StealthRating>
-				<TargetingBonus>0</TargetingBonus>
-				<TargetingFleetBonus>0</TargetingFleetBonus>
-				<TractorBeamDwellTime>0</TractorBeamDwellTime>
-				<TractorBeamEnergyPerShot>0</TractorBeamEnergyPerShot>
-				<TractorBeamFireRate>0</TractorBeamFireRate>
-				<TractorBeamPower>0</TractorBeamPower>
-				<TractorBeamPowerFalloff>0</TractorBeamPowerFalloff>
-				<TractorBeamRange>0</TractorBeamRange>
-				<TroopCapacity>0</TroopCapacity>
-				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
-				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>0</WeaponArmorBypass>
-				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
-				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
-				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
-				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
-				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
-				<WeaponDamageType>Undefined</WeaponDamageType>
-				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>0</WeaponEnergyPerShot>
-				<WeaponFireRate>0</WeaponFireRate>
-				<WeaponFireType>Undefined</WeaponFireType>
-				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
-				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>0</WeaponInterceptDamageFighter>
-				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>0</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>0</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
-				<WeaponInterceptRange>0</WeaponInterceptRange>
-				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>0</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>0</WeaponRange>
-				<WeaponRawDamage>0</WeaponRawDamage>
-				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>0</WeaponSpeed>
-				<WeaponVolleyAmount>0</WeaponVolleyAmount>
-				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
-			</ComponentStats>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
 				<AreaShieldRechargeEnergyUsedPerUnitCharged>0</AreaShieldRechargeEnergyUsedPerUnitCharged>
@@ -772,7 +636,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>90</FuelStorageCapacity>
+				<FuelStorageCapacity>8</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -788,10 +652,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>39</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>90</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>24</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>48</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.4</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.08</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -878,7 +742,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>4</ComponentIonDefense>
+				<ComponentIonDefense>3</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -908,7 +772,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>113</FuelStorageCapacity>
+				<FuelStorageCapacity>8.8533</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -924,10 +788,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>51</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>113</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>33.2</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>66.4</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.45</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.088533</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -1014,7 +878,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>6</ComponentIonDefense>
+				<ComponentIonDefense>5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -1044,7 +908,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>141</FuelStorageCapacity>
+				<FuelStorageCapacity>11.664</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -1060,10 +924,146 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>66</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>141</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>48.6</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>97.2</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.48</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.11664</ReactorFuelUnitsForFullCharge>
+				<RecreationRating>0</RecreationRating>
+				<ResearchLabOutput>0</ResearchLabOutput>
+				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
+				<ScannerExplorationPower>0</ScannerExplorationPower>
+				<ScannerExplorationRange>0</ScannerExplorationRange>
+				<ScannerExplorationSurveyAmount>0</ScannerExplorationSurveyAmount>
+				<ScannerExplorationSurveyMaximumLevel>0</ScannerExplorationSurveyMaximumLevel>
+				<ScannerExplorationSurveyTime>0</ScannerExplorationSurveyTime>
+				<ScannerExplorationTime>0</ScannerExplorationTime>
+				<ScannerJammingPower>0</ScannerJammingPower>
+				<ScannerJumpTrackingChance>0</ScannerJumpTrackingChance>
+				<ScannerLongRange>0</ScannerLongRange>
+				<ScannerLongRangePower>0</ScannerLongRangePower>
+				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
+				<ScannerTracePower>0</ScannerTracePower>
+				<ScannerTraceRange>0</ScannerTraceRange>
+				<ShieldRechargeRate>0</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>0</ShieldRechargeEnergyUsage>
+				<ShieldResistance>0</ShieldResistance>
+				<ShieldStrength>0</ShieldStrength>
+				<ShieldPenetrationChance>0</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
+				<StaticEnergyUsed>0</StaticEnergyUsed>
+				<StealthRating>0</StealthRating>
+				<TargetingBonus>0</TargetingBonus>
+				<TargetingFleetBonus>0</TargetingFleetBonus>
+				<TractorBeamDwellTime>0</TractorBeamDwellTime>
+				<TractorBeamEnergyPerShot>0</TractorBeamEnergyPerShot>
+				<TractorBeamFireRate>0</TractorBeamFireRate>
+				<TractorBeamPower>0</TractorBeamPower>
+				<TractorBeamPowerFalloff>0</TractorBeamPowerFalloff>
+				<TractorBeamRange>0</TractorBeamRange>
+				<TroopCapacity>0</TroopCapacity>
+				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
+				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
+				<WeaponArmorBypass>0</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Undefined</WeaponDamageType>
+				<WeaponDwellTime>0</WeaponDwellTime>
+				<WeaponEnergyPerShot>0</WeaponEnergyPerShot>
+				<WeaponFireRate>0</WeaponFireRate>
+				<WeaponFireType>Undefined</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
+				<WeaponInterceptDamageFighter>0</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
+				<WeaponInterceptDamageSeeking>0</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>0</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
+				<WeaponInterceptRange>0</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
+				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>0</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
+				<WeaponRange>0</WeaponRange>
+				<WeaponRawDamage>0</WeaponRawDamage>
+				<WeaponShieldBypass>0</WeaponShieldBypass>
+				<WeaponSpeed>0</WeaponSpeed>
+				<WeaponVolleyAmount>0</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
+			</ComponentStats>
+			<ComponentStats>
+				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
+				<AreaShieldRechargeEnergyUsedPerUnitCharged>0</AreaShieldRechargeEnergyUsedPerUnitCharged>
+				<AreaShieldRechargeRange>0</AreaShieldRechargeRange>
+				<ArmorBlastRating>0</ArmorBlastRating>
+				<ArmorReactiveRating>0</ArmorReactiveRating>
+				<AssaultDefense>0</AssaultDefense>
+				<AssaultPodBoardingRange>0</AssaultPodBoardingRange>
+				<AssaultPodEnergyPerLaunch>0</AssaultPodEnergyPerLaunch>
+				<AssaultPodLaunchRate>0</AssaultPodLaunchRate>
+				<AssaultPodMovementSpeed>0</AssaultPodMovementSpeed>
+				<AssaultPodShieldPenetration>0</AssaultPodShieldPenetration>
+				<AssaultPodStrength>0</AssaultPodStrength>
+				<CargoCapacity>0</CargoCapacity>
+				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
+				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
+				<CommerceTradeBonus>0</CommerceTradeBonus>
+				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
+				<ComponentIonDefense>7</ComponentIonDefense>
+				<ComponentTargetingBonus>0</ComponentTargetingBonus>
+				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
+				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
+				<ConstructionYardCount>0</ConstructionYardCount>
+				<CountermeasuresBonus>0</CountermeasuresBonus>
+				<CountermeasuresFleetBonus>0</CountermeasuresFleetBonus>
+				<CrewCapacity>0</CrewCapacity>
+				<CrewRequirement>0</CrewRequirement>
+				<DamageReduction>0</DamageReduction>
+				<DamageRepair>0</DamageRepair>
+				<DestroyedRepairChance>0</DestroyedRepairChance>
+				<HullRepair>0</HullRepair>
+				<DockingBayShipCount>0</DockingBayShipCount>
+				<DockingBayThroughput>0</DockingBayThroughput>
+				<EnergyCollectionRate>0</EnergyCollectionRate>
+				<EnergyFuelProductionRate>0</EnergyFuelProductionRate>
+				<EngineMainCruiseThrust>0</EngineMainCruiseThrust>
+				<EngineMainCruiseThrustEnergyUsage>0</EngineMainCruiseThrustEnergyUsage>
+				<EngineMainMaximumThrust>0</EngineMainMaximumThrust>
+				<EngineMainMaximumThrustEnergyUsage>0</EngineMainMaximumThrustEnergyUsage>
+				<EngineVectoringEnergyUsage>0</EngineVectoringEnergyUsage>
+				<EngineVectoringThrust>0</EngineVectoringThrust>
+				<ExtractionRate>0</ExtractionRate>
+				<ExtractionRangeAsteroid>0</ExtractionRangeAsteroid>
+				<RemoteFuelTransferRate>0</RemoteFuelTransferRate>
+				<RemoteFuelTransferRange>0</RemoteFuelTransferRange>
+				<FighterBayBuildRate>0</FighterBayBuildRate>
+				<FighterBayCapacity>0</FighterBayCapacity>
+				<FighterBayRepairRate>0</FighterBayRepairRate>
+				<FuelStorageCapacity>11.76</FuelStorageCapacity>
+				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
+				<HyperDenyRange>0</HyperDenyRange>
+				<HyperDenyStrength>0</HyperDenyStrength>
+				<HyperDriveBlockingInsulation>0</HyperDriveBlockingInsulation>
+				<HyperDriveEnergyUsage>0</HyperDriveEnergyUsage>
+				<HyperDriveJumpInitiationTime>0</HyperDriveJumpInitiationTime>
+				<HyperDriveJumpRange>0</HyperDriveJumpRange>
+				<HyperDriveRechargeTime>0</HyperDriveRechargeTime>
+				<HyperDriveSpeed>0</HyperDriveSpeed>
+				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
+				<HyperStopRange>0</HyperStopRange>
+				<HyperStopStrength>0</HyperStopStrength>
+				<IonDamageDefense>0</IonDamageDefense>
+				<MedicalRating>0</MedicalRating>
+				<PassengerCapacity>0</PassengerCapacity>
+				<ReactorEnergyOutputPerSecond>58.8</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>117.6</ReactorEnergyStorageCapacity>
+				<ReactorFuelResourceId>14</ReactorFuelResourceId>
+				<ReactorFuelUnitsForFullCharge>0.1176</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -1251,13 +1251,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>1.5</ShieldRechargeRate>
+				<ShieldRechargeRate>2</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>5</ShieldRechargeEnergyUsage>
 				<ShieldResistance>4</ShieldResistance>
 				<ShieldStrength>680</ShieldStrength>
-				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.35</ShieldPenetrationRatio>
-				<StaticEnergyUsed>4</StaticEnergyUsed>
+				<ShieldPenetrationChance>0.10</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.30</ShieldPenetrationRatio>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1386,13 +1386,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>2.25</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>8</ShieldRechargeEnergyUsage>
+				<ShieldRechargeRate>3</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>7.5</ShieldRechargeEnergyUsage>
 				<ShieldResistance>6</ShieldResistance>
-				<ShieldStrength>880</ShieldStrength>
-				<ShieldPenetrationChance>0.02</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.3</ShieldPenetrationRatio>
-				<StaticEnergyUsed>6</StaticEnergyUsed>
+				<ShieldStrength>1062.5</ShieldStrength>
+				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.20</ShieldPenetrationRatio>
+				<StaticEnergyUsed>9</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1521,13 +1521,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>3.75</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>13</ShieldRechargeEnergyUsage>
-				<ShieldResistance>7</ShieldResistance>
-				<ShieldStrength>1300</ShieldStrength>
+				<ShieldRechargeRate>4</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>10</ShieldRechargeEnergyUsage>
+				<ShieldResistance>8</ShieldResistance>
+				<ShieldStrength>1660.1562</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>8</StaticEnergyUsed>
+				<StaticEnergyUsed>15</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1657,12 +1657,12 @@
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
 				<ShieldRechargeRate>6</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>21</ShieldRechargeEnergyUsage>
-				<ShieldResistance>8</ShieldResistance>
-				<ShieldStrength>2200</ShieldStrength>
+				<ShieldRechargeEnergyUsage>15</ShieldRechargeEnergyUsage>
+				<ShieldResistance>10</ShieldResistance>
+				<ShieldStrength>2593.9941</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>12</StaticEnergyUsed>
+				<StaticEnergyUsed>24</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -1791,10 +1791,10 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>9</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>34</ShieldRechargeEnergyUsage>
-				<ShieldResistance>9</ShieldResistance>
-				<ShieldStrength>3200</ShieldStrength>
+				<ShieldRechargeRate>8</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>20</ShieldRechargeEnergyUsage>
+				<ShieldResistance>12</ShieldResistance>
+				<ShieldStrength>4053.1158</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
 				<StaticEnergyUsed>18</StaticEnergyUsed>
@@ -1844,7 +1844,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortise Shields</Name>
+		<Name>Tortoise Shields</Name>
 		<ImageFilename>Environment/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
@@ -1859,23 +1859,23 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId>
-				<Amount>4</Amount>
+				<Amount>1.6</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
-				<Amount>4</Amount>
+				<Amount>1.6</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>7</ResourceId>
-				<Amount>2</Amount>
+				<Amount>0.8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId>
-				<Amount>2</Amount>
+				<Amount>0.8</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId>
-				<Amount>2</Amount>
+				<Amount>0.8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -1962,12 +1962,12 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>0.45</ShieldRechargeRate>
+				<ShieldRechargeRate>0.4</ShieldRechargeRate>
 				<ShieldRechargeEnergyUsage>1</ShieldRechargeEnergyUsage>
-				<ShieldResistance>3</ShieldResistance>
+				<ShieldResistance>0.8</ShieldResistance>
 				<ShieldStrength>136</ShieldStrength>
-				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.35</ShieldPenetrationRatio>
+				<ShieldPenetrationChance>0.10</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.30</ShieldPenetrationRatio>
 				<StaticEnergyUsed>1</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
@@ -2097,13 +2097,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>0.675</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
-				<ShieldResistance>4</ShieldResistance>
-				<ShieldStrength>176</ShieldStrength>
-				<ShieldPenetrationChance>0.02</ShieldPenetrationChance>
-				<ShieldPenetrationRatio>0.3</ShieldPenetrationRatio>
-				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<ShieldRechargeRate>0.6</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>1.5</ShieldRechargeEnergyUsage>
+				<ShieldResistance>1.2</ShieldResistance>
+				<ShieldStrength>212.5</ShieldStrength>
+				<ShieldPenetrationChance>0.05</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0.20</ShieldPenetrationRatio>
+				<StaticEnergyUsed>1.8</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -2232,13 +2232,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>1.125</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
-				<ShieldResistance>4</ShieldResistance>
-				<ShieldStrength>260</ShieldStrength>
+				<ShieldRechargeRate>0.8</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>2</ShieldRechargeEnergyUsage>
+				<ShieldResistance>1.6</ShieldResistance>
+				<ShieldStrength>332.03</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<StaticEnergyUsed>3</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -2367,13 +2367,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>1.8</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>5</ShieldRechargeEnergyUsage>
-				<ShieldResistance>5</ShieldResistance>
-				<ShieldStrength>440</ShieldStrength>
+				<ShieldRechargeRate>1.2</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>3</ShieldRechargeEnergyUsage>
+				<ShieldResistance>2</ShieldResistance>
+				<ShieldStrength>518.8</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>3</StaticEnergyUsed>
+				<StaticEnergyUsed>4.8</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -2437,7 +2437,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>5</ComponentIonDefense>
+				<ComponentIonDefense>7</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -2480,7 +2480,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>8</IonDamageDefense>
+				<IonDamageDefense>6</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2502,13 +2502,13 @@
 				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
 				<ScannerTracePower>0</ScannerTracePower>
 				<ScannerTraceRange>0</ScannerTraceRange>
-				<ShieldRechargeRate>2.7</ShieldRechargeRate>
-				<ShieldRechargeEnergyUsage>8</ShieldRechargeEnergyUsage>
-				<ShieldResistance>5</ShieldResistance>
-				<ShieldStrength>600</ShieldStrength>
+				<ShieldRechargeRate>1.6</ShieldRechargeRate>
+				<ShieldRechargeEnergyUsage>4</ShieldRechargeEnergyUsage>
+				<ShieldResistance>2.4</ShieldResistance>
+				<ShieldStrength>810.62</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>4</StaticEnergyUsed>
+				<StaticEnergyUsed>3.6</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -2555,7 +2555,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortise Shields [Ftr]</Name>
+		<Name>Tortoise Shields [Ftr]</Name>
 		<ImageFilename>Environment/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>
