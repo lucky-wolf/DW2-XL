@@ -206,10 +206,7 @@ YMMV, but this is my take on making it Extra Large!
 - Improved troop construction facilities to offer a small planetary development boost
 - Improved planetary defense facilities to always have visual effects
 - Humans: improved firing arcs for rear turret on FF and DD hulls
--
-- TODO: increase divergence of fuel efficiency between tech lineages (1000/1000, 1500/1000, 2000/1000)
-  - we'll need to have large and small fuel tanks for this - otherwise plasma is going to have no range at all
-- TODO: double Teekans hangar bays (either size or count)
+- Teekans: have full carrier bays on all of their ships
 
 ### v1.18.2
 - Updated for 1176 beta release

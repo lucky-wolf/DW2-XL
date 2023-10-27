@@ -74,8 +74,13 @@ func (j *job) applyHangarBays() (err error) {
 					// carriers & civilian stations get full bays
 					size = 50
 				default:
-					// all others just get aux bays if they have any hangar bays at all
-					size = 25
+					if e.Child("RaceId").StringValue() == "2" {
+						// teekans special ability is to get
+						size = 50
+					} else {
+						// all others just get aux bays if they have any hangar bays at all
+						size = 25
+					}
 				}
 
 				elements := statistics.elements
