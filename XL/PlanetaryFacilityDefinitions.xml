@@ -2357,7 +2357,24 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>200000</Money>
 		</BuildCost>
