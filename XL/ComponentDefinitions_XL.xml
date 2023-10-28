@@ -4644,7 +4644,7 @@
 			<EndFadeLengthRatio>0</EndFadeLengthRatio>
 			<TextureTintColor>
 				<R>255</R>
-				<G>255</G>
+				<G>30</G>
 				<B>0</B>
 				<A>255</A>
 			</TextureTintColor>
@@ -4659,19 +4659,19 @@
 			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
 			<ArmorImpactEffectTintColor>
 				<R>255</R>
-				<G>255</G>
+				<G>30</G>
 				<B>0</B>
 				<A>255</A>
 			</ArmorImpactEffectTintColor>
 			<HullImpactEffectTintColor>
 				<R>255</R>
-				<G>255</G>
+				<G>30</G>
 				<B>0</B>
 				<A>255</A>
 			</HullImpactEffectTintColor>
 			<FiringEffectTintColor>
 				<R>255</R>
-				<G>255</G>
+				<G>30</G>
 				<B>0</B>
 				<A>255</A>
 			</FiringEffectTintColor>
@@ -4713,7 +4713,7 @@
 			</WeaponChargeupEffectTintColor>
 			<TrailEffectTintColor>
 				<R>255</R>
-				<G>255</G>
+				<G>30</G>
 				<B>0</B>
 				<A>255</A>
 			</TrailEffectTintColor>
@@ -4836,16 +4836,16 @@
 				<TroopCapacity>0</TroopCapacity>
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>0.2</WeaponArmorBypass>
+				<WeaponArmorBypass>0</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
 				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
-				<WeaponDamageFalloffRatio>0.08</WeaponDamageFalloffRatio>
+				<WeaponDamageFalloffRatio>0.125</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
 				<WeaponEnergyPerShot>40</WeaponEnergyPerShot>
-				<WeaponFireRate>8</WeaponFireRate>
+				<WeaponFireRate>11</WeaponFireRate>
 				<WeaponFireType>FullLengthBeam</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
@@ -4862,10 +4862,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>5000</WeaponRange>
+				<WeaponRange>4400</WeaponRange>
 				<WeaponRawDamage>216</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponSpeed>2200</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -4970,12 +4970,12 @@
 				<TroopCapacity>0</TroopCapacity>
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>0.25</WeaponArmorBypass>
+				<WeaponArmorBypass>0</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
 				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
-				<WeaponDamageFalloffRatio>0.08</WeaponDamageFalloffRatio>
+				<WeaponDamageFalloffRatio>0.125</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
 				<WeaponEnergyPerShot>40</WeaponEnergyPerShot>
@@ -4996,10 +4996,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>6380</WeaponRange>
-				<WeaponRawDamage>312</WeaponRawDamage>
-				<WeaponShieldBypass>0.25</WeaponShieldBypass>
-				<WeaponSpeed>5000</WeaponSpeed>
+				<WeaponRange>6600</WeaponRange>
+				<WeaponRawDamage>432</WeaponRawDamage>
+				<WeaponShieldBypass>0</WeaponShieldBypass>
+				<WeaponSpeed>2200</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
