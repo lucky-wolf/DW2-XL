@@ -691,8 +691,9 @@
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<!-- locally acts as an additional shipyard -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.2</Amount>
+				<Amount>1.0</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -706,27 +707,14 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<!-- give a small bonus to empire as a whole -->
-				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>25000</Money>
 		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
+		<MaintenanceCost>2500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -734,7 +722,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Shipyard</Name>
+		<Name>Mega Shipyards</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Advanced Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>

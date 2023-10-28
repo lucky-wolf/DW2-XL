@@ -185,8 +185,9 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.4
-- Futzed with shield and armor Ion defenses for fighters and bombers
-  - I have no idea wtf I'm doing there...
+- Reduced ion defense for fighter shields
+- Tweaked visuals for pulsed planetary defenses (so they have a more blaster like visual)
+- Removed "Advanced Shipyards" facility and replaced it with "Mega Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
 
 ### v1.18.3
 - 1179 beta compatible
