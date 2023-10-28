@@ -190,6 +190,10 @@ YMMV, but this is my take on making it Extra Large!
 - Removed "Advanced Shipyards" facility and replaced it with "Mega Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
 - Improved "Galactic Science Center" facility so it was just a bit more interesting
 
+<!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
+<!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
+<!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
+
 ### v1.18.3
 - 1179 beta compatible
 - Added an extra general slot to frigates for Ackdarian, Boskara, Gizurean, Human, Ikkuro, Mortalen, Quameno, and Zenox

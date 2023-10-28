@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>87</PlanetaryFacilityDefinitionId>
+    <BuildCost>
+      <Money>10000</Money>
+    </BuildCost>
+    <MaintenanceCost>500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <FacilityFamilyId>49</FacilityFamilyId>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <QualityBoost>0</QualityBoost>
+	<SlaveryIncomeFactor>1.25</SlaveryIncomeFactor>
+	<SlaveryUnhappinessFactor>0.8</SlaveryUnhappinessFactor>
+    <Name>Enslavement Control Facility</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Enslavement Control</ImageFilename>
+  </PlanetaryFacilityDefinition>
+  <PlanetaryFacilityDefinition>
+    <PlanetaryFacilityDefinitionId>88</PlanetaryFacilityDefinitionId>
+    <EmpireBonuses>
+      <Bonus>
+        <Type>CharacterAppearanceIntelligenceAgent</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>Assassination</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>Concealment</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </EmpireBonuses>
+    <BuildCost>
+      <Money>50000</Money>
+    </BuildCost>
+    <MaintenanceCost>2500</MaintenanceCost>
+    <Size>100</Size>
+    <IsRuins>false</IsRuins>
+    <MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+    <MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+    <AchievementRaceId>-1</AchievementRaceId>
+    <WeaponComponentId>-1</WeaponComponentId>
+    <AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+    <FacilityFamilyId>50</FacilityFamilyId>
+    <ExclusiveWithinFamily>false</ExclusiveWithinFamily>
+    <QualityBoost>0</QualityBoost>
+    <Name>Terminal Operations Center</Name>
+    <ImageFilename>Environment/PlanetaryFacilities/Terminal Operations Center</ImageFilename>
+  </PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

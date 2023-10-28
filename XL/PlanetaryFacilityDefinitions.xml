@@ -81,7 +81,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Beam Emitters</Name>
+		<Name>Heavy Beam Installation</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -264,7 +264,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Planetary Beam Emitters</Name>
+		<Name>Expanded Beam Installation</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -718,7 +718,7 @@
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>17</FacilityFamilyId>
+		<FacilityFamilyId>61</FacilityFamilyId>
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
@@ -870,7 +870,7 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.4</Amount>
+				<Amount>1.0</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -909,10 +909,10 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>17</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>High Speed Shipyard</Name>
+		<Name>Imperial Mega-Shipyard</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/High Speed Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
