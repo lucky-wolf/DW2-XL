@@ -8,12 +8,7 @@ import (
 
 func FighterReactors(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("All strikecraft reactors will be set to:")
-		log.Println("- 20% Power")
-		log.Println("- 20% Energy Storage capacity")
-		log.Println("- Fuel storage set to 2x energy storage")
-	}
+	log.Println("All strikecraft reactors will be scaled to ship components")
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")

@@ -7,11 +7,7 @@ import (
 
 func HangarBays(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("All stations will have size 100 hangar bays")
-		log.Println("All carriers will have size 50 hangar bays")
-		log.Println("Everything else will have size 25 hangar bays")
-	}
+	log.Println("All hangar bays will be limited by hull classification")
 
 	// load the ship hull files
 	j, err := loadJobFor(folder, "ShipHulls_*")

@@ -8,12 +8,7 @@ import (
 
 func FighterArmor(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("All strikecraft armor will be set to:")
-		log.Println("- 20% Blast rating")
-		log.Println("- 20% Reactive rating")
-		log.Println("- 100% Ion Defense")
-	}
+	log.Println("All strikecraft armor will be scaled to ship components")
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")

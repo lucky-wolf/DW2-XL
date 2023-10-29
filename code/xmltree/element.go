@@ -216,3 +216,27 @@ func (e *XMLElement) CopyAndVisitByTag(tag string, from *XMLElement, visit func(
 
 	return
 }
+
+// updates it to be scaled by the given input
+func (e *XMLElement) ScaleChildBy(tag string, scale float64) (err error) {
+
+	if scale == 1.0 {
+		return
+	}
+
+	return e.Child(tag).ScaleBy(scale)
+}
+
+// updates it to be scaled by the given input
+func (e *XMLElement) ScaleChildToSiblingBy(child, sibling string, scale float64) {
+
+	if scale != 1.0 {
+		value := e.Child(sibling).NumericValue()
+		e.Child(child).SetValue(value * scale)
+	}
+}
+
+// sets one value to be that of another (both must be value types)
+func (e *XMLElement) SetChildToSibling(child, sibling string) {
+	e.Child(child).SetValue(e.Child(sibling).StringValue())
+}

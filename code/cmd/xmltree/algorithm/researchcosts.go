@@ -8,9 +8,7 @@ import (
 
 func ResearchCosts(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("Applies size, expense, and resource costs to research based on column position")
-	}
+	log.Println("Research size, expense, and resource costs will be scaled by tech level (column)")
 
 	// load all research definition files
 	j, err := loadJobFor(folder, "ResearchProjectDefinitions*.xml")

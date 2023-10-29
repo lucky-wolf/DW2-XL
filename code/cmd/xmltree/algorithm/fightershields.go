@@ -8,13 +8,7 @@ import (
 
 func FighterShields(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("All strikecraft shields will be set to:")
-		log.Println("- 20% Strength (and energy cost)")
-		log.Println("- 20% Recharge (and energy cost)")
-		log.Println("- 100% Ion Defense and Component Defense")
-		log.Println("- 100% Resistance and Component Defense")
-	}
+	log.Println("All strikecraft shields will be scaled to ship components")
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")

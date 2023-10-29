@@ -9,9 +9,7 @@ import (
 
 func FighterWeaponsAndPD(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("Fighter weapons and PD will be generated from corresponding [S] weapons")
-	}
+	log.Println("All strikecraft weapons and PD weapons will be scaled to ship components")
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")
@@ -131,30 +129,59 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement, isFighterOnly bool) (err erro
 		}
 		e.Child("WeaponVolleyFireRate").SetValue(0)
 
+		scaleWeapon := func(rof float64, dmg float64) {
+			// scale by our source weapon values
+			e.Child("WeaponFireRate").ScaleBy(1 / rof)
+			e.Child("WeaponRawDamage").ScaleBy(dmg)
+			e.Child("WeaponEnergyPerShot").ScaleBy(dmg)
+
+			// range is 1/3 + 50% more rapid fall-off
+			e.Child("WeaponRange").ScaleBy(0.3333333333)
+			e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5)
+
+			// fighter & PD weapons generically get a +10% targeting across the board (very short range = enhanced accuracy)
+			e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+		}
+
+		scaleIntercept := func(rof float64, dmg float64) {
+			// scale by our standard mode values
+			e.ScaleChildToSiblingBy("WeaponInterceptFireRate", "WeaponFireRate", 1/rof)
+			e.ScaleChildToSiblingBy("WeaponInterceptDamageFighter", "WeaponRawDamage", dmg)
+			e.ScaleChildToSiblingBy("WeaponInterceptDamageSeeking", "WeaponRawDamage", 2*dmg)
+			e.ScaleChildToSiblingBy("WeaponInterceptEnergyPerShot", "WeaponEnergyPerShot", dmg)
+
+			// currently we simply always set intercept range == base range for this weapon
+			e.SetChildToSibling("WeaponInterceptRange", "WeaponRange")
+
+			// PD must actually hit for it to be useful!
+			e.SetChildToSibling("WeaponInterceptComponentTargetingBonus", "ComponentTargetingBonus")
+			e.Child("WeaponInterceptComponentTargetingBonus").AdjustValue(0.1)
+		}
+
 		// scale standard fire relative to our source weapon
-		e.Child("WeaponFireRate").ScaleBy(0.25) // 4x rate of fire
-		e.Child("WeaponRawDamage").ScaleBy(0.25)
-		e.Child("WeaponEnergyPerShot").ScaleBy(0.25)
-		e.Child("WeaponRange").ScaleBy(0.3333333)
-		e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5) // reduced range, more rapid fall-off
+		// 4 x .375 = 1.5x total output
+		scaleWeapon(4, .375)
 
-		// fighter & PD weapons generically get a +10% targeting across the board
-		e.Child("ComponentTargetingBonus").AdjustValue(0.1)
-
-		// all other intercept values are same scale as our standard output
-		e.Child("WeaponInterceptFireRate").SetValue(e.Child("WeaponFireRate").NumericValue() / 8)           // x8 standard rof
-		e.Child("WeaponInterceptDamageFighter").SetValue(e.Child("WeaponRawDamage").NumericValue() / 2)     // x8/2 = x4 effective dps vs. fighters
-		e.Child("WeaponInterceptDamageSeeking").SetValue(e.Child("WeaponRawDamage").NumericValue() * 1)     // x8/1 = x8 effective dps vs. seeking ordinance
-		e.Child("WeaponInterceptEnergyPerShot").SetValue(e.Child("WeaponEnergyPerShot").NumericValue() / 8) // x8/8 = x1 energy cost during intercept mode
-		e.Child("WeaponInterceptRange").SetValue(e.Child("WeaponRange").StringValue())
-		e.Child("WeaponInterceptComponentTargetingBonus").SetValue(e.Child("ComponentTargetingBonus").NumericValue() + 0.1) // PD must actually hit for it to be useful
+		if isFighterOnly {
+			// for fighters scale intercept by...
+			// previously we were at a net 4x dmg vs. fighters and 8x dmg vs. seeking
+			// (8x rof, 1/2x dmg vs. fighters, and 8x rof, 1x dmg vs. seeking)
+			// now we're at 5x4 = 20x rof vs. standard (was 32x)
+			// and 5 x .4 = 200% total damage output compard to base, which is 1.5 normal = 300% total vs. standard weapon
+			scaleIntercept(5, .4)
+		} else {
+			// PD is 2 * 2 = 4x as effective as a ftr
+			// the very high rof means we should get cool visuals (blasters are now approx 4/s)
+			// note: we might want to break this out by weapon type (super high for kinetic & blaster, less so for beams & missiles)
+			scaleIntercept(10, .8)
+		}
 
 		// fighters and PD never do bombard damage
 		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
 			e.SetValue(0)
 		}
 
-		// some things just don't apply to fighters (but do to PD)
+		// some things just don't apply to fighters
 		if isFighterOnly {
 			e.Child("CrewRequirement").SetValue(0)
 			e.Child("StaticEnergyUsed").SetValue(0)
