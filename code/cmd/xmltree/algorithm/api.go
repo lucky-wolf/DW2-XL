@@ -13,9 +13,9 @@ var (
 )
 
 type Statistics struct {
-	objects  uint
-	elements uint
-	changed  uint
+	objects  int
+	elements int
+	changed  int
 }
 
 func (statistics *Statistics) For(filename string) string {

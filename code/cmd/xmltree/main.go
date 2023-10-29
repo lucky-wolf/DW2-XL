@@ -48,6 +48,8 @@ func main() {
 		err = algorithm.HangarBays(folder)
 	case "ResearchCosts":
 		err = algorithm.ResearchCosts(folder)
+	case "HyperDrives":
+		err = algorithm.HyperDrives(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}
