@@ -42,6 +42,8 @@
 			<xs:element minOccurs="0" maxOccurs="1" name="EmpireBonusSharingRate" type="xs:float" />
 			<xs:element minOccurs="1" maxOccurs="1" name="QualityBoost" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ValidPlanetTypeIds" type="ArrayOfUnsignedByte" />
+			<xs:element minOccurs="0" maxOccurs="1" name="SlaveryIncomeFactor" type="xs:float" />
+			<xs:element minOccurs="0" maxOccurs="1" name="SlaveryUnhappinessFactor" type="xs:float" />
 			<xs:element minOccurs="0" maxOccurs="1" name="ValidGovernmentIds" type="ArrayOfShort" />
 			<xs:element minOccurs="0" maxOccurs="1" name="TroopIdsRecruitable" type="ArrayOfShort" />
 			<xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />

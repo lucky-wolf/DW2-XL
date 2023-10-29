@@ -187,9 +187,11 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.4
 - Reduced ion defense for fighter shields
 - Tweaked visuals for pulsed planetary defenses (so they have a more blaster like visual)
-- Removed "Advanced Shipyards" facility and replaced it with "Mega Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
+- Removed "Advanced Shipyards" facility and replaced it with "Industrial Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
 - Improved "Galactic Science Center" facility so it was just a bit more interesting
 - Set all PD to use PD icons (even though tye overlap with other PD, at least they're clearly PD)
+- Almost all planetary facilities now offer at least a small colony development boost (they all increase economic activity and are a constant investment in that world)
+- Tweaked many planetary facilities to make them more aligned with their intended function in XL
 
 <!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->

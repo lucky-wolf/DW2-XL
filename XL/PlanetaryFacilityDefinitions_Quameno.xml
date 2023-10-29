@@ -4,13 +4,13 @@
 		<PlanetaryFacilityDefinitionId>95</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>CharacterQualityScientist</Type>
-				<Amount>0.2</Amount>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -81,13 +81,18 @@
 		<PlanetaryFacilityDefinitionId>98</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ResearchConstruction</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>0.15</Amount>
+				<Type>Scenery</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>

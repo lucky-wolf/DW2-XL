@@ -8,6 +8,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -35,6 +40,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -86,12 +96,12 @@
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
+				<Type>ColonyHappiness</Type>
 				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
+				<Type>ColonyDevelopment</Type>
 				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -122,6 +132,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>250000</Money>
@@ -140,7 +155,7 @@
 		<FacilityFamilyLevel>2</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Shield Generator Mk3</Name>
+		<Name>Colossal Planetary Shield Generator</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>

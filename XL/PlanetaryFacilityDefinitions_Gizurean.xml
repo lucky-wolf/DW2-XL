@@ -8,6 +8,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -36,6 +41,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -68,6 +78,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
@@ -92,6 +107,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>103</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>40000</Money>
 		</BuildCost>
