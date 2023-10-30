@@ -54,7 +54,7 @@ func (j *job) applyHangarBays() (err error) {
 					log.Println(role.XMLValue.String())
 				}
 
-				// default to auxilliary bays
+				// default to auxiliary bays
 				var size int
 				switch role.XMLValue.String() {
 				case "ConstructionShip":
