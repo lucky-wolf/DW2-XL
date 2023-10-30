@@ -100,10 +100,10 @@ func (j *job) save() {
 	}
 }
 
-func (j *job) find(tag, value string) (parent, element *xmltree.XMLElement) {
-	for _, f := range j.xfiles {
-		parent, element = f.root.Find(tag, value)
-		if parent != nil {
+func (j *job) find(tag, value string) (element *xmltree.XMLElement, file *xmlfile) {
+	for _, file = range j.xfiles {
+		element, _ = file.root.Find(tag, value)
+		if element != nil {
 			return
 		}
 	}

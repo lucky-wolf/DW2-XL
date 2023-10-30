@@ -192,8 +192,10 @@ YMMV, but this is my take on making it Extra Large!
 - Set all PD to use PD icons (even though tye overlap with other PD, at least they're clearly PD)
 - Almost all planetary facilities now offer at least a small colony development boost (they all increase economic activity and are a constant investment in that world)
 - Tweaked many planetary facilities to make them more aligned with their intended function in XL
-- 1.5x stronger ftr weapons
-- 6x stronger pd weapons
+- Strengthened Ftr and PD over 1.18.3
+  - 1.5x stronger ftr weapons
+  - 6x stronger pd weapons
+- Added 3 new levels of hyper drives for all 5 major technology lines
 
 <!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->

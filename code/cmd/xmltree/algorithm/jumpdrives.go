@@ -33,6 +33,7 @@ func (j *job) applyHyperDrives() (err error) {
 	const (
 		avg schedule = iota
 		good
+		best
 	)
 
 	// data tables
@@ -47,6 +48,12 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveJumpInitiationTime": []float64{25, 22.5, 20, 17.5, 15, 12.5, 10},
 			"HyperDriveRechargeTime":       []float64{25, 22.5, 20, 17.5, 15, 12.5, 10},
 			"HyperDriveJumpAccuracy":       []float64{2000, 2000, 2000, 2000, 2000, 2000, 2000},
+		},
+		{
+			"HyperDriveEnergyUsage":        []float64{72, 90, 108, 126, 144, 162, 180}, // 10% discount vs. avg
+			"HyperDriveJumpInitiationTime": []float64{18, 16, 14, 12, 10, 8, 6},
+			"HyperDriveRechargeTime":       []float64{18, 16, 14, 12, 10, 8, 6},
+			"HyperDriveSpeed":              []float64{350e3, 525e3, 700e3, 1050e3, 1400e3, 2100e3, 2800e3},
 		},
 		{
 			"HyperDriveEnergyUsage":        []float64{50, 70, 90, 110, 130, 150, 170},
@@ -68,60 +75,70 @@ func (j *job) applyHyperDrives() (err error) {
 		"HyperDriveJumpAccuracy",
 	}
 
-	componentSchedule := map[string]map[string]schedule{
+	componentSchedule := map[string]map[string][]float64{
 		"Snap Drive": {
-			"ComponentIonDefense":          avg,
-			"HyperDriveBlockingInsulation": avg,
-			"HyperDriveEnergyUsage":        avg,
-			"HyperDriveJumpInitiationTime": good,
-			"HyperDriveRechargeTime":       good,
-			"HyperDriveSpeed":              avg,
-			"HyperDriveJumpRange":          avg,
-			"HyperDriveJumpAccuracy":       avg,
+			"ComponentIonDefense":          data[avg]["ComponentIonDefense"],
+			"HyperDriveBlockingInsulation": data[avg]["HyperDriveBlockingInsulation"],
+			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
+			"HyperDriveJumpInitiationTime": data[best]["HyperDriveJumpInitiationTime"],
+			"HyperDriveRechargeTime":       data[best]["HyperDriveRechargeTime"],
+			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
+			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
 		"Sojourn Drive": {
-			"ComponentIonDefense":          avg,
-			"HyperDriveBlockingInsulation": avg,
-			"HyperDriveEnergyUsage":        avg,
-			"HyperDriveJumpInitiationTime": avg,
-			"HyperDriveRechargeTime":       avg,
-			"HyperDriveSpeed":              avg,
-			"HyperDriveJumpRange":          good,
-			"HyperDriveJumpAccuracy":       avg,
+			"ComponentIonDefense":          data[avg]["ComponentIonDefense"],
+			"HyperDriveBlockingInsulation": data[avg]["HyperDriveBlockingInsulation"],
+			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
+			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
+			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
+			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"HyperDriveJumpRange":          data[best]["HyperDriveJumpRange"],
+			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
 		"Hyperstream Drive": {
-			"ComponentIonDefense":          avg,
-			"HyperDriveBlockingInsulation": avg,
-			"HyperDriveEnergyUsage":        avg,
-			"HyperDriveJumpInitiationTime": avg,
-			"HyperDriveRechargeTime":       avg,
-			"HyperDriveSpeed":              good,
-			"HyperDriveJumpRange":          avg,
-			"HyperDriveJumpAccuracy":       avg,
+			"ComponentIonDefense":          data[avg]["ComponentIonDefense"],
+			"HyperDriveBlockingInsulation": data[avg]["HyperDriveBlockingInsulation"],
+			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
+			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
+			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
+			"HyperDriveSpeed":              data[best]["HyperDriveSpeed"],
+			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
+			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
 		"Smart Drive": {
-			"ComponentIonDefense":          avg,
-			"HyperDriveBlockingInsulation": avg,
-			"HyperDriveEnergyUsage":        good,
-			"HyperDriveJumpInitiationTime": avg,
-			"HyperDriveRechargeTime":       avg,
-			"HyperDriveSpeed":              avg,
-			"HyperDriveJumpRange":          good,
-			"HyperDriveJumpAccuracy":       avg,
+			"ComponentIonDefense":          data[avg]["ComponentIonDefense"],
+			"HyperDriveBlockingInsulation": data[avg]["HyperDriveBlockingInsulation"],
+			"HyperDriveEnergyUsage":        data[best]["HyperDriveEnergyUsage"],
+			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
+			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
+			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"HyperDriveJumpRange":          data[best]["HyperDriveJumpRange"],
+			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
+		},
+		"Velocity Drive": {
+			"ComponentIonDefense":          data[avg]["ComponentIonDefense"],
+			"HyperDriveBlockingInsulation": data[avg]["HyperDriveBlockingInsulation"],
+			"HyperDriveEnergyUsage":        data[good]["HyperDriveEnergyUsage"],
+			"HyperDriveJumpInitiationTime": data[good]["HyperDriveJumpInitiationTime"],
+			"HyperDriveRechargeTime":       data[good]["HyperDriveRechargeTime"],
+			"HyperDriveSpeed":              data[good]["HyperDriveSpeed"],
+			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
+			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
 	}
-
-	statistics := &j.xfiles[0].stats
 
 	applyStats := func(name string) (err error) {
 
 		// find this drive definition
-		e, _ := j.find("Name", name)
+		e, f := j.find("Name", name)
 		if e == nil {
 			return fmt.Errorf("%s not found", name)
 		}
 
-		actualSchedule, ok := componentSchedule[name]
+		statistics := &f.stats
+
+		componentValues, ok := componentSchedule[name]
 		if !ok {
 			return fmt.Errorf("component schedule for %s not found", name)
 		}
@@ -131,20 +148,9 @@ func (j *job) applyHyperDrives() (err error) {
 		for i, e := range stats {
 			for _, key := range keys {
 
-				lookup, ok := actualSchedule[key]
+				values, ok := componentValues[key]
 				if !ok {
-					err = fmt.Errorf("schedule for key %s not found", key)
-					return
-				}
-
-				if int(lookup) >= len(data) {
-					err = fmt.Errorf("invalid schedule %d for %s", lookup, name)
-					return
-				}
-
-				values, ok := data[lookup][key]
-				if !ok {
-					err = fmt.Errorf("values for key %s not found", key)
+					err = fmt.Errorf("component values for %s not found", key)
 					return
 				}
 
@@ -154,15 +160,16 @@ func (j *job) applyHyperDrives() (err error) {
 			statistics.changed++
 		}
 
+		statistics.objects++
+
 		return nil
 	}
 
-	for _, drive := range []string{"Snap Drive", "Sojourn Drive", "Hyperstream Drive", "Smart Drive"} {
+	for _, drive := range []string{"Snap Drive", "Sojourn Drive", "Hyperstream Drive", "Smart Drive", "Velocity Drive"} {
 		err = applyStats(drive)
 		if err != nil {
 			return
 		}
-		statistics.objects++
 	}
 
 	return

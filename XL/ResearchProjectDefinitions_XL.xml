@@ -367,7 +367,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>504</ResearchProjectId>
+				<ResearchProjectId>1212</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -375,7 +375,7 @@
 		<Components>
 			<Component>
 				<ComponentId>169</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -422,7 +422,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>506</ResearchProjectId>
+				<ResearchProjectId>1218</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -430,7 +430,7 @@
 		<Components>
 			<Component>
 				<ComponentId>171</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -438,35 +438,35 @@
 		<ResearchProjectId>1009</ResearchProjectId>
 		<Name>Sustained Jumps</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>54000</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>5400</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>5400</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>5400</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>5400</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>5400</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>4</Column>
 		<Row>207</Row>
 		<DisallowedRaceIds>
 			<!-- Dhayut have better tech -->
@@ -2220,7 +2220,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>505</ResearchProjectId>
+				<ResearchProjectId>1221</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -2228,7 +2228,7 @@
 		<Components>
 			<Component>
 				<ComponentId>170</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -8085,7 +8085,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1009</ResearchProjectId>
+				<ResearchProjectId>1215</ResearchProjectId>
 				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -8093,7 +8093,7 @@
 		<Components>
 			<Component>
 				<ComponentId>155</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -9870,6 +9870,858 @@
 			<Component>
 				<ComponentId>240</ComponentId>
 				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1210</ResearchProjectId>
+		<Name>Instant Jump Transition</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>27000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>206</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>504</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>169</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1211</ResearchProjectId>
+		<Name>Lightning Jump Initiation</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>54000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>206</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1210</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>169</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1212</ResearchProjectId>
+		<Name>Quantum Jump Initiation</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>108000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>206</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1211</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>169</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1213</ResearchProjectId>
+		<Name>Super Sustained Jumps</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>27000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>207</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1009</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>155</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1214</ResearchProjectId>
+		<Name>Standing Wave Jumps</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>54000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>207</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1213</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>155</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1215</ResearchProjectId>
+		<Name>Stretched Jumps</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>108000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>207</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1214</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>155</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1216</ResearchProjectId>
+		<Name>Hyperflow Smoothing</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>27000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>209</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>506</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>171</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1217</ResearchProjectId>
+		<Name>Hyperflow Guiding</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>54000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>209</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1216</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>171</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1218</ResearchProjectId>
+		<Name>Hyperflow Intensification</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>108000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>209</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1217</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>171</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1219</ResearchProjectId>
+		<Name>Calm Hyperflow</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>27000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>210</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>505</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>170</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1220</ResearchProjectId>
+		<Name>Quiet Hyperflow</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>54000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>210</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1219</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>170</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1221</ResearchProjectId>
+		<Name>Balanced Hyperflow</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>108000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>210</Row>
+		<DisallowedRaceIds>
+			<!-- Dhayut have better tech -->
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1220</ResearchProjectId>
+				<PathAppearanceLikelihood>0.9</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>170</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1222</ResearchProjectId>
+		<Name>Abstract Pulse Jump Theory</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>5400</Size>
+		<InitiationCost>
+			<Money>27000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>2700</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>204</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>798</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>10</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>370</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1223</ResearchProjectId>
+		<Name>Applied Pulse Jump Theory</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>10800</Size>
+		<InitiationCost>
+			<Money>54000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>5400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>204</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1222</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>10</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>370</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1224</ResearchProjectId>
+		<Name>Reified Pulse Jump Theory</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>21600</Size>
+		<InitiationCost>
+			<Money>108000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>10800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>204</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1223</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>10</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>370</ComponentId>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
