@@ -5,9 +5,9 @@ import (
 	"log"
 )
 
-func HyperDrives(folder string) (err error) {
+func Defenses(folder string) (err error) {
 
-	log.Println("Updates core hyperdrives to have 7 levels off of a common data table")
+	log.Println("Updates Defenses (Shields & Armor) off of a common data table")
 
 	// load all component definition files
 	j, err := loadJobFor(folder, "ComponentDefinitions*")
@@ -16,7 +16,7 @@ func HyperDrives(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyHyperDrives()
+	err = j.applyDefenses()
 	if err != nil {
 		return
 	}
@@ -27,7 +27,7 @@ func HyperDrives(folder string) (err error) {
 	return
 }
 
-func (j *job) applyHyperDrives() (err error) {
+func (j *job) applyDefenses() (err error) {
 
 	type schedule int
 	const (
@@ -44,7 +44,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveBlockingInsulation": []float64{10, 15, 20, 25, 30, 35, 40},
 			"HyperDriveEnergyUsage":        []float64{80, 100, 120, 140, 160, 180, 200},
 			"HyperDriveJumpRange":          []float64{160e6, 180e6, 200e6, 230e6, 260e6, 300e6, 340e6},
-			"HyperDriveSpeed":              []float64{300e3, 450e3, 600e3, 900e3, 1200e3, 1800e3, 2400e3},
+			"Defensespeed":                 []float64{300e3, 450e3, 600e3, 900e3, 1200e3, 1800e3, 2400e3},
 			"HyperDriveJumpInitiationTime": []float64{25, 22.5, 20, 17.5, 15, 12.5, 10},
 			"HyperDriveRechargeTime":       []float64{25, 22.5, 20, 17.5, 15, 12.5, 10},
 			"HyperDriveJumpAccuracy":       []float64{2000, 2000, 2000, 2000, 2000, 2000, 2000},
@@ -53,12 +53,12 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        []float64{72, 90, 108, 126, 144, 162, 180}, // 10% discount vs. avg
 			"HyperDriveJumpInitiationTime": []float64{18, 16, 14, 12, 10, 8, 6},
 			"HyperDriveRechargeTime":       []float64{18, 16, 14, 12, 10, 8, 6},
-			"HyperDriveSpeed":              []float64{350e3, 525e3, 700e3, 1050e3, 1400e3, 2100e3, 2800e3},
+			"Defensespeed":                 []float64{350e3, 525e3, 700e3, 1050e3, 1400e3, 2100e3, 2800e3},
 		},
 		{
 			"HyperDriveEnergyUsage":        []float64{50, 70, 90, 110, 130, 150, 170},
 			"HyperDriveJumpRange":          []float64{200e6, 240e6, 280e6, 330e6, 380e6, 440e6, 500e6},
-			"HyperDriveSpeed":              []float64{400e3, 600e3, 800e3, 1200e3, 1600e3, 2400e3, 3200e3},
+			"Defensespeed":                 []float64{400e3, 600e3, 800e3, 1200e3, 1600e3, 2400e3, 3200e3},
 			"HyperDriveJumpInitiationTime": []float64{12.5, 11.25, 10, 8.75, 7.5, 6.25, 5},
 			"HyperDriveRechargeTime":       []float64{12.5, 11.25, 10, 8.75, 7.5, 6.25, 5},
 		},
@@ -71,7 +71,7 @@ func (j *job) applyHyperDrives() (err error) {
 		"HyperDriveJumpInitiationTime",
 		"HyperDriveJumpRange",
 		"HyperDriveRechargeTime",
-		"HyperDriveSpeed",
+		"Defensespeed",
 		"HyperDriveJumpAccuracy",
 	}
 
@@ -82,7 +82,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
 			"HyperDriveJumpInitiationTime": data[best]["HyperDriveJumpInitiationTime"],
 			"HyperDriveRechargeTime":       data[best]["HyperDriveRechargeTime"],
-			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"Defensespeed":                 data[avg]["Defensespeed"],
 			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
 			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
@@ -92,7 +92,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
 			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
 			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
-			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"Defensespeed":                 data[avg]["Defensespeed"],
 			"HyperDriveJumpRange":          data[best]["HyperDriveJumpRange"],
 			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
@@ -102,7 +102,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        data[avg]["HyperDriveEnergyUsage"],
 			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
 			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
-			"HyperDriveSpeed":              data[best]["HyperDriveSpeed"],
+			"Defensespeed":                 data[best]["Defensespeed"],
 			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
 			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
@@ -112,7 +112,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        data[best]["HyperDriveEnergyUsage"],
 			"HyperDriveJumpInitiationTime": data[avg]["HyperDriveJumpInitiationTime"],
 			"HyperDriveRechargeTime":       data[avg]["HyperDriveRechargeTime"],
-			"HyperDriveSpeed":              data[avg]["HyperDriveSpeed"],
+			"Defensespeed":                 data[avg]["Defensespeed"],
 			"HyperDriveJumpRange":          data[best]["HyperDriveJumpRange"],
 			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
@@ -122,7 +122,7 @@ func (j *job) applyHyperDrives() (err error) {
 			"HyperDriveEnergyUsage":        data[good]["HyperDriveEnergyUsage"],
 			"HyperDriveJumpInitiationTime": data[good]["HyperDriveJumpInitiationTime"],
 			"HyperDriveRechargeTime":       data[good]["HyperDriveRechargeTime"],
-			"HyperDriveSpeed":              data[good]["HyperDriveSpeed"],
+			"Defensespeed":                 data[good]["Defensespeed"],
 			"HyperDriveJumpRange":          data[avg]["HyperDriveJumpRange"],
 			"HyperDriveJumpAccuracy":       data[avg]["HyperDriveJumpAccuracy"],
 		},
