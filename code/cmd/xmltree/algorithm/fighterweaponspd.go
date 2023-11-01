@@ -7,6 +7,9 @@ import (
 	"strings"
 )
 
+// TODO: we need to increase interceptor missiles (PD) speed so they can catch other missiles & fighters!
+// maybe also slow down their ROF / increase dmg/hit (say by factor of 2x)
+
 func FighterWeaponsAndPD(folder string) (err error) {
 
 	log.Println("All strikecraft weapons and PD weapons will be scaled to ship components")

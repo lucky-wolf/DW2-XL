@@ -196,10 +196,33 @@ YMMV, but this is my take on making it Extra Large!
   - 1.5x stronger ftr weapons
   - 6x stronger pd weapons
 - Added 3 new levels of hyper drives for all 5 major technology lines
+- Slowed down advanced assault pods (were a bit ridiculous)
+- Increased Research Time and Costs (especially from T5+)
+- Fixed a few goofed up research branch probabilities
 
 <!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
+
+- Ground Combat
+  - Improved Ground Combat
+    - Defense Centers
+      - Bastions (requires: Advanced Tactics?)
+    - Robotic Foundaries
+      - Advanced Troop Integration (bonus to inf off & def)
+    - Mech Foundaries
+      - Ground Troop Support Tactics
+    - Centralized Officer Training
+      - Improved Logistics
+        - Advanced Logistics
+          - Superior Logistics
+    - Improved Defense Tactics (tactics gives bonus to all types)
+      - Advanced Defense Tactics
+        - Superior Defense Tactics
+    - Improved Assault Tactics (tactics gives bonus to all types)
+      - Advanced Assault Tactics
+        - Superior Assault Tactics
+      -
 
 ### v1.18.3
 - 1179 beta compatible
