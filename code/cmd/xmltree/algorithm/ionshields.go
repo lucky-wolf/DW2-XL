@@ -33,8 +33,8 @@ func (j *job) applyIonShields() (err error) {
 	// data tables
 	type ValueTable map[string]func(level int) float64
 	data := ValueTable{
-		"ComponentIonDefense": func(level int) float64 { return 10 + float64(2*level) },
-		"IonDamageDefense":    func(level int) float64 { return 8 + float64(2*level) },
+		"ComponentIonDefense": func(level int) float64 { return 10 + float64(10*level) },
+		"IonDamageDefense":    func(level int) float64 { return 20 + float64(20*level) },
 		"CrewRequirement":     func(level int) float64 { return 5 },
 		"StaticEnergyUsed":    func(level int) float64 { return 4 + float64(2*level) },
 	}
