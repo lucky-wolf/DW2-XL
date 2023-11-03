@@ -159,6 +159,13 @@ func scaleFighterOrPDValues(e *xmltree.XMLElement, isFighterOnly bool) (err erro
 			// PD must actually hit for it to be useful!
 			e.SetChildToSibling("WeaponInterceptComponentTargetingBonus", "ComponentTargetingBonus")
 			e.Child("WeaponInterceptComponentTargetingBonus").AdjustValue(0.1)
+
+			// because the dw2 team is incredibly foolish, we have no direct way to know if a weapon is Ion or not
+			// so, we'll look for Ion damage attribute and base it on being non-zero there
+			// note: WeaponIonGeneralDamage is often zero in vanilla, but we've made it align with all other WeaponIon*Damage values in XL
+			if e.Child("WeaponIonGeneralDamage").StringValue() != "0" {
+				e.Child("WeaponInterceptIonDamageRatio").SetString("1")
+			}
 		}
 
 		// scale standard fire relative to our source weapon
