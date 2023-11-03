@@ -199,6 +199,7 @@ YMMV, but this is my take on making it Extra Large!
 - Slowed down advanced assault pods (were a bit ridiculous)
 - Increased Research Time and Costs (especially from T5+)
 - Fixed a few goofed up research branch probabilities
+- Fixed Ion [PD] weapons to indicate that their intercept damage is ionic
 
 <!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
