@@ -200,6 +200,7 @@ YMMV, but this is my take on making it Extra Large!
 - Increased Research Time and Costs (especially from T5+)
 - Fixed a few goofed up research branch probabilities
 - Fixed Ion [PD] weapons to indicate that their intercept damage is ionic
+- Fixed Ion weapons that failed to have ionic damage to general components
 
 <!-- TODO: analyze ion defenses and scale offenses to outmatch at tier-for-tier -->
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
