@@ -204,6 +204,12 @@ YMMV, but this is my take on making it Extra Large!
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
 
+Specialzed Hulls
+- Offensive (bigger / more weapons)
+- Defensive (more defenses)
+- Fast (more engines)
+- Command (more sensors)
+
 - Ground Combat
   - Improved Ground Combat
     - Defense Centers

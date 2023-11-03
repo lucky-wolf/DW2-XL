@@ -50,6 +50,8 @@ func main() {
 		err = algorithm.ResearchCosts(folder)
 	case "HyperDrives":
 		err = algorithm.HyperDrives(folder)
+	case "IonShields":
+		err = algorithm.IonShields(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}
