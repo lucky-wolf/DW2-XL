@@ -33,9 +33,10 @@ func (v *XMLValue) Elements() (elements []*XMLElement) {
 	return
 }
 
-func (v XMLValue) Clone() (v_ XMLValue) {
-	v_.contents = CloneContents(v.contents)
-	return
+func (v XMLValue) Clone() XMLValue {
+	// v is already a shallow copy, just do a deep copy on the contents
+	v.contents = CloneContents(v.contents)
+	return v
 }
 
 func (v *XMLValue) SetContents(contents any) {

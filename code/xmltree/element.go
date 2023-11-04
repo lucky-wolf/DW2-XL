@@ -5,7 +5,13 @@ import (
 	"regexp"
 )
 
-// element member functions
+// clone an element
+func (e *XMLElement) Clone() *XMLElement {
+	return &XMLElement{
+		StartElement: e.StartElement.Copy(),
+		XMLValue:     e.XMLValue.Clone(),
+	}
+}
 
 // returns the first matching element from the list of elements based on tag (name)
 func (e *XMLElement) Child(tag string) *XMLElement {
@@ -19,13 +25,6 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 
 // returns the first matching element from the list of elements based on regex of tag-name
 func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
-
-	// // build the regex
-	// r, err := regexp.Compile(pattern)
-	// if err != nil {
-	// 	err = fmt.Errorf("Pattern is not valid regex: %s", err)
-	// 	return
-	// }
 
 	// scan our elements for those that match
 	for _, e = range e.Elements() {
