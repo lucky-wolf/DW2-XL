@@ -866,7 +866,7 @@ Specialzed Hulls
 - Balance: planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
 - Balance: smoothed out terraforming facilities terraforming rates to a slow growth curve (terraforming is a decades long endeavour)
 - Bug fix: specialized military ship tech cost adjust to new arrangement
-- Bug fix: EM Defenses now require Ion Beams and Advanced Deflectors
+- Bug fix: EM Defenses now require Ion Cannons and Advanced Deflectors
 - Bug fix: EM Defenses now require some power to run the things
 - Bug fix: Base level Reactive Armor was 4 reflective but should have been a 5 (+2 compared to heavy armors)
 - Bug fix: Regenerated all fighters, bombers, and interceptor shmd files (fixes weapon mounts for drones)
@@ -1525,7 +1525,7 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |  475-500 | Quantum Shards                                             |
 |  475-525 | Aegis Missile Battery                                      |
 |      500 | Lightning & Hive & Replicating Swarm Missiles              |
-|      500 | Ion Beams + PD                                             |
+|      500 | Ion Cannons + PD                                             |
 |      600 | Supernova Torpedo                                          |
 |  550-650 | Bulwark Missile Battery                                    |
 |      750 | EM Wave Cannon                                             |

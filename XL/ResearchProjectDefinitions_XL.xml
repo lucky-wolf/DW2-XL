@@ -3694,7 +3694,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1068</ResearchProjectId>
-		<Name>EM Beams</Name>
+		<Name>EM Lance</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -3724,11 +3724,19 @@
 		<Row>81</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Constant Beam Weapons -->
+				<ResearchProjectId>8</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Improved Ion Cannons -->
 				<ResearchProjectId>10</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>40</ComponentId>
@@ -4211,31 +4219,31 @@
 		<ResearchProjectId>1078</ResearchProjectId>
 		<Name>Superior EMP Blast</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>9</Column>
 		<Row>84</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9338,33 +9346,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1197</ResearchProjectId>
-		<Name>Extreme Ion Point Defense</Name>
+		<Name>Advanced Ion Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>5</Column>
 		<Row>82</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9375,12 +9383,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>1</Level>
+				<ComponentId>219</ComponentId>
+				<Level>3</Level>
 			</Component>
 			<Component>
-				<ComponentId>57</ComponentId>
-				<Level>1</Level>
+				<ComponentId>21</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -10716,6 +10724,622 @@
 			<Component>
 				<ComponentId>370</ComponentId>
 				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1225</ResearchProjectId>
+		<Name>Superior EM Lance</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>81</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>149</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>40</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1226</ResearchProjectId>
+		<Name>EM Wave Projection</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>81</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1225</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>160</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1227</ResearchProjectId>
+		<Name>EM Wave Amplification</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>81</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1226</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>160</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1228</ResearchProjectId>
+		<Name>Rapid Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>82</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1197</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1229</ResearchProjectId>
+		<Name>Very Rapid Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>82</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1228</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1230</ResearchProjectId>
+		<Name>Crazy Rapid Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>82</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1229</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1231</ResearchProjectId>
+		<Name>Extremely Rapid Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>82</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1230</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1232</ResearchProjectId>
+		<Name>Ultra Rapid Ion Point Defense</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>82</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1231</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>57</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1233</ResearchProjectId>
+		<Name>Enhanced Ion Cannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>13500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>1350</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>1350</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>1350</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>83</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>54</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>11</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>224</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1234</ResearchProjectId>
+		<Name>Advanced Ion Cannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>8100</Size>
+		<InitiationCost>
+			<Money>40500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>83</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1233</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>11</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>224</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1235</ResearchProjectId>
+		<Name>Crazy Rapid Ion Cannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>83</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>166</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>334</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>181</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>58</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1236</ResearchProjectId>
+		<Name>Extremely Rapid Ion Cannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>83</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1235</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>334</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>181</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>58</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1237</ResearchProjectId>
+		<Name>Ultra Rapid Ion Cannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>83</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1236</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>334</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>181</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>58</ComponentId>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

@@ -31,8 +31,9 @@ func (j *job) applyIonWeapons() (err error) {
 
 	type LevelFunc = func(level int) float64
 
+	// warn: we number from 1..11 where 1 = t0, and 2,3,...,10 = t2,t3,...,t1l0
 	WeaponRawDamage := func(level int) float64 {
-		return 8 * float64(level+1)
+		return 8 * float64(level)
 	}
 	IonComponentDamage := func(level int) float64 {
 		return WeaponRawDamage(level) * 1.25
@@ -152,44 +153,58 @@ func (j *job) applyIonWeapons() (err error) {
 		},
 	)
 
-	// NOTE: we skip the t1 level for weapon level purposes
-	// so it goes 0, 1, 2,... where it's really t0, t2, t3, ...
+	// Wave Lance has more armor bypass
+	EMWaveLance := mergeFields(
+		EMLance,
+		FieldLookup{
+			"WeaponArmorBypass": func(level int) float64 { return 0.25 }, // std +25
+		},
+	)
+
+	// warn: we number from 1..11 where 1 = t0, and 2,3,...,10 = t2,t3,...,t1l0
 	components := map[string]ComponentData{
 		"Ion Field Projector [S]": {
-			fields: SmallIonCannon,
+			minLevel: 1,
+			maxLevel: 1,
+			fields:   SmallIonCannon,
 		},
 		"Ion Cannon [S]": {
-			minLevel: 1,
-			maxLevel: 54,
+			minLevel: 2,
+			maxLevel: 5,
 			fields:   SmallIonCannon,
 		},
 		"Ion Cannon [M]": {
 			minLevel: 2,
-			maxLevel: 4,
+			maxLevel: 5,
 			fields:   MediumIonCannon,
 		},
 
 		"Rapid Ion Cannon [S]": {
-			minLevel: 5,
-			maxLevel: 9,
+			minLevel: 6,
+			maxLevel: 10,
 			fields:   SmallIonCannon,
 		},
 
 		"Heavy Ion Cannon [M]": {
-			minLevel: 5,
-			maxLevel: 9,
+			minLevel: 6,
+			maxLevel: 10,
 			fields:   MediumHeavyIonCannon,
 		},
 		"Heavy Ion Cannon [L]": {
-			minLevel: 5,
-			maxLevel: 9,
+			minLevel: 6,
+			maxLevel: 10,
 			fields:   LargeHeavyIonCannon,
 		},
 
 		"Electromagnetic Lance [L]": {
-			minLevel: 2,
-			maxLevel: 9,
+			minLevel: 3,
+			maxLevel: 6,
 			fields:   EMLance,
+		},
+		"Electromagnetic Wave Lance [L]": {
+			minLevel: 8,
+			maxLevel: 10,
+			fields:   EMWaveLance,
 		},
 	}
 
