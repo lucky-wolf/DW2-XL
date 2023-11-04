@@ -102,7 +102,7 @@ func (j *Job) applyFighterReactors() (err error) {
 					e.Child("FuelStorageCapacity").SetValue(value * 100)
 
 					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetValue(0)
+					e.Child("CrewRequirement").SetString("0")
 
 					statistics.changed++
 					statistics.elements++

@@ -100,7 +100,7 @@ func (j *Job) applyFighterArmor() (err error) {
 					e.Child("ArmorReactiveRating").ScaleBy(0.2)
 
 					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetValue(0)
+					e.Child("CrewRequirement").SetString("0")
 				}
 
 				statistics.changed++

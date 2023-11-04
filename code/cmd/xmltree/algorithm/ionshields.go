@@ -31,9 +31,9 @@ func (j *Job) applyIonShields() (err error) {
 	// t2..t10 = level 2..10
 	components := map[string]ComponentData{
 		"Ion Shield": {
-			scaleToFtr: true,
-			minLevel:   2,
-			maxLevel:   10,
+			scaleTo:  []string{"Ion Shield [Ftr]"},
+			minLevel: 2,
+			maxLevel: 10,
 			fieldValues: ValuesTable{
 				"ComponentIonDefense": func(level int) float64 { return 5 * float64(level) },
 				"IonDamageDefense":    func(level int) float64 { return 10 * float64(level) },

@@ -103,7 +103,7 @@ func (j *Job) applyFighterShields() (err error) {
 					e.Child("StaticEnergyUsed").ScaleBy(0.2)
 
 					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetValue(0)
+					e.Child("CrewRequirement").SetString("0")
 
 					statistics.changed++
 					statistics.elements++

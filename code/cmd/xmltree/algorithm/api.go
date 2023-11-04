@@ -6,7 +6,7 @@ import (
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"os"
 	"path/filepath"
-	"strings"
+	"regexp"
 )
 
 var (
@@ -36,11 +36,13 @@ func ExtendValuesTable(fields, more ValuesTable) (result ValuesTable) {
 type ComponentData struct {
 	// todo: could we ever look this up viz research tree for first occurrence there?
 	//       that's just column in which it is listed for each level...
-	scaleToFtr  bool
+	scaleTo     []string // what other components are copies / scaled to this thing
 	minLevel    int
 	maxLevel    int
 	fieldValues ValuesTable
 }
+
+const IonFtrPDScaleFactor = 0.5
 
 func (statistics *Statistics) For(filename string) string {
 	return fmt.Sprintf("%s: objects found: %d, elements updated: %d of %d", filename, statistics.objects, statistics.changed, statistics.elements)
@@ -175,37 +177,47 @@ func (j *Job) Apply(name string, data ComponentData) (err error) {
 	statistics.objects++
 
 	// scale to fighter if required
-	if data.scaleToFtr {
-		err = j.ScaleToFighter(e)
+	for _, name := range data.scaleTo {
+		err = j.ScaleToComponentByName(e, name)
 	}
 
 	return
 }
 
-func (j *Job) ScaleToFighter(sourceDefinition *xmltree.XMLElement) (err error) {
+func (j *Job) ScaleToComponentByName(source *xmltree.XMLElement, name string) (err error) {
 
-	name := sourceDefinition.Child("Name").StringValue()
-	if strings.HasSuffix(name, " [S]") || strings.HasSuffix(name, " [M]") || strings.HasSuffix(name, " [L]") {
-		name = name[:len(name)-3]
-	}
-
-	// apply to [ftr]
-	name += " [Ftr]"
+	// figure out our target name
 	e, f := j.FindElement("Name", name)
 	if e == nil {
 		err = fmt.Errorf("%s not found", name)
 		return
 	}
-	statistics := &f.stats
 
-	// copy and scale resource requirements
-	err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
+	// scale it
+	err = j.ScaleComponentToComponent(f, source, e)
+
+	return
+}
+
+func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement, e *xmltree.XMLElement) (err error) {
+
+	statistics := &file.stats
+
+	// distinguish if this component is only for strike craft
+	isFighterOnly := e.Has("IsFighterOnly", "true")
+
+	// copy (and scale fighter) resource requirements
+	if isFighterOnly {
+		err = e.CopyAndVisitByTag("ResourcesRequired", source, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
+	} else {
+		err = e.CopyByTag("ResourcesRequired", source)
+	}
 	if err != nil {
-		log.Println(err)
+		return
 	}
 
 	// copy component stats
-	err = e.CopyByTag("Values", sourceDefinition)
+	err = e.CopyByTag("Values", source)
 	if err != nil {
 		log.Println(err)
 	}
@@ -220,12 +232,44 @@ func (j *Job) ScaleToFighter(sourceDefinition *xmltree.XMLElement) (err error) {
 			return
 		}
 
-		// scale down the ion defenses (or ion PD / ftr weapons will never penetrate)
-		// e.Child("ComponentIonDefense").ScaleBy(1)
-		// e.Child("IonDamageDefense").ScaleBy(1)
+		// "flatten" source volleys to 1 per shot but at 1/x fire rate (same dps, but distributed instead of burste firing)
+		if va := e.Child("WeaponVolleyAmount").NumericValue(); va != 1 {
+			e.Child("WeaponFireRate").ScaleBy(1.0 / va)
+			e.Child("WeaponVolleyAmount").SetValue(1)
+		}
+		e.Child("WeaponVolleyFireRate").SetString("0")
+
+		// scale standard fire relative to our source weapon
+		err = ScaleFtrOrPDMainWeaponValues(e, isFighterOnly)
+		if err != nil {
+			return
+		}
+
+		// scale intercept function
+		err = ScaleFtrOrPDInterceptValues(e, isFighterOnly)
+		if err != nil {
+			return
+		}
+
+		// scale down the ion defenses and offenses
+		err = ScaleFtrOrPDIonValues(e, isFighterOnly)
+		if err != nil {
+			return
+		}
+
+		// fighters and PD never do bombard damage
+		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
+			e.SetString("0")
+		}
+
+		// fighters don't have crew, and consume less energy
+		if isFighterOnly {
+			e.Child("CrewRequirement").SetString("0")
+			e.Child("StaticEnergyUsed").SetString("0.25")
+		}
 
 		// never a crew requirement for fighter components
-		e.Child("CrewRequirement").SetValue(0)
+		e.Child("CrewRequirement").SetString("0")
 
 		// 25% static draw
 		e.Child("StaticEnergyUsed").ScaleBy(0.25)
@@ -235,6 +279,132 @@ func (j *Job) ScaleToFighter(sourceDefinition *xmltree.XMLElement) (err error) {
 	}
 
 	statistics.objects++
+
+	return
+}
+
+func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+
+	e.Child("ComponentIonDefense").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("IonDamageDefense").ScaleBy(IonFtrPDScaleFactor)
+
+	e.Child("WeaponIonEngineDamage").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("WeaponIonHyperDriveDamage").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("WeaponIonSensorDamage").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("WeaponIonShieldDamage").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("WeaponIonWeaponDamage").ScaleBy(IonFtrPDScaleFactor)
+	e.Child("WeaponIonGeneralDamage").ScaleBy(IonFtrPDScaleFactor)
+
+	return
+}
+
+func FtrOrPDMainWeaponScaling(isFighterOnly bool) (rof float64, dmg float64) {
+	// 4 x .375 = 1.5x total output
+	return 4, .375
+}
+
+func FtrOrPDInterceptScaling(isFighterOnly bool) (rof float64, dmg float64) {
+	if isFighterOnly {
+		// for fighters scale intercept by...
+		// previously we were at a net 4x dmg vs. fighters and 8x dmg vs. seeking
+		// (8x rof, 1/2x dmg vs. fighters, and 8x rof, 1x dmg vs. seeking)
+		// now we're at 5x4 = 20x rof vs. standard (was 32x)
+		// and 5 x .4 = 200% total damage output compard to base, which is 1.5 normal = 300% total vs. standard weapon
+		rof = 5
+		dmg = .4
+	} else {
+		// PD is 2 * 2 = 4x as effective as a ftr
+		// the very high rof means we should get cool visuals (blasters are now approx 4/s)
+		// note: we might want to break this out by weapon type (super high for kinetic & blaster, less so for beams & missiles)
+		rof = 10
+		dmg = .8
+	}
+	return
+}
+
+func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+
+	// get appropriate scaling factors
+	rof, dmg := FtrOrPDMainWeaponScaling(isFighterOnly)
+
+	// scale by our source weapon values
+	e.Child("WeaponFireRate").ScaleBy(1 / rof)
+	e.Child("WeaponRawDamage").ScaleBy(dmg)
+	e.Child("WeaponEnergyPerShot").ScaleBy(dmg)
+
+	// range is 1/3 + 50% more rapid fall-off
+	e.Child("WeaponRange").ScaleBy(0.3333333333)
+	e.Child("WeaponDamageFalloffRatio").ScaleBy(1.5)
+
+	// fighter & PD weapons generically get a +10% targeting across the board (very short range = enhanced accuracy)
+	e.Child("ComponentTargetingBonus").AdjustValue(0.1)
+
+	return
+}
+
+func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+
+	// get appropriate scaling factors
+	rof, dmg := FtrOrPDInterceptScaling(isFighterOnly)
+
+	// scale by our standard mode values
+	e.ScaleChildToSiblingBy("WeaponInterceptFireRate", "WeaponFireRate", 1/rof)
+	e.ScaleChildToSiblingBy("WeaponInterceptDamageFighter", "WeaponRawDamage", dmg)
+	e.ScaleChildToSiblingBy("WeaponInterceptDamageSeeking", "WeaponRawDamage", 2*dmg)
+	e.ScaleChildToSiblingBy("WeaponInterceptEnergyPerShot", "WeaponEnergyPerShot", dmg)
+
+	// currently we simply always set intercept range == base range for this weapon
+	e.SetChildToSibling("WeaponInterceptRange", "WeaponRange")
+
+	// PD must actually hit for it to be useful!
+	e.SetChildToSibling("WeaponInterceptComponentTargetingBonus", "ComponentTargetingBonus")
+	e.Child("WeaponInterceptComponentTargetingBonus").AdjustValue(0.1)
+
+	// because the dw2 team is incredibly foolish, we have no direct way to know if a weapon is Ion or not
+	// so, we'll look for Ion damage attribute and base it on being non-zero there
+	// note: WeaponIonGeneralDamage is often zero in vanilla, but we've made it align with all other WeaponIon*Damage values in XL
+	if e.Child("WeaponIonGeneralDamage").StringValue() != "0" {
+		e.Child("WeaponInterceptIonDamageRatio").SetString("1")
+	}
+
+	return
+}
+
+func GetComponentSourceName(targetName string, isFighterOnly bool) (sourceName string) {
+
+	// find the corresponding small weapon by name
+	// PD in particular uses asymmetric sources
+	switch targetName {
+	case "Buckler Repeating Blaster [PD]":
+		sourceName = "Maxos Blaster [S]"
+	case "Guardian Defense Grid [PD]":
+		sourceName = "Omega Beam [S]"
+	case "Maelstrom Defender [PD]":
+		sourceName = "Titan Blaster [S]"
+	case "Point Defense Cannon [PD]":
+		sourceName = "Rail Gun [S]"
+	case "Sentinel Multi-Beam Defense [PD]":
+		sourceName = "Thuon Beam [S]"
+	case "Interceptor Missile [PD]":
+		sourceName = "Concussion Missile [S]"
+	case "Aegis Missile Battery [PD]":
+		sourceName = "Lightning Missile [S]"
+	default:
+		// simply use the component name [S] as our source component
+
+		// ion cannon
+		// ion rapid pulse array
+		// impact assault blaster
+		// terminator autocannon
+		// hive missile battery
+		// reinforcing swarm battery
+
+		if isFighterOnly {
+			sourceName = targetName[:len(targetName)-len(" [Ftr]")] + " [S]"
+		} else {
+			sourceName = targetName[:len(targetName)-len(" [PD]")] + " [S]"
+		}
+	}
 
 	return
 }

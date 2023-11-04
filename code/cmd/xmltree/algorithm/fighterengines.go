@@ -115,10 +115,10 @@ func (j *Job) applyFighterEngines() (err error) {
 					e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25) // .SetValue(1)
 
 					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetValue(0)
+					e.Child("CrewRequirement").SetString("0")
 
 					// no static energy usage for engines
-					e.Child("StaticEnergyUsed").SetValue(0)
+					e.Child("StaticEnergyUsed").SetString("0")
 				}
 
 				statistics.changed++
