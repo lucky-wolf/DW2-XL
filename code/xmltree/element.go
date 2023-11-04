@@ -2,40 +2,10 @@ package xmltree
 
 import (
 	"errors"
-	"fmt"
-	"log"
 	"regexp"
 )
 
 // element member functions
-
-// returns XMLElements only
-func (e *XMLValue) Elements() (elements []*XMLElement) {
-
-	// it is legal to call on a nil value (we simply have no child elements)
-	if e == nil {
-		return
-	}
-
-	// we are either a single or multiple elements
-	switch v := e.contents.(type) {
-	case *XMLElement:
-		// single element
-		elements = append(elements, v)
-	case []any:
-		// multiple child elements
-		for _, e := range v {
-			switch v := e.(type) {
-			case *XMLElement:
-				elements = append(elements, v)
-			}
-		}
-	default:
-		// we have no child elements
-	}
-
-	return
-}
 
 // returns the first matching element from the list of elements based on tag (name)
 func (e *XMLElement) Child(tag string) *XMLElement {
@@ -100,59 +70,6 @@ func (e *XMLElement) HasSuffix(tag string, suffix string) bool {
 		}
 	}
 	return false
-}
-
-func (e XMLValue) Clone() (v XMLValue) {
-	v.contents = CloneContents(e.contents)
-	return
-}
-
-func (e *XMLValue) SetContents(contents any) {
-	e.contents = contents
-	return
-}
-
-func (e *XMLValue) CloneContents() any {
-	return CloneContents(e.contents)
-}
-
-func CloneContents(contents any) any {
-
-	switch v := contents.(type) {
-
-	case []any:
-		// multiple child contents
-		contents := []any{}
-		for _, e := range v {
-			contents = append(contents, CloneContents(e))
-		}
-		return contents
-
-	case *XMLElement:
-		return &XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
-	case *XMLComment:
-		return &XMLComment{Comment: v.Copy()}
-	case *XMLDirective:
-		return &XMLDirective{Directive: v.Copy()}
-	case *XMLProcInst:
-		return &XMLProcInst{ProcInst: v.Copy()}
-
-	// case XMLElement:
-	// 	return XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
-	// case XMLComment:
-	// 	return XMLComment{Comment: v.Copy()}
-	// case XMLDirective:
-	// 	return XMLDirective{Directive: v.Copy()}
-	// case XMLProcInst:
-	// 	return XMLProcInst{ProcInst: v.Copy()}
-
-	case string:
-		return v
-	}
-
-	err := fmt.Errorf("cannot clone: invalid contents: %T", contents)
-	log.Fatal(err)
-	panic(err)
 }
 
 // visits each child with the given visitor function (aborts on error)
