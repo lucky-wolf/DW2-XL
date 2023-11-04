@@ -62,7 +62,7 @@ func (j *Job) applyFighterWeaponsAndPD() (err error) {
 				}
 
 				// find the corresponding small weapon by name
-				sourceName := GetComponentSourceName(targetName, e.Has("IsFighterOnly", "true"))
+				sourceName := GetComponentSourceName(targetName, IsWhat(e))
 				source, _ := j.FindElement("Name", sourceName)
 				if source == nil {
 					log.Printf("Missing: %s (for %s)", sourceName, targetName)
