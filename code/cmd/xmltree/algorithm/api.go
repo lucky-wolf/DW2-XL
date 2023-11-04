@@ -203,11 +203,13 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 
 	statistics := &file.stats
 
-	// distinguish if this component is only for strike craft
-	isFighterOnly := e.Has("IsFighterOnly", "true")
+	// distinguish what kind of target component we're dealing with
+	isFighter := e.Has("IsFighterOnly", "true")
+	isPointDefense := !isFighter && e.Has("Category", "WeaponIntercept")
+	isWeapon := e.HasPrefix("Category", "Weapon")
 
 	// copy (and scale fighter) resource requirements
-	if isFighterOnly {
+	if isFighter {
 		err = e.CopyAndVisitByTag("ResourcesRequired", source, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
 	} else {
 		err = e.CopyByTag("ResourcesRequired", source)
@@ -239,40 +241,44 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 		}
 		e.Child("WeaponVolleyFireRate").SetString("0")
 
-		// scale standard fire relative to our source weapon
-		err = ScaleFtrOrPDMainWeaponValues(e, isFighterOnly)
-		if err != nil {
-			return
+		if isFighter || isPointDefense {
+
+			// scale standard fire relative to our source weapon
+			err = ScaleFtrOrPDMainWeaponValues(e, isFighter)
+			if err != nil {
+				return
+			}
+
+			// scale intercept function
+			err = ScaleFtrOrPDInterceptValues(e, isFighter)
+			if err != nil {
+				return
+			}
+
+			// scale down the ion defenses and offenses
+			err = ScaleFtrOrPDIonValues(e, isFighter)
+			if err != nil {
+				return
+			}
+
+			// fighters and PD never do bombard damage
+			for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
+				e.SetString("0")
+			}
+
+			if isFighter {
+				// fighters never have crew requirements
+				e.Child("CrewRequirement").SetString("0")
+
+				if isWeapon {
+					// fighter weapons have no static draw for ftr
+					e.Child("StaticEnergyUsed").SetString("0")
+				} else {
+					// but other fighter components are simply scaled down
+					e.Child("StaticEnergyUsed").ScaleBy(0.25)
+				}
+			}
 		}
-
-		// scale intercept function
-		err = ScaleFtrOrPDInterceptValues(e, isFighterOnly)
-		if err != nil {
-			return
-		}
-
-		// scale down the ion defenses and offenses
-		err = ScaleFtrOrPDIonValues(e, isFighterOnly)
-		if err != nil {
-			return
-		}
-
-		// fighters and PD never do bombard damage
-		for _, e := range e.Matching(regexp.MustCompile("WeaponBombard.*")) {
-			e.SetString("0")
-		}
-
-		// fighters don't have crew, and consume less energy
-		if isFighterOnly {
-			e.Child("CrewRequirement").SetString("0")
-			e.Child("StaticEnergyUsed").SetString("0.25")
-		}
-
-		// never a crew requirement for fighter components
-		e.Child("CrewRequirement").SetString("0")
-
-		// 25% static draw
-		e.Child("StaticEnergyUsed").ScaleBy(0.25)
 
 		statistics.changed++
 		statistics.elements++
@@ -283,7 +289,7 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 	return
 }
 
-func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, isFighter bool) (err error) {
 
 	e.Child("ComponentIonDefense").ScaleBy(IonFtrPDScaleFactor)
 	e.Child("IonDamageDefense").ScaleBy(IonFtrPDScaleFactor)
@@ -298,13 +304,13 @@ func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, isFighterOnly bool) (err error
 	return
 }
 
-func FtrOrPDMainWeaponScaling(isFighterOnly bool) (rof float64, dmg float64) {
+func FtrOrPDMainWeaponScaling(isFighter bool) (rof float64, dmg float64) {
 	// 4 x .375 = 1.5x total output
 	return 4, .375
 }
 
-func FtrOrPDInterceptScaling(isFighterOnly bool) (rof float64, dmg float64) {
-	if isFighterOnly {
+func FtrOrPDInterceptScaling(isFighter bool) (rof float64, dmg float64) {
+	if isFighter {
 		// for fighters scale intercept by...
 		// previously we were at a net 4x dmg vs. fighters and 8x dmg vs. seeking
 		// (8x rof, 1/2x dmg vs. fighters, and 8x rof, 1x dmg vs. seeking)
@@ -322,10 +328,10 @@ func FtrOrPDInterceptScaling(isFighterOnly bool) (rof float64, dmg float64) {
 	return
 }
 
-func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, isFighter bool) (err error) {
 
 	// get appropriate scaling factors
-	rof, dmg := FtrOrPDMainWeaponScaling(isFighterOnly)
+	rof, dmg := FtrOrPDMainWeaponScaling(isFighter)
 
 	// scale by our source weapon values
 	e.Child("WeaponFireRate").ScaleBy(1 / rof)
@@ -342,10 +348,10 @@ func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, isFighterOnly bool) (er
 	return
 }
 
-func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, isFighterOnly bool) (err error) {
+func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, isFighter bool) (err error) {
 
 	// get appropriate scaling factors
-	rof, dmg := FtrOrPDInterceptScaling(isFighterOnly)
+	rof, dmg := FtrOrPDInterceptScaling(isFighter)
 
 	// scale by our standard mode values
 	e.ScaleChildToSiblingBy("WeaponInterceptFireRate", "WeaponFireRate", 1/rof)
@@ -370,7 +376,7 @@ func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, isFighterOnly bool) (err
 	return
 }
 
-func GetComponentSourceName(targetName string, isFighterOnly bool) (sourceName string) {
+func GetComponentSourceName(targetName string, isFighter bool) (sourceName string) {
 
 	// find the corresponding small weapon by name
 	// PD in particular uses asymmetric sources
@@ -399,7 +405,7 @@ func GetComponentSourceName(targetName string, isFighterOnly bool) (sourceName s
 		// hive missile battery
 		// reinforcing swarm battery
 
-		if isFighterOnly {
+		if isFighter {
 			sourceName = targetName[:len(targetName)-len(" [Ftr]")] + " [S]"
 		} else {
 			sourceName = targetName[:len(targetName)-len(" [PD]")] + " [S]"
