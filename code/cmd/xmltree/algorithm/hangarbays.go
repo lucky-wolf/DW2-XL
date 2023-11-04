@@ -10,7 +10,7 @@ func HangarBays(folder string) (err error) {
 	log.Println("All hangar bays will be limited by hull classification")
 
 	// load the ship hull files
-	j, err := loadJobFor(folder, "ShipHulls_*")
+	j, err := LoadJobFor(folder, "ShipHulls_*")
 	if err != nil {
 		return
 	}
@@ -22,12 +22,12 @@ func HangarBays(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
 
-func (j *job) applyHangarBays() (err error) {
+func (j *Job) applyHangarBays() (err error) {
 
 	for _, f := range j.xfiles {
 

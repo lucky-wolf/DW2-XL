@@ -10,7 +10,7 @@ func Defenses(folder string) (err error) {
 	log.Println("Updates Defenses (Shields & Armor) off of a common data table")
 
 	// load all component definition files
-	j, err := loadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*")
 	if err != nil {
 		return
 	}
@@ -22,12 +22,12 @@ func Defenses(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
 
-func (j *job) applyDefenses() (err error) {
+func (j *Job) applyDefenses() (err error) {
 
 	type schedule int
 	const (
@@ -131,7 +131,7 @@ func (j *job) applyDefenses() (err error) {
 	applyStats := func(name string) (err error) {
 
 		// find this drive definition
-		e, f := j.find("Name", name)
+		e, f := j.FindElement("Name", name)
 		if e == nil {
 			return fmt.Errorf("%s not found", name)
 		}

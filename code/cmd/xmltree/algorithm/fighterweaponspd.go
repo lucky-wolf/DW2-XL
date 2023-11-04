@@ -15,7 +15,7 @@ func FighterWeaponsAndPD(folder string) (err error) {
 	log.Println("All strikecraft weapons and PD weapons will be scaled to ship components")
 
 	// load all component definition files
-	j, err := loadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*")
 	if err != nil {
 		return
 	}
@@ -27,12 +27,12 @@ func FighterWeaponsAndPD(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
 
-func (j *job) applyFighterWeaponsAndPD() (err error) {
+func (j *Job) applyFighterWeaponsAndPD() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -70,7 +70,7 @@ func (j *job) applyFighterWeaponsAndPD() (err error) {
 
 				// find the corresponding small weapon by name
 				sourceName := getSourceOfPD(targetName, isFighterOnly)
-				sourceDefinition, _ := j.find("Name", sourceName)
+				sourceDefinition, _ := j.FindElement("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("Missing: %s (for %s)", sourceName, targetName)
 					continue

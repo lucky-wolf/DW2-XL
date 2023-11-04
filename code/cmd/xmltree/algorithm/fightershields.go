@@ -11,7 +11,7 @@ func FighterShields(folder string) (err error) {
 	log.Println("All strikecraft shields will be scaled to ship components")
 
 	// load all component definition files
-	j, err := loadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*")
 	if err != nil {
 		return
 	}
@@ -23,12 +23,12 @@ func FighterShields(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
 
-func (j *job) applyFighterShields() (err error) {
+func (j *Job) applyFighterShields() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -63,7 +63,7 @@ func (j *job) applyFighterShields() (err error) {
 
 				// find the corresponding ship shields by same name
 				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
-				sourceDefinition, _ := j.find("Name", sourceName)
+				sourceDefinition, _ := j.FindElement("Name", sourceName)
 				if sourceDefinition == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
 					continue

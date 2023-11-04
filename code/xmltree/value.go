@@ -105,3 +105,21 @@ func (v *XMLValue) Append(e *XMLElement) {
 		v.contents = []any{t, e.Clone()}
 	}
 }
+
+// ensures we have count copies of our first element
+func (v *XMLValue) SetElementCount(count int) (err error) {
+
+	stats := v.Elements()
+	switch l := len(stats); {
+	case l == 0:
+		return fmt.Errorf("no elements found")
+	case l < count:
+		for i := l; i < count; i++ {
+			v.Append(stats[0])
+		}
+	case l > count:
+		//TODO: delete excess component stats
+	}
+
+	return
+}

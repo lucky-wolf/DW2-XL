@@ -11,7 +11,7 @@ func ResearchCosts(folder string) (err error) {
 	log.Println("Research size, expense, and resource costs will be scaled by tech level (column)")
 
 	// load all research definition files
-	j, err := loadJobFor(folder, "ResearchProjectDefinitions*.xml")
+	j, err := LoadJobFor(folder, "ResearchProjectDefinitions*.xml")
 	if err != nil {
 		return
 	}
@@ -23,7 +23,7 @@ func ResearchCosts(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
@@ -44,7 +44,7 @@ var sizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 3
 // // x3...x2...x1.5     x3   x3   x3   x3    x2    x2     x2     x3/2   x3/2   x3/2   x3/2   ~t9.5
 // var sizes = []int{33, 100, 300, 900, 2700, 5400, 10800, 21600, 32400, 48600, 72900, 109350, 60750}
 
-func (j *job) applyResearchCosts() (err error) {
+func (j *Job) applyResearchCosts() (err error) {
 
 	for _, f := range j.xfiles {
 
