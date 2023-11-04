@@ -6,7 +6,7 @@ import (
 
 func IonShields(folder string) (err error) {
 
-	log.Println("Updates core ion shields to have 5 levels off of a common data table")
+	log.Println("Updates ion shields off of a common data table (ship & ftr)")
 
 	// load all component definition files
 	j, err := LoadJobFor(folder, "ComponentDefinitions*")

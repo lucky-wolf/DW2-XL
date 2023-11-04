@@ -228,7 +228,7 @@ func (j *Job) ScaleToFighter(sourceDefinition *xmltree.XMLElement) (err error) {
 		e.Child("CrewRequirement").SetValue(0)
 
 		// 25% static draw
-		e.Child("StaticEnergyUsed").SetValue(0.25)
+		e.Child("StaticEnergyUsed").ScaleBy(0.25)
 
 		statistics.changed++
 		statistics.elements++
