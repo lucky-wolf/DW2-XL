@@ -2,6 +2,7 @@ package xmltree
 
 import (
 	"errors"
+	"fmt"
 	"regexp"
 )
 
@@ -88,7 +89,6 @@ func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
 	return
 }
 
-var ErrSourceNodeNotFound = errors.New("source doesn't have a node to copy from")
 var ErrTargetNodeNotFound = errors.New("target doesn't have a node to copy to")
 
 // copies the specified child from the given element to the ourself (replacing any we already have)
@@ -97,14 +97,14 @@ func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (err error) {
 	// get source
 	source := from.Child(tag)
 	if source == nil {
-		err = ErrSourceNodeNotFound
+		err = fmt.Errorf("%s doesn't have a %s to copy from", from.Child("Name").StringValue(), tag)
 		return
 	}
 
 	// get target
 	target := e.Child(tag)
 	if target == nil {
-		err = ErrTargetNodeNotFound
+		err = fmt.Errorf("%s doesn't have a %s to copy from", e.Child("Name").StringValue(), tag)
 		return
 	}
 

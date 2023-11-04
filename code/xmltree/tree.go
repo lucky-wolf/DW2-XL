@@ -150,6 +150,11 @@ func (e *XMLValue) IntValue() int {
 // updates it to be scaled by the given input
 func (e *XMLValue) ScaleBy(scale float64) (err error) {
 
+	if e == nil {
+		err = fmt.Errorf("nil XMLValue (probably no child value by the given name)")
+		return
+	}
+
 	if scale == 1.0 {
 		return
 	}
@@ -165,6 +170,11 @@ func (e *XMLValue) ScaleBy(scale float64) (err error) {
 
 // updates it to be current value + adjustment
 func (e *XMLValue) AdjustValue(adjustment float64) (err error) {
+
+	if e == nil {
+		err = fmt.Errorf("nil XMLValue (probably no child value by the given name)")
+		return
+	}
 
 	if adjustment == 0.0 {
 		return

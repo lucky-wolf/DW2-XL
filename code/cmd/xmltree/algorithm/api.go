@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"lucky-wolf/DW2-XL/code/xmltree"
-	"math"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -226,8 +225,8 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 				return
 			}
 
-			// size must be an integer value
-			e.Child("Size").SetValue(math.Round(value / 4))
+			// size must be an integer value (round up)
+			e.Child("Size").SetValue(int(((3 + value) / 4)))
 		}
 	}
 
@@ -238,7 +237,7 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 		err = e.CopyByTag("ResourcesRequired", source)
 	}
 	if err != nil {
-		return
+		log.Println(err)
 	}
 
 	// copy component stats
@@ -322,10 +321,13 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 
 			// scale shield values
 			e.Child("ShieldRechargeRate").ScaleBy(0.2)
-			e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
+			if c := e.Child("ShieldRechargeEnergyUsage"); c != nil {
+				// warn: Golang claims it should be okay to call a nil -- yet windows explodes
+				c.ScaleBy(0.2)
+			}
+			// e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
 			e.Child("ShieldResistance").ScaleBy(0.2)
 			e.Child("ShieldStrength").ScaleBy(0.2)
-			e.Child("StaticEnergyUsed").ScaleBy(0.2)
 		}
 
 		statistics.changed++
