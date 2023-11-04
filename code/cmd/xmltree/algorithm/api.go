@@ -278,13 +278,13 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 			// fighters never have crew requirements
 			e.Child("CrewRequirement").SetString("0")
 
-			if is.weapon {
-				// fighter weapons have no static draw for ftr
-				e.Child("StaticEnergyUsed").SetString("0")
-			} else {
-				// but other fighter components are simply scaled down
-				e.Child("StaticEnergyUsed").ScaleBy(0.25)
-			}
+			// if is.weapon {
+			// 	// fighter weapons have no static draw for ftr
+			// 	e.Child("StaticEnergyUsed").SetString("0")
+			// } else {
+			// but other fighter components are simply scaled down
+			e.Child("StaticEnergyUsed").ScaleBy(0.2)
+			// }
 		}
 
 		statistics.changed++
