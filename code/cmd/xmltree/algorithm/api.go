@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"lucky-wolf/DW2-XL/code/xmltree"
+	"math"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -215,6 +216,21 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 	// distinguish what kind of target component we're dealing with
 	is := IsWhat(e)
 
+	// scale component size
+	if is.fighter {
+		size := source.Child("Size")
+		if size != nil {
+			var value float64
+			value, err = size.GetNumericValue()
+			if err != nil {
+				return
+			}
+
+			// size must be an integer value
+			e.Child("Size").SetValue(math.Round(value / 4))
+		}
+	}
+
 	// copy (and scale fighter) resource requirements
 	if is.fighter {
 		err = e.CopyAndVisitByTag("ResourcesRequired", source, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.25); return nil })
@@ -278,13 +294,38 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 			// fighters never have crew requirements
 			e.Child("CrewRequirement").SetString("0")
 
-			// if is.weapon {
-			// 	// fighter weapons have no static draw for ftr
-			// 	e.Child("StaticEnergyUsed").SetString("0")
-			// } else {
-			// but other fighter components are simply scaled down
+			// scale down static energy use
 			e.Child("StaticEnergyUsed").ScaleBy(0.2)
-			// }
+
+			// scale armor values
+			e.Child("ArmorBlastRating").ScaleBy(0.2)
+			e.Child("ArmorReactiveRating").ScaleBy(0.2)
+
+			// scale engine values
+			e.Child("EngineMainCruiseThrust").ScaleBy(0.5)
+			e.Child("EngineMainCruiseThrustEnergyUsage").ScaleBy(0.5)
+
+			e.Child("EngineMainMaximumThrust").ScaleBy(0.6)
+			e.Child("EngineMainMaximumThrustEnergyUsage").ScaleBy(0.6)
+
+			e.Child("EngineVectoringThrust").ScaleBy(0.25)
+			e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25)
+
+			// scale reactor values
+			e.Child("ReactorEnergyOutputPerSecond").ScaleBy(0.2)
+			e.Child("ReactorEnergyStorageCapacity").ScaleBy(0.2)
+			e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(0.2)
+			if value, err := e.Child("ReactorFuelUnitsForFullCharge").GetNumericValue(); err == nil {
+				// set the fuel units to be enough for 10 recharges
+				e.Child("FuelStorageCapacity").SetValue(value * 100)
+			}
+
+			// scale shield values
+			e.Child("ShieldRechargeRate").ScaleBy(0.2)
+			e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
+			e.Child("ShieldResistance").ScaleBy(0.2)
+			e.Child("ShieldStrength").ScaleBy(0.2)
+			e.Child("StaticEnergyUsed").ScaleBy(0.2)
 		}
 
 		statistics.changed++

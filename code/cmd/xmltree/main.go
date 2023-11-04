@@ -34,6 +34,8 @@ func main() {
 	switch function {
 	case "":
 		log.Println("no algorithm selected: will simply copy source to target")
+	case "Components":
+		err = algorithm.Components(folder)
 	case "FighterArmor":
 		err = algorithm.FighterArmor(folder)
 	case "FighterEngines":

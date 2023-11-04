@@ -2,8 +2,6 @@ package algorithm
 
 import (
 	"log"
-	"lucky-wolf/DW2-XL/code/xmltree"
-	"math"
 	"strings"
 )
 
@@ -32,8 +30,6 @@ func FighterEngines(folder string) (err error) {
 func (j *Job) applyFighterEngines() (err error) {
 
 	for _, f := range j.xfiles {
-
-		statistics := &f.stats
 
 		// the root will result in a single ArrayOf[RootObjectType]
 		for _, e := range f.root.Elements.Elements() {
@@ -64,69 +60,25 @@ func (j *Job) applyFighterEngines() (err error) {
 
 				// find the corresponding ship engines by same name
 				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
-				sourceDefinition, _ := j.FindElement("Name", sourceName)
-				if sourceDefinition == nil {
+				source, _ := j.FindElement("Name", sourceName)
+				if source == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
 					continue
 				}
 
-				// scale our size
-				size := sourceDefinition.Child("Size")
-				if size != nil {
-					var value float64
-					value, err = size.GetNumericValue()
-					if err != nil {
-						return
-					}
-					// size must be an integer value
-					e.Child("Size").SetValue(math.Round(value / 4))
+				// debug
+				if !Quiet {
+					log.Printf("%s from %s\n", targetName, sourceName)
 				}
 
-				// copy and scale resource requirements
-				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
+				// do it
+				err = j.ScaleComponentToComponent(f, source, e)
 				if err != nil {
-					log.Println(err)
+					return
 				}
-
-				// copy component stats
-				err = e.CopyByTag("Values", sourceDefinition)
-				if err != nil {
-					log.Println(err)
-				}
-
-				// now that we have our own copy of the component stats (same number of levels too)
-				// we can update each of those to scale for [Ftr] version
-				for _, e := range e.Child("Values").Elements() {
-
-					// every element should be a component bay
-					err = assertIs(e, "ComponentStats")
-					if err != nil {
-						return
-					}
-
-					// scale / modify the values for the component to match source
-					e.Child("EngineMainCruiseThrust").ScaleBy(0.5)
-					e.Child("EngineMainCruiseThrustEnergyUsage").ScaleBy(0.5) // .SetValue(0.7)
-
-					e.Child("EngineMainMaximumThrust").ScaleBy(0.6)
-					e.Child("EngineMainMaximumThrustEnergyUsage").ScaleBy(0.6) //.SetValue(1)
-
-					e.Child("EngineVectoringThrust").ScaleBy(0.25)
-					e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25) // .SetValue(1)
-
-					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetString("0")
-
-					// no static energy usage for engines
-					e.Child("StaticEnergyUsed").SetString("0")
-				}
-
-				statistics.changed++
-				statistics.elements++
-				statistics.objects++
 			}
 		}
 	}
-	err = nil
+
 	return
 }

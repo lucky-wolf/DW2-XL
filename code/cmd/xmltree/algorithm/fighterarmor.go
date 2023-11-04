@@ -2,7 +2,6 @@ package algorithm
 
 import (
 	"log"
-	"lucky-wolf/DW2-XL/code/xmltree"
 	"strings"
 )
 
@@ -31,8 +30,6 @@ func FighterArmor(folder string) (err error) {
 func (j *Job) applyFighterArmor() (err error) {
 
 	for _, f := range j.xfiles {
-
-		statistics := &f.stats
 
 		// the root will result in a single ArrayOf[RootObjectType]
 		for _, e := range f.root.Elements.Elements() {
@@ -63,49 +60,22 @@ func (j *Job) applyFighterArmor() (err error) {
 
 				// find the corresponding ship armor by same name
 				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
-				sourceDefinition, _ := j.FindElement("Name", sourceName)
-				if sourceDefinition == nil {
+				source, _ := j.FindElement("Name", sourceName)
+				if source == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
 					continue
 				}
 
-				// copy and scale resource requirements
-				err = e.CopyAndVisitByTag("ResourcesRequired", sourceDefinition, func(e *xmltree.XMLElement) error { e.Child("Amount").ScaleBy(0.2); return nil })
+				// debug
+				if !Quiet {
+					log.Printf("%s from %s\n", targetName, sourceName)
+				}
+
+				// do it
+				err = j.ScaleComponentToComponent(f, source, e)
 				if err != nil {
-					log.Println(err)
+					return
 				}
-
-				// copy component stats
-				err = e.CopyByTag("Values", sourceDefinition)
-				if err != nil {
-					log.Println(err)
-				}
-
-				// now that we have our own copy of the component stats (same number of levels too)
-				// we can update each of those to scale for [Ftr] version
-				for _, e := range e.Child("Values").Elements() {
-
-					// every element should be a component bay
-					err = assertIs(e, "ComponentStats")
-					if err != nil {
-						return
-					}
-
-					// scale down the ion defenses (or ion PD / ftr weapons will never penetrate)
-					e.Child("ComponentIonDefense").ScaleBy(0.5)
-					e.Child("IonDamageDefense").ScaleBy(0.2)
-
-					// scale / modify the values for the component to match source
-					e.Child("ArmorBlastRating").ScaleBy(0.2)
-					e.Child("ArmorReactiveRating").ScaleBy(0.2)
-
-					// never a crew requirement for fighter components
-					e.Child("CrewRequirement").SetString("0")
-				}
-
-				statistics.changed++
-				statistics.elements++
-				statistics.objects++
 			}
 		}
 	}
