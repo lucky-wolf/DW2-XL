@@ -203,6 +203,9 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Ion weapons that failed to have ionic damage to general components
 - Tractor Beams are now always [M] except for Teekan racial specials [S]
 - Overhauled Ion for all related systems (weapons, armor, shields, ...)
+- Teekans: Start with missiles
+- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're small
+- Fixed base combat troops tech to NOT offer any bonsues (just enables ground troops to be recruited)
 
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
