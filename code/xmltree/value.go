@@ -87,25 +87,6 @@ func CloneContents(contents any) any {
 	panic(err)
 }
 
-// we are converted to an []any if we aren't already
-// note: we append a clone of the specified element
-func (v *XMLValue) Append(e *XMLElement) {
-
-	switch t := v.contents.(type) {
-
-	case string:
-		err := fmt.Errorf("cannot append to a string XMLValue")
-		log.Fatal(err)
-		panic(err)
-
-	case []any:
-		v.contents = append(t, e.Clone())
-
-	default:
-		v.contents = []any{t, e.Clone()}
-	}
-}
-
 // ensures we have count copies of our first element
 func (v *XMLValue) SetElementCount(count int) (err error) {
 
@@ -114,11 +95,45 @@ func (v *XMLValue) SetElementCount(count int) (err error) {
 	case l == 0:
 		return fmt.Errorf("no elements found")
 	case l < count:
+		log.Printf("extending by %d elements", count-l)
 		for i := l; i < count; i++ {
 			v.Append(stats[0])
 		}
 	case l > count:
-		//TODO: delete excess component stats
+		log.Printf("truncating by %d elements", l-count)
+		v.Truncate(count)
+	}
+
+	return
+}
+
+// we must already be a []any or we error
+func (v *XMLValue) Append(e *XMLElement) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		v.contents = append(t, e.Clone())
+
+	default:
+		// v.contents = []any{t, e.Clone()}
+		err = fmt.Errorf("append requires []any")
+	}
+
+	return
+}
+
+// we must already be a []any or this is an error
+func (v *XMLValue) Truncate(count int) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		v.contents = t[:count]
+
+	default:
+		// v.contents = []any{t, e.Clone()}
+		err = fmt.Errorf("truncate requires []any")
 	}
 
 	return
