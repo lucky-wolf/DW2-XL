@@ -59,7 +59,7 @@ func (j *Job) applyIonWeapons() (err error) {
 		"WeaponSpeed":                       func(level int) float64 { return 2200 },  // todo: drive this off of WeaponFireType or Family
 		"WeaponRange":                       func(level int) float64 { return 800 + float64(level*100) },
 		"WeaponDamageFalloffRatio":          func(level int) float64 { return 0.25 },
-		"WeaponEnergyPerShot":               func(level int) float64 { return WeaponRawDamage(level) },
+		"WeaponEnergyPerShot":               func(level int) float64 { return 0.75 * WeaponRawDamage(level) },
 		"WeaponFireRate":                    WeaponRateOfFire,
 		"WeaponRawDamage":                   WeaponRawDamage,
 		"WeaponIonEngineDamage":             IonComponentDamage,
@@ -95,7 +95,7 @@ func (j *Job) applyIonWeapons() (err error) {
 	MediumHeavyIonCannon := ExtendValuesTable(
 		SmallIonCannon,
 		ValuesTable{
-			"WeaponEnergyPerShot":       func(level int) float64 { return 2 * WeaponRawDamage(level) },
+			"WeaponEnergyPerShot":       func(level int) float64 { return 1.5 * WeaponRawDamage(level) },
 			"WeaponRange":               func(level int) float64 { return 800 + float64(level*125) },
 			"WeaponDamageFalloffRatio":  func(level int) float64 { return 0.2 },
 			"WeaponRawDamage":           func(level int) float64 { return 2 * WeaponRawDamage(level) },
@@ -112,7 +112,7 @@ func (j *Job) applyIonWeapons() (err error) {
 	LargeHeavyIonCannon := ExtendValuesTable(
 		SmallIonCannon,
 		ValuesTable{
-			"WeaponEnergyPerShot":       func(level int) float64 { return 4 * WeaponRawDamage(level) },
+			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * WeaponRawDamage(level) },
 			"WeaponRange":               func(level int) float64 { return 800 + float64(level*150) },
 			"WeaponDamageFalloffRatio":  func(level int) float64 { return 0.2 },
 			"WeaponRawDamage":           func(level int) float64 { return 4 * WeaponRawDamage(level) },
@@ -132,7 +132,7 @@ func (j *Job) applyIonWeapons() (err error) {
 			"ComponentTargetingBonus":   func(level int) float64 { return float64(level-1) * 0.05 },
 			"WeaponArmorBypass":         func(level int) float64 { return 0.15 },  // std +25
 			"WeaponShieldBypass":        func(level int) float64 { return -0.15 }, // std -25
-			"WeaponEnergyPerShot":       func(level int) float64 { return 5 * WeaponRawDamage(level) },
+			"WeaponEnergyPerShot":       func(level int) float64 { return 3.75 * WeaponRawDamage(level) },
 			"WeaponFireRate":            func(level int) float64 { return 1.25 * WeaponRateOfFire(level) }, // 25% slower
 			"WeaponSpeed":               func(level int) float64 { return 5000 },                           // todo: drive this off of WeaponFireType or Family
 			"WeaponRange":               func(level int) float64 { return 1000 + float64(level*200) },
@@ -170,7 +170,7 @@ func (j *Job) applyIonWeapons() (err error) {
 		"WeaponSpeed":                       func(level int) float64 { return 325 + float64(25*level) }, // todo: drive this off of WeaponFireType or Family
 		"WeaponRange":                       func(level int) float64 { return float64(735 * level) },
 		"WeaponDamageFalloffRatio":          func(level int) float64 { return 0.1 },
-		"WeaponEnergyPerShot":               func(level int) float64 { return 2 * WeaponRawDamage(level) },
+		"WeaponEnergyPerShot":               func(level int) float64 { return 1.5 * WeaponRawDamage(level) },
 		"WeaponFireRate":                    func(level int) float64 { return 20 },
 		"WeaponRawDamage":                   func(level int) float64 { return 2 * WeaponRawDamage(level) },
 		"WeaponIonEngineDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
@@ -183,7 +183,7 @@ func (j *Job) applyIonWeapons() (err error) {
 	LargeIonBomb := ExtendValuesTable(
 		MediumIonBomb,
 		ValuesTable{
-			"WeaponEnergyPerShot":       func(level int) float64 { return 4 * WeaponRawDamage(level) },
+			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * WeaponRawDamage(level) },
 			"WeaponRawDamage":           func(level int) float64 { return 4 * WeaponRawDamage(level) },
 			"WeaponIonEngineDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
 			"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
