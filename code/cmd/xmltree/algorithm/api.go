@@ -225,8 +225,21 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 				return
 			}
 
-			// size must be an integer value (round up)
-			e.Child("Size").SetValue(int(((3 + value) / 4)))
+			// size must be an integer
+			switch {
+			case is.weapon:
+				// 11 -> 5
+				// 13 -> 10
+				if source.Child("Size").NumericValue() < 13 {
+					e.Child("Size").SetValue(5)
+				} else {
+					e.Child("Size").SetValue(10)
+				}
+			default:
+				// size must be an integer value (round up)
+				e.Child("Size").SetValue(int(((3 + value) / 4)))
+			}
+
 		}
 	}
 
