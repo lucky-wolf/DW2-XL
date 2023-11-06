@@ -8,12 +8,10 @@ import (
 
 func ResearchCosts(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("Applies size, expense, and resource costs to research based on column position")
-	}
+	log.Println("Research size, expense, and resource costs will be scaled by tech level (column)")
 
 	// load all research definition files
-	j, err := loadJobFor(folder, "ResearchProjectDefinitions*.xml")
+	j, err := LoadJobFor(folder, "ResearchProjectDefinitions*.xml")
 	if err != nil {
 		return
 	}
@@ -25,7 +23,7 @@ func ResearchCosts(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
@@ -33,15 +31,20 @@ func ResearchCosts(folder string) (err error) {
 // columns 0..12
 
 // x3...
-// var sizes = []int{33, 100, 300, 900, 2700, 8100, 24300, 72900, 218700, 656100, 1968300, 5904900, 400000}
+// var sizes = []int{33, 100, 300, 900, 2700, 8100, 24300, 72900, 218700, 656100, 1968300, 5904900, 656100}
 
-// x3...x2
+// // x3...x2            x3   x3   x3   x3    x2    x2     x2     x2     x2     x2      x2      ~t9
 // var sizes = []int{33, 100, 300, 900, 2700, 5400, 10800, 21600, 43200, 86400, 172800, 345600, 86400}
 
-// x3...x2...x1.5
-var sizes = []int{33, 100, 300, 900, 2700, 5400, 10800, 21600, 32400, 48600, 72900, 109350, 60750}
+// more aggressive
+// x3...x2            x3   x3   x3   x3    x3    x2.5   x2.5   x2      x2      x1.5    x1.5    ~t9
+var sizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 455625, 202500}
 
-func (j *job) applyResearchCosts() (err error) {
+// XL up to 1.18.2
+// // x3...x2...x1.5     x3   x3   x3   x3    x2    x2     x2     x3/2   x3/2   x3/2   x3/2   ~t9.5
+// var sizes = []int{33, 100, 300, 900, 2700, 5400, 10800, 21600, 32400, 48600, 72900, 109350, 60750}
+
+func (j *Job) applyResearchCosts() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -76,27 +79,32 @@ func (j *job) applyResearchCosts() (err error) {
 					log.Println(techName)
 				}
 
-				// use that to see if there is a cost override / exception
-				switch techName {
-				case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
-					col = 1
-				case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
-					"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
-					col = 2
-				case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
-					col = 3
-				case "Basic Vault Systems", "Basic Vault Structures":
-					col = 3
-				default:
-					if strings.HasPrefix(techName, "Ancient Guardian") {
-						col = 3
-					} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
+				// note: undefined has size 0 always
+				var size int
+				if !strings.HasPrefix(techName, "Undefined:") {
+					// use that to see if there is a cost override / exception
+					switch techName {
+					case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
 						col = 1
+					case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
+						"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
+						col = 2
+					case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
+						col = 3
+					case "Basic Vault Systems", "Basic Vault Structures":
+						col = 3
+					default:
+						if strings.HasPrefix(techName, "Ancient Guardian") {
+							col = 3
+						} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
+							col = 1
+						}
 					}
+					size = sizes[col]
 				}
 
 				// set size from that
-				e.Child("Size").SetValue(sizes[col])
+				e.Child("Size").SetValue(size)
 
 				// set our initiation cost and resource amounts (if present)
 				if cost := e.Child("InitiationCost"); cost != nil {

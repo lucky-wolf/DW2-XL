@@ -3,38 +3,15 @@ package xmltree
 import (
 	"errors"
 	"fmt"
-	"log"
 	"regexp"
 )
 
-// element member functions
-
-// returns XMLElements only
-func (e *XMLValue) Elements() (elements []*XMLElement) {
-
-	// it is legal to call on a nil value (we simply have no child elements)
-	if e == nil {
-		return
+// clone an element
+func (e *XMLElement) Clone() *XMLElement {
+	return &XMLElement{
+		StartElement: e.StartElement.Copy(),
+		XMLValue:     e.XMLValue.Clone(),
 	}
-
-	// we are either a single or multiple elements
-	switch v := e.contents.(type) {
-	case *XMLElement:
-		// single element
-		elements = append(elements, v)
-	case []any:
-		// multiple child elements
-		for _, e := range v {
-			switch v := e.(type) {
-			case *XMLElement:
-				elements = append(elements, v)
-			}
-		}
-	default:
-		// we have no child elements
-	}
-
-	return
 }
 
 // returns the first matching element from the list of elements based on tag (name)
@@ -49,13 +26,6 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 
 // returns the first matching element from the list of elements based on regex of tag-name
 func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
-
-	// // build the regex
-	// r, err := regexp.Compile(pattern)
-	// if err != nil {
-	// 	err = fmt.Errorf("Pattern is not valid regex: %s", err)
-	// 	return
-	// }
 
 	// scan our elements for those that match
 	for _, e = range e.Elements() {
@@ -102,59 +72,6 @@ func (e *XMLElement) HasSuffix(tag string, suffix string) bool {
 	return false
 }
 
-func (e XMLValue) Clone() (v XMLValue) {
-	v.contents = CloneContents(e.contents)
-	return
-}
-
-func (e *XMLValue) SetContents(contents any) {
-	e.contents = contents
-	return
-}
-
-func (e *XMLValue) CloneContents() any {
-	return CloneContents(e.contents)
-}
-
-func CloneContents(contents any) any {
-
-	switch v := contents.(type) {
-
-	case []any:
-		// multiple child contents
-		contents := []any{}
-		for _, e := range v {
-			contents = append(contents, CloneContents(e))
-		}
-		return contents
-
-	case *XMLElement:
-		return &XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
-	case *XMLComment:
-		return &XMLComment{Comment: v.Copy()}
-	case *XMLDirective:
-		return &XMLDirective{Directive: v.Copy()}
-	case *XMLProcInst:
-		return &XMLProcInst{ProcInst: v.Copy()}
-
-	// case XMLElement:
-	// 	return XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
-	// case XMLComment:
-	// 	return XMLComment{Comment: v.Copy()}
-	// case XMLDirective:
-	// 	return XMLDirective{Directive: v.Copy()}
-	// case XMLProcInst:
-	// 	return XMLProcInst{ProcInst: v.Copy()}
-
-	case string:
-		return v
-	}
-
-	err := fmt.Errorf("cannot clone: invalid contents: %T", contents)
-	log.Fatal(err)
-	panic(err)
-}
-
 // visits each child with the given visitor function (aborts on error)
 func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
 
@@ -172,7 +89,6 @@ func (e *XMLElement) VisitChildren(visit func(*XMLElement) error) (err error) {
 	return
 }
 
-var ErrSourceNodeNotFound = errors.New("source doesn't have a node to copy from")
 var ErrTargetNodeNotFound = errors.New("target doesn't have a node to copy to")
 
 // copies the specified child from the given element to the ourself (replacing any we already have)
@@ -181,14 +97,14 @@ func (e *XMLElement) CopyByTag(tag string, from *XMLElement) (err error) {
 	// get source
 	source := from.Child(tag)
 	if source == nil {
-		err = ErrSourceNodeNotFound
+		err = fmt.Errorf("%s doesn't have a %s to copy from", from.Child("Name").StringValue(), tag)
 		return
 	}
 
 	// get target
 	target := e.Child(tag)
 	if target == nil {
-		err = ErrTargetNodeNotFound
+		err = fmt.Errorf("%s doesn't have a %s to copy from", e.Child("Name").StringValue(), tag)
 		return
 	}
 
@@ -215,4 +131,35 @@ func (e *XMLElement) CopyAndVisitByTag(tag string, from *XMLElement, visit func(
 	}
 
 	return
+}
+
+// updates it to be scaled by the given input
+func (e *XMLElement) ScaleChildBy(tag string, scale float64) (err error) {
+
+	if scale == 1.0 {
+		return
+	}
+
+	return e.Child(tag).ScaleBy(scale)
+}
+
+// sets one value to be that of another (both must be value types)
+func (e *XMLElement) SetChildToSibling(child, sibling string) {
+	e.Child(child).SetValue(e.Child(sibling).StringValue())
+}
+
+// updates it to be scaled by the given input
+func (e *XMLElement) ScaleChildToSiblingBy(child, sibling string, scale float64) {
+	if scale != 1.0 {
+		value := e.Child(sibling).NumericValue()
+		e.Child(child).SetValue(value * scale)
+	}
+}
+
+// updates it to be scaled by the given input
+func (e *XMLElement) AdjustChildToSiblingBy(child, sibling string, adj float64) {
+	if adj != 0 {
+		value := e.Child(sibling).NumericValue()
+		e.Child(child).SetValue(value + adj)
+	}
 }

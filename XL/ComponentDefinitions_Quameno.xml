@@ -570,7 +570,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>302</ComponentId>
-		<Size>6</Size>
+		<Size>5</Size>
 		<Category>Reactor</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -580,11 +580,11 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
-				<Amount>1.2</Amount>
+				<Amount>1.5</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId>
-				<Amount>0.6</Amount>
+				<Amount>0.75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -606,7 +606,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>2</ComponentIonDefense>
+				<ComponentIonDefense>1</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -742,7 +742,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>3</ComponentIonDefense>
+				<ComponentIonDefense>1.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -878,7 +878,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>5</ComponentIonDefense>
+				<ComponentIonDefense>2.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -1014,7 +1014,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>7</ComponentIonDefense>
+				<ComponentIonDefense>3.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -1849,7 +1849,7 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>372</ComponentId>
-		<Size>6</Size>
+		<Size>5</Size>
 		<Category>Shields</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
@@ -1859,23 +1859,23 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId>
-				<Amount>1.6</Amount>
+				<Amount>2</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
-				<Amount>1.6</Amount>
+				<Amount>2</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>7</ResourceId>
-				<Amount>0.8</Amount>
+				<Amount>1</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId>
-				<Amount>0.8</Amount>
+				<Amount>1</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>6</ResourceId>
-				<Amount>0.8</Amount>
+				<Amount>1</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -1897,7 +1897,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>1</ComponentIonDefense>
+				<ComponentIonDefense>0.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -1940,7 +1940,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>2</IonDamageDefense>
+				<IonDamageDefense>1</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2032,7 +2032,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>2</ComponentIonDefense>
+				<ComponentIonDefense>1</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -2075,7 +2075,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>3</IonDamageDefense>
+				<IonDamageDefense>1.5</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2167,7 +2167,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>3</ComponentIonDefense>
+				<ComponentIonDefense>1.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -2210,7 +2210,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>4</IonDamageDefense>
+				<IonDamageDefense>2</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2302,7 +2302,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>5</ComponentIonDefense>
+				<ComponentIonDefense>2.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -2345,7 +2345,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>6</IonDamageDefense>
+				<IonDamageDefense>3</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2437,7 +2437,7 @@
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
 				<ComponentCountermeasuresBonus>0</ComponentCountermeasuresBonus>
-				<ComponentIonDefense>7</ComponentIonDefense>
+				<ComponentIonDefense>3.5</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
 				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
@@ -2480,7 +2480,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>6</IonDamageDefense>
+				<IonDamageDefense>3</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>

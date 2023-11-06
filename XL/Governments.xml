@@ -219,16 +219,16 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
 			<string>Free</string>
-			<string>United</string>
 			<string>Galactic</string>
 			<string>New</string>
 			<string>Old</string>
+			<string>United</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Republic</string>
-			<string>Federation</string>
 			<string>Alliance</string>
 			<string>Commonwealth</string>
+			<string>Federation</string>
+			<string>Republic</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -241,8 +241,8 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 
 Mercantile Guilds generally allow a high degree of freedom and autonomy to their citizens. Basic rights and liberties are guaranteed by a simple set of laws that can apply to many situations. Entrepreneurial activity is very common, creating a dynamic business environment where high levels of wealth are generated quickly.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Grand Merchant</LeaderTitle>
-		<CabinetTitle>Captain of Industry</CabinetTitle>
+		<LeaderTitle>Guildmaster</LeaderTitle>
+		<CabinetTitle>Guild Captain</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float> <!-- Undefined, i.e. Unused -->
@@ -460,9 +460,10 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Free</string>
+			<string>Freemarket</string>
+			<string>Freebooting</string>
+			<string>Libertine</string>
 			<string>Mercentile</string>
-			<string>Capitalist</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Syndicate</string>
@@ -715,21 +716,21 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Free</string>
-			<string>United</string>
 			<string>Combined</string>
-			<string>Great</string>
+			<string>Free</string>
 			<string>Grand</string>
+			<string>Great</string>
+			<string>Unified</string>
+			<string>United</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Empire</string>
-			<string>Republic</string>
 			<string>Alliance</string>
-			<string>Territory</string>
-			<string>Federation</string>
-			<string>Confederation</string>
 			<string>Coalition</string>
 			<string>Colonies</string>
+			<string>Compact</string>
+			<string>Confederation</string>
+			<string>Federation</string>
+			<string>Territory</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -745,7 +746,7 @@ Under Feudalistic governments a noble class effectively forms a ruling council. 
 Feudalistic societies give heavy emphasis to hierarchy and rank. Their social structures are typically very static. Everyone has their predefined place in society – they submit to their local chief.</Description>
 		<ImageFilename></ImageFilename>
 		<LeaderTitle>Sovereign</LeaderTitle>
-		<CabinetTitle>Vassal</CabinetTitle>
+		<CabinetTitle>Noble</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -1005,20 +1006,22 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Resiliant</string>
-			<string>Iron</string>
 			<string>Dominant</string>
+			<string>Iron</string>
+			<string>Noble</string>
+			<string>Resiliant</string>
 			<string>Robust</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Empire</string>
 			<string>Alliance of Planets</string>
 			<string>Alliance of Worlds</string>
-			<string>Union of Planets</string>
-			<string>Union of Worlds</string>
+			<string>Council</string>
+			<string>Empire</string>
+			<string>Fiefdom</string>
 			<string>Federation of Planets</string>
 			<string>Federation of Worlds</string>
-			<string>Council</string>
+			<string>Union of Planets</string>
+			<string>Union of Worlds</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -1257,19 +1260,20 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Imperial</string>
-			<string>Royal</string>
 			<string>Great</string>
+			<string>Imperial</string>
+			<string>Noble</string>
 			<string>Pious</string>
+			<string>Royal</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Khanate</string>
-			<string>Dominion</string>
-			<string>Kingdom</string>
-			<string>Realm</string>
 			<string>Commonwealth</string>
 			<string>Domain</string>
+			<string>Dominion</string>
 			<string>Dynasty</string>
+			<string>Khanate</string>
+			<string>Kingdom</string>
+			<string>Realm</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -1282,8 +1286,8 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 
 Military Dictatorships regulate nearly every aspect of the public and private behavior of their subjects. Their political, social and civil structure is tuned towards military concerns and warfare. These types of governments are typically concerned with conquest and expansion.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Warlord</LeaderTitle>
-		<CabinetTitle>Councilor</CabinetTitle>
+		<LeaderTitle>Supreme Commander</LeaderTitle>
+		<CabinetTitle>General</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -1552,18 +1556,18 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
 			<string>Apex</string>
-			<string>Great</string>
 			<string>Grand</string>
+			<string>Great</string>
 			<string>Supreme</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Regime</string>
-			<string>Realm</string>
 			<string>Clans</string>
-			<string>Supremacy</string>
-			<string>Authority</string>
-			<string>Sovereignty</string>
 			<string>Junta</string>
+			<string>Realm</string>
+			<string>Regime</string>
+			<string>Sovereignty</string>
+			<string>Supremacy</string>
+			<string>Throne</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -1578,7 +1582,7 @@ Technocracies are typically highly efficient and free from corruption. However t
 
 Technocracy government type is only available to the Ackdarians.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Administrator</LeaderTitle>
+		<LeaderTitle>Prime Administrator</LeaderTitle>
 		<CabinetTitle>Peer</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -1787,9 +1791,9 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			<string>Academies</string>
 			<string>Concord of Planets</string>
 			<string>Concord of Worlds</string>
-			<string>Meritocracy</string>
 			<string>Councils</string>
 			<string>Foundation</string>
+			<string>Meritocracy</string>
 			<string>Society of Minds</string>
 		</EmpireNameNouns>
 	</Government>
@@ -1805,7 +1809,7 @@ In Hive Minds all work is divided amongst distinct social castes. Some castes ar
 
 Hive Mind government type is only available to the Boskara and Dhayut races.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Great Overseer</LeaderTitle>
+		<LeaderTitle>Conduit</LeaderTitle>
 		<CabinetTitle></CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -2058,17 +2062,17 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Voracious</string>
 			<string>Great</string>
 			<string>Limitless</string>
 			<string>Omnipotent</string>
 			<string>Omniscient</string>
+			<string>Voracious</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Hive</string>
 			<string>Collective</string>
-			<string>Swarm</string>
 			<string>Consciousness</string>
+			<string>Hive</string>
+			<string>Swarm</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -2076,8 +2080,8 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<Name>Way of Darkness</Name>
 		<Description></Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Dark Lord</LeaderTitle>
-		<CabinetTitle>Apprentice</CabinetTitle>
+		<LeaderTitle>Supreme Chancellor</LeaderTitle>
+		<CabinetTitle>Senator</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -2326,7 +2330,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<Name>Way of the Ancients</Name>
 		<Description></Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Supreme Leader</LeaderTitle>
+		<LeaderTitle>Wise One</LeaderTitle>
 		<CabinetTitle>Advisor</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -2557,7 +2561,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<Name>Path of the Ancients</Name>
 		<Description></Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Supreme Leader</LeaderTitle>
+		<LeaderTitle>First Speaker</LeaderTitle>
 		<CabinetTitle>Councilor</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -2803,8 +2807,8 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 
 			Archivist government type is only available to the Zenox race.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Master Archivist</LeaderTitle>
-		<CabinetTitle>Lore Master</CabinetTitle>
+		<LeaderTitle>Grandmaster Archivist</LeaderTitle>
+		<CabinetTitle>Archivist</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -3000,15 +3004,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Learned</string>
-			<string>Renouned</string>
-			<string>Meticulous</string>
 			<string>Knowledgeable</string>
+			<string>Learned</string>
+			<string>Meticulous</string>
+			<string>Renouned</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Curators</string>
-			<string>Librarians</string>
 			<string>Chroniclers</string>
+			<string>Curators</string>
+			<string>Historians</string>
+			<string>Librarians</string>
 		</EmpireNameNouns>
 	</Government>
 </ArrayOfGovernment>

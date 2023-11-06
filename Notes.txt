@@ -11,6 +11,35 @@ LET'S fix:
 
 - !!Make sensors dependent on countermeasure technologies, and boosted their countermeasure values to be in line with their dependencies !!
 
+<!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
+<!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
+
+Specialzed Hulls
+- Offensive (bigger / more weapons)
+- Defensive (more defenses)
+- Fast (more engines)
+- Command (more sensors)
+
+- Ground Combat
+  - Improved Ground Combat
+    - Defense Centers
+      - Bastions (requires: Advanced Tactics?)
+    - Robotic Foundaries
+      - Advanced Troop Integration (bonus to inf off & def)
+    - Mech Foundaries
+      - Ground Troop Support Tactics
+    - Centralized Officer Training
+      - Improved Logistics
+        - Advanced Logistics
+          - Superior Logistics
+    - Improved Defense Tactics (tactics gives bonus to all types)
+      - Advanced Defense Tactics
+        - Superior Defense Tactics
+    - Improved Assault Tactics (tactics gives bonus to all types)
+      - Advanced Assault Tactics
+        - Superior Assault Tactics
+      -
+
 ### PROPOSED
 - Specializations
   - Fast / Patrol
@@ -39,7 +68,7 @@ LET'S fix:
 	- Blasters
 	- Rail Guns
 
-Auxilliary Bays
+Auxiliary Bays
 	size 10, holds 1/1 ftr/bomber (or even 2/0 with a 0/2 variant?)
 
 Cool Ideas:
@@ -59,7 +88,7 @@ Cool Ideas:
 NULL OUT A RESEARCH PROJECT:
 	<ResearchProjectDefinition>
 		<ResearchProjectId>450</ResearchProjectId>
-		<Name>Undefined: 450</Name>
+		<Name>Undefined: (450)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
@@ -147,17 +176,20 @@ PQ is currently
 -                 ROWS                 -
 ----------------------------------------
 
-Weapons		  0.. 99
-	pulsed  	0..6   (7)
-	ion   		10..16 (7)
-	gravitic 	20..28 (9)
-	beam  		30..37 (8)
+ROW 0 IS ALWAYS UNDEFINED NOW!
+
+Weapons		     1..99
+	tractor		 1..05 (5)
+	gravitic 	10..18 (9)
+	beam  		20..28 (9)
+	pulsed  	30..36 (7)
 	kinetic   	40..44 (5)
-	torps		50..57 (8)
-	area 		60..62 (3)
-	bombs		70..72 (3)
-	missile 	80..86 (7)
-	misc		90..91 (2)
+	bombs		50..52 (3)
+	missile 	60..66 (7)
+	torps		70..77 (8)
+	area 		80..83 (4)
+	ion   		90..96 (7)
+	misc		98..99 (2)
 
 Armor       100..
 	Standard 100..102
@@ -235,7 +267,7 @@ Hybrid Plasma Weapons 316
 
 Ground Combat		6
 
-Improved Ion Beams	10
+Improved Ion Cannons	10
 Ion Area Weapons	11
 
 ----------------------------------------
@@ -823,3 +855,6 @@ intercept dmg fighter = same as main gun
 intercept dmg seeking = 10x (should prolly adjust this down a bit)
 
 BULB: we should make PD identical to [ftr] of same class in all respects -- it's simply the same weapon!
+
+
+1027 = improved ground combat

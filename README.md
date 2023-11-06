@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.4](#v1184)
 		- [v1.18.3](#v1183)
 		- [v1.18.2](#v1182)
 		- [v1.18.1](#v1181)
@@ -182,6 +183,42 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.4
+- 1.1.8.1 Compatible
+- Set all PD to use distinct icons (even though they overlap with other PD, at least they're clearly PD and not standard weapons)
+- Planetary Facilities
+  - Almost all planetary facilities now offer at least a small colony development boost (they all increase economic activity and are a constant investment in that world)
+  - Tweaked visuals for pulsed planetary defenses (so they have a more blaster like visual)
+  - Tweaked many planetary facilities to make them more aligned with their intended function in XL
+  - Removed "Advanced Shipyards" facility and replaced it with "Industrial Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
+  - Improved "Galactic Science Center" facility so it was just a bit more interesting
+- Strengthened [Ftr] weapons and all Point Defenses over 1.18.3
+  - 1.5x stronger ftr weapons compared to 1.18.3
+  - 6x stronger pd weapons compared to 1.18.3
+  - Fixed Ion [PD] weapons to indicate that their intercept damage is ionic in nature
+- Rebalanced all Ion weapons and defenses
+  - Completely revamped Ion Shields and Weapons to have a new balance
+  - Fixed Ion weapons that failed to have ionic damage to general components
+  - Redid Ion Bombs and Pulses to fit the new order
+  - Added a dozen or more tech levels and component levels for Ion weapons and defenses
+- Hyperdrives
+  - Added 15 new tech-levels and component-levels of hyper drives (3x5)
+  - Updated energy use of avg energy use hyperdrives to be 70 instead of 80
+  - Reduced jump range of avg range hyperdrives
+  - Improved relative jump range of good range hyperdrives (still reduced overall)
+- Research
+  - Increased Research Time and Costs (especially from T5+)
+  - Fixed a few goofed up research branch probabilities
+  - Rearranged some of the Weapons section
+  - Overhauled troops section
+- Tractor Beams are now always [M] except for Teekan racial specials [S]
+- Teekans: Start with missiles
+- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
+- Combat Troops & Invasions
+  - Added Ground Combat Academy which boosts recruitment and shows base infantry stats on tech screen
+  - Overhauled the troops tech tree & benefits
+  - Nerfed assault pod progression (was a bit OP)
 
 ### v1.18.3
 - 1179 beta compatible
@@ -453,7 +490,7 @@ YMMV, but this is my take on making it Extra Large!
   - Ikkuro line scales from 10-75% improvement
 - Reduced size of Citadel shields to 20, like all other shields
 - Fixed maximum size of Dhayut small and medium colonizers to be the same as other races
-- Planetary Bastion is now a direct upgrade from Planetary Defense Center
+- Planetary Bastion is now a direct upgrade from Planetary Defense Forces
 - Shakturi should no longer appear as independents in a (new) game
 
 ### v1.15.4
@@ -774,7 +811,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.9.7
 - Quameno have +20% and 40 minimum habitability for Ocean habitats, and +10% to Cold Ocean and Swamps
-- Added recruitment bonus to troop cloning facility (reduced it for planetary defense center)
+- Added recruitment bonus to troop cloning facility (reduced it for planetary defense forces)
 
 ### v1.9.6
 - Restored basic command module to +5% targeting & countermeasures
@@ -817,7 +854,7 @@ YMMV, but this is my take on making it Extra Large!
 - Balance: planetary Defense Facilities now have a 20% local defense and 20% local recruitment rate bonus
 - Balance: smoothed out terraforming facilities terraforming rates to a slow growth curve (terraforming is a decades long endeavour)
 - Bug fix: specialized military ship tech cost adjust to new arrangement
-- Bug fix: EM Defenses now require Ion Beams and Advanced Deflectors
+- Bug fix: EM Defenses now require Ion Cannons and Advanced Deflectors
 - Bug fix: EM Defenses now require some power to run the things
 - Bug fix: Base level Reactive Armor was 4 reflective but should have been a 5 (+2 compared to heavy armors)
 - Bug fix: Regenerated all fighters, bombers, and interceptor shmd files (fixes weapon mounts for drones)
@@ -1476,7 +1513,7 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |  475-500 | Quantum Shards                                             |
 |  475-525 | Aegis Missile Battery                                      |
 |      500 | Lightning & Hive & Replicating Swarm Missiles              |
-|      500 | Ion Beams + PD                                             |
+|      500 | Ion Cannons + PD                                             |
 |      600 | Supernova Torpedo                                          |
 |  550-650 | Bulwark Missile Battery                                    |
 |      750 | EM Wave Cannon                                             |

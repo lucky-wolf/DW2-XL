@@ -8,6 +8,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -34,6 +39,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -64,6 +74,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -81,7 +96,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Beam Emitters</Name>
+		<Name>Heavy Beam Installation</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -90,6 +105,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -120,6 +140,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
@@ -144,13 +169,13 @@
 		<PlanetaryFacilityDefinitionId>5</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>Targeting</Type>
+				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -175,6 +200,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>6</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>10000</Money>
 		</BuildCost>
@@ -196,6 +233,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>7</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
 		</BuildCost>
@@ -218,6 +267,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>8</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
 		</BuildCost>
@@ -246,6 +307,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
@@ -264,7 +330,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Planetary Beam Emitters</Name>
+		<Name>Expanded Beam Installation</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -273,6 +339,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -293,11 +364,23 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Planetary Ion Cannons</Name>
+		<Name>Expanded Ion Cannon Installation</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>11</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
 		</BuildCost>
@@ -315,15 +398,20 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Planetary Mine Projectors</Name>
+		<Name>Expanded Mine Projectors</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Mine Projectors</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>12</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>Targeting</Type>
-				<Amount>0.2</Amount>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -349,6 +437,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>13</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
 		</BuildCost>
@@ -375,6 +475,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -404,6 +509,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -471,7 +581,7 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -503,6 +613,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
@@ -521,7 +636,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Subspace Disruption Hubs</Name>
+		<Name>Subspace Disruption Projectors</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -530,6 +645,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -550,7 +670,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Subspace Disruption Hubs</Name>
+		<Name>Expanded Subspace Disruption Projectors</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -559,6 +679,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -591,6 +716,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>30000</Money>
@@ -621,6 +751,11 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>80000</Money>
@@ -645,14 +780,21 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>23</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
+				<Type>ColonyIncome</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyIncome</Type>
+				<Type>ColonyDevelopment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -662,13 +804,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -691,13 +826,9 @@
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<!-- locally acts as an additional shipyard -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.1</Amount>
+				<Amount>1.0</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -705,36 +836,28 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<!-- give a small bonus to empire as a whole -->
-				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
-		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>17</FacilityFamilyId>
+		<FacilityFamilyId>61</FacilityFamilyId>
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Shipyard</Name>
+		<Name>Industrial Shipyards</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Advanced Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -746,13 +869,13 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.2</Amount>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -800,18 +923,18 @@
 		<PlanetaryFacilityDefinitionId>26</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
+				<Type>ColonyHappiness</Type>
 				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -835,15 +958,27 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>27</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
+				<Type>TradeIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyIncome</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -852,13 +987,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -879,23 +1007,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>28</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.4</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<!-- small global boost -->
@@ -909,6 +1020,24 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<!-- acts as another shipyard locally -->
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>1.0</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -921,28 +1050,28 @@
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>17</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>High Speed Shipyard</Name>
+		<Name>Imperial Mega-Shipyard</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/High Speed Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>29</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>TourismIncome</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -1007,22 +1136,10 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>31</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>PlagueContainment</Type>
-				<Amount>0.7</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1032,7 +1149,17 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.4</Amount>
+				<Amount>0.33</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1045,12 +1172,14 @@
 				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -1071,23 +1200,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>32</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>0.5</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
@@ -1101,10 +1213,27 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>1.0</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -1126,6 +1255,16 @@
 		<PlanetaryFacilityDefinitionId>33</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>TourismIncome</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -1133,16 +1272,6 @@
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -1165,6 +1294,13 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>34</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
 				<Type>MiningRate</Type>
@@ -1197,13 +1333,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<Type>MiningRate</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -1219,7 +1348,7 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<!-- this doesn't actually work currently, game caps it at 0 -->
-		<!-- <QualityBoost>-.05</QualityBoost> -->
+		<!-- <QualityBoost>-0.05</QualityBoost> -->
 		<QualityBoost>0</QualityBoost>
 		<Name>Galactic Mining Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Galactic Mining Center</ImageFilename>
@@ -1295,43 +1424,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>36</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Scenery</Type>
-				<Amount>0.5</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.4</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>MiningRate</Type>
-				<Amount>-0.5</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
@@ -1344,6 +1436,33 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -1422,17 +1541,7 @@
 		<PlanetaryFacilityDefinitionId>38</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1441,13 +1550,18 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
-			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
 				<Amount>0.05</Amount>
@@ -1477,18 +1591,13 @@
 		<PlanetaryFacilityDefinitionId>39</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>-0.15</Amount>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>CharacterAppearanceIntelligenceAgent</Type>
 				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>CharacterQualityIntelligenceAgent</Type>
-				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1519,6 +1628,11 @@
 			<Bonus>
 				<Type>Assassination</Type>
 				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -1571,6 +1685,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -1655,17 +1776,7 @@
 		<PlanetaryFacilityDefinitionId>42</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1674,13 +1785,18 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
-			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
 				<Amount>0.1</Amount>
@@ -1710,17 +1826,7 @@
 		<PlanetaryFacilityDefinitionId>43</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.3</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1729,15 +1835,25 @@
 				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
+				<Type>CharacterQualityLeader</Type>
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>CharacterQualityLeader</Type>
+				<Type>CharacterAppearanceAmbassador</Type>
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
@@ -1765,17 +1881,7 @@
 		<PlanetaryFacilityDefinitionId>44</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.4</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.4</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -1784,13 +1890,18 @@
 				<Amount>0.4</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
-			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
 				<Amount>0.2</Amount>
@@ -1813,39 +1924,12 @@
 		<FacilityFamilyLevel>3</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Sprawling Planetary Administration</Name>
+		<Name>Integrated Planetary Administration</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>45</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
-			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
 				<Amount>0.5</Amount>
@@ -1856,7 +1940,39 @@
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -1920,6 +2036,28 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>150000</Money>
 		</BuildCost>
@@ -2008,13 +2146,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>50</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
@@ -2027,6 +2158,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -2046,13 +2184,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>51</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
@@ -2064,12 +2195,14 @@
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>ResearchTroops</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -2089,13 +2222,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>52</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
@@ -2113,6 +2239,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -2132,6 +2265,18 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>53</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
@@ -2139,13 +2284,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<EmpireBonuses>
-			<Bonus>
-				<Type>ResearchIndustrial</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</EmpireBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -2165,13 +2303,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>54</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
@@ -2184,6 +2315,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
@@ -2215,6 +2353,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -2245,12 +2390,14 @@
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>ResearchTroops</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -2287,6 +2434,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -2312,7 +2466,19 @@
 				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -2344,6 +2510,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -2369,7 +2542,24 @@
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>200000</Money>
 		</BuildCost>
@@ -2471,7 +2661,7 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2706,7 +2896,7 @@
 			<short>61</short>
 			<short>65</short>
 		</TroopIdsRecruitable>
-		<Name>Planetary Defense Center</Name>
+		<Name>Planetary Defense Forces</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Bastion</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2891,6 +3081,13 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
@@ -3198,23 +3395,6 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>94</PlanetaryFacilityDefinitionId>
-		<ItemBonuses>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
-			</Bonus>
-		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
@@ -3222,10 +3402,32 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<BuildCost>
-			<Money>50000</Money>
+			<Money>25000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>250</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>

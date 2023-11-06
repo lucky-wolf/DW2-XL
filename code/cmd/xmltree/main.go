@@ -34,6 +34,8 @@ func main() {
 	switch function {
 	case "":
 		log.Println("no algorithm selected: will simply copy source to target")
+	case "Components":
+		err = algorithm.Components(folder)
 	case "FighterArmor":
 		err = algorithm.FighterArmor(folder)
 	case "FighterEngines":
@@ -48,6 +50,12 @@ func main() {
 		err = algorithm.HangarBays(folder)
 	case "ResearchCosts":
 		err = algorithm.ResearchCosts(folder)
+	case "HyperDrives":
+		err = algorithm.HyperDrives(folder)
+	case "IonShields":
+		err = algorithm.IonShields(folder)
+	case "IonWeapons":
+		err = algorithm.IonWeapons(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}

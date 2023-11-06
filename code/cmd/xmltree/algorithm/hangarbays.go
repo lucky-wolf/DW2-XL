@@ -7,14 +7,10 @@ import (
 
 func HangarBays(folder string) (err error) {
 
-	if !Quiet {
-		log.Println("All stations will have size 100 hangar bays")
-		log.Println("All carriers will have size 50 hangar bays")
-		log.Println("Everything else will have size 25 hangar bays")
-	}
+	log.Println("All hangar bays will be limited by hull classification")
 
 	// load the ship hull files
-	j, err := loadJobFor(folder, "ShipHulls_*")
+	j, err := LoadJobFor(folder, "ShipHulls_*")
 	if err != nil {
 		return
 	}
@@ -26,12 +22,12 @@ func HangarBays(folder string) (err error) {
 	}
 
 	// save them all
-	j.save()
+	j.Save()
 
 	return
 }
 
-func (j *job) applyHangarBays() (err error) {
+func (j *Job) applyHangarBays() (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -58,7 +54,7 @@ func (j *job) applyHangarBays() (err error) {
 					log.Println(role.XMLValue.String())
 				}
 
-				// default to auxilliary bays
+				// default to auxiliary bays
 				var size int
 				switch role.XMLValue.String() {
 				case "ConstructionShip":

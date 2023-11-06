@@ -143,6 +143,70 @@
 		<Name>Advanced Pulse Jump Drives</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>204</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>10</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>796</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>10</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>370</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>798</ResearchProjectId>
+		<Name>Superior Pulse Jump Drives</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
 			<Money>13500</Money>
@@ -189,70 +253,6 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>796</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>10</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>370</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>798</ResearchProjectId>
-		<Name>Superior Pulse Jump Drives</Name>
-		<Description />
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>10800</Size>
-		<InitiationCost>
-			<Money>54000</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>1</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>2</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>3</ResourceId>
-					<Amount>5400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>204</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>10</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
 				<ResearchProjectId>797</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -271,37 +271,37 @@
 		<Name>Unified Pulse Jump Theory</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>32400</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>162000</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>16200</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -317,7 +317,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>798</ResearchProjectId>
+				<ResearchProjectId>1224</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>10</RaceId>
@@ -326,7 +326,7 @@
 		<Components>
 			<Component>
 				<ComponentId>370</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

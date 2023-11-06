@@ -908,15 +908,15 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
-				<Amount>2</Amount>
+				<Amount>2.5</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId>
-				<Amount>1</Amount>
+				<Amount>1.25</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
-				<Amount>1</Amount>
+				<Amount>1.25</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -981,7 +981,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>0.2</IonDamageDefense>
+				<IonDamageDefense>0.5</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -1115,7 +1115,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>0.2</IonDamageDefense>
+				<IonDamageDefense>0.5</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -1204,19 +1204,19 @@
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
-				<Amount>2.8</Amount>
+				<Amount>3.5</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>13</ResourceId>
-				<Amount>2.8</Amount>
+				<Amount>3.5</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
-				<Amount>1.4</Amount>
+				<Amount>1.75</Amount>
 			</ResourceQuantity>
 			<ResourceQuantity>
 				<ResourceId>10</ResourceId>
-				<Amount>1.4</Amount>
+				<Amount>1.75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<Values>
@@ -1281,7 +1281,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>0.4</IonDamageDefense>
+				<IonDamageDefense>1</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -1415,7 +1415,7 @@
 				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
 				<HyperStopRange>0</HyperStopRange>
 				<HyperStopStrength>0</HyperStopStrength>
-				<IonDamageDefense>0.4</IonDamageDefense>
+				<IonDamageDefense>1</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
 				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
@@ -2748,7 +2748,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Swarm Auxilliary Hangar Bay</Name>
+		<Name>Swarm Auxiliary Hangar Bay</Name>
 		<ImageFilename>Environment/Components/379-Hive Hangar</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
