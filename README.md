@@ -210,6 +210,8 @@ YMMV, but this is my take on making it Extra Large!
 - Research
   - Increased Research Time and Costs (especially from T5+)
   - Fixed a few goofed up research branch probabilities
+  - Rearranged some of the Weapons section
+  - Overhauled troops section
 - Tractor Beams are now always [M] except for Teekan racial specials [S]
 - Teekans: Start with missiles
 - Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
