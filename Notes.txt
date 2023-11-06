@@ -178,9 +178,8 @@ PQ is currently
 
 Weapons		     0..99
 	tractor		 0..04 (5)
-	pulsed  	10..16 (7)
+	gravitic 	10..18 (9)
 	beam  		20..28 (9)
-	gravitic 	30..38 (9)
 	kinetic   	40..44 (5)
 	bombs		50..52 (3)
 	torps		60..67 (8)
@@ -188,6 +187,8 @@ Weapons		     0..99
 	area 		80..83 (4)
 	ion   		90..96 (7)
 	misc		98..99 (2)
+
+	pulsed  	10..16 (7)
 
 Armor       100..
 	Standard 100..102
