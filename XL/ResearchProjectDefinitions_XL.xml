@@ -1505,17 +1505,17 @@
 		<ResearchProjectId>1029</ResearchProjectId>
 		<Name>Advanced EM Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -5062,17 +5062,17 @@
 		<ResearchProjectId>1090</ResearchProjectId>
 		<Name>Superior EM Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11343,22 +11343,21 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
-
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1238</ResearchProjectId>
 		<Name>Hardened EM Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11388,17 +11387,17 @@
 		<ResearchProjectId>1239</ResearchProjectId>
 		<Name>Resistive EM Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11428,17 +11427,17 @@
 		<ResearchProjectId>1240</ResearchProjectId>
 		<Name>Extreme EM Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11501,6 +11500,57 @@
 			<Component>
 				<ComponentId>22</ComponentId>
 				<Level>8</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1242</ResearchProjectId>
+		<Name>Gravitic Flux Beams</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>150</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>150</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>150</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>150</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>70</Row>
+		<DisallowedRaceIds>
+			<!-- Haakonish have better tech -->
+			<RaceProbability>
+				<RaceId>3</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>13</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>3</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
