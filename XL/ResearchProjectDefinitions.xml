@@ -10244,45 +10244,51 @@
 		<ResearchProjectId>212</ResearchProjectId>
 		<Name>Titans</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>202500</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>1012500</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>101250</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>101250</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
-		<Row>165</Row>
+		<Column>7</Column>
+		<Row>163</Row>
 		<PrerequisiteProjects>
-			<!-- super heavy mechs -->
+			<!-- Advanced Synthetics -->
 			<ResearchPath>
-				<ResearchProjectId>190</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<ResearchProjectId>191</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- elite operatives -->
+			<!-- heavy mechs -->
 			<ResearchPath>
-				<ResearchProjectId>194</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<ResearchProjectId>137</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- super soldiers -->
+			<!-- deep genetic engineering -->
 			<ResearchPath>
-				<ResearchProjectId>192</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<ResearchProjectId>139</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- stealth operations -->
+			<ResearchPath>
+				<ResearchProjectId>160</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>67</short>
 		</PlanetaryFacilityIds>
@@ -11372,7 +11378,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>240</ResearchProjectId>
-		<Name>Improved Titan Manufactories</Name>
+		<Name>Improved Titans</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>
@@ -11381,7 +11387,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>165</Row>
+		<Row>163</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>212</ResearchProjectId>
