@@ -185,57 +185,38 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.4
-- Reduced ion defense for fighter shields
-- Tweaked visuals for pulsed planetary defenses (so they have a more blaster like visual)
-- Removed "Advanced Shipyards" facility and replaced it with "Industrial Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
-- Improved "Galactic Science Center" facility so it was just a bit more interesting
-- Set all PD to use PD icons (even though tye overlap with other PD, at least they're clearly PD)
-- Almost all planetary facilities now offer at least a small colony development boost (they all increase economic activity and are a constant investment in that world)
-- Tweaked many planetary facilities to make them more aligned with their intended function in XL
-- Strengthened Ftr and PD over 1.18.3
-  - 1.5x stronger ftr weapons
-  - 6x stronger pd weapons
-- Added 3 new levels of hyper drives for all 5 major technology lines
-- Slowed down advanced assault pods (were a bit ridiculous)
-- Increased Research Time and Costs (especially from T5+)
-- Fixed a few goofed up research branch probabilities
-- Fixed Ion [PD] weapons to indicate that their intercept damage is ionic
-- Fixed Ion weapons that failed to have ionic damage to general components
+- 1.1.8.1 Compatible
+- Set all PD to use distinct icons (even though they overlap with other PD, at least they're clearly PD and not standard weapons)
+- Planetary Facilities
+  - Almost all planetary facilities now offer at least a small colony development boost (they all increase economic activity and are a constant investment in that world)
+  - Tweaked visuals for pulsed planetary defenses (so they have a more blaster like visual)
+  - Tweaked many planetary facilities to make them more aligned with their intended function in XL
+  - Removed "Advanced Shipyards" facility and replaced it with "Industrial Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
+  - Improved "Galactic Science Center" facility so it was just a bit more interesting
+- Strengthened [Ftr] weapons and all Point Defenses over 1.18.3
+  - 1.5x stronger ftr weapons compared to 1.18.3
+  - 6x stronger pd weapons compared to 1.18.3
+  - Fixed Ion [PD] weapons to indicate that their intercept damage is ionic in nature
+- Rebalanced all Ion weapons and defenses
+  - Completely revamped Ion Shields and Weapons to have a new balance
+  - Fixed Ion weapons that failed to have ionic damage to general components
+  - Redid Ion Bombs and Pulses to fit the new order
+  - Added a dozen or more tech levels and component levels for Ion weapons and defenses
+- Hyperdrives
+  - Added 15 new tech-levels and component-levels of hyper drives (3x5)
+  - Updated energy use of avg energy use hyperdrives to be 70 instead of 80
+  - Reduced jump range of avg range hyperdrives
+  - Improved relative jump range of good range hyperdrives (still reduced overall)
+- Research
+  - Increased Research Time and Costs (especially from T5+)
+  - Fixed a few goofed up research branch probabilities
 - Tractor Beams are now always [M] except for Teekan racial specials [S]
-- Overhauled Ion for all related systems (weapons, armor, shields, ...)
 - Teekans: Start with missiles
-- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're small
-- Fixed base combat troops tech to NOT offer any bonsues (just enables ground troops to be recruited)
-- Adjusted troop tactics and defense techs to have a better progression
-
-<!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
-<!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
-
-Specialzed Hulls
-- Offensive (bigger / more weapons)
-- Defensive (more defenses)
-- Fast (more engines)
-- Command (more sensors)
-
-- Ground Combat
-  - Improved Ground Combat
-    - Defense Centers
-      - Bastions (requires: Advanced Tactics?)
-    - Robotic Foundaries
-      - Advanced Troop Integration (bonus to inf off & def)
-    - Mech Foundaries
-      - Ground Troop Support Tactics
-    - Centralized Officer Training
-      - Improved Logistics
-        - Advanced Logistics
-          - Superior Logistics
-    - Improved Defense Tactics (tactics gives bonus to all types)
-      - Advanced Defense Tactics
-        - Superior Defense Tactics
-    - Improved Assault Tactics (tactics gives bonus to all types)
-      - Advanced Assault Tactics
-        - Superior Assault Tactics
-      -
+- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
+- Combat Troops & Invasions
+  - Fixed base combat troops tech to NOT offer any bonsues (just enables ground troops to be recruited)
+  - Adjusted troop tactics and defense techs to have a better progression (0, +5, +15, +30, +50)
+  - Nerfed assault pod progression (was a bit OP)
 
 ### v1.18.3
 - 1179 beta compatible
