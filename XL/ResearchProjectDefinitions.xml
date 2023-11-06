@@ -774,7 +774,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>161</Row>
+		<Row>162</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -803,7 +803,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>160</Row>
+		<Row>165</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -846,7 +846,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -855,7 +855,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -868,17 +868,17 @@
 		<ResearchProjectId>24</ResearchProjectId>
 		<Name>Improved Assault Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>1500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>150</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>150</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -887,12 +887,32 @@
 		<Column>3</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
+			<!-- Mechs -->
+			<ResearchPath>
+				<ResearchProjectId>21</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Genetic Enhancements -->
+			<ResearchPath>
+				<ResearchProjectId>23</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Battlefield Sabotage -->
+			<ResearchPath>
+				<ResearchProjectId>46</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Centralized Officer Training -->
 			<ResearchPath>
 				<ResearchProjectId>452</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<TroopTechs>
 			<TroopTech>
 				<Type>Infantry</Type>
@@ -927,17 +947,17 @@
 		<ResearchProjectId>25</ResearchProjectId>
 		<Name>Improved Defense Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>1500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>150</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>150</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -946,12 +966,32 @@
 		<Column>3</Column>
 		<Row>171</Row>
 		<PrerequisiteProjects>
+			<!-- Mechs -->
+			<ResearchPath>
+				<ResearchProjectId>21</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Genetic Enhancements -->
+			<ResearchPath>
+				<ResearchProjectId>23</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Battlefield Sabotage -->
+			<ResearchPath>
+				<ResearchProjectId>46</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Centralized Officer Training -->
 			<ResearchPath>
 				<ResearchProjectId>452</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<TroopTechs>
 			<TroopTech>
 				<Type>Infantry</Type>
@@ -1039,17 +1079,17 @@
 		<ResearchProjectId>27</ResearchProjectId>
 		<Name>Improved Logistics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -1897,7 +1937,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>162</Row>
+		<Row>164</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -1911,7 +1951,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>47</ResearchProjectId>
-		<Name>Planetary Defense Factory</Name>
+		<Name>Planetary Defense Forces</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -1926,7 +1966,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>167</Row>
+		<Row>151</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -3183,7 +3223,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>161</Row>
+		<Row>162</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>21</ResearchProjectId>
@@ -3253,7 +3293,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3262,7 +3302,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3272,27 +3312,27 @@
 		<ResearchProjectId>77</ResearchProjectId>
 		<Name>Advanced Assault Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -3335,27 +3375,27 @@
 		<ResearchProjectId>78</ResearchProjectId>
 		<Name>Advanced Defense Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>171</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -3419,7 +3459,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>166</Row>
+		<Row>150</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>47</ResearchProjectId>
@@ -3464,7 +3504,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>168</Row>
+		<Row>152</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>47</ResearchProjectId>
@@ -4699,7 +4739,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>162</Row>
+		<Row>164</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>46</ResearchProjectId>
@@ -6318,7 +6358,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>161</Row>
+		<Row>162</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>74</ResearchProjectId>
@@ -6397,7 +6437,7 @@
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 			<TroopTech>
@@ -6406,7 +6446,7 @@
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -6415,35 +6455,35 @@
 		<ResearchProjectId>140</ResearchProjectId>
 		<Name>Superior Assault Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>7</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6486,35 +6526,35 @@
 		<ResearchProjectId>141</ResearchProjectId>
 		<Name>Superior Defense Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>7</Column>
 		<Row>171</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6586,7 +6626,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>166</Row>
+		<Row>150</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>79</ResearchProjectId>
@@ -6639,7 +6679,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>168</Row>
+		<Row>152</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>80</ResearchProjectId>
@@ -7558,7 +7598,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>162</Row>
+		<Row>164</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>104</ResearchProjectId>
@@ -9016,7 +9056,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>161</Row>
+		<Row>162</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>137</ResearchProjectId>
@@ -9069,7 +9109,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>160</Row>
+		<Row>165</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>22</ResearchProjectId>
@@ -9147,35 +9187,35 @@
 		<ResearchProjectId>193</ResearchProjectId>
 		<Name>Supreme Assault Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>9</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9247,7 +9287,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>162</Row>
+		<Row>164</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>160</ResearchProjectId>
@@ -9271,35 +9311,35 @@
 		<ResearchProjectId>195</ResearchProjectId>
 		<Name>Supreme Defense Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>9</Column>
 		<Row>171</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -9371,7 +9411,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>166</Row>
+		<Row>150</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>142</ResearchProjectId>
@@ -9424,7 +9464,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>168</Row>
+		<Row>152</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>143</ResearchProjectId>
@@ -11328,7 +11368,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>240</ResearchProjectId>
-		<Name>Improved Attack</Name>
+		<Name>Improved Titan Manufactories</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>
@@ -11337,7 +11377,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>162</Row>
+		<Row>163</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>212</ResearchProjectId>
@@ -11355,34 +11395,6 @@
 						<Amount>0.1</Amount>
 						<AppliesTo>Empire</AppliesTo>
 					</Bonus>
-				</EmpireBonuses>
-			</PlanetaryFacilityValues>
-		</RepeatablePlanetaryFacilityValues>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>241</ResearchProjectId>
-		<Name>Improved Defense</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
-		<InitiationCost>
-			<Money>2278125</Money>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>11</Column>
-		<Row>164</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>212</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<RepeatableTechLimit>1000</RepeatableTechLimit>
-		<RepeatablePlanetaryFacilityValues>
-			<PlanetaryFacilityValues>
-				<PlanetaryFacilityDefinitionId>67</PlanetaryFacilityDefinitionId>
-				<EmpireBonuses>
 					<Bonus>
 						<Type>TroopGroundDefense</Type>
 						<Amount>0.1</Amount>
@@ -11391,6 +11403,17 @@
 				</EmpireBonuses>
 			</PlanetaryFacilityValues>
 		</RepeatablePlanetaryFacilityValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<!-- Improved Defense (really: titan manufactories defense values) -->
+		<ResearchProjectId>241</ResearchProjectId>
+		<Name>Undefined: 241</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>33</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>242</ResearchProjectId>
@@ -28717,32 +28740,32 @@
 		<ResearchProjectId>661</ResearchProjectId>
 		<Name>Planetary Bastion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>167</Row>
+		<Column>8</Column>
+		<Row>151</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>142</ResearchProjectId>
+				<ResearchProjectId>196</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>143</ResearchProjectId>
+				<ResearchProjectId>197</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
