@@ -79,27 +79,32 @@ func (j *Job) applyResearchCosts() (err error) {
 					log.Println(techName)
 				}
 
-				// use that to see if there is a cost override / exception
-				switch techName {
-				case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
-					col = 1
-				case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
-					"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
-					col = 2
-				case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
-					col = 3
-				case "Basic Vault Systems", "Basic Vault Structures":
-					col = 3
-				default:
-					if strings.HasPrefix(techName, "Ancient Guardian") {
-						col = 3
-					} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
+				// note: undefined has size 0 always
+				var size int
+				if !strings.HasPrefix(techName, "Undefined:") {
+					// use that to see if there is a cost override / exception
+					switch techName {
+					case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
 						col = 1
+					case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
+						"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":
+						col = 2
+					case "Study Degenerate Gizureans", "Restore Gizurean Hive Mind":
+						col = 3
+					case "Basic Vault Systems", "Basic Vault Structures":
+						col = 3
+					default:
+						if strings.HasPrefix(techName, "Ancient Guardian") {
+							col = 3
+						} else if strings.HasPrefix(techName, "Xeno Studies:") && col == 0 {
+							col = 1
+						}
 					}
+					size = sizes[col]
 				}
 
 				// set size from that
-				e.Child("Size").SetValue(sizes[col])
+				e.Child("Size").SetValue(size)
 
 				// set our initiation cost and resource amounts (if present)
 				if cost := e.Child("InitiationCost"); cost != nil {

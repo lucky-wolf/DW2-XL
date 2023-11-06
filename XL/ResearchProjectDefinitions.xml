@@ -759,7 +759,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>21</ResearchProjectId>
-		<Name>Mechs</Name>
+		<Name>Combat Mechs</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -803,7 +803,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>165</Row>
+		<Row>163</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>75</ResearchProjectId>
@@ -817,7 +817,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>23</ResearchProjectId>
-		<Name>Genetic Enhancements</Name>
+		<Name>Troop Cloning</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -840,26 +840,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<TroopTechs>
-			<TroopTech>
-				<Type>Infantry</Type>
-				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0.1</RecoveryRateFactor>
-				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
-				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
-			</TroopTech>
-			<TroopTech>
-				<Type>SpecialForces</Type>
-				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0.1</RecoveryRateFactor>
-				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
-				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
-			</TroopTech>
-		</TroopTechs>
+		<TroopTechs />
 		<PlanetaryFacilityIds>
 			<short>63</short>
 		</PlanetaryFacilityIds>
@@ -6454,19 +6435,19 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 			<TroopTech>
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0.1</DefendStrengthFactor>
-				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -9129,7 +9110,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>165</Row>
+		<Row>163</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>22</ResearchProjectId>
