@@ -185,8 +185,8 @@ Weapons		     1..99
 	pulsed  	30..36 (7)
 	kinetic   	40..44 (5)
 	bombs		50..52 (3)
-	torps		60..67 (8)
-	missile 	70..76 (7)
+	missile 	60..66 (7)
+	torps		70..77 (8)
 	area 		80..83 (4)
 	ion   		90..96 (7)
 	misc		98..99 (2)
@@ -855,3 +855,6 @@ intercept dmg fighter = same as main gun
 intercept dmg seeking = 10x (should prolly adjust this down a bit)
 
 BULB: we should make PD identical to [ftr] of same class in all respects -- it's simply the same weapon!
+
+
+1027 = improved ground combat

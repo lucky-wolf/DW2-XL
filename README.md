@@ -488,7 +488,7 @@ YMMV, but this is my take on making it Extra Large!
   - Ikkuro line scales from 10-75% improvement
 - Reduced size of Citadel shields to 20, like all other shields
 - Fixed maximum size of Dhayut small and medium colonizers to be the same as other races
-- Planetary Bastion is now a direct upgrade from Planetary Defense Center
+- Planetary Bastion is now a direct upgrade from Planetary Defense Factory
 - Shakturi should no longer appear as independents in a (new) game
 
 ### v1.15.4
@@ -809,7 +809,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.9.7
 - Quameno have +20% and 40 minimum habitability for Ocean habitats, and +10% to Cold Ocean and Swamps
-- Added recruitment bonus to troop cloning facility (reduced it for planetary defense center)
+- Added recruitment bonus to troop cloning facility (reduced it for planetary defense factory)
 
 ### v1.9.6
 - Restored basic command module to +5% targeting & countermeasures

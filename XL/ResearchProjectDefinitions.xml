@@ -72,7 +72,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<Components>
 			<Component>
 				<ComponentId>4</ComponentId>
@@ -88,7 +88,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<Components>
 			<Component>
 				<ComponentId>197</ComponentId>
@@ -128,7 +128,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>164</Row>
+		<Row>163</Row>
 		<TroopTechs>
 			<TroopTech>
 				<Type>Infantry</Type>
@@ -455,7 +455,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -507,7 +507,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>72</Row>
+		<Row>62</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>4</ResearchProjectId>
@@ -543,7 +543,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>4</ResearchProjectId>
@@ -774,7 +774,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>160</Row>
+		<Row>161</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -803,7 +803,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>161</Row>
+		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1027</ResearchProjectId>
@@ -817,7 +817,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>23</ResearchProjectId>
-		<Name>Genetic Replication</Name>
+		<Name>Genetic Enhancements</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -840,6 +840,26 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Infantry</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
 		<PlanetaryFacilityIds>
 			<short>63</short>
 		</PlanetaryFacilityIds>
@@ -878,7 +898,7 @@
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -887,7 +907,7 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -896,7 +916,7 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -938,7 +958,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -947,7 +967,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -956,7 +976,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -1019,27 +1039,27 @@
 		<ResearchProjectId>27</ResearchProjectId>
 		<Name>Improved Logistics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>1500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>150</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>150</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>3</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1027</ResearchProjectId>
+				<ResearchProjectId>452</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -1418,7 +1438,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>61</Row>
+		<Row>71</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -1483,7 +1503,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -1539,7 +1559,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>72</Row>
+		<Row>62</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>15</ResearchProjectId>
@@ -1583,7 +1603,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>64</ResearchProjectId>
@@ -1619,7 +1639,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>16</ResearchProjectId>
@@ -1671,7 +1691,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>64</ResearchProjectId>
@@ -1891,7 +1911,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>47</ResearchProjectId>
-		<Name>Planetary Defense Center</Name>
+		<Name>Planetary Defense Factory</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -2453,7 +2473,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -2509,7 +2529,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -2569,7 +2589,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>64</Row>
+		<Row>74</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -2625,7 +2645,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>72</Row>
+		<Row>62</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>38</ResearchProjectId>
@@ -2669,7 +2689,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>39</ResearchProjectId>
@@ -2721,7 +2741,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>40</ResearchProjectId>
@@ -2777,7 +2797,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>41</ResearchProjectId>
@@ -2813,7 +2833,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>76</Row>
+		<Row>66</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>16</ResearchProjectId>
@@ -3163,7 +3183,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>160</Row>
+		<Row>161</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>21</ResearchProjectId>
@@ -3176,8 +3196,8 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.25</AttackStrengthFactor>
-				<DefendStrengthFactor>0.25</DefendStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3231,8 +3251,17 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0.05</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -3277,7 +3306,7 @@
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.3</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -3286,7 +3315,7 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.3</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -3295,7 +3324,7 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.3</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -3341,7 +3370,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.3</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3350,7 +3379,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.3</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3359,7 +3388,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.3</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3580,7 +3609,7 @@
 		<Row>171</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>27</ResearchProjectId>
+				<ResearchProjectId>452</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -4177,7 +4206,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>61</Row>
+		<Row>71</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -4246,7 +4275,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -4306,7 +4335,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>64</Row>
+		<Row>74</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -4370,7 +4399,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>63</ResearchProjectId>
@@ -4422,7 +4451,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>65</ResearchProjectId>
@@ -4683,9 +4712,9 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -4694,27 +4723,27 @@
 		<ResearchProjectId>105</ResearchProjectId>
 		<Name>Advanced Logistics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>170</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -5547,7 +5576,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -5611,7 +5640,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>60</ResearchProjectId>
@@ -5659,7 +5688,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>64</Row>
+		<Row>74</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -5715,7 +5744,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>67</Row>
+		<Row>77</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>14</ResearchProjectId>
@@ -5777,7 +5806,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>70</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1069</ResearchProjectId>
@@ -5821,7 +5850,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>71</Row>
+		<Row>61</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>0</RaceId>
@@ -5876,7 +5905,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>72</Row>
+		<Row>62</Row>
 		<DisallowedRaceIds>
 			<!-- Humans have better tech -->
 			<RaceProbability>
@@ -5927,7 +5956,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>98</ResearchProjectId>
@@ -5975,7 +6004,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>99</ResearchProjectId>
@@ -6011,7 +6040,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>76</Row>
+		<Row>66</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>66</ResearchProjectId>
@@ -6289,7 +6318,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>160</Row>
+		<Row>161</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>74</ResearchProjectId>
@@ -6302,8 +6331,8 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.25</AttackStrengthFactor>
-				<DefendStrengthFactor>0.25</DefendStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6322,7 +6351,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>139</ResearchProjectId>
-		<Name>Chimeras</Name>
+		<Name>Deep Genetic Engineering</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -6365,9 +6394,9 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0.05</RecoveryRateFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6376,16 +6405,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
-				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
-			</TroopTech>
-			<TroopTech>
-				<Type>Armored</Type>
-				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.1</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6437,7 +6457,7 @@
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -6446,7 +6466,7 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -6455,7 +6475,7 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -6509,7 +6529,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6518,7 +6538,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6527,7 +6547,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6535,7 +6555,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>142</ResearchProjectId>
-		<Name>Deeply Layered Planetary Defenses</Name>
+		<Name>Deep Planetary Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -6632,7 +6652,7 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.25</AttackStrengthFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -7195,7 +7215,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -7259,7 +7279,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>123</ResearchProjectId>
@@ -7311,7 +7331,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>64</Row>
+		<Row>74</Row>
 		<DisallowedRaceIds>
 			<!-- Mortalen have better tech -->
 			<RaceProbability>
@@ -7375,7 +7395,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>129</ResearchProjectId>
@@ -7427,7 +7447,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>130</ResearchProjectId>
@@ -7551,9 +7571,9 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.25</AttackStrengthFactor>
-				<DefendStrengthFactor>0.25</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
@@ -8376,7 +8396,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>61</Row>
+		<Row>71</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>6</RaceId>
@@ -8449,7 +8469,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>154</ResearchProjectId>
@@ -8527,7 +8547,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>67</Row>
+		<Row>77</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>125</ResearchProjectId>
@@ -8576,7 +8596,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>70</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>126</ResearchProjectId>
@@ -8620,7 +8640,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>71</Row>
+		<Row>61</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>0</RaceId>
@@ -8675,7 +8695,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>72</Row>
+		<Row>62</Row>
 		<DisallowedRaceIds>
 			<!-- Humans have better tech -->
 			<RaceProbability>
@@ -8718,7 +8738,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>76</Row>
+		<Row>66</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>131</ResearchProjectId>
@@ -8996,7 +9016,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>160</Row>
+		<Row>161</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>137</ResearchProjectId>
@@ -9009,8 +9029,8 @@
 				<Type>Armored</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -9020,36 +9040,36 @@
 		<ResearchProjectId>191</ResearchProjectId>
 		<Name>Advanced Synthetics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>161</Row>
+		<Column>5</Column>
+		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>22</ResearchProjectId>
@@ -9063,7 +9083,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>192</ResearchProjectId>
-		<Name>Advanced Chimeras</Name>
+		<Name>Super Soldiers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -9106,7 +9126,16 @@
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0.05</RecoveryRateFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
 				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
@@ -9116,7 +9145,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>193</ResearchProjectId>
-		<Name>Assault Supremacy</Name>
+		<Name>Supreme Assault Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -9160,7 +9189,25 @@
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>Armored</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -9213,16 +9260,16 @@
 				<Type>SpecialForces</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
 		</TroopTechs>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>195</ResearchProjectId>
-		<Name>Defense Supremacy</Name>
+		<Name>Supreme Defense Tactics</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -9267,7 +9314,25 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.5</DefendStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>Armored</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -9372,7 +9437,7 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.5</AttackStrengthFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
 				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
@@ -9943,7 +10008,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>20</RaceId>
@@ -9992,7 +10057,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>179</ResearchProjectId>
@@ -10048,7 +10113,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>157</ResearchProjectId>
@@ -10133,7 +10198,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>212</ResearchProjectId>
-		<Name>Massive Assault Forces</Name>
+		<Name>Titans</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -10154,38 +10219,26 @@
 		<Column>9</Column>
 		<Row>163</Row>
 		<PrerequisiteProjects>
+			<!-- super heavy mechs -->
 			<ResearchPath>
 				<ResearchProjectId>190</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>191</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>192</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>193</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
+			<!-- elite operatives -->
 			<ResearchPath>
 				<ResearchProjectId>194</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- super soldiers -->
 			<ResearchPath>
-				<ResearchProjectId>195</ResearchProjectId>
+				<ResearchProjectId>192</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>67</short>
 		</PlanetaryFacilityIds>
@@ -10740,7 +10793,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>209</ResearchProjectId>
@@ -10807,7 +10860,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>64</Row>
+		<Row>74</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>209</ResearchProjectId>
@@ -10866,7 +10919,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>62</Row>
+		<Row>72</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>209</ResearchProjectId>
@@ -10929,7 +10982,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>210</ResearchProjectId>
@@ -10992,7 +11045,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>74</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>210</ResearchProjectId>
@@ -11597,7 +11650,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>63</Row>
+		<Row>73</Row>
 		<Components>
 			<Component>
 				<ComponentId>75</ComponentId>
@@ -11634,7 +11687,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>73</Row>
+		<Row>63</Row>
 		<Components>
 			<Component>
 				<ComponentId>76</ComponentId>
@@ -14706,7 +14759,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>65</Row>
+		<Row>75</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>4</RaceId>
@@ -14928,7 +14981,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>65</Row>
+		<Row>75</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>4</RaceId>
@@ -20054,23 +20107,23 @@
 		<ResearchProjectId>452</ResearchProjectId>
 		<Name>Centralized Officer Training</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>1500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>150</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>169</Row>
+		<Column>2</Column>
+		<Row>172</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>27</ResearchProjectId>
+				<ResearchProjectId>1027</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -26956,7 +27009,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>75</Row>
+		<Row>65</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>210</ResearchProjectId>
@@ -28631,24 +28684,24 @@
 		<ResearchProjectId>660</ResearchProjectId>
 		<Name>Galactic Military Command</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
-		<Row>169</Row>
+		<Column>6</Column>
+		<Row>172</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>666</ResearchProjectId>
@@ -28664,32 +28717,32 @@
 		<ResearchProjectId>661</ResearchProjectId>
 		<Name>Planetary Bastion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>6</Column>
 		<Row>167</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>79</ResearchProjectId>
+				<ResearchProjectId>142</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>80</ResearchProjectId>
+				<ResearchProjectId>143</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -28720,10 +28773,10 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>167</Row>
+		<Row>172</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>661</ResearchProjectId>
+				<ResearchProjectId>660</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -28866,24 +28919,24 @@
 		<ResearchProjectId>666</ResearchProjectId>
 		<Name>Combined Military Command</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>169</Row>
+		<Column>4</Column>
+		<Row>172</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>452</ResearchProjectId>
