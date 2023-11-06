@@ -129,7 +129,7 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
 		<Row>165</Row>
-		<TroopTechs>
+		<!-- <TroopTechs>
 			<TroopTech>
 				<Type>Infantry</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
@@ -139,7 +139,10 @@
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
-		</TroopTechs>
+		</TroopTechs> -->
+		<PlanetaryFacilityIds>
+			<short>1005</short>
+		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>7</ResearchProjectId>

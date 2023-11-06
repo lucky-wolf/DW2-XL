@@ -214,8 +214,8 @@ YMMV, but this is my take on making it Extra Large!
 - Teekans: Start with missiles
 - Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
 - Combat Troops & Invasions
-  - Fixed base combat troops tech to NOT offer any bonsues (just enables ground troops to be recruited)
-  - Adjusted troop tactics and defense techs to have a better progression (0, +5, +15, +30, +50)
+  - Added Ground Combat Academy which boosts recruitment and shows base infantry stats on tech screen
+  - Overhauled the troops tech tree & benefits
   - Nerfed assault pod progression (was a bit OP)
 
 ### v1.18.3

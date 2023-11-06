@@ -237,4 +237,60 @@
 		<Name>Central Espionage Agency</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Espionage Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1005</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>62</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<TroopIdsRecruitable>
+			<short>2</short>
+			<short>7</short>
+			<short>12</short>
+			<short>17</short>
+			<short>22</short>
+			<short>27</short>
+			<short>32</short>
+			<short>37</short>
+			<short>42</short>
+			<short>43</short>
+			<short>44</short>
+			<short>45</short>
+			<short>46</short>
+			<short>47</short>
+			<short>48</short>
+			<short>49</short>
+			<short>50</short>
+			<short>51</short>
+			<short>52</short>
+			<short>53</short>
+			<short>54</short>
+			<short>55</short>
+		</TroopIdsRecruitable>
+		<Name>Ground Combat Academy</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Military Academy</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>
