@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.5](#v1185)
 		- [v1.18.4](#v1184)
 		- [v1.18.3](#v1183)
 		- [v1.18.2](#v1182)
@@ -184,6 +185,11 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.18.5
+- Fixed smart hyperdrives being too fast
+- Improved Velocity hyperdrives range
+- Reduced Ion Shields effectiveness (coverage was a little too perfect)
+
 ### v1.18.4
 - 1.1.8.1 Compatible
 - Set all PD to use distinct icons (even though they overlap with other PD, at least they're clearly PD and not standard weapons)
@@ -214,7 +220,7 @@ YMMV, but this is my take on making it Extra Large!
   - Overhauled troops section
 - Tractor Beams are now always [M] except for Teekan racial specials [S]
 - Teekans: Start with missiles
-- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
+- Teekans: Desert Ratpacks (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
 - Combat Troops & Invasions
   - Added Ground Combat Academy which boosts recruitment and shows base infantry stats on tech screen
   - Overhauled the troops tech tree & benefits
