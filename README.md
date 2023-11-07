@@ -689,7 +689,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced size of all planetary facilities to reduce the odds of them getting destroyed during invasions
 - Fixed a few issues in the planetary defense and special ops portion of the tech tree so everything lines up a bit better and has level-appropriate costs
 - Clarified the prerequisites for diplomacy focus so that it requires contact with other social creatures (not with Boskarans nor Dhayut)
-- Robotic troops are now size 2000 which should make them faster to recruit and possible to fit more on your transports, making up for their otherwise anemic stats
+- Robotic Infantry are now size 2000 which should make them faster to recruit and possible to fit more on your transports, making up for their otherwise anemic stats
 
 ### v1.13.0
 - Increased Armor strength (approx 2x)
