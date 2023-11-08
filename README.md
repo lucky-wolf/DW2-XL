@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.6](#v1186)
 		- [v1.18.5](#v1185)
 		- [v1.18.4](#v1184)
 		- [v1.18.3](#v1183)
@@ -184,6 +185,13 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.6
+- Adjusted Ion Shields & Weapons
+  - Increased Ion Weapon effectiveness by +2/level
+  - Reduced Ion Shield effectiveness to by -2/level
+  - gives differential of +8 ion effectiveness initially, growing by +4 / level
+  - this is exactly offset by Ionic Armor - anything less, and you'll have some level of vulnerability to Ion weapons
 
 ### v1.18.5
 - Hyperdrives
