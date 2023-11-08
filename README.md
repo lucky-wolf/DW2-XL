@@ -190,9 +190,8 @@ YMMV, but this is my take on making it Extra Large!
   - Fixed smart hyperdrives being too fast
   - Improved Velocity hyperdrive range
 - Adjusted Ion Shields & Weapons
-  - Reduced Ion Shields effectiveness by 2/level
-  - Increased Ion Weapon effectiveness by 2/level
-  - gives differential of +4 ion effectiveness / level compared to 1.18.4
+  - Increased Ion Weapon effectiveness by +2/level
+  - gives differential of +4 ion effectiveness initially, growing by +2 / level compared to 1.18.4
 - Fighters
   - Fixed fighter cockpits to be smaller
   - Fixed ZimZip Fighters size capacity
