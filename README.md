@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.5](#v1185)
 		- [v1.18.4](#v1184)
 		- [v1.18.3](#v1183)
 		- [v1.18.2](#v1182)
@@ -184,6 +185,19 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.18.5
+- Hyperdrives
+  - Fixed smart hyperdrives being too fast
+  - Improved Velocity hyperdrive range
+- Adjusted Ion Shields & Weapons
+  - Increased Ion Weapon effectiveness by +2/level
+  - gives differential of +4 ion effectiveness initially, growing by +2 / level compared to 1.18.4
+- Fighters
+  - Fixed fighter cockpits to be smaller
+  - Fixed ZimZip Fighters size capacity
+  - Gave ZimZip Fighters an ion defense bonus
+- Fixed Pulsed Planetary Defense visuals to be pulsed (same as Maxos)
+
 ### v1.18.4
 - 1.1.8.1 Compatible
 - Set all PD to use distinct icons (even though they overlap with other PD, at least they're clearly PD and not standard weapons)
@@ -214,7 +228,7 @@ YMMV, but this is my take on making it Extra Large!
   - Overhauled troops section
 - Tractor Beams are now always [M] except for Teekan racial specials [S]
 - Teekans: Start with missiles
-- Teekans: Trapper Groups (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
+- Teekans: Desert Ratpacks (INF) are now 25% smaller (size 3K) because... they're smaller (and weaker)
 - Combat Troops & Invasions
   - Added Ground Combat Academy which boosts recruitment and shows base infantry stats on tech screen
   - Overhauled the troops tech tree & benefits
@@ -683,7 +697,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced size of all planetary facilities to reduce the odds of them getting destroyed during invasions
 - Fixed a few issues in the planetary defense and special ops portion of the tech tree so everything lines up a bit better and has level-appropriate costs
 - Clarified the prerequisites for diplomacy focus so that it requires contact with other social creatures (not with Boskarans nor Dhayut)
-- Robotic troops are now size 2000 which should make them faster to recruit and possible to fit more on your transports, making up for their otherwise anemic stats
+- Robotic Infantry are now size 2000 which should make them faster to recruit and possible to fit more on your transports, making up for their otherwise anemic stats
 
 ### v1.13.0
 - Increased Armor strength (approx 2x)

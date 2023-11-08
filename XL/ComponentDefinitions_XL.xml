@@ -4612,12 +4612,13 @@
 		<ComponentId>515</ComponentId>
 		<Size>150</Size>
 		<Category>WeaponStandoff</Category>
+		<ParticleEffectNames />
 		<DisplayTextureNames>
-			<string>Effects/Weapons/RedLaser1</string>
+			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
-		<UseLargeMeshIfAvailable>true</UseLargeMeshIfAvailable>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
@@ -4644,7 +4645,7 @@
 			<EndFadeLengthRatio>0</EndFadeLengthRatio>
 			<TextureTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</TextureTintColor>
@@ -4656,22 +4657,23 @@
 			</TextureTintColor2>
 			<TintCycleLength>0</TintCycleLength>
 			<FiringEffectFilepath>VFXPrefabs/PulseTorpedoMuzzle</FiringEffectFilepath>
-			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
+			<FiringSoundEffectFilepath>Sounds/Components/MaxosBlaster</FiringSoundEffectFilepath>
+			<FiringSoundEffectVolume>0.8</FiringSoundEffectVolume>
 			<ArmorImpactEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</ArmorImpactEffectTintColor>
 			<HullImpactEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</HullImpactEffectTintColor>
 			<FiringEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</FiringEffectTintColor>
@@ -4713,7 +4715,7 @@
 			</WeaponChargeupEffectTintColor>
 			<TrailEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</TrailEffectTintColor>
@@ -16242,12 +16244,12 @@
 				<WeaponInterceptFireRate>0.675</WeaponInterceptFireRate>
 				<WeaponInterceptRange>300</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>1</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>5</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>5</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>5</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>5</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>5</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>5</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>6</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>6</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>6</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>6</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>6</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>6</WeaponIonGeneralDamage>
 				<WeaponRange>300</WeaponRange>
 				<WeaponRawDamage>7.5</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -18390,12 +18392,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>26.6666</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>26.6666</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>26.6666</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>26.6666</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>26.6666</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>26.6666</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>31.9999</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>31.9999</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>31.9999</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>31.9999</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>31.9999</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>31.9999</WeaponIonGeneralDamage>
 				<WeaponRange>1470</WeaponRange>
 				<WeaponRawDamage>46</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -18524,12 +18526,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>39.9999</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>39.9999</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>39.9999</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>39.9999</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>39.9999</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>39.9999</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>47.9999</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>47.9999</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>47.9999</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>47.9999</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>47.9999</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>47.9999</WeaponIonGeneralDamage>
 				<WeaponRange>2205</WeaponRange>
 				<WeaponRawDamage>52</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -18658,12 +18660,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>53.3332</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>53.3332</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>53.3332</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>53.3332</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>53.3332</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>53.3332</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>63.9998</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>63.9998</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>63.9998</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>63.9998</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>63.9998</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>63.9998</WeaponIonGeneralDamage>
 				<WeaponRange>2940</WeaponRange>
 				<WeaponRawDamage>58</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -18792,12 +18794,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>66.6665</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>66.6665</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>66.6665</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>66.6665</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>66.6665</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>66.6665</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>79.9998</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>79.9998</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>79.9998</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>79.9998</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>79.9998</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>79.9998</WeaponIonGeneralDamage>
 				<WeaponRange>3675</WeaponRange>
 				<WeaponRawDamage>64</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -19078,12 +19080,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>93.3331</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>93.3331</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>93.3331</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>93.3331</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>93.3331</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>93.3331</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>112</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>112</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>112</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>112</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>112</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>112</WeaponIonGeneralDamage>
 				<WeaponRange>5145</WeaponRange>
 				<WeaponRawDamage>76</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -19212,12 +19214,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>106.666</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>106.666</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>106.666</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>106.666</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>106.666</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>106.666</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>128</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>128</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>128</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>128</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>128</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>128</WeaponIonGeneralDamage>
 				<WeaponRange>5880</WeaponRange>
 				<WeaponRawDamage>82</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -19346,12 +19348,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>120</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>120</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>120</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>120</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>120</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>120</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>144</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>144</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>144</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>144</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>144</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>144</WeaponIonGeneralDamage>
 				<WeaponRange>6615</WeaponRange>
 				<WeaponRawDamage>88</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
@@ -19480,12 +19482,12 @@
 				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
 				<WeaponInterceptRange>0</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
-				<WeaponIonEngineDamage>133.333</WeaponIonEngineDamage>
-				<WeaponIonHyperDriveDamage>133.333</WeaponIonHyperDriveDamage>
-				<WeaponIonSensorDamage>133.333</WeaponIonSensorDamage>
-				<WeaponIonShieldDamage>133.333</WeaponIonShieldDamage>
-				<WeaponIonWeaponDamage>133.333</WeaponIonWeaponDamage>
-				<WeaponIonGeneralDamage>133.333</WeaponIonGeneralDamage>
+				<WeaponIonEngineDamage>160</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>160</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>160</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>160</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>160</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>160</WeaponIonGeneralDamage>
 				<WeaponRange>7350</WeaponRange>
 				<WeaponRawDamage>94</WeaponRawDamage>
 				<WeaponShieldBypass>-0.25</WeaponShieldBypass>
