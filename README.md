@@ -188,7 +188,10 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.5
 - Fixed smart hyperdrives being too fast
 - Improved Velocity hyperdrives range
-- Reduced Ion Shields effectiveness (coverage was a little too perfect)
+- Ion Shields & Weapons
+  - Reduced Ion Shields effectiveness by 2/level
+  - Increased Ion Weapon effectiveness by 2/level
+  - gives differential of +4 ion effectiveness / level compared to 1.18.4
 
 ### v1.18.4
 - 1.1.8.1 Compatible

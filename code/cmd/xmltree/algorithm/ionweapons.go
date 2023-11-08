@@ -29,9 +29,9 @@ func IonWeapons(folder string) (err error) {
 func (j *Job) applyIonWeapons() (err error) {
 
 	// warn: we number from 1..11 where 1 = t0, and 2,3,...,10 = t2,t3,...,t1l0
-	// simply 10/level, so 10..100 for a [S] ion cannon
+	// simply 11/level, so 12..120 for a [S] ion cannon
 	IonComponentDamage := func(level int) float64 {
-		return float64(level) * 10
+		return float64(level) * 12
 	}
 
 	// this is 50% slower (2/3 of) blasters
@@ -87,7 +87,7 @@ func (j *Job) applyIonWeapons() (err error) {
 	RapidIonCannon := ExtendValuesTable(
 		IonFieldProjector,
 		ValuesTable{
-			"WeaponFireRate": func(level int) float64 { return 0.8 * WeaponRateOfFire(level) }, // 25% faster
+			"WeaponFireRate": func(level int) float64 { return 0.8 * WeaponRateOfFire(level) }, // 25% faster, but no loss of ion output
 		},
 	)
 
