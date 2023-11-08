@@ -197,6 +197,7 @@ YMMV, but this is my take on making it Extra Large!
   - Fixed fighter cockpits to be smaller
   - Fixed ZimZip Fighters size capacity
   - Gave ZimZip Fighters an ion defense bonus
+- Fixed Pulsed Planetary Defense visuals to be pulsed (same as Maxos)
 
 ### v1.18.4
 - 1.1.8.1 Compatible

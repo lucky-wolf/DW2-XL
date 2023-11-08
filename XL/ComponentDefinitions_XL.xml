@@ -4612,12 +4612,13 @@
 		<ComponentId>515</ComponentId>
 		<Size>150</Size>
 		<Category>WeaponStandoff</Category>
+		<ParticleEffectNames />
 		<DisplayTextureNames>
-			<string>Effects/Weapons/RedLaser1</string>
+			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
-		<UseLargeMeshIfAvailable>true</UseLargeMeshIfAvailable>
+		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
@@ -4644,7 +4645,7 @@
 			<EndFadeLengthRatio>0</EndFadeLengthRatio>
 			<TextureTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</TextureTintColor>
@@ -4656,22 +4657,23 @@
 			</TextureTintColor2>
 			<TintCycleLength>0</TintCycleLength>
 			<FiringEffectFilepath>VFXPrefabs/PulseTorpedoMuzzle</FiringEffectFilepath>
-			<FiringSoundEffectFilepath>Sounds/Components/ImpactAssaultBlaster</FiringSoundEffectFilepath>
+			<FiringSoundEffectFilepath>Sounds/Components/MaxosBlaster</FiringSoundEffectFilepath>
+			<FiringSoundEffectVolume>0.8</FiringSoundEffectVolume>
 			<ArmorImpactEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</ArmorImpactEffectTintColor>
 			<HullImpactEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</HullImpactEffectTintColor>
 			<FiringEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</FiringEffectTintColor>
@@ -4713,7 +4715,7 @@
 			</WeaponChargeupEffectTintColor>
 			<TrailEffectTintColor>
 				<R>255</R>
-				<G>30</G>
+				<G>165</G>
 				<B>0</B>
 				<A>255</A>
 			</TrailEffectTintColor>
