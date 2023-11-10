@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.7](#v1187)
 		- [v1.18.6](#v1186)
 		- [v1.18.5](#v1185)
 		- [v1.18.4](#v1184)
@@ -185,6 +186,10 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.7
+- Removed column 0 costs from non-xeno studies techs
+- Reduced cost of Ground Combat Academy (since it's available super early, to keep the AIs from tanking themselves on it)
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons
