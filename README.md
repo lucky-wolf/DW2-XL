@@ -190,6 +190,9 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.7
 - Removed costs from most entry-level techs
 - Reduced cost of Ground Combat Academy (since it's available super early, to keep the AIs from tanking themselves on it)
+- Separated out Monitoring Stations into their own tech box
+- Adjusted construction yard tech cadence so 2x yards come later, and 3x are a final end-game tech
+  - With all of the other ways XL improves construction throughput, having 3x yards was just obscene
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons
