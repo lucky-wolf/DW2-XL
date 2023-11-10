@@ -188,7 +188,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.7
-- Removed column 0 costs from non-xeno studies techs
+- Removed costs from most entry-level techs
 - Reduced cost of Ground Combat Academy (since it's available super early, to keep the AIs from tanking themselves on it)
 
 ### v1.18.6
