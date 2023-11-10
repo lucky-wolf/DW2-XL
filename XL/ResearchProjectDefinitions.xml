@@ -14016,31 +14016,31 @@
 		<ResearchProjectId>310</ResearchProjectId>
 		<Name>Rapid Assembly</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>8</Column>
 		<Row>281</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -14051,8 +14051,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>556</ComponentId>
-				<Level>0</Level>
+				<ComponentId>536</ComponentId>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14233,7 +14233,7 @@
 		<Row>280</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>380</ResearchProjectId>
+				<ResearchProjectId>358</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -16209,27 +16209,27 @@
 		<ResearchProjectId>358</ResearchProjectId>
 		<Name>Component Pre-Fabrication</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>450</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>281</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -16240,8 +16240,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>536</ComponentId>
-				<Level>0</Level>
+				<ComponentId>196</ComponentId>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -17310,29 +17310,29 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>380</ResearchProjectId>
-		<Name>Large Scale Construction</Name>
+		<Name>Parallel Construction</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>6</Column>
 		<Row>281</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -17344,7 +17344,7 @@
 		<Components>
 			<Component>
 				<ComponentId>536</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 		<ShipHulls>
@@ -24382,31 +24382,31 @@
 		<ResearchProjectId>554</ResearchProjectId>
 		<Name>Lightning Assembly</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>1518750</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>151875</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>151875</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>151875</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>25312</Amount>
+					<Amount>151875</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>10</Column>
 		<Row>281</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24418,7 +24418,7 @@
 		<Components>
 			<Component>
 				<ComponentId>556</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -28637,27 +28637,27 @@
 		<ResearchProjectId>659</ResearchProjectId>
 		<Name>Component Replication</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>9</Column>
 		<Row>280</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>554</ResearchProjectId>
+				<ResearchProjectId>310</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>

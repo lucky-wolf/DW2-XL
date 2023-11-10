@@ -8119,10 +8119,6 @@
 		</PrerequisiteProjects>
 		<ShipHulls>
 			<ShipHullReference>
-				<Role>MonitoringStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
 				<Role>DefensiveBase</Role>
 				<Level>0</Level>
 			</ShipHullReference>
@@ -11634,5 +11630,45 @@
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</EmpireBonuses>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1245</ResearchProjectId>
+		<Name>Deep Space Monitoring</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>284</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>676</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>MonitoringStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+		</ShipHulls>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>
