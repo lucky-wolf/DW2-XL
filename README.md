@@ -399,8 +399,8 @@ YMMV, but this is my take on making it Extra Large!
   - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Stratocracy governments to offer
-  - Improved crew systems
-  - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
+  - Improved Crew Accomodations
+  - Progress towards either standard Crew Accomodations (Monarchy) or marine barracks (Feudalism, Dictatorship)
   - Royal Palace
 - Terraforming facilities are a bit cheaper at the low end, more expensive at the high end
 - Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
