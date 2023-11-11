@@ -193,6 +193,8 @@ YMMV, but this is my take on making it Extra Large!
 - Separated out Monitoring Stations into their own tech box
 - Adjusted construction yard tech cadence so 2x yards come later, and 3x are a final end-game tech
   - With all of the other ways XL improves construction throughput, having 3x yards was just obscene
+- +1 General slot for Ackdarian Heavy Destroyer, Fleet Destroyer
+- -1 General slot for Ackdarian Fast Frigage
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons
