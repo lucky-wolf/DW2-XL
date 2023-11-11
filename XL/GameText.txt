@@ -1490,9 +1490,9 @@ TacticsStance Aggressive		;Aggressive
 TacticsStance Cautious		;Cautious
 
 X Fleet		;{0} Fleet
-X Strike Force		;{0} Strike Force
-X Defense Force		;{0} Defense Force
-X Invasion Fleet		;{0} Invasion Fleet
+X Strike Force		;{0} Fleet
+X Defense Force		;{0} Fleet
+X Invasion Fleet		;{0} Fleet
 
 Retrofit		;Retrofit
 Tech Level X		;Tech Level {0}
@@ -1981,7 +1981,7 @@ Total regular state income from all sources		;Total regular state income from al
 Income Available for Maintenance Expenses		;Income Available for Maintenance Expenses
 Total income available for maintenance expenses		;Total income available for maintenance expenses. This equals your income less the reserved amount. You should attempt to keep actual maintenance expenses below this allocated amount.
 Income Used for Maintenance Expenses		;Income Used for Maintenance + Other Expenses
-Total amount actually used for maintenance in all areas		;Total amount actually used for maintenance in all areas, plus any other refular state expenses (e.g. pirate protection). The difference between used and available is your Excess amount, which is then used to fund Colony Growth and Research.
+Total amount actually used for maintenance in all areas		;Total amount actually used for maintenance in all areas, plus any other refueler state expenses (e.g. pirate protection). The difference between used and available is your Excess amount, which is then used to fund Colony Growth and Research.
 Excess Income		;Excess Income
 This amount is the remainder of income less actual maintenance expenses		;This amount is the remainder of income less actual maintenance expenses from above. Excess income is used to fund Colony Growth and Research, as apportioned here below.
 Unused Excess Income		;Unused Excess Income
@@ -2283,7 +2283,7 @@ Colonization Range Limit		;Colonization Range Limit
 Random		;Random
 Random Race Explanation		;Randomly selected race
 
-Random Seed Explanation		;Type a number here to set the random seed for the game.\n\nWhen you have the same random seed number along with the same game start settings, the same galaxy will be generated. This allows you to regenerate favourite galaxy maps from previous games.
+Random Seed Explanation		;Type a number here to set the random seed for the game.\n\nWhen you have the same random seed number along with the same game start settings, the same galaxy will be generated. This allows you to regenerate favorite galaxy maps from previous games.
 Galaxy Shape Explanation		;The layout and distribution of stars and nebulae within the galaxy.
 Star Amount Explanation		;How many stars are in the galaxy.\n\nLower amounts should only be played in smaller-sized galaxies, otherwise ships may have trouble jumping between distant star systems or finding paths between nebulae.
 Nebula Density Explanation		;The amount of nebula clouds in the galaxy.\n\nLower nebula density makes navigation easier, whereas higher nebula density makes finding paths through nebulae more challenging and provides more 'geography' in the galaxy.
@@ -4109,7 +4109,7 @@ Treaty Offer		;Treaty Offer
 We have established a new colony at the TYPE CATEGORY NAME in the SYSTEM system		;We have established a new colony at the {0} {1} [LOCATION]{2}[/LOCATION] in the {3} system
 New Colony Founded		;New Colony Founded
 Independent Colony Resists Colonization		;Independent Colony Resists Colonization
-The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;The independent population of {0}s have resisted our attempt to colonize the {1} {2} [LOCATION]{3}[/LOCATION] in the {4} system.\n\nOur colonization atempt has angered them, harming our relations with them.
+The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;The independent population of {0}s have resisted our attempt to colonize the {1} {2} [LOCATION]{3}[/LOCATION] in the {4} system.\n\nOur colonization attempt has angered them, harming our relations with them.
 Colonization Success Chance		;Colonization Success Chance
 Colonized Independent World		;Colonized Independent World
 We have successfully colonized the independent world NAME a TYPE CATEGORY in the SYSTEM system RACE		;We have successfully colonized the independent world [LOCATION]{0}[/LOCATION], a {1} {2} in the {3} system.\n\nThis world is populated by the {4}. They happily join our empire!
@@ -4616,8 +4616,8 @@ Add Player Exploration Ship		;Add Player Exploration Ship
 
 Missing Image		;Missing Image
 
-DamageAbsorbtionFactor		;Damage Absorbtion Factor
-DamageAbsorbtionThreshold		;Damage Absorbtion Threshold
+DamageAbsorbtionFactor		;Damage Absorption Factor
+DamageAbsorbtionThreshold		;Damage Absorption Threshold
 HealRate		;Heal Rate
 IonWeaponsSensitivityFactor		;Ion Weapons Sensitivity Factor
 StandardWeaponsSensitivityFactor		;Standard Weapons Sensitivity Factor
@@ -4637,7 +4637,7 @@ ComponentCategory Description CommerceCenter		;Commerce Centers enable a base to
 ComponentCategory Description Construction		;Construction Yards allow construction of new ships and bases. They also provide facilities for repair and retrofit of existing ships and bases.\n\nConstruction Yard components are typically incorporated into space ports.\n\nHigher tech construction yards typically build and repair ships faster than earlier tech. Some construction yards can even build multiple ships simultaneously.
 ComponentCategory Description Countermeasures		;Countermeasure components increase the likelihood of avoiding incoming weapons fire while in combat. These powerful electronic countermeasures throw off all types of weapons, allowing you to evade enemy weapons fire.
 ComponentCategory Description CountermeasuresFleet		;Fleet Countermeasures benefit all of the ships in a fleet, allowing all ships in the fleet to more effectively evade enemy weapons fire.
-ComponentCategory Description CrewQuarters		;Crew Quarters provide living quarters for crew onboard a ship or base. They also incorporate all of the vital life support systems for crew survival.\n\nAll ships and bases require sufficient crew quarters to accomodate the total crew requirements for all of the components in the design.
+ComponentCategory Description CrewQuarters		;Crew Quarters provide living quarters for crew onboard a ship or base. They also incorporate all of the vital life support systems for crew survival.\n\nAll ships and bases require sufficient crew quarters to accommodate the total crew requirements for all of the components in the design.
 ComponentCategory Description DamageControl		;Damage control components reduce the amount of damage caused to a ship by enemy weapons fire. This helps a ship to survive longer in battle once their shields and armor have been penetrated.\n\nSome damage control components also provide a repair function, enabling your ships to quickly perform basic repairs even while in combat. This can improve the survivability of your military ships, extending their life while in battle.
 ComponentCategory Description DockingBay		;Docking Bays enable a ship to dock and transfer cargo or refuel.\n\nDocking bays are typically represented in-game as an externally visible hangar bay. Smaller ships and fighters can enter these hangar bays.
 ComponentCategory Description EnergyCollector		;Energy Collector components collect energy from a nearby star, reducing or even eliminating the need to burn fuel in a reactor to produce energy.\n\nEnergy collectors can absorb energy from a wide portion of the electromagnetic spectrum.
@@ -4666,7 +4666,7 @@ ComponentCategory Description ScannerLongRange		;Long Range Scanners scan a larg
 ComponentCategory Description ScannerShortRange		;Short Range Scanners scan a local area, enabling you to see any ships or bases within range.\n\nShort range scanners typically do not see much further than a single system.\n\nOther components (Scanner masking, Stealth) can limit the effectiveness of short range scanners. This can defeat short range scanners, hiding a ship or base so that it is not visible, especially at longer ranges.\n\nNebula clouds also limit the effectiveness of short range scanners. Scan range is greatly reduced inside or through a nebula cloud.\n\nScanned items might be detected but may not be able to be identified: their role or empire may be unknown. This is especially true when scanned items are near the range limits of the short range scanner.
 ComponentCategory Description ScannerRoleMasking		;Role Masking Jammers hide the type of ship or base from long range scanners. This allows a ship or base to evade detection or appear as an innocuous generic ship type (e.g. instead of it's true role as a military ship).
 ComponentCategory Description ScannerTrace		;Trace Scanners allow scanning another nearby ship or base to determine its cargo, onboard troops and component status.\n\nTrace Scanners can be defeated by Scanner Jammer components, which block scanning.
-ComponentCategory Description Shields		;Shields are defensive energy barriers that protect a ship or base from incoming weapons fire.\n\nShields can be gradually reduced by damage from enemy weapons fire. All shield components have an inherent rate of regeneration â€“ they will restore their strength gradually over time, although typically at a much lower rate than incoming enemy weapons fire.\n\nSome shield components may also have a Resistance level below which enemy damage does not affect the shields. In other words, the damage level must be above the Resistance level to reduce the shield strength.\n\nEach type of shield component has a different speciality: some have a higher protective strength, while others are more tuned for faster regeneration.\n\nShields are often not 100% effective at blocking weapons fire, some damage may 'leak' through to strike the ship or base. In addition, some weapon types have an inherent ability to partially bypass shields.
+ComponentCategory Description Shields		;Shields are defensive energy barriers that protect a ship or base from incoming weapons fire.\n\nShields can be gradually reduced by damage from enemy weapons fire. All shield components have an inherent rate of regeneration â€“ they will restore their strength gradually over time, although typically at a much lower rate than incoming enemy weapons fire.\n\nSome shield components may also have a Resistance level below which enemy damage does not affect the shields. In other words, the damage level must be above the Resistance level to reduce the shield strength.\n\nEach type of shield component has a different specialty: some have a higher protective strength, while others are more tuned for faster regeneration.\n\nShields are often not 100% effective at blocking weapons fire, some damage may 'leak' through to strike the ship or base. In addition, some weapon types have an inherent ability to partially bypass shields.
 ComponentCategory Description ShieldEnhancement		;Shield Enhancements supplement the full Shield components in providing defensive energy barriers that protect a ship or base from incoming weapons fire.\n\nShield Enhancements typically increase the rate of shield regeneration, but do not provide any shield strength of their own.
 ComponentCategory Description Stealth		;Stealth components minimize a ships visibility, allowing it to evade detection â€“ particularly at long range.\n\nNote that stealth components do not make a ship completely invisible. They simply reduce its detectability by enemy sensors, increasing the range at which it can be detected.\n\nIn addition, when a stealth-equipped ship or base is detected, the Stealth ability reduces how easy it is to identify the role and empire of the ship or base. So the ship or base may just appear as an unknown item, especially when detected near the range limits of the scanner.
 ComponentCategory Description TargetingComputer		;Targetting components enhance weapon firing accuracy when in combat.\n\nThese powerful computers rapidly calculate optimum trajectories for hitting an enemy target. This gives you a greater chance of scoring a hit on an enemy while in combat.
@@ -4700,7 +4700,7 @@ MAX		;MAX
 War Weariness Positive Explanation		;Unjustified war declarations against us have given our population increased resolve, giving us a net positive war weariness level
 War Weariness Positive Explanation OTHER		;Unjustified war declarations against {0} have given their population increased resolve, giving them a net positive war weariness level
 High Morale		;High Morale
-Unjustifed wars against us increase our resolve		;Unjustifed wars against us increase our resolve
+Unjustifed wars against us increase our resolve		;Unjustified wars against us increase our resolve
 
 Maximum Queued Research Projects		;Maximum Queued Research Projects
 Maximum Queued Research Projects Explanation		;You cannot queue more than {0} research projects
@@ -5227,7 +5227,7 @@ Fleets Military Attacks Automation Explanation		;Fleets will not automatically e
 EMPIRE reports		;{0} reports
 
 FleetEngagementRange Explanation		;Fleet Engagement Range specifies when a fleet will engage targets.\n\nDo Not Engage: the fleet will never engage enemies\nEngage When Attacked: will engage enemies only when directly attacked by them\nNearby: will engage enemy targets that are nearby\nSame Location: will engage enemy targets that are at the same location (planet and moons)\nSame System: will engage enemy targets that are in the same star system\nSector range: will engage enemy targets that are within a sector range\n33% of Fuel Range: will engage enemy targets that are within 33% of fleet fuel range\n50% of Fuel Range: will engage enemy targets that are within 50% of fleet fuel range\n\nNote that fleet engagement range overrides the engagement ranges of individual ships in the fleet. When a ship is part of a fleet it uses the fleet engagement range instead of its own engagement range.\n\nManually-controlled fleets will not automatically respond to threats outside their current star system. This is indicated by yellow text for this setting when the fleet is manually-controlled. To enable fleet engagement range beyond the current star system you should use an automated fleet role (Defend, Attack, Raid, Invade).\n\nFleets will also not automatically engage threats outside their current star system when Military Attacks are manually-controlled (see Military section in Empire Policy settings). This is indicated by orange text for this setting when Military Attacks are manually-controlled. Thus for fleets to automatically respond to threats outside their current star system you should enable Military Attack automation (Fully Automated or Suggest). In addition you should use automated fleets (not Manual fleet role) if you want them to automatically engage threats beyond their current system.
-FleetFormationCoherence Explanation		;Specfies the proximity of Close Escort and Picket ships to their escorted Core ships in the fleet.
+FleetFormationCoherence Explanation		;Specifies the proximity of Close Escort and Picket ships to their escorted Core ships in the fleet.
 FleetAllowShipRoleReassignment Explanation		;This determines whether ships can have their 'Role Within Fleet' automatically reassigned or not. This means that whenever a new fleet lead ship is selected (e.g. when a better ship joins fleet or when the old lead ship is lost) then the Core, Close Escort and Picket ships can change.
 FleetRetreatOverwhelmed Explanation		;Determines when the entire fleet will decide to retreat from a battle.
 
@@ -5521,7 +5521,7 @@ Add new profile		;(Add New Profile)
 Click to delete this mod profile		;Click to delete this mod profile
 
 Problems loading Ship Hulls		;Problems Loading Ship Hulls
-Problems loading Ship Hulls Explanation		;There was a problem loading some Ship Hulls. You can proceed, but [B]some Ship Hulls may be unavailable[/B].\n\nCheck that you have [B]properly installed the game[/B] and any [B]DLC packs[/B].\n\nIf you installed the game or DLC from Steam, ensure that you are [B]logged into Steam[/B].\n\nAlso check that any [B]mods are properly installed[/B].\n\n\nDetails of the problems encountered are below:
+Problems loading Ship Hulls Explanation		;There was a problem loading some Ship Hulls. You can proceed, but [`B`]some Ship Hulls may be unavailable[/B].\n\nCheck that you have [B]properly installed the game[/B] and any [B]DLC packs[/B].\n\nIf you installed the game or DLC from Steam, ensure that you are [B]logged into Steam[/B].\n\nAlso check that any [B]mods are properly installed[/B].\n\n\nDetails of the problems encountered are below:
 Problems loading Ship Hulls Explanation Load Game		;You cannot load this game because there was a problem loading some Ship Hulls and related models contained in the game.\n\nCheck that you have [B]properly installed the game[/B] and any [B]DLC packs[/B].\n\nIf you installed the game or DLC from Steam, ensure that you are [B]logged into Steam[/B].\n\nAlso check that any [B]mods are properly installed[/B].\n\n\nDetails of the problems encountered are below:
 Continue with New Game		;Continue with New Game
 Cancel New Game		;Cancel New Game
