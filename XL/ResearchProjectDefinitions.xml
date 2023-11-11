@@ -3542,7 +3542,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>82</ResearchProjectId>
-		<Name>Ship Defense Training</Name>
+		<Name>Boarding Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -6722,7 +6722,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>145</ResearchProjectId>
-		<Name>Advanced Defense Measures</Name>
+		<Name>Advanced Boarding Defenses</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -6764,7 +6764,7 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>BoardingDefense</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -17605,11 +17605,18 @@
 		<ResearchProjectId>391</ResearchProjectId>
 		<Name>Interstellar Commerce</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>100</Size>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
+		<Column>1</Column>
 		<Row>420</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>392</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
 		<Components>
 			<Component>
 				<ComponentId>87</ComponentId>
@@ -17619,7 +17626,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>392</ResearchProjectId>
-		<Name>Starship Crew Compartments</Name>
+		<Name>Living Compartments</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -17637,11 +17644,18 @@
 		<ResearchProjectId>393</ResearchProjectId>
 		<Name>Starship Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>100</Size>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>405</Row>
+		<Column>1</Column>
+		<Row>406</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>392</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
 		<Components>
 			<Component>
 				<ComponentId>89</ComponentId>
@@ -17653,11 +17667,18 @@
 		<ResearchProjectId>394</ResearchProjectId>
 		<Name>Starship Recreation Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>100</Size>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>408</Row>
+		<Column>1</Column>
+		<Row>409</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>392</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
 		<Components>
 			<Component>
 				<ComponentId>90</ComponentId>
@@ -18309,7 +18330,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>404</Row>
+		<Row>405</Row>
 		<PrerequisiteProjects>
 			<!-- Enlarged Crew Compartments -->
 			<ResearchPath>
@@ -18363,7 +18384,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>405</Row>
+		<Row>406</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>393</ResearchProjectId>
@@ -18380,7 +18401,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>413</ResearchProjectId>
-		<Name>Recreation Systems</Name>
+		<Name>Improved Recreation Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -18403,7 +18424,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>408</Row>
+		<Row>409</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>394</ResearchProjectId>
@@ -20006,7 +20027,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>404</Row>
+		<Row>405</Row>
 		<PrerequisiteProjects>
 			<!-- Crew Accomodations -->
 			<ResearchPath>
@@ -20039,28 +20060,28 @@
 		<ResearchProjectId>449</ResearchProjectId>
 		<Name>Enhanced Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>450</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>405</Row>
+		<Column>3</Column>
+		<Row>406</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>412</ResearchProjectId>
@@ -20442,7 +20463,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>406</Row>
+		<Row>407</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>412</ResearchProjectId>
@@ -20475,7 +20496,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>409</Row>
+		<Row>410</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>413</ResearchProjectId>
@@ -20995,15 +21016,27 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>404</Row>
+		<Row>405</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>448</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- Enhanced Medical Systems -->
+			<ResearchPath>
+				<ResearchProjectId>449</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Advanced Recreation Facilities -->
+			<ResearchPath>
+				<ResearchProjectId>1246</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>240</ComponentId>
@@ -21015,28 +21048,28 @@
 		<ResearchProjectId>476</ResearchProjectId>
 		<Name>Advanced Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>10125</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>405</Row>
+		<Column>5</Column>
+		<Row>406</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>449</ResearchProjectId>
@@ -21055,31 +21088,32 @@
 		<ResearchProjectId>477</ResearchProjectId>
 		<Name>Holographic Reality</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1350</Amount>
+					<Amount>4050</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>408</Row>
+		<Column>5</Column>
+		<Row>409</Row>
 		<PrerequisiteProjects>
+			<!-- Advanced Recreation Facilities -->
 			<ResearchPath>
-				<ResearchProjectId>413</ResearchProjectId>
+				<ResearchProjectId>1246</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -21087,7 +21121,7 @@
 		<Components>
 			<Component>
 				<ComponentId>106</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -23256,26 +23290,26 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>526</ResearchProjectId>
-		<Name>Virtual Reality</Name>
+		<Name>Virtual Reality Matrix</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>409</Row>
+		<Column>6</Column>
+		<Row>410</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>477</ResearchProjectId>
@@ -25192,15 +25226,27 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>404</Row>
+		<Row>405</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>475</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- Advanced Medical Systems -->
+			<ResearchPath>
+				<ResearchProjectId>476</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Holographic Reality -->
+			<ResearchPath>
+				<ResearchProjectId>477</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>240</ComponentId>
@@ -25212,32 +25258,32 @@
 		<ResearchProjectId>574</ResearchProjectId>
 		<Name>Genetic Rewiring</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>50625</Amount>
+					<Amount>25312</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>405</Row>
+		<Column>7</Column>
+		<Row>406</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>476</ResearchProjectId>
@@ -25277,7 +25323,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>408</Row>
+		<Row>409</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>477</ResearchProjectId>
@@ -26304,24 +26350,24 @@
 		<ResearchProjectId>597</ResearchProjectId>
 		<Name>Genetic Mastery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>202500</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>1012500</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>101250</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>101250</Amount>
+					<Amount>50625</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
-		<Row>406</Row>
+		<Column>8</Column>
+		<Row>407</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>574</ResearchProjectId>
@@ -26354,7 +26400,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>409</Row>
+		<Row>410</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>575</ResearchProjectId>
@@ -26414,17 +26460,17 @@
 		<ResearchProjectId>600</ResearchProjectId>
 		<Name>Galactic Governance</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>202500</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>1012500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>151875</Amount>
+					<Amount>101250</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -28903,24 +28949,24 @@
 		<ResearchProjectId>665</ResearchProjectId>
 		<Name>Mega-Park Tourism</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>10125</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>407</Row>
+		<Column>6</Column>
+		<Row>408</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>477</ResearchProjectId>
