@@ -13,6 +13,10 @@
 			"systemId": "xsd/ComponentDefinitionList.xsd"
 		},
 		{
+			"pattern": "ComponentDefinitions*.xml",
+			"systemId": "xsd/ComponentDefinitionList.xsd"
+		},
+		{
 			"pattern": "CreatureTypes.xml",
 			"systemId": "xsd/CreatureTypeList.xsd"
 		},
@@ -58,6 +62,10 @@
 		},
 		{
 			"pattern": "ResearchProjectDefinitions.xml",
+			"systemId": "xsd/ResearchProjectDefinitionList.xsd"
+		},
+		{
+			"pattern": "ResearchProjectDefinitions*.xml",
 			"systemId": "xsd/ResearchProjectDefinitionList.xsd"
 		},
 		{

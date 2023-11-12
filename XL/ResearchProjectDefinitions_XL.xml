@@ -11962,4 +11962,45 @@
 		</PrerequisiteProjects>
 		<!-- still undefined in 1161 -->
 	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1252</ResearchProjectId>
+		<Name>Elite Titans</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>25312</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>165</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>212</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Titan</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>
