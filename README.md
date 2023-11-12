@@ -196,6 +196,7 @@ YMMV, but this is my take on making it Extra Large!
 - +1 General slot for Ackdarian Heavy Destroyer, Fleet Destroyer
 - -1 General slot for Ackdarian Fast Frigage
 - Improved the Crew Quarters, Medical, and Entertainment portion of the tech tree
+- Extended Ackdarian Turbothursters to the end (and added repeatables for them)
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons

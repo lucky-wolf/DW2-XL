@@ -12579,7 +12579,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>230</Row>
+		<Row>231</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -12795,7 +12795,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>231</Row>
+		<Row>235</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>18</RaceId>
@@ -16986,7 +16986,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>230</Row>
+		<Row>231</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -17151,7 +17151,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>231</Row>
+		<Row>235</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>18</RaceId>
@@ -22461,7 +22461,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>230</Row>
+		<Row>231</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>1</RaceId>
@@ -23917,7 +23917,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>231</Row>
+		<Row>235</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
 				<RaceId>18</RaceId>
@@ -25756,15 +25756,59 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<!-- Was Zero Loss Energy Conversion (Ackdarian final engines) -->
 		<ResearchProjectId>583</ResearchProjectId>
-		<Name>Undefined: (583)</Name>
+		<Name>Energy Bubble Optimization</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
-		<EnabledByDefault>false</EnabledByDefault>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>10125</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>0</Row>
+		<Column>6</Column>
+		<Row>231</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>507</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>283</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>156</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>584</ResearchProjectId>
@@ -26702,7 +26746,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>230</Row>
+		<Row>231</Row>
 		<Components>
 			<Component>
 				<ComponentId>292</ComponentId>
