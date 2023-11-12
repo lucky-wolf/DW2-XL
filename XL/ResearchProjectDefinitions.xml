@@ -66,7 +66,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>3</ResearchProjectId>
-		<Name>Torpedo Weapons</Name>
+		<Name>Energy Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -74,6 +74,10 @@
 		<Column>0</Column>
 		<Row>73</Row>
 		<Components>
+			<Component>
+				<ComponentId>568</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>4</ComponentId>
 				<Level>0</Level>
@@ -400,7 +404,7 @@
 		<Row>10</Row>
 		<Components>
 			<Component>
-				<ComponentId>568</ComponentId>
+				<ComponentId>569</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -447,6 +451,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>198</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>15</ComponentId>
 				<Level>0</Level>
@@ -1505,7 +1513,7 @@
 		<Components>
 			<Component>
 				<ComponentId>198</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>15</ComponentId>
@@ -2531,7 +2539,7 @@
 		<Components>
 			<Component>
 				<ComponentId>198</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>15</ComponentId>
@@ -5724,7 +5732,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>125</ResearchProjectId>
-		<Name>Massive Torpedo Weapons</Name>
+		<Name>Massive Energy Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -8527,7 +8535,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>180</ResearchProjectId>
-		<Name>Core-Linked Torpedo Weapons</Name>
+		<Name>Core-Linked Energy Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -10740,7 +10748,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>228</ResearchProjectId>
-		<Name>Increased Dealbreaker Range</Name>
+		<Name>Increased Dealbreaker Ranges</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>
@@ -10764,7 +10772,6 @@
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -10773,7 +10780,6 @@
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -14722,7 +14728,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>324</ResearchProjectId>
-		<Name>Pulse Torpedo Weapons</Name>
+		<Name>Pulse Energy Torpedo Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>

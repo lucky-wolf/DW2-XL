@@ -199,6 +199,8 @@ YMMV, but this is my take on making it Extra Large!
   - -1 General slot for Ackdarian Fast Frigage
   - Extended Ackdarian Turbothursters to the end + added repeatables for them
 - Further extended Troop techtree
+- Epsilon [Ftr] starts at same level as Epsilon [S]
+- Added Plasma Torpedo [Ftr]
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons

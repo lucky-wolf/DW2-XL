@@ -256,7 +256,7 @@ Pulse Weapons		768
 Beam Weapons		0
 Ion Weapons			1
 Area Weapons		2
-Torpedo Weapons		3
+Energy Torpedo Weapons		3
 Missile Weapons		4
 Kinetic Weapons		5
 Ground Combat		6
@@ -846,20 +846,3 @@ resistance: same
 
 penn-chance: same
 penn-pct:    same
-
--------------------------
-
-Fighter Weapons [ftr]
-intercept = same rof as main gun
-intercept dmg fighter = same as main gun
-intercept dmg seeking = 10x (should prolly adjust this down a bit)
-
-BULB: we should make PD identical to [ftr] of same class in all respects -- it's simply the same weapon!
-
-
-1027 = improved ground combat
-
-
-TODO:
-	Undefined: (583)	-- give this one level (last level?) of Ackdarian TurboThruster
-
