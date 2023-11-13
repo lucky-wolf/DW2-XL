@@ -188,6 +188,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.7
+- Official 1.1.8.1 Fleet Update compatible
 - Removed costs from most entry-level techs
 - Reduced cost of Ground Combat Academy (since it's available super early, to keep the AIs from tanking themselves on it)
 - Separated out Monitoring Stations into their own tech box
@@ -196,12 +197,14 @@ YMMV, but this is my take on making it Extra Large!
 - Improved the Crew Quarters, Medical, and Entertainment portion of the tech tree
 - Ackdarians:
   - +1 General slot for Ackdarian Heavy Destroyer, Fleet Destroyer
-  - -1 General slot for Ackdarian Fast Frigage
+  - -1 General slot for Ackdarian Fast Frigate
   - Extended Ackdarian Turbothursters to the end + added repeatables for them
 - Further extended Troop techtree
 - Epsilon [Ftr] starts at same level as Epsilon [S]
 - Added Plasma Torpedo [Ftr]
 - Advanced Medicomplex boosted to +100% growth rate for the colony
+- Take III on fixing pulsed planetary beams to look like blaster cannon fire, visually
+- Massively improved planetary rail guns to be based on forge cannon visuals and damage
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons

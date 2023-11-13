@@ -4609,12 +4609,14 @@
 		<ImageFilename>Environment/Components/060-Guardian Defense Grid</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
+		<!-- Pulsed Beam Planetary Defense Weapon -->
 		<ComponentId>515</ComponentId>
 		<Size>150</Size>
 		<Category>WeaponStandoff</Category>
+		<Family>Blasters</Family>
 		<ParticleEffectNames />
 		<DisplayTextureNames>
-			<string>Effects/Weapons/Slug1</string>
+			<string>Effects/Weapons/YellowLaser1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
@@ -4843,12 +4845,12 @@
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
 				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
-				<WeaponDamageFalloffRatio>0.125</WeaponDamageFalloffRatio>
+				<WeaponDamageFalloffRatio>0.0333</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
 				<WeaponEnergyPerShot>40</WeaponEnergyPerShot>
 				<WeaponFireRate>11</WeaponFireRate>
-				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
 				<WeaponInterceptDamageFighter>0</WeaponInterceptDamageFighter>
@@ -4977,12 +4979,12 @@
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
 				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
-				<WeaponDamageFalloffRatio>0.125</WeaponDamageFalloffRatio>
+				<WeaponDamageFalloffRatio>0.0225</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
 				<WeaponEnergyPerShot>40</WeaponEnergyPerShot>
 				<WeaponFireRate>8</WeaponFireRate>
-				<WeaponFireType>FullLengthBeam</WeaponFireType>
+				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
 				<WeaponInterceptDamageFighter>0</WeaponInterceptDamageFighter>
