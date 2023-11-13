@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.8](#v1188)
 		- [v1.18.7](#v1187)
 		- [v1.18.6](#v1186)
 		- [v1.18.5](#v1185)
@@ -186,6 +187,9 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.8
+- Fixed missing monitoring station for Gizurean
 
 ### v1.18.7
 - Official 1.1.8.1 Fleet Update compatible
