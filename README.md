@@ -201,6 +201,7 @@ YMMV, but this is my take on making it Extra Large!
 - Further extended Troop techtree
 - Epsilon [Ftr] starts at same level as Epsilon [S]
 - Added Plasma Torpedo [Ftr]
+- Advanced Medicomplex boosted to +100% growth rate for the colony
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons
