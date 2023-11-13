@@ -81,19 +81,6 @@
 		<Name>Regenerating Hull Splinters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
-		<InitiationCost>
-			<Money>500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
@@ -104,14 +91,6 @@
 				<Probability>1</Probability>
 			</RaceProbability>
 		</AllowedRaceIds>
-		<!-- <PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>265</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>5</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects> -->
 		<Components>
 			<Component>
 				<ComponentId>309</ComponentId>

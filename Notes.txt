@@ -200,13 +200,13 @@ Dmg-ctrl    130..131
 
 Shields		140..148
 
-Troops		160..171
+Troops		160..177
 
 Reactors 	180..183
 
 hyperjump	200..210
 
-Engines     220..231
+Engines     220..235
 
 Hangars &
 Fighters	240..249
@@ -214,7 +214,7 @@ Fighters	240..249
 Assault Pods
 & Marines 	260..267
 
-Construction 280..289
+Construction 280..290
 
 Sensors
 & Stealth	300..307
@@ -234,7 +234,7 @@ Mining &
 Energy		390..392
 
 Command &
-Medical		400..413
+Medical		400..412
 
 Commerce &
 Recreation	420..421
@@ -256,7 +256,7 @@ Pulse Weapons		768
 Beam Weapons		0
 Ion Weapons			1
 Area Weapons		2
-Torpedo Weapons		3
+Energy Torpedo Weapons		3
 Missile Weapons		4
 Kinetic Weapons		5
 Ground Combat		6
@@ -507,8 +507,8 @@ Expanded Civilian Ships	670
 
 Stellar Transport Systems	388
 
-Enhanced Crew Systems 448
-Advanced Crew Systems 475
+Enhanced Crew Accommodations 448
+Advanced Crew Accommodations 475
 Luxury Crew Environment 573
 
 High Density Alloys		356
@@ -575,7 +575,7 @@ final techs: 579, 831, 874, 832
 done: 275 (Talassos ftr 0), 166 (Talassos 0)
 
 basic crew 392
-crew systems 411
+Crew Accommodations 411
 enhanced 448
 advanced 475
 
@@ -846,15 +846,3 @@ resistance: same
 
 penn-chance: same
 penn-pct:    same
-
--------------------------
-
-Fighter Weapons [ftr]
-intercept = same rof as main gun
-intercept dmg fighter = same as main gun
-intercept dmg seeking = 10x (should prolly adjust this down a bit)
-
-BULB: we should make PD identical to [ftr] of same class in all respects -- it's simply the same weapon!
-
-
-1027 = improved ground combat

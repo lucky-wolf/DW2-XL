@@ -29,7 +29,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>286</Row>
+		<Row>287</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>685</ResearchProjectId>
@@ -73,7 +73,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>286</Row>
+		<Row>287</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1000</ResearchProjectId>
@@ -117,7 +117,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>286</Row>
+		<Row>287</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1001</ResearchProjectId>
@@ -161,7 +161,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>285</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1175</ResearchProjectId>
@@ -205,7 +205,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>282</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1003</ResearchProjectId>
@@ -940,7 +940,20 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- Assault Marines -->
+			<ResearchPath>
+				<ResearchProjectId>144</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Boarding Defenses -->
+			<ResearchPath>
+				<ResearchProjectId>82</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>344</ComponentId>
@@ -1430,7 +1443,20 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- Armored Assault Marines -->
+			<ResearchPath>
+				<ResearchProjectId>198</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Advanced Boarding Defenses -->
+			<ResearchPath>
+				<ResearchProjectId>145</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>344</ComponentId>
@@ -2610,7 +2636,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>555</ResearchProjectId>
@@ -8119,10 +8145,6 @@
 		</PrerequisiteProjects>
 		<ShipHulls>
 			<ShipHullReference>
-				<Role>MonitoringStation</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
 				<Role>DefensiveBase</Role>
 				<Level>0</Level>
 			</ShipHullReference>
@@ -8193,7 +8215,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>285</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>670</ResearchProjectId>
@@ -8237,7 +8259,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>285</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1174</ResearchProjectId>
@@ -8389,7 +8411,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<!-- colossal battleships -->
 			<ResearchPath>
@@ -8409,7 +8431,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1179</ResearchProjectId>
-		<Name>Enlarged Crew Compartments</Name>
+		<Name>Compact Crew Compartments</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>100</Size>
 		<InitiationCost>
@@ -9819,7 +9841,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1209</ResearchProjectId>
-		<Name>Deluxe Crew Environment</Name>
+		<Name>Deluxe Living Quarters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -9838,15 +9860,27 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>404</Row>
+		<Row>405</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>573</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<!-- Genetic Rewiring -->
+			<ResearchPath>
+				<ResearchProjectId>574</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<!-- Reality Replacement -->
+			<ResearchPath>
+				<ResearchProjectId>575</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>240</ComponentId>
@@ -11634,5 +11668,690 @@
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</EmpireBonuses>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1245</ResearchProjectId>
+		<Name>Advance Warning</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>285</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>676</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>MonitoringStation</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+		</ShipHulls>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1246</ResearchProjectId>
+		<Name>Advanced Recreation Facilities</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>450</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>409</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>413</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>106</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1247</ResearchProjectId>
+		<Name>Quantum Bubble Harness</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>50625</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>231</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>583</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>283</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>156</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1248</ResearchProjectId>
+		<Name>Zero Loss Energy Conversion</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>151875</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>231</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>1</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1247</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>283</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>156</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1249</ResearchProjectId>
+		<Name>Improved Engine Thrust</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>455625</Size>
+		<InitiationCost>
+			<Money>2278125</Money>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>230</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1248</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>283</ComponentId>
+				<Values>
+					<ComponentStats>
+						<EngineMainCruiseThrust>0.05</EngineMainCruiseThrust>
+						<EngineMainMaximumThrust>0.05</EngineMainMaximumThrust>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>156</ComponentId>
+				<Values>
+					<ComponentStats>
+						<EngineMainCruiseThrust>0.05</EngineMainCruiseThrust>
+						<EngineMainMaximumThrust>0.05</EngineMainMaximumThrust>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+		</RepeatableComponentValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1250</ResearchProjectId>
+		<Name>Reduced Engine Energy Usage</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>455625</Size>
+		<InitiationCost>
+			<Money>2278125</Money>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>232</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1248</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>283</ComponentId>
+				<Values>
+					<ComponentStats>
+						<EngineMainCruiseThrustEnergyUsage>-0.05</EngineMainCruiseThrustEnergyUsage>
+						<EngineMainMaximumThrustEnergyUsage>-0.05</EngineMainMaximumThrustEnergyUsage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>156</ComponentId>
+				<Values>
+					<ComponentStats>
+						<EngineMainCruiseThrustEnergyUsage>-0.05</EngineMainCruiseThrustEnergyUsage>
+						<EngineMainMaximumThrustEnergyUsage>-0.05</EngineMainMaximumThrustEnergyUsage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+		</RepeatableComponentValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1251</ResearchProjectId>
+		<Name>Reduced Engine Size</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>455625</Size>
+		<InitiationCost>
+			<Money>2278125</Money>
+		</InitiationCost>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>231</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1248</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<!-- still undefined in 1161 -->
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1252</ResearchProjectId>
+		<Name>Titan Integration</Name>
+		<Description>Integrates Titans more effectively into mixed battle tactics</Description>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>165</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>212</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Titan</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>Infantry</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>Armored</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1253</ResearchProjectId>
+		<Name>Ultra Advanced Heavy Mechs</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>164</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>190</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Armored</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.2</AttackStrengthFactor>
+				<DefendStrengthFactor>0.2</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1254</ResearchProjectId>
+		<Name>Advanced Super Soldiers</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>166</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>192</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>Infantry</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0.1</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1255</ResearchProjectId>
+		<Name>Advanced Elite Operatives</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>167</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>194</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>SpecialForces</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.1</AttackStrengthFactor>
+				<DefendStrengthFactor>0.1</DefendStrengthFactor>
+				<SabotageStrengthFactor>0.1</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1256</ResearchProjectId>
+		<Name>Advanced Defense Networks</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>160</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>196</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>PlanetaryDefense</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>4</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1257</ResearchProjectId>
+		<Name>Advanced Defense Installations</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>101250</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>162</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>197</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<TroopTechs>
+			<TroopTech>
+				<Type>PlanetaryDefense</Type>
+				<MaintenanceFactor>0</MaintenanceFactor>
+				<RecoveryRateFactor>0</RecoveryRateFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<SabotageStrengthFactor>0</SabotageStrengthFactor>
+				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
+			</TroopTech>
+		</TroopTechs>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1258</ResearchProjectId>
+		<Name>Advanced Planetary Bastions</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>455625</Size>
+		<InitiationCost>
+			<Money>2278125</Money>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>161</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1256</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>661</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1257</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatablePlanetaryFacilityValues>
+			<PlanetaryFacilityValues>
+				<PlanetaryFacilityDefinitionId>69</PlanetaryFacilityDefinitionId>
+				<EmpireBonuses>
+					<Bonus>
+						<Type>TroopRecruitment</Type>
+						<Amount>0.05</Amount>
+						<AppliesTo>Empire</AppliesTo>
+					</Bonus>
+					<Bonus>
+						<Type>TroopRecoveryRate</Type>
+						<Amount>0.05</Amount>
+						<AppliesTo>Empire</AppliesTo>
+					</Bonus>
+				</EmpireBonuses>
+			</PlanetaryFacilityValues>
+		</RepeatablePlanetaryFacilityValues>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

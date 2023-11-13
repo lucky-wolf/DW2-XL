@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.7](#v1187)
 		- [v1.18.6](#v1186)
 		- [v1.18.5](#v1185)
 		- [v1.18.4](#v1184)
@@ -185,6 +186,25 @@ YMMV, but this is my take on making it Extra Large!
   - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
 
 ## Latest Changes
+
+### v1.18.7
+- Official 1.1.8.1 Fleet Update compatible
+- Removed costs from most entry-level techs
+- Reduced cost of Ground Combat Academy (since it's available super early, to keep the AIs from tanking themselves on it)
+- Separated out Monitoring Stations into their own tech box
+- Adjusted construction yard tech cadence so 2x yards come later, and 3x are a final end-game tech
+  - With all of the other ways XL improves construction throughput, having 3x yards was just obscene
+- Improved the Crew Quarters, Medical, and Entertainment portion of the tech tree
+- Ackdarians:
+  - +1 General slot for Ackdarian Heavy Destroyer, Fleet Destroyer
+  - -1 General slot for Ackdarian Fast Frigate
+  - Extended Ackdarian Turbothursters to the end + added repeatables for them
+- Further extended Troop techtree
+- Epsilon [Ftr] starts at same level as Epsilon [S]
+- Added Plasma Torpedo [Ftr]
+- Advanced Medicomplex boosted to +100% growth rate for the colony
+- Take III on fixing pulsed planetary beams to look like blaster cannon fire, visually
+- Massively improved planetary rail guns to be based on forge cannon visuals and damage
 
 ### v1.18.6
 - Adjusted Ion Shields & Weapons
@@ -389,8 +409,8 @@ YMMV, but this is my take on making it Extra Large!
   - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Stratocracy governments to offer
-  - Improved crew systems
-  - Progress towards either standard crew systems (Monarchy) or marine barracks (Feudalism, Dictatorship)
+  - Improved Crew Accommodations
+  - Progress towards either standard Crew Accommodations (Monarchy) or marine barracks (Feudalism, Dictatorship)
   - Royal Palace
 - Terraforming facilities are a bit cheaper at the low end, more expensive at the high end
 - Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
@@ -1457,10 +1477,10 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 | Skip Drive            |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
 | Warp Bubble Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
 | Sojourn               |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Smart               |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Smart (v2)          |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Smart (v3)          |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Smart (v4)          |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Smart                 |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Smart (v2)            |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Smart (v3)            |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Smart (v4)            |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
 | Snap                  |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
 | Snap (v2)             |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
 | Snap (v3)             |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
@@ -1535,7 +1555,7 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |  475-500 | Quantum Shards                                             |
 |  475-525 | Aegis Missile Battery                                      |
 |      500 | Lightning & Hive & Replicating Swarm Missiles              |
-|      500 | Ion Cannons + PD                                             |
+|      500 | Ion Cannons + PD                                           |
 |      600 | Supernova Torpedo                                          |
 |  550-650 | Bulwark Missile Battery                                    |
 |      750 | EM Wave Cannon                                             |
@@ -1545,3 +1565,24 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |     2000 | Quantum Singularity & Black Hole Projector                 |
 |     2200 | Blasters & Phasers                                         |
 |     5000 | DF Beams (Thuon, Graviton, Phaser, EM Lance, Shatterforce) |
+
+
+Fighters
+| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
+| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
+| 0     | 1        | 1         | 0   | 0          | 20   | 20   | +8        |
+| 1     | 2        | 1         | 1   | 1          | 22.5 | 22.5 | +16       |
+| 2     | 2        | 2         | 2   | 2          | 25   | 25   | +24       |
+| 3     | 2        | 2         | 3   | 3          | 27.5 | 27.5 | +32       |
+| 4     | 2        | 2         | 4   | 4          | 30   | 30   | +40       |
+| 5     | 2        | 2         | 5   | 5          | 35   | 35   | +48       |
+
+Bombers
+| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
+| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
+| 0     | 1        | 1         | 0   | 0          | 10   | 10   |           |
+| 1     | 2        | 2         | 1   | 1          | 12.5 | 12.5 | +8        |
+| 2     | 2        | 2         | 2   | 2          | 15   | 15   | +16       |
+| 3     | 2        | 3         | 3   | 3          | 17.5 | 17.5 | +24       |
+| 4     | 2        | 3         | 4   | 4          | 20   | 20   | +32       |
+| 5     | 2        | 3         | 5   | 5          | 25   | 25   | +40       |
