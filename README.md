@@ -192,6 +192,9 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.9
 - Fixed missing initiation costs for starship medical, recreation, and interstellar commerce techs
 - Reduced cost of Espionage Facility to 75K
+- Reduced damage output of base level of Planetary Forge Cannon substantially
+- Adjusted growth rates for closed v. open societies
+  - Open have slower growth, while closed have higher, as in reality
 
 ### v1.18.8
 - Fixed missing monitoring station for Gizurean
