@@ -767,39 +767,60 @@
 		<ResearchProjectId>1015</ResearchProjectId>
 		<Name>Advanced Research Facilities</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4050</Amount>
+					<Amount>1350</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>452</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>576</ResearchProjectId>
+				<ResearchProjectId>55</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>462</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>463</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>464</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>465</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>60</short>
 		</PlanetaryFacilityIds>

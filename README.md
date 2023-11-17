@@ -194,7 +194,8 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced cost of Espionage Facility to 75K
 - Reduced damage output of base level of Planetary Forge Cannon substantially
 - Adjusted growth rates for closed v. open societies
-  - Open have slower growth, while closed have higher, as in reality
+  - Open governments have slower growth, while closed governments have higher growth, as is true on Earth
+- Moved Mega Labs earlier in tech tree
 
 ### v1.18.8
 - Fixed missing monitoring station for Gizurean
