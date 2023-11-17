@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.9](#v1189)
 		- [v1.18.8](#v1188)
 		- [v1.18.7](#v1187)
 		- [v1.18.6](#v1186)
@@ -159,34 +160,36 @@ It is not a completely different game than vanilla, rather it's improved in ways
 YMMV, but this is my take on making it Extra Large!
 
 ## Mod Highlights
-- Colonization tech is pick & choose (you're not required to become an expert in every planetary biome, you can specialize in those that make sense for the game you're playing as it evolves)
-- Specialized tech is viable throughout the game
-  - This mod makes sure that you don't have to also research the common techs in order to access some of the later features or facilities, rather they're available to everyone
-- More specializations to choose from
-  - Engine technology lines are more heavily specialized - e.g. Acceleros have poor maneuverability, but best-in-class acceleration; whereas Pulsed Ion engines are all about maneuverability
-  - Warp technology is now more strongly differentiated
-    - Snap prioritize minimizing jump transition time.
-    - Sojourn prioritize range.
-    - Hyperstream prioritize flight-speed.
-    - Smart prioritize efficiency.
-- Tech lines that bog down the game with useless non-choices are removed or simplified or deepened to have an appreciable impact on the game
-  - Vectoring thrusters only slowed down the game and saddled it with non-choices and confusion for the AIs to get stuck on, so I removed them (hid them, they're still in game, so as not to break other mods or game-events).
-  - The couple of specialized interceptors for the Ackdarians are now hidden, and only unlock if you get the in-game story events to do so.  Since they end very quickly, they're a dead-end tech that is otherwise not helpful to the flow of the game.
-- Basic tech is cheap & basic
-  - The first two levels of tech are pretty much applicable to all games, all species.
-  - They are cheaper than in vanilla.
-  - Early warp techs are more viable, allowing limited early game expansion or small local empires to be founded.
-- Game-changing technologies were pushed back to mostly start at the 3rd level of the tech tree
-  - The game currently requires any nation to be gifted at least the first two levels of tech when starting a game with more than one initial colony...
-  - By pushing back much of the more interesting decisions and more powerful technologies, those gifted free techs remains just what everyone needs, while leaving character building techs for later.
-    - This makes game-starts with more than one colony much more viable and enjoyable to play, in my opinion
-- There are fewer one-per-game facilities. Most are one-per-empire.
-  - This helps to reduce the winner run-away effect, snatching up all "wonders" and leaving everyone else permanently in the dust
-  - Hopefully, this will make AIs more viable (once their code is improved in general in the game engine itself)
-    - Or if you're coming from behind, should allow you to catch the leaders if you can keep yourself alive to reach and build these facilities yourself.
-  - There are a few endgame facilities that are still one-per-galaxy, but they're not going to stop you or the AI from being competitive when unable to obtain them yourself.
+- Colonizable worlds are fewer, and races are more specialized to their preferred type of worlds
+- Terraforming technology has multiple levels giving you the ability, at a significant cost, to terraform even barely colonizable worlds to paradise... eventually
+- Almost all racial tech is viable throughout the game, and that which isn't, merges into the main line on its own so you don't need to re-do research in a different branch
+- Racial tech also unlocks things like defense facilities giving you all the goodies from your race's special tech line
+- Engine technology lines are more heavily specialized
+- Warp technology is now more strongly differentiated
+  - Snap drives prioritize minimizing jump transition time
+  - Sojourn drives prioritize range
+  - Hyperstream drives prioritize flight-speed
+  - Smart drives prioritize energy efficiency
+- AIs will have a racial preference for their own warp drives (not all races want the same thing)
+- Tech lines that bog down the game with useless non-choices are removed, simplified, or deepened to have an appreciable impact on gameplay
+  - Vectoring thrusters are gone
+  - The dead-end Ackdarian specialized interceptors are gone
+- Tech tree is extended for t7 to t10, better arranged, with many more levels of weapons, armor, shields, troops, etc.
+- Many new and expanded planetary facilities to build
+- Massively rebalanced Weapons, Shields, Armor, general component space use, component size alternates, ship hull sizes, Ion, Point Defenses, Fighters, Hangars, etc.
+- Substantially slowed down weapons fire which should help everyone's PC keep up with the game better
+  - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.9
+- 1.1.8.7 Beta Compatible (recommended)
+- Fixed missing initiation costs for starship medical, recreation, and interstellar commerce techs
+- Reduced cost of Espionage Facility to 75K
+- Reduced damage output of base level of Planetary Forge Cannon substantially
+- Adjusted growth rates for closed v. open societies
+  - Open governments have slower growth, while closed governments have higher growth, as is true on Earth
+- Moved Mega Labs earlier in tech tree (late game is very expensive now, you'll probably want these)
 
 ### v1.18.8
 - Fixed missing monitoring station for Gizurean
