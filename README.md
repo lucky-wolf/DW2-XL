@@ -13,6 +13,7 @@
 	- [Guiding Principles](#guiding-principles)
 	- [Mod Highlights](#mod-highlights)
 	- [Latest Changes](#latest-changes)
+		- [v1.18.10](#v11810)
 		- [v1.18.9](#v1189)
 		- [v1.18.8](#v1188)
 		- [v1.18.7](#v1187)
@@ -181,6 +182,10 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.10
+- Nerfed planetary shipyards
+- Buffed planetary shields
 
 ### v1.18.9
 - 1.1.8.7 Beta Compatible (recommended)

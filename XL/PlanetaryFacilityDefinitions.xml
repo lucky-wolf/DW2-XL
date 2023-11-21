@@ -560,7 +560,7 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>25</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>50</PlanetaryShieldMaximumDamageAbsorbed>
 		<PlanetaryShieldPenetrationChance>0.15</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -594,7 +594,7 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>50</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>100</PlanetaryShieldMaximumDamageAbsorbed>
 		<PlanetaryShieldPenetrationChance>0.10</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -826,9 +826,8 @@
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<!-- locally acts as an additional shipyard -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>1.0</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1022,9 +1021,8 @@
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
-				<!-- acts as another shipyard locally -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>1.0</Amount>
+				<Amount>0.75</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2493,7 +2491,7 @@
 		<FacilityFamilyId>30</FacilityFamilyId>
 		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Danula Industrial Center</Name>
+		<Name>Danuta Industrial Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2729,7 +2727,7 @@
 			<short>62</short>
 			<short>66</short>
 		</TroopIdsRecruitable>
-		<Name>Special Operations Training Facilites</Name>
+		<Name>Special Operations Training Facilities</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Special Operations Barracks</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
