@@ -184,8 +184,9 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.10
-- Nerfed planetary shipyards
 - Buffed planetary shields
+- Nerfed planetary shipyards
+- Fixed vector thrust values for Turbo thrusters
 
 ### v1.18.9
 - 1.1.8.7 Beta Compatible (recommended)
