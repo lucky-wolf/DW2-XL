@@ -187,6 +187,7 @@ YMMV, but this is my take on making it Extra Large!
 - Buffed planetary shields
 - Nerfed planetary shipyards
 - Fixed vector thrust values for Turbo thrusters
+- Fixed Gizurean's insane level of hatred for Ackdarians
 
 ### v1.18.9
 - 1.1.8.7 Beta Compatible (recommended)
