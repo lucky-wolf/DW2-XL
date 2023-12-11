@@ -188,6 +188,9 @@ YMMV, but this is my take on making it Extra Large!
 - Nerfed planetary shipyards
 - Fixed vector thrust values for Turbo thrusters
 - Fixed Gizurean's insane level of hatred for Ackdarians
+- Improved most hyperdrive initiation times
+- Added troop recovery boosts to recruitment facilities
+- Enlarged defense fleets a bit
 
 ### v1.18.9
 - 1.1.8.7 Beta Compatible (recommended)

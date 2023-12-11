@@ -3,6 +3,9 @@ Publish on Steam:
 
 	xq -x ".ArrayOfShipHull.ShipHull[] | {ShipHullId, Role}" '.\xl\ShipHulls_Ackdarian.xml'
 
+Link (must be administrator)
+	New-Item -Path "C:\Users\steve\Downloads\DW2 Unstable\mods" -ItemType SymbolicLink -Value "C:\Steam\steamapps\common\Distant Worlds 2\mods"
+
 LET'S fix:
 - Nova missiles
 	- genuinely high dmg / aoe
