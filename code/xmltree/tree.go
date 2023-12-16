@@ -134,6 +134,19 @@ func (e *XMLValue) GetNumericValue() (value float64, err error) {
 	return strconv.ParseFloat(s, 64)
 }
 
+// if the value is simple and parsable as int, returns that
+func (e *XMLValue) GetInt64Value() (value int64, err error) {
+	// must be simple
+	s, ok := e.contents.(string)
+	if !ok {
+		err = fmt.Errorf("XMLValue is not simple: cannot extract a value from it")
+		return
+	}
+
+	// must be parsable as a float
+	return strconv.ParseInt(s, 10, 64)
+}
+
 // grab string & parse (may end up hiding errors and being zero)
 func (e *XMLValue) NumericValue() (value float64) {
 	value, _ = strconv.ParseFloat(e.StringValue(), 64)

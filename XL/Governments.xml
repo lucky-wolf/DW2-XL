@@ -4,7 +4,7 @@
 		<GovernmentId>0</GovernmentId>
 		<Name>Republic</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Republic)</string>
+			<string>Initialize Government (Republic)</string>
 		</StartingGameEventNames>
 		<Description>Republics are governments that are led by a head of state who is usually elected. The head of state, often called the President, serves for a set term, after which a new president is elected. While the president is elected, this may actually happen indirectly, where a council of some sort is elected by the people, and this council then elects a president. In many respects Republics are similar to Democracies and usually hold comparable ideals.
 
@@ -235,7 +235,7 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 		<GovernmentId>1</GovernmentId>
 		<Name>Mercantile Guild</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Mercantile Guild)</string>
+			<string>Initialize Government (Mercantile Guild)</string>
 		</StartingGameEventNames>
 		<Description>Mercantile Guild governments are highly focussed towards commerce, trade and industry. The ruling structure is often loose and informal – a collection of leading members of the business community make key decisions that affect all citizens.
 
@@ -481,7 +481,7 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 		<GovernmentId>2</GovernmentId>
 		<Name>Democracy</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Democracy)</string>
+			<string>Initialize Government (Democracy)</string>
 		</StartingGameEventNames>
 		<Description>Democratic governments draw their power from the people that live under them. Competitive elections are held to select representatives who rule for a specified period.
 
@@ -737,7 +737,7 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<GovernmentId>3</GovernmentId>
 		<Name>Feudalism</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Feudalism)</string>
+			<string>Initialize Government (Feudalism)</string>
 		</StartingGameEventNames>
 		<Description>Feudalisms are governments that rely on a set of reciprocal legal and military obligations among the warrior nobility. In its most basic essence, Feudalism is the granting of land and rights in return for military service.
 
@@ -903,7 +903,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -919,7 +919,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -927,7 +927,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -935,7 +935,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -943,7 +943,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -959,7 +959,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -967,7 +967,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>MiningRate</Type>
-				<Amount>-0.10</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -984,6 +984,14 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
 				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1009,7 +1017,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			<string>Dominant</string>
 			<string>Iron</string>
 			<string>Noble</string>
-			<string>Resiliant</string>
+			<string>Resilient</string>
 			<string>Robust</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
@@ -1028,7 +1036,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 		<GovernmentId>4</GovernmentId>
 		<Name>Monarchy</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Monarchy)</string>
+			<string>Initialize Government (Monarchy)</string>
 		</StartingGameEventNames>
 		<Description>Monarchies invest supreme power in an individual (the Monarch) who is the head of state, often for life or until abdication. Monarchies are usually hereditary, with a child of the Monarch inheriting power on the death of their parent.
 
@@ -1189,7 +1197,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1197,7 +1205,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1205,7 +1213,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1213,7 +1221,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1229,7 +1237,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1280,7 +1288,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		<GovernmentId>5</GovernmentId>
 		<Name>Stratocracy</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Stratocracy)</string>
+			<string>Initialize Government (Stratocracy)</string>
 		</StartingGameEventNames>
 		<Description>Stratocracy is an autocratic form of absolute rule that is unrestricted by law, constitutions, or other social and political factors.
 
@@ -1457,7 +1465,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1489,7 +1497,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1521,7 +1529,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1574,7 +1582,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 		<GovernmentId>6</GovernmentId>
 		<Name>Technocracy</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Technocracy)</string>
+			<string>Initialize Government (Technocracy)</string>
 		</StartingGameEventNames>
 		<Description>Technocratic governments place engineers, scientists and technical experts in control. Decision makers are selected based upon how knowledgeable and capable they are.
 
@@ -1801,7 +1809,7 @@ Technocracy government type is only available to the Ackdarians.</Description>
 		<GovernmentId>7</GovernmentId>
 		<Name>Hive Mind</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Hive Mind)</string>
+			<string>Initialize Government (Hive Mind)</string>
 		</StartingGameEventNames>
 		<Description>Hive Mind governments can be formed by alien races that have a natural telepathic ability. The prime value is loyalty to the community as a whole – individual expression and freedom is suppressed for this greater common good.
 
@@ -2799,7 +2807,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<GovernmentId>51</GovernmentId>
 		<Name>Archivist</Name>
 		<StartingGameEventNames>
-			<string>Initialise Government (Archivist)</string>
+			<string>Initialize Government (Archivist)</string>
 		</StartingGameEventNames>
 		<Description>Archivist governments are obsessed with information. The type of information makes no difference to this government. All information that exists must be known and archived in the vast data vaults of the empire.
 

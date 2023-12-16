@@ -1467,7 +1467,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>37</ResearchProjectId>
-		<Name>Enhanced Epsilon Torpedos</Name>
+		<Name>Enhanced Epsilon Torpedoes</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -1600,6 +1600,14 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>231</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>230</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>25</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -1687,6 +1695,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>234</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>26</ComponentId>
 				<Level>0</Level>
@@ -2493,7 +2505,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>60</ResearchProjectId>
-		<Name>Advanced Epsilon Torpedos</Name>
+		<Name>Advanced Epsilon Torpedoes</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -2687,11 +2699,11 @@
 		<Components>
 			<Component>
 				<ComponentId>231</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>230</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>25</ComponentId>
@@ -2795,7 +2807,7 @@
 		<Components>
 			<Component>
 				<ComponentId>234</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>26</ComponentId>
@@ -4417,11 +4429,11 @@
 		<Components>
 			<Component>
 				<ComponentId>231</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>230</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>25</ComponentId>
@@ -4469,7 +4481,7 @@
 		<Components>
 			<Component>
 				<ComponentId>234</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>26</ComponentId>
@@ -5973,6 +5985,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>192</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>52</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -6020,6 +6036,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>193</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>53</ComponentId>
 				<Level>0</Level>
@@ -7413,7 +7433,7 @@
 		<Components>
 			<Component>
 				<ComponentId>192</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>52</ComponentId>
@@ -7465,7 +7485,7 @@
 		<Components>
 			<Component>
 				<ComponentId>193</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>53</ComponentId>
@@ -24531,8 +24551,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>556</ComponentId>
-				<Level>0</Level>
+				<ComponentId>536</ComponentId>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -27746,7 +27766,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>634</ResearchProjectId>
-		<Name>Fighter III Speed</Name>
+		<Name>Fighter Speed</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>
@@ -27782,7 +27802,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>635</ResearchProjectId>
-		<Name>Fighter III Turn Rate</Name>
+		<Name>Fighter Turn Rate</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>
@@ -27818,7 +27838,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>636</ResearchProjectId>
-		<Name>Reified Targeting</Name>
+		<Name>Fighter Targeting</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>455625</Size>
 		<InitiationCost>

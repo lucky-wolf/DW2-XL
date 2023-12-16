@@ -1356,26 +1356,26 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TroopExperienceGain</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
@@ -1402,15 +1402,30 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
-			<Money>150000</Money>
+			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>15000</MaintenanceCost>
+		<MaintenanceCost>10000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -2000,64 +2015,69 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TroopExperienceGain</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Targeting</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Countermeasures</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDefense</Type>
+				<Type>WarWearinessReduction</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2972,12 +2992,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2987,7 +3007,7 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>

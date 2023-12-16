@@ -199,13 +199,13 @@ func (j *Job) ScaleToComponentByName(source *xmltree.XMLElement, name string) (e
 	return
 }
 
-func IsWhat(e *xmltree.XMLElement) ComponentIs {
-	fighter := e.Has("IsFighterOnly", "true")
-	return ComponentIs{
-		fighter: fighter,
-		weapon:  e.HasPrefix("Category", "Weapon"),
-		pd:      !fighter && e.Has("Category", "WeaponIntercept"),
-	}
+func IsWhat(e *xmltree.XMLElement) (is ComponentIs) {
+	is.fighter = e.Has("IsFighterOnly", "true")
+	is.weapon = e.HasPrefix("Category", "Weapon")
+	is.pd = !is.fighter && e.Has("Category", "WeaponIntercept")
+	is.size = e.Child("Size").IntValue()
+
+	return
 }
 
 func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement, e *xmltree.XMLElement) (err error) {
@@ -217,10 +217,12 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 
 	// scale component size
 	if is.fighter {
-		size := source.Child("Size")
-		if size != nil {
-			var value float64
-			value, err = size.GetNumericValue()
+		sourceSizeElem := source.Child("Size")
+		if sourceSizeElem != nil {
+
+			// attempt to extract the int64 value of the size element
+			var value int64
+			value, err = sourceSizeElem.GetInt64Value()
 			if err != nil {
 				return
 			}
@@ -230,14 +232,17 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 			case is.weapon:
 				// 11 -> 5
 				// 13 -> 10
-				if source.Child("Size").NumericValue() < 13 {
+				if value < 13 {
 					e.Child("Size").SetValue(5)
+					is.size = 5
 				} else {
 					e.Child("Size").SetValue(10)
+					is.size = 10
 				}
 			default:
 				// size must be an integer value (round up)
-				e.Child("Size").SetValue(int(((3 + value) / 4)))
+				is.size = int(((3 + value) / 4))
+				e.Child("Size").SetValue(is.size)
 			}
 
 		}
@@ -356,6 +361,7 @@ type ComponentIs struct {
 	fighter bool
 	weapon  bool
 	pd      bool
+	size    int
 }
 
 func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, is ComponentIs) (err error) {
@@ -378,6 +384,15 @@ func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, is ComponentIs) (err error) {
 }
 
 func FtrOrPDMainWeaponScaling(is ComponentIs) (rof float64, dmg float64) {
+
+	if is.fighter && is.size > 5 {
+		// make bombers essentially 1/2 the rof as compared to fighter intercept weapons
+		// note: we could customize the scaling depending on e.Child("Family")
+		// warn: but we cannot use that to determine "bomber" weapon or not (as we want to add bomber beams and gravitic or etc.)
+		// 2 x .5 = 1x total output compared to source weapon (more highly negated by DR and the like)
+		return 2, .5
+	}
+
 	// 4 x .375 = 1.5x total output
 	return 4, .375
 }
