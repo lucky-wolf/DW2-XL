@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.11](#v11811)
     - [v1.18.10](#v11810)
     - [v1.18.9](#v1189)
     - [v1.18.8](#v1188)
@@ -182,6 +183,9 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.11
+- Reduced research cost of Super tech by about 25% (~t8.5)
 
 ### v1.18.10
 - Buffed planetary shields
