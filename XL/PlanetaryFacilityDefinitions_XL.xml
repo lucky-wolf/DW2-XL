@@ -147,7 +147,7 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>75</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>200</PlanetaryShieldMaximumDamageAbsorbed>
 		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -242,6 +242,11 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>

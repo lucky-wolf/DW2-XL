@@ -560,7 +560,7 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>25</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>50</PlanetaryShieldMaximumDamageAbsorbed>
 		<PlanetaryShieldPenetrationChance>0.15</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -594,7 +594,7 @@
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
-		<PlanetaryShieldMaximumDamageAbsorbed>50</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldMaximumDamageAbsorbed>100</PlanetaryShieldMaximumDamageAbsorbed>
 		<PlanetaryShieldPenetrationChance>0.10</PlanetaryShieldPenetrationChance>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
@@ -826,9 +826,8 @@
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
 			<Bonus>
-				<!-- locally acts as an additional shipyard -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>1.0</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1022,9 +1021,8 @@
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
-				<!-- acts as another shipyard locally -->
 				<Type>ConstructionSpeedAllShips</Type>
-				<Amount>1.0</Amount>
+				<Amount>0.75</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1358,26 +1356,26 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TroopExperienceGain</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDefense</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
@@ -1399,15 +1397,35 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDefense</Type>
+				<Type>TroopRecoveryRate</Type>
 				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
-			<Money>150000</Money>
+			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>15000</MaintenanceCost>
+		<MaintenanceCost>10000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -1997,64 +2015,69 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TroopExperienceGain</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Targeting</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>Countermeasures</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyDefense</Type>
+				<Type>WarWearinessReduction</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDefense</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
@@ -2493,7 +2516,7 @@
 		<FacilityFamilyId>30</FacilityFamilyId>
 		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Danula Industrial Center</Name>
+		<Name>Danuta Industrial Center</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2665,6 +2688,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -2694,6 +2722,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2729,7 +2762,7 @@
 			<short>62</short>
 			<short>66</short>
 		</TroopIdsRecruitable>
-		<Name>Special Operations Training Facilites</Name>
+		<Name>Special Operations Training Facilities</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Special Operations Barracks</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -2959,12 +2992,12 @@
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2974,7 +3007,7 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
