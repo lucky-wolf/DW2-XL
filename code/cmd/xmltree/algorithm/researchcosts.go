@@ -112,7 +112,8 @@ func (j *Job) applyResearchCosts() (err error) {
 					resources := cost.Child("Resources")
 					if resources != nil {
 						for _, e := range resources.Elements() {
-							e.Child("Amount").SetValue(sizes[col] / 2)
+							factor := scaleFactorForElement(e.Child("ResourceId").IntValue())
+							e.Child("Amount").SetValue(int(float64(sizes[col]) / factor))
 						}
 					}
 				}
@@ -124,5 +125,20 @@ func (j *Job) applyResearchCosts() (err error) {
 		}
 	}
 	err = nil
+	return
+}
+
+func scaleFactorForElement(resourceID int) (factor float64) {
+	switch resourceID {
+	// Hexodorium
+	case 78:
+		factor = 4
+	// Mebnar, Aculon, Cuprica, Polymer, Dyrillium Quartz, Carbonite
+	case 9, 10, 11, 12, 13, 77:
+		factor = 3
+	// steel, silicon, and everything else...
+	default:
+		factor = 2
+	}
 	return
 }
