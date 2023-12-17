@@ -186,9 +186,8 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.12
-- Scaled research resource costs according to scarcity of resource
-  - e.g. less hex needed, which is especially useful for very high end research projects
-- Revamped resource costs for research to be far more achievable on the high-end
+- Scaled research initiation resource costs according to scarcity of resource
+  - redid the scaling of resources to make high end techs achievable
 - Adjusted all Planetary Defense Installation techs, facilities, and weapons
   - Now all have 3 levels
   - They're roughly in line with each other in terms of potency

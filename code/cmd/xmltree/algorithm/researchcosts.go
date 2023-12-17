@@ -37,7 +37,10 @@ func ResearchCosts(folder string) (err error) {
 // var sizes = []int{33, 100, 300, 900, 2700, 5400, 10800, 21600, 43200, 86400, 172800, 345600, 86400}
 
 // more aggressive
-// x3...x2            x3   x3   x3   x3    x3    x2.5   x2.5   x2      x2      x1.5    x1.5    ~t8.5
+//
+// tech level             T0   T1   T2   T3    T4    T5    T6      T7      T8      T9    T10     T11 (repeat)   T12 (super)
+//
+// x3...x2                x3   x3   x3   x3    x3    x3   x2.5   x2.5      x2      x2    x1.5    x1.5  ~t8.5
 var researchSizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 455625, 151875}
 var resourceCosts = []int{33, 100, 300, 600, 1200, 2400, 4800, 9600, 18200, 36400, 72800, 145600, 27300}
 

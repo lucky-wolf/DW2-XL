@@ -6,9 +6,12 @@ Publish on Steam:
 Link (must be administrator)
 	New-Item -Path "C:\Users\steve\Downloads\DW2 Unstable\mods" -ItemType SymbolicLink -Value "C:\Steam\steamapps\common\Distant Worlds 2\mods"
 
-Generate the data/schema folder:
-	 --gen-xsd
-	 note: any unknown cli option will show a dialog with all options
+distantworlds2 options:
+	 --gen-xsd		generates the xsd's in data/schema
+	 --help 		for a display of all options
+
+After generating the xsd:
+	replace minOccurs="1" with minOccurs="0" or you'll have a ton of meaningless errors according to the schema
 
 LET'S fix:
 - Nova missiles
