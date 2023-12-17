@@ -1,0 +1,56 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfCharacterAnimation" nillable="true" type="ArrayOfCharacterAnimation" />
+  <xs:complexType name="ArrayOfCharacterAnimation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CharacterAnimation" nillable="true" type="CharacterAnimation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CharacterAnimation">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterAnimationId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="CharacterRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DataPath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SkinName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImagePath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="CharacterRoomId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIdleNeutral" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIdleHappy" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIdleAngry" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIncidentHappy" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIncidentAngry" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Scale" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BottomCropRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeftOffsetRatio" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="CharacterRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Leader" />
+      <xs:enumeration value="Pirate" />
+      <xs:enumeration value="Ambassador" />
+      <xs:enumeration value="ColonyGovernor" />
+      <xs:enumeration value="FleetAdmiral" />
+      <xs:enumeration value="ShipCaptain" />
+      <xs:enumeration value="TroopGeneral" />
+      <xs:enumeration value="Scientist" />
+      <xs:enumeration value="Spy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfSortableTextValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SortableTextValue" nillable="true" type="SortableTextValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SortableTextValue">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Text2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Text3" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

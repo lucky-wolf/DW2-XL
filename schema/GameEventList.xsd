@@ -1,0 +1,569 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfGameEvent" nillable="true" type="ArrayOfGameEvent" />
+  <xs:complexType name="ArrayOfGameEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameEvent" nillable="true" type="GameEvent" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GameEvent">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GroupName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MusicFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerType" type="GameEventTriggerType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerBuildFacilityId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerBuildBaseRole" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TriggerResearchProjectId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerEmpireRelationType" type="EmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TriggerEmpireRelationSizeRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerRaceIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NonTriggerRaceIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerPriority" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ConditionEvaluation" type="GameEventConditionEvaluationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Conditions" type="ArrayOfGameEventCondition" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementAtGameStart" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementRaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementActions" type="ArrayOfGameEventAction" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementActionEventHostIndex" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OrbEncounterDiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Enabled" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TechLevelThreshold" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerActionsAreChoices" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SuppressTriggerDescriptions" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerActions" type="ArrayOfGameEventAction" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="GameEventTriggerType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Investigate" />
+      <xs:enumeration value="Acquire" />
+      <xs:enumeration value="Destroy" />
+      <xs:enumeration value="Build" />
+      <xs:enumeration value="EmpireRelationChange" />
+      <xs:enumeration value="ResearchBreakthrough" />
+      <xs:enumeration value="Encounter" />
+      <xs:enumeration value="EncounterLocation" />
+      <xs:enumeration value="ConquerColony" />
+      <xs:enumeration value="AcquireColonyPeacefully" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShipRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Escort" />
+      <xs:enumeration value="Frigate" />
+      <xs:enumeration value="Destroyer" />
+      <xs:enumeration value="Cruiser" />
+      <xs:enumeration value="CapitalShip" />
+      <xs:enumeration value="Carrier" />
+      <xs:enumeration value="TroopTransport" />
+      <xs:enumeration value="FreighterSmall" />
+      <xs:enumeration value="FreighterMedium" />
+      <xs:enumeration value="FreighterLarge" />
+      <xs:enumeration value="MiningShip" />
+      <xs:enumeration value="ConstructionShip" />
+      <xs:enumeration value="ExplorationShip" />
+      <xs:enumeration value="PassengerShip" />
+      <xs:enumeration value="ColonyShip" />
+      <xs:enumeration value="SpaceportSmall" />
+      <xs:enumeration value="SpaceportMedium" />
+      <xs:enumeration value="SpaceportLarge" />
+      <xs:enumeration value="MiningStation" />
+      <xs:enumeration value="DefensiveBase" />
+      <xs:enumeration value="ResearchStation" />
+      <xs:enumeration value="MonitoringStation" />
+      <xs:enumeration value="ResortBase" />
+      <xs:enumeration value="FighterInterceptor" />
+      <xs:enumeration value="FighterBomber" />
+      <xs:enumeration value="FuelTanker" />
+      <xs:enumeration value="PlanetDestroyer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EmpireRelationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="FirstContact" />
+      <xs:enumeration value="NonAggression" />
+      <xs:enumeration value="RestrictedTrade" />
+      <xs:enumeration value="LimitedTrade" />
+      <xs:enumeration value="FreeTrade" />
+      <xs:enumeration value="ResourceSupply" />
+      <xs:enumeration value="Migration" />
+      <xs:enumeration value="MiningRights" />
+      <xs:enumeration value="MilitaryRefuelling" />
+      <xs:enumeration value="Research" />
+      <xs:enumeration value="Defense" />
+      <xs:enumeration value="Exploration" />
+      <xs:enumeration value="TerritoryMapSharing" />
+      <xs:enumeration value="GalaxyMapSharing" />
+      <xs:enumeration value="OperationsMapSharing" />
+      <xs:enumeration value="IntelligenceSharing" />
+      <xs:enumeration value="War" />
+      <xs:enumeration value="Subjugation" />
+      <xs:enumeration value="Peace" />
+      <xs:enumeration value="PirateProtection" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="short" type="xs:short" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="GameEventConditionEvaluationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EvaluateOnce" />
+      <xs:enumeration value="EvaluateUntilTriggered" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfGameEventCondition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameEventCondition" nillable="true" type="GameEventCondition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GameEventCondition">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="GameEventConditionType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LookupValue" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VariableName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComparisonType" type="ComparisonType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComparisonValue" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="GameEventConditionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="VariableComparison" />
+      <xs:enumeration value="RandomComparisonNormalized" />
+      <xs:enumeration value="CheckProjectResearched" />
+      <xs:enumeration value="CheckColonyPopulationRaceThreshold" />
+      <xs:enumeration value="CheckColonyPopulationExists" />
+      <xs:enumeration value="CheckEventTriggered" />
+      <xs:enumeration value="EmpireIsPlayer" />
+      <xs:enumeration value="EmpireIsNotPlayer" />
+      <xs:enumeration value="EmpireIsPirate" />
+      <xs:enumeration value="EmpireIsNotPirate" />
+      <xs:enumeration value="CheckEmpireTechLevel" />
+      <xs:enumeration value="CheckColonyNotExistsOrIsIndependent" />
+      <xs:enumeration value="CheckColonyExistsAndIsNotIndependent" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ComparisonType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Equals" />
+      <xs:enumeration value="GreaterThan" />
+      <xs:enumeration value="LessThan" />
+      <xs:enumeration value="GreaterThanOrEqual" />
+      <xs:enumeration value="LessThanOrEqual" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfGameEventAction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameEventAction" nillable="true" type="GameEventAction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GameEventAction">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="GameEventActionType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MessageTitle" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MusicFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationHint" type="GameEventLocationHint" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationShouldBeFuelSource" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" default="true" name="ActionLocationCanBeAsteroid" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationItemName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationItemType" type="ItemType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id1" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id2" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id3" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id4" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value1" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value3" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value4" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipRole" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterRole" type="CharacterRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchCategory" type="ComponentCategory" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusType" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusAppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmpireRelationType" type="EmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ChoiceButtonText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Conditions" type="ArrayOfGameEventCondition" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemEventNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemArtifactNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionObjectId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionObjectType" type="ItemType" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="GameEventActionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Money" />
+      <xs:enumeration value="ResearchProgress" />
+      <xs:enumeration value="ResearchBreakthrough" />
+      <xs:enumeration value="ResearchProjectEnable" />
+      <xs:enumeration value="MapInfo" />
+      <xs:enumeration value="PopulationAwoken" />
+      <xs:enumeration value="GovernmentUnlocked" />
+      <xs:enumeration value="RefugeeFleet" />
+      <xs:enumeration value="PirateAmbush" />
+      <xs:enumeration value="ShipExplodes" />
+      <xs:enumeration value="CoordinatesLostShip" />
+      <xs:enumeration value="CoordinatesLostColony" />
+      <xs:enumeration value="CreatureSwarm" />
+      <xs:enumeration value="NavigationalCoordinates" />
+      <xs:enumeration value="GenerateOwnedColony" />
+      <xs:enumeration value="GenerateIndependentColony" />
+      <xs:enumeration value="GenerateLostColony" />
+      <xs:enumeration value="GenerateCreature" />
+      <xs:enumeration value="GenerateShipBase" />
+      <xs:enumeration value="GenerateAbandonedShipBase" />
+      <xs:enumeration value="GenerateSpaceItem" />
+      <xs:enumeration value="GenerateCharacter" />
+      <xs:enumeration value="BuildFacility" />
+      <xs:enumeration value="GenerateAsteroidField" />
+      <xs:enumeration value="GenerateDebrisField" />
+      <xs:enumeration value="GeneratePirateFaction" />
+      <xs:enumeration value="GenerateTroops" />
+      <xs:enumeration value="SetOrbDamage" />
+      <xs:enumeration value="GenerateResourceAtOrb" />
+      <xs:enumeration value="GenerateBonusAtOrb" />
+      <xs:enumeration value="StartColonyEvent" />
+      <xs:enumeration value="EndColonyEvent" />
+      <xs:enumeration value="AddEmpireIncidentFactorGeneral" />
+      <xs:enumeration value="SplitEmpirePeacefully" />
+      <xs:enumeration value="SplitEmpireCivilWar" />
+      <xs:enumeration value="ContactEmpire" />
+      <xs:enumeration value="ChangeRaceBias" />
+      <xs:enumeration value="ChangeEmpireReputation" />
+      <xs:enumeration value="ChangeEmpireDormant" />
+      <xs:enumeration value="ChangeEmpireRelation" />
+      <xs:enumeration value="VictoryConditionBonus" />
+      <xs:enumeration value="GeneralStoryMessageToEmpire" />
+      <xs:enumeration value="EmpireStoryMessageToEmpire" />
+      <xs:enumeration value="AddLocationEffect" />
+      <xs:enumeration value="RemoveLocationEffect" />
+      <xs:enumeration value="AddNebulaWithEffects" />
+      <xs:enumeration value="RemoveNebulaWithEffects" />
+      <xs:enumeration value="HiveAmbush" />
+      <xs:enumeration value="RevealNearestUnknownIndependentColony" />
+      <xs:enumeration value="NavigationalCoordinatesExistingIndependentColony" />
+      <xs:enumeration value="NavigationalCoordinatesExistingAbandonedShip" />
+      <xs:enumeration value="NavigationalCoordinatesExistingRuins" />
+      <xs:enumeration value="AddCargo" />
+      <xs:enumeration value="GenerateShipDebris" />
+      <xs:enumeration value="ChangeEmpireGovernment" />
+      <xs:enumeration value="ChangeEmpireGovernmentRevolution" />
+      <xs:enumeration value="ChangeCharacterLocation" />
+      <xs:enumeration value="ChangeCharacterEmpire" />
+      <xs:enumeration value="DestroyCharacter" />
+      <xs:enumeration value="DestroyCreature" />
+      <xs:enumeration value="DestroyShip" />
+      <xs:enumeration value="DestroyTroops" />
+      <xs:enumeration value="RemoveFacility" />
+      <xs:enumeration value="TransferMoney" />
+      <xs:enumeration value="EnableEvent" />
+      <xs:enumeration value="DisableEvent" />
+      <xs:enumeration value="ExploreSystem" />
+      <xs:enumeration value="ChangeItemName" />
+      <xs:enumeration value="RevealResourceLocations" />
+      <xs:enumeration value="GenerateStar" />
+      <xs:enumeration value="GeneratePlanetarySystem" />
+      <xs:enumeration value="TriggerEvent" />
+      <xs:enumeration value="GenerateArtifact" />
+      <xs:enumeration value="ChangeArtifactLocation" />
+      <xs:enumeration value="DestroyArtifact" />
+      <xs:enumeration value="ChangeShipEmpire" />
+      <xs:enumeration value="ChangeColonyEmpire" />
+      <xs:enumeration value="AddNebulaWithEffectsHidden" />
+      <xs:enumeration value="AddSpecialLocationGalaxy" />
+      <xs:enumeration value="AddSpecialLocationEmpire" />
+      <xs:enumeration value="IntegrateEmpire" />
+      <xs:enumeration value="AddPopulationToColony" />
+      <xs:enumeration value="GenerateEmpire" />
+      <xs:enumeration value="RepairRebuildShip" />
+      <xs:enumeration value="CustomCode" />
+      <xs:enumeration value="SetGlobalVariable" />
+      <xs:enumeration value="SetGlobalVariableRandomRange" />
+      <xs:enumeration value="IncrementGlobalVariable" />
+      <xs:enumeration value="MultiplyGlobalVariable" />
+      <xs:enumeration value="ClearCharacterSkills" />
+      <xs:enumeration value="ClearCharacterTraits" />
+      <xs:enumeration value="AddCharacterSkill" />
+      <xs:enumeration value="AddCharacterTrait" />
+      <xs:enumeration value="SetCharacterTraitsKnown" />
+      <xs:enumeration value="SetDiplomaticRelationType" />
+      <xs:enumeration value="CancelDiplomaticRelationType" />
+      <xs:enumeration value="SetIndependentColonyRelationType" />
+      <xs:enumeration value="CancelIndependentColonyRelationType" />
+      <xs:enumeration value="RemoveEmpireIncidentFactorGeneral" />
+      <xs:enumeration value="ClearColonyDevelopmentFromResources" />
+      <xs:enumeration value="ReducePopulationAtColony" />
+      <xs:enumeration value="HiveEncounter" />
+      <xs:enumeration value="CreateAlliance" />
+      <xs:enumeration value="DisbandAlliance" />
+      <xs:enumeration value="AddFactionToAlliance" />
+      <xs:enumeration value="RemoveFactionFromAlliance" />
+      <xs:enumeration value="ChangeFacilityDiscoveryLevel" />
+      <xs:enumeration value="AddResourceBonus" />
+      <xs:enumeration value="UnlockFactionSpecialShipTech" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GameEventLocationHint">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SameLocationAsEvent" />
+      <xs:enumeration value="SameSystemAsEvent" />
+      <xs:enumeration value="HomeColony" />
+      <xs:enumeration value="HomeSystem" />
+      <xs:enumeration value="AnyColonySystem" />
+      <xs:enumeration value="FrontierColonySystem" />
+      <xs:enumeration value="NearbyEmptySystem" />
+      <xs:enumeration value="MediumEmptySystem" />
+      <xs:enumeration value="DistantEmptySystem" />
+      <xs:enumeration value="GeneratedItemFromFirstAction" />
+      <xs:enumeration value="GeneratedItemFromSecondAction" />
+      <xs:enumeration value="AnyColony" />
+      <xs:enumeration value="FrontierColony" />
+      <xs:enumeration value="NearbyColony" />
+      <xs:enumeration value="NearestColony" />
+      <xs:enumeration value="EmptySystemGalaxyEdge" />
+      <xs:enumeration value="LonelySystemMedium" />
+      <xs:enumeration value="LonelySystemDistant" />
+      <xs:enumeration value="NearbyEmptyCoordinates" />
+      <xs:enumeration value="MediumEmptyCoordinates" />
+      <xs:enumeration value="DistantEmptyCoordinates" />
+      <xs:enumeration value="GeneratedItemFromFirstActionSystem" />
+      <xs:enumeration value="TriggeringItem" />
+      <xs:enumeration value="BestColonyNonCapital" />
+      <xs:enumeration value="VeryNearbyEmptySystem" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ItemType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Orb" />
+      <xs:enumeration value="Ship" />
+      <xs:enumeration value="Creature" />
+      <xs:enumeration value="SpaceItem" />
+      <xs:enumeration value="Fleet" />
+      <xs:enumeration value="Character" />
+      <xs:enumeration value="Empire" />
+      <xs:enumeration value="Colony" />
+      <xs:enumeration value="Troop" />
+      <xs:enumeration value="Race" />
+      <xs:enumeration value="Design" />
+      <xs:enumeration value="WeaponBlast" />
+      <xs:enumeration value="Resource" />
+      <xs:enumeration value="Artifact" />
+      <xs:enumeration value="ResearchProject" />
+      <xs:enumeration value="PlanetaryFacility" />
+      <xs:enumeration value="ColonyEvent" />
+      <xs:enumeration value="SpecialLocation" />
+      <xs:enumeration value="LocationThreatSummary" />
+      <xs:enumeration value="FleetTemplate" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CharacterRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Leader" />
+      <xs:enumeration value="Pirate" />
+      <xs:enumeration value="Ambassador" />
+      <xs:enumeration value="ColonyGovernor" />
+      <xs:enumeration value="FleetAdmiral" />
+      <xs:enumeration value="ShipCaptain" />
+      <xs:enumeration value="TroopGeneral" />
+      <xs:enumeration value="Scientist" />
+      <xs:enumeration value="Spy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ComponentCategory">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Armor" />
+      <xs:enumeration value="Shields" />
+      <xs:enumeration value="Engine" />
+      <xs:enumeration value="EngineVectoring" />
+      <xs:enumeration value="HyperDrive" />
+      <xs:enumeration value="Reactor" />
+      <xs:enumeration value="Extractor" />
+      <xs:enumeration value="Construction" />
+      <xs:enumeration value="EnergyCollector" />
+      <xs:enumeration value="DockingBay" />
+      <xs:enumeration value="TargetingComputer" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="CommandCenter" />
+      <xs:enumeration value="CommerceCenter" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="CrewQuarters" />
+      <xs:enumeration value="MedicalCenter" />
+      <xs:enumeration value="RecreationCenter" />
+      <xs:enumeration value="Colonization" />
+      <xs:enumeration value="TractorBeam" />
+      <xs:enumeration value="FighterBay" />
+      <xs:enumeration value="AssaultPod" />
+      <xs:enumeration value="HyperDeny" />
+      <xs:enumeration value="HyperBlock" />
+      <xs:enumeration value="AreaShieldRecharge" />
+      <xs:enumeration value="TroopCompartment" />
+      <xs:enumeration value="PassengerCompartment" />
+      <xs:enumeration value="TargetingComputerFleet" />
+      <xs:enumeration value="CountermeasuresFleet" />
+      <xs:enumeration value="WeaponCloseIn" />
+      <xs:enumeration value="WeaponStandoff" />
+      <xs:enumeration value="WeaponIon" />
+      <xs:enumeration value="WeaponIntercept" />
+      <xs:enumeration value="WeaponBombard" />
+      <xs:enumeration value="WeaponArea" />
+      <xs:enumeration value="ScannerLongRange" />
+      <xs:enumeration value="ScannerJammer" />
+      <xs:enumeration value="ScannerTrace" />
+      <xs:enumeration value="ScannerExploration" />
+      <xs:enumeration value="ScannerExplorationSurvey" />
+      <xs:enumeration value="ScannerJumpTracking" />
+      <xs:enumeration value="ScannerEmpireMasking" />
+      <xs:enumeration value="ScannerRoleMasking" />
+      <xs:enumeration value="EnergyToFuel" />
+      <xs:enumeration value="ResearchLab" />
+      <xs:enumeration value="Stealth" />
+      <xs:enumeration value="CargoBay" />
+      <xs:enumeration value="FuelStorage" />
+      <xs:enumeration value="IonDefense" />
+      <xs:enumeration value="Troops" />
+      <xs:enumeration value="RemoteFuelTransfer" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="ShieldEnhancement" />
+      <xs:enumeration value="ScannerShortRange" />
+      <xs:enumeration value="AncientKnowledge" />
+      <xs:enumeration value="Terraforming" />
+      <xs:enumeration value="WeaponPsychic" />
+      <xs:enumeration value="PsychicDefense" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BonusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="ResearchAll" />
+      <xs:enumeration value="ResearchSensors" />
+      <xs:enumeration value="ResearchWeapons" />
+      <xs:enumeration value="ResearchHyperDrive" />
+      <xs:enumeration value="ResearchReactor" />
+      <xs:enumeration value="ResearchShields" />
+      <xs:enumeration value="ResearchEngines" />
+      <xs:enumeration value="ResearchArmor" />
+      <xs:enumeration value="ResearchConstruction" />
+      <xs:enumeration value="ResearchHighTech" />
+      <xs:enumeration value="ResearchIndustrial" />
+      <xs:enumeration value="ColonyIncome" />
+      <xs:enumeration value="ColonyDevelopment" />
+      <xs:enumeration value="ColonyHappiness" />
+      <xs:enumeration value="ColonyPopulationGrowthRate" />
+      <xs:enumeration value="ColonyDefense" />
+      <xs:enumeration value="ColonyCorruptionReduction" />
+      <xs:enumeration value="Scenery" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="TradeIncome" />
+      <xs:enumeration value="TourismIncome" />
+      <xs:enumeration value="MiningRate" />
+      <xs:enumeration value="WarWearinessReduction" />
+      <xs:enumeration value="CharacterAppearanceTroopGeneral" />
+      <xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+      <xs:enumeration value="CharacterAppearanceShipCaptain" />
+      <xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+      <xs:enumeration value="CharacterAppearanceScientist" />
+      <xs:enumeration value="CharacterAppearanceColonyGovernor" />
+      <xs:enumeration value="CharacterAppearanceAmbassador" />
+      <xs:enumeration value="CharacterQualityLeader" />
+      <xs:enumeration value="CharacterQualityPirate" />
+      <xs:enumeration value="CharacterQualityTroopGeneral" />
+      <xs:enumeration value="CharacterQualityFleetAdmiral" />
+      <xs:enumeration value="CharacterQualityShipCaptain" />
+      <xs:enumeration value="CharacterQualityIntelligenceAgent" />
+      <xs:enumeration value="CharacterQualityScientist" />
+      <xs:enumeration value="CharacterQualityColonyGovernor" />
+      <xs:enumeration value="CharacterQualityAmbassador" />
+      <xs:enumeration value="ConstructionSpeedAllShips" />
+      <xs:enumeration value="ConstructionSpeedMilitary" />
+      <xs:enumeration value="ConstructionSpeedCivilian" />
+      <xs:enumeration value="ConstructionSpeedColonyShip" />
+      <xs:enumeration value="ConstructionSpeedFacility" />
+      <xs:enumeration value="ShipMaintenanceAll" />
+      <xs:enumeration value="ShipMaintenanceMilitary" />
+      <xs:enumeration value="ShipMaintenanceCivilian" />
+      <xs:enumeration value="ShipMaintenanceBases" />
+      <xs:enumeration value="TroopMaintenance" />
+      <xs:enumeration value="TroopRecruitment" />
+      <xs:enumeration value="TroopGroundAttack" />
+      <xs:enumeration value="TroopGroundDefense" />
+      <xs:enumeration value="TroopExperienceGain" />
+      <xs:enumeration value="TroopRecoveryRate" />
+      <xs:enumeration value="RecruitedTroopStrengthAll" />
+      <xs:enumeration value="RecruitedTroopStrengthArmor" />
+      <xs:enumeration value="RecruitedTroopStrengthInfantry" />
+      <xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+      <xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+      <xs:enumeration value="RecruitedTroopStrengthTitan" />
+      <xs:enumeration value="Espionage" />
+      <xs:enumeration value="CounterEspionage" />
+      <xs:enumeration value="Sabotage" />
+      <xs:enumeration value="Concealment" />
+      <xs:enumeration value="PsyOps" />
+      <xs:enumeration value="Assassination" />
+      <xs:enumeration value="Targeting" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="ShipManeuvering" />
+      <xs:enumeration value="ShipEnergyUsage" />
+      <xs:enumeration value="WeaponsDamage" />
+      <xs:enumeration value="WeaponsRange" />
+      <xs:enumeration value="ShieldRechargeRate" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="RepairRate" />
+      <xs:enumeration value="HyperjumpSpeed" />
+      <xs:enumeration value="ShipSpeed" />
+      <xs:enumeration value="ArmorStrength" />
+      <xs:enumeration value="BoardingAssault" />
+      <xs:enumeration value="BoardingDefense" />
+      <xs:enumeration value="RaidIncome" />
+      <xs:enumeration value="ScanEvasion" />
+      <xs:enumeration value="ScanFocusing" />
+      <xs:enumeration value="PlanetaryFacilityMaintenance" />
+      <xs:enumeration value="PlagueCuring" />
+      <xs:enumeration value="PlagueContainment" />
+      <xs:enumeration value="ResearchTroops" />
+      <xs:enumeration value="ResearchAncientKnowledge" />
+      <xs:enumeration value="PsychicTargeting" />
+      <xs:enumeration value="PsychicDefense" />
+      <xs:enumeration value="PsychicEnergyGenerationRate" />
+      <xs:enumeration value="PsychicCountermeasures" />
+      <xs:enumeration value="PsychicSabotage" />
+      <xs:enumeration value="PsychicEspionage" />
+      <xs:enumeration value="PsychicCounterEspionage" />
+      <xs:enumeration value="PsychicDiplomacy" />
+      <xs:enumeration value="PsychicCounterDiplomacy" />
+      <xs:enumeration value="ScannerRange" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BonusAppliesTo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Item" />
+      <xs:enumeration value="Empire" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

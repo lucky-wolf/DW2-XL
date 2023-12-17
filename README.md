@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.12](#v11812)
     - [v1.18.11](#v11811)
     - [v1.18.10](#v11810)
     - [v1.18.9](#v1189)
@@ -183,6 +184,14 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.12
+- Scaled research initiation resource costs according to scarcity of resource
+  - redid the scaling of resources to make high end techs achievable
+- Adjusted all Planetary Defense Installation techs, facilities, and weapons
+  - Now all have 3 levels
+  - They're roughly in line with each other in terms of potency
+  - Removed Planetary Mine Projectors (I hated the mess these made for defenders as well as attackers)
 
 ### v1.18.11
 - Reduced research cost of Super tech by about 25% (~t8.5)

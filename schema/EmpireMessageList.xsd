@@ -1,0 +1,37 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfEmpireMessage" nillable="true" type="ArrayOfEmpireMessage" />
+  <xs:complexType name="ArrayOfEmpireMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EmpireMessage" nillable="true" type="EmpireMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EmpireMessage">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="EmpireMessageType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StarDateDescription" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="EmpireMessageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="Research" />
+      <xs:enumeration value="Colonies" />
+      <xs:enumeration value="Exploration" />
+      <xs:enumeration value="Economy" />
+      <xs:enumeration value="Resources" />
+      <xs:enumeration value="ConstructionState" />
+      <xs:enumeration value="ConstructionCivilian" />
+      <xs:enumeration value="Military" />
+      <xs:enumeration value="Story" />
+      <xs:enumeration value="GalaxyNews" />
+      <xs:enumeration value="Characters" />
+      <xs:enumeration value="UnderAttack" />
+      <xs:enumeration value="RetrofitState" />
+      <xs:enumeration value="RetrofitCivilian" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

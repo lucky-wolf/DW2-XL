@@ -1,0 +1,46 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GraphicsSettings" nillable="true" type="GraphicsSettings" />
+  <xs:complexType name="GraphicsSettings">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapKeyValue" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapLuminanceLocalFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapAutoExposure" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapExposure" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapBrightness" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapContrast" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapAdaptationRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ToneMapTemporalAdaptation" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BloomAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BloomRadius" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakIsAnamorphic" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakAttenuation" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakIterationCount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakStreakCount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightStreakPhase" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LensFlareAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LensFlareHaloFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BrightFilterThreshold" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DepthOfFieldEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DirectionalLightHeight" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GalaxyNebulaCloudBaseColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GalaxyNebulaCloudSpecialColors" type="ArrayOfColor" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GalaxyBackgroundLayerColors" type="ArrayOfColor" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BaseNebulaCloudAmount" type="xs:int" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Color">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfColor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Color" type="Color" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

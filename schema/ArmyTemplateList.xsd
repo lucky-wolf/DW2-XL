@@ -1,0 +1,33 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfArmyTemplate" nillable="true" type="ArrayOfArmyTemplate" />
+  <xs:complexType name="ArrayOfArmyTemplate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ArmyTemplate" nillable="true" type="ArmyTemplate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArmyTemplate">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmyTemplateId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="ArmyTemplateType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InfantryLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmorLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanetaryDefenseLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpecialForcesLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TitanLevel" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="ArmyTemplateType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Invasion" />
+      <xs:enumeration value="DefenseMinor" />
+      <xs:enumeration value="DefenseMajor" />
+      <xs:enumeration value="DefenseBorder" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
