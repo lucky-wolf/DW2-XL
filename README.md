@@ -188,6 +188,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.12
 - Scaled research resource costs according to scarcity of resource
   - e.g. less hex needed, which is especially useful for very high end research projects
+- Nerfed planetary missile batteries a bit to bring them into line with other planetary defenses
 
 ### v1.18.11
 - Reduced research cost of Super tech by about 25% (~t8.5)
