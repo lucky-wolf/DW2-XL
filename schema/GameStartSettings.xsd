@@ -3,65 +3,65 @@
   <xs:element name="GameStartSettings" nillable="true" type="GameStartSettings" />
   <xs:complexType name="GameStartSettings">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="RandomSeed" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Shape" type="GalaxyShape" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StarCount" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Dimensions" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="NebulaDensity" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Expansion" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="GalaxyTechLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OrbQuality" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AlienLifePrevalence" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonizationEnforceRangeLimits" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonizationRangeLimit" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyInfluenceRangeFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PirateStrength" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PiratePrevalence" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PirateProximity" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PiratesRespawnWhenDestroyed" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CreaturePrevalence" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Aggression" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchSpeed" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UseBlindResearch" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UseRandomizedResearch" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EmpireAutoGenerationState" type="EmpireAutoGenerationState" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OtherEmpiresAutoGenerateAmount" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OtherEmpiresAllowNewEmpiresFromIndependentColonies" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RandomSeed" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Shape" type="GalaxyShape" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StarCount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Dimensions" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NebulaDensity" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Expansion" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GalaxyTechLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OrbQuality" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AlienLifePrevalence" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationEnforceRangeLimits" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationRangeLimit" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyInfluenceRangeFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PirateStrength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PiratePrevalence" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PirateProximity" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PiratesRespawnWhenDestroyed" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CreaturePrevalence" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Aggression" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchSpeed" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UseBlindResearch" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UseRandomizedResearch" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmpireAutoGenerationState" type="EmpireAutoGenerationState" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OtherEmpiresAutoGenerateAmount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OtherEmpiresAllowNewEmpiresFromIndependentColonies" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="Empires" type="ArrayOfGameStartSettingsEmpire" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Difficulty" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DifficultyScaling" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowTechTrading" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Difficulty" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DifficultyScaling" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowTechTrading" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="GameEventGroupsEnabled" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsTerritory" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsTerritoryAmount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsPopulation" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsPopulationAmount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEconomy" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEconomyAmount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsRaceConditions" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsThreshold" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsStartDate" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsStartDateYears" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsTimeLimit" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsTimeLimitYears" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsDefaultGameEvents" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsRaceGameEvents" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsColonyEvents" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsAbandonedShips" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsAbandonedBases" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsMajorThreats" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsPreWarpHomeSystem" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsDebrisFields" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VictoryConditionsEventsGraviticLocations" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareFlag1" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareFlag2" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareFlag3" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareFlag4" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="NearbyHostileRaces" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareValue2" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareValue3" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareValue4" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpareValue5" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsTerritory" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsTerritoryAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsPopulation" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsPopulationAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEconomy" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEconomyAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsRaceConditions" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsThreshold" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsStartDate" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsStartDateYears" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsTimeLimit" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsTimeLimitYears" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsDefaultGameEvents" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsRaceGameEvents" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsColonyEvents" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsAbandonedShips" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsAbandonedBases" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsMajorThreats" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsPreWarpHomeSystem" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsDebrisFields" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VictoryConditionsEventsGraviticLocations" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareFlag1" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareFlag2" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareFlag3" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareFlag4" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NearbyHostileRaces" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareValue2" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareValue3" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareValue4" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpareValue5" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="GalaxyShape">
@@ -99,35 +99,35 @@
   <xs:complexType name="GameStartSettingsEmpire">
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MainColor" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SecondaryColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MainColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SecondaryColor" type="Color" />
       <xs:element minOccurs="0" maxOccurs="1" name="FlagShapeFilename" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartLocationMinimumRadius" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartLocationMaximumRadius" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartLocationSector" type="Vector2" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartLocationRelativeToPlayer" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HomeSystemFavorability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="GovernmentId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowAnyGovernment" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TechLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Expansion" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RelationLevel" type="EmpireRelationType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsPlayer" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartLocationMinimumRadius" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartLocationMaximumRadius" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartLocationSector" type="Vector2" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartLocationRelativeToPlayer" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HomeSystemFavorability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GovernmentId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowAnyGovernment" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TechLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Expansion" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RelationLevel" type="EmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsPlayer" type="xs:boolean" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Color">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Vector2">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="EmpireRelationType">

@@ -8,25 +8,25 @@
   </xs:complexType>
   <xs:complexType name="ColonyEventDefinition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyEventDefinitionId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="ColonyEventType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="ColonyEventType" />
       <xs:element minOccurs="0" maxOccurs="1" name="IconFilename" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PopulationAmount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DevelopmentChange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DamageRepair" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MigrationFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceAbundance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyHappiness" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EmpireHappiness" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpreadToOtherColoniesChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpreadToOtherColoniesRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RandomInitiationChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PopulationAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DevelopmentChange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DamageRepair" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MigrationFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceAbundance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyHappiness" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmpireHappiness" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpreadToOtherColoniesChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpreadToOtherColoniesRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RandomInitiationChance" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="RaceFilterIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="OrbTypeFilters" type="ArrayOfOrbTypeFactor" />
       <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ValuesDecayGradually" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ValuesDecayGradually" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="PlagueModifiersPerRaceId" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="PlagueModifiersPerRaceAmount" type="ArrayOfFloat" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
@@ -53,8 +53,8 @@
   </xs:complexType>
   <xs:complexType name="OrbTypeFactor">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Factor" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfBonus">
@@ -64,11 +64,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>

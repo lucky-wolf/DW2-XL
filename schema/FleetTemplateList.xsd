@@ -8,26 +8,26 @@
   </xs:complexType>
   <xs:complexType name="FleetTemplate">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="FleetTemplateId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FleetTemplateId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="FleetRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultEngagementRange" type="TacticsEngagementType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultRetreatStrength" type="FleetRetreatStrength" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultRetreatOverwhelmed" type="FleetRetreatOverwhelmed" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultStance" type="TacticsStance" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipsEngagementRange" type="TacticsEngagementType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipsAttackRangeNormal" type="TacticsStance" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipsAttackRangeStronger" type="TacticsStance" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipsRetreatWhen" type="TacticsRetreatType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipsInvadeWhen" type="TacticsInvasion" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowShipRoleReassignment" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OverrideShipTacticsWithFleet" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsActive" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowRoleUpgrade" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowTrimmingExcessShips" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowAutoUpgradingSpecificDesigns" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="FleetRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultEngagementRange" type="TacticsEngagementType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultRetreatStrength" type="FleetRetreatStrength" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultRetreatOverwhelmed" type="FleetRetreatOverwhelmed" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultStance" type="TacticsStance" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipsEngagementRange" type="TacticsEngagementType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipsAttackRangeNormal" type="TacticsStance" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipsAttackRangeStronger" type="TacticsStance" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipsRetreatWhen" type="TacticsRetreatType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipsInvadeWhen" type="TacticsInvasion" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowShipRoleReassignment" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OverrideShipTacticsWithFleet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowRoleUpgrade" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowTrimmingExcessShips" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowAutoUpgradingSpecificDesigns" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="Items" type="ArrayOfFleetTemplateItem" />
     </xs:all>
   </xs:complexType>
@@ -112,10 +112,10 @@
   </xs:complexType>
   <xs:complexType name="FleetTemplateItem">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="ShipRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipHullId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DesignId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipHullId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DesignId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:int" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="ShipRole">

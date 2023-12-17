@@ -8,7 +8,7 @@
   </xs:complexType>
   <xs:complexType name="CreatureType">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="CreatureTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CreatureTypeId" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="IdleAnimationNames" type="ArrayOfSortableTextValue" />
       <xs:element minOccurs="0" maxOccurs="1" name="MoveAnimationNames" type="ArrayOfSortableTextValue" />
@@ -26,59 +26,59 @@
       <xs:element minOccurs="0" maxOccurs="1" name="NormalMaterialPath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="DeadMaterialPath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="WeaponFireEffectEndpointName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponFirePosition" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MoveTrailRevealTime" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MoveTrailFadeTime" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MinimumSize" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumSize" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponFirePosition" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MoveTrailRevealTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MoveTrailFadeTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MinimumSize" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumSize" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="HealthToSizeRatio" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HealRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ReproductionRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Prevalence" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DeathDuration" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HealRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ReproductionRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Prevalence" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DeathDuration" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="true" name="WillAttackUnprovoked" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyAttackStrengthMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyAttackStrengthMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EngagementRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AttackRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShieldRechargeRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShieldResistance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShieldStrength" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DamageAbsorbtionFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DamageAbsorbtionThreshold" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StandardWeaponsSensitivityFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IonWeaponsSensitivityFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Stealth" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyAttackStrengthMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyAttackStrengthMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EngagementRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AttackRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShieldRechargeRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShieldResistance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShieldStrength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DamageAbsorbtionFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DamageAbsorbtionThreshold" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StandardWeaponsSensitivityFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IonWeaponsSensitivityFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Stealth" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="VisibilityRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponFireAngleAllowance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponFirePrepareTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponFireAngleAllowance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponFirePrepareTime" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="WeaponComponentIds" type="ArrayOfShort" />
       <xs:element minOccurs="0" maxOccurs="1" name="WeaponEmitterNames" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TractorPullPower" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TractorRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyPower" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TractorPullPower" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TractorRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperDenyPower" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperDenyRange" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="IdleEmissiveIntensityMinimum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="IdleEmissiveIntensityMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IdleEmissiveCycleLength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdleEmissiveCycleLength" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="MoveEmissiveIntensityMinimum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="MoveEmissiveIntensityMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MoveEmissiveCycleLength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MoveEmissiveCycleLength" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="AttackEmissiveIntensityMinimum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="AttackEmissiveIntensityMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AttackEmissiveCycleLength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AttackEmissiveCycleLength" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="TurnRate" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="10" name="AccelerationRate" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="100" name="MovementSpeed" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MovementRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperJumpSpeed" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperJumpRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperJumpRechargeTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MovementRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperJumpSpeed" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperJumpRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperJumpRechargeTime" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="NativeHabitatIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="ResourceIdsYieldedWhenDie" type="ArrayOfShort" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TrackSystemExploration" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TrackSystemExploration" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="StartPlagueAtColonyLocationId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartPlagueAtColonyLocationChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartPlagueAtColonyLocationChance" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="InfluenceRaceIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="InfluenceAmounts" type="ArrayOfFloat" />
       <xs:element minOccurs="0" maxOccurs="1" name="NativeHabitatBonuses" type="ArrayOfBonus" />
@@ -97,8 +97,8 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Text2" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Text3" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value2" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfEffectEntity">
@@ -110,27 +110,27 @@
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="EntityPath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="SoundEffectPath" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Duration" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="StartDelay" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Duration" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDelay" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="Scale" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="NegateZ" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TintColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NegateZ" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TintColor" type="Color" />
       <xs:element minOccurs="0" maxOccurs="1" name="Children" type="ArrayOfEffectEntity" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Color">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Vector3">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Z" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfShort">
@@ -160,11 +160,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>

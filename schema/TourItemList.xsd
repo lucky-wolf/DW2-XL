@@ -22,7 +22,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="StepTitle" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="MarkupText" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="RelatedControlNames" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ZoomMode" type="TourZoom" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ZoomMode" type="TourZoom" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfString">

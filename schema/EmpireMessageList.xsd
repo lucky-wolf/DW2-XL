@@ -8,7 +8,7 @@
   </xs:complexType>
   <xs:complexType name="EmpireMessage">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="EmpireMessageType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="EmpireMessageType" />
       <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="StarDateDescription" type="xs:string" />

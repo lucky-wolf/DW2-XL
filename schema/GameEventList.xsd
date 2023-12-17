@@ -14,27 +14,27 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilepath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="MusicFilepath" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerType" type="GameEventTriggerType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerBuildFacilityId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerBuildBaseRole" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerType" type="GameEventTriggerType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerBuildFacilityId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerBuildBaseRole" type="ShipRole" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TriggerResearchProjectId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerEmpireRelationType" type="EmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerEmpireRelationType" type="EmpireRelationType" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TriggerEmpireRelationSizeRatio" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="TriggerRaceIds" type="ArrayOfShort" />
       <xs:element minOccurs="0" maxOccurs="1" name="NonTriggerRaceIds" type="ArrayOfShort" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerPriority" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ConditionEvaluation" type="GameEventConditionEvaluationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerPriority" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ConditionEvaluation" type="GameEventConditionEvaluationType" />
       <xs:element minOccurs="0" maxOccurs="1" name="Conditions" type="ArrayOfGameEventCondition" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlacementAtGameStart" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlacementRaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementAtGameStart" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementRaceId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="PlacementActions" type="ArrayOfGameEventAction" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlacementActionEventHostIndex" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OrbEncounterDiscoveryLevel" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Enabled" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlacementActionEventHostIndex" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OrbEncounterDiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Enabled" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TechLevelThreshold" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TriggerActionsAreChoices" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SuppressTriggerDescriptions" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TriggerActionsAreChoices" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SuppressTriggerDescriptions" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="TriggerActions" type="ArrayOfGameEventAction" />
     </xs:all>
   </xs:complexType>
@@ -128,10 +128,10 @@
   </xs:complexType>
   <xs:complexType name="GameEventCondition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="GameEventConditionType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LookupValue" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="GameEventConditionType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LookupValue" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="VariableName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ComparisonType" type="ComparisonType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComparisonType" type="ComparisonType" />
       <xs:element minOccurs="0" maxOccurs="1" name="ComparisonValue" type="xs:string" />
     </xs:all>
   </xs:complexType>
@@ -170,40 +170,40 @@
   </xs:complexType>
   <xs:complexType name="GameEventAction">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="GameEventActionType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="GameEventActionType" />
       <xs:element minOccurs="0" maxOccurs="1" name="MessageTitle" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilepath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="MusicFilepath" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ActionLocationHint" type="GameEventLocationHint" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ActionLocationShouldBeFuelSource" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationHint" type="GameEventLocationHint" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationShouldBeFuelSource" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" default="true" name="ActionLocationCanBeAsteroid" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationItemName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ActionLocationItemType" type="ItemType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Id1" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Id2" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionLocationItemType" type="ItemType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id1" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id2" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id3" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="Id4" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value1" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value2" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value3" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value4" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipRole" type="ShipRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CharacterRole" type="CharacterRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchCategory" type="ComponentCategory" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BonusType" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BonusAppliesTo" type="BonusAppliesTo" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EmpireRelationType" type="EmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value1" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value3" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value4" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipRole" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterRole" type="CharacterRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchCategory" type="ComponentCategory" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusType" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusAppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmpireRelationType" type="EmpireRelationType" />
       <xs:element minOccurs="0" maxOccurs="1" name="ChoiceButtonText" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="Conditions" type="ArrayOfGameEventCondition" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DelaySecondsMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DelaySecondsMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMaximum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemEventNames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemArtifactNames" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ActionObjectId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ActionObjectType" type="ItemType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionObjectId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ActionObjectType" type="ItemType" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="GameEventActionType">

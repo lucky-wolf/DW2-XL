@@ -8,44 +8,44 @@
   </xs:complexType>
   <xs:complexType name="Government">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="GovernmentId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GovernmentId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="LeaderTitle" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="CabinetTitle" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="EconomicFactors" type="EconomyFactorSet" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementTypicalPeriod" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementDisruption" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementBoost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementTypicalPeriod" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementDisruption" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementBoost" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementCharacterPool" type="ArrayOfCharacterRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeaderReplacementTypicalManner" type="LeaderReplacementType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Stability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ConcernForOwnReputation" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ImportanceOfOthersReputations" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UsesCabinet" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorNavalChief" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorGroundForcesChief" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorIntelligenceDirector" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorHeadDiplomat" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorScienceAdministrator" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CabinetFactorTradeIndustryAdministrator" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UseBaseForCapital" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CanColonize" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RequiresColoniesToExist" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CanRaid" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowControlMiningShips" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementTypicalManner" type="LeaderReplacementType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Stability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ConcernForOwnReputation" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImportanceOfOthersReputations" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsesCabinet" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorNavalChief" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorGroundForcesChief" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorIntelligenceDirector" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorHeadDiplomat" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorScienceAdministrator" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CabinetFactorTradeIndustryAdministrator" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UseBaseForCapital" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanColonize" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RequiresColoniesToExist" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanRaid" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowControlMiningShips" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="EmpireNameAdjectives" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="EmpireNameNouns" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="Biases" type="ArrayOfIndexFactor" />
       <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
       <xs:element minOccurs="0" maxOccurs="1" name="StartingGameEventNames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="ExtraIntelligenceMissionTypes" type="ArrayOfCharacterMissionType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MigrationFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchBreakthroughProgressChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchBreakthroughProgressAmountRatio" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchCrashProgressChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchCrashProgressAmountRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MigrationFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchBreakthroughProgressChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchBreakthroughProgressAmountRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchCrashProgressChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchCrashProgressAmountRatio" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="ColonyGrowthFundingFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpendScientistCrashBreakthrough" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpendScientistCriticalResearchFailure" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpendScientistCrashBreakthrough" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpendScientistCriticalResearchFailure" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="CharacterTraitFactorInspiringPresence" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="CharacterTraitFactorDemoralizing" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="LuxuryResourceConsumptionRateFactor" type="xs:float" />
@@ -104,8 +104,8 @@
   </xs:complexType>
   <xs:complexType name="IndexFactor">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Index" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Index" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Factor" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfBonus">
@@ -115,11 +115,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>

@@ -9,15 +9,15 @@
   <xs:complexType name="CharacterDefinition">
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CharacterAnimationId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterAnimationId" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageContentpath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilepath" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="CharacterRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="CharacterRole" />
       <xs:element minOccurs="0" maxOccurs="1" name="Skills" type="ArrayOfBonus" />
       <xs:element minOccurs="0" maxOccurs="1" name="Traits" type="ArrayOfCharacterTraitType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppearanceOrder" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppearOnlyInFirstEmpireOfRace" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppearanceOrder" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppearOnlyInFirstEmpireOfRace" type="xs:boolean" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="CharacterRole">
@@ -41,11 +41,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>

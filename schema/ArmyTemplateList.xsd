@@ -8,17 +8,17 @@
   </xs:complexType>
   <xs:complexType name="ArmyTemplate">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ArmyTemplateId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="ArmyTemplateType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmyTemplateId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="ArmyTemplateType" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsActive" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="InfantryLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ArmorLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlanetaryDefenseLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SpecialForcesLevel" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TitanLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsBaseline" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InfantryLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmorLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanetaryDefenseLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpecialForcesLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TitanLevel" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="ArmyTemplateType">

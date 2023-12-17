@@ -8,46 +8,46 @@
   </xs:complexType>
   <xs:complexType name="PlanetaryFacilityDefinition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="PlanetaryFacilityDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanetaryFacilityDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="ItemBonuses" type="ArrayOfBonus" />
       <xs:element minOccurs="0" maxOccurs="1" name="EmpireBonuses" type="ArrayOfBonus" />
       <xs:element minOccurs="0" maxOccurs="1" name="BuildCost" type="Price" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaintenanceCost" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsRuins" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumBuildCountPerGalaxy" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumBuildCountPerEmpire" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AchievementRaceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlanetaryShieldMaximumDamageAbsorbed" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PlanetaryShieldPenetrationChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponComponentId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponComponentLevel" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCount" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FighterCapacity" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FighterBuildRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FighterRepairRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyCorruptionReductionProjectionRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingDamageRepairRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingQualityImprovementRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingQualityMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyIncomeDrainRatio" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColonyInfluenceLevelToBuild" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowTroopInfantryCloning" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyStrength" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MedicalRating" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SlaveryIncomeFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SlaveryUnhappinessFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FacilityFamilyId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FacilityFamilyLevel" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ExclusiveWithinFamily" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EmpireBonusSharingRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="QualityBoost" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PreventPeriodicLeadershipChanges" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeaderExtraPositiveTraitCount" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ScientistExtraPositiveTraitCount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaintenanceCost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Size" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsRuins" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumBuildCountPerGalaxy" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumBuildCountPerEmpire" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AchievementRaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanetaryShieldMaximumDamageAbsorbed" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanetaryShieldPenetrationChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponComponentId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponComponentLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponCount" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FighterCapacity" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FighterBuildRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FighterRepairRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyCorruptionReductionProjectionRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TerraformingDamageRepairRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TerraformingQualityImprovementRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TerraformingQualityMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyIncomeDrainRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyInfluenceLevelToBuild" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowTroopInfantryCloning" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperDenyRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HyperDenyStrength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MedicalRating" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SlaveryIncomeFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SlaveryUnhappinessFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FacilityFamilyId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FacilityFamilyLevel" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ExclusiveWithinFamily" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmpireBonusSharingRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="QualityBoost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PreventPeriodicLeadershipChanges" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderExtraPositiveTraitCount" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ScientistExtraPositiveTraitCount" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="BreedCreatureTypeId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BreedCreatureRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BreedCreatureRate" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ValidPlanetTypeIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="ValidGovernmentIds" type="ArrayOfShort" />
       <xs:element minOccurs="0" maxOccurs="1" name="TroopIdsRecruitable" type="ArrayOfShort" />
@@ -63,11 +63,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>
@@ -183,7 +183,7 @@
   </xs:simpleType>
   <xs:complexType name="Price">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Money" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Money" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="Resources" type="ArrayOfResourceQuantity" />
     </xs:all>
   </xs:complexType>
@@ -194,8 +194,8 @@
   </xs:complexType>
   <xs:complexType name="ResourceQuantity">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfUnsignedByte">

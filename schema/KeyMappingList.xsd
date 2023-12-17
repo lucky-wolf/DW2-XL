@@ -8,13 +8,13 @@
   </xs:complexType>
   <xs:complexType name="KeyMapping">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Key" type="Keys" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ShiftActive" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UiSection" type="DrawDetailType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TaskType" type="GameTaskType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="QueueBaseRole" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Key" type="Keys" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShiftActive" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UiSection" type="DrawDetailType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TaskType" type="GameTaskType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="QueueBaseRole" type="ShipRole" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AllowContinuous" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AllowContinuous" type="xs:boolean" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="Keys">

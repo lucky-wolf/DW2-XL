@@ -8,35 +8,35 @@
   </xs:complexType>
   <xs:complexType name="SpaceItemDefinition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="SpaceItemDefinitionId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="SpaceItemType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SpaceItemDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="SpaceItemType" />
       <xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultSize" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SizeRatioFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ExpiryTimeMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ExpiryTimeMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="InitialRotationAlignsWithTravelDirection" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HeadingRotationSpeedMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HeadingRotationSpeedMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PitchRotationSpeedMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PitchRotationSpeedMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RollRotationSpeedMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RollRotationSpeedMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="InitialVelocityMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="InitialVelocityMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="VelocityDecayRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CanHoldMessage" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CanHoldCharacters" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MoneyProbability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TechProbability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MapProbability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceProbability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultSize" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SizeRatioFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ExpiryTimeMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ExpiryTimeMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InitialRotationAlignsWithTravelDirection" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HeadingRotationSpeedMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HeadingRotationSpeedMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PitchRotationSpeedMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PitchRotationSpeedMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RollRotationSpeedMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RollRotationSpeedMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InitialVelocityMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InitialVelocityMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VelocityDecayRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanHoldMessage" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanHoldCharacters" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MoneyProbability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TechProbability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MapProbability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceProbability" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="TypicalResources" type="ArrayOfResourceQuantity" />
-      <xs:element minOccurs="1" maxOccurs="1" name="GenerationEventType" type="SpaceItemGenerationEventType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="GenerationProbability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GenerationEventType" type="SpaceItemGenerationEventType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GenerationProbability" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="MaximumGenerationAmount" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MustBeGenerated" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MustBeGenerated" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="GenerationRelatedIds" type="ArrayOfInt" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
@@ -61,8 +61,8 @@
   </xs:complexType>
   <xs:complexType name="ResourceQuantity">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="SpaceItemGenerationEventType">

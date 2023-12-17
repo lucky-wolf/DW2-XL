@@ -8,9 +8,9 @@
   </xs:complexType>
   <xs:complexType name="CharacterAnimation">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="CharacterAnimationId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="CharacterRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterAnimationId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="CharacterRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="DataPath" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="SkinName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImagePath" type="xs:string" />
@@ -20,9 +20,9 @@
       <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIdleAngry" type="ArrayOfSortableTextValue" />
       <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIncidentHappy" type="ArrayOfSortableTextValue" />
       <xs:element minOccurs="0" maxOccurs="1" name="AnimationNamesIncidentAngry" type="ArrayOfSortableTextValue" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Scale" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BottomCropRatio" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LeftOffsetRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Scale" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BottomCropRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeftOffsetRatio" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="CharacterRole">
@@ -49,8 +49,8 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Text2" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Text3" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Value2" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value2" type="xs:float" />
     </xs:all>
   </xs:complexType>
 </xs:schema>

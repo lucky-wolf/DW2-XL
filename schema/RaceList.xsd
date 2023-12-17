@@ -8,16 +8,16 @@
   </xs:complexType>
   <xs:complexType name="Race">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="BundleName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="DefaultRoomId" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="FlagFilename" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FlagColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FlagColor" type="Color" />
       <xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagFilenames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="AlternateFlagColors" type="ArrayOfColor" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MainColor" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SecondaryColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MainColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SecondaryColor" type="Color" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="ReproductionRate" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="AssimilationRate" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="MigrationFactor" type="xs:float" />
@@ -25,8 +25,8 @@
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="Caution" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="Dependability" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="ImportanceOfOthersReputations" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsPlayable" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PreventUseAsIndependent" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsPlayable" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PreventUseAsIndependent" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="PreferredGovernmentIds" type="ArrayOfShort" />
       <xs:element minOccurs="0" maxOccurs="1" name="AllowableGovernmentIds" type="ArrayOfShort" />
       <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
@@ -43,9 +43,9 @@
       <xs:element minOccurs="0" maxOccurs="1" name="StartingArtifactIds" type="ArrayOfInt" />
       <xs:element minOccurs="0" maxOccurs="1" name="SpaceportAmbientSoundEffectFilenames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="StartingGameEventNames" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TreatyLevelModifier" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TreatyLongTermTrustModifierThis" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TreatyLongTermTrustModifierOther" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatyLevelModifier" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatyLongTermTrustModifierThis" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatyLongTermTrustModifierOther" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="BombardWorldColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="DestroyWorldColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="ExterminationPolicyColonyEventDefinitionId" type="xs:short" />
@@ -57,9 +57,9 @@
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="WarStartedByUsColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="WarStartedByOtherColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="DeepCoverSuccessColonyEventDefinitionId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DeepCoverDiplomaticFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DifficultIntelligenceMissionSuccessEspionageBoost" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DifficultIntelligenceMissionSuccessEspionageBoostTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DeepCoverDiplomaticFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DifficultIntelligenceMissionSuccessEspionageBoost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DifficultIntelligenceMissionSuccessEspionageBoostTime" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="DifficultIntelligenceMissionSuccessColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TreatySignedColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="OngoingPopulationAssimilationColonyEventDefinitionId" type="xs:short" />
@@ -68,23 +68,23 @@
       <xs:element minOccurs="0" maxOccurs="1" name="FacilityBuiltGameEventNames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="ResearchProjectCompletedAdvancedColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="ResearchProjectCompletedAdvancedGameEventName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchProjectCompletedAdvancedMaximumChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchProjectCompletedAdvancedMinimumTechLevel" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchProjectCompletedAdvancedMaximumChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchProjectCompletedAdvancedMinimumTechLevel" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltRoles" type="ArrayOfShipRole" />
       <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltColonyEventDefinitionIds" type="ArrayOfShort" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchLocationDiscoveredProgressChance" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ResearchLocationDiscoveredProgressAmountRatio" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchLocationDiscoveredProgressChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResearchLocationDiscoveredProgressAmountRatio" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="CharacterTraitPuzzleSolverBuildPlanetaryFacilityId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumConcurrentResearchProjects" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SalvageAdvancedTechBoostFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RetireAdvancedTechBoostFactor" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RetireCompleteAdvancedTechBonusResearchAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumConcurrentResearchProjects" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SalvageAdvancedTechBoostFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RetireAdvancedTechBoostFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RetireCompleteAdvancedTechBonusResearchAmount" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ColonyConquestGameEventName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="OtherRaceExterminateGrowthRatePerColony" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OtherRaceExterminateGrowthRatePerColony" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="OtherRaceExterminateColonyEventDefinitionId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CharacterPowerStruggleChancePerYear" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PsychicVulnerability" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PsychicEnergyGeneration" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterPowerStruggleChancePerYear" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PsychicVulnerability" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PsychicEnergyGeneration" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="PlagueSusceptibility" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="StartingCharacterTraitsLeader" type="ArrayOfCharacterTraitType" />
       <xs:element minOccurs="0" maxOccurs="1" name="StartingCharacterTraitsAmbassador" type="ArrayOfCharacterTraitType" />
@@ -95,8 +95,8 @@
       <xs:element minOccurs="0" maxOccurs="1" name="AdditionalCharacterTraits" type="ArrayOfCharacterTraitType" />
       <xs:element minOccurs="0" maxOccurs="1" name="AllowableIntelligenceMissionTypes" type="ArrayOfCharacterMissionType" />
       <xs:element minOccurs="0" maxOccurs="1" name="FeatureExplanations" type="ArrayOfString" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RegionCenter" type="Vector2" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultInfantryId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RegionCenter" type="Vector2" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultInfantryId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
@@ -104,10 +104,10 @@
   </xs:complexType>
   <xs:complexType name="Color">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfString">
@@ -132,11 +132,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>
@@ -257,8 +257,8 @@
   </xs:complexType>
   <xs:complexType name="ResourceQuantity">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfOrbTypeFactor">
@@ -268,8 +268,8 @@
   </xs:complexType>
   <xs:complexType name="OrbTypeFactor">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Factor" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfRaceFactor">
@@ -279,8 +279,8 @@
   </xs:complexType>
   <xs:complexType name="RaceFactor">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Factor" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfVictoryCondition">
@@ -290,10 +290,10 @@
   </xs:complexType>
   <xs:complexType name="VictoryCondition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="VictoryConditionType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Proportion" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="VictoryConditionType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Proportion" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id" type="xs:int" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="VictoryConditionType">
@@ -556,8 +556,8 @@
   </xs:simpleType>
   <xs:complexType name="Vector2">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
     </xs:all>
   </xs:complexType>
 </xs:schema>

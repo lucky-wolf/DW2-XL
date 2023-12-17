@@ -8,7 +8,7 @@
   </xs:complexType>
   <xs:complexType name="LocationEffectGroupDefinition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="LocationEffectGroupDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LocationEffectGroupDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
@@ -23,31 +23,31 @@
   </xs:complexType>
   <xs:complexType name="LocationEffectDefinition">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="LocationEffectDefinitionId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="LocationEffectType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Mode" type="LocationEffectMode" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AmountMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AmountMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RangeCollisionSphereMultiplier" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IntervalMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IntervalMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColorActive1" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColorActive2" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColorInactive" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColorOscillationPeriodMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ColorOscillationPeriodMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FadeInMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FadeInMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakOnMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakOnMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakOffMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakOffMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakCountMinimum" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakCountMaximum" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FadeOutMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="FadeOutMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LocationEffectDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="LocationEffectType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Mode" type="LocationEffectMode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AmountMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AmountMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RangeCollisionSphereMultiplier" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IntervalMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IntervalMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColorActive1" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColorActive2" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColorInactive" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColorOscillationPeriodMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColorOscillationPeriodMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FadeInMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FadeInMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakOnMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakOnMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakOffMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakOffMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakCountMinimum" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakCountMaximum" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FadeOutMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FadeOutMaximum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="PulseEffects" type="ArrayOfLocationEffectPulse" />
       <xs:element minOccurs="0" maxOccurs="1" name="PeakSoundEffectFilenames" type="ArrayOfString" />
     </xs:all>
@@ -76,10 +76,10 @@
   </xs:simpleType>
   <xs:complexType name="Color">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfLocationEffectPulse">
@@ -89,14 +89,14 @@
   </xs:complexType>
   <xs:complexType name="LocationEffectPulse">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="TextureLayer" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DurationMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ScaleMinimum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ScaleMaximum" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TintColor" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PeakAlpha" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Frequency" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TextureLayer" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DurationMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ScaleMinimum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ScaleMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TintColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakAlpha" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Frequency" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfString">

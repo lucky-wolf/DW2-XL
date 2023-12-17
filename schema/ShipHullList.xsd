@@ -8,29 +8,29 @@
   </xs:complexType>
   <xs:complexType name="ShipHull">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ShipHullId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Role" type="ShipRole" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Level" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DesignTemplateId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumSize" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DisplaySize" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipHullId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RaceId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Role" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Level" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DesignTemplateId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Size" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumSize" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplaySize" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="ModelName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="MaterialName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="DeadMaterialName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="CockpitImageFilename" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BaseCost" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ArmorReactiveRating" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IonDefense" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="EngineLimit" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CountermeasuresBonus" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TargetingBonus" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TurnRollRate" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumTurnRollAngle" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BaseCost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmorReactiveRating" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IonDefense" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EngineLimit" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CountermeasuresBonus" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TargetingBonus" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TurnRollRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumTurnRollAngle" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="BuildSpeedFactor" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ModelSize" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ModelSize" type="Vector3" />
       <xs:element minOccurs="0" maxOccurs="1" name="ComponentBays" type="ArrayOfComponentBay" />
       <xs:element minOccurs="0" maxOccurs="1" name="RunningLights" type="ArrayOfRunningLight" />
       <xs:element minOccurs="0" maxOccurs="1" name="Emitters" type="ArrayOfEmitter" />
@@ -81,11 +81,11 @@
   </xs:complexType>
   <xs:complexType name="Bonus">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
     </xs:all>
   </xs:complexType>
@@ -201,9 +201,9 @@
   </xs:simpleType>
   <xs:complexType name="Vector3">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Z" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfComponentBay">
@@ -213,13 +213,13 @@
   </xs:complexType>
   <xs:complexType name="ComponentBay">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ComponentBayId" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="ComponentBayType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MaximumComponentSize" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentBayId" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Type" type="ComponentBayType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaximumComponentSize" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DisplayEffectRescaleFactor" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DisplayEffectOffset" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayEffectRescaleFactor" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayEffectOffset" type="Vector3" />
       <xs:element minOccurs="0" maxOccurs="1" name="Meshes" type="ArrayOfMeshInfo" />
       <xs:element minOccurs="0" maxOccurs="1" name="WeaponBayFiringArc" type="WeaponBayFiringArc" />
     </xs:all>
@@ -242,29 +242,29 @@
   </xs:complexType>
   <xs:complexType name="MeshInfo">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="BayType" type="ComponentBayType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BayTypeIndex" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BayType" type="ComponentBayType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BayTypeIndex" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ModelComponentViewHierarchyNodeId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="MeshIndex" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ModelComponentViewHierarchyNodeId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MeshIndex" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="SupportStructureMeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SupportStructureModelComponentViewHierarchyNodeId" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="SupportStructureMeshIndex" type="xs:int" />
-      <xs:element minOccurs="1" maxOccurs="1" name="WeaponMeshType" type="WeaponMeshType" />
-      <xs:element minOccurs="1" maxOccurs="1" name="IsLarge" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Forward" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Up" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ForwardWorld" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="UpWorld" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultRotation" type="Quaternion" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CompensatingRotation" type="Quaternion" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultDirection" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="PositionWorld" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ComponentMeshSize" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="CrossSectionSize" type="Vector2" />
-      <xs:element minOccurs="1" maxOccurs="1" name="DefaultMeshSizeWorld" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="BackCenter" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SupportStructureModelComponentViewHierarchyNodeId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SupportStructureMeshIndex" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponMeshType" type="WeaponMeshType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IsLarge" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Position" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Forward" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Up" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ForwardWorld" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UpWorld" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultRotation" type="Quaternion" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CompensatingRotation" type="Quaternion" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultDirection" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PositionWorld" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentMeshSize" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CrossSectionSize" type="Vector2" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultMeshSizeWorld" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BackCenter" type="Vector3" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="WeaponMeshType">
@@ -277,30 +277,30 @@
   </xs:simpleType>
   <xs:complexType name="Quaternion">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Z" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="W" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Z" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="W" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Vector2">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Y" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="WeaponBayFiringArc">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="Forward" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Up" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Right" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RotationHalfArcRangeCosine" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HeadingUnitSize" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ElevationUnitSize" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Forward" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Up" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Right" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RotationHalfArcRange" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RotationHalfArcRangeCosine" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HeadingUnitSize" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ElevationUnitSize" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="HeadingElevations" type="xs:base64Binary" />
-      <xs:element minOccurs="1" maxOccurs="1" name="HeadingCount" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="ElevationCount" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HeadingCount" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ElevationCount" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfRunningLight">
@@ -311,19 +311,19 @@
   <xs:complexType name="RunningLight">
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Color" type="Color" />
-      <xs:element minOccurs="1" maxOccurs="1" name="TimingOffset" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LightTimeOn" type="xs:float" />
-      <xs:element minOccurs="1" maxOccurs="1" name="LightTimeOff" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Position" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Color" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TimingOffset" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightTimeOn" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LightTimeOff" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="Color">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
-      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="A" type="xs:unsignedByte" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfEmitter">
@@ -334,7 +334,7 @@
   <xs:complexType name="Emitter">
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Position" type="Vector3" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Position" type="Vector3" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfModelModule">
@@ -345,8 +345,8 @@
   <xs:complexType name="ModelModule">
     <xs:all>
       <xs:element minOccurs="0" maxOccurs="1" name="MeshName" type="xs:string" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Enabled" type="xs:boolean" />
-      <xs:element minOccurs="1" maxOccurs="1" name="RotationRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Enabled" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RotationRate" type="xs:float" />
     </xs:all>
   </xs:complexType>
   <xs:complexType name="ArrayOfInt">
@@ -361,8 +361,8 @@
   </xs:complexType>
   <xs:complexType name="ResourceQuantity">
     <xs:all>
-      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
-      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Amount" type="xs:float" />
     </xs:all>
   </xs:complexType>
 </xs:schema>
