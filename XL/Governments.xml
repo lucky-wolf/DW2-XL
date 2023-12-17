@@ -65,7 +65,7 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -315,7 +315,7 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -571,7 +571,7 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -735,18 +735,18 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 	</Government>
 	<Government>
 		<GovernmentId>3</GovernmentId>
-		<Name>Feudalism</Name>
+		<Name>Tribal Bloodlines</Name>
 		<StartingGameEventNames>
-			<string>Initialize Government (Feudalism)</string>
+			<string>Initialize Government (Tribal Bloodlines)</string>
 		</StartingGameEventNames>
-		<Description>Feudalisms are governments that rely on a set of reciprocal legal and military obligations among the warrior nobility. In its most basic essence, Feudalism is the granting of land and rights in return for military service.
+		<Description>Tribal Bloodliness are governments that rely on various forms of clan tribal leadership and bloodline inheritance.
 
-Under Feudalistic governments a noble class effectively forms a ruling council. They grant rights and freedoms to the common people in exchange for military support from them.
+Under Tribal Bloodline governments, the ruling body is composed of the various tribal and clan leaders of each prominent bloodline. Military prowess, honor through combat, and a good death are central pillars of tribal bloodline societies.
 
-Feudalistic societies give heavy emphasis to hierarchy and rank. Their social structures are typically very static. Everyone has their predefined place in society – they submit to their local chief.</Description>
+Tribal Bloodline societies give heavy emphasis to strength and combat prowess. Their social structures are typically very dynamic. Everyone must submit to their local chief, or replace them.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Sovereign</LeaderTitle>
-		<CabinetTitle>Noble</CabinetTitle>
+		<LeaderTitle>Jarl</LeaderTitle>
+		<CabinetTitle>Jarl</CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
 				<float>1</float>
@@ -829,7 +829,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -871,7 +871,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -879,7 +879,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.35</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -903,14 +903,6 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchTroops</Type>
 				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -918,8 +910,16 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -927,7 +927,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.05</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -943,7 +943,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -959,7 +959,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -967,7 +967,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>MiningRate</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -975,7 +975,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>TourismIncome</Type>
-				<Amount>-0.2</Amount>
+				<Amount>-0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -983,7 +983,7 @@ Feudalistic societies give heavy emphasis to hierarchy and rank. Their social st
 			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1123,8 +1123,8 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
-				<Factor>0.4</Factor>
+				<!-- Tribal Bloodlines -->
+				<Factor>0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index>
@@ -1375,8 +1375,8 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
-				<Factor>0.1</Factor>
+				<!-- Tribal Bloodlines -->
+				<Factor>0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index>
@@ -1386,7 +1386,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			<IndexFactor>
 				<Index>5</Index>
 				<!-- Stratocracy -->
-				<Factor>0.3</Factor>
+				<Factor>0.4</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>6</Index>
@@ -1416,16 +1416,24 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.05</Amount>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.4</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1441,63 +1449,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>-0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchWeapons</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchTroops</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.30</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.35</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Amount>-0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1512,8 +1464,40 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>-0.3</Amount>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1528,16 +1512,48 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.5</Amount>
+				<Type>TradeIncome</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>-0.2</Amount>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.4</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1674,13 +1690,13 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>4</Index>
 				<!-- Monarchy -->
-				<Factor>0</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index>
@@ -1695,7 +1711,7 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			<IndexFactor>
 				<Index>51</Index>
 				<!-- Archivists -->
-				<Factor>0.4</Factor>
+				<Factor>0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>7</Index>
@@ -1901,7 +1917,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.3</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -2172,7 +2188,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -2419,7 +2435,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -2501,7 +2517,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.3</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2650,7 +2666,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.2</Factor>
 			</IndexFactor>
 			<IndexFactor>
@@ -2724,7 +2740,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2732,7 +2748,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2899,7 +2915,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</IndexFactor>
 			<IndexFactor>
 				<Index>3</Index>
-				<!-- Feudalism -->
+				<!-- Tribal Bloodlines -->
 				<Factor>-0.25</Factor>
 			</IndexFactor>
 			<IndexFactor>

@@ -401,7 +401,7 @@ It is time for our people to unite and reach for the stars!
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Initialize Government (Feudalism)</Name>
+		<Name>Initialize Government (Tribal Bloodlines)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -439,7 +439,7 @@ It is time for our people to unite and reach for the stars!
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Initialize Government 2 (Feudalism)</GeneratedItemName>
+				<GeneratedItemName>Initialize Government 2 (Tribal Bloodlines)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>5</DelaySecondsMinimum>
 				<DelaySecondsMaximum>5</DelaySecondsMaximum>
@@ -449,7 +449,7 @@ It is time for our people to unite and reach for the stars!
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Initialize Government 2 (Feudalism)</Name>
+		<Name>Initialize Government 2 (Tribal Bloodlines)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -472,7 +472,7 @@ It is time for our people to unite and reach for the stars!
 		<TriggerActions>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
-				<MessageTitle>Feudalism</MessageTitle>
+				<MessageTitle>Tribal Bloodlines</MessageTitle>
 				<Description>Your vassals stand ready to serve your glorious reign, having recently completed:
 
 [ULI][RESEARCH]Starfighter Hangar Bays[/RESEARCH][/ULI]
