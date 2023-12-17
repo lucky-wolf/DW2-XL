@@ -38,7 +38,8 @@ func ResearchCosts(folder string) (err error) {
 
 // more aggressive
 // x3...x2            x3   x3   x3   x3    x3    x2.5   x2.5   x2      x2      x1.5    x1.5    ~t8.5
-var sizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 455625, 151875}
+var researchSizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 455625, 151875}
+var resourceCosts = []int{33, 100, 300, 600, 1200, 2400, 4800, 9600, 18200, 36400, 72800, 145600, 27300}
 
 // XL up to 1.18.2
 // // x3...x2...x1.5     x3   x3   x3   x3    x2    x2     x2     x3/2   x3/2   x3/2   x3/2   ~t9.5
@@ -68,7 +69,7 @@ func (j *Job) applyResearchCosts() (err error) {
 
 				// get our nominal column
 				col := e.Child("Column").IntValue()
-				if col >= len(sizes) {
+				if col >= len(researchSizes) {
 					err = fmt.Errorf("Column %d exceeds maximum: %s", col, e.Child("Name").StringValue())
 					return
 				}
@@ -100,7 +101,7 @@ func (j *Job) applyResearchCosts() (err error) {
 							col = 1
 						}
 					}
-					size = sizes[col]
+					size = researchSizes[col]
 				}
 
 				// set size from that
@@ -108,12 +109,11 @@ func (j *Job) applyResearchCosts() (err error) {
 
 				// set our initiation cost and resource amounts (if present)
 				if cost := e.Child("InitiationCost"); cost != nil {
-					cost.Child("Money").SetValue(sizes[col] * 5)
+					cost.Child("Money").SetValue(researchSizes[col] * 5)
 					resources := cost.Child("Resources")
 					if resources != nil {
 						for _, e := range resources.Elements() {
-							factor := scaleFactorForElement(e.Child("ResourceId").IntValue())
-							e.Child("Amount").SetValue(int(float64(sizes[col]) / factor))
+							e.Child("Amount").SetValue(scaleResourceCost(col, e.Child("ResourceId").IntValue()))
 						}
 					}
 				}
@@ -128,17 +128,17 @@ func (j *Job) applyResearchCosts() (err error) {
 	return
 }
 
-func scaleFactorForElement(resourceID int) (factor float64) {
+func scaleResourceCost(col, resourceID int) int {
+
+	factor := 1
 	switch resourceID {
 	// Hexodorium
 	case 78:
 		factor = 4
 	// Mebnar, Aculon, Cuprica, Polymer, Dyrillium Quartz, Carbonite
 	case 9, 10, 11, 12, 13, 77:
-		factor = 3
-	// steel, silicon, and everything else...
-	default:
 		factor = 2
+		// steel, silicon, and everything else...
 	}
-	return
+	return resourceCosts[col] / factor
 }

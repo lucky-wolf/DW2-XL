@@ -65,7 +65,7 @@
 		<FacilityFamilyLevel>1</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Pulsed Beam Emplacement</Name>
+		<Name>Colossal Pulsed Beam Emplacement</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
@@ -297,5 +297,141 @@
 		</TroopIdsRecruitable>
 		<Name>Ground Combat Academy</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Military Academy</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1006</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>30000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>325</WeaponComponentId>
+		<WeaponComponentLevel>2</WeaponComponentLevel>
+		<WeaponCount>2</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>3</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Core-Linked Beam Installation</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1007</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>515</WeaponComponentId>
+		<WeaponComponentLevel>2</WeaponComponentLevel>
+		<WeaponCount>2</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Core-Linked Pulsed Beam Emplacement</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1008</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>30000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>328</WeaponComponentId>
+		<WeaponComponentLevel>2</WeaponComponentLevel>
+		<WeaponCount>2</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>7</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Core-Linked Torpedo Launchers</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1009</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>30000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>326</WeaponComponentId>
+		<WeaponComponentLevel>2</WeaponComponentLevel>
+		<WeaponCount>2</WeaponCount>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>4</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Core-Linked Ion Cannon Installation</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>
