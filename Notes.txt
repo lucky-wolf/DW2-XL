@@ -6,6 +6,10 @@ Publish on Steam:
 Link (must be administrator)
 	New-Item -Path "C:\Users\steve\Downloads\DW2 Unstable\mods" -ItemType SymbolicLink -Value "C:\Steam\steamapps\common\Distant Worlds 2\mods"
 
+Generate the data/schema folder:
+	 --gen-xsd
+	 note: any unknown cli option will show a dialog with all options
+
 LET'S fix:
 - Nova missiles
 	- genuinely high dmg / aoe
