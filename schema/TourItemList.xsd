@@ -1,0 +1,40 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfTourItem" nillable="true" type="ArrayOfTourItem" />
+  <xs:complexType name="ArrayOfTourItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TourItem" nillable="true" type="TourItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TourItem">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Steps" type="ArrayOfTourStep" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfTourStep">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TourStep" nillable="true" type="TourStep" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TourStep">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="StepTitle" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MarkupText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RelatedControlNames" type="ArrayOfString" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ZoomMode" type="TourZoom" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="TourZoom">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Capital" />
+      <xs:enumeration value="Galaxy" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

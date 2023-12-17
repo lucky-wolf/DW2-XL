@@ -1,0 +1,450 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="EmpirePolicy" nillable="true" type="EmpirePolicy" />
+  <xs:complexType name="EmpirePolicy">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="AutomationSettings" type="ArrayOfAutomationLevel" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutomationPreset" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AttackOvermatchFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureTargetConditionShip" type="ShipCaptureCondition" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureTargetConditionBase" type="BaseCaptureCondition" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureEnlistMilitaryShip" type="ShipCaptureEnlistment" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureDisassembleMilitaryShip" type="ShipCaptureDisassemble" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureEnlistCivilianShip" type="ShipCaptureEnlistment" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureDisassembleCivilianShip" type="ShipCaptureDisassemble" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CaptureEnlistBase" type="BaseCaptureEnlistment" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UpgradeEnlistedMilitaryShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UpgradeEnlistedCivilianShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CharacterHandlingWhenTakeoverShipOrColony" type="CharacterHandlingBehavior" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExecuteCapturedForeignAgents" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Priorities" type="ArrayOfBonusPriority" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentSelectionFactors" type="ComponentSelectionFactors" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExplorationWhenSendSurveyTeam" type="ExplorationWhenSendSurveyTeam" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExplorationWhenInvestigateRuins" type="ExplorationInvestigateDiscoveries" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExplorationWhenInvestigateAbandonedShips" type="ExplorationInvestigateDiscoveries" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRefuelManualShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRepairManualShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRetrofitManualShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRefuelManualFleets" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRepairManualFleets" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRetrofitManualFleets" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AutoRetrofitAutomatedFleets" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RefuelThreshold" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="NewShipsAutomatedMilitary" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="NewShipsAutomatedOtherState" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TaxRateTargetApprovalSmallColonies" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TaxRateTargetApprovalMediumColonies" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TaxRateTargetApprovalLargeColonies" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowColonyGrowthFunding" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowResearchFunding" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowStateShipMaintenance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowTroopMaintenance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowFacilityMaintenance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowResourceTrading" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CashflowUncommitted" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColonyTroopGarrisonLevel" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AttackTroopLevel" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionSpaceportLargePopulationRequired" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionSpaceportMediumPopulationRequired" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionSpaceportSmallPopulationRequired" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionSpaceportNearestDistance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelSpaceport" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelDefensiveBases" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelMonitoring" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelMilitary" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelExploration" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionLevelConstruction" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionPrioritizeStateShipsInQueue" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DockingPrioritizeStateShipsInQueue" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MilitaryShipsNotInFleetRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioEscort" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioFrigate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioDestroyer" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioCruiser" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioCapitalShip" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioCarrier" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionMilitaryBuildRatioTroopTransport" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BuyShipsFromOtherEmpiresWhen" type="BuyShipsFromOtherEmpiresWhen" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RepairIndependentShips" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BuildIndependentShips" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PreferredComponentFamilyPerCategory" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PreferredComponentFamilyPerCategoryAlternate" type="ArrayOfString" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ResearchMaximumConcurrentProjects" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MilitaryShipMissionRatioEscort" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MilitaryShipMissionRatioGuard" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MilitaryShipMissionRatioPatrol" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MilitaryShipMissionRatioRaid" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngageInTourism" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColonizationMinimumSuitability" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IndependentColonizationMinimumSuccessChanceThreshold" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionCounterIntelRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAggressiveness" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionCaution" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowSabotageConstruction" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowStealTerritoryMap" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowStealGalaxyMap" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowStealOperationsMap" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowStealTechData" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowSabotageColony" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowDeepCover" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowDestroyBase" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowAssassinate" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowInciteRevolution" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowInfluenceEmpirePositively" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowInfluenceEmpireNegatively" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowCaptureBase" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntelligenceMissionAllowInternalStabilization" type="xs:boolean" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfAutomationLevel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AutomationLevel" type="AutomationLevel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="AutomationLevel">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Automated" />
+      <xs:enumeration value="SuggestExecute" />
+      <xs:enumeration value="SuggestWait" />
+      <xs:enumeration value="Manual" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShipCaptureCondition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="WhenHighTechOrLargerThanCanBuild" />
+      <xs:enumeration value="WhenStrongerThanTarget" />
+      <xs:enumeration value="Always" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BaseCaptureCondition">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="WhenBaseInOwnTerritory" />
+      <xs:enumeration value="WhenBaseInOwnOrNeutralTerritory" />
+      <xs:enumeration value="WhenStrongerThanTarget" />
+      <xs:enumeration value="Always" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShipCaptureEnlistment">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Always" />
+      <xs:enumeration value="WhenHighTechOrLargerThanCanBuild" />
+      <xs:enumeration value="WhenNOTHighTechOrLargerThanCanBuild" />
+      <xs:enumeration value="Never" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShipCaptureDisassemble">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="AlwaysImmediatelyScrapForMoney" />
+      <xs:enumeration value="DisassembleAtBaseWhenHighTechOrLargerThanCanBuildOtherwiseImmediatelyScrapForMoney" />
+      <xs:enumeration value="AlwaysDisassembleAtBaseForTechAndResources" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BaseCaptureEnlistment">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Always" />
+      <xs:enumeration value="ScrapWhenNotResearchStation" />
+      <xs:enumeration value="Never" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CharacterHandlingBehavior">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CaptureIfEnemyReturnHomeIfOther" />
+      <xs:enumeration value="ReturnHome" />
+      <xs:enumeration value="ChangeEmpire" />
+      <xs:enumeration value="Destroy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfBonusPriority">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusPriority" nillable="true" type="BonusPriority" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BonusPriority">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Priority" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="BonusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="ResearchAll" />
+      <xs:enumeration value="ResearchSensors" />
+      <xs:enumeration value="ResearchWeapons" />
+      <xs:enumeration value="ResearchHyperDrive" />
+      <xs:enumeration value="ResearchReactor" />
+      <xs:enumeration value="ResearchShields" />
+      <xs:enumeration value="ResearchEngines" />
+      <xs:enumeration value="ResearchArmor" />
+      <xs:enumeration value="ResearchConstruction" />
+      <xs:enumeration value="ResearchHighTech" />
+      <xs:enumeration value="ResearchIndustrial" />
+      <xs:enumeration value="ColonyIncome" />
+      <xs:enumeration value="ColonyDevelopment" />
+      <xs:enumeration value="ColonyHappiness" />
+      <xs:enumeration value="ColonyPopulationGrowthRate" />
+      <xs:enumeration value="ColonyDefense" />
+      <xs:enumeration value="ColonyCorruptionReduction" />
+      <xs:enumeration value="Scenery" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="TradeIncome" />
+      <xs:enumeration value="TourismIncome" />
+      <xs:enumeration value="MiningRate" />
+      <xs:enumeration value="WarWearinessReduction" />
+      <xs:enumeration value="CharacterAppearanceTroopGeneral" />
+      <xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+      <xs:enumeration value="CharacterAppearanceShipCaptain" />
+      <xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+      <xs:enumeration value="CharacterAppearanceScientist" />
+      <xs:enumeration value="CharacterAppearanceColonyGovernor" />
+      <xs:enumeration value="CharacterAppearanceAmbassador" />
+      <xs:enumeration value="CharacterQualityLeader" />
+      <xs:enumeration value="CharacterQualityPirate" />
+      <xs:enumeration value="CharacterQualityTroopGeneral" />
+      <xs:enumeration value="CharacterQualityFleetAdmiral" />
+      <xs:enumeration value="CharacterQualityShipCaptain" />
+      <xs:enumeration value="CharacterQualityIntelligenceAgent" />
+      <xs:enumeration value="CharacterQualityScientist" />
+      <xs:enumeration value="CharacterQualityColonyGovernor" />
+      <xs:enumeration value="CharacterQualityAmbassador" />
+      <xs:enumeration value="ConstructionSpeedAllShips" />
+      <xs:enumeration value="ConstructionSpeedMilitary" />
+      <xs:enumeration value="ConstructionSpeedCivilian" />
+      <xs:enumeration value="ConstructionSpeedColonyShip" />
+      <xs:enumeration value="ConstructionSpeedFacility" />
+      <xs:enumeration value="ShipMaintenanceAll" />
+      <xs:enumeration value="ShipMaintenanceMilitary" />
+      <xs:enumeration value="ShipMaintenanceCivilian" />
+      <xs:enumeration value="ShipMaintenanceBases" />
+      <xs:enumeration value="TroopMaintenance" />
+      <xs:enumeration value="TroopRecruitment" />
+      <xs:enumeration value="TroopGroundAttack" />
+      <xs:enumeration value="TroopGroundDefense" />
+      <xs:enumeration value="TroopExperienceGain" />
+      <xs:enumeration value="TroopRecoveryRate" />
+      <xs:enumeration value="RecruitedTroopStrengthAll" />
+      <xs:enumeration value="RecruitedTroopStrengthArmor" />
+      <xs:enumeration value="RecruitedTroopStrengthInfantry" />
+      <xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+      <xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+      <xs:enumeration value="RecruitedTroopStrengthTitan" />
+      <xs:enumeration value="Espionage" />
+      <xs:enumeration value="CounterEspionage" />
+      <xs:enumeration value="Sabotage" />
+      <xs:enumeration value="Concealment" />
+      <xs:enumeration value="PsyOps" />
+      <xs:enumeration value="Assassination" />
+      <xs:enumeration value="Targeting" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="ShipManeuvering" />
+      <xs:enumeration value="ShipEnergyUsage" />
+      <xs:enumeration value="WeaponsDamage" />
+      <xs:enumeration value="WeaponsRange" />
+      <xs:enumeration value="ShieldRechargeRate" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="RepairRate" />
+      <xs:enumeration value="HyperjumpSpeed" />
+      <xs:enumeration value="ShipSpeed" />
+      <xs:enumeration value="ArmorStrength" />
+      <xs:enumeration value="BoardingAssault" />
+      <xs:enumeration value="BoardingDefense" />
+      <xs:enumeration value="RaidIncome" />
+      <xs:enumeration value="ScanEvasion" />
+      <xs:enumeration value="ScanFocusing" />
+      <xs:enumeration value="PlanetaryFacilityMaintenance" />
+      <xs:enumeration value="PlagueCuring" />
+      <xs:enumeration value="PlagueContainment" />
+      <xs:enumeration value="ResearchTroops" />
+      <xs:enumeration value="ResearchAncientKnowledge" />
+      <xs:enumeration value="PsychicTargeting" />
+      <xs:enumeration value="PsychicDefense" />
+      <xs:enumeration value="PsychicEnergyGenerationRate" />
+      <xs:enumeration value="PsychicCountermeasures" />
+      <xs:enumeration value="PsychicSabotage" />
+      <xs:enumeration value="PsychicEspionage" />
+      <xs:enumeration value="PsychicCounterEspionage" />
+      <xs:enumeration value="PsychicDiplomacy" />
+      <xs:enumeration value="PsychicCounterDiplomacy" />
+      <xs:enumeration value="ScannerRange" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ComponentSelectionFactors">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="SmallSizeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerLongFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerTraceFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperStopFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CountermeasuresFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TargetingFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DamageControlFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineManeuveringFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IonDefenseFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StealthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TroopCompartmentFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionYardFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ResearchLabFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInDamageRawFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInDamageAtRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInDamageAtRangeRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponCloseInEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffDamageRawFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffDamageAtRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffDamageAtRangeRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponStandoffEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonEngineDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonWeaponDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonGeneralDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonHyperDriveDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonSensorDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonShieldDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonEngineDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonHyperDriveDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonSensorDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonShieldDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonWeaponDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonGeneralDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageInfrastructureFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageMilitaryFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamagePopulationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageQualityFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageRateInfrastructureFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageRateMilitaryFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageRatePopulationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageRateQualityFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaDamageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaFireRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorStrengthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorReactiveFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldStrengthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldRechargeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldResistanceFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldPenetrationChanceFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldPenetrationRatioFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveSpeedFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveJumpRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveJumpAccuracyFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveInitiationTimeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveRechargeTimeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldPowerFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodStrengthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodShieldPenetrationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodLaunchRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultDefenseFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DamageReductionFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DamageRepairFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DockingBayThroughputFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DockingBayShipCountFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineMaximumThrustFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineCruiseThrustFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineVectoringFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayCapacityFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayBuildRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayRepairRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperStopRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperStopStrengthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyStrengthFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerLongRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerLongPowerFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationPowerFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyAmountFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyMaximumLevelFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyTimeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationTimeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerTraceRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerTracePowerFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerEmpireMaskingFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerRoleMaskingFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorOutputFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorStorageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorFuelUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamPowerFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponPsychicControlFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponPsychicDamageRateFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponPsychicDamageRawFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponPsychicEnergyUsageFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponPsychicRangeFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PsychicDefenseFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingDamageRepairFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingQualityImprovementFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingFactor" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="ExplorationWhenSendSurveyTeam">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="HiddenItemsPresent" />
+      <xs:enumeration value="HiddenItemsPresentOrColonizable" />
+      <xs:enumeration value="HiddenItemsPresentOrColonizableOrPopulated" />
+      <xs:enumeration value="Always" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ExplorationInvestigateDiscoveries">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="Prompt" />
+      <xs:enumeration value="InvestigateNoReport" />
+      <xs:enumeration value="InvestigateReportMajor" />
+      <xs:enumeration value="InvestigateAlwaysReport" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BuyShipsFromOtherEmpiresWhen">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Never" />
+      <xs:enumeration value="CannotBuild" />
+      <xs:enumeration value="HigherTech" />
+      <xs:enumeration value="MuchHigherTech" />
+      <xs:enumeration value="CannotBuildOrHigherTech" />
+      <xs:enumeration value="CannotBuildOrMuchHigherTech" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

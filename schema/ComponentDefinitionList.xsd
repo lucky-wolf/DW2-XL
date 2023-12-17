@@ -1,0 +1,512 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfComponentDefinition" nillable="true" type="ArrayOfComponentDefinition" />
+  <xs:complexType name="ArrayOfComponentDefinition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComponentDefinition" nillable="true" type="ComponentDefinition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ComponentDefinition">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="ComponentId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Size" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Category" type="ComponentCategory" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Family" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SoundEffectFilename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SoundEffectFilenameAlternate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="SoundEffectVolume" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="SoundEffectAlternateVolume" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ParticleEffectNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayTextureNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayColors" type="ArrayOfColor" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DisplayRotationType" type="ModelRotationType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DisplayRotationRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UseLargeMeshIfAvailable" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponMeshType" type="WeaponMeshType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponEffect" type="WeaponEffect" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IsFighterOnly" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResourcesRequired" type="ArrayOfResourceQuantity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Values" type="ArrayOfComponentStats" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="ComponentCategory">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Armor" />
+      <xs:enumeration value="Shields" />
+      <xs:enumeration value="Engine" />
+      <xs:enumeration value="EngineVectoring" />
+      <xs:enumeration value="HyperDrive" />
+      <xs:enumeration value="Reactor" />
+      <xs:enumeration value="Extractor" />
+      <xs:enumeration value="Construction" />
+      <xs:enumeration value="EnergyCollector" />
+      <xs:enumeration value="DockingBay" />
+      <xs:enumeration value="TargetingComputer" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="CommandCenter" />
+      <xs:enumeration value="CommerceCenter" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="CrewQuarters" />
+      <xs:enumeration value="MedicalCenter" />
+      <xs:enumeration value="RecreationCenter" />
+      <xs:enumeration value="Colonization" />
+      <xs:enumeration value="TractorBeam" />
+      <xs:enumeration value="FighterBay" />
+      <xs:enumeration value="AssaultPod" />
+      <xs:enumeration value="HyperDeny" />
+      <xs:enumeration value="HyperBlock" />
+      <xs:enumeration value="AreaShieldRecharge" />
+      <xs:enumeration value="TroopCompartment" />
+      <xs:enumeration value="PassengerCompartment" />
+      <xs:enumeration value="TargetingComputerFleet" />
+      <xs:enumeration value="CountermeasuresFleet" />
+      <xs:enumeration value="WeaponCloseIn" />
+      <xs:enumeration value="WeaponStandoff" />
+      <xs:enumeration value="WeaponIon" />
+      <xs:enumeration value="WeaponIntercept" />
+      <xs:enumeration value="WeaponBombard" />
+      <xs:enumeration value="WeaponArea" />
+      <xs:enumeration value="ScannerLongRange" />
+      <xs:enumeration value="ScannerJammer" />
+      <xs:enumeration value="ScannerTrace" />
+      <xs:enumeration value="ScannerExploration" />
+      <xs:enumeration value="ScannerExplorationSurvey" />
+      <xs:enumeration value="ScannerJumpTracking" />
+      <xs:enumeration value="ScannerEmpireMasking" />
+      <xs:enumeration value="ScannerRoleMasking" />
+      <xs:enumeration value="EnergyToFuel" />
+      <xs:enumeration value="ResearchLab" />
+      <xs:enumeration value="Stealth" />
+      <xs:enumeration value="CargoBay" />
+      <xs:enumeration value="FuelStorage" />
+      <xs:enumeration value="IonDefense" />
+      <xs:enumeration value="Troops" />
+      <xs:enumeration value="RemoteFuelTransfer" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="ShieldEnhancement" />
+      <xs:enumeration value="ScannerShortRange" />
+      <xs:enumeration value="AncientKnowledge" />
+      <xs:enumeration value="Terraforming" />
+      <xs:enumeration value="WeaponPsychic" />
+      <xs:enumeration value="PsychicDefense" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfColor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Color" type="Color" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Color">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="ModelRotationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Constant" />
+      <xs:enumeration value="RotateToTarget" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="WeaponMeshType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="BarrelledTurret" />
+      <xs:enumeration value="VerticalLauncher" />
+      <xs:enumeration value="ShortTurret" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="WeaponEffect">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="UseDirectionalComponent" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FlipbookMode" type="FlipbookMode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StaticTextureFilepath" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BodyScaling" type="Vector2" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BodyScalingAbsolute" type="Vector2" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="FiringEffectScaling" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FlipbookTextureFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="30" name="FlipbookFramesPerSecond" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FlipbookDimensions" type="Vector2" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FlipbookRow" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PulsingIntensity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PulsingSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UVScrollRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="UVScrollCycleLength" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EndFadeLengthRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TextureTintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TextureTintColor2" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TintCycleLength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="ColorBoost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ModelFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FiringEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmorImpactEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HullImpactEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FiringSoundEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ArmorImpactSoundEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HullImpactSoundEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="ArmorImpactEffectScaling" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="HullImpactEffectScaling" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="FiringSoundEffectVolume" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorImpactEffectTintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HullImpactEffectTintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FiringEffectTintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupLength" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupMeshName" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupPulseColor1" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupPulseColor2" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupBackgroundColor1" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupBackgroundColor2" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupUVScrollingRate" type="Vector2" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupColorOscillationRate" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="WeaponChargeupEffectScaling" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponChargeupEffectTintColor" type="Color" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponChargeupSoundEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TrailEffectFilepath" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectTintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectTintAltColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectColorTransitionStartTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectColorTransitionEndTime" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="TrailEffectScaleX" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="TrailEffectScaleY" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectScaleChangeRateX" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectScaleChangeRateY" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectLifetime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailEffectSpawnRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TrailDriftRate" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="FlipbookMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Off" />
+      <xs:enumeration value="HardSwitch" />
+      <xs:enumeration value="Blend" />
+      <xs:enumeration value="RandomFrameBlend" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Vector2">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfBonus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Bonus" nillable="true" type="Bonus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Bonus">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AppliesTo" type="BonusAppliesTo" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FilterId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiscoveryLevel" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="BonusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="ResearchAll" />
+      <xs:enumeration value="ResearchSensors" />
+      <xs:enumeration value="ResearchWeapons" />
+      <xs:enumeration value="ResearchHyperDrive" />
+      <xs:enumeration value="ResearchReactor" />
+      <xs:enumeration value="ResearchShields" />
+      <xs:enumeration value="ResearchEngines" />
+      <xs:enumeration value="ResearchArmor" />
+      <xs:enumeration value="ResearchConstruction" />
+      <xs:enumeration value="ResearchHighTech" />
+      <xs:enumeration value="ResearchIndustrial" />
+      <xs:enumeration value="ColonyIncome" />
+      <xs:enumeration value="ColonyDevelopment" />
+      <xs:enumeration value="ColonyHappiness" />
+      <xs:enumeration value="ColonyPopulationGrowthRate" />
+      <xs:enumeration value="ColonyDefense" />
+      <xs:enumeration value="ColonyCorruptionReduction" />
+      <xs:enumeration value="Scenery" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="TradeIncome" />
+      <xs:enumeration value="TourismIncome" />
+      <xs:enumeration value="MiningRate" />
+      <xs:enumeration value="WarWearinessReduction" />
+      <xs:enumeration value="CharacterAppearanceTroopGeneral" />
+      <xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+      <xs:enumeration value="CharacterAppearanceShipCaptain" />
+      <xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+      <xs:enumeration value="CharacterAppearanceScientist" />
+      <xs:enumeration value="CharacterAppearanceColonyGovernor" />
+      <xs:enumeration value="CharacterAppearanceAmbassador" />
+      <xs:enumeration value="CharacterQualityLeader" />
+      <xs:enumeration value="CharacterQualityPirate" />
+      <xs:enumeration value="CharacterQualityTroopGeneral" />
+      <xs:enumeration value="CharacterQualityFleetAdmiral" />
+      <xs:enumeration value="CharacterQualityShipCaptain" />
+      <xs:enumeration value="CharacterQualityIntelligenceAgent" />
+      <xs:enumeration value="CharacterQualityScientist" />
+      <xs:enumeration value="CharacterQualityColonyGovernor" />
+      <xs:enumeration value="CharacterQualityAmbassador" />
+      <xs:enumeration value="ConstructionSpeedAllShips" />
+      <xs:enumeration value="ConstructionSpeedMilitary" />
+      <xs:enumeration value="ConstructionSpeedCivilian" />
+      <xs:enumeration value="ConstructionSpeedColonyShip" />
+      <xs:enumeration value="ConstructionSpeedFacility" />
+      <xs:enumeration value="ShipMaintenanceAll" />
+      <xs:enumeration value="ShipMaintenanceMilitary" />
+      <xs:enumeration value="ShipMaintenanceCivilian" />
+      <xs:enumeration value="ShipMaintenanceBases" />
+      <xs:enumeration value="TroopMaintenance" />
+      <xs:enumeration value="TroopRecruitment" />
+      <xs:enumeration value="TroopGroundAttack" />
+      <xs:enumeration value="TroopGroundDefense" />
+      <xs:enumeration value="TroopExperienceGain" />
+      <xs:enumeration value="TroopRecoveryRate" />
+      <xs:enumeration value="RecruitedTroopStrengthAll" />
+      <xs:enumeration value="RecruitedTroopStrengthArmor" />
+      <xs:enumeration value="RecruitedTroopStrengthInfantry" />
+      <xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+      <xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+      <xs:enumeration value="RecruitedTroopStrengthTitan" />
+      <xs:enumeration value="Espionage" />
+      <xs:enumeration value="CounterEspionage" />
+      <xs:enumeration value="Sabotage" />
+      <xs:enumeration value="Concealment" />
+      <xs:enumeration value="PsyOps" />
+      <xs:enumeration value="Assassination" />
+      <xs:enumeration value="Targeting" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="ShipManeuvering" />
+      <xs:enumeration value="ShipEnergyUsage" />
+      <xs:enumeration value="WeaponsDamage" />
+      <xs:enumeration value="WeaponsRange" />
+      <xs:enumeration value="ShieldRechargeRate" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="RepairRate" />
+      <xs:enumeration value="HyperjumpSpeed" />
+      <xs:enumeration value="ShipSpeed" />
+      <xs:enumeration value="ArmorStrength" />
+      <xs:enumeration value="BoardingAssault" />
+      <xs:enumeration value="BoardingDefense" />
+      <xs:enumeration value="RaidIncome" />
+      <xs:enumeration value="ScanEvasion" />
+      <xs:enumeration value="ScanFocusing" />
+      <xs:enumeration value="PlanetaryFacilityMaintenance" />
+      <xs:enumeration value="PlagueCuring" />
+      <xs:enumeration value="PlagueContainment" />
+      <xs:enumeration value="ResearchTroops" />
+      <xs:enumeration value="ResearchAncientKnowledge" />
+      <xs:enumeration value="PsychicTargeting" />
+      <xs:enumeration value="PsychicDefense" />
+      <xs:enumeration value="PsychicEnergyGenerationRate" />
+      <xs:enumeration value="PsychicCountermeasures" />
+      <xs:enumeration value="PsychicSabotage" />
+      <xs:enumeration value="PsychicEspionage" />
+      <xs:enumeration value="PsychicCounterEspionage" />
+      <xs:enumeration value="PsychicDiplomacy" />
+      <xs:enumeration value="PsychicCounterDiplomacy" />
+      <xs:enumeration value="ScannerRange" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BonusAppliesTo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Item" />
+      <xs:enumeration value="Empire" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfResourceQuantity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceQuantity" nillable="true" type="ResourceQuantity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResourceQuantity">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Amount" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfComponentStats">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComponentStats" nillable="true" type="ComponentStats" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ComponentStats">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeAmount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeEnergyUsedPerUnitCharged" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AreaShieldRechargeRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorBlastRating" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ArmorReactiveRating" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultDefense" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodBoardingRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodEnergyPerLaunch" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodLaunchRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodMovementSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodShieldPenetration" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AssaultPodStrength" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CargoCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColonizationPopulationAmount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CommandMaintenanceSavings" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CommerceTradeBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ComponentCountermeasuresBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ComponentIonDefense" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ComponentTargetingBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionBuildSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionRepairSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ConstructionYardCount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CountermeasuresBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CountermeasuresFleetBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CrewCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CrewRequirement" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DamageReduction" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DamageRepair" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DestroyedRepairChance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HullRepair" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DockingBayShipCount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DockingBayThroughput" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EnergyCollectionRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EnergyFuelProductionRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineMainCruiseThrust" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineMainCruiseThrustEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineMainMaximumThrust" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineMainMaximumThrustEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineVectoringEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EngineVectoringThrust" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExtractionRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ExtractionRangeAsteroid" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RemoteFuelTransferRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RemoteFuelTransferRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayBuildRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FighterBayRepairRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FuelStorageCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDenyStrength" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveBlockingInsulation" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveJumpInitiationTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveJumpRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveRechargeTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperDriveJumpAccuracy" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperStopRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="HyperStopStrength" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IonDamageDefense" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MedicalRating" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PassengerCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PsychicDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PsychicControl" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PsychicEnergyPerShot" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PsychicDefense" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingDamageRepairRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingQualityImprovementRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TerraformingQualityMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CreatureWeaponReductionAmount" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="CreatureWeaponReductionTypeId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="TroopRecruitmentDefinitionId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TroopRecruitmentRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorEnergyOutputPerSecond" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorEnergyStorageCapacity" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="ReactorFuelResourceId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ReactorFuelUnitsForFullCharge" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RecreationRating" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ResearchLabOutput" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerEmpireMaskingPower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationPower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyAmount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyMaximumLevel" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationSurveyTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerExplorationTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerJammingPower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerJumpTrackingChance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerLongRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerLongRangePower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerRoleMaskingPower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerTracePower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScannerTraceRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldRechargeRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldRechargeEnergyUsage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldResistance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldStrength" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldPenetrationChance" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShieldPenetrationRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StaticEnergyUsed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StealthRating" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TargetingBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TargetingFleetBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TargetingBonusPerFleetShip" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamDwellTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamEnergyPerShot" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamFireRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamPower" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamPowerFalloff" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TractorBeamRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TroopCapacity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaEffectRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponAreaBlastWaveSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponArmorBypass" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageInfrastructure" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageMilitary" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamagePopulation" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponBombardDamageQuality" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponDamageFalloffRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponDamageType" type="WeaponDamageType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponDwellTime" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponEnergyPerShot" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponFireRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponFireType" type="WeaponFireType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptComponentTargetingBonus" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageDirectFire" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageFighter" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageFullLengthBeam" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptDamageSeeking" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptEnergyPerShot" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptFireRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponInterceptIonDamageRatio" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonEngineDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonHyperDriveDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonSensorDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonShieldDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonWeaponDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponIonGeneralDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponRawDamage" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponShieldBypass" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponSpeed" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponVolleyAmount" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WeaponVolleyFireRate" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="WeaponDamageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Impact" />
+      <xs:enumeration value="AreaEffect" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="WeaponFireType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="DirectFire" />
+      <xs:enumeration value="Seeking" />
+      <xs:enumeration value="FullLengthBeam" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

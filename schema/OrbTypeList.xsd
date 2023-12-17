@@ -1,0 +1,285 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfOrbType" nillable="true" type="ArrayOfOrbType" />
+  <xs:complexType name="ArrayOfOrbType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrbType" nillable="true" type="OrbType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OrbType">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Category" type="OrbCategory" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LargeImageFilename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FullsizeImageFilename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LandscapeImageFilename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="VagueLandscapeImageFilename" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SurfaceDrawType" type="OrbSurfaceDrawType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AtmosphereDrawType" type="OrbAtmosphereDrawType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SurfaceMaterialFilenames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AtmosphereMaterialFilenames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ModelFilenames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AmbientSoundEffectFilenames" type="ArrayOfString" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AtmosphereColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AtmosphereDensity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CloudColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CloudDensity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CloudStormChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AltitudeGradient1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AltitudeGradient2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LatitudeGradient1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LatitudeGradient2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OceanGradient" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SeaLevelMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="SeaLevelMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MountainFactorMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MountainFactorMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CloudCoverageMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CloudCoverageMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasPerturbationMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasPerturbationMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasGradientPrimaryColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasGradientColorVariationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasHSLColorStart" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasHSLColorEnd" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissivePerturbationMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissivePerturbationMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissiveCoverageMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissiveCoverageMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissivePrimaryColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="GasEmissiveColorVariationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AmbientLightColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AmbientLightIntensity" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LandSpecularIntensityModifier" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StarColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StarLightColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StarColorVariationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StarBrightnessFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StarColorGradient" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MinimumCityLightLevelOffset" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CityLightColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CityLightUnderOceanColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorBlendNoiseFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LandscapeGainFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="MountainGainFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AltitudeBlendStart" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LatitudeBlendEnd" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LatitudeMaximumPoint" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LatitudeRange" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LatitudeColorPerturbationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LatitudeColorPerturbationHeightFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EmissiveIntensityStart" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EmissiveFadeoutRate" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EnergyOutputMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EnergyOutputMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LocationEffectId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CommonBonuses" type="ArrayOfBonusRange" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RingsProbability" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RingsPrimaryColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RingsColorVariationFactor" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AsteroidFieldProbability" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AsteroidFieldOrbTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StarProbability" type="OrbTypeFactor" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ChildTypes" type="ArrayOfOrbTypeFactor" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ChildCountMinimum" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ChildCountMaximum" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="QualityRangeMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="QualityRangeMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="OrbitalDistanceFromSunRatioMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="OrbitalDistanceFromSunRatioMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiameterMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiameterMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ResourceCountMinimum" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ResourceCountMaximum" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PossibleResources" type="ArrayOfResourcePrevalence" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RuinLocationDescriptions" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="OrbCategory">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Star" />
+      <xs:enumeration value="Planet" />
+      <xs:enumeration value="Moon" />
+      <xs:enumeration value="Asteroid" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="OrbSurfaceDrawType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="StaticMaterial" />
+      <xs:enumeration value="PlanetSolid" />
+      <xs:enumeration value="PlanetSolidContinents" />
+      <xs:enumeration value="PlanetSolidEmissiveOceans" />
+      <xs:enumeration value="PlanetGas" />
+      <xs:enumeration value="PlanetGasEmissive" />
+      <xs:enumeration value="Star" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="OrbAtmosphereDrawType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="StaticMaterial" />
+      <xs:enumeration value="Haze" />
+      <xs:enumeration value="Corona" />
+      <xs:enumeration value="BlackHole" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Color">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfBonusRange">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusRange" nillable="true" type="BonusRange" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BonusRange">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="BonusType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Minimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Maximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AppearanceChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Descriptions" type="ArrayOfString" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="BonusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="ResearchAll" />
+      <xs:enumeration value="ResearchSensors" />
+      <xs:enumeration value="ResearchWeapons" />
+      <xs:enumeration value="ResearchHyperDrive" />
+      <xs:enumeration value="ResearchReactor" />
+      <xs:enumeration value="ResearchShields" />
+      <xs:enumeration value="ResearchEngines" />
+      <xs:enumeration value="ResearchArmor" />
+      <xs:enumeration value="ResearchConstruction" />
+      <xs:enumeration value="ResearchHighTech" />
+      <xs:enumeration value="ResearchIndustrial" />
+      <xs:enumeration value="ColonyIncome" />
+      <xs:enumeration value="ColonyDevelopment" />
+      <xs:enumeration value="ColonyHappiness" />
+      <xs:enumeration value="ColonyPopulationGrowthRate" />
+      <xs:enumeration value="ColonyDefense" />
+      <xs:enumeration value="ColonyCorruptionReduction" />
+      <xs:enumeration value="Scenery" />
+      <xs:enumeration value="Diplomacy" />
+      <xs:enumeration value="TradeIncome" />
+      <xs:enumeration value="TourismIncome" />
+      <xs:enumeration value="MiningRate" />
+      <xs:enumeration value="WarWearinessReduction" />
+      <xs:enumeration value="CharacterAppearanceTroopGeneral" />
+      <xs:enumeration value="CharacterAppearanceFleetAdmiral" />
+      <xs:enumeration value="CharacterAppearanceShipCaptain" />
+      <xs:enumeration value="CharacterAppearanceIntelligenceAgent" />
+      <xs:enumeration value="CharacterAppearanceScientist" />
+      <xs:enumeration value="CharacterAppearanceColonyGovernor" />
+      <xs:enumeration value="CharacterAppearanceAmbassador" />
+      <xs:enumeration value="CharacterQualityLeader" />
+      <xs:enumeration value="CharacterQualityPirate" />
+      <xs:enumeration value="CharacterQualityTroopGeneral" />
+      <xs:enumeration value="CharacterQualityFleetAdmiral" />
+      <xs:enumeration value="CharacterQualityShipCaptain" />
+      <xs:enumeration value="CharacterQualityIntelligenceAgent" />
+      <xs:enumeration value="CharacterQualityScientist" />
+      <xs:enumeration value="CharacterQualityColonyGovernor" />
+      <xs:enumeration value="CharacterQualityAmbassador" />
+      <xs:enumeration value="ConstructionSpeedAllShips" />
+      <xs:enumeration value="ConstructionSpeedMilitary" />
+      <xs:enumeration value="ConstructionSpeedCivilian" />
+      <xs:enumeration value="ConstructionSpeedColonyShip" />
+      <xs:enumeration value="ConstructionSpeedFacility" />
+      <xs:enumeration value="ShipMaintenanceAll" />
+      <xs:enumeration value="ShipMaintenanceMilitary" />
+      <xs:enumeration value="ShipMaintenanceCivilian" />
+      <xs:enumeration value="ShipMaintenanceBases" />
+      <xs:enumeration value="TroopMaintenance" />
+      <xs:enumeration value="TroopRecruitment" />
+      <xs:enumeration value="TroopGroundAttack" />
+      <xs:enumeration value="TroopGroundDefense" />
+      <xs:enumeration value="TroopExperienceGain" />
+      <xs:enumeration value="TroopRecoveryRate" />
+      <xs:enumeration value="RecruitedTroopStrengthAll" />
+      <xs:enumeration value="RecruitedTroopStrengthArmor" />
+      <xs:enumeration value="RecruitedTroopStrengthInfantry" />
+      <xs:enumeration value="RecruitedTroopStrengthSpecialForces" />
+      <xs:enumeration value="RecruitedTroopStrengthPlanetaryDefense" />
+      <xs:enumeration value="RecruitedTroopStrengthTitan" />
+      <xs:enumeration value="Espionage" />
+      <xs:enumeration value="CounterEspionage" />
+      <xs:enumeration value="Sabotage" />
+      <xs:enumeration value="Concealment" />
+      <xs:enumeration value="PsyOps" />
+      <xs:enumeration value="Assassination" />
+      <xs:enumeration value="Targeting" />
+      <xs:enumeration value="Countermeasures" />
+      <xs:enumeration value="ShipManeuvering" />
+      <xs:enumeration value="ShipEnergyUsage" />
+      <xs:enumeration value="WeaponsDamage" />
+      <xs:enumeration value="WeaponsRange" />
+      <xs:enumeration value="ShieldRechargeRate" />
+      <xs:enumeration value="DamageControl" />
+      <xs:enumeration value="RepairRate" />
+      <xs:enumeration value="HyperjumpSpeed" />
+      <xs:enumeration value="ShipSpeed" />
+      <xs:enumeration value="ArmorStrength" />
+      <xs:enumeration value="BoardingAssault" />
+      <xs:enumeration value="BoardingDefense" />
+      <xs:enumeration value="RaidIncome" />
+      <xs:enumeration value="ScanEvasion" />
+      <xs:enumeration value="ScanFocusing" />
+      <xs:enumeration value="PlanetaryFacilityMaintenance" />
+      <xs:enumeration value="PlagueCuring" />
+      <xs:enumeration value="PlagueContainment" />
+      <xs:enumeration value="ResearchTroops" />
+      <xs:enumeration value="ResearchAncientKnowledge" />
+      <xs:enumeration value="PsychicTargeting" />
+      <xs:enumeration value="PsychicDefense" />
+      <xs:enumeration value="PsychicEnergyGenerationRate" />
+      <xs:enumeration value="PsychicCountermeasures" />
+      <xs:enumeration value="PsychicSabotage" />
+      <xs:enumeration value="PsychicEspionage" />
+      <xs:enumeration value="PsychicCounterEspionage" />
+      <xs:enumeration value="PsychicDiplomacy" />
+      <xs:enumeration value="PsychicCounterDiplomacy" />
+      <xs:enumeration value="ScannerRange" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="OrbTypeFactor">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Factor" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfOrbTypeFactor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrbTypeFactor" type="OrbTypeFactor" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfResourcePrevalence">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourcePrevalence" nillable="true" type="ResourcePrevalence" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ResourcePrevalence">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="ResourceId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Prevalence" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AbundanceMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AbundanceMaximum" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

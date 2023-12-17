@@ -1,0 +1,61 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfCharacterRoom" nillable="true" type="ArrayOfCharacterRoom" />
+  <xs:complexType name="ArrayOfCharacterRoom">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CharacterRoom" nillable="true" type="CharacterRoom" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CharacterRoom">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="RoomId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RoomImageFilename" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="WindowRatioRegion" type="RectangleF" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DataPath" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Scale" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnimationNames" type="ArrayOfSortableTextValue" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Offset" type="Vector2" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScaleXY" type="Vector2" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RoomFeatureToFront" type="xs:boolean" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="RectangleF">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Width" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Height" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Left" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Top" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Location" type="Vector2" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Size" type="Size2F" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Vector2">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="X" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Y" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Size2F">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="Width" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Height" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfSortableTextValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SortableTextValue" nillable="true" type="SortableTextValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SortableTextValue">
+    <xs:all>
+      <xs:element minOccurs="0" maxOccurs="1" name="Text" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Text2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Text3" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Value2" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

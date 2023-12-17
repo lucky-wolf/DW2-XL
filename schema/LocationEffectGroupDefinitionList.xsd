@@ -1,0 +1,107 @@
+﻿<!--v1.1.9.7-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfLocationEffectGroupDefinition" nillable="true" type="ArrayOfLocationEffectGroupDefinition" />
+  <xs:complexType name="ArrayOfLocationEffectGroupDefinition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocationEffectGroupDefinition" nillable="true" type="LocationEffectGroupDefinition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocationEffectGroupDefinition">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="LocationEffectGroupDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EffectDefinitions" type="ArrayOfLocationEffectDefinition" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLocationEffectDefinition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocationEffectDefinition" nillable="true" type="LocationEffectDefinition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocationEffectDefinition">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="LocationEffectDefinitionId" type="xs:short" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Type" type="LocationEffectType" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Mode" type="LocationEffectMode" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AmountMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AmountMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="RangeCollisionSphereMultiplier" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntervalMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="IntervalMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DurationMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DurationMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorActive1" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorActive2" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorInactive" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorOscillationPeriodMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ColorOscillationPeriodMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FadeInMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FadeInMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakOnMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakOnMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakOffMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakOffMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakCountMinimum" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakCountMaximum" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FadeOutMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FadeOutMaximum" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PulseEffects" type="ArrayOfLocationEffectPulse" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PeakSoundEffectFilenames" type="ArrayOfString" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="LocationEffectType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="IonDamage" />
+      <xs:enumeration value="JumpBlocking" />
+      <xs:enumeration value="StandardDamage" />
+      <xs:enumeration value="DirectDamage" />
+      <xs:enumeration value="EnergyDrain" />
+      <xs:enumeration value="ShieldDrain" />
+      <xs:enumeration value="SensorsDisabled" />
+      <xs:enumeration value="VisibilityReduction" />
+      <xs:enumeration value="SpeedModifier" />
+      <xs:enumeration value="PullTowardsLocationCenter" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="LocationEffectMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Constant" />
+      <xs:enumeration value="Pulse" />
+      <xs:enumeration value="Periodic" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Color">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="R" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="G" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="B" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="A" type="xs:unsignedByte" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLocationEffectPulse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocationEffectPulse" nillable="true" type="LocationEffectPulse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocationEffectPulse">
+    <xs:all>
+      <xs:element minOccurs="1" maxOccurs="1" name="TextureLayer" type="xs:unsignedByte" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DurationMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DurationMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScaleMinimum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ScaleMaximum" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TintColor" type="Color" />
+      <xs:element minOccurs="1" maxOccurs="1" name="PeakAlpha" type="xs:float" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Frequency" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
