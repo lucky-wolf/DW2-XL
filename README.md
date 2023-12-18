@@ -195,6 +195,7 @@ YMMV, but this is my take on making it Extra Large!
   - Dry worlds are a bit smaller
   - Cold worlds are a bit larger on avg
   - Wet worlds are a bit larger
+- Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
 
 ### v1.18.12
 - Scaled research initiation resource costs according to scarcity of resource
