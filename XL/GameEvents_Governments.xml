@@ -260,7 +260,7 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Democracy</MessageTitle>
-				<Description>Our thriving democracy stands on the precipice of a new eara of space exploration and tourism, with:
+				<Description>Our thriving democracy stands on the precipice of a new era of space exploration and tourism, with:
 
 [ULI][RESEARCH]Starship Recreation Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Interstellar Commerce[/RESEARCH][/ULI]
@@ -724,6 +724,34 @@ In addition, the first army awaits your command on the homeworld.</Description>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Recruitment Facility -->
+				<Id1>1005</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
 				<Type>GenerateTroops</Type>
 				<MessageTitle />
 				<Description />
@@ -1113,7 +1141,7 @@ In addition, the first army awaits your command on the homeworld.</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Mercantile Guild</MessageTitle>
-				<Description>Our Captains of Industry await your order to open a new era of prosperty and wealth, having recently compelted:
+				<Description>Our Captains of Industry await your order to open a new era of prosperity and wealth, having recently compelted:
 
 [ULI][RESEARCH]Interstellar Commerce[/RESEARCH][/ULI]
 [ULI][RESEARCH]Enhanced Commerce Center[/RESEARCH][/ULI]
@@ -1558,6 +1586,34 @@ Additionally, two units of state of the art mechs have just been completed and y
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Royal Palace -->
 				<Id1>94</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Military Academy -->
+				<Id1>41</Id1>
 				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>

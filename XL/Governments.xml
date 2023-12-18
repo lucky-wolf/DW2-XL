@@ -106,8 +106,16 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>-0.05</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -122,15 +130,7 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>-0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>Diplomacy</Type>
+				<Type>ColonyHappiness</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -138,40 +138,8 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>-0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>-0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>-0.10</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -179,7 +147,7 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -201,10 +169,50 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
 		</Bonuses>
-		<LeaderReplacementTypicalPeriod>10</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
-		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
 		<Stability>1.1</Stability>
@@ -356,14 +364,6 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>Diplomacy</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -372,16 +372,8 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchConstruction</Type>
-				<Amount>0.25</Amount>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -398,6 +390,30 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
 				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -428,15 +444,31 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.3</Amount>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyIncome</Type>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchSensors</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -446,7 +478,7 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
-		<LeaderReplacementBoost>10</LeaderReplacementBoost>
+		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
 		<Stability>1.2</Stability>
@@ -612,8 +644,16 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>-0.1</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -628,24 +668,40 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>-0.20</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -653,7 +709,7 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
-				<Amount>-0.20</Amount>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -676,24 +732,24 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>0.2</Amount>
+				<Type>ResearchIndustrial</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.10</Amount>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -870,8 +926,16 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.15</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -886,72 +950,16 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchWeapons</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchTroops</Type>
-				<Amount>0.35</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchConstruction</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.5</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -959,7 +967,7 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
+				<Amount>-0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -982,16 +990,72 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.35</Amount>
+				<Type>TradeIncome</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.35</Amount>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -999,8 +1063,8 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
-		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementDisruption>15</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
 		<Stability>0.9</Stability>
@@ -1014,22 +1078,16 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Dominant</string>
+			<string>Warrior</string>
 			<string>Iron</string>
 			<string>Noble</string>
-			<string>Resilient</string>
-			<string>Robust</string>
+			<string>Exalted</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Alliance of Planets</string>
-			<string>Alliance of Worlds</string>
-			<string>Council</string>
-			<string>Empire</string>
-			<string>Fiefdom</string>
-			<string>Federation of Planets</string>
-			<string>Federation of Worlds</string>
-			<string>Union of Planets</string>
-			<string>Union of Worlds</string>
+			<string>Clans</string>
+			<string>Kin</string>
+			<string>Sept</string>
+			<string>Tribes</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -1164,8 +1222,8 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.3</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1180,15 +1238,63 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>-0.05</Amount>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchConstruction</Type>
+				<Type>ColonyHappiness</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1212,7 +1318,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TroopMaintenance</Type>
+				<Type>ResearchConstruction</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1220,15 +1326,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TourismIncome</Type>
+				<Type>ResearchHighTech</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1236,7 +1334,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
+				<Type>ResearchReactor</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1244,7 +1342,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
+				<Type>ResearchSensors</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1416,24 +1514,8 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.1</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1448,8 +1530,48 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>-0.25</Amount>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1465,14 +1587,30 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.4</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchTroops</Type>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1480,7 +1618,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchWeapons</Type>
+				<Type>TroopRecoveryRate</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1504,56 +1642,16 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.35</Amount>
+				<Type>ResearchTroops</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>-0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>-0.3</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.4</Amount>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1561,8 +1659,8 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>18</LeaderReplacementDisruption>
-		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementDisruption>12</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool>
 			<CharacterRole>FleetAdmiral</CharacterRole>
 			<CharacterRole>TroopGeneral</CharacterRole>
@@ -1579,19 +1677,15 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Apex</string>
-			<string>Grand</string>
-			<string>Great</string>
+			<string>Iron</string>
+			<string>Steel</string>
 			<string>Supreme</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Clans</string>
-			<string>Junta</string>
-			<string>Realm</string>
+			<string>Domain</string>
+			<string>Freehold</string>
+			<string>Fortification</string>
 			<string>Regime</string>
-			<string>Sovereignty</string>
-			<string>Supremacy</string>
-			<string>Throne</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -1731,8 +1825,8 @@ Technocracy government type is only available to the Ackdarians.</Description>
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>-0.1</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1740,23 +1834,7 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchHighTech</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1764,7 +1842,15 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.10</Amount>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1780,7 +1866,23 @@ Technocracy government type is only available to the Ackdarians.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>MiningRate</Type>
-				<Amount>-0.10</Amount>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1958,16 +2060,8 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.20</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>-0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1975,6 +2069,22 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1982,40 +2092,48 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>-0.20</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>-0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.20</Amount>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.5</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.10</Amount>
+				<Type>TourismIncome</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2030,40 +2148,24 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.4</Amount>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>-0.20</Amount>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.10</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>-0.20</Amount>
+				<Type>ResearchAll</Type>
+				<Amount>-0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2230,7 +2332,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		<Bonuses>
 			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2476,7 +2578,15 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
+				<Type>Diplomacy</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -2492,24 +2602,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>0.3</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>ColonyHappiness</Type>
 				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2524,24 +2626,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>TourismIncome</Type>
 				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2556,8 +2650,24 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0</Amount>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2707,8 +2817,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.05</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2717,14 +2835,6 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
 				<Amount>-0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>Diplomacy</Type>
-				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2747,40 +2857,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
 				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2795,8 +2881,32 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>CounterEspionage</Type>
-				<Amount>-0.1</Amount>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2921,7 +3031,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			<IndexFactor>
 				<Index>4</Index>
 				<!-- Monarchy -->
-				<Factor>-0.10</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>5</Index>
@@ -2956,16 +3066,8 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 		</Biases>
 		<Bonuses>
 			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchSensors</Type>
-				<Amount>0.15</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2973,7 +3075,15 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>Espionage</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2981,7 +3091,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>CharacterQualityIntelligenceAgent</Type>
-				<Amount>0.10</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2989,6 +3099,14 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			</Bonus>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
 				<Amount>-0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -3004,8 +3122,16 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>MiningRate</Type>
-				<Amount>-0.15</Amount>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3031,7 +3157,7 @@ Hive Mind government type is only available to the Boskara and Dhayut races.</De
 			<string>Knowledgeable</string>
 			<string>Learned</string>
 			<string>Meticulous</string>
-			<string>Renouned</string>
+			<string>Renowned</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Chroniclers</string>

@@ -495,7 +495,7 @@ func GetComponentSourceName(targetName string, is ComponentIs) (sourceName strin
 		// ion rapid pulse array
 		// impact assault blaster
 		// terminator autocannon
-		// hive missile battery
+		// swarm missile
 		// reinforcing swarm battery
 
 		if is.fighter {

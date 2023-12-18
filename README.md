@@ -187,8 +187,11 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.13
-- Feudalism replaced by Tribal Bloodlines
-- Adjusted various values and relationships amongst governments
+- Tribal Bloodlines replaces Feudalism government
+  - Very focused on Troops
+- Adjusted Government bonuses and maluses
+- Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
+- Polish and range extensions for Missiles
 
 ### v1.18.12
 - Scaled research initiation resource costs according to scarcity of resource
