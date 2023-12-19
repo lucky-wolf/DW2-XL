@@ -195,9 +195,9 @@ YMMV, but this is my take on making it Extra Large!
 - Extended missile ranges
 - Grouped missile volleys more tightly
 - Adjusted sizes of worlds
-  - Dry worlds are a bit smaller
-  - Cold worlds are a bit larger on avg
-  - Wet worlds are a bit larger
+  - Hot & Dry worlds are a smaller
+  - Cold worlds are a larger on avg
+  - Wet worlds are a larger
 - Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
 
 ### v1.18.12
