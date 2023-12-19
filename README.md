@@ -190,7 +190,8 @@ YMMV, but this is my take on making it Extra Large!
 - Tribal Bloodlines replaces Feudalism government (very focused on troops)
 - Adjusted Government bonuses and maluses
 - Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
-- Polish and range extensions for Missiles
+- Extended missile ranges
+- Grouped missile volleys more tightly
 - Adjusted sizes of worlds
   - Dry worlds are a bit smaller
   - Cold worlds are a bit larger on avg
