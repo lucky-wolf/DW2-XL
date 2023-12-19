@@ -194,6 +194,14 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ResearchConstruction</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -732,8 +740,16 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ResearchConstruction</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -741,14 +757,6 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 			</Bonus>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
-				<Type>ResearchHighTech</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -795,11 +803,11 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<StartingGameEventNames>
 			<string>Initialize Government (Tribal Bloodlines)</string>
 		</StartingGameEventNames>
-		<Description>Tribal Bloodliness are governments that rely on various forms of clan tribal leadership and bloodline inheritance.
+		<Description>Tribal Bloodliness are ruled by tribal leaders by bloodline inheritance.
 
 Under Tribal Bloodline governments, the ruling body is composed of the various tribal and clan leaders of each prominent bloodline. Military prowess, honor through combat, and a good death are central pillars of tribal bloodline societies.
-
-Tribal Bloodline societies give heavy emphasis to strength and combat prowess. Their social structures are typically very dynamic. Everyone must submit to their local chief, or replace them.</Description>
+Tribal Bloodline societies give heavy emphasis to might makes right. Their social structures are typically very dynamic, with different tribes or clans having a wide variety of unique customs and character.
+However, Everyone must submit to their local chief, or replace them.</Description>
 		<ImageFilename></ImageFilename>
 		<LeaderTitle>Jarl</LeaderTitle>
 		<CabinetTitle>Jarl</CabinetTitle>
@@ -943,7 +951,7 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.4</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -967,7 +975,7 @@ Tribal Bloodline societies give heavy emphasis to strength and combat prowess. T
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1326,7 +1334,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ResearchHighTech</Type>
+				<Type>ResearchIndustrial</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
@@ -1388,9 +1396,11 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		<StartingGameEventNames>
 			<string>Initialize Government (Stratocracy)</string>
 		</StartingGameEventNames>
-		<Description>Stratocracy is an autocratic form of absolute rule that is unrestricted by law, constitutions, or other social and political factors.
-
-Military Dictatorships regulate nearly every aspect of the public and private behavior of their subjects. Their political, social and civil structure is tuned towards military concerns and warfare. These types of governments are typically concerned with conquest and expansion.</Description>
+		<Description>Stratocracy is an military based form of government.
+Military based governments are strictly defined by military law and chain of command.
+Their political, social and civil structures are tuned towards military concerns such as warfare and self defense.
+There is not a lot of respect for, nor tolerance of, individual expression. Art and music take the backseat to war preparation, defense training, and other military concerns.
+Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Description>
 		<ImageFilename></ImageFilename>
 		<LeaderTitle>Supreme Commander</LeaderTitle>
 		<CabinetTitle>General</CabinetTitle>
@@ -1587,7 +1597,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.3</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1603,7 +1613,7 @@ Military Dictatorships regulate nearly every aspect of the public and private be
 			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>

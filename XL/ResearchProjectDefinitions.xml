@@ -34160,17 +34160,16 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Royal Palace -->
+		<!-- XL undefines this because I don't want it to be stealable and buildable by any other powers -->
 		<ResearchProjectId>816</ResearchProjectId>
-		<Name>Royal Palace</Name>
+		<Name>Undefined: (816) [Royal Palace Tech]</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>402</Row>
-		<PlanetaryFacilityIds>
-			<short>94</short>
-		</PlanetaryFacilityIds>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>817</ResearchProjectId>

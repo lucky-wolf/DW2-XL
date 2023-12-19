@@ -188,7 +188,9 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.18.13
 - Tribal Bloodlines replaces Feudalism government (very focused on troops)
-- Adjusted Government bonuses and maluses
+- Adjusted Government bonuses, maluses, and starting conditions
+  - Tribal Bloodlines and Stratocracy have their own homeworld only, one-time, prebuilt special facilities (there is no tech, so they cannot be stolen and built by another, and they cannot be rebuilt if you lose them for any reason)
+  - Monarchy's Royal Palace no longer has a tech - so it cannot be built again if destroyed or by any other power from tech acquisition (no tech to acquire)
 - Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
 - Extended missile ranges
 - Grouped missile volleys more tightly
