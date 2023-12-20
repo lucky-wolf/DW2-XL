@@ -398,6 +398,9 @@ func FtrOrPDMainWeaponScaling(is ComponentIs) (rof float64, dmg float64) {
 }
 
 func FtrOrPDInterceptScaling(is ComponentIs) (rof float64, dmg float64) {
+
+	// WARN: this is relative to already being scaled by FtrOrPDMainWeaponScaling()
+
 	switch {
 	case is.fighter && is.weapon:
 		// for fighters scale intercept by...
@@ -407,13 +410,28 @@ func FtrOrPDInterceptScaling(is ComponentIs) (rof float64, dmg float64) {
 		// and 5 x .4 = 200% total damage output compard to base, which is 1.5 normal = 300% total vs. standard weapon
 		rof = 5
 		dmg = .4
+
 	case is.pd:
-		// PD is 2 * 2 = 4x as effective as a ftr
-		// the very high rof means we should get cool visuals (blasters are now approx 4/s)
-		// note: we might want to break this out by weapon type (super high for kinetic & blaster, less so for beams & missiles)
-		rof = 10
-		dmg = .8
+
+		switch is.size {
+		case 13:
+			// seeking based PD
+			// we don't want to ramp up the fire rate all that much at all
+			// we already flatten the fire rate and then 4x it (see FtrOrPDMainWeaponScaling)
+			rof, dmg = FtrOrPDMainWeaponScaling(is)
+			rof = 2
+
+			// subtle: this should get us to 1/2 dmg of base missile type vs. ftr, and 1 dmg vs. missiles or torpedoes
+			dmg = .5 / dmg
+
+		default:
+			// PD is 2 * 2 = 4x as effective as a ftr
+			// the very high rof means we should get cool visuals (blasters are now approx 4/s)
+			rof = 10
+			dmg = .8
+		}
 	}
+
 	return
 }
 

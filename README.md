@@ -196,6 +196,7 @@ YMMV, but this is my take on making it Extra Large!
 - Grouped missile volleys more tightly
 - Reduced missile volley count
 - Removed intercept function from bomber weapons
+- Majorly slowed down PD missile rate of fire
 - Adjusted sizes of worlds
   - Hot & Dry worlds are a smaller
   - Wet & Cold worlds are larger
