@@ -276,7 +276,7 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 
 		if is.weapon {
 
-			// "flatten" source volleys to 1 per shot but at 1/x fire rate (same dps, but distributed instead of burste firing)
+			// "flatten" source volleys to 1 per shot but at 1/x fire rate (same dps, but distributed instead of burst firing)
 			if va := e.Child("WeaponVolleyAmount").NumericValue(); va != 1 {
 				e.Child("WeaponFireRate").ScaleBy(1.0 / va)
 				e.Child("WeaponVolleyAmount").SetValue(1)
@@ -398,6 +398,9 @@ func FtrOrPDMainWeaponScaling(is ComponentIs) (rof float64, dmg float64) {
 }
 
 func FtrOrPDInterceptScaling(is ComponentIs) (rof float64, dmg float64) {
+
+	// WARN: this is relative to already being scaled by FtrOrPDMainWeaponScaling()
+
 	switch {
 	case is.fighter && is.weapon:
 		// for fighters scale intercept by...
@@ -407,13 +410,28 @@ func FtrOrPDInterceptScaling(is ComponentIs) (rof float64, dmg float64) {
 		// and 5 x .4 = 200% total damage output compard to base, which is 1.5 normal = 300% total vs. standard weapon
 		rof = 5
 		dmg = .4
+
 	case is.pd:
-		// PD is 2 * 2 = 4x as effective as a ftr
-		// the very high rof means we should get cool visuals (blasters are now approx 4/s)
-		// note: we might want to break this out by weapon type (super high for kinetic & blaster, less so for beams & missiles)
-		rof = 10
-		dmg = .8
+
+		switch is.size {
+		case 13:
+			// seeking based PD
+			// we don't want to ramp up the fire rate all that much at all
+			// we already flatten the fire rate and then 4x it (see FtrOrPDMainWeaponScaling)
+			rof, dmg = FtrOrPDMainWeaponScaling(is)
+			rof = 2
+
+			// subtle: this should get us to 1/2 dmg of base missile type vs. ftr, and 1 dmg vs. missiles or torpedoes
+			dmg = .5 / dmg
+
+		default:
+			// PD is 2 * 2 = 4x as effective as a ftr
+			// the very high rof means we should get cool visuals (blasters are now approx 4/s)
+			rof = 10
+			dmg = .8
+		}
 	}
+
 	return
 }
 
@@ -422,9 +440,10 @@ func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, is ComponentIs) (err er
 	if is.weapon {
 		// get appropriate scaling factors
 		rof, dmg := FtrOrPDMainWeaponScaling(is)
+		rof = 1 / rof
 
 		// scale by our source weapon values
-		e.Child("WeaponFireRate").ScaleBy(1 / rof)
+		e.Child("WeaponFireRate").ScaleBy(rof)
 		e.Child("WeaponRawDamage").ScaleBy(dmg)
 		e.Child("WeaponEnergyPerShot").ScaleBy(dmg)
 
@@ -442,11 +461,20 @@ func ScaleFtrOrPDMainWeaponValues(e *xmltree.XMLElement, is ComponentIs) (err er
 func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, is ComponentIs) (err error) {
 
 	if is.weapon {
+
+		// bombers will no longer have any intercept function at all
+		// use interceptors (fighters) for that!
+		if is.fighter && is.size == 10 {
+			ZeroInterceptValues(e)
+			return
+		}
+
 		// get appropriate scaling factors
 		rof, dmg := FtrOrPDInterceptScaling(is)
+		rof = 1 / rof
 
 		// scale by our standard mode values
-		e.ScaleChildToSiblingBy("WeaponInterceptFireRate", "WeaponFireRate", 1/rof)
+		e.ScaleChildToSiblingBy("WeaponInterceptFireRate", "WeaponFireRate", rof)
 		e.ScaleChildToSiblingBy("WeaponInterceptDamageFighter", "WeaponRawDamage", dmg)
 		e.ScaleChildToSiblingBy("WeaponInterceptDamageSeeking", "WeaponRawDamage", 2*dmg)
 		e.ScaleChildToSiblingBy("WeaponInterceptEnergyPerShot", "WeaponEnergyPerShot", dmg)
@@ -465,6 +493,26 @@ func ScaleFtrOrPDInterceptValues(e *xmltree.XMLElement, is ComponentIs) (err err
 			e.Child("WeaponInterceptIonDamageRatio").SetString("1")
 		}
 	}
+
+	return
+}
+
+func ZeroInterceptValues(e *xmltree.XMLElement) (err error) {
+
+	// scale by our standard mode values
+	e.Child("WeaponInterceptFireRate").SetString("0")
+	e.Child("WeaponInterceptDamageFighter").SetString("0")
+	e.Child("WeaponInterceptDamageSeeking").SetString("0")
+	e.Child("WeaponInterceptEnergyPerShot").SetString("0")
+
+	// currently we simply always set intercept range == base range for this weapon
+	e.Child("WeaponInterceptRange").SetString("0")
+
+	// PD must actually hit for it to be useful!
+	e.Child("WeaponInterceptComponentTargetingBonus").SetString("0")
+
+	// not ionic
+	e.Child("WeaponIonGeneralDamage").SetString("0")
 
 	return
 }
@@ -495,7 +543,7 @@ func GetComponentSourceName(targetName string, is ComponentIs) (sourceName strin
 		// ion rapid pulse array
 		// impact assault blaster
 		// terminator autocannon
-		// hive missile battery
+		// swarm missile
 		// reinforcing swarm battery
 
 		if is.fighter {

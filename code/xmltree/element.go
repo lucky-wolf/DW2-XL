@@ -150,16 +150,12 @@ func (e *XMLElement) SetChildToSibling(child, sibling string) {
 
 // updates it to be scaled by the given input
 func (e *XMLElement) ScaleChildToSiblingBy(child, sibling string, scale float64) {
-	if scale != 1.0 {
-		value := e.Child(sibling).NumericValue()
-		e.Child(child).SetValue(value * scale)
-	}
+	value := e.Child(sibling).NumericValue()
+	e.Child(child).SetValue(value * scale)
 }
 
 // updates it to be scaled by the given input
 func (e *XMLElement) AdjustChildToSiblingBy(child, sibling string, adj float64) {
-	if adj != 0 {
-		value := e.Child(sibling).NumericValue()
-		e.Child(child).SetValue(value + adj)
-	}
+	value := e.Child(sibling).NumericValue()
+	e.Child(child).SetValue(value + adj)
 }

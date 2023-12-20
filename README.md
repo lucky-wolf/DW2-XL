@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.13](#v11813)
     - [v1.18.12](#v11812)
     - [v1.18.11](#v11811)
     - [v1.18.10](#v11810)
@@ -185,6 +186,36 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.18.13
+- Governments
+  - Tribal Bloodlines replaces Feudalism government (focused on troops and tribal fealty)
+  - Tribal Bloodlines and Stratocracy have their own homeworld only, one-time, prebuilt special facilities (there is no tech, so they cannot be stolen and built by another, and they cannot be rebuilt if you lose them for any reason)
+  - Monarchy's Royal Palace no longer has a tech - so it cannot be built again if destroyed or by any other power from tech acquisition (no tech to acquire)
+  - Adjusted many other government bonuses, maluses, and starting conditions
+- Adjusted sizes of colonizable worlds
+  - Hot & Dry worlds are smaller
+    - Most common, so smaller for a better game balance
+  - Frozen & Water worlds are larger
+    - Least common, so larger, for a better game balance
+- Weapon, shield, armor, hull balance refresh
+  - Scaled down weapon raw damage by -20%
+  - Scaled down shield strength by -20%
+  - Increased reactive rating on armor +1
+  - Armor strength remains the same (so a buff by comparison)
+  - Hull strength remains the same (so a buff by comparison)
+- Removed intercept function from all bomber weapons
+  - Fighters have intercept function
+  - Bombers have anti-ship function
+- Missiles
+  - Extended missile ranges
+  - Grouped missile volleys more tightly
+  - Reduced missiles per volley
+  - Majorly slowed down PD missile rate of fire
+    - was too taxing on PC hardware
+    - missiles shouldn't behave like machine guns anyway
+- Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
+- Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
+
 ### v1.18.12
 - Scaled research initiation resource costs according to scarcity of resource
   - redid the scaling of resources to make high end techs achievable
@@ -205,7 +236,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added troop recovery boosts to recruitment facilities
 - Enlarged defense fleets a bit
 - Slowed rof for bomber weapons
-- Reduced unhappiness and corruption maluses for monarchy, stratocracy, and feudalism
+- Reduced unhappiness and corruption maluses for monarchy, stratocracy, and tribal bloodlines
 - Gave some love to Missiles
 
 ### v1.18.9
@@ -443,7 +474,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Stratocracy governments to offer
   - Improved Crew Accommodations
-  - Progress towards either standard Crew Accommodations (Monarchy) or marine barracks (Feudalism, Dictatorship)
+  - Progress towards either standard Crew Accommodations (Monarchy) or marine barracks (Tribal Bloodlines, Dictatorship)
   - Royal Palace
 - Terraforming facilities are a bit cheaper at the low end, more expensive at the high end
 - Updated fleet templates to favor 50% fuel range (now that the game handles refuelling better)
@@ -500,7 +531,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced Ion Shields to size 10
 - Fixed bug that didn't allow synthetic units to be built
 - Shipboard Marine Barracks requires on Zero-G Combat
-- Feudalism starts get Shipboard Marine tech
+- Tribal Bloodlines starts get Shipboard Marine tech
 - Specialized Cruisers and Advanced Cruisers require correspondingly high tech sensors
 - Heavy Capital Ships and Super Capital Ships require correspondingly high tech long range sensors
 - Rebalanced the Ikkuro terraforming techs to be cheap, slow, steady with a better maximum at each technology level
@@ -684,7 +715,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.14.5
 - Removed Explosive Area Weapons from Ikkuro racial tech
-- Ikkuro can now choose Republic (much more thematic and less problematic than Feudalism)
+- Ikkuro can now choose Republic (much more thematic and less problematic than Tribal Bloodlines)
 - Boskara now have a serious racial leader quality bonus
 - Nerfed Mercantile Guild a little
 - Fixed planetary facility build times

@@ -33,7 +33,7 @@ sub ProcessFile
 
 		# matches xml key with floating point number (including sci notation)
 		# doesn't handle leading decimal point, nor trailing one - but requires a leading and trailing digit(s)
-		if ($line =~ /^([ \t]+)<([^>]+)>((\d+\.\d+)|(\d+)([eE][+-]\d+)?)<\/([^>]+)>(.*)$/)
+		if ($line =~ /^([ \t]+)<([^>]+)>(((\d+\.\d+)|(\d+))([eE][+-]\d+)?)<\/([^>]+)>(.*)$/)
 		{
 			# convert to numeric value
 			$value = $3 + 0.0;

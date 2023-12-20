@@ -467,7 +467,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>15</ResearchProjectId>
-		<Name>Defense Missiles</Name>
+		<Name>Interceptor Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -1527,7 +1527,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>38</ResearchProjectId>
-		<Name>Improved Defense Missiles</Name>
+		<Name>Improved Interceptor Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -2625,7 +2625,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>62</ResearchProjectId>
-		<Name>Advanced Defense Missiles</Name>
+		<Name>Advanced Interceptor Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -2661,7 +2661,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>63</ResearchProjectId>
-		<Name>Swarm Missiles</Name>
+		<Name>Improved Fast Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -2720,20 +2720,12 @@
 			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
-					<ResourceId>0</ResourceId>
+					<ResourceId>8</ResourceId>
 					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
 					<Amount>1200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -2769,7 +2761,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>65</ResearchProjectId>
-		<Name>Reinforced Missiles</Name>
+		<Name>Improved Heavy Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -3451,8 +3443,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>1</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -3496,8 +3488,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.15</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -4391,7 +4383,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>98</ResearchProjectId>
-		<Name>Swarm Missile Batteries</Name>
+		<Name>Advanced Fast Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -4443,7 +4435,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>99</ResearchProjectId>
-		<Name>Heavy Missile Batteries</Name>
+		<Name>Advanced Heavy Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -5897,33 +5889,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>128</ResearchProjectId>
-		<Name>Missile Defense Network</Name>
+		<Name>Aegis Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>62</Row>
 		<DisallowedRaceIds>
 			<!-- Humans have better tech -->
@@ -5948,7 +5940,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>129</ResearchProjectId>
-		<Name>High Capacity Batteries</Name>
+		<Name>Swarm Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -6000,7 +5992,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>130</ResearchProjectId>
-		<Name>Heavy Missile Swarms</Name>
+		<Name>Hunter Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -6626,8 +6618,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>2</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -6679,8 +6671,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.15</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -7395,7 +7387,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>157</ResearchProjectId>
-		<Name>Decoy Swarms</Name>
+		<Name>Advanced Swarm Missiles Batteries</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -7447,7 +7439,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>158</ResearchProjectId>
-		<Name>Advanced Missile Swarms</Name>
+		<Name>Advanced Hunter Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -8695,33 +8687,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>183</ResearchProjectId>
-		<Name>Superior Missile Defense Network</Name>
+		<Name>Improved Aegis Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>9600</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>9600</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>7</Column>
+		<Column>6</Column>
 		<Row>62</Row>
 		<DisallowedRaceIds>
 			<!-- Humans have better tech -->
@@ -9411,8 +9403,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
+				<AttackStrengthFactor>0.15</AttackStrengthFactor>
+				<DefendStrengthFactor>0</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>3</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -9464,8 +9456,8 @@
 				<Type>PlanetaryDefense</Type>
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0.15</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<AttackStrengthFactor>0</AttackStrengthFactor>
+				<DefendStrengthFactor>0.15</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -10113,7 +10105,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>210</ResearchProjectId>
-		<Name>Self-Repairing Swarms</Name>
+		<Name>Reinforcing Missile Swarms</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -14423,6 +14415,10 @@
 				<ComponentId>250</ComponentId>
 				<Level>0</Level>
 			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>0</Level>
+			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -14588,6 +14584,10 @@
 			</Component>
 			<Component>
 				<ComponentId>250</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -21600,6 +21600,10 @@
 			</Component>
 			<Component>
 				<ComponentId>250</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
 				<Level>2</Level>
 			</Component>
 		</Components>
@@ -32736,6 +32740,10 @@
 				<ComponentId>250</ComponentId>
 				<Level>3</Level>
 			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>3</Level>
+			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34152,17 +34160,16 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Royal Palace -->
+		<!-- XL undefines this because I don't want it to be stealable and buildable by any other powers -->
 		<ResearchProjectId>816</ResearchProjectId>
-		<Name>Royal Palace</Name>
+		<Name>Undefined: (816) [Royal Palace Tech]</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>33</Size>
+		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>402</Row>
-		<PlanetaryFacilityIds>
-			<short>94</short>
-		</PlanetaryFacilityIds>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>817</ResearchProjectId>
