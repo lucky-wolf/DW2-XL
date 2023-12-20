@@ -194,6 +194,8 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
 - Extended missile ranges
 - Grouped missile volleys more tightly
+- Reduced missile volley count
+- Removed intercept function from bomber weapons
 - Adjusted sizes of worlds
   - Hot & Dry worlds are a smaller
   - Wet & Cold worlds are larger
