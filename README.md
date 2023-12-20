@@ -197,9 +197,9 @@ YMMV, but this is my take on making it Extra Large!
     - Most common, so smaller for a better game balance
   - Frozen & Water worlds are larger
     - Least common, so larger, for a better game balance
-- Weapons and shields reblance
-  - Scaled down all weapon raw damage by -20%
-  - Scaled down all and shield strength by -20%
+- Weapon, shield, armor, hull balance refresh
+  - Scaled down weapon raw damage by -20%
+  - Scaled down shield strength by -20%
   - Increased reactive rating on armor +1
   - Armor strength remains the same (so a buff by comparison)
   - Hull strength remains the same (so a buff by comparison)
@@ -211,8 +211,8 @@ YMMV, but this is my take on making it Extra Large!
   - Grouped missile volleys more tightly
   - Reduced missiles per volley
   - Majorly slowed down PD missile rate of fire
-    - was too taxing for the game engine
-    - missiles shouldn't behave like machine guns
+    - was too taxing on PC hardware
+    - missiles shouldn't behave like machine guns anyway
 - Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
 - Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
 
