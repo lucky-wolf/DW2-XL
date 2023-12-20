@@ -187,22 +187,34 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.13
-- Tribal Bloodlines replaces Feudalism government (focused on troops and tribal fealty)
-- Adjusted Government bonuses, maluses, and starting conditions
+- Governments
+  - Tribal Bloodlines replaces Feudalism government (focused on troops and tribal fealty)
   - Tribal Bloodlines and Stratocracy have their own homeworld only, one-time, prebuilt special facilities (there is no tech, so they cannot be stolen and built by another, and they cannot be rebuilt if you lose them for any reason)
   - Monarchy's Royal Palace no longer has a tech - so it cannot be built again if destroyed or by any other power from tech acquisition (no tech to acquire)
-- Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
-- Extended missile ranges
-- Grouped missile volleys more tightly
-- Reduced missile volley count
-- Removed intercept function from bomber weapons
-- Majorly slowed down PD missile rate of fire
-- Adjusted sizes of worlds
-  - Hot & Dry worlds are a smaller
-  - Wet & Cold worlds are larger
+  - Adjusted many other government bonuses, maluses, and starting conditions
+- Adjusted sizes of colonizable worlds
+  - Hot & Dry worlds are smaller
+    - Most common, so smaller for a better game balance
+  - Frozen & Water worlds are larger
+    - Least common, so larger, for a better game balance
+- Weapons and shields reblance
+  - Scaled down all weapon raw damage by -20%
+  - Scaled down all and shield strength by -20%
+  - Increased reactive rating on armor +1
+  - Armor strength remains the same (so a buff by comparison)
+  - Hull strength remains the same (so a buff by comparison)
+- Removed intercept function from all bomber weapons
+  - Fighters have intercept function
+  - Bombers have anti-ship function
+- Missiles
+  - Extended missile ranges
+  - Grouped missile volleys more tightly
+  - Reduced missiles per volley
+  - Majorly slowed down PD missile rate of fire
+    - was too taxing for the game engine
+    - missiles shouldn't behave like machine guns
 - Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
-- Scaled down all weapons and shields by -20% to increase hull strength relatively
-- Increased reactive rating on armor and left armor strength alone giving armor an overall boost
+- Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
 
 ### v1.18.12
 - Scaled research initiation resource costs according to scarcity of resource
