@@ -187,7 +187,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.13
-- Tribal Bloodlines replaces Feudalism government (very focused on troops)
+- Tribal Bloodlines replaces Feudalism government (focused on troops and tribal fealty)
 - Adjusted Government bonuses, maluses, and starting conditions
   - Tribal Bloodlines and Stratocracy have their own homeworld only, one-time, prebuilt special facilities (there is no tech, so they cannot be stolen and built by another, and they cannot be rebuilt if you lose them for any reason)
   - Monarchy's Royal Palace no longer has a tech - so it cannot be built again if destroyed or by any other power from tech acquisition (no tech to acquire)
@@ -198,6 +198,8 @@ YMMV, but this is my take on making it Extra Large!
   - Hot & Dry worlds are a smaller
   - Wet & Cold worlds are larger
 - Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
+- Scaled down all weapons and shields by -20% to increase hull strength relatively
+- Increased reactive rating on armor and left armor strength alone giving armor an overall boost
 
 ### v1.18.12
 - Scaled research initiation resource costs according to scarcity of resource
