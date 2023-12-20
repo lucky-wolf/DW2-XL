@@ -96,6 +96,8 @@
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
+	  <!-- no currently implemented - but do not want errors -->
+      <xs:element minOccurs="0" maxOccurs="1" name="HasGasSurface" type="xs:boolean" />
     </xs:all>
   </xs:complexType>
   <xs:simpleType name="OrbCategory">
