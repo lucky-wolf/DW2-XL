@@ -1590,7 +1590,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>64</ResearchProjectId>
@@ -2688,7 +2688,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>39</ResearchProjectId>
@@ -2753,10 +2753,10 @@
 				<ComponentId>203</ComponentId>
 				<Level>2</Level>
 			</Component>
-			<Component>
+			<!-- <Component>
 				<ComponentId>228</ComponentId>
 				<Level>0</Level>
-			</Component>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -2824,7 +2824,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>66</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>16</ResearchProjectId>
@@ -4410,7 +4410,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>63</ResearchProjectId>
@@ -5817,7 +5817,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>67</Row>
+		<Row>69</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1069</ResearchProjectId>
@@ -5834,7 +5834,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>127</ResearchProjectId>
-		<Name>Predictive Missile Defense</Name>
+		<Name>Predictive Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -5878,11 +5878,15 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>30</ComponentId>
+				<ComponentId>573</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
 				<ComponentId>50</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -5967,7 +5971,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>98</ResearchProjectId>
@@ -6059,7 +6063,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>66</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>66</ResearchProjectId>
@@ -7414,7 +7418,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>129</ResearchProjectId>
@@ -8615,7 +8619,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>67</Row>
+		<Row>69</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>126</ResearchProjectId>
@@ -8632,7 +8636,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>182</ResearchProjectId>
-		<Name>Impenetrable Missile Defense</Name>
+		<Name>Robust Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -8676,11 +8680,15 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>30</ComponentId>
+				<ComponentId>573</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>50</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -8757,7 +8765,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>66</Row>
+		<Row>67</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>131</ResearchProjectId>
@@ -10139,13 +10147,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>158</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>69</ComponentId>
@@ -10159,10 +10161,10 @@
 				<ComponentId>337</ComponentId>
 				<Level>0</Level>
 			</Component>
-			<Component>
+			<!-- <Component>
 				<ComponentId>335</ComponentId>
 				<Level>0</Level>
-			</Component>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -11005,69 +11007,6 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>63</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>210</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<RepeatableTechLimit>1000</RepeatableTechLimit>
-		<RepeatableComponentValues>
-			<ComponentValues>
-				<ComponentId>69</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRawDamage>0.05</WeaponRawDamage>
-						<WeaponInterceptDamageFighter>0.05</WeaponInterceptDamageFighter>
-						<WeaponInterceptDamageSeeking>0.05</WeaponInterceptDamageSeeking>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>336</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRawDamage>0.05</WeaponRawDamage>
-						<WeaponInterceptDamageFighter>0.05</WeaponInterceptDamageFighter>
-						<WeaponInterceptDamageSeeking>0.05</WeaponInterceptDamageSeeking>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>337</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRawDamage>0.05</WeaponRawDamage>
-						<WeaponInterceptDamageFighter>0.05</WeaponInterceptDamageFighter>
-						<WeaponInterceptDamageSeeking>0.05</WeaponInterceptDamageSeeking>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>335</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRawDamage>0.05</WeaponRawDamage>
-						<WeaponInterceptDamageFighter>0.05</WeaponInterceptDamageFighter>
-						<WeaponInterceptDamageSeeking>0.05</WeaponInterceptDamageSeeking>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-		</RepeatableComponentValues>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>233</ResearchProjectId>
-		<Name>Improved Missile Rate of Fire</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
-		<InitiationCost>
-			<Money>2278125</Money>
-		</InitiationCost>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>11</Column>
 		<Row>64</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11082,6 +11021,63 @@
 				<ComponentId>69</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+						<WeaponInterceptDamageFighter>0.05</WeaponInterceptDamageFighter>
+						<WeaponInterceptDamageSeeking>0.05</WeaponInterceptDamageSeeking>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>336</ComponentId>
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>337</ComponentId>
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<!-- <ComponentValues>
+				<ComponentId>335</ComponentId>
+				<Values>
+					<ComponentStats>
+						<WeaponRawDamage>0.05</WeaponRawDamage>
+					</ComponentStats>
+				</Values>
+			</ComponentValues> -->
+		</RepeatableComponentValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>233</ResearchProjectId>
+		<Name>Improved Missile Rate of Fire</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>455625</Size>
+		<InitiationCost>
+			<Money>2278125</Money>
+		</InitiationCost>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>65</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>210</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>69</ComponentId>
+				<Values>
+					<ComponentStats>
 						<WeaponFireRate>-0.05</WeaponFireRate>
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
@@ -11105,7 +11101,7 @@
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
-			<ComponentValues>
+			<!-- <ComponentValues>
 				<ComponentId>335</ComponentId>
 				<Values>
 					<ComponentStats>
@@ -11113,7 +11109,7 @@
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
-			</ComponentValues>
+			</ComponentValues> -->
 		</RepeatableComponentValues>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -11704,7 +11700,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>63</Row>
+		<Row>64</Row>
 		<Components>
 			<Component>
 				<ComponentId>76</ComponentId>
@@ -27189,7 +27185,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>65</Row>
+		<Row>63</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>210</ResearchProjectId>
@@ -27213,7 +27209,6 @@
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -27222,19 +27217,17 @@
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
-			<ComponentValues>
+			<!-- <ComponentValues>
 				<ComponentId>335</ComponentId>
 				<Values>
 					<ComponentStats>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 					</ComponentStats>
 				</Values>
-			</ComponentValues>
+			</ComponentValues> -->
 		</RepeatableComponentValues>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>

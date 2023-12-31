@@ -83,8 +83,8 @@
 				<Description>Due to our chosen government, we have gained insight into:
 
 [ULI][RESEARCH]Research Labs[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Sensors[/RESEARCH][/ULI]
-[ULI][RESEARCH]Coordinated Control[/RESEARCH][/ULI]
+[ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
+[ULI]Progress towards [RESEARCH]Tests of Merit[/RESEARCH][/ULI]
 
 A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Description>
 				<ImageFilepath />
@@ -145,8 +145,8 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Starship Targeting -->
-				<Id1>384</Id1>
+				<!-- Long Range Sensors -->
+				<Id1>433</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -163,7 +163,7 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -172,36 +172,9 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Standard Sensors -->
-				<Id1>403</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Command -->
-				<Id1>415</Id1>
-				<Value1>0</Value1>
+				<!-- Tests of Merit -->
+				<Id1>821</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

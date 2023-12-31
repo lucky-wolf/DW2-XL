@@ -190,6 +190,16 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.14
 - Fixed issues with planetary fighter bases so that they upgrade, including gizurean, in the correct order (and interleaved)
 - Adjusted costs of many planetary facilities
+- Large missiles and small missiles now extend to end game as separate tech lineages
+- Large missiles have their own repeatables
+- Large missiles are the only missiles have any bombardment whatsoever
+- New endgame large missile component and technology: Titan Missiles
+- Added a Bulwark Missile [Ftr] for Human special tech
+- Super weapons [X] are now standard sizes as whatever category they belong to
+- Removed Quameno inherent +20% all tech bonus
+- Adjusted Geniocracy starting conditions
+- Fixed various races preferred biome descriptions
+- Quameno now use robotic troops as their infantry, always
 
 ### v1.18.13
 - Governments
