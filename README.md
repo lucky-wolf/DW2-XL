@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.14](#v11814)
     - [v1.18.13](#v11813)
     - [v1.18.12](#v11812)
     - [v1.18.11](#v11811)
@@ -185,6 +186,10 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.14
+- Fixed issues with planetary fighter bases so that they upgrade, including gizurean, in the correct order (and interleaved)
+- Adjusted costs of many planetary facilities
 
 ### v1.18.13
 - Governments
