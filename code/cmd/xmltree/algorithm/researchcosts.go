@@ -88,6 +88,8 @@ func (j *Job) applyResearchCosts() (err error) {
 				if !strings.HasPrefix(techName, "Undefined:") {
 					// use that to see if there is a cost override / exception
 					switch techName {
+					case "Ancient Guardian Vault Investigations":
+						col = 2
 					case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
 						col = 1
 					case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",

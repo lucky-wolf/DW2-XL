@@ -196,10 +196,14 @@ YMMV, but this is my take on making it Extra Large!
 - New endgame large missile component and technology: Titan Missiles
 - Added a Bulwark Missile [Ftr] for Human special tech
 - Super weapons [X] are now standard sizes as whatever category they belong to
-- Removed Quameno inherent +20% all tech bonus
-- Adjusted Geniocracy starting conditions
 - Fixed various races preferred biome descriptions
-- Quameno now use robotic troops as their infantry, always
+- Quameno
+  - Quameno gain bonus to ancient knowledge
+  - Quameno gain bonus to high tech
+  - Quameno lose bonus to all tech
+  - Quameno now always use robotic troops as only infantry
+- Adjusted Geniocracy starting conditions
+- Reduced cost of Ancient Guardian Vault Investigations
 
 ### v1.18.13
 - Governments

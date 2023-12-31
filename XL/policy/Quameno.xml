@@ -185,8 +185,9 @@
 	<TaxRateTargetApprovalSmallColonies>40</TaxRateTargetApprovalSmallColonies>
 	<TaxRateTargetApprovalMediumColonies>20</TaxRateTargetApprovalMediumColonies>
 	<TaxRateTargetApprovalLargeColonies>5</TaxRateTargetApprovalLargeColonies>
-	<CashflowColonyGrowthFunding>1.0</CashflowColonyGrowthFunding>
-	<CashflowResearchFunding>0</CashflowResearchFunding>
+	<!-- colony growth is useless for geniocracy, so default it to zero -->
+	<CashflowColonyGrowthFunding>0</CashflowColonyGrowthFunding>
+	<CashflowResearchFunding>1.0</CashflowResearchFunding>
 	<CashflowStateShipMaintenance>0.55</CashflowStateShipMaintenance>
 	<CashflowTroopMaintenance>0.15</CashflowTroopMaintenance>
 	<CashflowFacilityMaintenance>0.3</CashflowFacilityMaintenance>

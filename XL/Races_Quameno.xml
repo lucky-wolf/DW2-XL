@@ -133,13 +133,20 @@
 		</VictoryConditions>
 
 		<Bonuses>
-			<!-- <Bonus>
-				<Type>ResearchAll</Type>
+			<Bonus>
+				<Type>ResearchAncientKnowledge</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus> -->
+			</Bonus>
 			<Bonus>
 				<Type>Diplomacy</Type>
 				<Amount>-0.2</Amount>
@@ -307,8 +314,6 @@
 			<short>75</short>
 			<!-- Robotic Infantry -->
 			<short>22</short>
-			<!-- Exploration Scanners -->
-			<short>405</short>
 		</StartingResearchProjectIds>
 		<PreferredWeaponComponentIds>
 			<!-- Ion Field Projector [S]< -->
