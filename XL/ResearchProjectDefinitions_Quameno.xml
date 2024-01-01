@@ -51,23 +51,23 @@
 		<ResearchProjectId>292</ResearchProjectId>
 		<Name>Enhanced Caslon Fusion Reactions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>1500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>300</Amount>
+					<Amount>150</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>300</Amount>
+					<Amount>150</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>2</Column>
 		<Row>180</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -98,23 +98,23 @@
 		<ResearchProjectId>491</ResearchProjectId>
 		<Name>Intense Caslon Fusion Reactions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>300</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>300</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>3</Column>
 		<Row>180</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -171,7 +171,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>491</ResearchProjectId>
+				<ResearchProjectId>1269</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -180,11 +180,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>3</Level>
+				<Level>6</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -636,7 +636,7 @@
 	<ResearchProjectDefinition>
 		<!-- replaces vanilla fast interceptors (that XL doesn't use) -->
 		<ResearchProjectId>351</ResearchProjectId>
-		<Name>Indestructable Shields</Name>
+		<Name>Indestructible Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -694,5 +694,146 @@
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
-	<!-- 1180 + 1181 are also Quemeno -->
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1267</ResearchProjectId>
+		<Name>Reified Caslon Fusion Reactions</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>2700</Size>
+		<InitiationCost>
+			<Money>13500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>180</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>491</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>302</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>145</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1268</ResearchProjectId>
+		<Name>Reduced Caslon Fusion Threshold</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>8100</Size>
+		<InitiationCost>
+			<Money>40500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>1200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>1200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>180</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1267</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>302</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>145</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1269</ResearchProjectId>
+		<Name>Optimized Caslon Fusion Threshold</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>180</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1268</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>302</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>145</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<!-- 1180 + 1181 are also Quameno -->
 </ArrayOfResearchProjectDefinition>
