@@ -202,9 +202,11 @@ YMMV, but this is my take on making it Extra Large!
   - Quameno gain bonus to high tech
   - Quameno lose bonus to all tech
   - Quameno now always use robotic troops as their only infantry
-  - Novacore reactors now have a tech + component for every tech level (per XL standards)
+  - Quameno favor Ion + Energy Torpedoes
+  - Novacore reactors have a tech & component for every tech level (per XL standards)
 - Adjusted Geniocracy starting conditions
 - Reduced cost of Ancient Guardian Vault Investigations
+- Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
 
 ### v1.18.13
 - Governments
