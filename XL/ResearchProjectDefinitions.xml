@@ -301,6 +301,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>219</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
 				<ComponentId>11</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -327,21 +331,20 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>94</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-				<RaceId>2</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>2</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>551</ComponentId>
@@ -1237,10 +1240,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>219</ComponentId>
-				<Level>0</Level>
-			</Component>
 			<Component>
 				<ComponentId>21</ComponentId>
 				<Level>0</Level>
@@ -2271,6 +2270,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>219</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
 				<ComponentId>11</ComponentId>
 				<Level>1</Level>
 			</Component>
@@ -2334,19 +2337,12 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>94</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>11</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -3941,7 +3937,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1068</ResearchProjectId>
@@ -5066,7 +5062,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>94</Row>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>321</ResearchProjectId>
@@ -5106,19 +5102,12 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>94</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>56</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -5160,14 +5149,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>11</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- Improved Ion Cannons OR Ion Area Weapons (Teekan only) -->
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>3</short>
 		</PlanetaryFacilityIds>
@@ -5817,7 +5799,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>69</Row>
+		<Row>68</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1069</ResearchProjectId>
@@ -6986,7 +6968,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>89</ResearchProjectId>
@@ -7040,10 +7022,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>219</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
 				<ComponentId>21</ComponentId>
 				<Level>2</Level>
 			</Component>
@@ -7087,6 +7065,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>0</Level>
+			</Component>
 			<Component>
 				<ComponentId>334</ComponentId>
 				<Level>0</Level>
@@ -7878,6 +7860,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
 				<ComponentId>334</ComponentId>
 				<Level>1</Level>
 			</Component>
@@ -7952,19 +7938,12 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>94</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>112</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
@@ -7980,7 +7959,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>169</ResearchProjectId>
-		<Name>Colossal Ion Cannons</Name>
+		<Name>Colossal Ion Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -8619,7 +8598,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>69</Row>
+		<Row>68</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>126</ResearchProjectId>
@@ -9835,7 +9814,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1227</ResearchProjectId>
@@ -10375,7 +10354,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>92</Row>
+		<Row>96</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>204</ResearchProjectId>
@@ -10407,7 +10386,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>90</Row>
+		<Row>94</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>204</ResearchProjectId>
@@ -10439,7 +10418,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>204</ResearchProjectId>
@@ -14617,7 +14596,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>94</Row>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Rapid Ion Cannons -->
@@ -14910,10 +14889,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>219</ComponentId>
-				<Level>1</Level>
-			</Component>
 			<Component>
 				<ComponentId>21</ComponentId>
 				<Level>1</Level>

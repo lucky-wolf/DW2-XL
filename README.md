@@ -188,28 +188,32 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.14
-- Fixed issues with planetary fighter bases so that they upgrade, including gizurean, in the correct order (and interleaved)
-- Adjusted costs of many planetary facilities
-- Large missiles and small missiles now extend to end game as separate tech lineages
-- Large missiles have their own repeatables
-- Large missiles are the only missiles have any bombardment whatsoever
-- New endgame large missile component and technology: Titan Missiles
-- Added a Bulwark Missile [Ftr] for Human special tech
-- Super weapons [X] are now standard sizes as whatever category they belong to
-- Fixed various races preferred biome descriptions
+- Missiles
+  - Large missiles and small missiles now extend to end game as separate tech lineages
+  - Large missiles have their own repeatables
+  - Large missiles are the only missiles have any bombardment whatsoever
+  - Titan Missiles are a new endgame component and technology
+  - Added a Bulwark Missile [Ftr] for Human special tech
 - Quameno
-  - Quameno gain bonus to ancient knowledge
-  - Quameno gain bonus to high tech
-  - Quameno lose bonus to all tech
-  - Quameno now always use robotic troops as their only infantry
-  - Quameno favor Ion + Energy Torpedoes
+  - Quameno gain bonus to ancient knowledge and high tech in place of all tech
+  - Quameno now have robotic troops as their racial infantry
+  - Quameno favor ion weapons instead of pulsed weapons
   - Novacore reactors have a tech & component for every tech level (per XL standards)
-- Adjusted Geniocracy starting conditions
-- Reduced cost of Ancient Guardian Vault Investigations
-- Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
-- Removed: Destroyer, Cruiser, Dreadnought, Battleship, Carrier, etc. from ship classname lists
+  - Adjusted Geniocracy starting conditions
+- Gizurean
+  - Gizurean superior hive swarm tech now gives Fighter IV and Bomber IV hulls
+- Teekan
+  - Teekans now have Ion Missiles as one of their two racial specials
+  - Ion Bombs are now available to everyone
+- Ancient Knowledge
+  - Reduced cost of Ancient Guardian Vault Investigations
+  - Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
+- Super weapons [X] are now standard sizes as whatever category they belong to
+- Increased costs of most advanced planetary facilities
+- Improved some ship class names
+- Fixed issues with planetary fighter bases so that they upgrade in correct order for all types
 - Renamed components and hulls to cluster together in the designer better
-- Fixed: Gizurean superior hive swarm tech was missing superior fighters and bombers
+- Fixed various races preferred biome descriptions
 
 ### v1.18.13
 - Governments

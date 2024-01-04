@@ -3747,7 +3747,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<!-- Constant Beam Weapons -->
 			<!-- <ResearchPath>
@@ -3807,7 +3807,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>69</Row>
+		<Row>68</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>60</ResearchProjectId>
@@ -4274,7 +4274,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>94</Row>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>111</ResearchProjectId>
@@ -4322,7 +4322,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>94</Row>
+		<Row>88</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1078</ResearchProjectId>
@@ -9413,10 +9413,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>219</ComponentId>
-				<Level>3</Level>
-			</Component>
-			<Component>
 				<ComponentId>21</ComponentId>
 				<Level>3</Level>
 			</Component>
@@ -10798,7 +10794,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>149</ResearchProjectId>
@@ -10842,7 +10838,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1225</ResearchProjectId>
@@ -10886,7 +10882,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>91</Row>
+		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1226</ResearchProjectId>
@@ -10940,10 +10936,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
 				<ComponentId>57</ComponentId>
 				<Level>0</Level>
 			</Component>
@@ -10987,10 +10979,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>1</Level>
-			</Component>
 			<Component>
 				<ComponentId>57</ComponentId>
 				<Level>1</Level>
@@ -11036,10 +11024,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>2</Level>
-			</Component>
-			<Component>
 				<ComponentId>57</ComponentId>
 				<Level>2</Level>
 			</Component>
@@ -11083,10 +11067,6 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
-			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>3</Level>
-			</Component>
 			<Component>
 				<ComponentId>57</ComponentId>
 				<Level>3</Level>
@@ -11132,10 +11112,6 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>238</ComponentId>
-				<Level>4</Level>
-			</Component>
-			<Component>
 				<ComponentId>57</ComponentId>
 				<Level>4</Level>
 			</Component>
@@ -11175,6 +11151,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>219</ComponentId>
+				<Level>2</Level>
+			</Component>
 			<Component>
 				<ComponentId>11</ComponentId>
 				<Level>2</Level>
@@ -11219,6 +11199,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>219</ComponentId>
+				<Level>3</Level>
+			</Component>
 			<Component>
 				<ComponentId>11</ComponentId>
 				<Level>3</Level>
@@ -11267,6 +11251,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>2</Level>
+			</Component>
 			<Component>
 				<ComponentId>334</ComponentId>
 				<Level>2</Level>
@@ -11320,6 +11308,10 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
 				<ComponentId>334</ComponentId>
 				<Level>3</Level>
 			</Component>
@@ -11371,6 +11363,10 @@
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<Components>
+			<Component>
+				<ComponentId>238</ComponentId>
+				<Level>4</Level>
+			</Component>
 			<Component>
 				<ComponentId>334</ComponentId>
 				<Level>4</Level>
@@ -12484,7 +12480,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1262</ResearchProjectId>
-		<Name>Core-Linked Ion Cannons</Name>
+		<Name>Core-Linked Ion Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -12696,4 +12692,398 @@
 	<!-- <ResearchProjectId>1267</ResearchProjectId> -->
 	<!-- <ResearchProjectId>1268</ResearchProjectId> -->
 	<!-- <ResearchProjectId>1269</ResearchProjectId> -->
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1270</ResearchProjectId>
+		<Name>Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>4</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<Components>
+			<Component>
+				<ComponentId>574</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1271</ResearchProjectId>
+		<Name>Improved Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1270</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>574</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1272</ResearchProjectId>
+		<Name>Enhanced Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1271</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>574</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1273</ResearchProjectId>
+		<Name>Optimized Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>5</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1272</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>574</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1274</ResearchProjectId>
+		<Name>Advanced Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1273</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>575</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1275</ResearchProjectId>
+		<Name>Improved Advanced Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1274</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>575</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1276</ResearchProjectId>
+		<Name>Enhanced Advanced Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1275</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>575</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1277</ResearchProjectId>
+		<Name>Optimized Advanced Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1276</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>575</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1278</ResearchProjectId>
+		<Name>Ultimate Ion Missiles</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>90</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>2</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1277</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>2</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>576</ComponentId>
+				<Level>0</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>
