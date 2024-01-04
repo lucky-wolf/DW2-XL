@@ -207,6 +207,8 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Geniocracy starting conditions
 - Reduced cost of Ancient Guardian Vault Investigations
 - Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
+- Removed: Destroyer, Cruiser, Dreadnought, Battleship, Carrier, etc. from ship classname lists
+- Renamed components and hulls to be "Thing, Size", instead of "Size Thing"
 
 ### v1.18.13
 - Governments
