@@ -173,24 +173,65 @@ func (j *Job) applyIonWeapons() (err error) {
 		"WeaponEnergyPerShot":               func(level int) float64 { return 1.5 * WeaponRawDamage(level) },
 		"WeaponFireRate":                    func(level int) float64 { return 20 },
 		"WeaponRawDamage":                   func(level int) float64 { return 2 * WeaponRawDamage(level) },
-		"WeaponIonEngineDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonHyperDriveDamage":         func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonSensorDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonShieldDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonWeaponDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonGeneralDamage":            func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
+		"WeaponIonEngineDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonHyperDriveDamage":         func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonSensorDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonShieldDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonWeaponDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonGeneralDamage":            func(level int) float64 { return IonComponentDamage(level + 1) },
 	}
 	LargeIonBomb := ExtendValuesTable(
 		MediumIonBomb,
 		ValuesTable{
 			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * WeaponRawDamage(level) },
 			"WeaponRawDamage":           func(level int) float64 { return 4 * WeaponRawDamage(level) },
-			"WeaponIonEngineDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonSensorDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonShieldDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonWeaponDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonGeneralDamage":    func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
+			"WeaponIonEngineDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonSensorDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonShieldDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonWeaponDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonGeneralDamage":    func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+		},
+	)
+
+	IonMissile := ValuesTable{
+		"ComponentCountermeasuresBonus":     func(level int) float64 { return 0.38 + 0.02*float64(level) },
+		"ComponentTargetingBonus":           func(level int) float64 { return 0.1 },
+		"WeaponAreaEffectRange":             func(level int) float64 { return 0 },
+		"WeaponAreaBlastWaveSpeed":          func(level int) float64 { return 0 },
+		"WeaponBombardDamageInfrastructure": func(level int) float64 { return 0 }, // zero bombard value
+		"WeaponBombardDamageMilitary":       func(level int) float64 { return 0 },
+		"WeaponBombardDamagePopulation":     func(level int) float64 { return 0 },
+		"WeaponBombardDamageQuality":        func(level int) float64 { return 0 },
+		"WeaponArmorBypass":                 func(level int) float64 { return -0.1 },
+		"WeaponShieldBypass":                func(level int) float64 { return 0 },
+		"WeaponSpeed":                       func(level int) float64 { return 375 },
+		"WeaponRange":                       func(level int) float64 { return 2000 + float64(level*100) },
+		"WeaponDamageFalloffRatio":          func(level int) float64 { return 0 },
+		"WeaponEnergyPerShot":               func(level int) float64 { return 1 * WeaponRawDamage(level) },
+		"WeaponFireRate":                    func(level int) float64 { return 20 },
+		"WeaponRawDamage":                   func(level int) float64 { return 2 * WeaponRawDamage(level) },
+		"WeaponIonEngineDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonHyperDriveDamage":         func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonSensorDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonShieldDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonWeaponDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonGeneralDamage":            func(level int) float64 { return IonComponentDamage(level + 1) },
+	}
+
+	AdvIonMissile := ExtendValuesTable(
+		IonMissile,
+		ValuesTable{
+			"WeaponSpeed": func(level int) float64 { return 450 },
+			"WeaponRange": func(level int) float64 { return 2000 + float64(level*200) },
+		},
+	)
+
+	UltraIonMissile := ExtendValuesTable(
+		AdvIonMissile,
+		ValuesTable{
+			"WeaponSpeed": func(level int) float64 { return 550 },
+			"WeaponRange": func(level int) float64 { return 2000 + float64(level*400) },
 		},
 	)
 
@@ -260,6 +301,22 @@ func (j *Job) applyIonWeapons() (err error) {
 			minLevel:    7,
 			maxLevel:    10,
 			fieldValues: LargeIonBomb,
+		},
+
+		"Ion Missile [M]": {
+			minLevel:    2,
+			maxLevel:    5,
+			fieldValues: IonMissile,
+		},
+		"Advanced Ion Missile [M]": {
+			minLevel:    6,
+			maxLevel:    9,
+			fieldValues: AdvIonMissile,
+		},
+		"Ultra Ion Missile [M]": {
+			minLevel:    10,
+			maxLevel:    10,
+			fieldValues: UltraIonMissile,
 		},
 	}
 
