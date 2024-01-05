@@ -191,7 +191,7 @@ YMMV, but this is my take on making it Extra Large!
 - Missiles
   - Large missiles and small missiles now extend to end game as separate tech lineages
   - Large missiles have their own repeatables
-  - Large missiles are the only missiles have any bombardment whatsoever
+  - Large missiles are the only missiles to have any bombardment whatsoever
   - Titan Missiles are a new endgame component and technology
   - Added a Bulwark Missile [Ftr] for Human special tech
 - Quameno
@@ -743,7 +743,7 @@ YMMV, but this is my take on making it Extra Large!
 - Improved the Ancient Ackdarian Spaceport event to give Ackdarian specific tech boosts
 
 ### v1.14.5
-- Removed Explosive Area Weapons from Ikkuro racial tech
+- Removed Area Weapons from Ikkuro racial tech
 - Ikkuro can now choose Republic (much more thematic and less problematic than Tribal Bloodlines)
 - Boskara now have a serious racial leader quality bonus
 - Nerfed Mercantile Guild a little
