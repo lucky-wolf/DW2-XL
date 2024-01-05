@@ -10,7 +10,7 @@ func FighterReactors(folder string) (err error) {
 	log.Println("All strikecraft reactors will be scaled to ship components")
 
 	// load all component definition files
-	j, err := LoadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*.xml")
 	if err != nil {
 		return
 	}
