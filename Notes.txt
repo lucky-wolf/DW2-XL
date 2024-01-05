@@ -185,9 +185,9 @@ Weapons		     1..99
 	pulsed  	30..36 (7)
 	kinetic   	40..44 (5)
 	bombs		50..52 (3)
-	missile 	60..66 (7)
-	torps		70..77 (8)
-	area 		80..83 (4)
+	torps		60..67 (8)
+	area 		70..73 (4)
+	missile 	80..86 (7)
 	ion   		90..96 (7)
 	misc		98..99 (2)
 
@@ -773,82 +773,3 @@ cool regex:
 		((0\.|[1-9]\.?)\d*)
 	// any non-zero decimal or floating or scientific notation number:
 		((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)
-Escort
-Frigate
-Destroyer
-Cruiser
-CapitalShip
-TroopTransport
-ExplorationShip
-
-Carrier
-
-ColonyShip
-FuelTanker
-PassengerShip
-
-ConstructionShip
-
-DefensiveBase
-MonitoringStation
-SpaceportLarge
-SpaceportMedium
-SpaceportSmall
-
-MiningStation
-ResearchStation
-ResortBase
-
-FreighterLarge
-FreighterMedium
-FreighterSmall
-MiningShip
-
-FighterBomber
-FighterInterceptor
-
-
-Insert comment node as first child under ComponentDefintion, same indent as its first child now...
-
-Strength starts at 256 and climbs at 1.25x per level
-Static is 1% of strength
-
-Recharge starts at t2 0.9 and climbs 0.9 per level above
-R-Energy is 1/.3 (so 3 at .9)
-
-Base Shield Schedule (6 levels of each, where low 4 and high 4 are represented):
-strength:  256, 320, 400, 500, 625, 781.25, 976.5625, 1220.7031
-static:   2.56, 3.2, 4,   5, 6.25,  7.8125, 9.7656,   12.207
-
-recharge: .3, .6,  .9, 1.8, 2.7,  3.6,  4.5,    5.4
-r-energy:  1,  2,   3,   6,   9,   12,   15,     18,
-
-Tortoise follows it's own scale starting at 680 strength scaling by 1.25 per tier, 2 recharge rate at a cost of 2.5x, and a static cost of 1% rounded down to integer minus 1
-
-Merridian:
-strength:  1525.8789, 1907.3486, 2384.1857, 2980.2321, 3725.29
-static:      15.2587,   19.0735,   23.8418,   29.8023,   37.2529
-
-recharge:   6.3, 7.2, 8.1, 9.0, 9.9
-r-energy:    21,  24,  27,  30,  33
-
-Citadel are effectively T9 (2980 / 29.8 / 9.0 / 30)
-
-[Ftr] shields are
-strength: 1/5
-static:   1/5
-
-recharge: 1/5
-r-energy: 1/5
-
-ion: 	    same
-resistance: same
-
-penn-chance: same
-penn-pct:    same
-
-
-			<Component>
-				<ComponentId>219</ComponentId>
-				<Level>0</Level>
-			</Component>
