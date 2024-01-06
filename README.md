@@ -214,6 +214,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed issues with planetary fighter bases so that they upgrade in correct order for all types
 - Renamed components and hulls to cluster together in the designer better
 - Fixed various races preferred biome descriptions
+- Added stride bundle for Ion Missile images
 
 ### v1.18.13
 - Governments
