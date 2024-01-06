@@ -1119,7 +1119,7 @@
 		<Category>Planet</Category>
 		<Name>Continental</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Continental</ImageFilename>
+		<ImageFilename>XL/OrbTypes/Continental</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Continental</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Continental</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Forest_Continental</LandscapeImageFilename>
@@ -1313,7 +1313,7 @@
 		<Category>Planet</Category>
 		<Name>Marshy Swamp</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/MarshySwamp</ImageFilename>
+		<ImageFilename>XL/OrbTypes/MarshySwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MarshySwamp</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MarshySwamp</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/MarshySwamp</LandscapeImageFilename>
@@ -1504,8 +1504,8 @@
 		<Category>Planet</Category>
 		<Name>Warm Ocean</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Ocean</ImageFilename>
-		<LargeImageFilename>Environment/OrbTypes/Large/Ocean</LargeImageFilename>
+		<ImageFilename>XL/OrbTypes/WarmOcean</ImageFilename>
+		<LargeImageFilename>XL/OrbTypes/Large/WarmOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Ocean</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Ocean</LandscapeImageFilename>
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Ocean</VagueLandscapeImageFilename>
@@ -1957,7 +1957,7 @@
 				<Maximum>0.15</Maximum>
 				<AppearanceChance>0.017</AppearanceChance>
 				<Descriptions>
-					<string>Magnetic Ice Cystals</string>
+					<string>Magnetic Ice Crystals</string>
 					<string>Neutrino-Free Deep Ice Cavern</string>
 				</Descriptions>
 			</BonusRange>
@@ -2837,7 +2837,7 @@
 		<Category>Planet</Category>
 		<Name>Continental Forests</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Forest</ImageFilename>
+		<ImageFilename>XL/OrbTypes/ContinentalForest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Forest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Forest</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Forest_Continental</LandscapeImageFilename>
@@ -3028,7 +3028,7 @@
 		<Category>Planet</Category>
 		<Name>Grasslands</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Grasslands</ImageFilename>
+		<ImageFilename>XL/OrbTypes/Grassland</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Grasslands</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Grasslands</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Grasslands</LandscapeImageFilename>
@@ -3387,8 +3387,8 @@
 		<Category>Planet</Category>
 		<Name>Savanna</Name>
 		<Description></Description>
-		<ImageFilename>XL/OrbTypes/Savanna</ImageFilename>
-		<LargeImageFilename>Environment/OrbTypes/Savanna</LargeImageFilename>
+		<ImageFilename>XL/OrbTypes/DesertSavanna</ImageFilename>
+		<LargeImageFilename>XL/OrbTypes/DesertSavanna</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SavannaDesert</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/DesertSavanna</LandscapeImageFilename>
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/DesertSavanna</VagueLandscapeImageFilename>
@@ -3877,7 +3877,7 @@
 		<Category>Planet</Category>
 		<Name>Cold Ocean</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/DeepOcean</ImageFilename>
+		<ImageFilename>XL/OrbTypes/ColdOcean</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/DeepOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/DeepOcean</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Ocean</LandscapeImageFilename>
@@ -4226,7 +4226,7 @@
 		<Category>Planet</Category>
 		<Name>Rocky Metallic</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/RockyMetallic</ImageFilename>
+		<ImageFilename>XL/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MetallicRock</FullsizeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
@@ -4501,7 +4501,7 @@
 		<Category>Planet</Category>
 		<Name>Mangrove Swamp</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/MangroveForest</ImageFilename>
+		<ImageFilename>XL/OrbTypes/MangroveSwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MangroveForest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MangroveForest</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/MarshySwamp</LandscapeImageFilename>
@@ -4887,7 +4887,7 @@
 		<Category>Planet</Category>
 		<Name>Carbonaceous Hothouse</Name>
 		<Description></Description>
-		<ImageFilename>Environment/OrbTypes/Carbonaceous</ImageFilename>
+		<ImageFilename>XL/OrbTypes/CarbonaceousHothouse</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Carbonaceous</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Carbon</LandscapeImageFilename>
@@ -5230,7 +5230,7 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 		<RuinLocationDescriptions>
-			<string>sit on a stone ledge overlooking a firey lake of sulphur</string>
+			<string>sit on a stone ledge overlooking a fiery lake of sulphur</string>
 			<string>lie in the midst of a vast rocky plain blanketed with thousands of geothermal steam vents</string>
 			<string>are in a rocky valley littered with shards of hardened molten glass</string>
 			<string>are situated on a vast plain deeply covered in bright yellow sulphur</string>

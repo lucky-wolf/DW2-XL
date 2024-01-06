@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.15](#v11815)
     - [v1.18.14](#v11814)
     - [v1.18.13](#v11813)
     - [v1.18.12](#v11812)
@@ -186,6 +187,29 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.15
+- Ion
+  - Reduced medium and large Ion weapons ion damage factors so they aren't OP
+- Added resource description text to the mod which has better descriptions than vanilla
+- Planetary Images Improved
+  - Savanna
+  - Warm Ocean
+  - Carbonaceous Hothouse
+  - Cold Ocean
+  - Grassland
+  - Mangrove Swamp
+  - Marshy Swamp
+  - Continental
+  - Continental Forest
+  - Rocky Metallic
+- Scanners & Sensors sizes updated
+  - 8 = Targeting, Countermeasures
+  - 12 = Trace Scanners, Trace Jammers
+  - 16 = Short Range Sensors
+  - 24 = Long Range Sensors
+- Trace Scanners have improved targeting and damage bonus
+- Trace Jammers have improved countermeasures and damage reduction
 
 ### v1.18.14
 - Missiles
