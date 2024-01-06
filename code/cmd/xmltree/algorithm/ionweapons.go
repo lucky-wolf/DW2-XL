@@ -280,8 +280,8 @@ func (j *Job) applyIonWeapons() (err error) {
 		},
 
 		"Electromagnetic Lance [L]": {
-			minLevel:    3,
-			maxLevel:    6,
+			minLevel:    4,
+			maxLevel:    7,
 			fieldValues: EMLance,
 		},
 		"Electromagnetic Wave Lance [L]": {
@@ -291,13 +291,13 @@ func (j *Job) applyIonWeapons() (err error) {
 		},
 
 		"Ion Bomb [M]": {
-			minLevel:    2,
-			maxLevel:    5,
+			minLevel:    3,
+			maxLevel:    6,
 			fieldValues: MediumIonBomb,
 		},
 		"Ion Bomb [L]": {
-			minLevel:    2,
-			maxLevel:    5,
+			minLevel:    3,
+			maxLevel:    6,
 			fieldValues: LargeIonBomb,
 		},
 

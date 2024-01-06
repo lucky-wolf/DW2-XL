@@ -314,32 +314,32 @@
 		<ResearchProjectId>11</ResearchProjectId>
 		<Name>Ion Blasts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>1500</Money>
+			<Money>4500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>300</Amount>
+					<Amount>600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>300</Amount>
+					<Amount>600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>3</Column>
 		<Row>78</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1</ResearchProjectId>
+				<ResearchProjectId>12</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>2</ResearchProjectId>
+				<ResearchProjectId>10</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -707,7 +707,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<DisallowedRaceIds>
 			<!-- Ikkuro have better tech -->
 			<RaceProbability>
@@ -2320,23 +2320,23 @@
 		<ResearchProjectId>56</ResearchProjectId>
 		<Name>Improved Ion Blasts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>600</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>600</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
+		<Column>4</Column>
 		<Row>78</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -3910,33 +3910,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>89</ResearchProjectId>
-		<Name>Enhanced EM Lance</Name>
+		<Name>Enhanced EM Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>600</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>600</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -5085,23 +5085,23 @@
 		<ResearchProjectId>112</ResearchProjectId>
 		<Name>Enhanced Ion Blasts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>13500</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
+		<Column>5</Column>
 		<Row>78</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -6941,33 +6941,33 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>149</ResearchProjectId>
-		<Name>Advanced EM Lance</Name>
+		<Name>Advanced EM Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>6</Column>
 		<Row>95</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -7921,23 +7921,23 @@
 		<ResearchProjectId>168</ResearchProjectId>
 		<Name>Advanced Ion Blasts</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>6</Column>
 		<Row>78</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -11388,29 +11388,29 @@
 		<ResearchProjectId>242</ResearchProjectId>
 		<Name>Death Ray</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11429,25 +11429,25 @@
 		<ResearchProjectId>243</ResearchProjectId>
 		<Name>Solar Blaster</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11466,37 +11466,37 @@
 		<ResearchProjectId>244</ResearchProjectId>
 		<Name>Super Ion Blast</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11515,37 +11515,37 @@
 		<ResearchProjectId>245</ResearchProjectId>
 		<Name>Super Area Blast</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11564,37 +11564,37 @@
 		<ResearchProjectId>246</ResearchProjectId>
 		<Name>Super Singularity</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11613,29 +11613,29 @@
 		<ResearchProjectId>247</ResearchProjectId>
 		<Name>Super Torpedo</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11654,25 +11654,25 @@
 		<ResearchProjectId>248</ResearchProjectId>
 		<Name>Super Missiles</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -11691,25 +11691,25 @@
 		<ResearchProjectId>249</ResearchProjectId>
 		<Name>Super Exterminator</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -14599,19 +14599,11 @@
 		<Row>78</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<!-- Rapid Ion Cannons -->
-				<ResearchProjectId>151</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<!-- Overwhelming Ion Blasts -->
 				<ResearchProjectId>168</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>552</ComponentId>
@@ -18751,7 +18743,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<DisallowedRaceIds>
 			<!-- Ikkuro have better tech -->
 			<RaceProbability>
@@ -19486,7 +19478,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>352</Row>
+		<Row>350</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>20</ResearchProjectId>
@@ -23277,7 +23269,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<DisallowedRaceIds>
 			<!-- Ikkuro have better tech -->
 			<RaceProbability>
@@ -25000,7 +24992,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<DisallowedRaceIds>
 			<!-- Ikkuro have better tech -->
 			<RaceProbability>
@@ -26415,7 +26407,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<DisallowedRaceIds>
 			<!-- Ikkuro have better tech -->
 			<RaceProbability>
@@ -26581,29 +26573,29 @@
 		<ResearchProjectId>601</ResearchProjectId>
 		<Name>Super Reactor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26626,33 +26618,33 @@
 		<ResearchProjectId>602</ResearchProjectId>
 		<Name>Super Shields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26675,33 +26667,33 @@
 		<ResearchProjectId>603</ResearchProjectId>
 		<Name>Super Drive</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>2</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26720,29 +26712,29 @@
 		<ResearchProjectId>604</ResearchProjectId>
 		<Name>Super Engine</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26765,25 +26757,25 @@
 		<ResearchProjectId>605</ResearchProjectId>
 		<Name>Super Maneuvering</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26802,21 +26794,21 @@
 		<ResearchProjectId>606</ResearchProjectId>
 		<Name>Super Armor</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26839,9 +26831,9 @@
 		<ResearchProjectId>607</ResearchProjectId>
 		<Name>Super Ship</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -26852,17 +26844,17 @@
 		<ResearchProjectId>608</ResearchProjectId>
 		<Name>Super Combat Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26881,25 +26873,25 @@
 		<ResearchProjectId>609</ResearchProjectId>
 		<Name>Super Stealth</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26918,21 +26910,21 @@
 		<ResearchProjectId>610</ResearchProjectId>
 		<Name>Super Sensors</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -26951,14 +26943,14 @@
 		<ResearchProjectId>611</ResearchProjectId>
 		<Name>Super Habitability</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>612</ResearchProjectId>
@@ -28658,7 +28650,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>351</Row>
+		<Row>353</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>420</ResearchProjectId>
@@ -33272,7 +33264,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>352</Row>
+		<Row>350</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>437</ResearchProjectId>
@@ -33783,25 +33775,25 @@
 		<ResearchProjectId>787</ResearchProjectId>
 		<Name>Planet Destroyer</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>6825</Amount>
+					<Amount>3600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -33820,29 +33812,29 @@
 		<ResearchProjectId>788</ResearchProjectId>
 		<Name>Super Beams</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>151875</Size>
+		<Size>75937</Size>
 		<InitiationCost>
-			<Money>759375</Money>
+			<Money>379685</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>27300</Amount>
+					<Amount>14400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>13650</Amount>
+					<Amount>7200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>

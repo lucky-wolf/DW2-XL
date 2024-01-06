@@ -208,7 +208,9 @@ YMMV, but this is my take on making it Extra Large!
 - Ancient Knowledge
   - Reduced cost of Ancient Guardian Vault Investigations
   - Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
-- Super weapons [X] are now standard sizes as whatever category they belong to
+- Super weapons [X]
+  - Super weapons sizes are standard for their category
+  - Super weapons tech cost is tier 7.5 (was tier 8.5)
 - Increased costs of most advanced planetary facilities
 - Improved some ship class names
 - Fixed issues with planetary fighter bases so that they upgrade in correct order for all types
@@ -1658,7 +1660,7 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 | 900-1100 | Long Range & High Power Tractor Beams                      |
 |     2000 | Quantum Singularity & Black Hole Projector                 |
 |     2200 | Blasters & Phasers                                         |
-|     5000 | DF Beams (Thuon, Graviton, Phaser, EM Lance, Shatterforce) |
+|     5000 | DF Beams (Thuon, Graviton, Phaser, EM Beams, Shatterforce) |
 
 
 Fighters
