@@ -94,22 +94,26 @@ func FindMatchingFiles(root, pattern string) (matches []string, err error) {
 	return
 }
 
-func LoadJobFor(root, pattern string) (j Job, err error) {
+func LoadJobFor(root string, patterns ...string) (j Job, err error) {
 
-	// get the list of files applicable
-	filenames, err := FindMatchingFiles(root, pattern)
-	if err != nil {
-		return
-	}
+	for _, pattern := range patterns {
 
-	// load each and every one so we have access to all of them
-	for i := range filenames {
-		var root *xmltree.XMLTree
-		root, err = xmltree.LoadFromFile(filenames[i])
+		// get the list of files applicable
+		var filenames []string
+		filenames, err = FindMatchingFiles(root, pattern)
 		if err != nil {
 			return
 		}
-		j.xfiles = append(j.xfiles, &XFile{filename: filenames[i], root: root})
+
+		// load each and every one so we have access to all of them
+		for i := range filenames {
+			var root *xmltree.XMLTree
+			root, err = xmltree.LoadFromFile(filenames[i])
+			if err != nil {
+				return
+			}
+			j.xfiles = append(j.xfiles, &XFile{filename: filenames[i], root: root})
+		}
 	}
 
 	return

@@ -10,7 +10,7 @@ func HyperDrives(folder string) (err error) {
 	log.Println("Updates core hyperdrives to have 7 levels off of a common data table")
 
 	// load all component definition files
-	j, err := LoadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*.xml")
 	if err != nil {
 		return
 	}

@@ -17,6 +17,8 @@ LET'S fix:
 - Nova missiles
 	- genuinely high dmg / aoe
 
+add damage reduction to jammers
+
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
 
@@ -35,25 +37,6 @@ Specialzed Hulls
 	- Command / Sensors / Strategic?
 		- FF, DD, Cruiser, Fleet Cruiser
 
-- Ground Combat
-  - Improved Ground Combat
-    - Defense Centers
-      - Bastions (requires: Advanced Tactics?)
-    - Robotic Foundaries
-      - Advanced Troop Integration (bonus to inf off & def)
-    - Mech Foundaries
-      - Ground Troop Support Tactics
-    - Centralized Officer Training
-      - Improved Logistics
-        - Advanced Logistics
-          - Superior Logistics
-    - Improved Defense Tactics (tactics gives bonus to all types)
-      - Advanced Defense Tactics
-        - Superior Defense Tactics
-    - Improved Assault Tactics (tactics gives bonus to all types)
-      - Advanced Assault Tactics
-        - Superior Assault Tactics
-      -
 
 - Fighters & bombers
 	- level 0:
@@ -65,7 +48,10 @@ Specialzed Hulls
 
 - Bomber variants of
 	- Blasters
+	- Beams
+	- Ion Cannons
 	- Rail Guns
+	- Gravitic
 
 Hangar Hooks?  Microbay? Tertiary Bay?
 	size 10, holds 1/1 ftr/bomber (or even 2/0 with a 0/2 variant?)
@@ -79,13 +65,10 @@ Cool Ideas:
 	- beam weapon with +% vs. armor
 - Disruptors
 	- pulse weapons with +% vs. shields & ion value?
-- Ion Missiles
-	- have this be the Teekan racial special which is infinitely more compatible with their fightercraft
 
 PLANETARY Facilities
 - Increase targeting for v2, v3
 - Increase visual effects for v2, v3
-- Give all defense facilities a v2 and v3
 - Increase shields?
 
 NULL OUT A RESEARCH PROJECT:
@@ -185,11 +168,13 @@ Weapons		     1..99
 	pulsed  	30..36 (7)
 	kinetic   	40..44 (5)
 	bombs		50..52 (3)
-	missile 	60..66 (7)
-	torps		70..77 (8)
-	area 		80..83 (4)
+	torps		60..67 (8)
+	area 		70..73 (4)
+	missile 	80..86 (7)
 	ion   		90..96 (7)
 	misc		98..99 (2)
+
+nova row 88
 
 Armor       100..
 	Standard 100..102
@@ -256,7 +241,7 @@ Pulse Weapons		768
 Beam Weapons		0
 Ion Weapons			1
 Area Weapons		2
-Energy Torpedo Weapons		3
+Torpedo Weapons		3
 Missile Weapons		4
 Kinetic Weapons		5
 Ground Combat		6
@@ -388,210 +373,7 @@ Dark Star	 7			130
 
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 
-
-add damage reduction to jammers
-
-
-move starting and counter measures to start at level 2?
-	simplify these -- +5, +10, +15...
-	Make these general components instead of sensors?
-
-Government Types
-	Caste based Imperium
-		Ideally for a game where you could actually assign races to different castes (workers, military, scientists, etc.)
-			This would build-up resentment?  Definitely have some negative morale for some races (based on caste)
-			Maybe have ranking of castes!!!  Top ranks happy, bottom ranks angry/resentment
-
-Fun Ideas
-	Ideally make planets have jealousy
-		Facilities would generate it.  You put them all on a single world, all other worlds have mega jealousy!
-
-name 					id     	EngineVectoringThrust
-Directional Thruster 	140		90
-Thrust Vector			218		100,120
-Single Vector			288		115,132,152
-Multi Vector			289		125,156,195
-Swift Vector			290		150,225,394
-Omni-Vector				291		244,305,381
-Inertialess Vector		292		500
-
-Ion Engine						70,90
-TurboThruster Engine	156		115,145,185,290
-Compact Ion Engine			157		100,120,150
-Pulsed Ion Engine			147		125,156,195
-Acceleros Engine		158		70,100,120
-Vortex Engine			279		225,300,375
-
-StarBurner Engine		159
-Vector Engine			172
-
-Armor Plating			266 -> 1120
-
-Heavy Armor 			687 -> 1130 -> 356 -> 1131 -> 308 -> 1132 -> 551 -> 1133 -> 589
-High Density Armor 		356
-Resistant Nano-Alloys 	308
-Indestructible Compounds 551
-Impervious Compounds	589
-
-Ionic Armor				1019 -> 1140 -> 1020 -> 1141 -> 1021 -> 1142 -> 1022 -> 1143 -> 1050
-Enhanced Ionic Armor	1020
-Hardened Ionic Armor	1021
-Indestructible Ionic Armor 1022
-Impervious Ionic Armor	1050
-
-Reactive Armor			1091 -> 1150 -> 1092 -> 1151 -> 1093 -> 1152 -> 1094 -> 1153 -> 1095
-
-Flux Hardened Armor		357 -> 1160 -> 493 -> 1161 -> 552 -> 1162 -> 1114 -> 1163 -> 1089
-
-Interstellar Exploration 387
-
-Ionic Armor 808  				-- Ion Sheath Armor
-Enhanced Ionic Armor 809  		-- Enhanced Ion Sheath Armor
-Hardened Ionic Armor 810  		-- Ion Hardened Armor
-Indestructible Ionic Armor 811  -- Ultra-Dense Ion Hardened Armor
-Impervious Ionic Armor 839  	-- Absorbing Ion Armor
-
-Shipboard Marines 81
-Shipboard Marines II 806
-Shipboard Marines III 807
-Shipboard Marines IV 815
-
-Caslon Fusion Ignition 		258
-
-Starship Targeting    384
-Improved Targeting 398
-Enhanced Targeting 416
-Advanced Targeting 454
-Superior Targeting 520
-Optimal Targeting  592
-
-Multi-Tracking 			894
-Advanced Multi-Tracking 426
-Superior Multi-Tracking	84
-Optimal Multi-Tracking	557
-
-Multi-Tracking Sensors 				895
-Advanced Multi-Tracking Sensors 	889
-
-Long Range Sensors		433
-Advanced Long Range Sensors 457
-Deep Space Arrays
-
-Starship Sensors		386
-Standard Sensors		403
-Improved Sensors		419
-Enhanced Sensors		849
-Advanced Sensors		850
-
-Crystal Sensors				404
-Advanced Crystal Sensors	803
-
-Countermeasures				385
-Improved Countermeasures	399
-Enhanced Countermeasures	417
-Advanced Countermeasures	455
-Superior Countermeasures	521
-Optimal Countermeasures		593
-Void Countermeasures		1113
-
-Fleet Targeting					427
-Fleet Countermeasures			428
-Advanced Fleet Targeting 		 88
-Advanced Fleet Countermeasures 	669
-Superior Fleet Targeting 		558
-Superior Fleet Countermeasures	559
-Omni Fleet Targeting 			1111
-Void Fleet Countermeasures 		1112
-
-Expanded Civilian Ships	670
-
-Stellar Transport Systems	388
-
-Enhanced Crew Accommodations 448
-Advanced Crew Accommodations 475
-Luxury Crew Environment 573
-
-High Density Alloys		356
-Resistant Nano-Alloys	308
-Indestructible Compounds 551
-Impervious Compounds	589
-
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-
-Extreme Plasma Charge		829
-Extreme Heavy Plasma Charge	835
-
-Enhanced Terraforming	20
-Improved Terraforming	524
-
-Perfect Pulse Containment 769
-Phaser Optimization 	109
-
-Extreme Phased energy	202
-Advanced Phaser Capacitors 147
-
-Advanced Torpedoes	60
-
-Massive Pulse Beams	107
-Pulse Beam Networks ???
-
-rail gun weaponry	19
-
-extreme energetic discharge 823
-extreme compact energy 828
-
-Advanced Missiles 64
-
-Medial Systems 412
-Recreation Systems 413
-
-
-Advanced Deflectors			260
-
---------------------------
-	    Shields
----------------------------
-In principle, we're using a recharge rate of:
-.002	Deucalios
-.004	Corvidian
-.006	Talassos / Z4
-.007	Meridian
-
-type 			v1		v2		v3		v4
------------------------------------------
-Talassos		200		300		450		600
-Corvidian		250		350		500		650
-Deucalios / Z4	300		400		550		700
-Meridian		900    1200    1500
------------------------------------------
-
-Megatron Z4 Shields			271		tech: 274, 272
-Talassos Energy Shields 	336		tech: 275, 166
-Corvidian Energy Shields	273		tech: 211, 154
-Deucalios Energy Shields	338		tech: 276, 167
-
-final techs: 579, 831, 874, 832
-
-done: 275 (Talassos ftr 0), 166 (Talassos 0)
-
-basic crew 392
-Crew Accommodations 411
-enhanced 448
-advanced 475
-
-marines 81, 806, 807, 815
-
-Enhanced construction 288
-
-Starship Colonization		407 -> 374
-Improved Colonization	799 -> 375
-Enhanced Colonization	800 -> 376
-Advanced Colonization	819 -> 377
-
-Shields:
-High Energy Capacitors	364
-Enhanced Shields		337
-High Storage Capacitors	366
+---------------------------------------------------------------------------------------------------
 
 Vanilla Hull Sizes
 type        standard	specialized
@@ -625,6 +407,8 @@ Cruiser -> Heavy Cruiser
 Long Range Cruiser -> Shield Cruiser
 Light Cruiser -> Cruiser
 
+---------------------------------------------------------------------------------------------------
+
 Vanilla Armor Blast Ratings
 Standard	 72
 Heavy		104		Ion	Sheath			 83
@@ -634,70 +418,7 @@ Ultra-Dense	180		Ultra-Dense Ion		135
 Absorbing	225		Absorbing Ion		169
 Stellar		320
 
-<ImageFilename>Environment/Components/262-Flux Sheath Armor</ImageFilename>
-<ImageFilename>Environment/Components/188-Absorbing Armor</ImageFilename>
-
-	<ImageFilename>Environment/Components/350-Heavy Armor</ImageFilename>
-
-		<ImageFilename>Environment/Components/150-Standard Armor</ImageFilename>
-		<ImageFilename>Environment/Components/182-Reactive Armor</ImageFilename>
-
-		<ImageFilename>Environment/Components/173-Enhanced Armor</ImageFilename>
-		<ImageFilename>Environment/Components/186-Ultra Dense Armor</ImageFilename>
-
-		<ImageFilename>Environment/Components/205-Ion Sheath Armor</ImageFilename>
-		<ImageFilename>Environment/Components/206-Ion Hardened Armor</ImageFilename>
-
-		<ImageFilename>Environment/Components/261-Flux Hardened Armor</ImageFilename>
-	    <ImageFilename>Environment/Components/263-Flux Barrier Armor</ImageFilename>
-
-		<ImageFilename>Environment/Components/195-Stellar Armor</ImageFilename>
-
-Military Escorts		679 (Military Starships)
-Stellar Frigates		680 (System Patrol Starships)
-Interstellar Destroyers	681
-Galactic Cruisers		682
-Battleships				311
-
-Specialized Escorts		268
-Specialized Frigates	287
-Specialized Destroyers	359
-Specialized Cruisers	312
-
-Military Transports			683
-Expanded Troop Transports	684
-Large Troop Transports		685
-
-Clear all intercept values:
-	(<WeaponIntercept[a-zA-Z]+>)[0-9.][^<]*
-	$10
-
-Superior Gravitic Resonance		174
-Superior Gravitic Modulation	529
-
-
-Biome Shaping IDs:
-	791
-	792
-	793
-	794
-	795
-
-rows:
-	292	ocean
-	294	continental
-	296	swamp
-	298 biome
-	300 terraforming
-	301 plains
-	303 desert
-	306 ice
-	309 volcanic
-
-democracy
-388	basic transport systems
-394 Starship Recreation Systems
-670 civilian transports
+---------------------------------------------------------------------------------------------------
 
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -715,47 +436,7 @@ dw2bt help convert
 
 dw2bt extract "C:\Steam\steamapps\common\Distant Worlds 2\data\db\bundles\Human.bundle" "UserInterface/Races/Human"
 
-dw2bt convert "UserInterface\Races\Human" "UserInterface\Races\human.dds"
-
-<CrewRequirement>,
-<WeaponBombardDamage*
-<WeaponEnergyPerShot>
-<WeaponIonEngineDamage>,
-<WeaponRawDamage>
-
-Wave Bomb 2, 420
-Intimidator Surge Blast 13, 421
-Derasian Shock Wave 33, 422
-Ion Bomb 12, 423
-Ion Pulse 32, 424
-Graviton Pulse 47, 425
-Nova Pulse Wave 62, 426
-Transient Singularity 66, 427
-
----------------------------------------------------------
-improved warp fields <ResearchProjectId>261</ResearchProjectId>
-
--standard values-
-Sojourn:	Long, Avg...
-Snap:	Quick, Avg...
-Calista: Long, Cheap, Slow, Avg...
-Hyperstream: Fast, Avg...
-
-ion:				     2    4    6    8
-insulation: 		    10   20   30   40
-energy: 	  50   60   80  120  160  200
-					    60   90  120  150
-initiation:   35   30   25   20   15   10
-					    12.5 10    7.5  5	2x
-range:		  80  120  160  200  260  340	+40/40/40/60/80
-					   200  280  380  500	+40/40/80/100/120
-recharge: 	  35   30   25   20   15   10
-					    12.5 10    7.5  5	2x
-speed: 		 100  200  300  600 1200 2400	x2
-					   400  800 1600 3200	x2 +33% base
-					   250  500 1000 2000
-accuracy: 	4000 3000 2000 1000  500  250
-					  1000  750  500  250
+dw2bt convert "UserInterface\Races\Human" "UserInterface\Races\human.png"
 
 ----------------------------------------------------------------------------------------
 Rail gun overhaul:
@@ -773,76 +454,3 @@ cool regex:
 		((0\.|[1-9]\.?)\d*)
 	// any non-zero decimal or floating or scientific notation number:
 		((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)
-Escort
-Frigate
-Destroyer
-Cruiser
-CapitalShip
-TroopTransport
-ExplorationShip
-
-Carrier
-
-ColonyShip
-FuelTanker
-PassengerShip
-
-ConstructionShip
-
-DefensiveBase
-MonitoringStation
-SpaceportLarge
-SpaceportMedium
-SpaceportSmall
-
-MiningStation
-ResearchStation
-ResortBase
-
-FreighterLarge
-FreighterMedium
-FreighterSmall
-MiningShip
-
-FighterBomber
-FighterInterceptor
-
-
-Insert comment node as first child under ComponentDefintion, same indent as its first child now...
-
-Strength starts at 256 and climbs at 1.25x per level
-Static is 1% of strength
-
-Recharge starts at t2 0.9 and climbs 0.9 per level above
-R-Energy is 1/.3 (so 3 at .9)
-
-Base Shield Schedule (6 levels of each, where low 4 and high 4 are represented):
-strength:  256, 320, 400, 500, 625, 781.25, 976.5625, 1220.7031
-static:   2.56, 3.2, 4,   5, 6.25,  7.8125, 9.7656,   12.207
-
-recharge: .3, .6,  .9, 1.8, 2.7,  3.6,  4.5,    5.4
-r-energy:  1,  2,   3,   6,   9,   12,   15,     18,
-
-Tortoise follows it's own scale starting at 680 strength scaling by 1.25 per tier, 2 recharge rate at a cost of 2.5x, and a static cost of 1% rounded down to integer minus 1
-
-Merridian:
-strength:  1525.8789, 1907.3486, 2384.1857, 2980.2321, 3725.29
-static:      15.2587,   19.0735,   23.8418,   29.8023,   37.2529
-
-recharge:   6.3, 7.2, 8.1, 9.0, 9.9
-r-energy:    21,  24,  27,  30,  33
-
-Citadel are effectively T9 (2980 / 29.8 / 9.0 / 30)
-
-[Ftr] shields are
-strength: 1/5
-static:   1/5
-
-recharge: 1/5
-r-energy: 1/5
-
-ion: 	    same
-resistance: same
-
-penn-chance: same
-penn-pct:    same

@@ -83,8 +83,9 @@
 				<Description>Due to our chosen government, we have gained insight into:
 
 [ULI][RESEARCH]Research Labs[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Sensors[/RESEARCH][/ULI]
-[ULI][RESEARCH]Coordinated Control[/RESEARCH][/ULI]
+[ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
+[ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
+[ULI]Progress towards [RESEARCH]Tests of Merit[/RESEARCH][/ULI]
 
 A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Description>
 				<ImageFilepath />
@@ -141,12 +142,12 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Starship Targeting -->
-				<Id1>384</Id1>
+				<!-- Exploration Scanners -->
+				<Id1>405</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -168,12 +169,12 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Standard Sensors -->
-				<Id1>403</Id1>
+				<!-- Planetary Exploration -->
+				<Id1>406</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -190,7 +191,7 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -199,9 +200,9 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Command -->
-				<Id1>415</Id1>
-				<Value1>0</Value1>
+				<!-- Tests of Merit -->
+				<Id1>821</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

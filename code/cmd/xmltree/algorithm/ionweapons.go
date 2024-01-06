@@ -9,7 +9,7 @@ func IonWeapons(folder string) (err error) {
 	log.Println("Updates ion weapons off of a common core data table")
 
 	// load all component definition files
-	j, err := LoadJobFor(folder, "ComponentDefinitions*")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*.xml")
 	if err != nil {
 		return
 	}
@@ -39,8 +39,8 @@ func (j *Job) applyIonWeapons() (err error) {
 
 	// standard damage is based on pulsed blasters-ish, but at about 2/3 the ROF, so 2/3 the DPS
 	WeaponRawDamage := func(level int) float64 {
-		// this gives us 20 at (t0) and a gain of 15% per level beyond that
-		return 20 * (1 + 0.15*float64(level-1))
+		// this gives us 20 at (t0) and a gain of 20% per level beyond that
+		return 20 * (1 + 0.2*float64(level-1))
 	}
 
 	// this seems more or less pointless -- what's going to counter a blaster or a beam or a blast?
@@ -155,6 +155,11 @@ func (j *Job) applyIonWeapons() (err error) {
 		},
 	)
 
+	// t0 ... t10
+	// 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550
+	// todo: drive this off of WeaponFireType or Family
+	IonSeekingSpeed := func(level int) float64 { return 300 + 25*float64(level) }
+
 	// Lance is slower with bigger per shot values, some targeting bonus, good range
 	MediumIonBomb := ValuesTable{
 		"ComponentCountermeasuresBonus":     func(level int) float64 { return 0.38 + 0.02*float64(level) },
@@ -165,32 +170,77 @@ func (j *Job) applyIonWeapons() (err error) {
 		"WeaponBombardDamageMilitary":       func(level int) float64 { return 0 },
 		"WeaponBombardDamagePopulation":     func(level int) float64 { return 0 },
 		"WeaponBombardDamageQuality":        func(level int) float64 { return 0 },
-		"WeaponArmorBypass":                 func(level int) float64 { return 0.25 },                    // std +25
-		"WeaponShieldBypass":                func(level int) float64 { return -0.25 },                   // std -25
-		"WeaponSpeed":                       func(level int) float64 { return 325 + float64(25*level) }, // todo: drive this off of WeaponFireType or Family
-		"WeaponRange":                       func(level int) float64 { return float64(735 * level) },
+		"WeaponArmorBypass":                 func(level int) float64 { return 0.25 },  // std +25
+		"WeaponShieldBypass":                func(level int) float64 { return -0.25 }, // std -25
+		"WeaponSpeed":                       IonSeekingSpeed,
+		"WeaponRange":                       func(level int) float64 { return 10 * IonSeekingSpeed(level) },
 		"WeaponDamageFalloffRatio":          func(level int) float64 { return 0.1 },
 		"WeaponEnergyPerShot":               func(level int) float64 { return 1.5 * WeaponRawDamage(level) },
 		"WeaponFireRate":                    func(level int) float64 { return 20 },
 		"WeaponRawDamage":                   func(level int) float64 { return 2 * WeaponRawDamage(level) },
-		"WeaponIonEngineDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonHyperDriveDamage":         func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonSensorDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonShieldDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonWeaponDamage":             func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
-		"WeaponIonGeneralDamage":            func(level int) float64 { return 1.33333 * IonComponentDamage(level) },
+		"WeaponIonEngineDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonHyperDriveDamage":         func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonSensorDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonShieldDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonWeaponDamage":             func(level int) float64 { return IonComponentDamage(level + 1) },
+		"WeaponIonGeneralDamage":            func(level int) float64 { return IonComponentDamage(level + 1) },
 	}
 	LargeIonBomb := ExtendValuesTable(
 		MediumIonBomb,
 		ValuesTable{
 			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * WeaponRawDamage(level) },
 			"WeaponRawDamage":           func(level int) float64 { return 4 * WeaponRawDamage(level) },
-			"WeaponIonEngineDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonSensorDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonShieldDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonWeaponDamage":     func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
-			"WeaponIonGeneralDamage":    func(level int) float64 { return 1.66666 * IonComponentDamage(level) },
+			"WeaponIonEngineDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonSensorDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonShieldDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonWeaponDamage":     func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+			"WeaponIonGeneralDamage":    func(level int) float64 { return 1.5 * IonComponentDamage(level+1) },
+		},
+	)
+
+	// ion missiles have same ion and raw da,age output as medium cannons (scaled for slower rof)
+	IonMissile := ValuesTable{
+		"ComponentCountermeasuresBonus":     func(level int) float64 { return 0.48 + 0.02*float64(level+1) },
+		"ComponentTargetingBonus":           func(level int) float64 { return 0.1 },
+		"WeaponAreaEffectRange":             func(level int) float64 { return 0 },
+		"WeaponAreaBlastWaveSpeed":          func(level int) float64 { return 0 },
+		"WeaponBombardDamageInfrastructure": func(level int) float64 { return 0 }, // zero bombard value
+		"WeaponBombardDamageMilitary":       func(level int) float64 { return 0 },
+		"WeaponBombardDamagePopulation":     func(level int) float64 { return 0 },
+		"WeaponBombardDamageQuality":        func(level int) float64 { return 0 },
+		"WeaponArmorBypass":                 func(level int) float64 { return -0.1 },
+		"WeaponShieldBypass":                func(level int) float64 { return 0 },
+		"WeaponSpeed":                       IonSeekingSpeed,
+		"WeaponRange":                       func(level int) float64 { return 10 * IonSeekingSpeed(level) },
+		"WeaponDamageFalloffRatio":          func(level int) float64 { return 0 },
+		"WeaponEnergyPerShot":               func(level int) float64 { return WeaponRawDamage(level) },
+		"WeaponFireRate":                    func(level int) float64 { return 20 },
+		"WeaponRawDamage": func(level int) float64 {
+			// todo: we really want to tie raw damage to say 80% of a standard missile, rather than to that of ion cannons
+			return 20 / WeaponRateOfFire(level) * 2 * WeaponRawDamage(level)
+		},
+		"WeaponIonEngineDamage":     func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+		"WeaponIonHyperDriveDamage": func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+		"WeaponIonSensorDamage":     func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+		"WeaponIonShieldDamage":     func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+		"WeaponIonWeaponDamage":     func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+		"WeaponIonGeneralDamage":    func(level int) float64 { return 1.25 * IonComponentDamage(level) },
+	}
+
+	AdvIonMissile := ExtendValuesTable(
+		IonMissile,
+		ValuesTable{
+			// todo: we really want to tie raw damage to say 80% of a standard missile, rather than to that of ion cannons
+			"WeaponRawDamage": func(level int) float64 { return 20 / WeaponRateOfFire(level) * 2 * WeaponRawDamage(level+1) },
+		},
+	)
+
+	UltraIonMissile := ExtendValuesTable(
+		AdvIonMissile,
+		ValuesTable{
+			// todo: we really want to tie raw damage to say 80% of a standard missile, rather than to that of ion cannons
+			"WeaponRawDamage": func(level int) float64 { return 20 / WeaponRateOfFire(level) * 4 * WeaponRawDamage(level+1) },
 		},
 	)
 
@@ -230,8 +280,8 @@ func (j *Job) applyIonWeapons() (err error) {
 		},
 
 		"Electromagnetic Lance [L]": {
-			minLevel:    3,
-			maxLevel:    6,
+			minLevel:    4,
+			maxLevel:    7,
 			fieldValues: EMLance,
 		},
 		"Electromagnetic Wave Lance [L]": {
@@ -241,13 +291,13 @@ func (j *Job) applyIonWeapons() (err error) {
 		},
 
 		"Ion Bomb [M]": {
-			minLevel:    2,
-			maxLevel:    5,
+			minLevel:    3,
+			maxLevel:    6,
 			fieldValues: MediumIonBomb,
 		},
 		"Ion Bomb [L]": {
-			minLevel:    2,
-			maxLevel:    5,
+			minLevel:    3,
+			maxLevel:    6,
 			fieldValues: LargeIonBomb,
 		},
 
@@ -260,6 +310,22 @@ func (j *Job) applyIonWeapons() (err error) {
 			minLevel:    7,
 			maxLevel:    10,
 			fieldValues: LargeIonBomb,
+		},
+
+		"Ion Missile [M]": {
+			minLevel:    2,
+			maxLevel:    5,
+			fieldValues: IonMissile,
+		},
+		"Advanced Ion Missile [M]": {
+			minLevel:    6,
+			maxLevel:    9,
+			fieldValues: AdvIonMissile,
+		},
+		"Ultra Ion Missile [M]": {
+			minLevel:    10,
+			maxLevel:    10,
+			fieldValues: UltraIonMissile,
 		},
 	}
 

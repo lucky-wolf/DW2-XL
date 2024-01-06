@@ -957,25 +957,24 @@
 	<TroopDefinition>
 		<TroopDefinitionId>49</TroopDefinitionId>
 		<RaceId>15</RaceId>
+		<!-- Quameno can build robotic troops as their infantry (their only infantry) -->
 		<Type>Infantry</Type>
-		<Size>5000</Size>
+		<Size>2000</Size>
 		<RecruitmentCost>
-			<!-- Quameno are very expensive to use in combat -->
-			<Money>5000</Money>
+			<Money>1200</Money>
 			<Resources />
 		</RecruitmentCost>
-		<MaintenanceCost>200</MaintenanceCost>
-		<AttackStrength>96</AttackStrength>
-		<DefendStrength>144</DefendStrength>
+		<MaintenanceCost>100</MaintenanceCost>
+		<AttackStrength>60</AttackStrength>
+		<DefendStrength>60</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battle Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+		<Name>Battlebot Unit</Name>
+		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>50</TroopDefinitionId>

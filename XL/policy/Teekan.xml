@@ -87,14 +87,14 @@
 		<WeaponCloseInDamageAtRangeFactor>1</WeaponCloseInDamageAtRangeFactor>
 		<WeaponCloseInDamageRateFactor>1</WeaponCloseInDamageRateFactor>
 		<WeaponCloseInDamageAtRangeRateFactor>1</WeaponCloseInDamageAtRangeRateFactor>
-		<WeaponCloseInFireRateFactor>2</WeaponCloseInFireRateFactor>
+		<WeaponCloseInFireRateFactor>1</WeaponCloseInFireRateFactor>
 		<WeaponCloseInEnergyUsageFactor>1</WeaponCloseInEnergyUsageFactor>
 		<WeaponStandoffRangeFactor>1</WeaponStandoffRangeFactor>
 		<WeaponStandoffDamageRawFactor>1</WeaponStandoffDamageRawFactor>
 		<WeaponStandoffDamageAtRangeFactor>1</WeaponStandoffDamageAtRangeFactor>
 		<WeaponStandoffDamageRateFactor>1</WeaponStandoffDamageRateFactor>
 		<WeaponStandoffDamageAtRangeRateFactor>1</WeaponStandoffDamageAtRangeRateFactor>
-		<WeaponStandoffFireRateFactor>2</WeaponStandoffFireRateFactor>
+		<WeaponStandoffFireRateFactor>1</WeaponStandoffFireRateFactor>
 		<WeaponStandoffEnergyUsageFactor>1</WeaponStandoffEnergyUsageFactor>
 		<WeaponInterceptRangeFactor>1</WeaponInterceptRangeFactor>
 		<WeaponInterceptDamageFactor>1</WeaponInterceptDamageFactor>
@@ -109,12 +109,12 @@
 		<WeaponIonSensorDamageFactor>1</WeaponIonSensorDamageFactor>
 		<WeaponIonShieldDamageFactor>1</WeaponIonShieldDamageFactor>
 		<WeaponIonEngineDamageRateFactor>1.5</WeaponIonEngineDamageRateFactor>
-		<WeaponIonHyperDriveDamageRateFactor>1</WeaponIonHyperDriveDamageRateFactor>
-		<WeaponIonSensorDamageRateFactor>1</WeaponIonSensorDamageRateFactor>
-		<WeaponIonShieldDamageRateFactor>1</WeaponIonShieldDamageRateFactor>
+		<WeaponIonHyperDriveDamageRateFactor>1.5</WeaponIonHyperDriveDamageRateFactor>
+		<WeaponIonSensorDamageRateFactor>1.5</WeaponIonSensorDamageRateFactor>
+		<WeaponIonShieldDamageRateFactor>1.5</WeaponIonShieldDamageRateFactor>
 		<WeaponIonWeaponDamageRateFactor>1.5</WeaponIonWeaponDamageRateFactor>
 		<WeaponIonGeneralDamageRateFactor>1.5</WeaponIonGeneralDamageRateFactor>
-		<WeaponIonFireRateFactor>1</WeaponIonFireRateFactor>
+		<WeaponIonFireRateFactor>1.5</WeaponIonFireRateFactor>
 		<WeaponIonEnergyUsageFactor>1</WeaponIonEnergyUsageFactor>
 		<WeaponBombardRangeFactor>1</WeaponBombardRangeFactor>
 		<WeaponBombardDamageInfrastructureFactor>1</WeaponBombardDamageInfrastructureFactor>
@@ -127,9 +127,9 @@
 		<WeaponBombardDamageRateQualityFactor>1</WeaponBombardDamageRateQualityFactor>
 		<WeaponBombardFireRateFactor>1</WeaponBombardFireRateFactor>
 		<WeaponBombardEnergyUsageFactor>1</WeaponBombardEnergyUsageFactor>
-		<WeaponAreaRangeFactor>1.5</WeaponAreaRangeFactor>
+		<WeaponAreaRangeFactor>1</WeaponAreaRangeFactor>
 		<WeaponAreaDamageFactor>1</WeaponAreaDamageFactor>
-		<WeaponAreaDamageRateFactor>1.5</WeaponAreaDamageRateFactor>
+		<WeaponAreaDamageRateFactor>1</WeaponAreaDamageRateFactor>
 		<WeaponAreaFireRateFactor>1</WeaponAreaFireRateFactor>
 		<WeaponAreaEnergyUsageFactor>1</WeaponAreaEnergyUsageFactor>
 		<ArmorStrengthFactor>1</ArmorStrengthFactor>
@@ -139,12 +139,12 @@
 		<ShieldResistanceFactor>1.5</ShieldResistanceFactor>
 		<ShieldPenetrationChanceFactor>1</ShieldPenetrationChanceFactor>
 		<ShieldPenetrationRatioFactor>1</ShieldPenetrationRatioFactor>
-		<!-- force it to choose Smart over Sojourn by using energy and range as factors -->
+		<!-- favor smart drives -->
 		<HyperDriveSpeedFactor>1</HyperDriveSpeedFactor>
-		<HyperDriveEnergyUsageFactor>2</HyperDriveEnergyUsageFactor>
-		<HyperDriveJumpRangeFactor>1.5</HyperDriveJumpRangeFactor>
-		<HyperDriveInitiationTimeFactor>0.1</HyperDriveInitiationTimeFactor>
-		<HyperDriveRechargeTimeFactor>0.1</HyperDriveRechargeTimeFactor>
+		<HyperDriveEnergyUsageFactor>100</HyperDriveEnergyUsageFactor>
+		<HyperDriveJumpRangeFactor>1</HyperDriveJumpRangeFactor>
+		<HyperDriveInitiationTimeFactor>1</HyperDriveInitiationTimeFactor>
+		<HyperDriveRechargeTimeFactor>1</HyperDriveRechargeTimeFactor>
 		<AreaShieldRangeFactor>1</AreaShieldRangeFactor>
 		<AreaShieldPowerFactor>1</AreaShieldPowerFactor>
 		<AreaShieldEnergyUsageFactor>1</AreaShieldEnergyUsageFactor>
@@ -284,7 +284,7 @@
 		<string></string>
 		<string>Blasters</string>
 		<!-- CloseIn Weapons -->
-		<string>Blaters</string>
+		<string>Missiles</string>
 		<!-- Standoff Weapons -->
 		<string></string>
 		<!-- Ion Weapons -->

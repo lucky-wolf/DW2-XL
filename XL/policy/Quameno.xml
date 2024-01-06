@@ -43,7 +43,7 @@
 		<WeaponCloseInFactor>1</WeaponCloseInFactor>
 		<WeaponStandoffFactor>1</WeaponStandoffFactor>
 		<WeaponInterceptFactor>1</WeaponInterceptFactor>
-		<WeaponIonFactor>1</WeaponIonFactor>
+		<WeaponIonFactor>3</WeaponIonFactor>
 		<WeaponBombardFactor>1</WeaponBombardFactor>
 		<WeaponAreaFactor>1</WeaponAreaFactor>
 		<FighterFactor>1</FighterFactor>
@@ -60,7 +60,7 @@
 		<TargetingFactor>1</TargetingFactor>
 		<DamageControlFactor>1</DamageControlFactor>
 		<EngineManeuveringFactor>1</EngineManeuveringFactor>
-		<IonDefenseFactor>1</IonDefenseFactor>
+		<IonDefenseFactor>2</IonDefenseFactor>
 		<StealthFactor>1</StealthFactor>
 		<TroopCompartmentFactor>1</TroopCompartmentFactor>
 		<ConstructionYardFactor>1</ConstructionYardFactor>
@@ -85,20 +85,20 @@
 		<WeaponInterceptDamageRateFactor>1</WeaponInterceptDamageRateFactor>
 		<WeaponInterceptFireRateFactor>1</WeaponInterceptFireRateFactor>
 		<WeaponInterceptEnergyUsageFactor>1</WeaponInterceptEnergyUsageFactor>
-		<WeaponIonRangeFactor>1</WeaponIonRangeFactor>
-		<WeaponIonEngineDamageFactor>1</WeaponIonEngineDamageFactor>
-		<WeaponIonWeaponDamageFactor>1</WeaponIonWeaponDamageFactor>
-		<WeaponIonGeneralDamageFactor>1</WeaponIonGeneralDamageFactor>
+		<WeaponIonRangeFactor>1.5</WeaponIonRangeFactor>
+		<WeaponIonEngineDamageFactor>1.5</WeaponIonEngineDamageFactor>
+		<WeaponIonWeaponDamageFactor>1.5</WeaponIonWeaponDamageFactor>
+		<WeaponIonGeneralDamageFactor>1.5</WeaponIonGeneralDamageFactor>
 		<WeaponIonHyperDriveDamageFactor>1</WeaponIonHyperDriveDamageFactor>
 		<WeaponIonSensorDamageFactor>1</WeaponIonSensorDamageFactor>
 		<WeaponIonShieldDamageFactor>1</WeaponIonShieldDamageFactor>
-		<WeaponIonEngineDamageRateFactor>1</WeaponIonEngineDamageRateFactor>
-		<WeaponIonHyperDriveDamageRateFactor>1</WeaponIonHyperDriveDamageRateFactor>
-		<WeaponIonSensorDamageRateFactor>1</WeaponIonSensorDamageRateFactor>
-		<WeaponIonShieldDamageRateFactor>1</WeaponIonShieldDamageRateFactor>
-		<WeaponIonWeaponDamageRateFactor>1</WeaponIonWeaponDamageRateFactor>
-		<WeaponIonGeneralDamageRateFactor>1</WeaponIonGeneralDamageRateFactor>
-		<WeaponIonFireRateFactor>1</WeaponIonFireRateFactor>
+		<WeaponIonEngineDamageRateFactor>1.5</WeaponIonEngineDamageRateFactor>
+		<WeaponIonHyperDriveDamageRateFactor>1.5</WeaponIonHyperDriveDamageRateFactor>
+		<WeaponIonSensorDamageRateFactor>1.5</WeaponIonSensorDamageRateFactor>
+		<WeaponIonShieldDamageRateFactor>1.5</WeaponIonShieldDamageRateFactor>
+		<WeaponIonWeaponDamageRateFactor>1.5</WeaponIonWeaponDamageRateFactor>
+		<WeaponIonGeneralDamageRateFactor>1.5</WeaponIonGeneralDamageRateFactor>
+		<WeaponIonFireRateFactor>1.5</WeaponIonFireRateFactor>
 		<WeaponIonEnergyUsageFactor>1</WeaponIonEnergyUsageFactor>
 		<WeaponBombardRangeFactor>1</WeaponBombardRangeFactor>
 		<WeaponBombardDamageInfrastructureFactor>1</WeaponBombardDamageInfrastructureFactor>
@@ -185,13 +185,14 @@
 	<TaxRateTargetApprovalSmallColonies>40</TaxRateTargetApprovalSmallColonies>
 	<TaxRateTargetApprovalMediumColonies>20</TaxRateTargetApprovalMediumColonies>
 	<TaxRateTargetApprovalLargeColonies>5</TaxRateTargetApprovalLargeColonies>
-	<CashflowColonyGrowthFunding>0.5</CashflowColonyGrowthFunding>
-	<CashflowResearchFunding>0.5</CashflowResearchFunding>
+	<!-- colony growth is useless for geniocracy, so default it to zero -->
+	<CashflowColonyGrowthFunding>0</CashflowColonyGrowthFunding>
+	<CashflowResearchFunding>1.0</CashflowResearchFunding>
 	<CashflowStateShipMaintenance>0.55</CashflowStateShipMaintenance>
-	<CashflowTroopMaintenance>0.2</CashflowTroopMaintenance>
-	<CashflowFacilityMaintenance>0.2</CashflowFacilityMaintenance>
+	<CashflowTroopMaintenance>0.15</CashflowTroopMaintenance>
+	<CashflowFacilityMaintenance>0.3</CashflowFacilityMaintenance>
 	<CashflowResourceTrading>0</CashflowResourceTrading>
-	<CashflowUncommitted>0.3</CashflowUncommitted>
+	<CashflowUncommitted>0.1</CashflowUncommitted>
 	<ColonyTroopGarrisonLevel>0.75</ColonyTroopGarrisonLevel>
 	<AttackTroopLevel>0.75</AttackTroopLevel>
 	<ConstructionSpaceportLargePopulationRequired>10E+09</ConstructionSpaceportLargePopulationRequired>

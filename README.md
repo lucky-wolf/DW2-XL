@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.14](#v11814)
     - [v1.18.13](#v11813)
     - [v1.18.12](#v11812)
     - [v1.18.11](#v11811)
@@ -185,6 +186,37 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.14
+- Missiles
+  - Large missiles and small missiles now extend to end game as separate tech lineages
+  - Large missiles have their own repeatables
+  - Large missiles are the only missiles to have any bombardment whatsoever
+  - Titan Missiles are a new endgame component and technology
+  - Added a Bulwark Missile [Ftr] for Human special tech
+- Quameno
+  - Quameno gain bonus to ancient knowledge and high tech in place of all tech
+  - Quameno now have robotic troops as their racial infantry
+  - Quameno favor ion weapons instead of pulsed weapons
+  - Novacore reactors have a tech & component for every tech level (per XL standards)
+  - Adjusted Geniocracy starting conditions
+- Gizurean
+  - Gizurean superior hive swarm tech now gives Fighter IV and Bomber IV hulls
+- Teekan
+  - Teekans now have Ion Missiles as one of their two racial specials
+  - Ion Bombs are now available to everyone
+- Ancient Knowledge
+  - Reduced cost of Ancient Guardian Vault Investigations
+  - Ancient Knowledge techs now offer +5% to research further ancient knowledge techs
+- Super weapons [X]
+  - Super weapons sizes are standard for their category
+  - Super weapons tech cost is tier 7.5 (was tier 8.5)
+- Increased costs of most advanced planetary facilities
+- Improved some ship class names
+- Fixed issues with planetary fighter bases so that they upgrade in correct order for all types
+- Renamed components and hulls to cluster together in the designer better
+- Fixed various races preferred biome descriptions
+- Added stride bundle for Ion Missile images
 
 ### v1.18.13
 - Governments
@@ -714,7 +746,7 @@ YMMV, but this is my take on making it Extra Large!
 - Improved the Ancient Ackdarian Spaceport event to give Ackdarian specific tech boosts
 
 ### v1.14.5
-- Removed Explosive Area Weapons from Ikkuro racial tech
+- Removed Area Weapons from Ikkuro racial tech
 - Ikkuro can now choose Republic (much more thematic and less problematic than Tribal Bloodlines)
 - Boskara now have a serious racial leader quality bonus
 - Nerfed Mercantile Guild a little
@@ -1628,7 +1660,7 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 | 900-1100 | Long Range & High Power Tractor Beams                      |
 |     2000 | Quantum Singularity & Black Hole Projector                 |
 |     2200 | Blasters & Phasers                                         |
-|     5000 | DF Beams (Thuon, Graviton, Phaser, EM Lance, Shatterforce) |
+|     5000 | DF Beams (Thuon, Graviton, Phaser, EM Beams, Shatterforce) |
 
 
 Fighters
