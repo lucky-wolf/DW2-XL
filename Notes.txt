@@ -438,6 +438,11 @@ dw2bt extract "C:\Steam\steamapps\common\Distant Worlds 2\data\db\bundles\Human.
 
 dw2bt convert "UserInterface\Races\Human" "UserInterface\Races\human.png"
 
+C:\Users\steve\Downloads\DW2BT> .\DW2BT.exe extract "C:\Users\steve\Downloads\DW2 Unstable\data\db\bundles\CoreContent.bundle" Environment/OrbTypes/Large/Grasslands
+Extracting 1/1
+Extraction complete.
+C:\Users\steve\Downloads\DW2BT> .\DW2BT.exe convert Environment/OrbTypes/Large/Grasslands Environment/OrbTypes/Large/Grasslands.png
+
 ----------------------------------------------------------------------------------------
 Rail gun overhaul:
 
@@ -454,3 +459,7 @@ cool regex:
 		((0\.|[1-9]\.?)\d*)
 	// any non-zero decimal or floating or scientific notation number:
 		((0\.|[1-9]\.?)\d*((e|E)(\+|-)\d+)?)
+
+	// token followed by a word then optionally another word which isn't one of a verboten set (e.g. matches "<Description>Loros Fruit" and "<Description>Caslon")
+		<Description>\b((\w+)( (?!is|are)\w+)?)
+		replace: <Description>[RESOURCE]$1[/RESOURCE]
