@@ -198,7 +198,7 @@ YMMV, but this is my take on making it Extra Large!
   - Redid Medical and Recrations techs / components to offer +5% per tech level
   - Civilian Crew Quarters reflects these updated values
   - Militarized Crew Quarters are separate components per tech level so that the bonuses they offer scale with tech level
-  - Militarized Crew Quarters require medical technologies as well as the zero-g techs (giving them 3 prerequisites per level, same as civilian tech)
+  - Militarized Crew Quarters require medical technologies as well as the zero-g techs (giving them 3 prerequisites per level, same as civilian crew quarters)
   - Militarized Crew Quarters offers damage reduction since it requires and incorporates medical technologies
 -
 
