@@ -993,7 +993,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>263</Row>
+		<Row>269</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>264</ResearchProjectId>
@@ -1011,14 +1011,14 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>BoardingAssault</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 			<Bonus>
 				<Type>BoardingDefense</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3524,6 +3524,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Zero-G Combat -->
 				<ResearchProjectId>26</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -3539,38 +3540,38 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>82</ResearchProjectId>
-		<Name>Boarding Defenses</Name>
+		<Name>Enhanced Zero-G Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>900</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>1500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
 					<Amount>150</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>150</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>75</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>300</Amount>
+					<Amount>150</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>300</Amount>
+					<Amount>150</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>3</Column>
-		<Row>264</Row>
+		<Column>2</Column>
+		<Row>269</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>26</ResearchProjectId>
@@ -3580,8 +3581,15 @@
 		</PrerequisiteProjects>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
 				<Type>BoardingDefense</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -6666,7 +6674,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>144</ResearchProjectId>
-		<Name>Assault Marines</Name>
+		<Name>Improved Zero-G Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -6697,10 +6705,10 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>263</Row>
+		<Row>269</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>26</ResearchProjectId>
+				<ResearchProjectId>82</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -6708,7 +6716,14 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>BoardingAssault</Type>
-				<Amount>0.20</Amount>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -6717,7 +6732,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>145</ResearchProjectId>
-		<Name>Advanced Boarding Defenses</Name>
+		<Name>Advanced Zero-G Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -6748,18 +6763,25 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>264</Row>
+		<Row>269</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>82</ResearchProjectId>
+				<ResearchProjectId>144</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<EmpireBonuses>
 			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
 				<Type>BoardingDefense</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -9452,41 +9474,41 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>198</ResearchProjectId>
-		<Name>Armored Assault Marines</Name>
+		<Name>Superior Zero-G Combat</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>600</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
-		<Row>263</Row>
+		<Column>7</Column>
+		<Row>269</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>144</ResearchProjectId>
+				<ResearchProjectId>145</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -9494,7 +9516,14 @@
 		<EmpireBonuses>
 			<Bonus>
 				<Type>BoardingAssault</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.35</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -18364,7 +18393,7 @@
 		<Column>2</Column>
 		<Row>405</Row>
 		<PrerequisiteProjects>
-			<!-- Enlarged Crew Compartments -->
+			<!-- Improved Crew Compartments -->
 			<ResearchPath>
 				<ResearchProjectId>1179</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -18393,7 +18422,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>412</ResearchProjectId>
-		<Name>Medical Systems</Name>
+		<Name>Improved Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -20067,7 +20096,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- Medical Systems -->
+			<!-- Improved Medical Systems -->
 			<ResearchPath>
 				<ResearchProjectId>412</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -21061,7 +21090,7 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- Advanced Recreation Facilities -->
+			<!-- Enhanced Recreation Facilities -->
 			<ResearchPath>
 				<ResearchProjectId>1246</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -21078,7 +21107,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>476</ResearchProjectId>
-		<Name>Advanced Medical Systems</Name>
+		<Name>Complete Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -21118,7 +21147,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>477</ResearchProjectId>
-		<Name>Holographic Reality</Name>
+		<Name>Immersive Recreation Facilities</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -21143,7 +21172,7 @@
 		<Column>5</Column>
 		<Row>409</Row>
 		<PrerequisiteProjects>
-			<!-- Advanced Recreation Facilities -->
+			<!-- Enhanced Recreation Facilities -->
 			<ResearchPath>
 				<ResearchProjectId>1246</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -25243,7 +25272,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>573</ResearchProjectId>
-		<Name>Luxury Crew Environment</Name>
+		<Name>Luxury Crew Accommodations</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -25269,13 +25298,13 @@
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- Advanced Medical Systems -->
+			<!-- Complete Medical Systems -->
 			<ResearchPath>
 				<ResearchProjectId>476</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- Holographic Reality -->
+			<!-- Immersive Recreation Facilities -->
 			<ResearchPath>
 				<ResearchProjectId>477</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
@@ -25292,7 +25321,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>574</ResearchProjectId>
-		<Name>Genetic Rewiring</Name>
+		<Name>Regenerative Medical Systems</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -25336,7 +25365,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>575</ResearchProjectId>
-		<Name>Reality Replacement</Name>
+		<Name>Complete Recreation Facilities</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -26428,7 +26457,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>597</ResearchProjectId>
-		<Name>Genetic Mastery</Name>
+		<Name>Biomedical Mastery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -28418,7 +28447,7 @@
 		<Row>300</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<!-- ultr long range -->
+				<!-- ultra long range -->
 				<ResearchProjectId>595</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -28511,7 +28540,7 @@
 		<Row>304</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<!-- ultr long range -->
+				<!-- ultra long range -->
 				<ResearchProjectId>595</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -28601,7 +28630,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>347</Row>
+		<Row>351</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>420</ResearchProjectId>

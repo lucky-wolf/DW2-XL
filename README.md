@@ -190,10 +190,17 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.18.16
-- Improved planet images a bit further
+- Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
 - Tweaked diplomatic boost of Republic and Democracy
-- Fixed: EM Beams require improved beams
-- Fixed: Assault Marine tech gives +20%
+- EM Beams require improved beams (was intended but missed in previous update)
+- Zero-G, Crew, Medical, and Recreation
+  - Redid Zero-G Boarding assault & defense techs to be a single lineage affecting both offense and defense
+  - Redid Medical and Recrations techs / components to offer +5% per tech level
+  - Civilian Crew Quarters reflects these updated values
+  - Militarized Crew Quarters are separate components per tech level so that the bonuses they offer scale with tech level
+  - Militarized Crew Quarters require medical technologies as well as the zero-g techs (giving them 3 prerequisites per level, same as civilian tech)
+  - Militarized Crew Quarters offers damage reduction since it requires and incorporates medical technologies
+-
 
 ### v1.18.15
 - Ion
