@@ -191,7 +191,6 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
-- Tweaked diplomatic boost of Republic and Democracy
 - EM Beams require improved beams (was intended but missed in previous update)
 - Zero-G, Crew, Medical, and Recreation
   - Redid Zero-G Boarding assault & defense techs to be a single lineage affecting both offense and defense
@@ -200,7 +199,11 @@ YMMV, but this is my take on making it Extra Large!
   - Militarized Crew Quarters are separate components per tech level so that the bonuses they offer scale with tech level
   - Militarized Crew Quarters require medical technologies as well as the zero-g techs (giving them 3 prerequisites per level, same as civilian crew quarters)
   - Militarized Crew Quarters offers damage reduction since it requires and incorporates medical technologies
--
+- Races & Governments
+  - Removed Tribal government from Ackdarians
+  - Added Technosphere Citadel as a government starting facility for Technocracy
+  - Tweaked diplomatic boost of Republic and Democracy
+  - Removed All Research bonus from Democratic and Republic governments
 
 ### v1.18.15
 - Ion

@@ -1288,7 +1288,8 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Stratocracy</MessageTitle>
-				<Description>General! we have recently completed:
+				<Description>Supreme Commander!
+We have recently completed:
 
 [ULI][RESEARCH]War Planning Complex[/RESEARCH][/ULI]
 [ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
@@ -2806,6 +2807,7 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<MessageTitle>Technocracy</MessageTitle>
 				<Description>Your initial directive as head researcher and first amongst equals has paid off with the completion of:
 
+[ULI]Technosphere Citadel[/ULI]
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 [ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
@@ -2821,6 +2823,34 @@ Worry not that we will execute your directions with all professional alacrity as
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Technosphere Citadel -->
+				<Id1>1012</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
