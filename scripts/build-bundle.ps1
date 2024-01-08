@@ -9,7 +9,8 @@ Remove-Item -Force -Path "$source\*.bundle"
 Write-Host "building source bundle files..."
 Push-Location
 Set-Location $project
-dotnet.exe build "XL.sln"
+dotnet build .\XL.Windows\XL.Windows.csproj
+# dotnet.exe build "XL.sln"
 $build = $LastExitCode
 Pop-Location
 
