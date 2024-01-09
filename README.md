@@ -206,6 +206,7 @@ YMMV, but this is my take on making it Extra Large!
   - Tests of Merit comes with Geniocracy, and cannot be obtained by any other empire except by conquest (no tech available that offers it)
 - Removed "Troop Experience" bonuses (was never implemented by the dev team)
 - Planetary troop facilities offer some local troop maintenance savings
+- Added more levels of Scanners and Jammers
 
 ### v1.18.15
 - Ion
