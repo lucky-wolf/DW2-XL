@@ -77,6 +77,16 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ResearchAll</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -247,6 +257,11 @@
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>

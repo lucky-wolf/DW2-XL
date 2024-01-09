@@ -453,7 +453,8 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
+		<!-- make this not a technology so it cannot be stolen used by non-Quameno -->
+		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
 		<Row>451</Row>

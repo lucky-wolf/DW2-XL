@@ -80,12 +80,13 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Geniocracy</MessageTitle>
-				<Description>Due to our chosen government, we have gained insight into:
+				<Description>Enlightened Master, we have gained insight into:
 
 [ULI][RESEARCH]Research Labs[/RESEARCH][/ULI]
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
-[ULI]Progress towards [RESEARCH]Tests of Merit[/RESEARCH][/ULI]
+
+We have also completed construction of the Enigma Maze to help weed the undeserving from the true geniuses amongst us for leadership.
 
 A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Description>
 				<ImageFilepath />
@@ -96,6 +97,34 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Test of Merit -->
+				<Id1>95</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -176,33 +205,6 @@ A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Descript
 				<!-- Planetary Exploration -->
 				<Id1>406</Id1>
 				<Value1>0</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>ResearchProgress</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Tests of Merit -->
-				<Id1>821</Id1>
-				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>

@@ -192,18 +192,20 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
 - EM Beams require improved beams (was intended but missed in previous update)
-- Zero-G, Crew, Medical, and Recreation
-  - Redid Zero-G Boarding assault & defense techs to be a single lineage affecting both offense and defense
-  - Redid Medical and Recrations techs / components to offer +5% per tech level
-  - Civilian Crew Quarters reflects these updated values
-  - Militarized Crew Quarters are separate components per tech level so that the bonuses they offer scale with tech level
-  - Militarized Crew Quarters require medical technologies as well as the zero-g techs (giving them 3 prerequisites per level, same as civilian crew quarters)
-  - Militarized Crew Quarters offers damage reduction since it requires and incorporates medical technologies
+- Zero-G boarding assault & defense techs are a single lineage affecting both offense and defense
+- Redid Medical and Recrations techs / components to offer +5% per tech level
+- All Crew Quarters require a retrofit at a shipyard
+- Civilian Crew Quarters require medical and recreation technologies, and scale with their prerequisite techs
+- Militarized Crew Quarters require medical and zero-g techs, and scale with their prerequisites
 - Races & Governments
   - Removed Tribal government from Ackdarians
   - Added Technosphere Citadel as a government starting facility for Technocracy
   - Tweaked diplomatic boost of Republic and Democracy
   - Removed All Research bonus from Democratic and Republic governments
+- Quameno
+  - Tests of Merit comes with Geniocracy, and cannot be obtained by any other empire except by conquest (no tech available that offers it)
+- Removed "Troop Experience" bonuses (was never implemented by the dev team)
+- Planetary troop facilities offer some local troop maintenance savings
 
 ### v1.18.15
 - Ion
