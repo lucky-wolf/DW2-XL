@@ -463,3 +463,16 @@ cool regex:
 	// token followed by a word then optionally another word which isn't one of a verboten set (e.g. matches "<Description>Loros Fruit" and "<Description>Caslon")
 		<Description>\b((\w+)( (?!is|are)\w+)?)
 		replace: <Description>[RESOURCE]$1[/RESOURCE]
+
+Tech Bonus Categories
+
+	All				...all... (note: Diplomacy only benefits from All)
+	Industrial		Terraforming, Colonization
+	Construction	Fighters, Ships
+	High Tech		Research,  Medical, Economic
+
+	...the rest are pretty self evident
+
+----------------------------------------------------------------------------------------
+
+Add extra levels of Trace Scanner and Trace Jammer so we have a tech/component for every tech tier with equivalent targeting / jamming values

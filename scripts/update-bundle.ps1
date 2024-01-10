@@ -5,3 +5,4 @@ Write-Host "removing old bundle files..."
 Remove-Item -Force -Path "$target\*.bundle"
 Write-Host "copying new bundle files..."
 Copy-Item -Container -Force -Path "$source\XL*.bundle" -Destination "$target\" -PassThru | ForEach-Object { Write-Host $_.Name. }
+Write-Host "bundle updated successfully"

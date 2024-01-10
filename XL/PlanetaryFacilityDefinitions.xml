@@ -1354,11 +1354,11 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>35</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
-			<Bonus>
+			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.2</Amount>
@@ -1381,11 +1381,11 @@
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
-			<Bonus>
+			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.25</Amount>
@@ -1505,6 +1505,16 @@
 			<Bonus>
 				<Type>Diplomacy</Type>
 				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -1870,11 +1880,6 @@
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>CharacterAppearanceAmbassador</Type>
-				<Amount>0.15</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
 			<Money>100000</Money>
@@ -2013,11 +2018,11 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>46</PlanetaryFacilityDefinitionId>
 		<EmpireBonuses>
-			<Bonus>
+			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.35</Amount>
@@ -2040,11 +2045,11 @@
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
-			<Bonus>
+			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.5</Amount>
@@ -2609,6 +2614,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -2653,6 +2663,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -2693,6 +2708,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
@@ -2726,6 +2746,11 @@
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
@@ -2771,6 +2796,11 @@
 			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.20</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
@@ -2943,6 +2973,11 @@
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
 				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>

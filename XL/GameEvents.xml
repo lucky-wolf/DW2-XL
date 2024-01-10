@@ -13884,6 +13884,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Interceptors -->
 				<Id1>378</Id1>
 				<Value1>0.75</Value1>
 				<Value2>0</Value2>
@@ -13910,8 +13911,9 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Turret Automation -->
 				<Id1>101</Id1>
-				<Value1>0.75</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -14059,6 +14061,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Turret Automation -->
 				<Id1>101</Id1>
 				<Value1>0.1</Value1>
 				<Value2>0</Value2>
@@ -14085,8 +14088,9 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Interceptors -->
 				<Id1>378</Id1>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16089,7 +16093,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16098,8 +16102,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Predictive Missile Arrays (t6) -->
 				<Id1>127</Id1>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16115,7 +16120,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16124,34 +16129,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>128</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Turret Automation -->
 				<Id1>101</Id1>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16167,7 +16147,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16176,8 +16156,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Synchronized Fire -->
 				<Id1>159</Id1>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16202,6 +16183,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Interceptors -->
 				<Id1>378</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -16280,7 +16262,8 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>554</Id1>
+				<!-- Parallel Construction -->
+				<Id1>380</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -16306,6 +16289,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Predictive Missile Arrays (t6) -->
 				<Id1>127</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
@@ -24664,7 +24648,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>553</Id1>
+				<!-- Parallel Construction -->
+				<Id1>380</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24690,7 +24675,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>554</Id1>
+				<!-- Heavy Carriers -->
+				<Id1>514</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24716,7 +24702,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>555</Id1>
+				<!-- Heavy Battleships -->
+				<Id1>516</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24742,7 +24729,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>275</Id1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24768,8 +24756,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Fighters -->
-				<Id1>352</Id1>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24795,8 +24783,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Bombers -->
-				<Id1>354</Id1>
+				<!-- Energy Bubble Optimization (Ackdarian engines) -->
+				<Id1>583</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25106,7 +25094,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>553</Id1>
+				<!-- Parallel Construction -->
+				<Id1>380</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25132,7 +25121,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>554</Id1>
+				<!-- Heavy Carriers -->
+				<Id1>514</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25158,7 +25148,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>555</Id1>
+				<!-- Heavy Battleships -->
+				<Id1>516</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25184,7 +25175,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>275</Id1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25210,35 +25202,8 @@ Studying it will enable us to construct marvelous stations of our own, and withi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Fighters -->
-				<Id1>352</Id1>
-				<Value1>0.5</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>ResearchProgress</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Bombers -->
-				<Id1>354</Id1>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>

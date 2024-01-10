@@ -16,7 +16,7 @@ $build = $LastExitCode
 Pop-Location
 
 if ($build -ne 0) {
-	echo "build failure: $build"
+	Write-Host "build failure: $build"
 	exit $build
 }
 

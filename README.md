@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.18.16](#v11816)
     - [v1.18.15](#v11815)
     - [v1.18.14](#v11814)
     - [v1.18.13](#v11813)
@@ -187,6 +188,27 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.18.16
+- Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
+- EM Beams require improved beams (was intended but missed in previous update)
+- Zero-G boarding assault & defense techs are a single lineage affecting both offense and defense
+- Redid Medical and Recrations techs / components to offer +5% per tech level
+- Civilian Crew Quarters require medical and recreation technologies, and scale with their prerequisite techs
+- Militarized Crew Quarters require medical and zero-g techs, and scale with their prerequisites
+- All Crew Quarters require a retrofit at a shipyard
+- Races & Governments
+  - Removed Tribal government from Ackdarians
+  - Added Technosphere Citadel as a government starting facility for Technocracy
+  - Tweaked diplomatic boost of Republic and Democracy
+  - Removed All Research bonus from Democratic and Republic governments
+- Quameno
+  - Tests of Merit comes with Geniocracy, and cannot be obtained by any other empire except by conquest (no tech available that offers it)
+- Removed "Troop Experience" bonuses (was never implemented by the dev team)
+- Planetary troop facilities offer some local troop maintenance savings
+- Added more levels of Scanners and Jammers
+- Adjusted Ackdarian Homeworld discovery to give all t6 techs (was all over the place)
+- Adjusted Human Homeworld discovery to give all t6 techs (was all over the place)
 
 ### v1.18.15
 - Ion

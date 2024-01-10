@@ -21,3 +21,5 @@ Pop-Location
 
 $final = "C:\Steam\steamapps\common\Distant Worlds 2\" + $target
 Get-ChildItem -Path $final -Recurse
+
+Write-Host "successfully backed up to $final"
