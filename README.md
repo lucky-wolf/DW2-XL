@@ -207,6 +207,8 @@ YMMV, but this is my take on making it Extra Large!
 - Removed "Troop Experience" bonuses (was never implemented by the dev team)
 - Planetary troop facilities offer some local troop maintenance savings
 - Added more levels of Scanners and Jammers
+- Adjusted Ackdarian Homeworld discovery to give all t6 techs (was all over the place)
+- Adjusted Human Homeworld discovery to give all t6 techs (was all over the place)
 
 ### v1.18.15
 - Ion
