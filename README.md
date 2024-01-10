@@ -194,9 +194,9 @@ YMMV, but this is my take on making it Extra Large!
 - EM Beams require improved beams (was intended but missed in previous update)
 - Zero-G boarding assault & defense techs are a single lineage affecting both offense and defense
 - Redid Medical and Recrations techs / components to offer +5% per tech level
-- All Crew Quarters require a retrofit at a shipyard
 - Civilian Crew Quarters require medical and recreation technologies, and scale with their prerequisite techs
 - Militarized Crew Quarters require medical and zero-g techs, and scale with their prerequisites
+- All Crew Quarters require a retrofit at a shipyard
 - Races & Governments
   - Removed Tribal government from Ackdarians
   - Added Technosphere Citadel as a government starting facility for Technocracy
