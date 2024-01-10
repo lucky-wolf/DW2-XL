@@ -17,9 +17,11 @@ func main() {
 	log.SetFlags(0)
 
 	var function, folder string
+	var scale float64
 	flag.StringVar(&function, "algorithm", "", "algorithm to apply")
 	flag.StringVar(&folder, "folder", "XL", "folder to apply changes to")
 	flag.BoolVar(&algorithm.Quiet, "quiet", false, "set if you don't want debug output")
+	flag.Float64Var(&scale, "scale", 1.0, "scale factor to apply")
 	flag.Parse()
 
 	if !algorithm.Quiet {
@@ -58,6 +60,8 @@ func main() {
 		err = algorithm.IonShields(folder)
 	case "IonWeapons":
 		err = algorithm.IonWeapons(folder)
+	case "ScalePlanetFrequencies":
+		err = algorithm.ScalePlanetFrequencies(folder, scale)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}
