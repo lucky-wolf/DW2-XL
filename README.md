@@ -192,7 +192,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.19.0
 - Reduced maximum and increased minimum planets at some stars
-- Halved likelihood of colonizable worlds
+- Quartered the likelihood of colonizable world types appearing on the map
+- Improved the look of cold ocean worlds in-game
 
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions

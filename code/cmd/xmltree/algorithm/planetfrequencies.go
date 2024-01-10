@@ -70,12 +70,12 @@ func (j *Job) scalePlanetFrequencies(factor float64) (err error) {
 						}
 						statistics.changed++
 					}
+
+					statistics.elements++
 				}
 
-				statistics.elements++
+				statistics.objects++
 			}
-
-			statistics.objects++
 		}
 	}
 	err = nil
