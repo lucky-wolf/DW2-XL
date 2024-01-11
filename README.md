@@ -194,6 +194,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced maximum and increased minimum planets at some stars
 - Quartered the likelihood of colonizable world types appearing on the map
 - Improved the look of cold ocean worlds in-game
+- Added one more level of Commer Center
 
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
