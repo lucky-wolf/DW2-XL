@@ -13,7 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
-    - [v1.20.0](#v1200)
+    - [v1.19.0](#v1190)
     - [v1.18.16](#v11816)
     - [v1.18.15](#v11815)
     - [v1.18.14](#v11814)
@@ -190,7 +190,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.20.0
+### v1.19.0
 - Updated to Public Beta 1.2.0.0
 - Seriously reduced the likelihood of colonizable world types appearing at each star-system
 - Added one more level of Commerce Center to align with medical and recreation tech lineages
