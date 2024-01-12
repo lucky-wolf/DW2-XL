@@ -4,7 +4,7 @@
 		<OrbTypeId>0</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Main Sequence</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/MainSequence</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MainSequence</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MainSequence</FullsizeImageFilename>
@@ -15,8 +15,8 @@
 			<string>Sounds/Ambient/Star_Soft2</string>
 			<string>Sounds/Ambient/Star_Soft3</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>216</B>
 			<G>228</G>
@@ -42,7 +42,7 @@
 		<EnergyOutputMinimum>0.5</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0.8</EnergyOutputMaximum>
 		<LocationEffectId>0</LocationEffectId>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
 		<StarProbability>
@@ -52,27 +52,27 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.021</Factor>
+				<Factor>0.00525</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.007</Factor>
+				<Factor>0.00175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.007</Factor>
+				<Factor>0.00175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -100,31 +100,31 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.009</Factor>
+				<Factor>0.00225</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.016</Factor>
+				<Factor>0.004</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.016</Factor>
+				<Factor>0.004</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>24</OrbTypeId>
@@ -140,19 +140,19 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.018</Factor>
+				<Factor>0.0045</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>8</ChildCountMaximum>
+		<ChildCountMinimum>1</ChildCountMinimum>
+		<ChildCountMaximum>6</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
 		<QualityRangeMaximum>0</QualityRangeMaximum>
 		<OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
@@ -161,14 +161,13 @@
 		<DiameterMaximum>36000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>1</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Red Giant</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RedGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedGiant</FullsizeImageFilename>
@@ -179,8 +178,8 @@
 			<string>Sounds/Ambient/Star_Surging2</string>
 			<string>Sounds/Ambient/Star_Mid1</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>188</B>
 			<G>208</G>
@@ -241,27 +240,27 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.018</Factor>
+				<Factor>0.0045</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.006</Factor>
+				<Factor>0.0015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.007</Factor>
+				<Factor>0.00175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.035</Factor>
+				<Factor>0.00875</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.035</Factor>
+				<Factor>0.00875</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -289,31 +288,31 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.008</Factor>
+				<Factor>0.002</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>24</OrbTypeId>
@@ -329,19 +328,19 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>8</ChildCountMaximum>
+		<ChildCountMinimum>1</ChildCountMinimum>
+		<ChildCountMaximum>6</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
 		<QualityRangeMaximum>0</QualityRangeMaximum>
 		<OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
@@ -350,14 +349,13 @@
 		<DiameterMaximum>45000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>2</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Super Giant</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/SuperGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SuperGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SuperGiant</FullsizeImageFilename>
@@ -368,8 +366,8 @@
 			<string>Sounds/Ambient/Star_Surging2</string>
 			<string>Sounds/Ambient/Star_Mid1</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>96</B>
 			<G>160</G>
@@ -430,27 +428,27 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.015</Factor>
+				<Factor>0.00375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.005</Factor>
+				<Factor>0.00125</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.007</Factor>
+				<Factor>0.00175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.04</Factor>
+				<Factor>0.01</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.05</Factor>
+				<Factor>0.0125</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -478,31 +476,31 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.008</Factor>
+				<Factor>0.002</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.01</Factor>
+				<Factor>0.0025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.035</Factor>
+				<Factor>0.00875</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>24</OrbTypeId>
@@ -518,19 +516,19 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.01</Factor>
+				<Factor>0.0025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>8</ChildCountMaximum>
+		<ChildCountMinimum>1</ChildCountMinimum>
+		<ChildCountMaximum>6</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
 		<QualityRangeMaximum>0</QualityRangeMaximum>
 		<OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
@@ -539,14 +537,13 @@
 		<DiameterMaximum>50000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>3</OrbTypeId>
 		<Category>Star</Category>
 		<Name>White Dwarf</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/WhiteDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/WhiteDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/WhiteDwarf</FullsizeImageFilename>
@@ -557,8 +554,8 @@
 			<string>Sounds/Ambient/Star_Soft2</string>
 			<string>Sounds/Ambient/Star_Soft3</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>255</B>
 			<G>232</G>
@@ -619,15 +616,15 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.04</Factor>
+				<Factor>0.01</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -655,19 +652,19 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.04</Factor>
+				<Factor>0.01</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>25</OrbTypeId>
@@ -679,11 +676,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -696,14 +693,13 @@
 		<DiameterMaximum>14000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>4</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Red Dwarf</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RedDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RedDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RedDwarf</FullsizeImageFilename>
@@ -714,8 +710,8 @@
 			<string>Sounds/Ambient/Star_Soft2</string>
 			<string>Sounds/Ambient/Star_Soft3</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>255</B>
 			<G>220</G>
@@ -799,11 +795,11 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -827,11 +823,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.07</Factor>
+				<Factor>0.0175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>25</OrbTypeId>
@@ -843,11 +839,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -860,14 +856,13 @@
 		<DiameterMaximum>11000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>5</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Neutron</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
@@ -877,8 +872,8 @@
 			<string>Sounds/Ambient/star_ring1</string>
 			<string>Sounds/Ambient/star_ring2</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>255</B>
 			<G>220</G>
@@ -995,14 +990,13 @@
 		<DiameterMaximum>9000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>6</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Black Hole</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
@@ -1012,8 +1006,8 @@
 			<string>Sounds/Ambient/star_intense1</string>
 			<string>Sounds/Ambient/star_intense2</string>
 		</AmbientSoundEffectFilenames>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AmbientLightColor>
 			<B>255</B>
 			<G>255</G>
@@ -1100,7 +1094,7 @@
 			<OrbTypeId>0</OrbTypeId>
 			<Factor>0.025</Factor>
 		</StarProbability>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -1111,14 +1105,13 @@
 		<DiameterMaximum>9000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>7</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Continental</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/Continental</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Continental</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Continental</FullsizeImageFilename>
@@ -1126,8 +1119,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Forest_Continental</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidContinents</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
 			<G>160</G>
@@ -1307,12 +1300,11 @@
 			<string>are perched atop rocky coastal cliffs overlooking a vast ocean</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>8</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Marshy Swamp</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/MarshySwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MarshySwamp</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MarshySwamp</FullsizeImageFilename>
@@ -1320,8 +1312,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Mangrove_Swamp</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>128</B>
 			<G>204</G>
@@ -1498,12 +1490,11 @@
 			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>9</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Warm Ocean</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/WarmOcean</ImageFilename>
 		<LargeImageFilename>XL/OrbTypes/Large/WarmOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Ocean</FullsizeImageFilename>
@@ -1511,8 +1502,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Ocean</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
 			<G>192</G>
@@ -1527,7 +1518,7 @@
 			<A>128</A>
 		</CloudColor>
 		<CloudDensity>0.5</CloudDensity>
-		<CloudStormChance>0.15</CloudStormChance>
+		<CloudStormChance>0.35</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/OceanAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/OceanAltitude2</AltitudeGradient2>
 		<LatitudeGradient1>CoreEffects/ShaderGradients/OceanLatitude1</LatitudeGradient1>
@@ -1684,12 +1675,11 @@
 			<string>sit half-submerged atop a vast reef in the midst of an endless ocean</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>10</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Sandy Desert</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/SandyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SandyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SandyDesert</FullsizeImageFilename>
@@ -1697,8 +1687,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/SandyDesert_RockyDesert</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>64</B>
 			<G>108</G>
@@ -1866,12 +1856,11 @@
 			<string>are situated atop a large mesa in a desert plain</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>11</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Snowball</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/Ice</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceGlacial</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/IceGlacial</FullsizeImageFilename>
@@ -1879,8 +1868,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/FrozenIce</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidContinents</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
 			<G>192</G>
@@ -2049,12 +2038,11 @@
 			<string>are located near the edge of an icy tundra wasteland</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>12</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Rocky Volcanic</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/Volcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Volcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Volcanic</FullsizeImageFilename>
@@ -2062,8 +2050,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Volcanic</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidEmissiveOceans</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>12</B>
 			<G>24</G>
@@ -2245,19 +2233,18 @@
 			<string>sit on a small rocky island that glows from the surrounding ocean of bright molten lava</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>13</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Rocky Silicon</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RockySilicon</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BarrenRock</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BarrenRock</FullsizeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -2364,19 +2351,18 @@
 			<string>lie at the bottom of a desolate, rocky valley</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>14</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Gas Giant</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/GasGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/GasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/GasGiant</FullsizeImageFilename>
 		<SurfaceDrawType>PlanetGas</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -2452,27 +2438,27 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.015</Factor>
+				<Factor>0.00375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.015</Factor>
+				<Factor>0.00375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.015</Factor>
+				<Factor>0.00375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -2480,31 +2466,31 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.01</Factor>
+				<Factor>0.0025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.01</Factor>
+				<Factor>0.0025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>25</OrbTypeId>
@@ -2516,15 +2502,15 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.02</Factor>
+				<Factor>0.005</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.07</Factor>
+				<Factor>0.0175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.06</Factor>
+				<Factor>0.015</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -2558,19 +2544,18 @@
 			</ResourcePrevalence>
 		</PossibleResources>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>15</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Frozen Gas Giant</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/FrozenGas</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenGasGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenGasGiant</FullsizeImageFilename>
 		<SurfaceDrawType>PlanetGas</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -2646,11 +2631,11 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.0375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.09</Factor>
+				<Factor>0.0225</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -2658,11 +2643,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.0375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.0375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>25</OrbTypeId>
@@ -2674,11 +2659,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.09</Factor>
+				<Factor>0.0225</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.09</Factor>
+				<Factor>0.0225</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -2705,14 +2690,12 @@
 				<AbundanceMaximum>0.8</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>16</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Rocky</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RockyAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -2730,7 +2713,7 @@
 			<string>Asteroid9</string>
 			<string>Asteroid10</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>Environment/Asteroids/AsteroidGroup1_Rock1</string>
 			<string>Environment/Asteroids/AsteroidGroup1_Rock2</string>
@@ -2779,7 +2762,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -2790,7 +2773,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -2831,12 +2814,11 @@
 			<string>are set into the wall of a deep canyon</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>17</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Continental Forests</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/ContinentalForest</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Forest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Forest</FullsizeImageFilename>
@@ -2844,8 +2826,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Forest_Continental</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidContinents</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
 			<G>172</G>
@@ -3022,12 +3004,11 @@
 			<string>are half-buried in undergrowth of an ancient forest</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>18</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Grasslands</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/Grassland</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Grasslands</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Grasslands</FullsizeImageFilename>
@@ -3035,8 +3016,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Grasslands</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidContinents</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
 			<G>172</G>
@@ -3179,12 +3160,11 @@
 			<string>are located on a grassy hilltop overlooking the ocean</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>19</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Rocky Desert</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RockyDesert</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyDesert</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyDesert</FullsizeImageFilename>
@@ -3192,8 +3172,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/SandyDesert_RockyDesert</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>108</B>
 			<G>144</G>
@@ -3381,12 +3361,11 @@
 			<string>sit on a vast rocky plain strewn with boulders</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>20</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Savanna</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/DesertSavanna</ImageFilename>
 		<LargeImageFilename>XL/OrbTypes/DesertSavanna</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SavannaDesert</FullsizeImageFilename>
@@ -3394,8 +3373,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/DesertSavanna</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>108</B>
 			<G>160</G>
@@ -3531,12 +3510,11 @@
 			<string>are located next to a small lake in dense woodland</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>21</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Tundra</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/IceTundra</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/IceTundra</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Large/IceTundra</FullsizeImageFilename>
@@ -3544,8 +3522,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Ice_Tundra</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>240</B>
 			<G>208</G>
@@ -3681,12 +3659,11 @@
 			<string>are surrounded by a vast tundra forest</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>22</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Ice</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/FrozenIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/FrozenIce</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/FrozenIce</FullsizeImageFilename>
@@ -3694,8 +3671,8 @@
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/FrozenIce</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolidContinents</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>240</B>
 			<G>176</G>
@@ -3871,35 +3848,34 @@
 			<string>are half-buried under a thick glacial ice-sheet covering a wide valley</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>23</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Cold Ocean</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/ColdOcean</ImageFilename>
-		<LargeImageFilename>Environment/OrbTypes/Large/DeepOcean</LargeImageFilename>
+		<LargeImageFilename>XL/OrbTypes/Large/ColdOcean</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/DeepOcean</FullsizeImageFilename>
 		<LandscapeImageFilename>Environment/OrbTypes/Landscapes/Ocean</LandscapeImageFilename>
 		<VagueLandscapeImageFilename>Environment/OrbTypes/Landscapes/Vague/Ocean</VagueLandscapeImageFilename>
 		<SurfaceDrawType>PlanetSolid</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>224</B>
-			<G>208</G>
-			<R>96</R>
-			<A>255</A>
+			<G>156</G>
+			<R>78</R>
+			<A>192</A>
 		</AtmosphereColor>
 		<AtmosphereDensity>0.5</AtmosphereDensity>
 		<CloudColor>
 			<B>255</B>
 			<G>255</G>
 			<R>255</R>
-			<A>128</A>
+			<A>255</A>
 		</CloudColor>
-		<CloudDensity>0.5</CloudDensity>
+		<CloudDensity>0.33</CloudDensity>
 		<CloudStormChance>0.35</CloudStormChance>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/OceanDeepAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/OceanDeepAltitude2</AltitudeGradient2>
@@ -3910,8 +3886,8 @@
 		<SeaLevelMaximum>0.72</SeaLevelMaximum>
 		<MountainFactorMinimum>1.45</MountainFactorMinimum>
 		<MountainFactorMaximum>1.55</MountainFactorMaximum>
-		<CloudCoverageMinimum>0.895</CloudCoverageMinimum>
-		<CloudCoverageMaximum>0.905</CloudCoverageMaximum>
+		<CloudCoverageMinimum>0.8</CloudCoverageMinimum>
+		<CloudCoverageMaximum>0.8</CloudCoverageMaximum>
 		<HasGasSurface>false</HasGasSurface>
 		<GasPerturbationMinimum>0</GasPerturbationMinimum>
 		<GasPerturbationMaximum>1</GasPerturbationMaximum>
@@ -4055,19 +4031,18 @@
 			<string>are submerged deep underwater amidst a network of ocean ridges</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>24</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Brown Dwarf</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/BrownDwarf</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BrownDwarf</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BrownDwarf</FullsizeImageFilename>
 		<SurfaceDrawType>PlanetGasEmissive</SurfaceDrawType>
 		<AtmosphereDrawType>Haze</AtmosphereDrawType>
-		<SurfaceMaterialFilenames></SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<SurfaceMaterialFilenames />
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>8</B>
 			<G>6</G>
@@ -4092,7 +4067,6 @@
 			<A>255</A>
 		</GasGradientPrimaryColor>
 		<GasGradientColorVariationFactor>0.1</GasGradientColorVariationFactor>
-
 		<GasEmissivePerturbationMinimum>0.2</GasEmissivePerturbationMinimum>
 		<GasEmissivePerturbationMaximum>1</GasEmissivePerturbationMaximum>
 		<GasEmissivePrimaryColor>
@@ -4104,7 +4078,6 @@
 		<GasEmissiveColorVariationFactor>0.5</GasEmissiveColorVariationFactor>
 		<GasEmissiveCoverageMinimum>0.7</GasEmissiveCoverageMinimum>
 		<GasEmissiveCoverageMaximum>0.9</GasEmissiveCoverageMaximum>
-
 		<AmbientLightColor>
 			<B>216</B>
 			<G>216</G>
@@ -4165,11 +4138,11 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.0375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -4177,11 +4150,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.025</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>25</OrbTypeId>
@@ -4193,11 +4166,11 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.15</Factor>
+				<Factor>0.0375</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.10</Factor>
+				<Factor>0.025</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
 		<ChildCountMinimum>0</ChildCountMinimum>
@@ -4218,14 +4191,12 @@
 				<AbundanceMaximum>1.0</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>25</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Rocky Metallic</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/RockyMetallic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MetallicRock</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MetallicRock</FullsizeImageFilename>
@@ -4234,7 +4205,7 @@
 		<SurfaceMaterialFilenames>
 			<string>PlanetSolidMaterial</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -4371,12 +4342,11 @@
 			<string>lie at the bottom of a desolate, rocky valley</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>26</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Rocky Ice</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/RockyIce</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/RockyIce</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/RockyIce</FullsizeImageFilename>
@@ -4385,7 +4355,7 @@
 		<SurfaceMaterialFilenames>
 			<string>PlanetSolidMaterial</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -4495,12 +4465,11 @@
 			<string>are located on the edge of an icy plain</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>27</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Mangrove Swamp</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/MangroveSwamp</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/MangroveForest</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/MangroveForest</FullsizeImageFilename>
@@ -4689,12 +4658,11 @@
 			<string>are half-buried in undergrowth near a huge swampy wasteland</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>28</OrbTypeId>
 		<Category>Star</Category>
 		<Name>Blue Giant</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/BlueGiant</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/BlueGiant</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlueGiant</FullsizeImageFilename>
@@ -4732,7 +4700,7 @@
 		</StarLightColor>
 		<StarColorVariationFactor>0.1</StarColorVariationFactor>
 		<StarBrightnessFactor>1.0</StarBrightnessFactor>
-		<StarColorGradient></StarColorGradient>
+		<StarColorGradient />
 		<EnergyOutputMinimum>0.8</EnergyOutputMinimum>
 		<EnergyOutputMaximum>1.0</EnergyOutputMaximum>
 		<CommonBonuses>
@@ -4770,27 +4738,27 @@
 		<ChildTypes>
 			<OrbTypeFactor>
 				<OrbTypeId>7</OrbTypeId>
-				<Factor>0.018</Factor>
+				<Factor>0.0045</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>8</OrbTypeId>
-				<Factor>0.006</Factor>
+				<Factor>0.0015</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>9</OrbTypeId>
-				<Factor>0.007</Factor>
+				<Factor>0.00175</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>10</OrbTypeId>
-				<Factor>0.035</Factor>
+				<Factor>0.00875</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>11</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
-				<Factor>0.035</Factor>
+				<Factor>0.00875</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>13</OrbTypeId>
@@ -4818,31 +4786,31 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>23</OrbTypeId>
-				<Factor>0.008</Factor>
+				<Factor>0.002</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>17</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>18</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
-				<Factor>0.03</Factor>
+				<Factor>0.0075</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>20</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>21</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>22</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>24</OrbTypeId>
@@ -4858,19 +4826,19 @@
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>27</OrbTypeId>
-				<Factor>0.014</Factor>
+				<Factor>0.0035</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>29</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 			<OrbTypeFactor>
 				<OrbTypeId>30</OrbTypeId>
-				<Factor>0.025</Factor>
+				<Factor>0.00625</Factor>
 			</OrbTypeFactor>
 		</ChildTypes>
-		<ChildCountMinimum>0</ChildCountMinimum>
-		<ChildCountMaximum>8</ChildCountMaximum>
+		<ChildCountMinimum>1</ChildCountMinimum>
+		<ChildCountMaximum>6</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
 		<QualityRangeMaximum>0</QualityRangeMaximum>
 		<OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
@@ -4879,14 +4847,13 @@
 		<DiameterMaximum>50000</DiameterMaximum>
 		<ResourceCountMinimum>0</ResourceCountMinimum>
 		<ResourceCountMaximum>0</ResourceCountMaximum>
-		<PossibleResources></PossibleResources>
+		<PossibleResources />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>29</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Carbonaceous Hothouse</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>XL/OrbTypes/CarbonaceousHothouse</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Carbonaceous</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Carbonaceous</FullsizeImageFilename>
@@ -5069,12 +5036,11 @@
 			<string>are situated on a vast plain covered in thick black soot and ash</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>30</OrbTypeId>
 		<Category>Planet</Category>
 		<Name>Sulphur Volcanic</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/SulphurVolcanic</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/SulphurVolcanic</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/SulphurVolcanic</FullsizeImageFilename>
@@ -5105,7 +5071,7 @@
 		<CloudDensity>0.7</CloudDensity>
 		<AltitudeGradient1>CoreEffects/ShaderGradients/SulphurVolcanoAltitude1</AltitudeGradient1>
 		<AltitudeGradient2>CoreEffects/ShaderGradients/SulphurVolcanoAltitude2</AltitudeGradient2>
-		<OceanGradient></OceanGradient>
+		<OceanGradient />
 		<SeaLevelMinimum>-1</SeaLevelMinimum>
 		<SeaLevelMaximum>-1</SeaLevelMaximum>
 		<MountainFactorMinimum>0.85</MountainFactorMinimum>
@@ -5236,12 +5202,11 @@
 			<string>are situated on a vast plain deeply covered in bright yellow sulphur</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>31</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Ice</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/IceAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5259,7 +5224,7 @@
 			<string>Asteroid9</string>
 			<string>Asteroid10</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>Environment/Asteroids/AsteroidGroup1_Ice1</string>
 			<string>Environment/Asteroids/AsteroidGroup1_Ice2</string>
@@ -5308,7 +5273,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5319,7 +5284,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5355,12 +5320,11 @@
 			<string>are buried under a thick sheet of ice</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>32</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Metallic</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>Environment/OrbTypes/MetallicAsteroid</ImageFilename>
 		<LargeImageFilename>Environment/OrbTypes/Large/Asteroid</LargeImageFilename>
 		<FullsizeImageFilename>Environment/OrbTypes/Fullsize/Asteroid</FullsizeImageFilename>
@@ -5378,7 +5342,7 @@
 			<string>Asteroid9</string>
 			<string>Asteroid10</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>Environment/Asteroids/AsteroidGroup1_Metal1</string>
 			<string>Environment/Asteroids/AsteroidGroup1_Metal2</string>
@@ -5450,7 +5414,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5491,28 +5455,25 @@
 			<string>are set into the wall of a deep canyon</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>33</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_01</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_01</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_01</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_01</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>60</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.9</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -5549,7 +5510,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5560,7 +5521,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5597,29 +5558,27 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
 	<OrbType>
 		<OrbTypeId>34</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_02</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_02</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_02</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_02</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>70</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.89</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -5656,7 +5615,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5667,7 +5626,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5704,29 +5663,27 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
 	<OrbType>
 		<OrbTypeId>35</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_03</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_03</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_03</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_03</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>60</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.92</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -5763,7 +5720,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5774,7 +5731,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5811,29 +5768,27 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
 	<OrbType>
 		<OrbTypeId>36</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_04</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_04</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_04</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_04</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>60</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.88</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -5870,7 +5825,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5881,7 +5836,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -5918,29 +5873,27 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
 	<OrbType>
 		<OrbTypeId>37</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_05</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_05</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_05</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_05</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>65</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.9</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -5977,7 +5930,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -5988,7 +5941,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -6025,29 +5978,27 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
 	<OrbType>
 		<OrbTypeId>38</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Shard</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShard_06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardLarge_06</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/ShatteredPlanetShardFullsize_06</FullsizeImageFilename>
 		<SurfaceDrawType>StaticMaterial</SurfaceDrawType>
 		<AtmosphereDrawType>Undefined</AtmosphereDrawType>
 		<SurfaceMaterialFilenames>
-			<string></string>
+			<string />
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanetShard_06</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>60</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.89</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -6084,7 +6035,7 @@
 		<ColorBlendNoiseFactor>0.13</ColorBlendNoiseFactor>
 		<EnergyOutputMinimum>0</EnergyOutputMinimum>
 		<EnergyOutputMaximum>0</EnergyOutputMaximum>
-		<CommonBonuses></CommonBonuses>
+		<CommonBonuses />
 		<RingsProbability>0</RingsProbability>
 		<RingsPrimaryColor>
 			<B>0</B>
@@ -6095,7 +6046,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -6132,14 +6083,13 @@
 				<AbundanceMaximum>0.2</AbundanceMaximum>
 			</ResourcePrevalence>
 		</PossibleResources>
-		<RuinLocationDescriptions></RuinLocationDescriptions>
+		<RuinLocationDescriptions />
 	</OrbType>
-
 	<OrbType>
 		<OrbTypeId>39</OrbTypeId>
 		<Category>Asteroid</Category>
 		<Name>Destroyed Planet Asteroid</Name>
-		<Description></Description>
+		<Description />
 		<ImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06</ImageFilename>
 		<LargeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06_Large</LargeImageFilename>
 		<FullsizeImageFilename>PlanetDestroyer/ShatteredPlanet/Images/rockshard06_Fullsize</FullsizeImageFilename>
@@ -6157,7 +6107,7 @@
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanet</string>
 			<string>PlanetDestroyer/ShatteredPlanet/ShatteredPlanet</string>
 		</SurfaceMaterialFilenames>
-		<AtmosphereMaterialFilenames></AtmosphereMaterialFilenames>
+		<AtmosphereMaterialFilenames />
 		<ModelFilenames>
 			<string>PlanetDestroyer/ShatteredPlanet/rockshard01</string>
 			<string>PlanetDestroyer/ShatteredPlanet/rockshard02</string>
@@ -6170,10 +6120,8 @@
 			<string>PlanetDestroyer/ShatteredPlanet/rockshard09</string>
 			<string>PlanetDestroyer/ShatteredPlanet/rockshard10</string>
 		</ModelFilenames>
-
 		<EmissiveIntensityStart>60</EmissiveIntensityStart>
 		<EmissiveFadeoutRate>0.9</EmissiveFadeoutRate>
-
 		<AtmosphereColor>
 			<B>255</B>
 			<G>255</G>
@@ -6233,7 +6181,7 @@
 		<RingsColorVariationFactor>1</RingsColorVariationFactor>
 		<AsteroidFieldProbability>0</AsteroidFieldProbability>
 		<AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
-		<ChildTypes></ChildTypes>
+		<ChildTypes />
 		<ChildCountMinimum>0</ChildCountMinimum>
 		<ChildCountMaximum>0</ChildCountMaximum>
 		<QualityRangeMinimum>0</QualityRangeMinimum>
@@ -6274,5 +6222,4 @@
 			<string>are set into the wall of a deep canyon</string>
 		</RuinLocationDescriptions>
 	</OrbType>
-
 </ArrayOfOrbType>

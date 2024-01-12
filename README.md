@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.0](#v1190)
     - [v1.18.16](#v11816)
     - [v1.18.15](#v11815)
     - [v1.18.14](#v11814)
@@ -188,6 +189,13 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.0
+- Updated to Public Beta 1.2.0.0
+- Seriously reduced the likelihood of colonizable world types appearing at each star-system
+- Added one more level of Commerce Center to align with medical and recreation tech lineages
+- Improved role and hull naming for freighters
+- Improved the look of cold ocean worlds in-game
 
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
