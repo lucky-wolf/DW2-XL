@@ -195,6 +195,7 @@ YMMV, but this is my take on making it Extra Large!
 - Quartered the likelihood of colonizable world types appearing on the map
 - Improved the look of cold ocean worlds in-game
 - Added one more level of Commer Center
+- Improved role and hull naming for freighters so that they're not small/med/large so that they're a hint to players that you don't want to cull the small/med varants unlike everything else where you generally DO want to cull the s/m (earlier) designs entirely
 
 ### v1.18.16
 - Improved planet images a bit further so that they all have a similar feel and are a little more distinguishable at small resolutions
