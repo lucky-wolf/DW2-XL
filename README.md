@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [1.19.0-Hotfix](#1190-hotfix)
     - [v1.19.0](#v1190)
     - [v1.18.16](#v11816)
     - [v1.18.15](#v11815)
@@ -189,6 +190,9 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### 1.19.0-Hotfix
+- Reduced damage reduction by 50% globally so that you cannot get into situations where you're dealing with 100% damage reduction
 
 ### v1.19.0
 - Updated to Public Beta 1.2.0.0
