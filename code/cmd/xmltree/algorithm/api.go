@@ -9,6 +9,8 @@ import (
 	"regexp"
 )
 
+const IonFtrPDScaleFactor = 0.75
+
 var (
 	Quiet bool
 )
@@ -41,8 +43,6 @@ type ComponentData struct {
 	maxLevel    int
 	fieldValues ValuesTable
 }
-
-const IonFtrPDScaleFactor = 0.5
 
 func (statistics *Statistics) For(filename string) string {
 	return fmt.Sprintf("%s: objects found: %d, elements updated: %d of %d", filename, statistics.objects, statistics.changed, statistics.elements)
@@ -244,9 +244,9 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 					is.size = 10
 				}
 			default:
-				// non-weapons = 50% size
-				// (must be an integer value, we rounded up, but cannot exceed size 10 for any slot, and reactors would exceed it)
-				is.size = min(10, int(((1 + value) / 2)))
+				// non-weapons = 33% size
+				// (must be an integer value, rounded up, but cannot exceed size 10 for any slot, and reactors would exceed it)
+				is.size = min(10, int(((2 + value) / 3)))
 
 				e.Child("Size").SetValue(is.size)
 			}
@@ -372,11 +372,13 @@ type ComponentIs struct {
 
 func ScaleFtrOrPDIonValues(e *xmltree.XMLElement, is ComponentIs) (err error) {
 
-	if is.fighter {
-		e.Child("ComponentIonDefense").ScaleBy(IonFtrPDScaleFactor)
-		e.Child("IonDamageDefense").ScaleBy(IonFtrPDScaleFactor)
-	}
+	// allow strike craft full ion defenses
+	// if is.fighter {
+	// e.Child("ComponentIonDefense").ScaleBy(IonFtrPDScaleFactor)
+	// e.Child("IonDamageDefense").ScaleBy(IonFtrPDScaleFactor)
+	// }
 
+	// but they aren't just a ton of ion small weapons against ships (that would be OP I believe)
 	if is.weapon {
 		e.Child("WeaponIonEngineDamage").ScaleBy(IonFtrPDScaleFactor)
 		e.Child("WeaponIonHyperDriveDamage").ScaleBy(IonFtrPDScaleFactor)
