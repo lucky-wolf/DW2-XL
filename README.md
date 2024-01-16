@@ -161,6 +161,9 @@
   - [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix)
   - [DW2-XL Planetary Quality (base) Ranges](#dw2-xl-planetary-quality-base-ranges)
   - [Weapon Speeds](#weapon-speeds)
+  - [Strike Craft](#strike-craft)
+    - [Fighters](#fighters)
+    - [Bombers](#bombers)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -202,6 +205,7 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted energy use of hail cannons
 - Adjusted end game planetary facilities to cost much more
 - Made Gizureans and Quamenos "non-social" races (don't qualify for diplomatic focus line)
+- Reduced maintenance savings so it doesn't grow to extreme values
 
 ### 1.19.0-Hotfix
 - Reduced damage reduction by 50% globally so that you cannot get into situations where you're dealing with 100% damage reduction
