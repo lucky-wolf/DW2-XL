@@ -244,8 +244,10 @@ func (j *Job) ScaleComponentToComponent(file *XFile, source *xmltree.XMLElement,
 					is.size = 10
 				}
 			default:
-				// size must be an integer value (round up)
-				is.size = int(((3 + value) / 4))
+				// non-weapons = 50% size
+				// (must be an integer value, we rounded up, but cannot exceed size 10 for any slot, and reactors would exceed it)
+				is.size = min(10, int(((1 + value) / 2)))
+
 				e.Child("Size").SetValue(is.size)
 			}
 

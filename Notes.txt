@@ -17,7 +17,14 @@ LET'S fix:
 - Nova missiles
 	- genuinely high dmg / aoe
 
-add damage reduction to jammers
+- Fighters & Bombers
+	- Make all races use the same tech levels
+	- Boil these down to just what's needed (0,1,2,3,4,5)
+		- Ditch extra racial techs for Humans and Teekans
+	- Make a rational progression of
+		- Slots (General, Weapon, Defense, Engine)
+		- Bonuses (Targeting, Countermeasures, Ship Manuevering, Ion Defense, Reactive Rating)
+		- Size & Cost ($ and resources)
 
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
@@ -36,15 +43,6 @@ Specialzed Hulls
 		- Cruiser, Galaxy Cruiser
 	- Command / Sensors / Strategic?
 		- FF, DD, Cruiser, Fleet Cruiser
-
-
-- Fighters & bombers
-	- level 0:
-		- Only 1 weapon & defense slot
-	- level 1:
-		- 2/2
-	- level 2:
-		- 2/3
 
 - Bomber variants of
 	- Blasters
@@ -82,6 +80,7 @@ NULL OUT A RESEARCH PROJECT:
 		<Column>0</Column>
 		<Row>0</Row>
 	</ResearchProjectDefinition>
+
 
 race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
  0 Human 		688
@@ -476,3 +475,15 @@ Tech Bonus Categories
 ----------------------------------------------------------------------------------------
 
 Add extra levels of Trace Scanner and Trace Jammer so we have a tech/component for every tech tier with equivalent targeting / jamming values
+
+Seed: 4038832
+Size 300: Worlds: 8 - 16,836M
+Size 700: Worlds 6 - 12,695M
+
+----------------------------------------------------------------------------------------
+Tech and government reveal keys
+________________________	_________________________________________
+ResearchProjectUnlockIds	Artifacts
+ResearchProjectEnable		GameEvents
+GovernmentUnlockIds			Artifacts
+GovernmentUnlocked			GameEvents

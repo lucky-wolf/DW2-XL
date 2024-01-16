@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.1](#v1191)
     - [1.19.0-Hotfix](#1190-hotfix)
     - [v1.19.0](#v1190)
     - [v1.18.16](#v11816)
@@ -190,6 +191,17 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.1
+- Further reduced the frequency of colonizable worlds (15% of vanilla frequency)
+- Buffed Supernova Torpedo [X]
+- Added an alternate path to Human Bulwark Missiles and Hail Cannons
+- Added Human Hail Cannon [PD]
+- Removed Human Hail Cannon [M]
+- Adjusted maintenance cost of troops: 100 warbots, 200 infantry, 300 synthetics, 400 spec ops, 500 mechs, 1000 titans
+- Adjusted energy use of hail cannons
+- Adjusted end game planetary facilities to cost much more
+- Made Gizureans and Quamenos "non-social" races (don't qualify for diplomatic focus line)
 
 ### 1.19.0-Hotfix
 - Reduced damage reduction by 50% globally so that you cannot get into situations where you're dealing with 100% damage reduction
@@ -1720,23 +1732,30 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |     2200 | Blasters & Phasers                                         |
 |     5000 | DF Beams (Thuon, Graviton, Phaser, EM Beams, Shatterforce) |
 
+## Strike Craft
 
-Fighters
-| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
-| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
-| 0     | 1        | 1         | 0   | 0          | 20   | 20   | +8        |
-| 1     | 2        | 1         | 1   | 1          | 22.5 | 22.5 | +16       |
-| 2     | 2        | 2         | 2   | 2          | 25   | 25   | +24       |
-| 3     | 2        | 2         | 3   | 3          | 27.5 | 27.5 | +32       |
-| 4     | 2        | 2         | 4   | 4          | 30   | 30   | +40       |
-| 5     | 2        | 2         | 5   | 5          | 35   | 35   | +48       |
+### Fighters
+| Level | Size[0] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
+| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
+| 0     | 55      | 15   | 0        | 5   | 20              | 20        | 1      | 1      | 1       | 2       | +8          |
+| 1     | 68      | 18   | 3        | 15  | 30              | 30        | 1      | 2      | 1       | 2       | +16         |
+| 2     | 96      | 21   | 6        | 25  | 40              | 40        | 2      | 2      | 2       | 2       | +24         |
+| 3     | 119     | 24   | 9        | 35  | 50              | 50        | 2      | 3      | 2       | 3       | +32         |
+| 4     | 137     | 27   | 12       | 45  | 60              | 60        | 3      | 3      | 2       | 4       | +40         |
+| 5     | 150     | 30   | 15       | 55  | 70              | 70        | 3      | 3      | 3       | 4       | +48         |
 
-Bombers
-| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
-| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
-| 0     | 1        | 1         | 0   | 0          | 10   | 10   |           |
-| 1     | 2        | 2         | 1   | 1          | 12.5 | 12.5 | +8        |
-| 2     | 2        | 2         | 2   | 2          | 15   | 15   | +16       |
-| 3     | 2        | 3         | 3   | 3          | 17.5 | 17.5 | +24       |
-| 4     | 2        | 3         | 4   | 4          | 20   | 20   | +32       |
-| 5     | 2        | 3         | 5   | 5          | 25   | 25   | +40       |
+[0] size = hull size + weapon * 5 + engine * 10 + defense * 10 + (general * 10 - 5)
+    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
+
+### Bombers
+| Level | Size[1] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
+| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
+| 0     | 55      | 15   | 0        | 5   | 10              | 10        | 1      | 1      | 1       | 2       |             |
+| 1     | 68      | 18   | 3        | 15  | 20              | 20        | 1      | 1      | 2       | 2       | +8          |
+| 2     | 96      | 21   | 6        | 25  | 30              | 30        | 2      | 2      | 2       | 2       | +16         |
+| 3     | 109     | 24   | 9        | 35  | 40              | 40        | 2      | 2      | 2       | 3       | +24         |
+| 4     | 137     | 27   | 12       | 45  | 50              | 50        | 3      | 3      | 3       | 4       | +32         |
+| 5     | 150     | 30   | 15       | 55  | 60              | 60        | 3      | 3      | 3       | 4       | +40         |
+
+[1] size = hull size + weapon * 10 + engine * 10 + defense * 10 + (general * 10 - 5)
+    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
