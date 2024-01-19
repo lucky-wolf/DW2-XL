@@ -199,12 +199,20 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.1
+- 1.2.0.2 Compatible
 - Increased resources on colonizable worlds (because they're rarer, the resources must be found on them more often to avoid gimping the player and AIs)
 - Buffed Supernova Torpedo [X]
 - Added an alternate path to Human Bulwark Missiles and Hail Cannons
 - Added Human Hail Cannon [PD]
 - Removed Human Hail Cannon [M]
-- Adjusted maintenance cost of troops: 100 warbots, 200 infantry, 300 synthetics, 400 spec ops, 500 mechs, 1000 titans
+- Adjusted maintenance cost of troops:
+  - 200 Warbots
+  - 250 Infantry
+  - 300 Special Operations
+  - 400 Planetary Defense Units
+  - 450 Synthetic Units
+  - 500 Mechs
+  - 2000 Titans
 - Adjusted energy use of hail cannons
 - Adjusted end game planetary facilities to cost much more
 - Made Gizureans and Quamenos "non-social" races (don't qualify for diplomatic focus line)
@@ -213,6 +221,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fighters & bomber weapons now attack with ion at 75% of their ship equivalents (not much of a threat for full ion defenses at same tech level, but quickly become a threat at mismatched tech levels or if you let your ion defenses lapse)
 - Humans and Teekans use the same Fighter & Bomber techs, but still have better strikecraft for their racial specials
 - Continued to improve naming so like components are listed together in the ship designer
+- Added +1% All Research bonus to ancient knowledge technologies
 
 ### 1.19.0-Hotfix
 - Reduced damage reduction by 50% globally so that you cannot get into situations where you're dealing with 100% damage reduction
