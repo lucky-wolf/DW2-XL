@@ -334,7 +334,7 @@ func (j *Job) applyIonWeapons() (err error) {
 	}
 
 	// apply stats for each component
-	err = j.ApplyAll(components)
+	err = j.ApplyComponentAll(components)
 
 	return
 }
