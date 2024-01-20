@@ -84,7 +84,7 @@ func (j *Job) applyHyperDrives() (err error) {
 	}
 
 	componentSchedule := map[string]map[string]schedule{
-		"Snap Drive": {
+		"Hyperdrive, Snap": {
 			"ComponentIonDefense":          avg,
 			"HyperDriveBlockingInsulation": avg,
 			"HyperDriveEnergyUsage":        avg,
@@ -94,7 +94,7 @@ func (j *Job) applyHyperDrives() (err error) {
 			"HyperDriveJumpRange":          avg,
 			"HyperDriveJumpAccuracy":       avg,
 		},
-		"Sojourn Drive": {
+		"Hyperdrive, Sojourn": {
 			"ComponentIonDefense":          avg,
 			"HyperDriveBlockingInsulation": avg,
 			"HyperDriveEnergyUsage":        avg,
@@ -104,7 +104,7 @@ func (j *Job) applyHyperDrives() (err error) {
 			"HyperDriveJumpRange":          best,
 			"HyperDriveJumpAccuracy":       avg,
 		},
-		"Hyperstream Drive": {
+		"Hyperdrive, Hyperstream": {
 			"ComponentIonDefense":          avg,
 			"HyperDriveBlockingInsulation": avg,
 			"HyperDriveEnergyUsage":        worse,
@@ -114,7 +114,7 @@ func (j *Job) applyHyperDrives() (err error) {
 			"HyperDriveJumpRange":          avg,
 			"HyperDriveJumpAccuracy":       avg,
 		},
-		"Smart Drive": {
+		"Hyperdrive, Smart": {
 			"ComponentIonDefense":          avg,
 			"HyperDriveBlockingInsulation": avg,
 			"HyperDriveEnergyUsage":        best,
@@ -124,7 +124,7 @@ func (j *Job) applyHyperDrives() (err error) {
 			"HyperDriveJumpRange":          good,
 			"HyperDriveJumpAccuracy":       avg,
 		},
-		"Velocity Drive": {
+		"Hyperdrive, Velocity": {
 			"ComponentIonDefense":          avg,
 			"HyperDriveBlockingInsulation": avg,
 			"HyperDriveEnergyUsage":        good,
@@ -173,7 +173,7 @@ func (j *Job) applyHyperDrives() (err error) {
 		return nil
 	}
 
-	for _, drive := range []string{"Snap Drive", "Sojourn Drive", "Hyperstream Drive", "Smart Drive", "Velocity Drive"} {
+	for _, drive := range []string{"Hyperdrive, Snap", "Hyperdrive, Sojourn", "Hyperdrive, Hyperstream", "Hyperdrive, Smart", "Hyperdrive, Velocity"} {
 		err = applyStats(drive)
 		if err != nil {
 			return

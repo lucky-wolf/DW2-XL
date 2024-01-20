@@ -3,6 +3,7 @@ package xmltree
 import (
 	"fmt"
 	"log"
+	"lucky-wolf/DW2-XL/code/cmd/etc"
 )
 
 // returns XMLElements only
@@ -88,17 +89,21 @@ func CloneContents(contents any) any {
 }
 
 // ensures we have count copies of our first element
-func (v *XMLValue) SetElementCount(count int) (err error) {
+func (v *XMLValue) SetElementCountByCopyingFirstElementAsNeeded(count int) (err error) {
 
-	stats := v.Elements()
-	switch l := len(stats); {
+	elements := v.Elements()
+	l := len(elements)
+	switch {
+
 	case l == 0:
 		return fmt.Errorf("no elements found")
+
 	case l < count:
 		log.Printf("extending by %d elements", count-l)
 		for i := l; i < count; i++ {
-			v.Append(stats[0])
+			v.Append(elements[0])
 		}
+
 	case l > count:
 		log.Printf("truncating by %d elements", l-count)
 		v.Truncate(count)
@@ -134,6 +139,39 @@ func (v *XMLValue) Truncate(count int) (err error) {
 	default:
 		// v.contents = []any{t, e.Clone()}
 		err = fmt.Errorf("truncate requires []any")
+	}
+
+	return
+}
+
+// we must already be a []any or we error
+func (v *XMLValue) InsertCopyOf(index, copy int) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		t = etc.InsertAt(t, index, t[copy])
+
+	default:
+		// v.contents = []any{t, e.Clone()}
+		err = fmt.Errorf("append requires []any")
+	}
+
+	return
+}
+
+// we must already be a []any or we error
+// WARN! we'll use the element you hand us, if you need to copy it, use e.Clone() when calling us!
+func (v *XMLValue) InsertAt(index int, e *XMLElement) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		t = etc.InsertAt(t, index, any(e))
+
+	default:
+		// v.contents = []any{t, e.Clone()}
+		err = fmt.Errorf("append requires []any")
 	}
 
 	return

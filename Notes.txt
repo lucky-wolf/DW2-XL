@@ -17,7 +17,14 @@ LET'S fix:
 - Nova missiles
 	- genuinely high dmg / aoe
 
-add damage reduction to jammers
+- Fighters & Bombers
+	- Make all races use the same tech levels
+	- Boil these down to just what's needed (0,1,2,3,4,5)
+		- Ditch extra racial techs for Humans and Teekans
+	- Make a rational progression of
+		- Slots (General, Weapon, Defense, Engine)
+		- Bonuses (Targeting, Countermeasures, Ship Manuevering, Ion Defense, Reactive Rating)
+		- Size & Cost ($ and resources)
 
 <!-- TODO: separate upper tier planetary defense installations and use higher tier weapon effects for them -->
 <!-- TODO: maybe make a script to sync them against a base component with a known scaling factor for all types -->
@@ -36,15 +43,6 @@ Specialzed Hulls
 		- Cruiser, Galaxy Cruiser
 	- Command / Sensors / Strategic?
 		- FF, DD, Cruiser, Fleet Cruiser
-
-
-- Fighters & bombers
-	- level 0:
-		- Only 1 weapon & defense slot
-	- level 1:
-		- 2/2
-	- level 2:
-		- 2/3
 
 - Bomber variants of
 	- Blasters
@@ -82,6 +80,7 @@ NULL OUT A RESEARCH PROJECT:
 		<Column>0</Column>
 		<Row>0</Row>
 	</ResearchProjectDefinition>
+
 
 race-id, name, diplomacy tech (BASIC, EFFECTIVE +1, ADVANCED +2, COMPLETE +3)
  0 Human 		688
@@ -154,6 +153,100 @@ PQ is currently
 .2 - .7 volcanic,  Sulphur volcanic
 .3 - .7 snow, ice, tundra, deserts (all), savannah
 .4 - .8 continental, swamp, mangrove, oceans, grasslands, forests
+
+----------------------------------------
+	Construction Resources
+----------------------------------------
+
+0	Emeros Crystal
+1	Nekros Stone
+2	Osalia
+3	Kaasian Crystal
+6	Tyderios
+7	Silicon
+8	Steel
+9	Mebnar
+10	Aculon
+11	Cuprica
+12	Polymer
+13	Carbonite
+77	Dyrillium Quartz
+78	Hexodorium
+
+----------------------------------------
+	Gaseous Resources
+----------------------------------------
+
+4	Argon
+5	Krypton
+14	Caslon
+
+----------------------------------------
+	Luxury Resources
+----------------------------------------
+
+15	Loros Fruit
+16	Megallos Nut
+17	Falajian Spice
+18	Korabbian Spice
+19	Ekarus Meat
+20	Nepthys Wine
+21	Rephidium Ale
+22	Wiconium
+23	Vodkol
+24	Questurian Skin
+25	Bifurian Silk
+26	Caguar Fur
+27	Terallion Down
+28	Dantha Fur
+29	Aquasian Incense
+30	Natarran Incense
+31	Zentabia Fluid
+32	Ilosian Jade
+33	Otandium Opal
+34	Jakanta Ivory
+35	Ucantium Pearl
+36	Yarras Marble
+37	Podanthia Root
+38	Vofula Scent
+39	Suculos Wood
+40	Copandil
+41	Norjak Eggs
+42	Breqiian Berries
+43	Kasotti
+44	Oksunum Steak
+45	Attarion Fur
+46	Muurion Wine
+47	Inkasdia Fruit
+48	Feraxian Firestone
+49	Vakala Crystal
+50	Decarion Ale
+51	Obrudan Amber
+52	Yapara Leaf
+53	Giraxian Nectar
+54	Hapek Obsidian
+55	Lukaarin Fungus
+56	Rhylig
+57	Shudasta Scales
+58	Tebraakian Granite
+59	Xukantar
+60	Korduva Grain
+61	Losarn Syrup
+62	Akrasan Amber
+63	Doakan Tea
+64	Yotapian Onyx
+65	Hyutil Resin
+66	Darkhul Tentacles
+67	Sokalian Brandy
+68	Bartak Wood
+69	Wruzos Anemone
+70	Tassont Moth Fiber
+71	Ordulos Shell
+72	Tebrullian Moss
+73	Sarrobia Coral
+74	Korhuga Beans
+75	Ardilus Tentacles
+76	Gravillex Crystal
 
 ----------------------------------------
 -                 ROWS                 -
@@ -476,3 +569,33 @@ Tech Bonus Categories
 ----------------------------------------------------------------------------------------
 
 Add extra levels of Trace Scanner and Trace Jammer so we have a tech/component for every tech tier with equivalent targeting / jamming values
+
+Seed: 4038832
+Size 300: Worlds: 8 - 16,836M
+Size 700: Worlds 6 - 12,695M
+
+----------------------------------------------------------------------------------------
+Tech and government reveal keys
+________________________	_________________________________________
+ResearchProjectUnlockIds	Artifacts
+ResearchProjectEnable		GameEvents
+GovernmentUnlockIds			Artifacts
+GovernmentUnlocked			GameEvents
+
+
+
+Bombers
+0	0
+1	1
+2	2
+3	4
+4	5
+5	6
+
+Fighters
+0	0
+1	1
+2	4
+3	9
+4	13
+5	15

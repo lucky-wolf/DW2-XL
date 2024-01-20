@@ -1458,7 +1458,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			<IndexFactor>
 				<Index>1</Index>
 				<!-- Mercantile Guild -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.25</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>2</Index>
@@ -1488,7 +1488,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			<IndexFactor>
 				<Index>51</Index>
 				<!-- Archivists -->
-				<Factor>0.1</Factor>
+				<Factor>-0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>7</Index>
@@ -1498,12 +1498,12 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			<IndexFactor>
 				<Index>8</Index>
 				<!-- Way of Darkness -->
-				<Factor>-0.1</Factor>
+				<Factor>0.1</Factor>
 			</IndexFactor>
 			<IndexFactor>
 				<Index>9</Index>
 				<!-- Way of the Ancients -->
-				<Factor>-0.1</Factor>
+				<Factor>-0.2</Factor>
 			</IndexFactor>
 		</Biases>
 		<Bonuses>
@@ -1549,7 +1549,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1581,7 +1581,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			</Bonus>
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2071,7 +2071,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.5</Amount>
+				<Amount>0.9</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2103,7 +2103,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>TourismIncome</Type>
-				<Amount>-0.5</Amount>
+				<Amount>-0.9</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2119,7 +2119,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2127,7 +2127,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2167,13 +2167,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
+		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
 		<Stability>1.3</Stability>
-		<ConcernForOwnReputation>0.2</ConcernForOwnReputation>
-		<ImportanceOfOthersReputations>0.8</ImportanceOfOthersReputations>
+		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.1</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
 		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
 		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
@@ -2186,13 +2186,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			<string>Limitless</string>
 			<string>Omnipotent</string>
 			<string>Omniscient</string>
-			<string>Voracious</string>
+			<!-- <string>Voracious</string> -->
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Collective</string>
 			<string>Consciousness</string>
-			<string>Hive</string>
-			<string>Swarm</string>
+			<!-- <string>Hive</string> -->
+			<!-- <string>Swarm</string> -->
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -2589,7 +2589,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.1</Amount>
+				<Amount>-0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2613,7 +2613,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2860,7 +2860,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.1</Amount>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>

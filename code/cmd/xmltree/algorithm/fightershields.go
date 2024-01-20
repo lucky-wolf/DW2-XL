@@ -72,7 +72,7 @@ func (j *Job) applyFighterShields() (err error) {
 				}
 
 				// do it
-				err = j.ScaleComponentToComponent(f, source, e)
+				err = j.DeriveFromComponent(f, source, e)
 				if err != nil {
 					return
 				}

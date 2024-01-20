@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.1](#v1191)
     - [1.19.0-Hotfix](#1190-hotfix)
     - [v1.19.0](#v1190)
     - [v1.18.16](#v11816)
@@ -160,6 +161,12 @@
   - [DW2-XL Habitability Matrix](#dw2-xl-habitability-matrix)
   - [DW2-XL Planetary Quality (base) Ranges](#dw2-xl-planetary-quality-base-ranges)
   - [Weapon Speeds](#weapon-speeds)
+  - [Strike Craft](#strike-craft)
+    - [Fighter Stats](#fighter-stats)
+    - [Bomber Stats](#bomber-stats)
+    - [Hull mappings from vanilla files](#hull-mappings-from-vanilla-files)
+      - [Fighter Naming](#fighter-naming)
+        - [Unused in XL](#unused-in-xl)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -190,6 +197,33 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.1
+- 1.2.0.2 Compatible
+  - Added new race policy settings for tech preferences
+  - Added resource costs for repeatable techs
+- Increased resources on colonizable worlds (because they're rarer, the resources must be found on them more often to avoid gimping the player and AIs)
+- Buffed Supernova Torpedo [X]
+- Added an alternate path to Human Bulwark Missiles and Hail Cannons
+- Added Human Hail Cannon [PD]
+- Removed Human Hail Cannon [M]
+- Adjusted maintenance cost of troops:
+  - 200 Warbots
+  - 250 Infantry
+  - 300 Special Operations
+  - 400 Planetary Defense Units
+  - 450 Synthetic Units
+  - 500 Mechs
+  - 2000 Titans
+- Adjusted energy use of hail cannons
+- Adjusted end game planetary facilities to cost much more
+- Made Gizureans and Quamenos "non-social" races (don't qualify for diplomatic focus line)
+- Reduced maintenance savings so it doesn't grow to extreme values
+- Fighters & bomber components now defend against ion same as their ship equivalents
+- Fighters & bomber weapons now attack with ion at 75% of their ship equivalents (not much of a threat for full ion defenses at same tech level, but quickly become a threat at mismatched tech levels or if you let your ion defenses lapse)
+- Humans and Teekans use the same Fighter & Bomber techs, but still have better strikecraft for their racial specials
+- Continued to improve naming so like components are listed together in the ship designer
+- Added +1% All Research bonus to ancient knowledge technologies
 
 ### 1.19.0-Hotfix
 - Reduced damage reduction by 50% globally so that you cannot get into situations where you're dealing with 100% damage reduction
@@ -610,7 +644,7 @@ YMMV, but this is my take on making it Extra Large!
 - Better aligned the repeatable techs with XL's tech tree
 - Fixed some repeatable techs' components so they refer to the right things
 - Reduced the size range of habitable planets by -1000 (was 4000-6500, now 3000-5500)
-- Tweaked Pulsed Ion Engines (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
+- Tweaked Engines, Pulsed Ions (Nimble Engines) to be 2x as nimble as the other variants to give them some actual draw to using them
 - Changed all hyperdrives to have accuracy of 2000 to try to cope with the BUGGY DW2 ENGINE that tries to jump endless and cannot ever arrive at their destination
 - Tweaked policies to also attempt to address the MASSIVELY BUGGY and BROKEN DW2 that tries to order & build thousands of troops at every mature world
 
@@ -672,7 +706,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.15.5
 - Updated for 1.1.4.9 beta (not required)
-- Reduced the Caslon Reactor efficiency to limit early game expansion
+- Reduced the Reactor, Caslon efficiency to limit early game expansion
 - Broke out Administration Facilities into separate buildings, rather than upgrades
   - Hopefully this allows the AIs to build them and be a bit more competitive further into the game
 - Super techs now cost between T9 and T10 levels
@@ -1105,7 +1139,7 @@ YMMV, but this is my take on making it Extra Large!
   - Increased size to 20
 - Fighters & Bombers
   - Missile systems are now always "large" (size 6)
-  - Teekan and Human racial tech-lines now all lead to Space Superiority Fighters as the endgame tech
+  - Teekan and Human racial tech-lines now all lead to Space Fighter VIs as the endgame tech
 - Star Beams (Zenox only)
   - Added another endgame tier
   - Tweaked / balanced some of their numbers to better align with other techs
@@ -1599,74 +1633,74 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 
 ## DW2-XL Reactors
 
-| Ship Reactor                          | Tech | Size | Energy | Capacity | Fuel Efficiency |
-| ------------------------------------- | ---: | ---: | -----: | -------: | --------------: |
-| Caslon Reactor                        |    0 |   23 |   54/s |       90 |      2.333/1000 |
-| Caslon Reactor (v2)                   |    1 |   23 |   68/s |      115 |      1.739/1000 |
-| Caslon Fusion Reactor                 |    2 |   16 |   80/s |      120 |      1.500/1000 |
-| Caslon Fusion Reactor (v2)            |    3 |    - |  100/s |      144 |      1.400/1000 |
-| Caslon Fusion Reactor (v3)            |    4 |    - |  120/s |      173 |      1.300/1000 |
-| Caslon Hyperfusion Reactor            |    5 |   14 |  160/s |      200 |      1.200/1000 |
-| Caslon Hyperfusion Reactor (v2)       |    6 |    - |  200/s |      240 |      1.100/1000 |
-| Caslon Hyperfusion Reactor (v3)       |    7 |    - |  240/s |      280 |      1.000/1000 |
-| Harmonic Caslon Reactor               |    2 |   20 |  120/s |      144 |      1.700/1000 |
-| Harmonic Caslon Reactor (v2)          |    3 |    - |  140/s |      173 |      1.600/1000 |
-| Harmonic Caslon Reactor (v3)          |    4 |    - |  160/s |      207 |      1.500/1000 |
-| Resonant Caslon Reactor               |    5 |   18 |  200/s |      240 |      1.400/1000 |
-| Resonant Caslon Reactor (v2)          |    6 |    - |  240/s |      288 |      1.300/1000 |
-| Resonant Caslon Reactor (v3)          |    7 |    - |  280/s |      346 |      1.200/1000 |
-| Plasmatic Caslon Reactor              |    2 |   24 |  160/s |      216 |      1.900/1000 |
-| Plasmatic Caslon Reactor (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
-| Plasmatic Caslon Reactor (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
-| Plasmatic Caslon Cycling Reactor      |    5 |   22 |  240/s |      360 |      1.600/1000 |
-| Plasmatic Caslon Cycling Reactor (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
-| Plasmatic Caslon Cycling Reactor (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
-| Zero Point Reactor                    |    8 |   20 |  311/s |      605 |      1.000/1000 |
-| Dark Star Reactor                     |   12 |   20 |  500/s |     1000 |      0.900/1000 |
+| Ship Reactor                           | Tech | Size | Energy | Capacity | Fuel Efficiency |
+| -------------------------------------- | ---: | ---: | -----: | -------: | --------------: |
+| Reactor, Caslon                        |    0 |   23 |   54/s |       90 |      2.333/1000 |
+| Reactor, Caslon (v2)                   |    1 |   23 |   68/s |      115 |      1.739/1000 |
+| Reactor, Caslon Fusion                 |    2 |   16 |   80/s |      120 |      1.500/1000 |
+| Reactor, Caslon Fusion (v2)            |    3 |    - |  100/s |      144 |      1.400/1000 |
+| Reactor, Caslon Fusion (v3)            |    4 |    - |  120/s |      173 |      1.300/1000 |
+| Reactor, Caslon Hyperfusion            |    5 |   14 |  160/s |      200 |      1.200/1000 |
+| Reactor, Caslon Hyperfusion (v2)       |    6 |    - |  200/s |      240 |      1.100/1000 |
+| Reactor, Caslon Hyperfusion (v3)       |    7 |    - |  240/s |      280 |      1.000/1000 |
+| Reactor, Harmonic Caslon               |    2 |   20 |  120/s |      144 |      1.700/1000 |
+| Reactor, Harmonic Caslon (v2)          |    3 |    - |  140/s |      173 |      1.600/1000 |
+| Reactor, Harmonic Caslon (v3)          |    4 |    - |  160/s |      207 |      1.500/1000 |
+| Reactor, Resonant Caslon               |    5 |   18 |  200/s |      240 |      1.400/1000 |
+| Reactor, Resonant Caslon (v2)          |    6 |    - |  240/s |      288 |      1.300/1000 |
+| Reactor, Resonant Caslon (v3)          |    7 |    - |  280/s |      346 |      1.200/1000 |
+| Reactor, Plasmatic Caslon              |    2 |   24 |  160/s |      216 |      1.900/1000 |
+| Reactor, Plasmatic Caslon (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
+| Reactor, Plasmatic Caslon (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
+| Reactor, Plasmatic Caslon Cycling      |    5 |   22 |  240/s |      360 |      1.600/1000 |
+| Reactor, Plasmatic Caslon Cycling (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
+| Reactor, Plasmatic Caslon Cycling (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
+| Reactor, Zero Point                    |    8 |   20 |  311/s |      605 |      1.000/1000 |
+| Reactor, Dark Star                     |   12 |   20 |  500/s |     1000 |      0.900/1000 |
 
 ## DW2-XL Hyperdrives
 
-| Hyperdrive            | Tech | Size |   Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
-| --------------------- | ---: | ---: | ------: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
-| Skip Drive            |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
-| Warp Bubble Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
-| Sojourn               |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Smart                 |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Smart (v2)            |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Smart (v3)            |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Smart (v4)            |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
-| Snap                  |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
-| Snap (v2)             |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
-| Snap (v3)             |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
-| Snap (v4)             |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
-| Hyperstream           |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
-| Hyperstream (v2)      |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
-| Hyperstream (v3)      |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
-| Hyperstream (v4)      |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
-| Wormhole              |   11 |   20 | 10,000K |  480M |      150 |            10 |         200/s |         2s |       2s |          10 |         50 |
+| Hyperdrive           | Tech | Size |   Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
+| -------------------- | ---: | ---: | ------: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
+| Skip                 |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
+| Warp Field Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
+| Sojourn              |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
+| Smart                |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
+| Smart (v2)           |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
+| Smart (v3)           |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
+| Smart (v4)           |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
+| Snap                 |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
+| Snap (v2)            |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
+| Snap (v3)            |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
+| Snap (v4)            |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
+| Hyperstream          |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
+| Hyperstream (v2)     |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
+| Hyperstream (v3)     |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
+| Hyperstream (v4)     |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
+| Wormhole             |   11 |   20 | 10,000K |  480M |      150 |            10 |         200/s |         2s |       2s |          10 |         50 |
 
 ## DW2-XL Engines
 
-| Ship Engine               | Tech | Size | Max Thrust | Max Energy | Cruise Thrust | Cruise Energy | Vector Thrust | Vector Energy | Countermeasures | Ion Defense |
-| ------------------------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
-| Ion Engine                |    0 |   20 |      15.0K |      2.8/s |           12K |         2.0/s |            70 |         2.0/s |                 |             |
-| Ion Engine (v2)           |    1 |    - |      16.5K |      2.0/s |         13.2K |         1.4/s |            90 |         1.0/s |            2.5% |           1 |
-| Compact Ion Engine        |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
-| Compact Ion Engine (v2)   |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
-| Compact Ion Engine (v3)   |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
-| Pulsed Ion Engine         |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
-| Pulsed Ion Engine (v2)    |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
-| Pulsed Ion Engine (v3)    |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
-| Acceleros Engine          |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
-| Acceleros Engine (v2)     |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
-| Acceleros Engine (v3)     |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
-| TurboThruster Engine      |    2 |   17 |      23.1K |      4.5/s |         16.5K |         3.0/s |           115 |         1.0/s |            5.0% |           2 |
-| TurboThruster Engine (v2) |    3 |    - |    26.429K |      6.0/s |       19.516K |         4.0/s |           145 |         1.0/s |            7.5% |           3 |
-| TurboThruster Engine (v3) |    4 |    - |    34.357K |     10.0/s |       23.429K |         5.0/s |           185 |         1.0/s |           10.0% |           4 |
-| Vortex Engine             |    6 |   15 |    27.953K |      6.0/s |       24.396K |         5.0/s |           225 |         1.0/s |           15.0% |           6 |
-| Vortex Engine (v2)        |    7 |    - |    34.942K |      7.0/s |       30.494K |         6.0/s |           300 |         1.0/s |           17.5% |           7 |
-| Vortex Engine (v3)        |    8 |    - |    43.677K |      8.0/s |       38.118K |         7.0/s |           375 |         1.0/s |           20.0% |           8 |
-| Infinite Flux Drive       |   12 |   15 |      50.0K |     12.0/s |         40.0K |         9.0/s |           400 |         1.0/s |           25.0% |          10 |
+| Ship Engine                  | Tech | Size | Max Thrust | Max Energy | Cruise Thrust | Cruise Energy | Vector Thrust | Vector Energy | Countermeasures | Ion Defense |
+| ---------------------------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
+| Engines, Ion                 |    0 |   20 |      15.0K |      2.8/s |           12K |         2.0/s |            70 |         2.0/s |                 |             |
+| Engines, Ion (v2)            |    1 |    - |      16.5K |      2.0/s |         13.2K |         1.4/s |            90 |         1.0/s |            2.5% |           1 |
+| Engines, Compact Ion         |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
+| Engines, Compact Ion (v2)    |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
+| Engines, Compact Ion (v3)    |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
+| Engines, Pulsed Ion          |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
+| Engines, Pulsed Ion (v2)     |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
+| Engines, Pulsed Ion (v3)     |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
+| Engines, Acceleros           |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
+| Engines, Acceleros (v2)      |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
+| Engines, Acceleros (v3)      |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
+| Engines, Turbo Thruster      |    2 |   17 |      23.1K |      4.5/s |         16.5K |         3.0/s |           115 |         1.0/s |            5.0% |           2 |
+| Engines, Turbo Thruster (v2) |    3 |    - |    26.429K |      6.0/s |       19.516K |         4.0/s |           145 |         1.0/s |            7.5% |           3 |
+| Engines, Turbo Thruster (v3) |    4 |    - |    34.357K |     10.0/s |       23.429K |         5.0/s |           185 |         1.0/s |           10.0% |           4 |
+| Engines, Vortex              |    6 |   15 |    27.953K |      6.0/s |       24.396K |         5.0/s |           225 |         1.0/s |           15.0% |           6 |
+| Engines, Vortex (v2)         |    7 |    - |    34.942K |      7.0/s |       30.494K |         6.0/s |           300 |         1.0/s |           17.5% |           7 |
+| Engines, Vortex (v3)         |    8 |    - |    43.677K |      8.0/s |       38.118K |         7.0/s |           375 |         1.0/s |           20.0% |           8 |
+| Engines, Infinite Flux       |   12 |   15 |      50.0K |     12.0/s |         40.0K |         9.0/s |           400 |         1.0/s |           25.0% |          10 |
 
 ## DW2-XL Habitability Matrix
 
@@ -1720,23 +1754,66 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 |     2200 | Blasters & Phasers                                         |
 |     5000 | DF Beams (Thuon, Graviton, Phaser, EM Beams, Shatterforce) |
 
+## Strike Craft
 
-Fighters
-| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
-| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
-| 0     | 1        | 1         | 0   | 0          | 20   | 20   | +8        |
-| 1     | 2        | 1         | 1   | 1          | 22.5 | 22.5 | +16       |
-| 2     | 2        | 2         | 2   | 2          | 25   | 25   | +24       |
-| 3     | 2        | 2         | 3   | 3          | 27.5 | 27.5 | +32       |
-| 4     | 2        | 2         | 4   | 4          | 30   | 30   | +40       |
-| 5     | 2        | 2         | 5   | 5          | 35   | 35   | +48       |
+### Fighter Stats
 
-Bombers
-| level | #weapons | #defenses | ion | reflective | +atk | +def | +maneuver |
-| ----- | -------- | --------- | --- | ---------- | ---- | ---- | --------- |
-| 0     | 1        | 1         | 0   | 0          | 10   | 10   |           |
-| 1     | 2        | 2         | 1   | 1          | 12.5 | 12.5 | +8        |
-| 2     | 2        | 2         | 2   | 2          | 15   | 15   | +16       |
-| 3     | 2        | 3         | 3   | 3          | 17.5 | 17.5 | +24       |
-| 4     | 2        | 3         | 4   | 4          | 20   | 20   | +32       |
-| 5     | 2        | 3         | 5   | 5          | 25   | 25   | +40       |
+| Level | Size[0] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
+| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
+| 0     | 56      | 15   | 0        | 0   | 33              | 8         | 1      | 1      | 1       | 2       | 20          |
+| 2     | 69      | 18   | 3        | 12  | 26              | 14        | 2      | 2      | 1       | 2       | 12          |
+| 4     | 96      | 20   | 6        | 24  | 30              | 26        | 2      | 2      | 2       | 3       | 14          |
+| 9     | 119     | 24   | 9        | 36  | 37              | 40        | 2      | 3      | 2       | 3       | 18          |
+| 13    | 137     | 25   | 12       | 48  | 50              | 58        | 2      | 3      | 3       | 4       | 30          |
+| 15    | 150     | 26   | 15       | 60  | 54              | 70        | 3      | 3      | 3       | 4       | 36          |
+
+[0] size = hull size + weapon * 5 + engine * 10 + defense * 10 + (general * 10 - 5)
+    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
+
+### Bomber Stats
+
+| Level | Size[1] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
+| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
+| 0     | 55      | 15   | 0        | 5   | 10              | 10        | 1      | 1      | 1       | 2       | 8           |
+| 1     | 68      | 18   | 3        | 15  | 20              | 20        | 1      | 1      | 2       | 2       | 10          |
+| 2     | 96      | 21   | 6        | 25  | 30              | 30        | 2      | 2      | 2       | 2       | 12          |
+| 4     | 109     | 24   | 9        | 35  | 40              | 40        | 2      | 2      | 2       | 3       | 14          |
+| 5     | 137     | 27   | 12       | 45  | 50              | 50        | 3      | 3      | 3       | 4       | 16          |
+| 6     | 150     | 30   | 15       | 55  | 60              | 60        | 3      | 3      | 3       | 4       | 18          |
+
+[1] size = hull size + weapon * 10 + engine * 10 + defense * 10 + (general * 10 - 5)
+    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
+
+### Hull mappings from vanilla files
+
+You can use this chart to see what the original vanilla files used for "level" that correspond to a simple linear system used by XL
+
+#### Fighter Naming
+
+| Level | Standard    | Human                     | Teekan             |
+| ----- | ----------- | ------------------------- | ------------------ |
+| 0     | Fighter I   | Gyrfalcon Interceptor I   | ZimZip Fighter I   |
+| 2     | Fighter II  | Gyrfalcon Interceptor II  | ZimZip Fighter II  |
+| 4     | Fighter III | Gyrfalcon Interceptor III | ZimZip Fighter III |
+| 9     | Fighter IV  | Gyrfalcon Interceptor IV  | ZimZip Fighter IV  |
+| 13    | Fighter V   | Gyrfalcon Interceptor V   | ZimZip Fighter V   |
+| 15    | Fighter X   | Gyrfalcon Interceptor X   | ZimZip Fighter X   |
+
+##### Unused in XL
+
+| FighterInterceptor Level |
+| ------------------------ |
+| 1                        |
+| 3                        |
+| 5                        |
+| 6                        |
+| 7                        |
+| 8                        |
+| 10                       |
+| 11                       |
+| 12                       |
+| 14                       |
+
+| FighterBomber Level |
+| ------------------- |
+| 3                   |

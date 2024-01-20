@@ -1330,120 +1330,26 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Human Strike Interceptors -->
 		<ResearchProjectId>1024</ResearchProjectId>
-		<Name>Strike Interceptors</Name>
+		<Name>Undefined: (1024 - Human Strike Interceptors)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
-		<InitiationCost>
-			<Money>506250</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>9100</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>4550</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>243</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>547</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1016</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>12</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- ZimZip Fighter Vs -->
 		<ResearchProjectId>1025</ResearchProjectId>
-		<Name>Strike Attack Shuttles</Name>
+		<Name>Undefined: (1025 - Teekan ZimZip Fighter Vs)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
-		<InitiationCost>
-			<Money>506250</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>9100</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>4550</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>246</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>549</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1016</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>14</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1026</ResearchProjectId>
@@ -3278,10 +3184,10 @@
 				<ComponentId>298</ComponentId>
 				<Level>2</Level>
 			</Component>
-			<Component>
+			<!-- <Component>
 				<ComponentId>518</ComponentId>
 				<Level>2</Level>
-			</Component>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -4387,6 +4293,16 @@
 				<RaceId>10</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Gizurean cannot be diplomats -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno are not diplomats -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<!-- Social races only -->
@@ -4463,12 +4379,6 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<!-- Quameno -->
-				<ResearchProjectId>750</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
 				<!-- Securan -->
 				<ResearchProjectId>754</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -4493,8 +4403,8 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- Xeno Studies requires four other social races -->
-		<PrerequisiteProjectsMinimumPathCount>5</PrerequisiteProjectsMinimumPathCount>
+		<!-- Xeno Studies requires three other social races at the 3rd level of xeno understanding -->
+		<PrerequisiteProjectsMinimumPathCount>4</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>1002</short>
 		</PlanetaryFacilityIds>
@@ -5682,7 +5592,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1100</ResearchProjectId>
-		<Name>Advanced Multi-Tracking Sensors</Name>
+		<Name>Short Range Sensors, Advanced Multilock</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -5738,7 +5648,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1101</ResearchProjectId>
-		<Name>Superior Multi-Tracking Sensors</Name>
+		<Name>Short Range Sensors, Superior Multilock</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -5794,7 +5704,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1102</ResearchProjectId>
-		<Name>Optimal Multi-Tracking Sensors</Name>
+		<Name>Short Range Sensors, Optimal Multilock</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>

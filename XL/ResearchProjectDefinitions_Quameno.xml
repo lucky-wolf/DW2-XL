@@ -561,6 +561,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -587,6 +594,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>

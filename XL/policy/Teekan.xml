@@ -315,4 +315,17 @@
 		<string></string>
 		<string></string>
 	</PreferredComponentFamilyPerCategory>
+	<WeaponLevelIntercept>1</WeaponLevelIntercept>
+	<WeaponLevelIon>1.5</WeaponLevelIon>
+	<WeaponLevelArea>0.5</WeaponLevelArea>
+	<WeaponLevelBombard>0.5</WeaponLevelBombard>
+	<WeaponLevelFighters>1.5</WeaponLevelFighters>
+	<WeaponLowestRoleIon>Frigate</WeaponLowestRoleIon>
+	<WeaponLowestRoleArea>CapitalShip</WeaponLowestRoleArea>
+	<WeaponLowestRoleBombard>CapitalShip</WeaponLowestRoleBombard>
+	<WeaponLowestRoleFighters>Destroyer</WeaponLowestRoleFighters>
+	<ComponentFocusReactor>Neutral</ComponentFocusReactor>
+	<ComponentFocusShield>RechargeRate</ComponentFocusShield>
+	<ComponentFocusHyperdrive>JumpInitiationTime</ComponentFocusHyperdrive>
+	<ComponentFocusEngine>Thrust</ComponentFocusEngine>
 </EmpirePolicy>

@@ -62,7 +62,7 @@ func (j *Job) applyFighterWeaponsAndPD() (err error) {
 				}
 
 				// find the corresponding small weapon by name
-				sourceName := GetComponentSourceName(targetName, IsWhat(e))
+				sourceName := GetComponentSourceName(targetName, GetComponentIsms(e))
 				source, _ := j.FindElement("Name", sourceName)
 				if source == nil {
 					log.Printf("Missing: %s (for %s)", sourceName, targetName)
@@ -75,7 +75,7 @@ func (j *Job) applyFighterWeaponsAndPD() (err error) {
 				}
 
 				// do it
-				err = j.ScaleComponentToComponent(f, source, e)
+				err = j.DeriveFromComponent(f, source, e)
 				if err != nil {
 					return
 				}

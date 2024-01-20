@@ -4573,25 +4573,39 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Advanced Point Defense -->
+				<ResearchProjectId>70</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Advanced Rail Batteries -->
 				<ResearchProjectId>102</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>0</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- Either one -->
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>45</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>298</ComponentId>
+				<ComponentId>593</ComponentId>
 				<Level>0</Level>
 			</Component>
 			<Component>
-				<ComponentId>518</ComponentId>
+				<ComponentId>298</ComponentId>
 				<Level>0</Level>
 			</Component>
+			<!-- <Component>
+				<ComponentId>518</ComponentId>
+				<Level>0</Level>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -5866,12 +5880,22 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>62</ResearchProjectId>
+				<!-- Aegis Defense -->
+				<ResearchProjectId>128</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Fast Missiles -->
+				<ResearchProjectId>39</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>0</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<!-- Unlocks through either PD or S/M line -->
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>573</ComponentId>
@@ -7549,13 +7573,17 @@
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>298</ComponentId>
+				<ComponentId>593</ComponentId>
 				<Level>1</Level>
 			</Component>
 			<Component>
-				<ComponentId>518</ComponentId>
+				<ComponentId>298</ComponentId>
 				<Level>1</Level>
 			</Component>
+			<!-- <Component>
+				<ComponentId>518</ComponentId>
+				<Level>1</Level>
+			</Component> -->
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -10291,6 +10319,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10322,6 +10372,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10354,6 +10426,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10385,6 +10479,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10417,6 +10529,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10449,6 +10579,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10480,6 +10628,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10511,6 +10689,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10542,6 +10750,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10573,6 +10811,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10604,6 +10872,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10635,6 +10933,36 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10666,6 +10994,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10705,6 +11043,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10743,6 +11091,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10781,6 +11139,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10828,6 +11204,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10895,6 +11293,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -10954,6 +11374,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11017,6 +11459,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11074,6 +11534,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11133,6 +11611,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11164,6 +11660,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11195,6 +11709,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11226,6 +11758,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11285,6 +11839,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11326,6 +11902,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11366,6 +11964,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -12914,18 +13534,8 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>247</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
-			<!-- Humans have better tech -->
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-			<!-- Teekans have better tech -->
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
 			<!-- Gizurean have better fighters -->
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -12934,11 +13544,13 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Fighter Hangars -->
 				<ResearchProjectId>265</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Stellar Hangars -->
 				<ResearchProjectId>1165</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -12948,56 +13560,19 @@
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
-				<Level>1</Level>
+				<Level>2</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>285</ResearchProjectId>
-		<Name>ZimZip Fighters</Name>
+		<Name>Undefined (285 - ZimZip Fighters)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
-		<InitiationCost>
-			<Money>1500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>150</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>150</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>246</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>265</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>3</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>286</ResearchProjectId>
@@ -13722,18 +14297,8 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>247</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
-			<!-- Humans have better tech -->
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-			<!-- Teekans have better tech -->
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
 			<!-- Gizurean have better fighters -->
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -15960,18 +16525,8 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>247</Row>
+		<Row>245</Row>
 		<DisallowedRaceIds>
-			<!-- Humans have better tech -->
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-			<!-- Teekans have better tech -->
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
 			<!-- Gizurean have better fighters -->
 			<RaceProbability>
 				<RaceId>11</RaceId>
@@ -17222,51 +17777,15 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Human Interceptors -->
 		<ResearchProjectId>378</ResearchProjectId>
-		<Name>Interceptors</Name>
+		<Name>Undefined: (378 - Human Interceptors)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>300</Size>
-		<InitiationCost>
-			<Money>1500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>150</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>150</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
-		<Row>243</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>265</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>3</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>379</ResearchProjectId>
@@ -21021,17 +21540,17 @@
 		<ResearchProjectId>474</ResearchProjectId>
 		<Name>Unlimited Trade</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>600</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -21720,61 +22239,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>492</ResearchProjectId>
-		<Name>Improved ZimZip Fighters</Name>
+		<Name>Undefined (492 - Improved ZimZip Fighters)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
-		<InitiationCost>
-			<Money>13500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>600</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>600</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>246</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>285</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>379</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>6</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>493</ResearchProjectId>
@@ -22689,62 +23160,15 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Human Improved Interceptors -->
 		<ResearchProjectId>512</ResearchProjectId>
-		<Name>Improved Interceptors</Name>
+		<Name>Undefined: (512 - Human Improved Interceptors)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2700</Size>
-		<InitiationCost>
-			<Money>13500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>1200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>600</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>600</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>300</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>4</Column>
-		<Row>243</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>378</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>379</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>7</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>513</ResearchProjectId>
@@ -23002,7 +23426,7 @@
 				<RaceId>7</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<!-- Superior Multi-Tracking Sensors -->
+				<!-- Short Range Sensors, Superior Multilock -->
 				<ResearchProjectId>1101</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -24097,66 +24521,19 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
+		<!-- Human Advanced Interceptors -->
 		<ResearchProjectId>547</ResearchProjectId>
-		<Name>Advanced Interceptors</Name>
+		<Name>Undefined: (547 - Human Advanced Interceptors)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
-		<InitiationCost>
-			<Money>101250</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>2400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>2400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>1200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>243</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>512</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1023</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>11</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>548</ResearchProjectId>
-		<Name>Strike Fighters</Name>
+		<Name>Fighter Vs</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -24187,19 +24564,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>247</Row>
-		<DisallowedRaceIds>
-			<!-- Humans have better tech -->
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-			<!-- Teekans have better tech -->
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
+		<Row>245</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>305</ResearchProjectId>
@@ -24234,61 +24599,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>549</ResearchProjectId>
-		<Name>Advanced ZimZip Fighters</Name>
+		<Name>Undefined (549 - Advanced ZimZip Fighters)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
-		<InitiationCost>
-			<Money>101250</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>2400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>2400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>1200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>246</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>2</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>492</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1023</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>10</Level>
-			</ShipHullReference>
-		</ShipHulls>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>550</ResearchProjectId>
@@ -25240,21 +25557,21 @@
 		<ResearchProjectId>572</ResearchProjectId>
 		<Name>Advanced Commerce</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>50625</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>253125</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>9600</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>9600</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -25987,7 +26304,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>587</ResearchProjectId>
-		<Name>Space Superiority Fighters</Name>
+		<Name>Space Fighter VIs</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -26014,34 +26331,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>247</Row>
+		<Row>245</Row>
 		<PrerequisiteProjects>
-			<!-- Ikkuro going from t2 to t10 isn't happening in XL -->
 			<ResearchPath>
 				<ResearchProjectId>548</ResearchProjectId>
-				<PathAppearanceLikelihood>0.75</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>548</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>1</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1024</ResearchProjectId>
-				<PathAppearanceLikelihood>0.75</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>0</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1025</ResearchProjectId>
-				<PathAppearanceLikelihood>0.75</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>2</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>FighterInterceptor</Role>
@@ -26994,6 +27291,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27065,6 +27384,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27124,6 +27465,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27183,6 +27546,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27239,6 +27620,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27267,6 +27670,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27306,6 +27731,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27345,6 +27792,32 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27366,6 +27839,32 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27412,6 +27911,32 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27458,6 +27983,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27489,6 +28036,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27520,6 +28089,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27544,6 +28135,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27585,6 +28198,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27626,6 +28261,28 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27677,6 +28334,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27708,6 +28375,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27739,6 +28416,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -27846,7 +28533,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>247</Row>
+		<Row>246</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>587</ResearchProjectId>
@@ -27993,6 +28680,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28055,6 +28756,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28117,6 +28832,12 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28148,6 +28869,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28208,6 +28947,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28229,6 +28982,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28268,6 +29035,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28331,6 +29108,16 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28363,6 +29150,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28394,6 +29199,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28425,6 +29248,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28446,6 +29287,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -28539,6 +29394,20 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -29156,6 +30025,16 @@
 				<RaceId>10</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
+			<!-- Gizurean cannot be diplomats -->
+			<RaceProbability>
+				<RaceId>11</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<!-- Quameno are not diplomats -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<!-- Social races only -->
@@ -29228,12 +30107,6 @@
 			<ResearchPath>
 				<!-- Naxxilian -->
 				<ResearchProjectId>745</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<!-- Quameno -->
-				<ResearchProjectId>749</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -32830,6 +33703,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -32937,6 +33828,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -33052,6 +33961,24 @@
 		<Size>455625</Size>
 		<InitiationCost>
 			<Money>2278125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>2</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4050</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -34247,6 +35174,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34277,6 +35211,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34303,6 +35244,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34557,6 +35505,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34583,6 +35538,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34617,6 +35579,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34643,6 +35612,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34677,6 +35653,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34703,6 +35686,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34737,6 +35727,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34763,6 +35760,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34797,6 +35801,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34823,6 +35834,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34857,6 +35875,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34883,6 +35908,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34917,6 +35949,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -34943,6 +35982,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -34977,6 +36023,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -35003,6 +36056,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -35037,6 +36097,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -35063,6 +36130,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -35097,6 +36171,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -35123,6 +36204,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -35157,6 +36245,13 @@
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
 		</EmpireBonuses>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
@@ -35183,6 +36278,13 @@
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
 				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.01</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
