@@ -200,6 +200,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.19.1
 - 1.2.0.2 Compatible
+  - Added new race policy settings for tech preferences
+  - Added resource costs for repeatable techs
 - Increased resources on colonizable worlds (because they're rarer, the resources must be found on them more often to avoid gimping the player and AIs)
 - Buffed Supernova Torpedo [X]
 - Added an alternate path to Human Bulwark Missiles and Hail Cannons
