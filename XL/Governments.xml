@@ -2167,13 +2167,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementDisruption>50</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
-		<Stability>1.3</Stability>
-		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
-		<ImportanceOfOthersReputations>0.1</ImportanceOfOthersReputations>
+		<Stability>5.0</Stability>
+		<ConcernForOwnReputation>0.01</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.01</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
 		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
 		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
@@ -2182,14 +2182,15 @@ Hive Mind government type is only available to the Boskara race.</Description>
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Great</string>
-			<string>Limitless</string>
+			<!-- <string>Great</string> -->
+			<!-- <string>Limitless</string> -->
 			<string>Omnipotent</string>
 			<string>Omniscient</string>
 			<!-- <string>Voracious</string> -->
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Collective</string>
+			<!-- <string>Collective</string> -->
+			<string>Awareness</string>
 			<string>Consciousness</string>
 			<!-- <string>Hive</string> -->
 			<!-- <string>Swarm</string> -->

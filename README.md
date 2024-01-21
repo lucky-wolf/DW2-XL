@@ -204,6 +204,8 @@ YMMV, but this is my take on making it Extra Large!
 - Upgraded assault pod shield penetration to partly compensate
 - Rejiggered racial governments allowed to better reflect racial character
 - Adjusted Hive Mind to give more appropriate starting techs
+- Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
+- Adjusted Hive Mind to give a House of the One facility at homeworld which offers some nice perks for your homeworld only
 - Added missing Hail Cannon [PD] (v2)
 - Buffed Bulwark Missiles range and final damage values to better distinguish them
 - Fixed "Strike Fighters" tech name (had be overwritten as Fighter Vs)

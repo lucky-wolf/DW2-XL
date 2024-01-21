@@ -211,4 +211,49 @@
 		<Name>Technosphere Citadel</Name>
 		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1013</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<!-- hive homeworld grows like gangbusters -->
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<!-- hive homeworld is a very tough nut to crack -->
+				<Type>ColonyDefense</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<!-- hive minds simply do not pay for troops at their homeworld -->
+				<Type>TroopMaintenance</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<!-- hive minds simply do not pay for facilities at their homeworld -->
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>250</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>66</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>House of the One</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>
