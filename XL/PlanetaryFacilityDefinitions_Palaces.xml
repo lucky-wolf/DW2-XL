@@ -214,6 +214,7 @@
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1013</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
+			<!-- note: local bonuses are weird and not just what you think they sho8uld be -->
 			<Bonus>
 				<!-- hive homeworld grows like gangbusters -->
 				<Type>ColonyPopulationGrowthRate</Type>
@@ -227,15 +228,15 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<!-- hive minds simply do not pay for troops at their homeworld -->
+				<!-- hive minds have cheap troops stationed at homeworld -->
 				<Type>TroopMaintenance</Type>
-				<Amount>1</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<!-- hive minds simply do not pay for facilities at their homeworld -->
+				<!-- hive minds have cheap facilities at their homeworld -->
 				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>1</Amount>
+				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
