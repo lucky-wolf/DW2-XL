@@ -33,16 +33,15 @@
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
 			<short>2</short>
-			<short>3</short>
-			<short>0</short>
-			<short>4</short>
-			<short>5</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
+			<!-- Republic -->
 			<short>0</short>
+			<!-- Democracy -->
 			<short>2</short>
-			<short>3</short>
+			<!-- Monarchy -->
 			<short>4</short>
+			<!-- Stratocracy -->
 			<short>5</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
@@ -663,7 +662,9 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<ImportanceOfOthersReputations>1.3</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Technocracy -->
 			<short>6</short>
+			<!-- Republic -->
 			<short>0</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
@@ -1175,7 +1176,9 @@ Ackdarians prefer Ocean worlds.</Description>
 		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Mercantile -->
 			<short>1</short>
+			<!-- Monarchy -->
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
@@ -1677,14 +1680,15 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Mercantile -->
 			<short>1</short>
+			<!-- Monarchy -->
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
 			<short>0</short>
 			<short>1</short>
 			<short>2</short>
-			<short>3</short>
 			<short>4</short>
 			<short>5</short>
 		</AllowableGovernmentIds>
@@ -2168,13 +2172,15 @@ Haakonish typically live in fully-enclosed biospheres in coastal areas of Marshy
 		<ImportanceOfOthersReputations>0.6</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Tribal -->
 			<short>3</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
-			<short>0</short>
-			<short>2</short>
+			<!-- Tribal -->
 			<short>3</short>
+			<!-- Monarchy -->
 			<short>4</short>
+			<!-- Stratocracy -->
 			<short>5</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
@@ -3047,10 +3053,11 @@ They typically live in tree-dwellings high in the forest canopies on Forest, Con
 		<Dependability>0.6</Dependability>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Hive Mind -->
 			<short>7</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
-			<!-- Boskarans are Hive Mind only in XL -->
+			<!-- Hive Mind -->
 			<short>7</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
@@ -3554,15 +3561,13 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 		<ImportanceOfOthersReputations>1.4</ImportanceOfOthersReputations>
 		<IsPlayable>true</IsPlayable>
 		<PreferredGovernmentIds>
+			<!-- Archivist -->
 			<short>51</short>
+			<!-- Monarchy -->
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
-			<short>0</short>
-			<short>2</short>
-			<short>3</short>
 			<short>4</short>
-			<short>5</short>
 			<short>51</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>

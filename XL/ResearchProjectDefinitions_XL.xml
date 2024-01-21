@@ -1341,9 +1341,9 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<!-- ZimZip Fighter Vs -->
+		<!-- ZimZip Strike Fighters -->
 		<ResearchProjectId>1025</ResearchProjectId>
-		<Name>Undefined: (1025 - Teekan ZimZip Fighter Vs)</Name>
+		<Name>Undefined: (1025 - Teekan ZimZip Strike Fighters)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
@@ -3178,6 +3178,10 @@
 		<Components>
 			<Component>
 				<ComponentId>45</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>593</ComponentId>
 				<Level>2</Level>
 			</Component>
 			<Component>

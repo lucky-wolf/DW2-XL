@@ -200,6 +200,13 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.2
+- Greatly improved planetary shields
+- Upgraded assault pod shield penetration to partly compensate
+- Rejiggered racial governments allowed to better reflect racial character
+- Adjusted Hive Mind to give more appropriate starting techs
+- Added missing Hail Cannon [PD] (v2)
+- Buffed Bulwark Missiles range and final damage values to better distinguish them
+- Fixed "Strike Fighters" tech name (had be overwritten as Fighter Vs)
 
 ### v1.19.1
 - 1.2.0.2 Compatible
