@@ -208,7 +208,7 @@ YMMV, but this is my take on making it Extra Large!
 - Rejiggered racial governments allowed to better reflect racial character
 - Adjusted Hive Mind to give more appropriate starting techs
 - Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
-- Adjusted Hive Mind to give a House of the One facility at homeworld which offers some nice perks for your homeworld only
+- Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
 - Added Plasma Blasters and Firestorm Torpedoes for every tech level from 2 to 10
 - Gave Plasma Blasters a +10% to hit
 - Gave Firestorm Torpedoes a +20% to hit
