@@ -200,6 +200,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.2
+- NEW COMPONENT ICONS thanks to @Salemonz!
 - Greatly improved planetary shields
 - Upgraded assault pod shield penetration to partly compensate
 - Added missing Hail Cannon [PD] (v2)
@@ -209,9 +210,9 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Hive Mind to give more appropriate starting techs
 - Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
 - Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
-- Added Plasma Blasters and Firestorm Torpedoes for every tech level from 2 to 10
-- Gave Plasma Blasters a +10% to hit
-- Gave Firestorm Torpedoes a +20% to hit
+- Fixed Plasma Blasters [L] size
+- Gave Plasma Blasters a +10% to hit, and extended them to level 10
+- Gave Firestorm Torpedoes a +20% to hit, and extended them to level 10
 - Nerfed Epsilon Torpedoes by ~6%
 
 ### v1.19.1
