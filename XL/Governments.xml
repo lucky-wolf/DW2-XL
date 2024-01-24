@@ -1058,7 +1058,7 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 		<LeaderReplacementDisruption>15</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
-		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
 		<Stability>0.9</Stability>
 		<ConcernForOwnReputation>0.9</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>1.6</ImportanceOfOthersReputations>
@@ -1659,7 +1659,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			<CharacterRole>FleetAdmiral</CharacterRole>
 			<CharacterRole>TroopGeneral</CharacterRole>
 		</LeaderReplacementCharacterPool>
-		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
 		<Stability>0.7</Stability>
 		<ConcernForOwnReputation>0.5</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>0.3</ImportanceOfOthersReputations>
@@ -2166,14 +2166,14 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 		</Bonuses>
-		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>50</LeaderReplacementDisruption>
+		<LeaderReplacementTypicalPeriod>500</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>30</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
-		<Stability>5.0</Stability>
-		<ConcernForOwnReputation>0.01</ConcernForOwnReputation>
-		<ImportanceOfOthersReputations>0.01</ImportanceOfOthersReputations>
+		<Stability>1.9</Stability>
+		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.1</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
 		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
 		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
