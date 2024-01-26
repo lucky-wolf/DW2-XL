@@ -13,6 +13,8 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.3](#v1193)
+    - [v1.19.2](#v1192)
     - [v1.19.1](#v1191)
     - [1.19.0-Hotfix](#1190-hotfix)
     - [v1.19.0](#v1190)
@@ -197,6 +199,31 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.3
+- Quick patch that fixes some derivative components (fighter and pd variants)
+
+### v1.19.2
+- NEW Component images thanks to @Salemonz!
+- NEW Facility images thanks to @Salemonz!
+- Doubled missile launch cadence so that they can react better to multiple targets (less overkill)
+- Added bombard capacity to heavy missiles
+- Greatly buffed planetary shields
+- Improved assault pod shield-penetration
+- Adjusted which governments are available to various races to better reflect racial character
+- Adjusted Hive Mind to give more appropriate starting techs
+- Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
+- Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
+- Nerfed Epsilon Torpedoes by ~6%
+- Buffed Boskaran Plasma Blasters by +10% to hit, filled them in and extended them to level 10
+- Fixed Boskaran Plasma Blasters [L] size (was set to medium)
+- Buffed Boskaran Firestorm Torpedoes a +20% to hit, filled them in and extended them to level 10
+- Fixed missing Human Hail Cannon [PD] (v2)
+- Buffed Human Bulwark Missiles range and damage
+- Filled out Human Bulwark Missile techs and started them one tech lower so there are six levels of them now
+- Fixed "Strike Fighters" tech name (had been overwritten as "Fighter Vs")
+- Fixed Intense Beam Point Defense to enable Shatterforce [PD] (v3)
+- 1.2.0.4 Compatible
 
 ### v1.19.1
 - 1.2.0.2 Compatible

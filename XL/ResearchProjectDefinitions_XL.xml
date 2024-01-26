@@ -1341,9 +1341,9 @@
 		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<!-- ZimZip Fighter Vs -->
+		<!-- ZimZip Strike Fighters -->
 		<ResearchProjectId>1025</ResearchProjectId>
-		<Name>Undefined: (1025 - Teekan ZimZip Fighter Vs)</Name>
+		<Name>Undefined: (1025 - Teekan ZimZip Strike Fighters)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>0</Size>
 		<EnabledByDefault>false</EnabledByDefault>
@@ -2051,37 +2051,37 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1040</ResearchProjectId>
-		<Name>Extreme Plasma Charge</Name>
+		<Name>Focused Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>5</Column>
 		<Row>61</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -2343,13 +2343,13 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>36</ResearchProjectId>
+				<ResearchProjectId>95</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>6</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>36</ResearchProjectId>
+				<ResearchProjectId>95</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>20</RaceId>
@@ -2364,37 +2364,37 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1045</ResearchProjectId>
-		<Name>Resonant Heavy Plasma Charge</Name>
+		<Name>Focused Heavy Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>60</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -2429,37 +2429,37 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1046</ResearchProjectId>
-		<Name>Extreme Heavy Plasma Charge</Name>
+		<Name>Hyper Heavy Plasma Charge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>0</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>11</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>60</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -3181,6 +3181,10 @@
 				<Level>2</Level>
 			</Component>
 			<Component>
+				<ComponentId>593</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
 				<ComponentId>298</ComponentId>
 				<Level>2</Level>
 			</Component>
@@ -3751,31 +3755,31 @@
 		<ResearchProjectId>1070</ResearchProjectId>
 		<Name>Extreme Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>7</Column>
 		<Row>81</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -5486,7 +5490,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1098</ResearchProjectId>
-		<Name>Compacted Pulse Weapons</Name>
+		<Name>Compacted Energy Discharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -5537,25 +5541,25 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1099</ResearchProjectId>
-		<Name>Superior Plasma Weapons</Name>
+		<Name>Extreme Plasma Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>1</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>6</Column>
 		<Row>35</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -8356,9 +8360,9 @@
 		<ResearchProjectId>1178</ResearchProjectId>
 		<Name>Improved Max Hull Size (Battleships)</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -8411,9 +8415,9 @@
 		<ResearchProjectId>1180</ResearchProjectId>
 		<Name>Improved Shield Strength</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -8450,9 +8454,9 @@
 		<ResearchProjectId>1181</ResearchProjectId>
 		<Name>Improved Shield Recharge</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -8489,9 +8493,9 @@
 		<ResearchProjectId>1182</ResearchProjectId>
 		<Name>Increased Assault Strength</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -8520,9 +8524,9 @@
 		<ResearchProjectId>1183</ResearchProjectId>
 		<Name>Increased Boarding Range</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -8551,9 +8555,9 @@
 		<ResearchProjectId>1184</ResearchProjectId>
 		<Name>Improved Assault Pod Speed</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -9545,7 +9549,7 @@
 		<Components>
 			<Component>
 				<ComponentId>564</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -11824,9 +11828,9 @@
 		<ResearchProjectId>1249</ResearchProjectId>
 		<Name>Improved Engine Thrust</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11865,9 +11869,9 @@
 		<ResearchProjectId>1250</ResearchProjectId>
 		<Name>Reduced Engine Energy Usage</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -11906,9 +11910,9 @@
 		<ResearchProjectId>1251</ResearchProjectId>
 		<Name>Reduced Engine Size</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -12270,9 +12274,9 @@
 		<ResearchProjectId>1258</ResearchProjectId>
 		<Name>Advanced Planetary Bastions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -12350,7 +12354,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1260</ResearchProjectId>
-		<Name>Core-Linked Pulse Beams</Name>
+		<Name>Core-Linked Blaster Emplacements</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -12550,9 +12554,9 @@
 		<ResearchProjectId>1265</ResearchProjectId>
 		<Name>Improved Missile Damage</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -12589,9 +12593,9 @@
 		<ResearchProjectId>1266</ResearchProjectId>
 		<Name>Increased Missile Range</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>455625</Size>
+		<Size>303750</Size>
 		<InitiationCost>
-			<Money>2278125</Money>
+			<Money>1518750</Money>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
@@ -13211,6 +13215,1028 @@
 			<Component>
 				<ComponentId>87</ComponentId>
 				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1285</ResearchProjectId>
+		<Name>Hyper Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>6</Column>
+		<Row>61</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1040</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1040</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>24</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>235</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>236</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1286</ResearchProjectId>
+		<Name>Dense Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>61</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1285</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1285</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>24</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>235</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>236</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1287</ResearchProjectId>
+		<Name>Extreme Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>61</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1286</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1286</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>24</ComponentId>
+				<Level>6</Level>
+			</Component>
+			<Component>
+				<ComponentId>235</ComponentId>
+				<Level>6</Level>
+			</Component>
+			<Component>
+				<ComponentId>236</ComponentId>
+				<Level>6</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1288</ResearchProjectId>
+		<Name>Super Dense Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>61</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1287</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1287</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>24</ComponentId>
+				<Level>7</Level>
+			</Component>
+			<Component>
+				<ComponentId>235</ComponentId>
+				<Level>7</Level>
+			</Component>
+			<Component>
+				<ComponentId>236</ComponentId>
+				<Level>7</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1289</ResearchProjectId>
+		<Name>Seismic Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>61</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1288</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1288</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>24</ComponentId>
+				<Level>8</Level>
+			</Component>
+			<Component>
+				<ComponentId>235</ComponentId>
+				<Level>8</Level>
+			</Component>
+			<Component>
+				<ComponentId>236</ComponentId>
+				<Level>8</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1290</ResearchProjectId>
+		<Name>Dense Heavy Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>60</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1046</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1046</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>161</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1291</ResearchProjectId>
+		<Name>Extreme Heavy Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>60</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1290</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1290</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>161</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1292</ResearchProjectId>
+		<Name>Super Heavy Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>60</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1291</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1291</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>161</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1293</ResearchProjectId>
+		<Name>Ultra Heavy Plasma Charge</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>0</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>11</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>60</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+			<RaceProbability>
+				<RaceId>20</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1292</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1292</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>20</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>161</ComponentId>
+				<Level>6</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1294</ResearchProjectId>
+		<Name>Exo-Plasma Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1099</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>245</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>247</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>250</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>5</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1295</ResearchProjectId>
+		<Name>Quasi-Plasma Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1294</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>245</ComponentId>
+				<Level>6</Level>
+			</Component>
+			<Component>
+				<ComponentId>247</ComponentId>
+				<Level>6</Level>
+			</Component>
+			<Component>
+				<ComponentId>250</ComponentId>
+				<Level>6</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>6</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1296</ResearchProjectId>
+		<Name>Super Plasmatic Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1295</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>245</ComponentId>
+				<Level>7</Level>
+			</Component>
+			<Component>
+				<ComponentId>247</ComponentId>
+				<Level>7</Level>
+			</Component>
+			<Component>
+				<ComponentId>250</ComponentId>
+				<Level>7</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>7</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1297</ResearchProjectId>
+		<Name>Perfected Plasmatic Weapons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>1</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1296</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>6</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>245</ComponentId>
+				<Level>8</Level>
+			</Component>
+			<Component>
+				<ComponentId>247</ComponentId>
+				<Level>8</Level>
+			</Component>
+			<Component>
+				<ComponentId>250</ComponentId>
+				<Level>8</Level>
+			</Component>
+			<Component>
+				<ComponentId>570</ComponentId>
+				<Level>8</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1298</ResearchProjectId>
+		<Name>Hyper Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1070</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1299</ResearchProjectId>
+		<Name>Superior Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1298</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1300</ResearchProjectId>
+		<Name>Ultimate Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1299</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

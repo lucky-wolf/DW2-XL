@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>16</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<PlanetaryShieldMaximumDamageAbsorbed>250</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.15</PlanetaryShieldPenetrationChance>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Planetary Shield Generators</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>17</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<PlanetaryShieldMaximumDamageAbsorbed>500</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.10</PlanetaryShieldPenetrationChance>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Expanded Planetary Shield Generators</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1003</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<PlanetaryShieldMaximumDamageAbsorbed>750</PlanetaryShieldMaximumDamageAbsorbed>
+		<PlanetaryShieldPenetrationChance>0.05</PlanetaryShieldPenetrationChance>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<FacilityFamilyId>8</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<QualityBoost>0</QualityBoost>
+		<Name>Colossal Planetary Shield Generator</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Shield Generator</ImageFilename>
+	</PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

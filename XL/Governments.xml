@@ -130,16 +130,16 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>-0.1</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -668,16 +668,16 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>-0.1</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -942,14 +942,6 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>ColonyPopulationGrowthRate</Type>
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -958,16 +950,16 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.1</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>MiningRate</Type>
-				<Amount>0.2</Amount>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -984,6 +976,14 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 			<Bonus>
 				<Type>TradeIncome</Type>
 				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1059,7 +1059,7 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
-		<Stability>0.9</Stability>
+		<Stability>0.8</Stability>
 		<ConcernForOwnReputation>0.9</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>1.6</ImportanceOfOthersReputations>
 		<UsesCabinet>true</UsesCabinet>
@@ -1261,14 +1261,14 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
-			<Bonus>
+			<!-- <Bonus>
 				<Type>TourismIncome</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
 				<Amount>0.1</Amount>
@@ -1347,7 +1347,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
-		<Stability>0.85</Stability>
+		<Stability>0.9</Stability>
 		<ConcernForOwnReputation>1.6</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>1.8</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
@@ -1659,8 +1659,8 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			<CharacterRole>FleetAdmiral</CharacterRole>
 			<CharacterRole>TroopGeneral</CharacterRole>
 		</LeaderReplacementCharacterPool>
-		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
-		<Stability>0.7</Stability>
+		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
+		<Stability>0.8</Stability>
 		<ConcernForOwnReputation>0.5</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>0.3</ImportanceOfOthersReputations>
 		<UsesCabinet>true</UsesCabinet>
@@ -1671,9 +1671,8 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Iron</string>
-			<string>Steel</string>
 			<string>Supreme</string>
+			<string>Steadfast</string>
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
 			<string>Domain</string>
@@ -1929,7 +1928,7 @@ In Hive Minds all work is divided amongst distinct social castes. Some castes ar
 
 Hive Mind government type is only available to the Boskara race.</Description>
 		<ImageFilename></ImageFilename>
-		<LeaderTitle>Conduit</LeaderTitle>
+		<LeaderTitle>Consciousness</LeaderTitle>
 		<CabinetTitle></CabinetTitle>
 		<EconomicFactors>
 			<IncomeFactors>
@@ -2166,12 +2165,12 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 		</Bonuses>
-		<LeaderReplacementTypicalPeriod>1000</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+		<LeaderReplacementTypicalPeriod>500</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>30</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
-		<Stability>1.3</Stability>
+		<Stability>1.9</Stability>
 		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>0.1</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
@@ -2182,17 +2181,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 		<EmpireNameAdjectives>
-			<string>Great</string>
-			<string>Limitless</string>
 			<string>Omnipotent</string>
 			<string>Omniscient</string>
-			<!-- <string>Voracious</string> -->
 		</EmpireNameAdjectives>
 		<EmpireNameNouns>
-			<string>Collective</string>
+			<string>Awareness</string>
 			<string>Consciousness</string>
-			<!-- <string>Hive</string> -->
-			<!-- <string>Swarm</string> -->
+			<string>Supremacy</string>
 		</EmpireNameNouns>
 	</Government>
 	<Government>
@@ -2365,6 +2360,22 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -2397,14 +2408,6 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyCorruptionReduction</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
-			<Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -2420,21 +2423,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
-			<Bonus>
-				<Type>ColonyIncome</Type>
-				<Amount>0</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>80</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
-		<Stability>1</Stability>
+		<Stability>1.4</Stability>
 		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>0.5</ImportanceOfOthersReputations>
 		<UsesCabinet>false</UsesCabinet>
@@ -2596,16 +2591,16 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.2</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.1</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2843,16 +2838,16 @@ Hive Mind government type is only available to the Boskara race.</Description>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.1</Amount>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>ColonyPopulationGrowthRate</Type>
-				<Amount>0.05</Amount>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2912,7 +2907,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 		<LeaderReplacementBoost>10</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
-		<Stability>1.4</Stability>
+		<Stability>1.2</Stability>
 		<ConcernForOwnReputation>1.5</ConcernForOwnReputation>
 		<ImportanceOfOthersReputations>1.7</ImportanceOfOthersReputations>
 		<UsesCabinet>true</UsesCabinet>

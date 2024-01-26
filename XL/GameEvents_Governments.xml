@@ -3047,11 +3047,11 @@ Worry not that we will execute your directions with all professional alacrity as
 				<MessageTitle>Hive Mind</MessageTitle>
 				<Description>The hive is ready to serve! We have completed some important breakthroughs in:
 
-[ULI][RESEARCH]Improved Logistics[/RESEARCH][/ULI]
 [ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
+[ULI][RESEARCH]Zero-G Combat[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Crew Compartments[/RESEARCH][/ULI]
 [ULI][RESEARCH]Stellar Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Military Transports[/RESEARCH][/ULI]
-[ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
 
 Our first army awaits your command at our homeworld...
 				</Description>
@@ -3077,19 +3077,20 @@ Our first army awaits your command at our homeworld...
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>BuildFacility</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Logistics -->
-				<Id1>27</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
+				<!-- Seat of Consciousness -->
+				<Id1>1013</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3115,6 +3116,60 @@ Our first army awaits your command at our homeworld...
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Assault Pods -->
 				<Id1>264</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Zero-G Combat -->
+				<Id1>26</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Improved Crew Compartments -->
+				<Id1>1179</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -3185,33 +3240,6 @@ Our first army awaits your command at our homeworld...
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Stellar Frigates -->
-				<Id1>680</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
 				<Type>GenerateTroops</Type>
 				<MessageTitle />
 				<Description />
@@ -3224,7 +3252,7 @@ Our first army awaits your command at our homeworld...
 				<!-- id here is the troop id -->
 				<Id1>22</Id1>
 				<!-- value1 is the count of troops created -->
-				<Value1>10</Value1>
+				<Value1>8</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -3241,7 +3269,7 @@ Our first army awaits your command at our homeworld...
 						<LookupValue>6</LookupValue>
 						<VariableName />
 						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
+						<ComparisonValue>1000000000</ComparisonValue>
 					</GameEventCondition>
 				</Conditions>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
