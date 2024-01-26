@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.3](#v1193)
     - [v1.19.2](#v1192)
     - [v1.19.1](#v1191)
     - [1.19.0-Hotfix](#1190-hotfix)
@@ -198,6 +199,9 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.3
+- Quick patch that fixes some derivative components (fighter and pd variants)
 
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
