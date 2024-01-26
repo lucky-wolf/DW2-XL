@@ -202,7 +202,8 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
 - NEW Facility images thanks to @Salemonz!
-- Overhauled Missiles (again) so that they fire ~2x as often with 1/2 the volley size to make them much more flexible (less overkill, more flexibility in what they target)
+- Doubled missile launch cadence so that they can react better to multiple targets (less overkill)
+- Added bombard capacity to heavy missiles
 - Greatly buffed planetary shields
 - Improved assault pod shield-penetration
 - Adjusted which governments are available to various races to better reflect racial character
