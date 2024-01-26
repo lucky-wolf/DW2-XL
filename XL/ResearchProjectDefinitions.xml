@@ -229,7 +229,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>9</ResearchProjectId>
-		<Name>Blaster Weapons</Name>
+		<Name>Maxos Blaster Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -5846,31 +5846,31 @@
 		<ResearchProjectId>127</ResearchProjectId>
 		<Name>Predictive Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>101250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>4800</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
+		<Column>5</Column>
 		<Row>81</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -5880,15 +5880,15 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<!-- Aegis Defense -->
-				<ResearchProjectId>128</ResearchProjectId>
+				<!-- Advanced Interceptor Missiles -->
+				<ResearchProjectId>62</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>0</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<!-- Fast Missiles -->
-				<ResearchProjectId>39</ResearchProjectId>
+				<!-- Advanced Missiles -->
+				<ResearchProjectId>64</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>0</RaceId>
@@ -8661,31 +8661,31 @@
 		<ResearchProjectId>182</ResearchProjectId>
 		<Name>Robust Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>20250</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>101250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>6</Column>
 		<Row>81</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -33434,7 +33434,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>768</ResearchProjectId>
-		<Name>Blasters</Name>
+		<Name>Blaster Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>

@@ -202,6 +202,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
 - NEW Facility images thanks to @Salemonz!
+- Overhauled Missiles (again) so that they fire ~2x as often with 1/2 the volley size to make them much more flexible (less overkill, more flexibility in what they target)
 - Greatly buffed planetary shields
 - Improved assault pod shield-penetration
 - Adjusted which governments are available to various races to better reflect racial character
@@ -209,12 +210,14 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
 - Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
 - Nerfed Epsilon Torpedoes by ~6%
-- Buffed Boskaran Plasma Blasters by +10% to hit, and extended them to level 10
+- Buffed Boskaran Plasma Blasters by +10% to hit, filled them in and extended them to level 10
 - Fixed Boskaran Plasma Blasters [L] size (was set to medium)
-- Buffed Boskaran Firestorm Torpedoes a +20% to hit, and extended them to level 10
+- Buffed Boskaran Firestorm Torpedoes a +20% to hit, filled them in and extended them to level 10
 - Fixed missing Human Hail Cannon [PD] (v2)
 - Buffed Human Bulwark Missiles range and damage
+- Filled out Human Bulwark Missile techs and started them one tech lower so there are six levels of them now
 - Fixed "Strike Fighters" tech name (had been overwritten as "Fighter Vs")
+- Fixed Intense Beam Point Defense to enable Shatterforce [PD] (v3)
 - 1.2.0.4 Compatible
 
 ### v1.19.1

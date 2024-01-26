@@ -3755,31 +3755,31 @@
 		<ResearchProjectId>1070</ResearchProjectId>
 		<Name>Extreme Missile Arrays</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>3</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>7</Column>
 		<Row>81</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -9549,7 +9549,7 @@
 		<Components>
 			<Component>
 				<ComponentId>564</ComponentId>
-				<Level>1</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14060,6 +14060,183 @@
 			<Component>
 				<ComponentId>570</ComponentId>
 				<Level>8</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1298</ResearchProjectId>
+		<Name>Hyper Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1070</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1299</ResearchProjectId>
+		<Name>Superior Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>202500</Size>
+		<InitiationCost>
+			<Money>1012500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>9</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1298</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>4</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>4</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1300</ResearchProjectId>
+		<Name>Ultimate Missile Arrays</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>3</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>10</Column>
+		<Row>81</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1299</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>573</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>50</ComponentId>
+				<Level>5</Level>
+			</Component>
+			<Component>
+				<ComponentId>30</ComponentId>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

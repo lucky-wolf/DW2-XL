@@ -15338,7 +15338,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<GameEventAction>
+			<!-- <GameEventAction>
 				<Type>DestroyCharacter</Type>
 				<MessageTitle />
 				<Description />
@@ -15362,7 +15362,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<DelaySecondsMaximum>180</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
+			</GameEventAction> -->
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>A New Path</MessageTitle>
