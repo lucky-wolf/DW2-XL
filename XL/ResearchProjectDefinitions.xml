@@ -229,7 +229,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>9</ResearchProjectId>
-		<Name>Pulsed Blast Weapons</Name>
+		<Name>Blaster Weapons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -4842,7 +4842,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>107</ResearchProjectId>
-		<Name>Massive Pulsed Beams</Name>
+		<Name>Massive Blaster Emplacements</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -4874,7 +4874,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- pulsed blast or hybrid plasma -->
+		<!-- standard basters or boskaran hybrid plasma blasters -->
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>1000</short>
@@ -7716,7 +7716,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>163</ResearchProjectId>
-		<Name>Colossal Pulse Beams</Name>
+		<Name>Colossal Blaster Emplacements</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>

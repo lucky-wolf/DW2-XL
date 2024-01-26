@@ -200,20 +200,22 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.2
-- NEW COMPONENT ICONS thanks to @Salemonz!
-- Greatly improved planetary shields
-  - Upgraded assault pod shield penetration to compensate
+- NEW Component images thanks to @Salemonz!
+- NEW Facility images thanks to @Salemonz!
+- Greatly buffed planetary shields
+- Improved assault pod shield-penetration
 - Adjusted which governments are available to various races to better reflect racial character
 - Adjusted Hive Mind to give more appropriate starting techs
 - Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
 - Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
-- Gave Plasma Blasters a +10% to hit, and extended them to level 10
-- Gave Firestorm Torpedoes a +20% to hit, and extended them to level 10
 - Nerfed Epsilon Torpedoes by ~6%
-- Fixed Plasma Blasters [L] size
-- Added missing Hail Cannon [PD] (v2)
-- Buffed Bulwark Missiles range and final damage values to better distinguish them reinforcing swarm missiles
-- Fixed "Strike Fighters" tech name (had be overwritten as Fighter Vs)
+- Buffed Boskaran Plasma Blasters by +10% to hit, and extended them to level 10
+- Fixed Boskaran Plasma Blasters [L] size (was set to medium)
+- Buffed Boskaran Firestorm Torpedoes a +20% to hit, and extended them to level 10
+- Fixed missing Human Hail Cannon [PD] (v2)
+- Buffed Human Bulwark Missiles range and damage
+- Fixed "Strike Fighters" tech name (had been overwritten as "Fighter Vs")
+- 1.2.0.4 Compatible
 
 ### v1.19.1
 - 1.2.0.2 Compatible
