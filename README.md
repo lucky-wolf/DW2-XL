@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
     - [v1.19.2](#v1192)
     - [v1.19.1](#v1191)
@@ -200,8 +201,12 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.19.4
+- Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
+- Reduced Galactic Science Center to 100K (was 200K)
+
 ### v1.19.3
-- Quick patch that fixes some derivative components (fighter and pd variants)
+- Quick patch: Fixed some Missile [Ftr] and [PD] component values to align with new Missile [S] changes
 
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
