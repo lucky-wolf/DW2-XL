@@ -121,8 +121,7 @@ func (v *XMLValue) Append(e *XMLElement) (err error) {
 		v.contents = append(t, e.Clone())
 
 	default:
-		// v.contents = []any{t, e.Clone()}
-		err = fmt.Errorf("append requires []any")
+		err = fmt.Errorf("xmlvalue must be []any")
 	}
 
 	return
@@ -137,8 +136,7 @@ func (v *XMLValue) Truncate(count int) (err error) {
 		v.contents = t[:count]
 
 	default:
-		// v.contents = []any{t, e.Clone()}
-		err = fmt.Errorf("truncate requires []any")
+		err = fmt.Errorf("xmlvalue must be []any")
 	}
 
 	return
@@ -153,8 +151,7 @@ func (v *XMLValue) InsertCopyOf(index, copy int) (err error) {
 		t = etc.InsertAt(t, index, t[copy])
 
 	default:
-		// v.contents = []any{t, e.Clone()}
-		err = fmt.Errorf("append requires []any")
+		err = fmt.Errorf("xmlvalue must be []any")
 	}
 
 	return
@@ -170,8 +167,38 @@ func (v *XMLValue) InsertAt(index int, e *XMLElement) (err error) {
 		t = etc.InsertAt(t, index, any(e))
 
 	default:
-		// v.contents = []any{t, e.Clone()}
-		err = fmt.Errorf("append requires []any")
+		err = fmt.Errorf("xmlvalue must be []any")
+	}
+
+	return
+}
+
+// we must already be a []any or this is an error
+func (v *XMLValue) RemoveSpan(index int, count int) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		v.contents = etc.RemoveSpanInSitu(t, index, count)
+
+	default:
+		err = fmt.Errorf("xmlvalue must be []any")
+	}
+
+	return
+}
+
+// extends our collection by inserting a run of count copies of the element at index
+// we must already be a []any or this is an error
+func (v *XMLValue) ExtendAt(index int, count int) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		v.contents = etc.InsertRunAt(t, index, count)
+
+	default:
+		err = fmt.Errorf("xmlvalue must be []any")
 	}
 
 	return
