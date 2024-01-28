@@ -182,7 +182,7 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 			for c, d := 0, desired-actual; c < d; c++ {
 				shiphull.Child("ComponentBays").InsertAt(i+c, e.Clone())
 			}
-			fmt.Printf("new length: %d (should have added: %d)", len(shiphull.Child("ComponentBays").Elements()), desired-actual)
+			fmt.Printf("new length: %d (should have added: %d)\n", len(shiphull.Child("ComponentBays").Elements()), desired-actual)
 			if err != nil {
 				return
 			}

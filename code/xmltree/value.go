@@ -148,7 +148,7 @@ func (v *XMLValue) InsertCopyOf(index, copy int) (err error) {
 	switch t := v.contents.(type) {
 
 	case []any:
-		t = etc.InsertAt(t, index, t[copy])
+		v.contents = etc.InsertAt(t, index, t[copy])
 
 	default:
 		err = fmt.Errorf("xmlvalue must be []any")
@@ -164,7 +164,7 @@ func (v *XMLValue) InsertAt(index int, e *XMLElement) (err error) {
 	switch t := v.contents.(type) {
 
 	case []any:
-		t = etc.InsertAt(t, index, any(e))
+		v.contents = etc.InsertAt(t, index, any(e))
 
 	default:
 		err = fmt.Errorf("xmlvalue must be []any")
