@@ -42,34 +42,34 @@ var (
 				"Weapon":  1,
 				"Engine":  1,
 				"Defense": 1,
-				"General": 2,
+				"General": 3, // warn: their dumpster fire code can't handle a fighter with only 2 general slots (morons)
 			},
-			// +2 bays
+			// +1 bays
 			2: {
 				"Weapon":  2,
-				"Engine":  2,
+				"Engine":  1,
 				"Defense": 1,
-				"General": 2,
+				"General": 3,
 			},
-			// +2 bays
+			// +1 bays
 			4: {
 				"Weapon":  2,
 				"Engine":  2,
-				"Defense": 2,
+				"Defense": 1,
 				"General": 3,
 			},
 			// +1 bay
 			9: {
-				"Weapon":  2,
+				"Weapon":  3,
 				"Engine":  3,
-				"Defense": 2,
-				"General": 3,
+				"Defense": 3,
+				"General": 4,
 			},
 			// +2 bay
 			13: {
-				"Weapon":  2,
+				"Weapon":  3,
 				"Engine":  3,
-				"Defense": 3,
+				"Defense": 2,
 				"General": 4,
 			},
 			// +1 bay
@@ -175,7 +175,14 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 		switch {
 		case desired > actual:
 			// append copies
-			err = shiphull.Child("ComponentBays").ExtendAt(indexes[componentBayType].start+actual-1, desired-actual)
+			// err = shiphull.Child("ComponentBays").ExtendAt(indexes[componentBayType].start+actual-1, desired-actual)
+			i := indexes[componentBayType].start + actual
+			fmt.Printf("old length: %d", len(shiphull.Child("ComponentBays").Elements()))
+			e := shiphull.Child("ComponentBays").Elements()[i-1]
+			for c, d := 0, desired-actual; c < d; c++ {
+				shiphull.Child("ComponentBays").InsertAt(i+c, e.Clone())
+			}
+			fmt.Printf("new length: %d (should have added: %d)", len(shiphull.Child("ComponentBays").Elements()), desired-actual)
 			if err != nil {
 				return
 			}

@@ -188,18 +188,20 @@ func (v *XMLValue) RemoveSpan(index int, count int) (err error) {
 	return
 }
 
-// extends our collection by inserting a run of count copies of the element at index
-// we must already be a []any or this is an error
-func (v *XMLValue) ExtendAt(index int, count int) (err error) {
+// warn: this doesn't work because it fails to clone the cells
+// todo: fix this to clone the cells
+// // extends our collection by inserting a run of count copies of the element at index
+// // we must already be a []any or this is an error
+// func (v *XMLValue) ExtendAt(index int, count int) (err error) {
 
-	switch t := v.contents.(type) {
+// 	switch t := v.contents.(type) {
 
-	case []any:
-		v.contents = etc.InsertRunAt(t, index, count)
+// 	case []any:
+// 		v.contents = etc.InsertRunAt(t, index, count)
 
-	default:
-		err = fmt.Errorf("xmlvalue must be []any")
-	}
+// 	default:
+// 		err = fmt.Errorf("xmlvalue must be []any")
+// 	}
 
-	return
-}
+// 	return
+// }

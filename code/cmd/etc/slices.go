@@ -5,32 +5,32 @@ import "fmt"
 // inserts the given item at the specified index (negative indexes are from the end of the slice)
 // note: reuses the caller's slice when possible (does not guarantee a copy)
 // warn: panics if you are OOB
-func InsertAt[T any](a []T, index int, value T) []T {
+func InsertAt[S ~[]E, E any](slice S, index int, value E) S {
 
 	// current length
-	n := len(a)
+	l := len(slice)
 
 	// negative indexes are from the end of the slice
 	if index < 0 {
-		index = n + index
+		index = l + index
 	}
 
 	// check for OOB
-	if index < 0 || index > n {
-		panic(fmt.Errorf("out of bounds: attempt to insert at %d for a %d length slice", index, n))
+	if index < 0 || index > l {
+		panic(fmt.Errorf("out of bounds: attempt to insert at %d for a %d length slice", index, l))
 	}
 
 	switch {
-	case index == n:
-		a = append(a, value)
+	case index == l:
+		slice = append(slice, value)
 
 	default:
-		// extend our array by one element by duplicating the one before ourself
-		a = append(a[:index+1], a[index:]...)
-		a[index] = value
+		// extend our array by one element by duplicating the one being inserted before
+		slice = append(slice[:index+1], slice[index:]...)
+		slice[index] = value
 	}
 
-	return a
+	return slice
 }
 
 // does an in-situ reversal of any slice
@@ -97,42 +97,25 @@ func RemoveSpan[S ~[]E, E any](slice S, startIndex, count int) S {
 }
 
 // inserts a series of copies of the specified element at index
+// warn: if index is out of range, will panic
 func InsertSliceAt[S ~[]E, E any](slice S, subslice S, index int) S {
-
-	// check for invalid index or count
-	if index < 0 || index > len(slice) {
-		panic("index out of bounds")
-	}
-
 	return append(slice[:index], append(subslice, slice[index:]...)...)
 }
 
 // returns a slice that is a simple run of the given element
-func MakeRun[S ~[]E, E any](element E, count int) (run S) {
+// warn: if count is negative, go will panic
+func MakeRun[S ~[]E, E any](element E, count int) S {
 
-	// check for invalid index or count
-	if count < 0 {
-		panic("index or count out of bounds")
-	}
-
-	run = make(S, 0, count)
+	run := make(S, 0, count)
 	for i := count; i != 0; i-- {
 		run = append(run, element)
 	}
 
-	return
+	return run
 }
 
 // inserts a series of copies of the specified element at index
+// warn: if index is out of range, go will panic
 func InsertRunAt[S ~[]E, E any](slice S, index, count int) S {
-
-	// check for invalid index or count
-	if index < 0 || index > len(slice) {
-		panic("index or count out of bounds")
-	}
-
-	// insert the duplicated run at the specified index
-	InsertSliceAt(slice, MakeRun[S](slice[index], count), index)
-
-	return slice
+	return InsertSliceAt(slice, MakeRun[S](slice[index], count), index+1)
 }
