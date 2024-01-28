@@ -147,14 +147,14 @@ var (
 					"Defense": 2,
 					"General": 4,
 				},
-				// Fighter V
+				// Fighter V, Strike
 				13: {
 					"Weapon":  2,
 					"Engine":  3,
 					"Defense": 2,
 					"General": 4,
 				},
-				// Fighter X
+				// Fighter VI, Superiority
 				15: {
 					"Weapon":  2,
 					"Engine":  3,
@@ -201,7 +201,7 @@ var (
 					"Defense": 3,
 					"General": 4,
 				},
-				// Bomber V
+				// Bomber V, Strike
 				5: {
 					"Weapon":  2,
 					"Engine":  3,

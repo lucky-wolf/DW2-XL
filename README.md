@@ -204,6 +204,8 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
 - Reduced Galactic Science Center to 100K (was 200K)
+- Revamped Strike Craft hull bays
+- Gizurean now use same techs for strike craft as other races (but retain their unique designs & special hangar bays)
 
 ### v1.19.3
 - Quick patch: Fixed some Missile [Ftr] and [PD] component values to align with new Missile [S] changes
@@ -1824,14 +1826,14 @@ You can use this chart to see what the original vanilla files used for "level" t
 
 #### Fighter Naming
 
-| Level | Standard    | Human                     | Teekan             |
-| ----- | ----------- | ------------------------- | ------------------ |
-| 0     | Fighter I   | Gyrfalcon Interceptor I   | ZimZip Fighter I   |
-| 2     | Fighter II  | Gyrfalcon Interceptor II  | ZimZip Fighter II  |
-| 4     | Fighter III | Gyrfalcon Interceptor III | ZimZip Fighter III |
-| 9     | Fighter IV  | Gyrfalcon Interceptor IV  | ZimZip Fighter IV  |
-| 13    | Fighter V   | Gyrfalcon Interceptor V   | ZimZip Fighter V   |
-| 15    | Fighter X   | Gyrfalcon Interceptor X   | ZimZip Fighter X   |
+| Level | Standard                | Human                                 | Teekan                         |
+| ----- | ----------------------- | ------------------------------------- | ------------------------------ |
+| 0     | Fighter I               | Gyrfalcon Interceptor I               | ZimZip Fighter I               |
+| 2     | Fighter II              | Gyrfalcon Interceptor II              | ZimZip Fighter II              |
+| 4     | Fighter III             | Gyrfalcon Interceptor III             | ZimZip Fighter III             |
+| 9     | Fighter IV              | Gyrfalcon Interceptor IV              | ZimZip Fighter IV              |
+| 13    | Fighter V, Strike       | Gyrfalcon Interceptor V, Strike       | ZimZip Fighter V, Strike       |
+| 15    | Fighter VI, Superiority | Gyrfalcon Interceptor VI, Superiority | ZimZip Fighter VI, Superiority |
 
 ##### Unused in XL
 
