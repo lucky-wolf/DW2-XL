@@ -24,6 +24,15 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 	return nil
 }
 
+// sets existing element value if present, returns that element or nil
+func (e *XMLElement) SetChildValueIfExists(tag string, value float64) *XMLElement {
+	e = e.Child(tag)
+	if e != nil {
+		e.SetValue(value)
+	}
+	return e
+}
+
 // returns the first matching element from the list of elements based on regex of tag-name
 func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
 

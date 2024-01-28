@@ -35,8 +35,73 @@ type BayTypeIndexes struct {
 	count int
 }
 
+const (
+	Human     = 0
+	Ackdarian = 1
+	Teekan    = 2
+	Haakonish = 3
+	Mortalen  = 4
+	Ikkuro    = 5
+	Boskara   = 6
+	Zenox     = 7
+	Wekkarus  = 8
+	Atuuk     = 9
+	Dhayut    = 10
+	Gizurean  = 11
+	Ketarov   = 12
+	Kiadian   = 13
+	Naxxilian = 14
+	Quameno   = 15
+	Securan   = 16
+	Shandar   = 17
+	Sluken    = 18
+	Ugnari    = 19
+	Shakturi  = 20
+)
+
+type RaceID = int
+type RacialQuirk struct {
+	bomberCenterIsTwo bool
+}
+type RacialQuirks map[RaceID]RacialQuirk
+
+// because some races use 0,1,2 for left,right,center, but others use 1,2,0 for same, we have to do stupid shit here
+func GetWeaponMeshIndex(shiphull *xmltree.XMLElement, index int, desiredCounts BayCounts) int {
+
+	role := shiphull.Child("Role").StringValue()
+	if role != "FighterBomber" {
+		return index
+	}
+
+	race := shiphull.Child("RaceId").IntValue()
+	zeroCenter := !racialQuirks[race].bomberCenterIsTwo
+	if zeroCenter {
+		if desiredCounts["Weapon"] == 1 {
+			// only a single weapon means use the center
+			return 0
+		}
+		switch index {
+		case 0:
+			return 1
+		case 1:
+			return 2
+		case 2:
+			return 0
+		}
+	} else if desiredCounts["Weapon"] == 1 {
+		// only a single weapon means use the center mesh
+		return 2
+	}
+	return index
+}
+
 var (
-	// relationship of linear tier from assigned level (0 = invalid)
+	// racial quirks (we might just want to supply translator functions for various mesh indexes)
+	racialQuirks = RacialQuirks{
+		Ackdarian: {bomberCenterIsTwo: true},
+		Ikkuro:    {bomberCenterIsTwo: true},
+		Teekan:    {bomberCenterIsTwo: true},
+	}
 
 	// required order of component bays types
 	componentBayOrder        = []ComponentType{"Weapon", "Engine", "Defense", "General"}
@@ -47,11 +112,11 @@ var (
 		"FighterInterceptor": {
 			HullTiers: HullTiers{0: 1, 2: 2, 4: 3, 9: 4, 13: 5, 15: 6},
 			ValuesTable: ValuesTable{
-				"ArmorReactiveRatings":   func(tier int) float64 { return float64(2 * tier) },
-				"IonDefenseRatings":      func(tier int) float64 { return float64(4 * tier) },
-				"CountermeasuresBonuses": func(tier int) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },
-				"TargetingBonuses":       func(tier int) float64 { return []float64{.03, .06, .09, .12, .15, .18}[tier-1] },
-				"ManeuveringBonuses":     func(tier int) float64 { return []float64{.08, .16, .24, .32, .40, .48}[tier-1] },
+				"ArmorReactiveRating":  func(tier int) float64 { return float64(2 * tier) },
+				"IonDefenseRating":     func(tier int) float64 { return float64(4 * tier) },
+				"CountermeasuresBonus": func(tier int) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },
+				"TargetingBonus":       func(tier int) float64 { return []float64{.03, .06, .09, .12, .15, .18}[tier-1] },
+				"ManeuveringBonus":     func(tier int) float64 { return []float64{.08, .16, .24, .32, .40, .48}[tier-1] },
 			},
 			BayCountsPerLevels: BayCountsPerLevels{
 				// Fighter I
@@ -101,11 +166,11 @@ var (
 		"FighterBomber": {
 			HullTiers: HullTiers{0: 1, 1: 2, 2: 3, 4: 4, 5: 5, 6: 6},
 			ValuesTable: ValuesTable{
-				"ArmorReactiveRatings":   func(tier int) float64 { return float64(2 * tier) },
-				"IonDefenseRatings":      func(tier int) float64 { return float64(4 * tier) },
-				"CountermeasuresBonuses": func(tier int) float64 { return []float64{.13, .16, .19, .22, .25, .28}[tier] },
-				"TargetingBonuses":       func(tier int) float64 { return []float64{.06, .09, .12, .15, .18, .21}[tier] },
-				"ManeuveringBonuses":     func(tier int) float64 { return []float64{.00, .08, .16, .24, .32, .40}[tier] },
+				"ArmorReactiveRating":  func(tier int) float64 { return float64(2 * tier) },
+				"IonDefenseRating":     func(tier int) float64 { return float64(4 * tier) },
+				"CountermeasuresBonus": func(tier int) float64 { return []float64{.13, .16, .19, .22, .25, .28}[tier-1] },
+				"TargetingBonus":       func(tier int) float64 { return []float64{.06, .09, .12, .15, .18, .21}[tier-1] },
+				"ManeuveringBonus":     func(tier int) float64 { return []float64{.00, .08, .16, .24, .32, .40}[tier-1] },
 			},
 			BayCountsPerLevels: BayCountsPerLevels{
 				// Bomber I
@@ -116,35 +181,35 @@ var (
 					"General": 2, // warn: their dumpster fire code can't handle a Bomber with only 2 general slots
 				},
 				// Bomber II
-				2: {
+				1: {
 					"Weapon":  1,
 					"Engine":  1,
 					"Defense": 2,
 					"General": 3,
 				},
 				// Bomber III
-				4: {
+				2: {
 					"Weapon":  2,
 					"Engine":  2,
 					"Defense": 2,
 					"General": 3,
 				},
 				// Bomber IV
-				9: {
+				4: {
 					"Weapon":  2,
 					"Engine":  2,
 					"Defense": 3,
 					"General": 4,
 				},
 				// Bomber V
-				13: {
+				5: {
 					"Weapon":  2,
 					"Engine":  3,
 					"Defense": 3,
 					"General": 4,
 				},
 				// Bomber X
-				15: {
+				6: {
 					"Weapon":  3,
 					"Engine":  3,
 					"Defense": 3,
@@ -203,10 +268,10 @@ func (j *Job) applyComponentBays(schedule HullBaySchedule) (err error) {
 
 				// see whether we have a schedule for this role
 				roleName := shiphull.Child("Role").StringValue()
-				schedule, ok := schedule[roleName]
+				hullDefn, ok := schedule[roleName]
 				if ok {
 					level := shiphull.Child("Level").IntValue()
-					desiredCounts, ok := schedule.BayCountsPerLevels[level]
+					desiredCounts, ok := hullDefn.BayCountsPerLevels[level]
 					if ok {
 						// set the slot counts
 						err = j.applyComponentBaySchedule(shiphull, desiredCounts)
@@ -214,30 +279,38 @@ func (j *Job) applyComponentBays(schedule HullBaySchedule) (err error) {
 							return
 						}
 
-						// set maximum ideal for all components combined (we take off 10 from ideal)
-						ideal := shiphull.Child("Size").IntValue() + j.totalComponentBaySize(shiphull.Child("ComponentBays"))
-						shiphull.Child("MaximumSize").SetValue(ideal - 10)
-
-						// todo: we could have a schedule for Size and DisplaySize if we wish
-
 						// convert arbitrary engine level to more useful tier
-						tier := schedule.HullTiers[level]
+						tier := hullDefn.HullTiers[level]
+
+						// set maximum maxSize for all components combined
+						componentSize := j.totalComponentBaySize(shiphull.Child("ComponentBays"))
 
 						// set engine limit
 						if count, ok := desiredCounts["Engine"]; ok {
 							shiphull.Child("EngineLimit").SetValue(count)
+							if count%2 == 0 {
+								// hack: fucking crap engine!
+								// remove extra engine size if it was auto-added
+								ebay := shiphull.Child("ComponentBays").FindRecurse("Type", "Engine")
+								componentSize -= ebay.Child("MaximumComponentSize").IntValue()
+							}
 						}
 
+						maxSize := shiphull.Child("Size").IntValue() + etc.MulDivRoundUp(componentSize, 5, 8)
+						shiphull.Child("MaximumSize").SetValue(maxSize)
+
+						// todo: we could have a schedule for Size and DisplaySize if we wish
+
 						// set some purely tier based numbers
-						shiphull.Child("ArmorReactiveRating").SetValue(schedule.ValuesTable["ArmorReactiveRating"](tier))
-						shiphull.Child("IonDefense").SetValue(schedule.ValuesTable["IonDefenseRatings"](tier))
-						shiphull.Child("CountermeasuresBonus").SetValue(schedule.ValuesTable["CountermeasuresBonuses"](tier))
-						shiphull.Child("TargetingBonus").SetValue(schedule.ValuesTable["TargetingBonuses"](tier))
+						shiphull.SetChildValueIfExists("ArmorReactiveRating", hullDefn.ValuesTable["ArmorReactiveRating"](tier))
+						shiphull.SetChildValueIfExists("IonDefense", hullDefn.ValuesTable["IonDefenseRating"](tier))
+						shiphull.SetChildValueIfExists("CountermeasuresBonus", hullDefn.ValuesTable["CountermeasuresBonus"](tier))
+						shiphull.SetChildValueIfExists("TargetingBonus", hullDefn.ValuesTable["TargetingBonus"](tier))
 
 						// maneuvering bonsues
 						if bonuses := shiphull.Child("Bonuses"); bonuses != nil {
 							if bonus := bonuses.FindRecurse("Type", "ShipManeuvering"); bonus != nil {
-								bonus.Child("Amount").SetValue(schedule.ValuesTable["ManeuveringBonuses"](tier))
+								bonus.Child("Amount").SetValue(hullDefn.ValuesTable["ManeuveringBonus"](tier))
 							}
 						}
 					}
@@ -302,7 +375,7 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 	}
 
 	// renumber everything to ensure it's coherent
-	err = j.renumberComponentBays(shiphull.Child("ComponentBays"))
+	err = j.renumberComponentBays(shiphull, desiredCounts)
 
 	return
 }
@@ -336,13 +409,13 @@ func (j *Job) getComponentBayIndexes(componentbays *xmltree.XMLElement) (counts 
 var meshRegex = regexp.MustCompile(`(#\w+)\d+`)
 
 // renumbers all elements and returns the group counts (weapon, defense, etc.)
-func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err error) {
+func (j *Job) renumberComponentBays(shiphull *xmltree.XMLElement, desiredCounts BayCounts) (err error) {
 
 	// track our counts as we renumber
 	counts := BayCounts{}
 
 	// scan the component bays in order
-	for i, c := range componentbays.Elements() {
+	for i, c := range shiphull.Child("ComponentBays").Elements() {
 
 		// id is trivial - just linear numbering within this list
 		c.Child("ComponentBayId").SetValue(i)
@@ -353,8 +426,14 @@ func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err erro
 
 		// get the current count of this type (starts at zero)
 		if m := c.Child("MeshName"); m != nil && meshRegex.MatchString(m.StringValue()) {
-			// get the count of mesh names of this type so far
+
 			ci := counts[t]
+
+			switch t {
+			case "Weapon":
+				// get the translated mesh index for this weapon for this race
+				ci = GetWeaponMeshIndex(shiphull, ci, desiredCounts)
+			}
 
 			oldname := m.StringValue()
 			newname := meshRegex.ReplaceAllString(oldname, fmt.Sprintf("${1}%d", ci))
