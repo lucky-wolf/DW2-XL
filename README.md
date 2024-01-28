@@ -1790,14 +1790,16 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 
 ### Fighter Stats
 
+> note: DW2's ship designer is dumpster fire of broken code and cannot handle most good ideas.  So the code generates 3 genereal slots always to get around certain bugs even though it sucks and is stupid.
+
 | Level | Size[0] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
 | ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
-| 0     | 56      | 15   | 0        | 0   | 33              | 8         | 1      | 1      | 1       | 2       | 20          |
-| 2     | 69      | 18   | 3        | 12  | 26              | 14        | 2      | 2      | 1       | 2       | 12          |
+| 0     | 56      | 15   | 0        | 0   | 33              | 8         | 1      | 1      | 1       | 2(3)    | 20          |
+| 2     | 69      | 18   | 3        | 12  | 26              | 14        | 2      | 2      | 1       | 2(3)    | 12          |
 | 4     | 96      | 20   | 6        | 24  | 30              | 26        | 2      | 2      | 2       | 3       | 14          |
 | 9     | 119     | 24   | 9        | 36  | 37              | 40        | 2      | 3      | 2       | 3       | 18          |
 | 13    | 137     | 25   | 12       | 48  | 50              | 58        | 2      | 3      | 3       | 4       | 30          |
-| 15    | 150     | 26   | 15       | 60  | 54              | 70        | 3      | 3      | 3       | 4       | 36          |
+| 15    | 150     | 26   | 15       | 60  | 54              | 70        | 2      | 3      | 3       | 4       | 36          |
 
 [0] size = hull size + weapon * 5 + engine * 10 + defense * 10 + (general * 10 - 5)
     note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.

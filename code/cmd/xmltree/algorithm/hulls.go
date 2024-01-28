@@ -38,50 +38,87 @@ var (
 	// what we wish it were
 	fighterHullSchedule = HullBaySchedule{
 		"FighterInterceptor": {
+			// Fighter I
 			0: {
 				"Weapon":  1,
 				"Engine":  1,
 				"Defense": 1,
-				"General": 3, // warn: their dumpster fire code can't handle a fighter with only 2 general slots (morons)
+				"General": 2, // warn: their dumpster fire code can't handle a fighter with only 2 general slots (morons)
 			},
-			// +1 weapon
+			// Fighter II +1 engine
 			2: {
-				"Weapon":  2,
-				"Engine":  1,
-				"Defense": 1,
-				"General": 3,
-			},
-			// +1 engine
-			4: {
-				"Weapon":  2,
+				"Weapon":  1,
 				"Engine":  2,
 				"Defense": 1,
-				"General": 3,
+				"General": 2,
 			},
-			// +1 defense
-			9: {
+			// Fighter III +1 weapon +1 defense
+			4: {
 				"Weapon":  2,
 				"Engine":  2,
 				"Defense": 2,
 				"General": 3,
 			},
-			// +1 engine, +1 general
+			// Fighter IV +1 general
+			9: {
+				"Weapon":  2,
+				"Engine":  2,
+				"Defense": 2,
+				"General": 4,
+			},
+			// Fighter V +1 engine
 			13: {
 				"Weapon":  2,
 				"Engine":  3,
 				"Defense": 2,
 				"General": 4,
 			},
-			// +1 weapon, +1 defense
+			// Fighter X +1 defense
 			15: {
-				"Weapon":  3,
+				"Weapon":  2,
 				"Engine":  3,
 				"Defense": 3,
 				"General": 4,
 			},
 		},
 	}
+
+	fighterComponentIdealSizes = BayCounts{
+		"Weapon":  5,
+		"Engine":  10,
+		"Defense": 10,
+		"General": 10,
+	}
+	bomberComponentIdealSizes = BayCounts{
+		"Weapon":  10,
+		"Engine":  10,
+		"Defense": 10,
+		"General": 10,
+	}
+
+	// these are simply based on tier
+	ftrArmorReactiveRatings   = []int{2, 4, 6, 8, 12, 16}
+	ftrIonDefenseRatings      = []int{4, 8, 12, 16, 20, 24}
+	ftrCountermeasuresBonuses = []float64{.4, .5, .6, .7, .8, .9}
+	ftrTargetingBonuses       = []float64{.4, .5, .6, .7, .8, .9}
+	ftrManeuveringBonuses     = []float64{.08, .16, .24, .32, .40, .48}
 )
+
+// gives the space required to maximize all slots
+func FighterComponentIdealSize(schedule BayCounts) (size int) {
+	for k, v := range schedule {
+		size += fighterComponentIdealSizes[k] * v
+	}
+	return
+}
+
+// gives the space required to maximize all slots
+func BomberComponentIdealSize(schedule BayCounts) (size int) {
+	for k, v := range schedule {
+		size += bomberComponentIdealSizes[k] * v
+	}
+	return
+}
 
 func FighterHulls(folder string) (err error) {
 
@@ -132,14 +169,36 @@ func (j *Job) applyComponentBays(schedule HullBaySchedule) (err error) {
 					level := shiphull.Child("Level").IntValue()
 					desiredCounts, ok := schedule[level]
 					if ok {
+						// set the slot counts
 						err = j.applyComponentBaySchedule(shiphull, desiredCounts)
 						if err != nil {
 							return
 						}
 
-						// fix <EngineLimit>
+						// todo: we could have a schedule for Size and DisplaySize if we wish
+
+						// set maximum size (90% of ideal)
+						size := 9 * FighterComponentIdealSize(desiredCounts) / 10
+						size += shiphull.Child("Size").IntValue()
+						shiphull.Child("MaximumSize").SetValue(size)
+
+						// set engine limit
 						if count, ok := desiredCounts["Engine"]; ok {
 							shiphull.Child("EngineLimit").SetValue(count)
+						}
+
+						// set some purely tier based numbers
+						tier := fighterTier[level]
+						shiphull.Child("ArmorReactiveRating").SetValue(ftrArmorReactiveRatings[tier])
+						shiphull.Child("IonDefense").SetValue(ftrIonDefenseRatings[tier])
+						shiphull.Child("CountermeasuresBonus").SetValue(ftrCountermeasuresBonuses[tier])
+						shiphull.Child("TargetingBonus").SetValue(ftrTargetingBonuses[tier])
+
+						// maneuvering bonsues
+						if bonuses := shiphull.Child("Bonuses"); bonuses != nil {
+							if bonus := bonuses.FindRecurse("Type", "ShipManeuvering"); bonus != nil {
+								bonus.Child("Amount").SetValue(ftrManeuveringBonuses[tier])
+							}
 						}
 					}
 				}
@@ -167,9 +226,19 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 		}
 		actual := indexes[componentBayType].count
 
-		// always make engine bays odd to allow for the game to balance them
-		if componentBayType == "Engine" && desiredCounts["Engine"]%2 == 0 {
-			desired += 1
+		switch componentBayType {
+
+		case "Engine":
+			if desiredCounts["Engine"]%2 == 0 {
+				// note: always make engine bays odd to allow for the game to balance them
+				// note: but we don't allocate space for it, and we set the EngineLimit according to the schedule
+				desired += 1
+			}
+		case "General":
+			// warn: their dumpster fire code can't handle a fighter with only 2 general slots (morons)
+			// warn: it turns out they prioritize an ion shield over reactors, so it fails the design due to no reactor
+			// hack: so we enforce 3 physical slots, but no space allocation for it
+			desired = max(3, desired)
 		}
 
 		switch {
@@ -250,8 +319,6 @@ func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err erro
 			oldname := m.StringValue()
 			newname := meshRegex.ReplaceAllString(oldname, fmt.Sprintf("${1}%d", ci))
 
-			// fmt.Printf("%s -> %s\n", oldname, newname)
-
 			// update this one to match our count
 			m.SetString(newname)
 
@@ -260,6 +327,5 @@ func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err erro
 		}
 	}
 
-	// see if this hull is a level match for any
 	return
 }

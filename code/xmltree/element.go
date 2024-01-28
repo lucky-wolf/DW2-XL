@@ -38,6 +38,20 @@ func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
 }
 
 // returns the first matching child element whose tag and value equal the find tag and value
+func (e *XMLElement) FindRecurse(tag string, value string) *XMLElement {
+	for _, e = range e.Elements() {
+		if e.Name.Local == tag && e.StringValueEquals(value) {
+			return e
+		}
+		f := e.FindRecurse(tag, value)
+		if f != nil {
+			return f
+		}
+	}
+	return nil
+}
+
+// returns the first matching child element whose tag and value equal the find tag and value
 func (e *XMLElement) Find(tag string, value string) *XMLElement {
 	for _, e = range e.Elements() {
 		if e.Name.Local == tag && e.StringValueEquals(value) {
