@@ -3,6 +3,7 @@ package algorithm
 import (
 	"fmt"
 	"log"
+	"lucky-wolf/DW2-XL/code/cmd/etc"
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"regexp"
 )
@@ -143,7 +144,7 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			default:
 				// non-weapons = 33% size
 				// (must be an integer value, rounded up, but cannot exceed size 10 for any slot, and reactors would exceed it)
-				is.size = min(10, int(((2 + value) / 3)))
+				is.size = min(10, etc.MulDivRoundUp(int(value), 1, 3))
 
 				e.Child("Size").SetValue(is.size)
 			}
@@ -215,7 +216,7 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			e.Child("CrewRequirement").SetString("0")
 
 			// scale down static energy use
-			e.Child("StaticEnergyUsed").ScaleBy(0.2)
+			e.Child("StaticEnergyUsed").ScaleBy(0.5)
 
 			// scale armor values
 			e.Child("ArmorBlastRating").ScaleBy(0.2)
@@ -232,9 +233,11 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25)
 
 			// scale reactor values
-			e.Child("ReactorEnergyOutputPerSecond").ScaleBy(0.2)
-			e.Child("ReactorEnergyStorageCapacity").ScaleBy(0.2)
-			e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(0.2)
+			// note: there are far, far fewer components on a fighter/bomber than a ship
+			const reactorFactor = 0.15
+			e.Child("ReactorEnergyOutputPerSecond").ScaleBy(reactorFactor)
+			e.Child("ReactorEnergyStorageCapacity").ScaleBy(reactorFactor)
+			e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(reactorFactor)
 			if value, err := e.Child("ReactorFuelUnitsForFullCharge").GetNumericValue(); err == nil {
 				// set the fuel units to be enough for 10 recharges
 				e.Child("FuelStorageCapacity").SetValue(value * 100)
@@ -244,7 +247,7 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			e.Child("ShieldRechargeRate").ScaleBy(0.2)
 			if c := e.Child("ShieldRechargeEnergyUsage"); c != nil {
 				// warn: Golang claims it should be okay to call a nil -- yet windows explodes
-				c.ScaleBy(0.2)
+				c.ScaleBy(0.5)
 			}
 			// e.Child("ShieldRechargeEnergyUsage").ScaleBy(0.2)
 			e.Child("ShieldResistance").ScaleBy(0.2)

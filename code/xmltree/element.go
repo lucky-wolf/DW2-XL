@@ -24,6 +24,15 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 	return nil
 }
 
+// sets existing element value if present, returns that element or nil
+func (e *XMLElement) SetChildValueIfExists(tag string, value float64) *XMLElement {
+	e = e.Child(tag)
+	if e != nil {
+		e.SetValue(value)
+	}
+	return e
+}
+
 // returns the first matching element from the list of elements based on regex of tag-name
 func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
 
@@ -35,6 +44,28 @@ func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
 	}
 
 	return
+}
+
+// returns the first matching child element whose tag and value equal the find tag and value
+func (e *XMLElement) FindRecurse(tag string, value string) *XMLElement {
+
+	// breadth first: check our contents for a match (non-recursive)
+	if e.Has(tag, value) {
+		// if we have one, we are the parent of this tag + value
+		return e
+	}
+
+	// depth: now check each of our children for ownership of this tag+value item
+	for _, child := range e.Elements() {
+		child = child.FindRecurse(tag, value)
+		if child != nil {
+			// this child owns the target, so it is the result
+			return child
+		}
+	}
+
+	// could not find this tag + value parent
+	return nil
 }
 
 // returns the first matching child element whose tag and value equal the find tag and value

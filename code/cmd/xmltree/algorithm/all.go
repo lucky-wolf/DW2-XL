@@ -16,6 +16,12 @@ func All(folder string) (err error) {
 		return
 	}
 
+	// now do hulls
+	err = Hulls(folder)
+	if err != nil {
+		return
+	}
+
 	return
 }
 

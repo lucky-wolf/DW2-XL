@@ -13499,7 +13499,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>284</ResearchProjectId>
-		<Name>Fighters</Name>
+		<Name>Evolved Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -13523,13 +13523,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>245</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Fighter Hangars -->
@@ -13540,6 +13533,12 @@
 			<ResearchPath>
 				<!-- Stellar Hangars -->
 				<ResearchProjectId>1165</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Swarm Hangars -->
+				<ResearchProjectId>837</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -13564,7 +13563,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>286</ResearchProjectId>
-		<Name>Bombers</Name>
+		<Name>Evolved Bombers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -13588,13 +13587,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
 		<Row>249</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>265</ResearchProjectId>
@@ -13603,6 +13595,12 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1165</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Swarm Hangars -->
+				<ResearchProjectId>837</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14286,13 +14284,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>245</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>352</ResearchProjectId>
@@ -14306,6 +14297,12 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1167</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Swarm Hangars -->
+				<ResearchProjectId>839</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14348,13 +14345,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>249</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>354</ResearchProjectId>
@@ -14368,6 +14358,12 @@
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1167</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Swarm Hangars -->
+				<ResearchProjectId>839</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14540,11 +14536,13 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Improved Starfighter Hangar Bays -->
 				<ResearchProjectId>379</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- enhanced long range sensors -->
 				<ResearchProjectId>1066</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -14674,6 +14672,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- enhanced long range sensors -->
 				<ResearchProjectId>1066</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -16514,13 +16513,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>245</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>284</ResearchProjectId>
@@ -16528,12 +16520,19 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Improved Starfighter Hangar Bays -->
 				<ResearchProjectId>379</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Improved Swarm Hangars -->
+				<ResearchProjectId>838</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -16583,13 +16582,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
 		<Row>249</Row>
-		<DisallowedRaceIds>
-			<!-- Gizurean have better fighters -->
-			<RaceProbability>
-				<RaceId>11</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>286</ResearchProjectId>
@@ -16597,12 +16589,20 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Improved Starfighter Hangar Bays -->
 				<ResearchProjectId>379</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Improved Stellar Hangar Bays -->
 				<ResearchProjectId>1166</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Improved Swarm Hangars -->
+				<ResearchProjectId>838</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -16642,6 +16642,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Improved Starfighter Hangar Bays -->
 				<ResearchProjectId>379</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -25243,23 +25244,23 @@
 		<ResearchProjectId>564</ResearchProjectId>
 		<Name>Planetary Resource Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>340</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -25279,23 +25280,23 @@
 		<ResearchProjectId>565</ResearchProjectId>
 		<Name>Planetary Quality Secrets</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>8100</Size>
+		<Size>2700</Size>
 		<InitiationCost>
-			<Money>40500</Money>
+			<Money>13500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>2400</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>1200</Amount>
+					<Amount>600</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>5</Column>
+		<Column>4</Column>
 		<Row>341</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26292,7 +26293,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>587</ResearchProjectId>
-		<Name>Space Fighter VIs</Name>
+		<Name>Superiority Fighters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>

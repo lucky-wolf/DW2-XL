@@ -124,7 +124,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -258,7 +258,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -306,7 +306,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ultra-Dense Ion Sheath Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/500-Ultra-Dense Ion Sheath Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/500-Ultra-Dense Ion Sheath Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>501</ComponentId>
@@ -614,7 +614,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ultra-Dense Ion Sheath Armor</Name>
-		<ImageFilename>Environment/Components/501-Ultra-Dense Ion Sheath Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/501-Ultra-Dense Ion Sheath Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>502</ComponentId>
@@ -800,7 +800,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Colonization Module, 50M</Name>
-		<ImageFilename>Environment/Components/502-Colonization Module 50M</ImageFilename>
+		<ImageFilename>XLAssets/Components/502-Colonization Module 50M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>503</ComponentId>
@@ -986,7 +986,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Colonization Module, 100M</Name>
-		<ImageFilename>Environment/Components/503-Colonization Module 100M</ImageFilename>
+		<ImageFilename>XLAssets/Components/503-Colonization Module 100M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>504</ComponentId>
@@ -1172,7 +1172,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Colonization Module, 150M</Name>
-		<ImageFilename>Environment/Components/504-Colonization Module 150M</ImageFilename>
+		<ImageFilename>XLAssets/Components/504-Colonization Module 150M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>505</ComponentId>
@@ -1358,7 +1358,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Colonization Module, 200M</Name>
-		<ImageFilename>Environment/Components/505-Colonization Module 200M</ImageFilename>
+		<ImageFilename>XLAssets/Components/505-Colonization Module 200M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>506</ComponentId>
@@ -1532,7 +1532,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Absorbing Ion Sheath Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/506-Absorbing Ion Sheath Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/506-Absorbing Ion Sheath Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>507</ComponentId>
@@ -1706,7 +1706,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Absorbing Ion Sheath Armor</Name>
-		<ImageFilename>Environment/Components/507-Absorbing Ion Sheath Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/507-Absorbing Ion Sheath Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>508</ComponentId>
@@ -1784,7 +1784,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>6.72</FuelStorageCapacity>
+				<FuelStorageCapacity>5.04</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -1800,10 +1800,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>44</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>48</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>33</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>36</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.0672</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.0504</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -1919,7 +1919,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>7.488</FuelStorageCapacity>
+				<FuelStorageCapacity>5.616</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -1935,10 +1935,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>52</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>57.6</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>39</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>43.2</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.07488</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.05616</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -2054,7 +2054,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>8.304</FuelStorageCapacity>
+				<FuelStorageCapacity>6.228</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -2070,10 +2070,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>60</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>69.2</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>45</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>51.9</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.08304</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.06228</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -2143,7 +2143,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactor, Resonant Caslon [Ftr]</Name>
-		<ImageFilename>Environment/Components/508-Resonant Caslon Reactor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/508-Resonant Caslon Reactor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>509</ComponentId>
@@ -2580,7 +2580,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactor, Resonant Caslon</Name>
-		<ImageFilename>Environment/Components/509-Resonant Caslon Reactor</ImageFilename>
+		<ImageFilename>XLAssets/Components/509-Resonant Caslon Reactor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>510</ComponentId>
@@ -2658,7 +2658,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>11.52</FuelStorageCapacity>
+				<FuelStorageCapacity>8.64</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -2674,10 +2674,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>48</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>72</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>36</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>54</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.1152</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.0864</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -2793,7 +2793,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>12.96</FuelStorageCapacity>
+				<FuelStorageCapacity>9.72</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -2809,10 +2809,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>56</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>86.4</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>42</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>64.8</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.1296</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.0972</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -2928,7 +2928,7 @@
 				<FighterBayBuildRate>0</FighterBayBuildRate>
 				<FighterBayCapacity>0</FighterBayCapacity>
 				<FighterBayRepairRate>0</FighterBayRepairRate>
-				<FuelStorageCapacity>14.504</FuelStorageCapacity>
+				<FuelStorageCapacity>10.878</FuelStorageCapacity>
 				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
 				<HyperDenyRange>0</HyperDenyRange>
 				<HyperDenyStrength>0</HyperDenyStrength>
@@ -2944,10 +2944,10 @@
 				<IonDamageDefense>0</IonDamageDefense>
 				<MedicalRating>0</MedicalRating>
 				<PassengerCapacity>0</PassengerCapacity>
-				<ReactorEnergyOutputPerSecond>64</ReactorEnergyOutputPerSecond>
-				<ReactorEnergyStorageCapacity>103.6</ReactorEnergyStorageCapacity>
+				<ReactorEnergyOutputPerSecond>48</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>77.7</ReactorEnergyStorageCapacity>
 				<ReactorFuelResourceId>14</ReactorFuelResourceId>
-				<ReactorFuelUnitsForFullCharge>0.14504</ReactorFuelUnitsForFullCharge>
+				<ReactorFuelUnitsForFullCharge>0.10878</ReactorFuelUnitsForFullCharge>
 				<RecreationRating>0</RecreationRating>
 				<ResearchLabOutput>0</ResearchLabOutput>
 				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
@@ -3017,7 +3017,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactor, Plasmatic Caslon Cycling [Ftr]</Name>
-		<ImageFilename>Environment/Components/510-Plasmatic Caslon Cycling Reactor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/510-Plasmatic Caslon Cycling Reactor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>511</ComponentId>
@@ -3454,7 +3454,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactor, Plasmatic Caslon Cycling</Name>
-		<ImageFilename>Environment/Components/511-Plasmatic Caslon Cycling Reactor</ImageFilename>
+		<ImageFilename>XLAssets/Components/511-Plasmatic Caslon Cycling Reactor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>512</ComponentId>
@@ -3754,7 +3754,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Flux Ultra-Dense Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/512-Flux Ultra-Dense Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/512-Flux Ultra-Dense Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>513</ComponentId>
@@ -4054,7 +4054,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Flux Ultra-Dense Armor</Name>
-		<ImageFilename>Environment/Components/513-Flux Ultra-Dense Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/513-Flux Ultra-Dense Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>514</ComponentId>
@@ -4606,7 +4606,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Maelstrom Defender [PD]</Name>
-		<ImageFilename>Environment/Components/514-Maelstrom Defender PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/514-Maelstrom Defender PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<!-- Planetary Blaster Emplacement -->
@@ -5143,7 +5143,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Planetary Blaster Emplacement</Name>
-		<ImageFilename>Environment/Components/325-Planetary Beam Defense</ImageFilename>
+		<ImageFilename>XLAssets/Components/325-Planetary Beam Defense</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>516</ComponentId>
@@ -5696,7 +5696,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Terminator Autocannon [S]</Name>
-		<ImageFilename>Environment/Components/516-Terminator Autocannon S</ImageFilename>
+		<ImageFilename>XLAssets/Components/516-Terminator Autocannon S</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>517</ComponentId>
@@ -5870,7 +5870,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Command, Nexus</Name>
-		<ImageFilename>Environment/Components/517-Command Nexus</ImageFilename>
+		<ImageFilename>XLAssets/Components/517-Command Nexus</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<!-- Currently not available (Added Hail Cannon [PD] instead) -->
@@ -6424,7 +6424,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Hail Cannon [M]</Name>
-		<ImageFilename>Environment/Components/518-Hail Cannon M</ImageFilename>
+		<ImageFilename>XLAssets/Components/518-Hail Cannon M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>519</ComponentId>
@@ -6590,7 +6590,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Flux Absorbing Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/519-Flux Absorbing Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/519-Flux Absorbing Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>520</ComponentId>
@@ -6756,7 +6756,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Flux Absorbing Armor</Name>
-		<ImageFilename>Environment/Components/520-Flux Absorbing Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/520-Flux Absorbing Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>521</ComponentId>
@@ -7060,7 +7060,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactive Armor</Name>
-		<ImageFilename>Environment/Components/521-Reactive Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/521-Reactive Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>522</ComponentId>
@@ -7364,7 +7364,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Enhanced Reactive Armor</Name>
-		<ImageFilename>Environment/Components/522-Enhanced Reactive Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/522-Enhanced Reactive Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>523</ComponentId>
@@ -7672,7 +7672,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Hardened Reactive Armor</Name>
-		<ImageFilename>Environment/Components/523-Hardened Reactive Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/523-Hardened Reactive Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>524</ComponentId>
@@ -7980,7 +7980,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ultra-Dense Reactive Armor</Name>
-		<ImageFilename>Environment/Components/524-Ultra-Dense Reactive Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/524-Ultra-Dense Reactive Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>525</ComponentId>
@@ -8154,7 +8154,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Absorbing Reactive Armor</Name>
-		<ImageFilename>Environment/Components/525-Absorbing Reactive Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/525-Absorbing Reactive Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>526</ComponentId>
@@ -8458,7 +8458,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactive Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/526-Reactive Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/526-Reactive Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>527</ComponentId>
@@ -8762,7 +8762,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Enhanced Reactive Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/527-Enhanced Reactive Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/527-Enhanced Reactive Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>528</ComponentId>
@@ -9070,7 +9070,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Hardened Reactive Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/528-Hardened Reactive Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/528-Hardened Reactive Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>529</ComponentId>
@@ -9378,7 +9378,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ultra-Dense Reactive Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/529-Ultra-Dense Reactive Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/529-Ultra-Dense Reactive Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>530</ComponentId>
@@ -9552,7 +9552,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Absorbing Reactive Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/530-Absorbing Reactive Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/530-Absorbing Reactive Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>531</ComponentId>
@@ -10112,7 +10112,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Short Range Sensors, Advanced</Name>
-		<ImageFilename>Environment/Components/531-Short Range Sensors Advanced</ImageFilename>
+		<ImageFilename>XLAssets/Components/531-Short Range Sensors Advanced</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>532</ComponentId>
@@ -10806,7 +10806,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Short Range Sensors, Multilock</Name>
-		<ImageFilename>Environment/Components/532-Multi-Tracking Sensors</ImageFilename>
+		<ImageFilename>XLAssets/Components/532-Multi-Tracking Sensors</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>533</ComponentId>
@@ -10916,7 +10916,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StaticEnergyUsed>2.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11050,7 +11050,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>1.5</StaticEnergyUsed>
+				<StaticEnergyUsed>3.75</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11184,7 +11184,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>2</StaticEnergyUsed>
+				<StaticEnergyUsed>5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11318,7 +11318,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>2.5</StaticEnergyUsed>
+				<StaticEnergyUsed>6.25</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11452,7 +11452,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>3</StaticEnergyUsed>
+				<StaticEnergyUsed>7.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11586,7 +11586,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>3.5</StaticEnergyUsed>
+				<StaticEnergyUsed>8.75</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11720,7 +11720,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>4</StaticEnergyUsed>
+				<StaticEnergyUsed>10</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11854,7 +11854,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>4.5</StaticEnergyUsed>
+				<StaticEnergyUsed>11.25</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -11988,7 +11988,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>5</StaticEnergyUsed>
+				<StaticEnergyUsed>12.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -12036,7 +12036,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ion Shield [Ftr]</Name>
-		<ImageFilename>Environment/Components/533-Ion Shield FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/533-Ion Shield FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>534</ComponentId>
@@ -12336,7 +12336,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Stealth Cloak [Ftr]</Name>
-		<ImageFilename>Environment/Components/534-Stealth Cloak FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/534-Stealth Cloak FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>535</ComponentId>
@@ -12636,7 +12636,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>I-Space Sheath [Ftr]</Name>
-		<ImageFilename>Environment/Components/535-I-Space Sheath FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/535-I-Space Sheath FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>536</ComponentId>
@@ -13058,7 +13058,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Advanced Construction Yard</Name>
-		<ImageFilename>Environment/Components/536-Advanced Construction Yard</ImageFilename>
+		<ImageFilename>XLAssets/Components/536-Advanced Construction Yard</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>537</ComponentId>
@@ -13180,7 +13180,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -13314,7 +13314,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -13362,7 +13362,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Enhanced Ion Sheath Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/537-Enhanced Ion Sheath Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/537-Enhanced Ion Sheath Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>538</ComponentId>
@@ -13666,7 +13666,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Enhanced Ion Sheath Armor</Name>
-		<ImageFilename>Environment/Components/538-Enhanced Ion Sheath Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/538-Enhanced Ion Sheath Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>539</ComponentId>
@@ -13962,7 +13962,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Damage Control, Nano Swarms</Name>
-		<ImageFilename>Environment/Components/539-Damage Control Nano Swarms</ImageFilename>
+		<ImageFilename>XLAssets/Components/539-Damage Control Nano Swarms</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>540</ComponentId>
@@ -14250,7 +14250,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Energy Collector [M]</Name>
-		<ImageFilename>Environment/Components/540-Energy Collector M</ImageFilename>
+		<ImageFilename>XLAssets/Components/540-Energy Collector M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>541</ComponentId>
@@ -14542,7 +14542,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Energy Collector, Augmented [M]</Name>
-		<ImageFilename>Environment/Components/541-Energy Collector Augmented M</ImageFilename>
+		<ImageFilename>XLAssets/Components/541-Energy Collector Augmented M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>542</ComponentId>
@@ -15110,7 +15110,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Stellar Auxiliary Hangar Bay</Name>
-		<ImageFilename>Environment/Components/542-Stellar Auxiliary Hangar Bay</ImageFilename>
+		<ImageFilename>XLAssets/Components/542-Stellar Auxiliary Hangar Bay</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>543</ComponentId>
@@ -15682,7 +15682,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Stellar Hangar Bay</Name>
-		<ImageFilename>Environment/Components/543-Stellar Hangar Bay</ImageFilename>
+		<ImageFilename>XLAssets/Components/543-Stellar Hangar Bay</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>544</ComponentId>
@@ -16254,7 +16254,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Stellar Hangar Deck</Name>
-		<ImageFilename>Environment/Components/544-Stellar Hangar Deck</ImageFilename>
+		<ImageFilename>XLAssets/Components/544-Stellar Hangar Deck</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>545</ComponentId>
@@ -16482,7 +16482,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -16530,7 +16530,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ion Field Projector [Ftr]</Name>
-		<ImageFilename>Environment/Components/545-Ion Field Projector FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/545-Ion Field Projector FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>546</ComponentId>
@@ -16834,7 +16834,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Energy To Fuel Converter [L]</Name>
-		<ImageFilename>Environment/Components/546-Energy To Fuel Converter L</ImageFilename>
+		<ImageFilename>XLAssets/Components/546-Energy To Fuel Converter L</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>547</ComponentId>
@@ -17271,8 +17271,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reactor, Plasmatic Caslon</Name>
-		<ImageFilename>Environment/Components/164-Quantum Reactor</ImageFilename>
-		<!-- <ImageFilename>Environment/Components/547-Plasmatic Caslon Reactor</ImageFilename> -->
+		<ImageFilename>XLAssets/Components/164-Quantum Reactor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>548</ComponentId>
@@ -17553,7 +17552,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Wave Bomb [M]</Name>
-		<ImageFilename>Environment/Components/002-Wave Bomb</ImageFilename>
+		<ImageFilename>XLAssets/Components/002-Wave Bomb</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>549</ComponentId>
@@ -17966,7 +17965,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Intimidator Surge Blast [M]</Name>
-		<ImageFilename>Environment/Components/549-Intimidator Surge Blast M</ImageFilename>
+		<ImageFilename>XLAssets/Components/549-Intimidator Surge Blast M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>550</ComponentId>
@@ -18387,7 +18386,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Derasian Shock Wave [M]</Name>
-		<ImageFilename>Environment/Components/550-Derasian Shock Wave M</ImageFilename>
+		<ImageFilename>XLAssets/Components/550-Derasian Shock Wave M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>551</ComponentId>
@@ -19081,7 +19080,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ion Bomb [M]</Name>
-		<ImageFilename>Environment/Components/551-Ion Bomb M</ImageFilename>
+		<ImageFilename>XLAssets/Components/551-Ion Bomb M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>552</ComponentId>
@@ -19769,7 +19768,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ion Pulse [M]</Name>
-		<ImageFilename>Environment/Components/552-Ion Pulse M</ImageFilename>
+		<ImageFilename>XLAssets/Components/552-Ion Pulse M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>553</ComponentId>
@@ -20193,7 +20192,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Graviton Pulse [M]</Name>
-		<ImageFilename>Environment/Components/553-Graviton Pulse M</ImageFilename>
+		<ImageFilename>XLAssets/Components/553-Graviton Pulse M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>554</ComponentId>
@@ -20626,7 +20625,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Nova Pulse Wave [M]</Name>
-		<ImageFilename>Environment/Components/554-Nova Pulse Wave M</ImageFilename>
+		<ImageFilename>XLAssets/Components/554-Nova Pulse Wave M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>555</ComponentId>
@@ -20924,7 +20923,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Transient Singularity [M]</Name>
-		<ImageFilename>Environment/Components/555-Transient Singularity M</ImageFilename>
+		<ImageFilename>XLAssets/Components/555-Transient Singularity M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>556</ComponentId>
@@ -21078,7 +21077,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Rama Construction Yard</Name>
-		<ImageFilename>Environment/Components/556-Rama Construction Yard</ImageFilename>
+		<ImageFilename>XLAssets/Components/556-Rama Construction Yard</ImageFilename>
 	</ComponentDefinition>
 	<!-- XL Gizurean Extensions: 557..562 -->
 	<ComponentDefinition>
@@ -21379,7 +21378,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Multi-Dimensional Hex Armor</Name>
-		<ImageFilename>Environment/Components/557-Multi-Dimensional Hex Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/557-Multi-Dimensional Hex Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>558</ComponentId>
@@ -21545,7 +21544,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Infinite Hex Armor</Name>
-		<ImageFilename>Environment/Components/558-Infinite Hex Armor</ImageFilename>
+		<ImageFilename>XLAssets/Components/558-Infinite Hex Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>559</ComponentId>
@@ -21845,7 +21844,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Dense Hex Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/559-Dense Hex Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/559-Dense Hex Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>560</ComponentId>
@@ -22145,7 +22144,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Multi-Dimensional Hex Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/560-Multi-Dimensional Hex Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/560-Multi-Dimensional Hex Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>561</ComponentId>
@@ -22311,7 +22310,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Infinite Hex Armor [Ftr]</Name>
-		<ImageFilename>Environment/Components/561-Infinite Hex Armor FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/561-Infinite Hex Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>562</ComponentId>
@@ -23010,7 +23009,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Networked Sensor Array</Name>
-		<ImageFilename>Environment/Components/562-Networked Sensor Array</ImageFilename>
+		<ImageFilename>XLAssets/Components/562-Networked Sensor Array</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>563</ComponentId>
@@ -23555,7 +23554,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Impact Assault Blaster [PD]</Name>
-		<ImageFilename>Environment/Components/563-Impact Assault Blaster PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/563-Impact Assault Blaster PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>564</ComponentId>
@@ -24107,7 +24106,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Shatterforce Beam [PD]</Name>
-		<ImageFilename>Environment/Components/564-Shatterforce Beam PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/564-Shatterforce Beam PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>565</ComponentId>
@@ -24533,7 +24532,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Phased Beam Array [PD]</Name>
-		<ImageFilename>Environment/Components/565-Phased Beam Array PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/565-Phased Beam Array PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>566</ComponentId>
@@ -24955,7 +24954,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Swarm Missile [PD]</Name>
-		<ImageFilename>Environment/Components/566-Swarm Missile PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/566-Swarm Missile PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>567</ComponentId>
@@ -25243,7 +25242,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Reinforcing Swarm Missile [PD]</Name>
-		<ImageFilename>Environment/Components/567-Reinforcing Swarm Missile PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/567-Reinforcing Swarm Missile PD</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>568</ComponentId>
@@ -25477,7 +25476,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -25525,7 +25524,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Plasma Torpedo [Ftr]</Name>
-		<ImageFilename>Environment/Components/568-Plasma Torpedo FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/568-Plasma Torpedo FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>569</ComponentId>
@@ -25814,7 +25813,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Experimental Graviton Disruptor [S]</Name>
-		<ImageFilename>Environment/Components/569-Experimental Graviton Disruptor S</ImageFilename>
+		<ImageFilename>XLAssets/Components/569-Experimental Graviton Disruptor S</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>570</ComponentId>
@@ -27163,7 +27162,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Plasma Blaster [L]</Name>
-		<ImageFilename>Environment/Components/570-Plasma Blaster L</ImageFilename>
+		<ImageFilename>XLAssets/Components/570-Plasma Blaster L</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>571</ComponentId>
@@ -27451,7 +27450,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Titan Missile [M]</Name>
-		<ImageFilename>Environment/Components/571-Titan Missile M</ImageFilename>
+		<ImageFilename>XLAssets/Components/571-Titan Missile M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>572</ComponentId>
@@ -27739,7 +27738,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Titan Missile [L]</Name>
-		<ImageFilename>Environment/Components/572-Titan Missile L</ImageFilename>
+		<ImageFilename>XLAssets/Components/572-Titan Missile L</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>573</ComponentId>
@@ -27980,7 +27979,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28115,7 +28114,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28250,7 +28249,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28385,7 +28384,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28520,7 +28519,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28655,7 +28654,7 @@
 				<ShieldStrength>0</ShieldStrength>
 				<ShieldPenetrationChance>0</ShieldPenetrationChance>
 				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
-				<StaticEnergyUsed>0.2</StaticEnergyUsed>
+				<StaticEnergyUsed>0.5</StaticEnergyUsed>
 				<StealthRating>0</StealthRating>
 				<TargetingBonus>0</TargetingBonus>
 				<TargetingFleetBonus>0</TargetingFleetBonus>
@@ -28703,7 +28702,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Bulwark Missile Battery [Ftr]</Name>
-		<ImageFilename>Environment/Components/573-Bulwark Missile Battery FTR</ImageFilename>
+		<ImageFilename>XLAssets/Components/573-Bulwark Missile Battery FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>574</ComponentId>
@@ -29385,7 +29384,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ion Missile [M]</Name>
-		<ImageFilename>Environment/Components/574-Ion Missile M</ImageFilename>
+		<ImageFilename>XLAssets/Components/574-Ion Missile M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>575</ComponentId>
@@ -30075,7 +30074,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Advanced Ion Missile [M]</Name>
-		<ImageFilename>Environment/Components/575-Advanced Ion Missile M</ImageFilename>
+		<ImageFilename>XLAssets/Components/575-Advanced Ion Missile M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>576</ComponentId>
@@ -30363,7 +30362,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Ultra Ion Missile [M]</Name>
-		<ImageFilename>Environment/Components/576-Ultra Ion Missile M</ImageFilename>
+		<ImageFilename>XLAssets/Components/576-Ultra Ion Missile M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>578</ComponentId>
@@ -30534,7 +30533,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Scanner, Improved</Name>
-		<ImageFilename>Environment/Components/578-Trace Scanner Improved</ImageFilename>
+		<ImageFilename>XLAssets/Components/578-Trace Scanner Improved</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>579</ComponentId>
@@ -30696,7 +30695,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Jammer, Improved</Name>
-		<ImageFilename>Environment/Components/579-Trace Jammer Improved</ImageFilename>
+		<ImageFilename>XLAssets/Components/579-Trace Jammer Improved</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>580</ComponentId>
@@ -30878,7 +30877,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Militarized II</Name>
-		<ImageFilename>Environment/Components/344-Star Marine Barracks</ImageFilename>
+		<ImageFilename>XLAssets/Components/344-Star Marine Barracks</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>581</ComponentId>
@@ -31060,7 +31059,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Militarized III</Name>
-		<ImageFilename>Environment/Components/344-Star Marine Barracks</ImageFilename>
+		<ImageFilename>XLAssets/Components/344-Star Marine Barracks</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>582</ComponentId>
@@ -31242,7 +31241,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Militarized IV</Name>
-		<ImageFilename>Environment/Components/344-Star Marine Barracks</ImageFilename>
+		<ImageFilename>XLAssets/Components/344-Star Marine Barracks</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>583</ComponentId>
@@ -31424,7 +31423,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Militarized V</Name>
-		<ImageFilename>Environment/Components/344-Star Marine Barracks</ImageFilename>
+		<ImageFilename>XLAssets/Components/344-Star Marine Barracks</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>584</ComponentId>
@@ -31586,7 +31585,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Civilian II</Name>
-		<ImageFilename>Environment/Components/240-Crew Systems</ImageFilename>
+		<ImageFilename>XLAssets/Components/240-Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>585</ComponentId>
@@ -31748,7 +31747,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Civilian III</Name>
-		<ImageFilename>Environment/Components/240-Crew Systems</ImageFilename>
+		<ImageFilename>XLAssets/Components/240-Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>586</ComponentId>
@@ -31910,7 +31909,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Civilian IV</Name>
-		<ImageFilename>Environment/Components/240-Crew Systems</ImageFilename>
+		<ImageFilename>XLAssets/Components/240-Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>587</ComponentId>
@@ -32072,7 +32071,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Quarters, Civilian V</Name>
-		<ImageFilename>Environment/Components/240-Crew Systems</ImageFilename>
+		<ImageFilename>XLAssets/Components/240-Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>588</ComponentId>
@@ -32234,7 +32233,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Crew Compartments, Utilitarian</Name>
-		<ImageFilename>Environment/Components/088-Basic Crew Systems</ImageFilename>
+		<ImageFilename>XLAssets/Components/088-Basic Crew Systems</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>589</ComponentId>
@@ -32405,7 +32404,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Scanner, Optimal</Name>
-		<ImageFilename>Environment/Components/590-Trace Scanner Optimal</ImageFilename>
+		<ImageFilename>XLAssets/Components/590-Trace Scanner Optimal</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>590</ComponentId>
@@ -32575,7 +32574,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Jammer, Optimal</Name>
-		<ImageFilename>Environment/Components/580-Trace Jammer Optimal</ImageFilename>
+		<ImageFilename>XLAssets/Components/580-Trace Jammer Optimal</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>591</ComponentId>
@@ -32746,7 +32745,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Scanner, Ultimate</Name>
-		<ImageFilename>Environment/Components/591-Trace Scanner Ultimate</ImageFilename>
+		<ImageFilename>XLAssets/Components/591-Trace Scanner Ultimate</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>592</ComponentId>
@@ -32916,7 +32915,7 @@
 			</ComponentStats>
 		</Values>
 		<Name>Trace Jammer, Ultimate</Name>
-		<ImageFilename>Environment/Components/592-Trace Jammer Ultimate</ImageFilename>
+		<ImageFilename>XLAssets/Components/592-Trace Jammer Ultimate</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>593</ComponentId>
@@ -33471,6 +33470,6 @@
 			</ComponentStats>
 		</Values>
 		<Name>Hail Cannon [PD]</Name>
-		<ImageFilename>Environment/Components/593-Hail Cannon PD</ImageFilename>
+		<ImageFilename>XLAssets/Components/593-Hail Cannon PD</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

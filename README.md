@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
     - [v1.19.2](#v1192)
     - [v1.19.1](#v1191)
@@ -200,8 +201,15 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
+### v1.19.4
+- Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
+- Reduced Galactic Science Center to 100K (was 200K)
+- Revamped Strike Craft hull bays
+- Gizurean now use same techs for strike craft as other races (but retain their unique designs & special hangar bays)
+- NOTE: for 1.19.3 saves - you must load the 1.19.3 XL Patch to get the images to show up (that won't be needed for 1.19.4 saves, purely stop-gap measure)
+
 ### v1.19.3
-- Quick patch that fixes some derivative components (fighter and pd variants)
+- Quick patch: Fixed some Missile [Ftr] and [PD] component values to align with new Missile [S] changes
 
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
@@ -1785,28 +1793,30 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 
 ### Fighter Stats
 
-| Level | Size[0] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
-| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
-| 0     | 56      | 15   | 0        | 0   | 33              | 8         | 1      | 1      | 1       | 2       | 20          |
-| 2     | 69      | 18   | 3        | 12  | 26              | 14        | 2      | 2      | 1       | 2       | 12          |
-| 4     | 96      | 20   | 6        | 24  | 30              | 26        | 2      | 2      | 2       | 3       | 14          |
-| 9     | 119     | 24   | 9        | 36  | 37              | 40        | 2      | 3      | 2       | 3       | 18          |
-| 13    | 137     | 25   | 12       | 48  | 50              | 58        | 2      | 3      | 3       | 4       | 30          |
-| 15    | 150     | 26   | 15       | 60  | 54              | 70        | 3      | 3      | 3       | 4       | 36          |
+> note: DW2's ship designer is dumpster fire of broken code and cannot handle most good ideas.  So the code generates 3 genereal slots always to get around certain bugs even though it sucks and is stupid.
+
+| Level | Hull | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
+| ----- | ---- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
+| 0     | 15   | 0        | 4   | 26              | 3         | 8           | 1      | 1      | 1       | 2(3)    |
+| 2     | 18   | 3        | 8   | 32              | 6         | 16          | 1      | 2      | 1       | 3       |
+| 4     | 20   | 6        | 12  | 38              | 9         | 24          | 2      | 2      | 2       | 3       |
+| 9     | 24   | 9        | 16  | 44              | 12        | 32          | 2      | 3      | 2       | 4       |
+| 13    | 25   | 12       | 20  | 50              | 15        | 40          | 2      | 3      | 3       | 4       |
+| 15    | 26   | 15       | 24  | 56              | 18        | 48          | 2      | 3      | 3       | 5       |
 
 [0] size = hull size + weapon * 5 + engine * 10 + defense * 10 + (general * 10 - 5)
     note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
 
 ### Bomber Stats
 
-| Level | Size[1] | Hull | Reactive | Ion | Countermeasures | Targeting | Weapon | Engine | Defense | General | Maneuvering |
-| ----- | ------- | ---- | -------- | --- | --------------- | --------- | ------ | ------ | ------- | ------- | ----------- |
-| 0     | 55      | 15   | 0        | 5   | 10              | 10        | 1      | 1      | 1       | 2       | 8           |
-| 1     | 68      | 18   | 3        | 15  | 20              | 20        | 1      | 1      | 2       | 2       | 10          |
-| 2     | 96      | 21   | 6        | 25  | 30              | 30        | 2      | 2      | 2       | 2       | 12          |
-| 4     | 109     | 24   | 9        | 35  | 40              | 40        | 2      | 2      | 2       | 3       | 14          |
-| 5     | 137     | 27   | 12       | 45  | 50              | 50        | 3      | 3      | 3       | 4       | 16          |
-| 6     | 150     | 30   | 15       | 55  | 60              | 60        | 3      | 3      | 3       | 4       | 18          |
+| Level | Hull | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
+| ----- | ---- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
+| 0     | 15   | 0        | 4   | 13              | 6         | 0           | 1      | 1      | 1       | 2(3)    |
+| 1     | 18   | 3        | 8   | 16              | 9         | 8           | 1      | 1      | 2       | 3       |
+| 2     | 21   | 6        | 12  | 19              | 12        | 16          | 2      | 2      | 2       | 3       |
+| 4     | 24   | 9        | 16  | 22              | 15        | 24          | 2      | 2      | 3       | 4       |
+| 5     | 27   | 12       | 20  | 25              | 18        | 32          | 2      | 3      | 3       | 4       |
+| 6     | 30   | 15       | 24  | 28              | 21        | 40          | 3      | 3      | 3       | 5       |
 
 [1] size = hull size + weapon * 10 + engine * 10 + defense * 10 + (general * 10 - 5)
     note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
@@ -1817,14 +1827,14 @@ You can use this chart to see what the original vanilla files used for "level" t
 
 #### Fighter Naming
 
-| Level | Standard    | Human                     | Teekan             |
-| ----- | ----------- | ------------------------- | ------------------ |
-| 0     | Fighter I   | Gyrfalcon Interceptor I   | ZimZip Fighter I   |
-| 2     | Fighter II  | Gyrfalcon Interceptor II  | ZimZip Fighter II  |
-| 4     | Fighter III | Gyrfalcon Interceptor III | ZimZip Fighter III |
-| 9     | Fighter IV  | Gyrfalcon Interceptor IV  | ZimZip Fighter IV  |
-| 13    | Fighter V   | Gyrfalcon Interceptor V   | ZimZip Fighter V   |
-| 15    | Fighter X   | Gyrfalcon Interceptor X   | ZimZip Fighter X   |
+| Level | Standard                | Human                                 | Teekan                         |
+| ----- | ----------------------- | ------------------------------------- | ------------------------------ |
+| 0     | Fighter I               | Gyrfalcon Interceptor I               | ZimZip Fighter I               |
+| 2     | Fighter II              | Gyrfalcon Interceptor II              | ZimZip Fighter II              |
+| 4     | Fighter III             | Gyrfalcon Interceptor III             | ZimZip Fighter III             |
+| 9     | Fighter IV              | Gyrfalcon Interceptor IV              | ZimZip Fighter IV              |
+| 13    | Fighter V, Strike       | Gyrfalcon Interceptor V, Strike       | ZimZip Fighter V, Strike       |
+| 15    | Fighter VI, Superiority | Gyrfalcon Interceptor VI, Superiority | ZimZip Fighter VI, Superiority |
 
 ##### Unused in XL
 
