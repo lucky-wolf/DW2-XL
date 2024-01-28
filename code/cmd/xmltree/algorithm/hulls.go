@@ -19,6 +19,7 @@ type HullLevel = int
 type ComponentType = string
 type BayCounts map[ComponentType]int
 type BayCountsPerLevels map[HullLevel]BayCounts
+type HullBaySchedule map[string]BayCountsPerLevels
 
 type BayTypeGroups map[ComponentType]BayTypeIndexes
 type BayTypeIndexes struct {
@@ -35,7 +36,7 @@ var (
 	reverseComponentBayOrder = etc.Reverse(componentBayOrder)
 
 	// what we wish it were
-	componentBaySchedules = map[string]BayCountsPerLevels{
+	fighterHullSchedule = HullBaySchedule{
 		"FighterInterceptor": {
 			0: {
 				"Weapon":  1,
@@ -93,7 +94,7 @@ func FighterHulls(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyComponentBays()
+	err = j.applyComponentBays(fighterHullSchedule)
 	if err != nil {
 		return
 	}
@@ -104,7 +105,7 @@ func FighterHulls(folder string) (err error) {
 	return
 }
 
-func (j *Job) applyComponentBays() (err error) {
+func (j *Job) applyComponentBays(schedule HullBaySchedule) (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -126,14 +127,19 @@ func (j *Job) applyComponentBays() (err error) {
 
 				// see whether we have a schedule for this role
 				roleName := shiphull.Child("Role").StringValue()
-				schedule, ok := componentBaySchedules[roleName]
+				schedule, ok := schedule[roleName]
 				if ok {
 					level := shiphull.Child("Level").IntValue()
-					bays, ok := schedule[level]
+					desiredCounts, ok := schedule[level]
 					if ok {
-						err = j.applyComponentBaySchedule(shiphull, bays)
+						err = j.applyComponentBaySchedule(shiphull, desiredCounts)
 						if err != nil {
 							return
+						}
+
+						// fix <EngineLimit>
+						if count, ok := desiredCounts["Engine"]; ok {
+							shiphull.Child("EngineLimit").SetValue(count)
 						}
 					}
 				}
@@ -146,32 +152,36 @@ func (j *Job) applyComponentBays() (err error) {
 
 func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCounts BayCounts) (err error) {
 
-	componentbays := shiphull.Child("ComponentBays")
-
 	// scan the component bays by type to figure out where they each begin (and their counts)
-	indexes, err := j.getComponentBayIndexes(componentbays)
+	indexes, err := j.getComponentBayIndexes(shiphull.Child("ComponentBays"))
 	if err != nil {
 		return
 	}
 
 	// insert or remove elements from collection at the now known indexes (in reverse order)
 	for _, componentBayType := range reverseComponentBayOrder {
+
 		desired, ok := desiredCounts[componentBayType]
 		if !ok {
 			continue
 		}
 		actual := indexes[componentBayType].count
 
+		// always make engine bays odd to allow for the game to balance them
+		if componentBayType == "Engine" && desiredCounts["Engine"]%2 == 0 {
+			desired += 1
+		}
+
 		switch {
 		case desired > actual:
 			// append copies
-			err = componentbays.ExtendAt(indexes[componentBayType].start+actual-1, desired-actual)
+			err = shiphull.Child("ComponentBays").ExtendAt(indexes[componentBayType].start+actual-1, desired-actual)
 			if err != nil {
 				return
 			}
 		case actual > desired:
 			// delete unneeded elements
-			err = componentbays.RemoveSpan(indexes[componentBayType].start+desired, actual-desired)
+			err = shiphull.Child("ComponentBays").RemoveSpan(indexes[componentBayType].start+desired, actual-desired)
 			if err != nil {
 				return
 			}
@@ -179,7 +189,7 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 	}
 
 	// renumber everything to ensure it's coherent
-	err = j.renumberComponentBays(componentbays)
+	err = j.renumberComponentBays(shiphull.Child("ComponentBays"))
 
 	return
 }
@@ -210,7 +220,7 @@ func (j *Job) getComponentBayIndexes(componentbays *xmltree.XMLElement) (counts 
 }
 
 // matches #weapon0 and the like...
-var meshRegex = regexp.MustCompile("(#\\w+)\\d+")
+var meshRegex = regexp.MustCompile(`(#\w+)\d+`)
 
 // renumbers all elements and returns the group counts (weapon, defense, etc.)
 func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err error) {
@@ -231,10 +241,15 @@ func (j *Job) renumberComponentBays(componentbays *xmltree.XMLElement) (err erro
 		// get the current count of this type (starts at zero)
 		if m := c.Child("MeshName"); m != nil && meshRegex.MatchString(m.StringValue()) {
 			// get the count of mesh names of this type so far
-			i := counts[t]
+			ci := counts[t]
+
+			oldname := m.StringValue()
+			newname := meshRegex.ReplaceAllString(oldname, fmt.Sprintf("${1}%d", ci))
+
+			// fmt.Printf("%s -> %s\n", oldname, newname)
 
 			// update this one to match our count
-			m.SetString(meshRegex.ReplaceAllString(m.StringValue(), fmt.Sprintf("$1%d", i)))
+			m.SetString(newname)
 
 			// update our count for the next one
 			counts[t] += 1
