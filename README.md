@@ -169,7 +169,7 @@
     - [Bomber Stats](#bomber-stats)
     - [Hull mappings from vanilla files](#hull-mappings-from-vanilla-files)
       - [Fighter Naming](#fighter-naming)
-        - [Unused in XL](#unused-in-xl)
+      - [Bomber Naming](#bomber-naming)
 
 ## Guiding Principles
 Principally this mod aims to create a better player experience while playing games of Distant Worlds 2.
@@ -1830,21 +1830,13 @@ You can use this chart to see what the original vanilla files used for "level" t
 | 13    | Fighter V, Strike       | Gyrfalcon Interceptor V, Strike       | ZimZip Fighter V, Strike       |
 | 15    | Fighter VI, Superiority | Gyrfalcon Interceptor VI, Superiority | ZimZip Fighter VI, Superiority |
 
-##### Unused in XL
+#### Bomber Naming
 
-| FighterInterceptor Level |
-| ------------------------ |
-| 1                        |
-| 3                        |
-| 5                        |
-| 6                        |
-| 7                        |
-| 8                        |
-| 10                       |
-| 11                       |
-| 12                       |
-| 14                       |
-
-| FighterBomber Level |
-| ------------------- |
-| 3                   |
+| Level | Standard           |
+| ----- | ------------------ |
+| 0     | Bomber I           |
+| 2     | Bomber II          |
+| 4     | Bomber III         |
+| 9     | Bomber IV          |
+| 13    | Bomber V, Strike   |
+| 15    | Bomber VI, Assault |
