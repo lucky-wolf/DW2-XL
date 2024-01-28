@@ -44,6 +44,8 @@ func main() {
 		err = algorithm.FighterArmor(folder)
 	case "FighterEngines":
 		err = algorithm.FighterEngines(folder)
+	case "FighterHulls":
+		err = algorithm.FighterHulls(folder)
 	case "FighterReactors":
 		err = algorithm.FighterReactors(folder)
 	case "FighterShields":

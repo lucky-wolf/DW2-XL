@@ -82,7 +82,7 @@ var (
 	}
 )
 
-func AdjustComponentBays(folder string) (err error) {
+func FighterHulls(folder string) (err error) {
 
 	log.Println("All strikecraft component bay counts will be adjusted to match desired schedule")
 
