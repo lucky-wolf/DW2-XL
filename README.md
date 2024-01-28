@@ -1793,33 +1793,27 @@ These are base ranges.  The galaxy generator modifies these based on your colony
 
 ### Fighter Stats
 
-> note: DW2's ship designer is dumpster fire of broken code and cannot handle most good ideas.  So the code generates 3 genereal slots always to get around certain bugs even though it sucks and is stupid.
+> note: General slots are locked at 3 minimum due to broken nature of DW2 ship auto designer
 
-| Level | Hull | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
-| ----- | ---- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
-| 0     | 15   | 0        | 4   | 26              | 3         | 8           | 1      | 1      | 1       | 2(3)    |
-| 2     | 18   | 3        | 8   | 32              | 6         | 16          | 1      | 2      | 1       | 3       |
-| 4     | 20   | 6        | 12  | 38              | 9         | 24          | 2      | 2      | 2       | 3       |
-| 9     | 24   | 9        | 16  | 44              | 12        | 32          | 2      | 3      | 2       | 4       |
-| 13    | 25   | 12       | 20  | 50              | 15        | 40          | 2      | 3      | 3       | 4       |
-| 15    | 26   | 15       | 24  | 56              | 18        | 48          | 2      | 3      | 3       | 5       |
-
-[0] size = hull size + weapon * 5 + engine * 10 + defense * 10 + (general * 10 - 5)
-    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
+| Level | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
+| ----- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
+| 0     | 0        | 4   | 26              | 3         | 8           | 1      | 1      | 1       | 2(3)    |
+| 2     | 3        | 8   | 32              | 6         | 16          | 1      | 2      | 1       | 3       |
+| 4     | 6        | 12  | 38              | 9         | 24          | 2      | 2      | 2       | 3       |
+| 9     | 9        | 16  | 44              | 12        | 32          | 2      | 3      | 2       | 4       |
+| 13    | 12       | 20  | 50              | 15        | 40          | 2      | 3      | 3       | 4       |
+| 15    | 15       | 24  | 56              | 18        | 48          | 2      | 3      | 3       | 5       |
 
 ### Bomber Stats
 
-| Level | Hull | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
-| ----- | ---- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
-| 0     | 15   | 0        | 4   | 13              | 6         | 0           | 1      | 1      | 1       | 2(3)    |
-| 1     | 18   | 3        | 8   | 16              | 9         | 8           | 1      | 1      | 2       | 3       |
-| 2     | 21   | 6        | 12  | 19              | 12        | 16          | 2      | 2      | 2       | 3       |
-| 4     | 24   | 9        | 16  | 22              | 15        | 24          | 2      | 2      | 3       | 4       |
-| 5     | 27   | 12       | 20  | 25              | 18        | 32          | 2      | 3      | 3       | 4       |
-| 6     | 30   | 15       | 24  | 28              | 21        | 40          | 3      | 3      | 3       | 5       |
-
-[1] size = hull size + weapon * 10 + engine * 10 + defense * 10 + (general * 10 - 5)
-    note: 10 / defense = all shields.  could allow only 1/2 shields, meaning 7.5 per defense slot.
+| Level | Reactive | Ion | Countermeasures | Targeting | Maneuvering | Weapon | Engine | Defense | General |
+| ----- | -------- | --- | --------------- | --------- | ----------- | ------ | ------ | ------- | ------- |
+| 0     | 0        | 4   | 13              | 6         | 0           | 1      | 1      | 1       | 2(3)    |
+| 1     | 3        | 8   | 16              | 9         | 8           | 1      | 1      | 2       | 3       |
+| 2     | 6        | 12  | 19              | 12        | 16          | 2      | 2      | 2       | 3       |
+| 4     | 9        | 16  | 22              | 15        | 24          | 2      | 2      | 3       | 4       |
+| 5     | 12       | 20  | 25              | 18        | 32          | 2      | 3      | 3       | 4       |
+| 6     | 15       | 24  | 28              | 21        | 40          | 3      | 3      | 3       | 5       |
 
 ### Hull mappings from vanilla files
 
