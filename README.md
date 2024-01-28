@@ -206,6 +206,7 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced Galactic Science Center to 100K (was 200K)
 - Revamped Strike Craft hull bays
 - Gizurean now use same techs for strike craft as other races (but retain their unique designs & special hangar bays)
+- NOTE: for 1.19.3 saves - you must load the 1.19.3 XL Patch to get the images to show up (that won't be needed for 1.19.4 saves, purely stop-gap measure)
 
 ### v1.19.3
 - Quick patch: Fixed some Missile [Ftr] and [PD] component values to align with new Missile [S] changes
