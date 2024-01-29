@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.5](#v1195)
     - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
     - [v1.19.2](#v1192)
@@ -200,6 +201,9 @@ YMMV, but this is my take on making it Extra Large!
   - This seriously improves the look and flow of battles as well!  They look amazing now!
 
 ## Latest Changes
+
+### v1.19.5
+- Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists)
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

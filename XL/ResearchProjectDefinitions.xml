@@ -993,7 +993,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>269</Row>
+		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>264</ResearchProjectId>
@@ -3577,7 +3577,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>269</Row>
+		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>26</ResearchProjectId>
@@ -6735,7 +6735,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>269</Row>
+		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>82</ResearchProjectId>
@@ -6793,7 +6793,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>269</Row>
+		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>144</ResearchProjectId>
@@ -9527,7 +9527,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>269</Row>
+		<Row>262</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>145</ResearchProjectId>
@@ -12790,17 +12790,11 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>255</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>253</ResearchProjectId>
+				<ResearchProjectId>353</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>175</ComponentId>
@@ -12815,16 +12809,6 @@
 				<Level>0</Level>
 			</Component>
 		</Components>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>FighterBomber</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>266</ResearchProjectId>
@@ -13589,11 +13573,13 @@
 		<Row>249</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Starfighter Hangar Bays -->
 				<ResearchProjectId>265</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
+				<!-- Stellar Hangar Bays -->
 				<ResearchProjectId>1165</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -16546,15 +16532,24 @@
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<!-- <Name>Fast Bombers</Name> -->
 		<ResearchProjectId>353</ResearchProjectId>
-		<Name>Undefined: (353)</Name>
+		<Name>Strike Craft</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>0</Size>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Size>100</Size>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>0</Row>
+		<Row>242</Row>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>FighterInterceptor</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+			<ShipHullReference>
+				<Role>FighterBomber</Role>
+				<Level>0</Level>
+			</ShipHullReference>
+		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>354</ResearchProjectId>

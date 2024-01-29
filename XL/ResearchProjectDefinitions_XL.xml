@@ -7753,19 +7753,12 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>255</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>1</RaceId>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>253</ResearchProjectId>
+				<ResearchProjectId>353</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>1</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>542</ComponentId>
@@ -7780,16 +7773,6 @@
 				<Level>0</Level>
 			</Component>
 		</Components>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>FighterInterceptor</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>FighterBomber</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1166</ResearchProjectId>
@@ -7965,6 +7948,49 @@
 			<Component>
 				<ComponentId>544</ComponentId>
 				<Level>3</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1169</ResearchProjectId>
+		<Name>Splinter Super Swarms</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>4550</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>266</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>5</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>546</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>5</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>309</ComponentId>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -8504,7 +8530,7 @@
 		<Row>265</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>353</ResearchProjectId>
+				<ResearchProjectId>1169</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -8535,7 +8561,7 @@
 		<Row>266</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>353</ResearchProjectId>
+				<ResearchProjectId>1169</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -8566,7 +8592,7 @@
 		<Row>267</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>353</ResearchProjectId>
+				<ResearchProjectId>1169</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
