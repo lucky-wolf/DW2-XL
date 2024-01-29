@@ -203,7 +203,8 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.5
-- Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists)
+- Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists when you discover / steal / pillage a racial special hangar bay technology)
+- Fixed missing image for Quameno "Maze Pirates" quest line
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

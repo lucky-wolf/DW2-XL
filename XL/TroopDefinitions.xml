@@ -14,9 +14,9 @@
 		<DefendStrength>60</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
-		<EvasionArmor>0.25</EvasionArmor>
-		<EvasionTitan>0.25</EvasionTitan>
-		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionArmor>0.125</EvasionArmor>
+		<EvasionTitan>0.125</EvasionTitan>
+		<EvasionPlanetaryDefense>0.125</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<Name>Battlebot Unit</Name>
 		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
@@ -1087,15 +1087,15 @@
 		<RaceId>21</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
-		<MaintenanceCost>0</MaintenanceCost>
-		<AttackStrength>0</AttackStrength>
-		<DefendStrength>0</DefendStrength>
+		<MaintenanceCost>250</MaintenanceCost>
+		<AttackStrength>200</AttackStrength>
+		<DefendStrength>200</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
-		<EvasionInfantry>0</EvasionInfantry>
-		<EvasionArmor>0</EvasionArmor>
-		<EvasionTitan>0</EvasionTitan>
-		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
+		<EvasionInfantry>0.5</EvasionInfantry>
+		<EvasionArmor>0.5</EvasionArmor>
+		<EvasionTitan>0.5</EvasionTitan>
+		<EvasionPlanetaryDefense>0.5</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0.5</EvasionSpecialForces>
 		<Name>Guardians</Name>
 		<Description />
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
@@ -1109,9 +1109,9 @@
 			<Money>0</Money>
 			<Resources />
 		</RecruitmentCost>
-		<MaintenanceCost>100</MaintenanceCost>
-		<AttackStrength>30</AttackStrength>
-		<DefendStrength>100</DefendStrength>
+		<MaintenanceCost>0</MaintenanceCost>
+		<AttackStrength>100</AttackStrength>
+		<DefendStrength>150</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
@@ -1174,8 +1174,8 @@
 			<Resources />
 		</RecruitmentCost>
 		<MaintenanceCost>0</MaintenanceCost>
-		<AttackStrength>400</AttackStrength>
-		<DefendStrength>200</DefendStrength>
+		<AttackStrength>250</AttackStrength>
+		<DefendStrength>250</DefendStrength>
 		<SabotageStrength>0</SabotageStrength>
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.15</EvasionArmor>
