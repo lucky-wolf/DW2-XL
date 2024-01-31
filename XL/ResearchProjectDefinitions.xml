@@ -728,7 +728,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>21</ResearchProjectId>
-		<Name>Combat Mechs</Name>
+		<Name>Armored Units</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -837,7 +837,7 @@
 		<Column>3</Column>
 		<Row>172</Row>
 		<PrerequisiteProjects>
-			<!-- Mechs -->
+			<!-- Armored Units -->
 			<ResearchPath>
 				<ResearchProjectId>21</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -916,7 +916,7 @@
 		<Column>3</Column>
 		<Row>173</Row>
 		<PrerequisiteProjects>
-			<!-- Mechs -->
+			<!-- Armored Units -->
 			<ResearchPath>
 				<ResearchProjectId>21</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
@@ -3147,7 +3147,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>74</ResearchProjectId>
-		<Name>Advanced Mechs</Name>
+		<Name>Advanced Armored</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -6330,7 +6330,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>137</ResearchProjectId>
-		<Name>Heavy Mechs</Name>
+		<Name>Heavy Armored</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -9035,7 +9035,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>190</ResearchProjectId>
-		<Name>Super Heavy Mechs</Name>
+		<Name>Super Heavy Armored</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -10276,7 +10276,7 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<!-- heavy mechs -->
+			<!-- heavy armored -->
 			<ResearchPath>
 				<ResearchProjectId>137</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>

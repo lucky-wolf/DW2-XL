@@ -10,9 +10,9 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
+		<!-- <TriggerRaceIds>
 			<short>10</short>
-		</TriggerRaceIds>
+		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
@@ -62,9 +62,9 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
+		<!-- <TriggerRaceIds>
 			<short>10</short>
-		</TriggerRaceIds>
+		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
@@ -87,8 +87,9 @@
 [ULI][RESEARCH]Standard Sensors[/RESEARCH][/ULI]
 [ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
 
-Nothing will move that we will not know about! Our webs of intrigue and intel shall grow to encompass the entire galaxy, which we shall dominate!</Description>
-				<ImageFilepath />
+Nothing will move that we will not know about! Our webs of intrigue shall grow to encompass the entire galaxy!
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Espionage Academy</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

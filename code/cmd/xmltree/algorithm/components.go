@@ -233,8 +233,8 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25)
 
 			// scale reactor values
-			// note: there are far, far fewer components on a fighter/bomber than a ship
-			const reactorFactor = 0.15
+			// note: seems like too much for early tech, but quickly isn't
+			const reactorFactor = 0.25
 			e.Child("ReactorEnergyOutputPerSecond").ScaleBy(reactorFactor)
 			e.Child("ReactorEnergyStorageCapacity").ScaleBy(reactorFactor)
 			e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(reactorFactor)

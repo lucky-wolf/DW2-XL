@@ -204,6 +204,10 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.19.5
 - Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists when you discover / steal / pillage a racial special hangar bay technology)
+- Added some fun touches to government events
+- DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
+- Increased fighter reactor output (was a bit low)
+- Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
 
 ### v1.19.4
@@ -253,7 +257,7 @@ YMMV, but this is my take on making it Extra Large!
   - 300 Special Operations
   - 400 Planetary Defense Units
   - 450 Synthetic Units
-  - 500 Mechs
+  - 500 Armored
   - 2000 Titans
 - Adjusted energy use of hail cannons
 - Adjusted end game planetary facilities to cost much more
@@ -718,7 +722,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed couple of issues with Ancient Guardian Vault techs
 - Moved XL components into the 500 range to avoid collisions
 - Separated "Derelict Reactor" so that they'll have plenty of power and won't be confused with plasmatic caslon reactors in XL
-- Added defense improvement factors to Mech improvement techs
+- Added defense improvement factors to Armored improvement techs
 - Added all around improvement factors to Robotic Troop improvement techs
 - Reduced chance of Caslon to approx 6% of all gas giants outside of story based systems
 - Fixed Planetary Pulsed Defenses (had dead component reference)

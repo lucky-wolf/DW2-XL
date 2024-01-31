@@ -10,9 +10,9 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
+		<!-- <TriggerRaceIds>
 			<short>15</short>
-		</TriggerRaceIds>
+		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
@@ -62,9 +62,9 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
+		<!-- <TriggerRaceIds>
 			<short>15</short>
-		</TriggerRaceIds>
+		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
@@ -86,10 +86,11 @@
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 
-We have also completed construction of the Enigma Maze to help weed the undeserving from the true geniuses amongst us for leadership.
+We have also completed construction of the [RESOURCE]Enigma Maze[/RESOURCE] to help weed the undeserving from the true geniuses amongst us for leadership.
 
-A [CHARACTER]scientist[/CHARACTER] is also available on our homeworld.</Description>
-				<ImageFilepath />
+A new [CHARACTER]scientist[/CHARACTER] is the first to emerge from the maze victorious and ready to serve our people.
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/the enigma maze</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

@@ -1182,12 +1182,14 @@ Ackdarians prefer Ocean worlds.</Description>
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
+			<!-- Republic -->
 			<short>0</short>
-			<short>1</short>
+			<!-- Democracy -->
 			<short>2</short>
+			<!-- Tribal -->
 			<short>3</short>
+			<!-- Monarchy -->
 			<short>4</short>
-			<short>5</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -7144,6 +7146,13 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 		<Bonuses>
 			<Bonus>
 				<Type>BoardingAssault</Type>
+				<Amount>1.00</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
 				<Amount>1.00</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
