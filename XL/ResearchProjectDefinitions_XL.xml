@@ -11983,7 +11983,18 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1253</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>1254</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<TroopTechs>
 			<TroopTech>
 				<Type>Titan</Type>
@@ -12055,7 +12066,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>7</Column>
 		<Row>164</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -12108,7 +12119,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>7</Column>
 		<Row>166</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -12170,7 +12181,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>7</Column>
 		<Row>167</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -12223,7 +12234,7 @@
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
+		<Column>7</Column>
 		<Row>160</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -12238,7 +12249,7 @@
 				<MaintenanceFactor>0</MaintenanceFactor>
 				<RecoveryRateFactor>0</RecoveryRateFactor>
 				<AttackStrengthFactor>0.15</AttackStrengthFactor>
-				<DefendStrengthFactor>0</DefendStrengthFactor>
+				<DefendStrengthFactor>0.15</DefendStrengthFactor>
 				<SabotageStrengthFactor>0</SabotageStrengthFactor>
 				<InterceptWeaponComponentLevelIncrease>4</InterceptWeaponComponentLevelIncrease>
 			</TroopTech>
@@ -12246,56 +12257,14 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1257</ResearchProjectId>
-		<Name>Superior Defense Networks</Name>
+		<!-- <Name>Superior Defense Networks</Name> -->
+		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>202500</Size>
-		<InitiationCost>
-			<Money>1012500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>9100</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>9</Column>
-		<Row>162</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>197</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<TroopTechs>
-			<TroopTech>
-				<Type>PlanetaryDefense</Type>
-				<MaintenanceFactor>0</MaintenanceFactor>
-				<RecoveryRateFactor>0</RecoveryRateFactor>
-				<AttackStrengthFactor>0</AttackStrengthFactor>
-				<DefendStrengthFactor>0.15</DefendStrengthFactor>
-				<SabotageStrengthFactor>0</SabotageStrengthFactor>
-				<InterceptWeaponComponentLevelIncrease>0</InterceptWeaponComponentLevelIncrease>
-			</TroopTech>
-		</TroopTechs>
+		<Size>0</Size>
+		<EnabledByDefault>false</EnabledByDefault>
+		<ProjectAppearanceProbability>0</ProjectAppearanceProbability>
+		<Column>0</Column>
+		<Row>0</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1258</ResearchProjectId>
@@ -12308,25 +12277,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>161</Row>
+		<Row>160</Row>
 		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>1256</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>661</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>1257</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatablePlanetaryFacilityValues>
 			<PlanetaryFacilityValues>

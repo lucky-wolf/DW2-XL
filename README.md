@@ -206,11 +206,13 @@ YMMV, but this is my take on making it Extra Large!
 - 1205 beta compatible & data file updates
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
 - Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists when you discover / steal / pillage a racial special hangar bay technology)
-- Added some fun touches to government events
 - DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
+- Added some fun touches to government events
 - Increased fighter reactor output (was a bit low)
 - Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
+- Rebalanced troop research to move it a bit earlier in the game
+- Collapsed PDU research into a single line
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
