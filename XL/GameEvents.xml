@@ -935,7 +935,8 @@ The traditions of our ancestors, who came here in the age before, live strong wi
 We know that they were the greatest of warriors who stood against all and were never vanquished, even by the great ancient horror that consumed the stars.
 We have kept the old ways and the ancient pact to rebuild and regain the greatness of the champions of old.
 The ancient tales speak of powerful enemies, battles greater than any we have seen and incredible dangers.  The honor and glory that awaits us is beyond reckoning!
-We will use the star drive our ancestors left for us and send forth the Brave, the Mortalen, to reclaim the stars!</Description>
+We will use the star drive our ancestors left for us and send forth the Brave, the Mortalen, to reclaim the stars!
+				</Description>
 				<ImageFilepath>UserInterface/Races/Mortalen</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1050,7 +1051,7 @@ We will use the star drive our ancestors left for us and send forth the Brave, t
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Armor Plating -->
 				<Id1>266</Id1>
-				<Value1>0.5</Value1>
+				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1066,7 +1067,7 @@ We will use the star drive our ancestors left for us and send forth the Brave, t
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -10500,6 +10501,7 @@ A research project has been enabled on our tech tree (Mysterious Plague). We sho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Mysterious Plague -->
 				<Id1>778</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -12618,6 +12620,7 @@ The last part of the message is a brief video clip of the base commander telling
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Reactors -->
 				<Id1>259</Id1>
 				<Value1>0.75</Value1>
 				<Value2>0</Value2>
@@ -13266,6 +13269,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -13884,8 +13888,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Interceptors -->
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.75</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -14063,7 +14067,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Advanced Turret Automation -->
 				<Id1>101</Id1>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -14088,8 +14092,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Interceptors -->
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -14161,7 +14165,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -16174,7 +16179,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16183,9 +16188,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Advanced Interceptors -->
-				<Id1>378</Id1>
-				<Value1>0</Value1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
+				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16201,7 +16206,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16210,8 +16215,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>512</Id1>
-				<Value1>0</Value1>
+				<!-- Improved Bombers -->
+				<Id1>354</Id1>
+				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16227,7 +16233,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16236,8 +16242,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>547</Id1>
-				<Value1>0</Value1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16253,7 +16260,34 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
+				<Value1>0.75</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16264,11 +16298,11 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Parallel Construction -->
 				<Id1>380</Id1>
-				<Value1>0</Value1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>Construction</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -18024,6 +18058,7 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Improved Space Ports -->
 				<Id1>675</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -18199,8 +18234,6 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Stellar Hangar Bays -->
-				<Id1>1165</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -18455,6 +18488,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18481,6 +18515,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18507,6 +18542,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18533,6 +18569,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18931,6 +18968,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18957,6 +18995,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18983,6 +19022,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -19009,6 +19049,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -20701,8 +20742,9 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>682</Id1>
-				<Value1>0.25</Value1>
+				<!-- Carriers -->
+				<Id1>309</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -21055,7 +21097,8 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>682</Id1>
+				<!-- Carriers -->
+				<Id1>309</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21461,6 +21504,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21487,6 +21531,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21513,6 +21558,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21539,6 +21585,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21565,6 +21612,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Sluken Language and Expressions -->
 				<Id1>760</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21624,7 +21672,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>First Ancient Colony (Ackdarian)</GeneratedItemName>
+				<GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -21690,6 +21738,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21716,6 +21765,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21742,6 +21792,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21768,6 +21819,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21794,6 +21846,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Sluken Language and Expressions -->
 				<Id1>760</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21844,7 +21897,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Ackdarian Shipyard World Ruins</ActionLocationItemName>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+		        <ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21853,7 +21906,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>First Ancient Colony (Ackdarian)</GeneratedItemName>
+		        <GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -21868,8 +21921,8 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName>Kaimana</ActionLocationItemName>
-				<ActionLocationItemType>Orb</ActionLocationItemType>
+		        <ActionLocationItemName>Ancient Ackdarian Research Center Ruins</ActionLocationItemName>
+		        <ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21878,7 +21931,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Second Ancient Colony (Ackdarian)</GeneratedItemName>
+		        <GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -22281,13 +22334,11 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved stellar hangars -->
-				<Id1>1166</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>FighterBay</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -22308,7 +22359,7 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved fighters -->
+				<!-- Improved Fighters -->
 				<Id1>352</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -22335,7 +22386,7 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved bombers -->
+				<!-- Improved Bombers -->
 				<Id1>354</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -22539,13 +22590,11 @@ We've discovered a technology and a damaged shipyard, as well as the navigationa
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved stellar hangars -->
-				<Id1>1166</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>FighterBay</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -23086,7 +23135,7 @@ We've discovered a technology and a damaged shipyard, as well as the navigationa
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName />
+		        <GeneratedItemName>Ancient Ackdarian Research Center Ruins</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -23297,8 +23346,8 @@ While surveying, the explorers have unexplainably turned on each other and destr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Fighters -->
-				<Id1>352</Id1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -23324,8 +23373,8 @@ While surveying, the explorers have unexplainably turned on each other and destr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Bombers -->
-				<Id1>354</Id1>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -25814,6 +25863,7 @@ We have been unable to salvage any data or logs, but we have learned these alien
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Boskaran Warrens</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<!-- Xeno Studies: Boskara Language and Expressions -->
 				<Id1>712</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -26108,6 +26158,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26135,6 +26186,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26210,6 +26262,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26237,6 +26290,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26317,6 +26371,7 @@ Among the data we have found some interesting information that will advance our 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26344,6 +26399,7 @@ Among the data we have found some interesting information that will advance our 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -26474,6 +26530,7 @@ The final logs indicate that the losses from a long battle had been severe among
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26501,6 +26558,7 @@ The final logs indicate that the losses from a long battle had been severe among
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27578,6 +27636,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27604,6 +27663,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -27630,6 +27690,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Genetics -->
 				<Id1>76</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -27709,6 +27770,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27787,6 +27849,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28093,6 +28156,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -28119,6 +28183,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28145,6 +28210,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Genetics -->
 				<Id1>76</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28222,6 +28288,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -28274,6 +28341,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28668,6 +28736,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Battleships -->
 				<Id1>311</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28694,6 +28763,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Robotic Infantry -->
 				<Id1>22</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28745,6 +28815,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -29147,6 +29218,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Battleships -->
 				<Id1>311</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -29173,6 +29245,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Robotic Infantry -->
 				<Id1>22</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -29224,6 +29297,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -33151,6 +33225,7 @@ Ancient logs reviewed. This base did indeed belong to the ancient Boskara Suprem
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Plasma Weapons -->
 				<Id1>488</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -33271,6 +33346,7 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Plasma Weapons -->
 				<Id1>488</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -33297,6 +33373,7 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Enhanced Flux Armor -->
 				<Id1>493</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -35466,12 +35543,13 @@ For our response we can attempt to decieve the sentries or we can attempt to hac
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Combined Military Command -->
 				<Id1>666</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>Troops</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -38693,7 +38771,7 @@ The artifacts we have found in the ruins may help.  It seems some of our scienti
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -40442,6 +40520,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -41273,7 +41352,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -41298,7 +41377,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -45433,6 +45512,7 @@ It will be a difficult choice.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>2</Id2>
+				<!-- XL defines this as 50M pop -->
 				<Value1>50E+06</Value1>
 				<Value2>0.25</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -48709,7 +48789,8 @@ The databanks also reveal two more locations. They are unlikely to be the Great 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>2</Id1>
-				<Value1>5</Value1>
+				<!-- this defines their starting tech level -->
+				<Value1>3</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -50655,7 +50736,8 @@ It is a mournful irony that our ancestors fled the refuge, for it seems to have 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>11</Id1>
+				<!-- Ion Missiles -->
+				<Id1>1270</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -51354,7 +51436,7 @@ Now we must recover the knowledge that was lost to us. Visiting the planet from 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -55592,6 +55674,7 @@ So much power is now at our disposal. The Mortalen will triumph.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -55618,6 +55701,7 @@ So much power is now at our disposal. The Mortalen will triumph.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56008,6 +56092,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56034,6 +56119,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56109,6 +56195,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56135,6 +56222,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56212,6 +56300,7 @@ These projects will give us the ability to construct a mighty Planet Destroyer.<
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56238,6 +56327,7 @@ These projects will give us the ability to construct a mighty Planet Destroyer.<
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
