@@ -215,6 +215,7 @@ YMMV, but this is my take on making it Extra Large!
 - Rebalanced troop research to move it a bit earlier in the game
 - Collapsed PDU research into a single linear path
 - Further tweaked fighter/bomber hull progression (requires 1205)
+- Tweaked some Ion values in prep for a more fully integrated data system
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

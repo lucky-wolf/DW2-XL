@@ -72,5 +72,5 @@ func MissileSeekingSpeed(level int) float64 {
 
 // 1k, 2k, 3k, ... 11k
 func MissileSeekingRange(level int) float64 {
-	return 1000 * float64(level+1)
+	return 3000 + float64(level)*250
 }
