@@ -35,8 +35,8 @@ func (j *Job) applyIonShields() (err error) {
 			minLevel: 2,
 			maxLevel: 10,
 			fieldValues: ValuesTable{
-				"ComponentIonDefense": func(level int) float64 { return 5 * float64(level) },
-				"IonDamageDefense":    func(level int) float64 { return 8 * float64(level) },
+				"ComponentIonDefense": HardenedComponentIonDefense,
+				"IonDamageDefense":    IonShieldIonDamageDefense,
 				"CrewRequirement":     func(level int) float64 { return 5 },
 				"StaticEnergyUsed":    func(level int) float64 { return 2.5 * float64(level) },
 			},

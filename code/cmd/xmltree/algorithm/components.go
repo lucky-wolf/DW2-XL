@@ -8,8 +8,6 @@ import (
 	"regexp"
 )
 
-const IonFtrPDScaleFactor = 0.75
-
 type LevelFunc = func(level int) float64
 type ValuesTable = map[string]LevelFunc
 
@@ -25,9 +23,9 @@ func ExtendValuesTable(fields, more ValuesTable) (result ValuesTable) {
 }
 
 type ComponentData struct {
+	scaleTo []string // what other components are copies / scaled to this thing
 	// todo: could we ever look this up viz research tree for first occurrence there?
 	//       that's just column in which it is listed for each level...
-	scaleTo     []string // what other components are copies / scaled to this thing
 	minLevel    int
 	maxLevel    int
 	fieldValues ValuesTable

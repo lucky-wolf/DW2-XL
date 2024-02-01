@@ -211,8 +211,10 @@ YMMV, but this is my take on making it Extra Large!
 - Increased fighter reactor output (was a bit low)
 - Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
+- Fixed missing Fusion Beam [Ftr] image
 - Rebalanced troop research to move it a bit earlier in the game
-- Collapsed PDU research into a single line
+- Collapsed PDU research into a single linear path
+- Further tweaked fighter/bomber hull progression (requires 1205)
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

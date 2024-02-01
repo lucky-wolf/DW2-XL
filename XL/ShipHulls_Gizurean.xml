@@ -61141,7 +61141,7 @@
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>15</Size>
-		<MaximumSize>53</MaximumSize>
+		<MaximumSize>47</MaximumSize>
 		<DisplaySize>12</DisplaySize>
 		<ModelName>Ships/Gizurean/drone_fighter</ModelName>
 		<CockpitImageFilename />
@@ -61250,22 +61250,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -61287,7 +61271,7 @@
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
-		<MaximumSize>61</MaximumSize>
+		<MaximumSize>55</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Gizurean/drone_bomber</ModelName>
 		<CockpitImageFilename />
@@ -61382,22 +61366,6 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -61634,14 +61602,14 @@
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>21</Size>
-		<MaximumSize>69</MaximumSize>
+		<MaximumSize>75</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Gizurean/drone_bomber</ModelName>
 		<CockpitImageFilename />
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
-		<EngineLimit>1</EngineLimit>
+		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.09</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -61697,39 +61665,41 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>2</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
+					<X>0.5</X>
+					<Y>0.5</Y>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>-0.3</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>3</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
+					<X>0.5</X>
+					<Y>0.5</Y>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>-0.3</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -61745,7 +61715,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -61761,6 +61731,38 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>6</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -61800,7 +61802,7 @@
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>18</Size>
-		<MaximumSize>63</MaximumSize>
+		<MaximumSize>69</MaximumSize>
 		<DisplaySize>15</DisplaySize>
 		<ModelName>Ships/Gizurean/drone_fighter</ModelName>
 		<CockpitImageFilename />
@@ -61913,7 +61915,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -61945,6 +61947,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>7</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -63567,7 +63585,7 @@
 		<Level>13</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
-		<MaximumSize>91</MaximumSize>
+		<MaximumSize>98</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Gizurean/drone_fighter</ModelName>
 		<CockpitImageFilename />
@@ -63713,7 +63731,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -63761,6 +63779,22 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>

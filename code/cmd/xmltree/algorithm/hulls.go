@@ -124,13 +124,13 @@ var (
 					"Weapon":  1,
 					"Engine":  1,
 					"Defense": 1,
-					"General": 2, // warn: their dumpster fire code can't handle a fighter with only 2 general slots
+					"General": 2,
 				},
 				// Fighter II
 				2: {
 					"Weapon":  1,
 					"Engine":  2,
-					"Defense": 1,
+					"Defense": 2,
 					"General": 3,
 				},
 				// Fighter III
@@ -151,7 +151,7 @@ var (
 				13: {
 					"Weapon":  2,
 					"Engine":  3,
-					"Defense": 2,
+					"Defense": 3,
 					"General": 4,
 				},
 				// Fighter VI, Superiority
@@ -178,12 +178,12 @@ var (
 					"Weapon":  1,
 					"Engine":  1,
 					"Defense": 1,
-					"General": 2, // warn: their dumpster fire code can't handle a Bomber with only 2 general slots
+					"General": 2,
 				},
 				// Bomber II
 				1: {
 					"Weapon":  1,
-					"Engine":  1,
+					"Engine":  2,
 					"Defense": 2,
 					"General": 3,
 				},
@@ -347,11 +347,9 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 				// note: but we don't allocate space for it, and we set the EngineLimit according to the schedule
 				desired += 1
 			}
-		case "General":
-			// warn: their dumpster fire code can't handle a fighter with only 2 general slots
-			// warn: it turns out they prioritize an ion shield over reactors, so it fails the design due to no reactor
-			// hack: so we enforce 3 physical slots, but no space allocation for it
-			desired = max(3, desired)
+			// case "General":
+			// 	// as of 1205 we should be able to add only 2 general slots for strike craft
+			// 	desired = max(3, desired)
 		}
 
 		switch {
