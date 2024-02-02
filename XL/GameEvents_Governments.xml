@@ -3798,8 +3798,9 @@ Our capital will the center of our new power, and our [RESOURCE]Shadow Parliamen
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 
-Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons!
-				</Description>
+Knowledge is Power. We have amassed the sum total of our current knowledge in our newly completed [RESOURCE]Capitol Archives[/RESOURCE].
+
+A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons!</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Galactic Archives</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3808,6 +3809,34 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Capitol Archives -->
+				<Id1>1018</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
