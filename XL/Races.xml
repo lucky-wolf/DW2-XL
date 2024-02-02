@@ -43,6 +43,8 @@
 			<short>4</short>
 			<!-- Stratocracy -->
 			<short>5</short>
+			<!-- Shadow Republic -->
+			<short>50</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -1182,10 +1184,8 @@ Ackdarians prefer Ocean worlds.</Description>
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
-			<!-- Republic -->
-			<short>0</short>
-			<!-- Democracy -->
-			<short>2</short>
+			<!-- Mercantile -->
+			<short>1</short>
 			<!-- Tribal -->
 			<short>3</short>
 			<!-- Monarchy -->
@@ -1688,11 +1688,18 @@ Teekans inhabit the vast desert wastelands of Sandy Desert, Rocky Desert and Des
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
+			<!-- Republic -->
 			<short>0</short>
+			<!-- Mercantile -->
 			<short>1</short>
+			<!-- Democracy -->
 			<short>2</short>
+			<!-- Monarchy -->
 			<short>4</short>
+			<!-- Stratocracy -->
 			<short>5</short>
+			<!-- Shadow Republic -->
+			<short>50</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>
 			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
@@ -3569,7 +3576,9 @@ Boskara typically inhabit the forbidding terrain of Volcanic planets. Communitie
 			<short>4</short>
 		</PreferredGovernmentIds>
 		<AllowableGovernmentIds>
+			<!-- Monarchy -->
 			<short>4</short>
+			<!-- Archivist -->
 			<short>51</short>
 		</AllowableGovernmentIds>
 		<AllowableIntelligenceMissionTypes>

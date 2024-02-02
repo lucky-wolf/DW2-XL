@@ -645,7 +645,7 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<Bonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
-				<Amount>0.15</Amount>
+				<Amount>0.3</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1055,7 +1055,7 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>15</LeaderReplacementDisruption>
+		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>5</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
@@ -1223,7 +1223,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 			<Bonus>
 				<Type>CounterEspionage</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.0</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1269,46 +1269,46 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus> -->
-			<Bonus>
+			<!-- <Bonus>
 				<Type>PlanetaryFacilityMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
-			<Bonus>
+			</Bonus> -->
+			<!-- <Bonus>
 				<Type>ShipMaintenanceAll</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
-			<Bonus>
+			</Bonus> -->
+			<!-- <Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
-			<Bonus>
+			</Bonus> -->
+			<!-- <Bonus>
 				<Type>TroopRecruitment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
-			<Bonus>
+			</Bonus> -->
+			<!-- <Bonus>
 				<Type>TroopRecoveryRate</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
-			</Bonus>
+			</Bonus> -->
 			<Bonus>
 				<Type>ResearchConstruction</Type>
 				<Amount>0.1</Amount>
@@ -1343,7 +1343,7 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
-		<LeaderReplacementDisruption>7</LeaderReplacementDisruption>
+		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>SimpleReplacement</LeaderReplacementTypicalManner>
@@ -1380,10 +1380,12 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 		<StartingGameEventNames>
 			<string>Initialize Government (Stratocracy)</string>
 		</StartingGameEventNames>
-		<Description>Stratocracy is an military based form of government.
-Military based governments are strictly defined by military law and chain of command.
-Their political, social and civil structures are tuned towards military concerns such as warfare and self defense.
+		<Description>Stratocracy is an militaristic form of government.
+
+Military based governments are strictly defined by military law and chain of command. Their political, social and civil structures are tuned towards military concerns such as warfare and self defense.
+
 There is not a lot of respect for, nor tolerance of, individual expression. Art and music take the backseat to war preparation, defense training, and other military concerns.
+
 Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Description>
 		<ImageFilename></ImageFilename>
 		<LeaderTitle>Supreme Commander</LeaderTitle>
@@ -2158,7 +2160,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 			<Bonus>
 				<Type>ResearchAll</Type>
-				<Amount>-0.15</Amount>
+				<Amount>-0.10</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2919,6 +2921,271 @@ Hive Mind government type is only available to the Boskara race.</Description>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 	</Government>
 	<Government>
+		<GovernmentId>50</GovernmentId>
+		<Name>Shadow Republic</Name>
+		<StartingGameEventNames>
+			<string>Initialize Government (Shadow Republic)</string>
+		</StartingGameEventNames>
+		<Description>Shadow Republics present one face to its own people, but a very different face to the rest of the galaxy.
+
+Shadow Republics are manipulated by savvy and shrewd politicians for personal gain at the expense of the common good.  Often, the real power is not represented in its government halls at all, only being a facade and a show to placate the masses.
+
+The real government is controlled by powerful entities that prefer to remain in the shadows, and unknown to most. To know the real faces of power is to live in terror, or in their back pockets.</Description>
+		<ImageFilename></ImageFilename>
+		<LeaderTitle>Supreme Chancellor</LeaderTitle>
+		<CabinetTitle>Senator</CabinetTitle>
+		<EconomicFactors>
+			<IncomeFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyTax -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>0</float>
+				<!-- Raiding -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>0</float>
+				<!-- ColonyCrime -->
+				<float>1</float>
+				<!-- Tourism -->
+				<float>1</float>
+				<!-- ShipBuilding -->
+				<float>1</float>
+				<!-- Discoveries -->
+				<float>1</float>
+				<!-- TradeBonuses -->
+				<float>1</float>
+				<!-- PrivateColonyRevenue -->
+			</IncomeFactors>
+			<ExpenseFactors>
+				<float>1</float>
+				<!-- Undefined, i.e. Unused -->
+				<float>1</float>
+				<!-- ColonyDevelopment -->
+				<float>1</float>
+				<!-- Research -->
+				<float>1</float>
+				<!-- ShipMaintenance -->
+				<float>1</float>
+				<!-- TroopMaintenance -->
+				<float>1</float>
+				<!-- FacilityMaintenance -->
+				<float>1</float>
+				<!-- Ships -->
+				<float>1</float>
+				<!-- TroopRecruitment -->
+				<float>1</float>
+				<!-- Facilities -->
+				<float>1</float>
+				<!-- ResourceTrading -->
+				<float>1</float>
+				<!-- Fuel -->
+				<float>1</float>
+				<!-- Information -->
+				<float>1</float>
+				<!-- Tribute -->
+				<float>1</float>
+				<!-- Missions -->
+				<float>1</float>
+				<!-- EnemyRaids -->
+			</ExpenseFactors>
+		</EconomicFactors>
+		<Biases>
+			<IndexFactor>
+				<Index>0</Index>
+				<!-- Republic -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>1</Index>
+				<!-- Mercantile Guild -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>2</Index>
+				<!-- Democracy -->
+				<Factor>-0.8</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>3</Index>
+				<!-- Tribal Bloodlines -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>4</Index>
+				<!-- Monarchy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>5</Index>
+				<!-- Stratocracy -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>6</Index>
+				<!-- Technocracy -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>51</Index>
+				<!-- Archivists -->
+				<Factor>-0.4</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>7</Index>
+				<!-- Hive Mind -->
+				<Factor>-0.5</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>8</Index>
+				<!-- Way of Darkness -->
+				<Factor>0</Factor>
+			</IndexFactor>
+			<IndexFactor>
+				<Index>9</Index>
+				<!-- Way of the Ancients -->
+				<Factor>-1</Factor>
+			</IndexFactor>
+		</Biases>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>PlanetaryFacilityMaintenance</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+		</Bonuses>
+		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
+		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
+		<LeaderReplacementBoost>0</LeaderReplacementBoost>
+		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
+		<LeaderReplacementTypicalManner>CoupDetat</LeaderReplacementTypicalManner>
+		<Stability>1.0</Stability>
+		<ConcernForOwnReputation>0.1</ConcernForOwnReputation>
+		<ImportanceOfOthersReputations>0.5</ImportanceOfOthersReputations>
+		<UsesCabinet>true</UsesCabinet>
+		<CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+		<CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+		<CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+		<CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+		<EmpireNameAdjectives>
+			<string>Dark</string>
+			<string>Hidden</string>
+			<string>Secretive</string>
+		</EmpireNameAdjectives>
+		<EmpireNameNouns>
+			<string>Shadow Republic</string>
+		</EmpireNameNouns>
+	</Government>
+	<Government>
 		<GovernmentId>51</GovernmentId>
 		<Name>Archivist</Name>
 		<StartingGameEventNames>
@@ -2926,9 +3193,7 @@ Hive Mind government type is only available to the Boskara race.</Description>
 		</StartingGameEventNames>
 		<Description>Archivist governments are obsessed with information. The type of information makes no difference to this government. All information that exists must be known and archived in the vast data vaults of the empire.
 
-			Archivists, while competent in intellectual pursuits, have great disdain for manual labor. The value of new information is often traded in the same fashion as currency in this society.
-
-			Archivist government type is only available to the Zenox race.</Description>
+Archivists, while competent in intellectual pursuits, have great disdain for manual labor. The value of new information is often traded in the same fashion as currency in this society.</Description>
 		<ImageFilename></ImageFilename>
 		<LeaderTitle>Grandmaster Archivist</LeaderTitle>
 		<CabinetTitle>Archivist</CabinetTitle>
