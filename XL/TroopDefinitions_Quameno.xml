@@ -4,7 +4,7 @@
 		<TroopDefinitionId>60</TroopDefinitionId>
 		<RaceId>15</RaceId>
 		<Type>Armored</Type>
-		<Size>10000</Size>
+		<Size>8000</Size>
 		<RecruitmentCost>
 			<Money>3750</Money>
 		</RecruitmentCost>
@@ -26,8 +26,8 @@
 			<Money>3000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>400</MaintenanceCost>
-		<AttackStrength>98</AttackStrength>
-		<DefendStrength>145</DefendStrength>
+		<AttackStrength>120</AttackStrength>
+		<DefendStrength>240</DefendStrength>
 		<EvasionInfantry>0.1</EvasionInfantry>
 		<EvasionArmor>0.1</EvasionArmor>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
@@ -56,13 +56,13 @@
 		<TroopDefinitionId>63</TroopDefinitionId>
 		<RaceId>15</RaceId>
 		<Type>Titan</Type>
-		<Size>20000</Size>
+		<Size>16000</Size>
 		<RecruitmentCost>
 			<Money>10000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<AttackStrength>480</AttackStrength>
-		<DefendStrength>432</DefendStrength>
+		<DefendStrength>320</DefendStrength>
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>

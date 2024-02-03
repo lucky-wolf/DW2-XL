@@ -4,7 +4,7 @@
 		<TroopDefinitionId>56</TroopDefinitionId>
 		<RaceId>10</RaceId>
 		<Type>Armored</Type>
-		<Size>10000</Size>
+		<Size>8000</Size>
 		<RecruitmentCost>
 			<Money>3750</Money>
 		</RecruitmentCost>
@@ -14,7 +14,7 @@
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octomech Brigade</Name>
+		<Name>Octomech Group</Name>
 		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
@@ -26,8 +26,8 @@
 			<Money>3000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>400</MaintenanceCost>
-		<AttackStrength>100</AttackStrength>
-		<DefendStrength>151</DefendStrength>
+		<AttackStrength>157</AttackStrength>
+		<DefendStrength>315</DefendStrength>
 		<EvasionInfantry>0.1</EvasionInfantry>
 		<EvasionArmor>0.1</EvasionArmor>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
@@ -56,18 +56,18 @@
 		<TroopDefinitionId>59</TroopDefinitionId>
 		<RaceId>10</RaceId>
 		<Type>Titan</Type>
-		<Size>20000</Size>
+		<Size>16000</Size>
 		<RecruitmentCost>
 			<Money>10000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<AttackStrength>630</AttackStrength>
-		<DefendStrength>567</DefendStrength>
+		<DefendStrength>420</DefendStrength>
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octo-Titan Group</Name>
+		<Name>Octotitan Group</Name>
 		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>
