@@ -220,7 +220,7 @@ YMMV, but this is my take on making it Extra Large!
 - PDUs are now the inverse of Armored - they just swap offense and defense (and are the same size)
 - Titans are 200% armor attack, 266% armor defense, for 2x the space (16K)
 - Improved non-infantry units for the smaller races, giving them nearly as good units so they're not gimped when it comes to armored and titans
-- Adjusted building maintainance (almost everything is 5% maintainance except palaces and administrative buildings are 0%)
+- Adjusted building maintainance (almost everything is 5% maintainance except commerce, palaces and administrative buildings are 1%)
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

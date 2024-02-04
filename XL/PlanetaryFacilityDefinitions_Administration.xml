@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Maintainance of Administration is 1% -->
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>38</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
@@ -34,7 +35,7 @@
 		<BuildCost>
 			<Money>15000</Money>
 		</BuildCost>
-		<MaintenanceCost>0</MaintenanceCost>
+		<MaintenanceCost>150</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -84,7 +85,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>0</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -134,7 +135,7 @@
 		<BuildCost>
 			<Money>100000</Money>
 		</BuildCost>
-		<MaintenanceCost>0</MaintenanceCost>
+		<MaintenanceCost>1000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -184,7 +185,7 @@
 		<BuildCost>
 			<Money>500000</Money>
 		</BuildCost>
-		<MaintenanceCost>0</MaintenanceCost>
+		<MaintenanceCost>5000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -249,7 +250,7 @@
 		<BuildCost>
 			<Money>1000000</Money>
 		</BuildCost>
-		<MaintenanceCost>0</MaintenanceCost>
+		<MaintenanceCost>10000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
