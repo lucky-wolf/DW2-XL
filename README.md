@@ -203,7 +203,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.5
-- 1205 beta REQUIRED: the new fighter and bomber hulls won't autogenerate correctly with the older game builds
+- DW2 1205 beta strongly recommended: the new fighter and bomber hulls won't autogenerate correctly with the older game builds
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
 - Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists when you discover / steal / pillage a racial special hangar bay technology)
 - DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
@@ -212,7 +212,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
 - Fixed missing Fusion Beam [Ftr] image
-- Further tweaked fighter/bomber hull progression (requires 1205)
+- Further tweaked fighter/bomber hull progression
 - Rebalanced troop research to move it a bit earlier in the game
 - Collapsed PDU research into a single linear path
 - Tweaked some Ion values in prep for a more fully integrated data system
@@ -220,6 +220,7 @@ YMMV, but this is my take on making it Extra Large!
 - PDUs are now the inverse of Armored - they just swap offense and defense (and are the same size)
 - Titans are 200% armor attack, 266% armor defense, for 2x the space (16K)
 - Improved non-infantry units for the smaller races, giving them nearly as good units so they're not gimped when it comes to armored and titans
+- Adjusted building maintainance (almost everything is 5% maintainance except palaces and administrative buildings are 0%)
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

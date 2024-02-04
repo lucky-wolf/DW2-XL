@@ -10,19 +10,19 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyIncome</Type>
-				<Amount>0.01</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
-			<Money>25000</Money>
+			<Money>10000</Money>
 		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
+		<MaintenanceCost>500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -72,7 +72,7 @@
 		<BuildCost>
 			<Money>250000</Money>
 		</BuildCost>
-		<MaintenanceCost>25000</MaintenanceCost>
+		<MaintenanceCost>12500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -100,11 +100,6 @@
 				<Amount>0.15</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
-			<Bonus>
-				<Type>ColonyDevelopment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
 			<Bonus>
@@ -114,19 +109,19 @@
 			</Bonus>
 			<Bonus>
 				<Type>ColonyIncome</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
-				<Amount>0.2</Amount>
+				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<BuildCost>
 			<Money>500000</Money>
 		</BuildCost>
-		<MaintenanceCost>50000</MaintenanceCost>
+		<MaintenanceCost>25000</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
@@ -184,7 +179,7 @@
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
+		<MaintenanceCost>2500</MaintenanceCost>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
