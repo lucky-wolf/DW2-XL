@@ -4615,7 +4615,7 @@
 		<Family>Blasters</Family>
 		<ParticleEffectNames />
 		<DisplayTextureNames>
-			<string>Effects/Weapons/YellowLaser1</string>
+			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
@@ -4624,10 +4624,10 @@
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
 			<FlipbookMode>Off</FlipbookMode>
-			<StaticTextureFilepath>Effects/Weapons/RedLaser1</StaticTextureFilepath>
+			<StaticTextureFilepath>Effects/Weapons/Slug1</StaticTextureFilepath>
 			<BodyScaling>
 				<X>2</X>
-				<Y>2</Y>
+				<Y>4</Y>
 			</BodyScaling>
 			<BodyScalingAbsolute>
 				<X>0</X>
@@ -25830,10 +25830,10 @@
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
 			<FlipbookMode>Off</FlipbookMode>
-			<StaticTextureFilepath>Effects/Weapons/RedLaser1</StaticTextureFilepath>
+			<StaticTextureFilepath>Effects/Weapons/Slug1</StaticTextureFilepath>
 			<BodyScaling>
 				<X>2</X>
-				<Y>2</Y>
+				<Y>3</Y>
 			</BodyScaling>
 			<BodyScalingAbsolute>
 				<X>0</X>
