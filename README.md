@@ -182,10 +182,10 @@ YMMV, but this is my take on making it Extra Large!
 ## Mod Highlights
 - Colonizable worlds are fewer, and races are more specialized to their preferred type of worlds
 - Terraforming technology has multiple levels giving you the ability, at a significant cost, to terraform even barely colonizable worlds to paradise... eventually
-- Almost all racial tech is viable throughout the game, and that which isn't, merges into the main line on its own so you don't need to re-do research in a different branch
+- Racial tech is viable to end game
 - Racial tech also unlocks things like defense facilities giving you all the goodies from your race's special tech line
 - Engine technology lines are more heavily specialized
-- Warp technology is now more strongly differentiated
+- Hyperdrive technology is now more strongly differentiated
   - Snap drives prioritize minimizing jump transition time
   - Sojourn drives prioritize range
   - Hyperstream drives prioritize flight-speed
@@ -199,6 +199,10 @@ YMMV, but this is my take on making it Extra Large!
 - Massively rebalanced Weapons, Shields, Armor, general component space use, component size alternates, ship hull sizes, Ion, Point Defenses, Fighters, Hangars, etc.
 - Substantially slowed down weapons fire which should help everyone's PC keep up with the game better
   - This seriously improves the look and flow of battles as well!  They look amazing now!
+- Completely overhauled point defense weapons (they're quite effective and look amazing)
+- Only PD weapons have an intercept (PD) firing mode / ability
+- Only medium and large weapons have bombardment values
+- Race assimilation is radically slower than in vanilla
 
 ## Latest Changes
 
@@ -208,7 +212,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
 - Added Maxos Blaster [M] at T2
 - DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
-- Added some more fun touches to governments
+- Added some more fun touches to initial government events
 - Increased fighter reactor output (was a bit low)
 - Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
@@ -219,10 +223,11 @@ YMMV, but this is my take on making it Extra Large!
 - Tweaked some Ion values in prep for a more fully integrated data system
 - Improved Armored units - stronger generally, size 8K (was typically 10K)
 - PDUs are now the inverse of Armored - they just swap offense and defense (and are the same size)
-- Titans are 200% armor attack, 266% armor defense, for 2x the space (16K)
+- Titans are 200% armor attack, 266% armor defense, for 2x the space (16K) as armored
 - Improved non-infantry units for the smaller races, giving them nearly as good units so they're not gimped when it comes to armored and titans
 - Adjusted building maintainance (almost everything is 5% maintainance except commerce, palaces and administrative buildings are 1%)
 - Updated all blaster visual fx so that they're much more visible and vibrant
+- Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
