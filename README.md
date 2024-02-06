@@ -205,7 +205,8 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.19.5
 - DW2 1205 beta strongly recommended: the new fighter and bomber hulls won't autogenerate correctly with the older game builds
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
-- Added Strike Craft root technology that offers Fighter I and Bomber I, moving those out of the hangar bay technologies (this should remove all occurrences of duplicate fighters and bombers appearing in your design lists when you discover / steal / pillage a racial special hangar bay technology)
+- Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
+- Added Maxos Blaster [M] at T2
 - DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
 - Added some more fun touches to governments
 - Increased fighter reactor output (was a bit low)
