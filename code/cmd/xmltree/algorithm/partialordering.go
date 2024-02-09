@@ -66,22 +66,28 @@ func (j *Job) applyPartialOrdering() (err error) {
 func (j *Job) applyPartialOrderingTo(f *XFile, arrayOf *xmltree.XMLElement, firsts ...string) (err error) {
 
 	elements := arrayOf.Elements()
-	count := len(elements)
-	f.stats.objects = count
+	f.stats.objects = len(elements)
 	for _, object := range elements {
 
 		// for each first, find it, and insert at next top position
 		to := 0
 		for _, tag := range firsts {
+
+			// see if this element exists
 			from := object.ChildIndex(tag)
-			if from != count {
-				f.stats.elements++
-				if from != to {
-					object.Reorder(from, to)
-					f.stats.changed++
-				}
-				to++
+			if from == -1 {
+				continue
 			}
+
+			// yes, then see if we need to reorder it (not already in correct spot)
+			f.stats.elements++
+			if from != to {
+				object.Reorder(from, to)
+				f.stats.changed++
+			}
+
+			// we'll place the next element one further down
+			to++
 		}
 	}
 

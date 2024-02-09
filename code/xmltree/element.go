@@ -24,14 +24,14 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 	return nil
 }
 
-// returns the index of the given element (index == len() if not found)
+// returns the index of the given element (index == -1 if not found)
 func (e *XMLElement) ChildIndex(tag string) (index int) {
 	for index, e = range e.Elements() {
 		if e.Name.Local == tag {
 			return
 		}
 	}
-	return
+	return -1
 }
 
 // sets existing element value if present, returns that element or nil
