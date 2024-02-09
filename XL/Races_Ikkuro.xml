@@ -2,6 +2,21 @@
 <ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Race>
 		<RaceId>5</RaceId>
+		<Name>Ikkuro</Name>
+		<Description>Ikkuro are large, muscular primates with short brown-red fur.
+
+			They have very large, widely-spaced ears that enable them to precisely determine the location of sounds. This ability gives them rudimentary sonar skills, allowing them to ‘see’ in the dark.
+
+			Ikkuro tend to be intelligent and aggressive, though cautious. Ikkuro are often short-tempered. When provoked or threatened they can quickly become violent. Despite this they are generally gentle and affectionate to those they know well.
+
+			They are extremely capable mechanics. Ikkuro can repair nearly any type of machinery. They also confidently reverse-engineer new devices they encounter. In fact they often end up improving the machine when they reassemble it.
+
+			This natural mechanical predisposition has also led the Ikkuro to develop the S2F7 RepairBot, an advanced repair robot that can swiftly fix damage to star ships, even while they are in battle.
+
+			Ikkuro have a great fascination with trees and plants, and have extensive knowledge of the various types of flora throughout the galaxy. They use this expert understanding to create an array of highly effective herbal medications.
+
+			They typically live in tree-dwellings high in the forest canopies on Forest, Continental or Grasslands planets.</Description>
+		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
 		<BundleName>Ikkuro</BundleName>
 		<FlagFilename>UserInterface/Flags/Ikkuro_1</FlagFilename>
 		<AlternateFlagFilenames>
@@ -48,7 +63,8 @@
 			<A>255</A>
 		</SecondaryColor>
 		<ReproductionRate>1.05</ReproductionRate>
-		<AssimilationRate>0.5</AssimilationRate> <MigrationFactor>1.1</MigrationFactor>
+		<AssimilationRate>0.5</AssimilationRate>
+		<MigrationFactor>1.1</MigrationFactor>
 		<Aggression>0.8</Aggression>
 		<Caution>1.11</Caution>
 		<Dependability>1.5</Dependability>
@@ -592,21 +608,6 @@
 			<string>Gokub</string>
 		</CharacterLastNames>
 		<DefaultInfantryId>37</DefaultInfantryId>
-		<Name>Ikkuro</Name>
-		<Description>Ikkuro are large, muscular primates with short brown-red fur.
-
-			They have very large, widely-spaced ears that enable them to precisely determine the location of sounds. This ability gives them rudimentary sonar skills, allowing them to ‘see’ in the dark.
-
-			Ikkuro tend to be intelligent and aggressive, though cautious. Ikkuro are often short-tempered. When provoked or threatened they can quickly become violent. Despite this they are generally gentle and affectionate to those they know well.
-
-			They are extremely capable mechanics. Ikkuro can repair nearly any type of machinery. They also confidently reverse-engineer new devices they encounter. In fact they often end up improving the machine when they reassemble it.
-
-			This natural mechanical predisposition has also led the Ikkuro to develop the S2F7 RepairBot, an advanced repair robot that can swiftly fix damage to star ships, even while they are in battle.
-
-			Ikkuro have a great fascination with trees and plants, and have extensive knowledge of the various types of flora throughout the galaxy. They use this expert understanding to create an array of highly effective herbal medications.
-
-			They typically live in tree-dwellings high in the forest canopies on Forest, Continental or Grasslands planets.</Description>
-		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
 		<TreatyLevelModifier>5</TreatyLevelModifier>
 		<TreatyLongTermTrustModifierThis>2</TreatyLongTermTrustModifierThis>
 		<TreatyLongTermTrustModifierOther>2</TreatyLongTermTrustModifierOther>

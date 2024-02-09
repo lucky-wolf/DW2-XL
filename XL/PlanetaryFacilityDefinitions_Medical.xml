@@ -2,6 +2,16 @@
 <ArrayOfPlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>25</PlanetaryFacilityDefinitionId>
+		<Name>Advanced Medical Complex</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Advanced Medicomplex</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>13</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
@@ -41,26 +51,26 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<MedicalRating>200</MedicalRating>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>13</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Medical Complex</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Advanced Medicomplex</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>31</PlanetaryFacilityDefinitionId>
+		<Name>Koloros Medical Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Koloros Medical Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>500000</Money>
+		</BuildCost>
+		<MaintenanceCost>25000</MaintenanceCost>
+		<FacilityFamilyId>14</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>PlagueContainment</Type>
@@ -105,22 +115,12 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>500000</Money>
-		</BuildCost>
-		<MaintenanceCost>25000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<MedicalRating>400</MedicalRating>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>14</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Koloros Medical Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Koloros Medical Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

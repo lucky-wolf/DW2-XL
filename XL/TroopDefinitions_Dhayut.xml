@@ -2,6 +2,8 @@
 <ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<TroopDefinition>
 		<TroopDefinitionId>56</TroopDefinitionId>
+		<Name>Octomech Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -14,11 +16,11 @@
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octomech Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>57</TroopDefinitionId>
+		<Name>Orbital Web Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -31,11 +33,11 @@
 		<EvasionInfantry>0.1</EvasionInfantry>
 		<EvasionArmor>0.1</EvasionArmor>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Orbital Web Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>58</TroopDefinitionId>
+		<Name>Ambush Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -49,11 +51,11 @@
 		<EvasionInfantry>0.25</EvasionInfantry>
 		<EvasionArmor>0.35</EvasionArmor>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
-		<Name>Ambush Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>59</TroopDefinitionId>
+		<Name>Octotitan Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -67,7 +69,5 @@
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octotitan Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>

@@ -2,6 +2,8 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>94</ShipHullId>
+		<Name>Skip Fighter</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>5</Level>
@@ -198,11 +200,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Skip Fighter</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>96</ShipHullId>
+		<Name>Bomber, Wave</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>3</Level>
@@ -431,11 +433,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber, Wave</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>224</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -811,11 +813,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>225</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -1306,11 +1308,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>226</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -2302,11 +2304,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>227</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -2698,11 +2700,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>228</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -3046,11 +3048,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>229</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -3325,11 +3327,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>230</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Small</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -3670,11 +3672,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>231</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MiningStation</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -4140,11 +4142,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MiningStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>232</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -4651,11 +4653,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>233</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -5052,11 +5054,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>234</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -5452,11 +5454,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>235</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -5919,11 +5921,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>236</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Small</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -6408,11 +6410,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>237</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -7408,11 +7410,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>238</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -7790,11 +7792,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>239</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -8156,11 +8158,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>240</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -8489,11 +8491,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>241</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -8896,11 +8898,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>242</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MiningStation</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -9498,11 +9500,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MiningStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>243</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -9990,11 +9992,11 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_ResearchResortStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>244</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -10494,11 +10496,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>245</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -10998,11 +11000,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>246</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -11501,11 +11503,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>247</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -12100,11 +12102,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>248</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Small</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -12674,11 +12676,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Small</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>249</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -13808,11 +13810,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>250</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -14260,11 +14262,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>251</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -14698,11 +14700,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>252</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -15100,11 +15102,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>253</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Medium</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -15501,11 +15503,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>254</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -15870,11 +15872,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>255</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -16435,11 +16437,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>256</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -17008,11 +17010,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>257</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -17607,11 +17609,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>258</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -18877,11 +18879,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>259</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -19882,11 +19884,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>260</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -20350,11 +20352,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>261</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -20908,11 +20910,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>262</ShipHullId>
+		<Name>Freighter, Superheavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Large</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -21357,11 +21359,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Freighter_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>263</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -21808,11 +21810,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>264</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -22556,11 +22558,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>265</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -23180,11 +23182,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>266</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -24580,11 +24582,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_MediumSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>267</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -25715,11 +25717,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_SmallSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>268</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -26249,11 +26251,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>269</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -26752,11 +26754,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>270</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -27253,11 +27255,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>363</ShipHullId>
+		<Name>Battleship</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -28316,11 +28318,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>364</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -29262,11 +29264,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>365</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -30103,11 +30105,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>366</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -30943,11 +30945,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>367</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -31759,11 +31761,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>368</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -32576,11 +32578,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>369</ShipHullId>
+		<Name>Troop Transport, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -33318,11 +33320,11 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>370</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -34496,11 +34498,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>371</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -35540,11 +35542,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>372</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -36405,11 +36407,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>373</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -37301,11 +37303,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>374</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -38149,11 +38151,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>375</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -38989,11 +38991,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>376</ShipHullId>
+		<Name>Massive Troop Transport</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -39878,11 +39880,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>377</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -41414,11 +41416,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>378</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -41999,11 +42001,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>379</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -43258,11 +43260,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>380</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -44400,11 +44402,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>381</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -45369,11 +45371,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>382</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -45970,11 +45972,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>383</ShipHullId>
+		<Name>Dreadnought</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -47229,11 +47231,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>384</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -48371,11 +48373,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>385</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -49975,11 +49977,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_LargeSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>418</ShipHullId>
+		<Name>Fighter I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
@@ -50105,11 +50107,11 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>419</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -50306,11 +50308,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>420</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -50506,11 +50508,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>421</ShipHullId>
+		<Name>Tactical Interceptor</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -50707,11 +50709,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Tactical Interceptor</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>422</ShipHullId>
+		<Name>Fighter III</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -50924,11 +50926,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter III</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>423</ShipHullId>
+		<Name>Advanced Interceptor</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -51129,11 +51131,11 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Advanced Interceptor</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>424</ShipHullId>
+		<Name>Fighter IV</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
@@ -51366,11 +51368,11 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter IV</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>425</ShipHullId>
+		<Name>Fighter V, Strike</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>13</Level>
@@ -51619,11 +51621,11 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter V, Strike</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>426</ShipHullId>
+		<Name>Fighter VI, Superiority</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>15</Level>
@@ -51888,11 +51890,11 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter VI, Superiority</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>427</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
@@ -52018,11 +52020,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>428</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -52218,11 +52220,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>429</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -52435,11 +52437,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>430</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
@@ -52688,11 +52690,11 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>431</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
@@ -52941,11 +52943,11 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>432</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
@@ -53227,11 +53229,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Ackdarian/Images/AckdarianFighters_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>762</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -53720,7 +53722,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Ackdarian/Images/Ackdarian_Tanker</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

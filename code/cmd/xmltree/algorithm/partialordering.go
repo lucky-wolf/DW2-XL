@@ -11,7 +11,7 @@ func PartialOrdering(folder string) (err error) {
 	log.Println("All xml objects will have their ID and name placed first")
 
 	// do all file types we can handle
-	j, err := LoadJobFor(folder, "ComponentDefinitions*.xml") //, "OrbTypes*.xml", "PlanetaryFacilityDefinitions*.xml", "Races*.xml", "ResearchProjectDefinitions*.xml", "ShipHulls*.xml")
+	j, err := LoadJobFor(folder, "ComponentDefinitions*.xml", "OrbTypes*.xml", "PlanetaryFacilityDefinitions*.xml", "Races*.xml", "ResearchProjectDefinitions*.xml", "ShipHulls*.xml", "TroopDefinitions*.xml")
 	if err != nil {
 		return
 	}
@@ -37,19 +37,19 @@ func (j *Job) applyPartialOrdering() (err error) {
 
 			switch arrayOf.Name.Local {
 			case "ArrayOfComponentDefinition":
-				err = j.applyPartialOrderingTo(f, arrayOf, "ComponentId", "Name", "Description", "ImageFilename")
+				err = j.applyPartialOrderingTo(f, arrayOf, "ComponentId", "Name", "Description", "ImageFilename", "Size", "Category", "IsFighterOnly")
 			case "ArrayOfOrbType":
-				err = j.applyPartialOrderingTo(f, arrayOf, "OrbTypeId", "Name", "Description", "ImageFilename", "Category")
+				err = j.applyPartialOrderingTo(f, arrayOf, "OrbTypeId", "Category", "Name", "Description", "ImageFilename")
 			case "ArrayOfPlanetaryFacilityDefinition":
-				err = j.applyPartialOrderingTo(f, arrayOf, "PlanetaryFacilityDefinitionId", "Name", "Description", "ImageFilename")
+				err = j.applyPartialOrderingTo(f, arrayOf, "PlanetaryFacilityDefinitionId", "Name", "Description", "ImageFilename", "Size", "IsRuins", "BuildCost", "MaintenanceCost", "FacilityFamilyId", "FacilityFamilyLevel", "ExclusiveWithinFamily")
 			case "ArrayOfRace":
 				err = j.applyPartialOrderingTo(f, arrayOf, "RaceId", "Name", "Description", "ImageFilename", "BundleName")
 			case "ArrayOfResearchProjectDefinition":
 				err = j.applyPartialOrderingTo(f, arrayOf, "ResearchProjectId", "Name", "Description", "ImageFilename")
 			case "ArrayOfShipHull":
-				err = j.applyPartialOrderingTo(f, arrayOf, "ShipHullId", "Name", "ImageFilename")
+				err = j.applyPartialOrderingTo(f, arrayOf, "ShipHullId", "Name", "Description", "ImageFilename")
 			case "ArrayOfTroopDefinition":
-				err = j.applyPartialOrderingTo(f, arrayOf, "TroopDefinitionId", "RaceId", "Name", "ImageFilename", "Type")
+				err = j.applyPartialOrderingTo(f, arrayOf, "TroopDefinitionId", "Name", "Description", "ImageFilename", "RaceId", "Type", "Size")
 			default:
 				err = fmt.Errorf("no ordering defined for: %s", arrayOf.Name.Local)
 			}

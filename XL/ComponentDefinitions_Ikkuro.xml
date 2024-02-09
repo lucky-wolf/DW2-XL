@@ -2,13 +2,15 @@
 <ArrayOfComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ComponentDefinition>
 		<ComponentId>174</ComponentId>
+		<Name>SF27 Organic Hull</Name>
+		<ImageFilename>XLAssets/Components/174-Organic Hull</ImageFilename>
 		<Size>20</Size>
 		<Category>DamageControl</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -695,13 +697,14 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>SF27 Organic Hull</Name>
-		<ImageFilename>XLAssets/Components/174-Organic Hull</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>252</ComponentId>
+		<Name>Fusion Beam [Ftr]</Name>
+		<ImageFilename>XLAssets/Components/252-Fusion Beam FTR</ImageFilename>
 		<Size>5</Size>
 		<Category>WeaponIntercept</Category>
+		<IsFighterOnly>true</IsFighterOnly>
 		<Family>Beams</Family>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/RedLaser1</string>
@@ -828,7 +831,6 @@
 			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
 			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
-		<IsFighterOnly>true</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
@@ -1389,13 +1391,14 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Fusion Beam [Ftr]</Name>
-		<ImageFilename>XLAssets/Components/252-Fusion Beam FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>254</ComponentId>
+		<Name>Fusion Beam [L]</Name>
+		<ImageFilename>XLAssets/Components/254-Fusion Beam L</ImageFilename>
 		<Size>44</Size>
 		<Category>WeaponStandoff</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<Family>Beams</Family>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/RedLaser1</string>
@@ -1521,7 +1524,6 @@
 			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
 			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
@@ -2082,13 +2084,14 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Fusion Beam [L]</Name>
-		<ImageFilename>XLAssets/Components/254-Fusion Beam L</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>256</ComponentId>
+		<Name>Fusion Beam [S]</Name>
+		<ImageFilename>XLAssets/Components/256-Fusion Beam S</ImageFilename>
 		<Size>11</Size>
 		<Category>WeaponCloseIn</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<Family>Beams</Family>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/RedLaser1</string>
@@ -2214,7 +2217,6 @@
 			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
 			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
@@ -2775,13 +2777,14 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Fusion Beam [S]</Name>
-		<ImageFilename>XLAssets/Components/256-Fusion Beam S</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>259</ComponentId>
+		<Name>Fusion Beam [M]</Name>
+		<ImageFilename>XLAssets/Components/259-Fusion Beam M</ImageFilename>
 		<Size>22</Size>
 		<Category>WeaponCloseIn</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<Family>Beams</Family>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/RedLaser1</string>
@@ -2907,7 +2910,6 @@
 			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
 			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>5</ResourceId>
@@ -3468,18 +3470,18 @@
 				<WeaponVolleyFireRate>0.5</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Fusion Beam [M]</Name>
-		<ImageFilename>XLAssets/Components/259-Fusion Beam M</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>309</ComponentId>
+		<Name>Splinter Pods</Name>
+		<ImageFilename>XLAssets/Components/309-Splinter Pod</ImageFilename>
 		<Size>10</Size>
 		<Category>AssaultPod</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -4162,7 +4164,5 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Splinter Pods</Name>
-		<ImageFilename>XLAssets/Components/309-Splinter Pod</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

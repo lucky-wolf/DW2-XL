@@ -2,13 +2,15 @@
 <ArrayOfComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ComponentDefinition>
 		<ComponentId>145</ComponentId>
+		<Name>Novacore Reactor</Name>
+		<ImageFilename>XLAssets/Components/145-Novacore Reactor</ImageFilename>
 		<Size>18</Size>
 		<Category>Reactor</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
@@ -980,18 +982,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Novacore Reactor</Name>
-		<ImageFilename>XLAssets/Components/145-Novacore Reactor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>302</ComponentId>
+		<Name>Novacore Reactor [Ftr]</Name>
+		<ImageFilename>XLAssets/Components/302-Novacore Reactor FTR</ImageFilename>
 		<Size>6</Size>
 		<Category>Reactor</Category>
+		<IsFighterOnly>true</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>true</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
@@ -1963,18 +1965,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Novacore Reactor [Ftr]</Name>
-		<ImageFilename>XLAssets/Components/302-Novacore Reactor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>371</ComponentId>
+		<Name>Tortoise Shields</Name>
+		<ImageFilename>XLAssets/Components/371-Bubble Shields</ImageFilename>
 		<Size>20</Size>
 		<Category>Shields</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId>
@@ -2674,18 +2676,11 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortoise Shields</Name>
-		<ImageFilename>XLAssets/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>372</ComponentId>
-		<Size>7</Size>
-		<Category>Shields</Category>
-		<DisplayRotationType>None</DisplayRotationType>
-		<DisplayRotationRate>0</DisplayRotationRate>
+		<Name>Tortoise Shields [Ftr]</Name>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
-		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>true</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>4</ResourceId>
@@ -2708,6 +2703,9 @@
 				<Amount>1</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
+		<WeaponMeshType>Undefined</WeaponMeshType>
+		<IsFighterOnly>true</IsFighterOnly>
+		<!-- ftr variant missing -->
 		<Values>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
@@ -3385,8 +3383,10 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Tortoise Shields [Ftr]</Name>
-		<!-- ftr variant missing -->
+		<Size>7</Size>
+		<Category>Shields</Category>
+		<DisplayRotationType>None</DisplayRotationType>
+		<DisplayRotationRate>0</DisplayRotationRate>
 		<!-- <ImageFilename>XLAssets/Components/372-Bubble Shields FTR</ImageFilename> -->
 		<ImageFilename>XLAssets/Components/371-Bubble Shields</ImageFilename>
 	</ComponentDefinition>

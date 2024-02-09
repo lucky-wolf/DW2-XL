@@ -2,6 +2,8 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>111</ShipHullId>
+		<Name>Gyrfalcon Interceptor III</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -214,11 +216,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor III</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>114</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -576,11 +578,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>115</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -1083,11 +1085,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>116</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -2079,11 +2081,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>117</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -2562,11 +2564,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>118</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -3157,11 +3159,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>119</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -3676,11 +3678,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>120</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Human/Images/human_freighter</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -4442,11 +4444,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Human/Images/human_freighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>121</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_mining_station</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -4912,11 +4914,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_mining_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>122</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -5435,11 +5437,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>123</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -5801,11 +5803,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>124</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -6183,11 +6185,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Human/Images/human_escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>125</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -6616,11 +6618,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>126</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -7107,11 +7109,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>127</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -8107,11 +8109,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>128</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -8501,11 +8503,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>129</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -8867,11 +8869,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>130</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -9200,11 +9202,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>131</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -9607,11 +9609,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>132</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_mining_station</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -10209,11 +10211,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_mining_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>133</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -10701,11 +10703,11 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Human/Images/human_research_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>134</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -11171,11 +11173,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>135</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -11657,11 +11659,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>136</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -12160,11 +12162,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Human/Images/human_frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>137</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -12707,11 +12709,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>138</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -13281,11 +13283,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>139</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -14415,11 +14417,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>140</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -14954,11 +14956,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>141</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -15392,11 +15394,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>142</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -15794,11 +15796,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>143</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_freighter_mid</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -16195,11 +16197,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_freighter_mid</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>144</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -16564,11 +16566,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>145</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -17127,11 +17129,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>146</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -17697,11 +17699,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>147</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -18260,11 +18262,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Human/Images/human_destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>148</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -19530,11 +19532,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>149</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -20535,11 +20537,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>150</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -21015,11 +21017,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>151</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -21573,11 +21575,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>152</ShipHullId>
+		<Name>Freighter, Superheavy</Name>
+		<ImageFilename>Ships/Human/Images/human_freighter_large</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -22022,11 +22024,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Human/Images/human_freighter_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>153</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -22473,11 +22475,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>154</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -23187,11 +23189,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>155</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -23810,11 +23812,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_troop</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>156</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -25210,11 +25212,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportM</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>157</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -26345,11 +26347,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportS</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>158</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -26879,11 +26881,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>159</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -27382,11 +27384,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>160</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -27895,11 +27897,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>161</ShipHullId>
+		<Name>Gyrfalcon Interceptor I</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
@@ -28025,11 +28027,11 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor I</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>162</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
@@ -28155,11 +28157,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>163</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -28356,11 +28358,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>164</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -28556,11 +28558,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>165</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -28773,11 +28775,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>166</ShipHullId>
+		<Name>Gyrfalcon Interceptor II</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -28973,11 +28975,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor II</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>167</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -29190,11 +29192,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>168</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>7</Level>
@@ -29407,11 +29409,12 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>317</ShipHullId>
+		<Name>Battleship</Name>
+		<Description>Weapon 9 and 10 not present in hull</Description>
+		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -30724,12 +30727,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<Description>Weapon 9 and 10 not present in hull</Description>
-		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>318</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -31842,11 +31844,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>319</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -32648,11 +32650,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>320</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -33453,11 +33455,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>321</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -34268,11 +34270,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>322</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -35067,11 +35069,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>323</ShipHullId>
+		<Name>Troop Transport, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -35809,11 +35811,12 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>324</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<Description>Weapon 9 and 10 not present in hull</Description>
+		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -37225,12 +37228,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<Description>Weapon 9 and 10 not present in hull</Description>
-		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>325</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -38458,11 +38460,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>326</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -39303,11 +39305,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>327</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -40166,11 +40168,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>328</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -41014,11 +41016,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>329</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -41868,11 +41870,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Human/Images/human_cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>330</ShipHullId>
+		<Name>Massive Troop Transport</Name>
+		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -42756,11 +42758,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>331</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -44292,11 +44294,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>332</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -44889,11 +44891,12 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>333</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<Description>Weapon 9 and 10 not present in hull</Description>
+		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -46437,12 +46440,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<Description>Weapon 9 and 10 not present in hull</Description>
-		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>334</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -47768,11 +47770,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>335</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -48737,11 +48739,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Human/Images/human_troop_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>336</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -49350,11 +49352,12 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Human/Images/human_colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>337</ShipHullId>
+		<Name>Dreadnought</Name>
+		<Description>Weapon 9 and 10 not present in hull</Description>
+		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -50898,12 +50901,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<Description>Weapon 9 and 10 not present in hull</Description>
-		<ImageFilename>Ships/Human/Images/human_battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>338</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -52229,11 +52231,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Human/Images/human_carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>339</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -53833,11 +53835,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Human/Images/human_spaceportL</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>386</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -54038,11 +54040,11 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>387</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>5</Level>
@@ -54259,11 +54261,11 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>388</ShipHullId>
+		<Name>Gyrfalcon Interceptor IV</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
@@ -54496,11 +54498,11 @@
 				<Amount>32</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor IV</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>389</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>12</Level>
@@ -54701,11 +54703,11 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>390</ShipHullId>
+		<Name>Gyrfalcon Interceptor V, Strike</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>13</Level>
@@ -54954,11 +54956,11 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor V, Strike</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>391</ShipHullId>
+		<Name>Gyrfalcon Interceptor VI, Superiority</Name>
+		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>15</Level>
@@ -55223,11 +55225,11 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Gyrfalcon Interceptor VI, Superiority</Name>
-		<ImageFilename>Ships/Human/Images/human_interceptor</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>392</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
@@ -55476,11 +55478,11 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>393</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
@@ -55729,11 +55731,11 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>394</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
@@ -56015,11 +56017,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Human/Images/human_bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>761</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 		<RaceId>0</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -56508,7 +56510,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Human/Images/human_fuel</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

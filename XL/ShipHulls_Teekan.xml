@@ -2,6 +2,8 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>95</ShipHullId>
+		<Name>ZimZip Fighter III</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -214,11 +216,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Fighter III</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>169</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -696,11 +698,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>170</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -1414,11 +1416,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>171</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -2905,11 +2907,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>172</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -3422,11 +3424,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>173</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -3874,11 +3876,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>174</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -4223,11 +4225,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>175</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -4672,11 +4674,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>176</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Mining_Station</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -5331,11 +5333,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Mining_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>177</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -6082,11 +6084,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>178</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -6585,11 +6587,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>179</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -7121,11 +7123,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>180</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -7658,11 +7660,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>181</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -8251,11 +8253,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>182</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -9746,11 +9748,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>183</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -10232,11 +10234,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>184</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -10702,11 +10704,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>185</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -11139,11 +11141,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>186</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -11667,11 +11669,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>187</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Mining_Station</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -12458,11 +12460,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Mining_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>188</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -13189,11 +13191,11 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>189</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -13747,11 +13749,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>190</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -14353,11 +14355,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>191</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -14960,11 +14962,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>192</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -15596,11 +15598,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>193</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -16274,11 +16276,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>194</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -17937,11 +17939,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>195</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -18510,11 +18512,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>196</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -19052,11 +19054,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>197</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -19558,11 +19560,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>198</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter_Medium</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -20063,11 +20065,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter_Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>199</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -20536,11 +20538,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>200</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -21204,11 +21206,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>201</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -21896,11 +21898,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>202</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -22564,11 +22566,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>203</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -24482,11 +24484,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>204</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -25982,11 +25984,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>205</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -26554,11 +26556,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>206</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -27233,11 +27235,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>207</ShipHullId>
+		<Name>Freighter, Superheavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -27786,11 +27788,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Freighter_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>208</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -28341,11 +28343,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>209</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -29439,11 +29441,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>210</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -30166,11 +30168,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>211</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -32214,11 +32216,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>212</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -33844,11 +33846,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>213</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -34499,11 +34501,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>214</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -35106,11 +35108,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>215</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -35711,11 +35713,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>216</ShipHullId>
+		<Name>ZimZip Fighter I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
@@ -35841,11 +35843,11 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Fighter I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>217</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
@@ -35971,11 +35973,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>218</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -36172,11 +36174,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>219</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -36372,11 +36374,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>220</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>1</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -36556,11 +36558,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>221</ShipHullId>
+		<Name>ZimZip Fighter II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -36756,11 +36758,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Fighter II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>222</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -36973,11 +36975,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>223</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>5</Level>
@@ -37190,11 +37192,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>340</ShipHullId>
+		<Name>Battleship</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -38558,11 +38560,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>341</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -39777,11 +39779,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>342</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -40690,11 +40692,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>343</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -41701,11 +41703,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>344</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -42689,11 +42691,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>345</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -43694,11 +43696,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>346</ShipHullId>
+		<Name>Troop Transport, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -44540,11 +44542,11 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>347</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -45989,11 +45991,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>348</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -47289,11 +47291,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>349</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -48308,11 +48310,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>350</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -49360,11 +49362,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>351</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -50396,11 +50398,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>352</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -51424,11 +51426,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>353</ShipHullId>
+		<Name>Massive Troop Transport</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -52416,11 +52418,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>354</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -55059,11 +55061,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>355</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -55748,11 +55750,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>356</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -57329,11 +57331,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>357</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -58744,11 +58746,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>358</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -59817,11 +59819,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>359</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -60522,11 +60524,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>360</ShipHullId>
+		<Name>Dreadnought</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -62103,11 +62105,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>361</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -63518,11 +63520,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>362</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -66229,11 +66231,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Spaceport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>395</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -66434,11 +66436,11 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>396</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>6</Level>
@@ -66655,11 +66657,11 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>397</ShipHullId>
+		<Name>ZimZip Fighter IV</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
@@ -66892,11 +66894,11 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip Fighter IV</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>398</ShipHullId>
+		<Name>ZimZip V</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>13</Level>
@@ -67145,11 +67147,11 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip V</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>399</ShipHullId>
+		<Name>Unused</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>12</Level>
@@ -67366,11 +67368,11 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Unused</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>400</ShipHullId>
+		<Name>ZimZip X</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>15</Level>
@@ -67635,11 +67637,11 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>ZimZip X</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>401</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
@@ -67888,11 +67890,11 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>402</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
@@ -68141,11 +68143,11 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>403</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
@@ -68427,11 +68429,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>763</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 		<RaceId>2</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -69041,7 +69043,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Teekan/Images/Teekan_Fuel</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

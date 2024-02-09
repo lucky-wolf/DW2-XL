@@ -2,6 +2,8 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>8</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -377,11 +379,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>9</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -884,11 +886,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>10</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -1367,11 +1369,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>11</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -1962,11 +1964,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>12</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -2447,11 +2449,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>13</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Mortalen/Images/freighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -3213,11 +3215,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Mortalen/Images/freighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>14</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -3683,11 +3685,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>15</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -4206,11 +4208,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>29</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -4607,11 +4609,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>30</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -5007,11 +5009,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>31</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -5458,11 +5460,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>32</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansport</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -6165,11 +6167,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>33</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -7165,11 +7167,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>34</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -7714,11 +7716,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>35</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -8320,11 +8322,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>36</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -8910,11 +8912,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>37</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -9625,11 +9627,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>38</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -10227,11 +10229,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>39</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -10731,11 +10733,11 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>40</ShipHullId>
+		<Name>Fighter I</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
@@ -10861,11 +10863,11 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter I</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>41</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
@@ -10991,11 +10993,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>45</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -11479,11 +11481,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>46</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -11983,11 +11985,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>47</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -12470,11 +12472,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>49</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -13126,11 +13128,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>51</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansportmedium</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -13700,11 +13702,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansportmedium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>53</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -15243,11 +15245,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>55</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -15695,11 +15697,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>57</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -16132,11 +16134,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>59</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -16533,11 +16535,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>61</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/freightermedium</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -16933,11 +16935,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/freightermedium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>63</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -17301,11 +17303,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>66</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -17501,11 +17503,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>67</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -17702,11 +17704,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>69</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -17902,11 +17904,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>73</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -18590,11 +18592,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>74</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -19302,11 +19304,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>75</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -19990,11 +19992,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>77</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -22350,11 +22352,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>79</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -23765,11 +23767,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>81</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -24233,11 +24235,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>83</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -24791,11 +24793,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>85</ShipHullId>
+		<Name>Freighter, Superheavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/freighterlarge</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -25239,11 +25241,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/freighterlarge</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>87</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -25689,11 +25691,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>91</ShipHullId>
+		<Name>Tactical Interceptor</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -25890,11 +25892,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Tactical Interceptor</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>92</ShipHullId>
+		<Name>Fighter III</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -26107,11 +26109,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter III</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>93</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -26324,11 +26326,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>98</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -27041,11 +27043,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>100</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -27664,11 +27666,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>102</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -30222,11 +30224,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>104</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -31357,11 +31359,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>106</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -31891,11 +31893,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>108</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -32394,11 +32396,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>110</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -32895,11 +32897,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>113</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -33891,11 +33893,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>294</ShipHullId>
+		<Name>Battleship</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -34975,11 +34977,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>295</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -35940,11 +35942,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>296</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -36733,11 +36735,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>297</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -37542,11 +37544,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>298</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -38361,11 +38363,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>299</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -39181,11 +39183,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>300</ShipHullId>
+		<Name>Troop Transport, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -39922,11 +39924,11 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>301</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -41103,11 +41105,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>302</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -42149,11 +42151,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>303</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -42983,11 +42985,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>304</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -43850,11 +43852,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>305</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -44701,11 +44703,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>306</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -45544,11 +45546,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>307</ShipHullId>
+		<Name>Massive Troop Transport</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -46432,11 +46434,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>308</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -49296,11 +49298,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>309</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -49881,11 +49883,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>310</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -51161,11 +51163,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>311</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -52338,11 +52340,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>312</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -53307,11 +53309,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>313</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -53908,11 +53910,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Mortalen/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>314</ShipHullId>
+		<Name>Dreadnought</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -55188,11 +55190,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>315</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -56365,11 +56367,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>316</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -59297,11 +59299,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>411</ShipHullId>
+		<Name>Advanced Interceptor</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -59502,11 +59504,11 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Advanced Interceptor</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>412</ShipHullId>
+		<Name>Fighter IV</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
@@ -59739,11 +59741,11 @@
 				<Amount>34</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter IV</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>413</ShipHullId>
+		<Name>Fighter V, Strike</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>13</Level>
@@ -59992,11 +59994,11 @@
 				<Amount>40</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter V, Strike</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>414</ShipHullId>
+		<Name>Fighter VI, Superiority</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>15</Level>
@@ -60261,11 +60263,11 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter VI, Superiority</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>415</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
@@ -60514,11 +60516,11 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>416</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
@@ -60767,11 +60769,11 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>417</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
@@ -61053,11 +61055,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Mortalen/Images/Mortalen Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>765</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 		<RaceId>4</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -61546,7 +61548,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

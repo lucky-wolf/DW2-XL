@@ -2,6 +2,17 @@
 <ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Race>
 		<RaceId>11</RaceId>
+		<Name>Gizurean</Name>
+		<Description>Gizureans are an insectoid race with four arms. Gizureans can also fly short distances with their small wings.
+
+They are aggressive and unfriendly, though not very intelligent. Gizureans tend to be highly belligerent. They often make inflammatory claims of their own tribal superiority, viciously mocking and insulting other tribes. This leads to frequent inter-tribal battles.
+
+Gizureans have an intense dislike of other alien races, especially non-insectoid races. This trait makes it very difficult to peacefully assimilate Gizureans into an empire.
+
+They have a very high reproductive rate, and thus their empires can grow and expand very quickly.
+
+Gizureans typically build their cavernous underground homes on in rocky areas of Desert planets, but can sometimes also be found on Savanna planets.</Description>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
 		<BundleName>Gizurean</BundleName>
 		<FlagFilename>UserInterface/Flags/Gizurean_1</FlagFilename>
 		<AlternateFlagFilenames>
@@ -76,7 +87,6 @@
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-
 		<SalvageAdvancedTechBoostFactor>0.25</SalvageAdvancedTechBoostFactor>
 		<RetireAdvancedTechBoostFactor>0.25</RetireAdvancedTechBoostFactor>
 		<RetireCompleteAdvancedTechBonusResearchAmount>50</RetireCompleteAdvancedTechBonusResearchAmount>
@@ -84,14 +94,12 @@
 		<OtherRaceExterminateGrowthRatePerColony>0</OtherRaceExterminateGrowthRatePerColony>
 		<OtherRaceExterminateColonyEventDefinitionId>73</OtherRaceExterminateColonyEventDefinitionId>
 		<CharacterPowerStruggleChancePerYear>0.08</CharacterPowerStruggleChancePerYear>
-
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>GiftedConduit</CharacterTraitType>
 			<CharacterTraitType>ControllingMind</CharacterTraitType>
 			<CharacterTraitType>SwarmLord</CharacterTraitType>
 			<CharacterTraitType>LarvaOverseer</CharacterTraitType>
 		</AdditionalCharacterTraits>
-
 		<FeatureExplanations>
 			<string>[HL]Waste Nothing:[/HL] 25% increased chance of tech boosts when salvaging or retiring a ship with advanced tech. Additional tech boost when completely retire an advanced ship</string>
 			<string>[HL]The Scouring:[/HL] choice to 'scour' a newly conquered enemy colony. Scouring resets colony development, consumes 10% of the population, adds a temporary happiness penalty and damages reputation. But it provides an additional conquest tech breakthrough, a large resource cache and temporarily boosts population growth for Gizureans throughout your empire</string>
@@ -104,7 +112,6 @@
 			<string>[HL]Unique General trait - Swarm Lord:[/HL] +10% Troop Recruitment Rate, +10% Troop Maintenance Savings</string>
 			<string>[HL]Unique General trait - Larva Overseer:[/HL] +10% Troop Recovery Rate</string>
 		</FeatureExplanations>
-
 		<VictoryConditions>
 			<VictoryCondition>
 				<Type>BuildMostMilitaryShips</Type>
@@ -123,7 +130,6 @@
 				<Proportion>0.25</Proportion>
 			</VictoryCondition>
 		</VictoryConditions>
-
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -412,7 +418,6 @@
 				<Factor>-2</Factor>
 			</RaceFactor>
 		</Biases>
-
 		<DesignNames>
 			<string>Kojari</string>
 			<string>Karjing</string>
@@ -447,7 +452,6 @@
 			<string>Aruga</string>
 			<string>Teklosan</string>
 		</DesignNames>
-
 		<CharacterFirstNames>
 			<string>Suun</string>
 			<string>Jizor</string>
@@ -501,16 +505,5 @@
 			<string>Jhorbek</string>
 		</CharacterLastNames>
 		<DefaultInfantryId>45</DefaultInfantryId>
-		<Name>Gizurean</Name>
-		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
-		<Description>Gizureans are an insectoid race with four arms. Gizureans can also fly short distances with their small wings.
-
-They are aggressive and unfriendly, though not very intelligent. Gizureans tend to be highly belligerent. They often make inflammatory claims of their own tribal superiority, viciously mocking and insulting other tribes. This leads to frequent inter-tribal battles.
-
-Gizureans have an intense dislike of other alien races, especially non-insectoid races. This trait makes it very difficult to peacefully assimilate Gizureans into an empire.
-
-They have a very high reproductive rate, and thus their empires can grow and expand very quickly.
-
-Gizureans typically build their cavernous underground homes on in rocky areas of Desert planets, but can sometimes also be found on Savanna planets.</Description>
 	</Race>
 </ArrayOfRace>

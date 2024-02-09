@@ -2,6 +2,8 @@
 <ArrayOfTroopDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<TroopDefinition>
 		<TroopDefinitionId>0</TroopDefinitionId>
+		<Name>Battlebot Unit</Name>
+		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 		<RaceId>255</RaceId>
 		<Type>Infantry</Type>
 		<Size>2000</Size>
@@ -17,11 +19,11 @@
 		<EvasionTitan>0.125</EvasionTitan>
 		<EvasionPlanetaryDefense>0.125</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battlebot Unit</Name>
-		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>1</TroopDefinitionId>
+		<Name>Synthetic Unit</Name>
+		<ImageFilename>Extras/TroopSymbols/Synthetic_troops</ImageFilename>
 		<RaceId>255</RaceId>
 		<Type>Infantry</Type>
 		<Size>4000</Size>
@@ -37,11 +39,11 @@
 		<EvasionTitan>0.35</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Synthetic Unit</Name>
-		<ImageFilename>Extras/TroopSymbols/Synthetic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>2</TroopDefinitionId>
+		<Name>Ground Company</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>0</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -57,11 +59,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Ground Company</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>3</TroopDefinitionId>
+		<Name>Armored Company</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>0</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -77,11 +79,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Company</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>4</TroopDefinitionId>
+		<Name>Counter-Invasion Company</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>0</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -98,11 +100,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Counter-Invasion Company</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>5</TroopDefinitionId>
+		<Name>SpecOps Company</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>0</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -118,11 +120,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>SpecOps Company</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>6</TroopDefinitionId>
+		<Name>Titan Company</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>0</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -138,11 +140,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Titan Company</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>7</TroopDefinitionId>
+		<Name>Desert Ratpack</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>2</RaceId>
 		<Type>Infantry</Type>
 		<Size>3000</Size>
@@ -158,11 +160,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Desert Ratpack</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>8</TroopDefinitionId>
+		<Name>Armored Ratpack</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>2</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -178,11 +180,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Ratpack</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>9</TroopDefinitionId>
+		<Name>Defense Ratpack</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>2</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -199,11 +201,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Defense Ratpack</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>10</TroopDefinitionId>
+		<Name>Hunter-Killer Ratpack</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>2</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>4000</Size>
@@ -219,11 +221,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Hunter-Killer Ratpack</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>11</TroopDefinitionId>
+		<Name>Titanic Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>2</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -239,11 +241,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Titanic Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>12</TroopDefinitionId>
+		<Name>Battlematon Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>3</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -259,11 +261,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battlematon Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>13</TroopDefinitionId>
+		<Name>Armored Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>3</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -279,11 +281,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>14</TroopDefinitionId>
+		<Name>Interceptor Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>3</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -300,11 +302,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Interceptor Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>15</TroopDefinitionId>
+		<Name>Recon Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>3</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -320,11 +322,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Recon Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>16</TroopDefinitionId>
+		<Name>Titan Brigade</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>3</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -340,11 +342,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Titan Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>17</TroopDefinitionId>
+		<Name>Conqueror Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>4</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -360,11 +362,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Conqueror Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>18</TroopDefinitionId>
+		<Name>Armored Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>4</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -380,11 +382,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>19</TroopDefinitionId>
+		<Name>Repulser Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>4</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -401,11 +403,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Repulser Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>20</TroopDefinitionId>
+		<Name>Commando Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>4</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -421,11 +423,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Commando Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>21</TroopDefinitionId>
+		<Name>Titan Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>4</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -441,11 +443,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Titan Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>22</TroopDefinitionId>
+		<Name>Executioner Hive</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>6</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -461,11 +463,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Executioner Hive</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>23</TroopDefinitionId>
+		<Name>Armored Hive</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>6</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -481,11 +483,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Hive</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>24</TroopDefinitionId>
+		<Name>Defense Hive</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>6</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -502,11 +504,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Defense Hive</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>25</TroopDefinitionId>
+		<Name>Vanguard Hive</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>6</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -522,11 +524,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Vanguard Hive</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>26</TroopDefinitionId>
+		<Name>Juggernaut Hive</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>6</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -542,11 +544,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Juggernaut Hive</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>27</TroopDefinitionId>
+		<Name>Azule Pod</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>1</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -562,11 +564,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Azule Pod</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>28</TroopDefinitionId>
+		<Name>Armored Pod</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>1</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -582,11 +584,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Armored Pod</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>29</TroopDefinitionId>
+		<Name>Defense Pod</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>1</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -603,11 +605,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Defense Pod</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>30</TroopDefinitionId>
+		<Name>Elite Pod</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>1</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -623,11 +625,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Elite Pod</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>31</TroopDefinitionId>
+		<Name>Titan Pod</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>1</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -643,11 +645,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Titan Pod</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>32</TroopDefinitionId>
+		<Name>Arctic Battle Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>7</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -663,11 +665,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Arctic Battle Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>33</TroopDefinitionId>
+		<Name>Arctic Armored Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>7</RaceId>
 		<Type>Armored</Type>
 		<Size>8000</Size>
@@ -683,11 +685,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Arctic Armored Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>34</TroopDefinitionId>
+		<Name>Arctic Guardians Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>7</RaceId>
 		<Type>PlanetaryDefense</Type>
 		<Size>8000</Size>
@@ -704,11 +706,11 @@
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Arctic Guardians Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>35</TroopDefinitionId>
+		<Name>Arctic Commando Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>7</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
@@ -724,11 +726,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Arctic Commando Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>36</TroopDefinitionId>
+		<Name>Arctic Titan Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>7</RaceId>
 		<Type>Titan</Type>
 		<Size>16000</Size>
@@ -744,11 +746,11 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Arctic Titan Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>37</TroopDefinitionId>
+		<Name>Sentinel Force</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>5</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -764,11 +766,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Sentinel Force</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>42</TroopDefinitionId>
+		<Name>Guardian Brigade</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>8</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -784,12 +787,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Guardian Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>43</TroopDefinitionId>
+		<Name>Hunting Party</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>9</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -805,12 +808,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Hunting Party</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>44</TroopDefinitionId>
+		<Name>Mercenary Brigade</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -823,12 +826,12 @@
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
-		<Name>Mercenary Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>45</TroopDefinitionId>
+		<Name>War Swarm</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>11</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -844,12 +847,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>War Swarm</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>46</TroopDefinitionId>
+		<Name>Battle Group</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>12</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -865,12 +868,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battle Group</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>47</TroopDefinitionId>
+		<Name>Battle Trooper Brigade</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>13</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -886,12 +889,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battle Trooper Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>48</TroopDefinitionId>
+		<Name>Fighting Clan</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>14</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -907,15 +910,15 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Fighting Clan</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>49</TroopDefinitionId>
+		<Name>Battlebot Unit</Name>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<RaceId>15</RaceId>
 		<!-- Quameno can build robotic troops as their infantry (their only infantry) -->
 		<Type>Infantry</Type>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<Size>2000</Size>
 		<RecruitmentCost>
 			<Money>1200</Money>
@@ -927,13 +930,13 @@
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
-		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Battlebot Unit</Name>
 		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>50</TroopDefinitionId>
+		<Name>Forward Guard</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>16</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -949,12 +952,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Forward Guard</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>51</TroopDefinitionId>
+		<Name>Protector Force</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>17</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -970,12 +973,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Protector Force</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>52</TroopDefinitionId>
+		<Name>Terminator Brigade</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>18</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -991,12 +994,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Terminator Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>53</TroopDefinitionId>
+		<Name>War Brigade</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>19</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -1012,12 +1015,12 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>War Brigade</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>54</TroopDefinitionId>
+		<Name>Slayer Swarm</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>20</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -1030,12 +1033,12 @@
 		<EvasionTitan>0</EvasionTitan>
 		<EvasionPlanetaryDefense>0</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Slayer Swarm</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>55</TroopDefinitionId>
+		<Name>Guardians</Name>
+		<Description />
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>21</RaceId>
 		<Type>Infantry</Type>
 		<Size>5000</Size>
@@ -1048,12 +1051,11 @@
 		<EvasionTitan>0.5</EvasionTitan>
 		<EvasionPlanetaryDefense>0.5</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.5</EvasionSpecialForces>
-		<Name>Guardians</Name>
-		<Description />
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>32767</TroopDefinitionId>
+		<Name>Standard Infantry</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>255</RaceId>
 		<Type>Infantry</Type>
 		<Size>4000</Size>
@@ -1069,11 +1071,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Standard Infantry</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>32766</TroopDefinitionId>
+		<Name>Standard Militia</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>255</RaceId>
 		<Type>Militia</Type>
 		<Size>4000</Size>
@@ -1089,11 +1091,11 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Standard Militia</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>32765</TroopDefinitionId>
+		<Name>Standard Raider</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>255</RaceId>
 		<Type>Raider</Type>
 		<Size>4000</Size>
@@ -1109,14 +1111,15 @@
 		<EvasionTitan>0.25</EvasionTitan>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Standard Raider</Name>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<!-- hive, I think -->
-		<TroopDefinitionId>32764</TroopDefinitionId>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
+		<EvasionPlanetaryDefense>0.15</EvasionPlanetaryDefense>
+		<Name>Hive Raider</Name>
 		<RaceId>249</RaceId>
 		<Type>Raider</Type>
+		<TroopDefinitionId>32764</TroopDefinitionId>
 		<Size>4000</Size>
 		<RecruitmentCost>
 			<Money>0</Money>
@@ -1128,9 +1131,6 @@
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.15</EvasionArmor>
 		<EvasionTitan>0.15</EvasionTitan>
-		<EvasionPlanetaryDefense>0.15</EvasionPlanetaryDefense>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<Name>Hive Raider</Name>
 		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>

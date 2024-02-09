@@ -2,13 +2,15 @@
 <ArrayOfComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ComponentDefinition>
 		<ComponentId>370</ComponentId>
+		<Name>Hyperdrive, Velocity</Name>
+		<ImageFilename>XLAssets/Components/370-Velocity Drive</ImageFilename>
 		<Size>18</Size>
 		<Category>HyperDrive</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -979,7 +981,5 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Hyperdrive, Velocity</Name>
-		<ImageFilename>XLAssets/Components/370-Velocity Drive</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

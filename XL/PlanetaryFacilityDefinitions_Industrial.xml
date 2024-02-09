@@ -2,6 +2,17 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>24</PlanetaryFacilityDefinitionId>
+		<Name>Industrial Shipyards</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Advanced Shipyard</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>61</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
@@ -19,26 +30,26 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>61</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Industrial Shipyards</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Advanced Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>28</PlanetaryFacilityDefinitionId>
+		<Name>Imperial Mega-Shipyard</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/High Speed Shipyard</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>17</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<!-- small global boost -->
@@ -69,26 +80,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>12500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>17</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Imperial Mega-Shipyard</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/High Speed Shipyard</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>32</PlanetaryFacilityDefinitionId>
+		<Name>Bakuras Shipyard Complex</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Bakuras Shipyard Complex</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>500000</Money>
+		</BuildCost>
+		<MaintenanceCost>25000</MaintenanceCost>
+		<FacilityFamilyId>18</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ConstructionSpeedAllShips</Type>
@@ -118,25 +128,23 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>500000</Money>
-		</BuildCost>
-		<MaintenanceCost>25000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>18</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Bakuras Shipyard Complex</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Bakuras Shipyard Complex</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>34</PlanetaryFacilityDefinitionId>
+		<QualityBoost>0</QualityBoost>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<!-- this doesn't actually work currently, game caps it at 0 -->
 		<EmpireBonuses>
 			<Bonus>
 				<Type>MiningRate</Type>
@@ -176,23 +184,15 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
-		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<!-- <QualityBoost>-0.05</QualityBoost> -->
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
 		<FacilityFamilyId>19</FacilityFamilyId>
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
-		<!-- this doesn't actually work currently, game caps it at 0 -->
-		<!-- <QualityBoost>-0.05</QualityBoost> -->
-		<QualityBoost>0</QualityBoost>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<MaintenanceCost>2500</MaintenanceCost>
 		<Name>Galactic Mining Center</Name>
 		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Mining Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
