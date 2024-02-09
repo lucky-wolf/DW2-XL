@@ -578,14 +578,6 @@ Tech Bonus Categories
 	...the rest are pretty self evident
 
 ----------------------------------------------------------------------------------------
-
-Add extra levels of Trace Scanner and Trace Jammer so we have a tech/component for every tech tier with equivalent targeting / jamming values
-
-Seed: 4038832
-Size 300: Worlds: 8 - 16,836M
-Size 700: Worlds 6 - 12,695M
-
-----------------------------------------------------------------------------------------
 Tech and government reveal keys
 ________________________	_________________________________________
 ResearchProjectUnlockIds	Artifacts
@@ -593,20 +585,13 @@ ResearchProjectEnable		GameEvents
 GovernmentUnlockIds			Artifacts
 GovernmentUnlocked			GameEvents
 
+----------------------------------------------------------------------------------------
+CODE MODDING
 
-
-Bombers
-0	0
-1	1
-2	2
-3	4
-4	5
-5	6
-
-Fighters
-0	0
-1	1
-2	4
-3	9
-4	13
-5	15
+the dialog class is DistantWorlds.UI.StartNewGameDialog
+it has a private member DWPanel[] member you can overwrite if you want to prepend, insert or append custom panels to
+there's an instance of that class on DistantWorlds2.MenuRenderer called StartNewGameDialog,
+two instances of MenuRenderer exist on DistantWorlds2.ScaledRenderer which can be found on DWGame which can be found from (finally!) a static member on DistantWorlds2.DWGame
+... the architecture isn't the most explorable, but that's what I'm here for! (edited)
+[6:29 AM]
+alternately from the MenuRenderer(s) you can replace the click event on the 'new game' button to call your method instead of MenuRenderer.StartNewGameClick

@@ -64,6 +64,8 @@ func main() {
 		err = algorithm.IonWeapons(folder)
 	case "ScalePlanetFrequencies":
 		err = algorithm.ScalePlanetFrequencies(folder, scale)
+	case "NamesFirst":
+		err = algorithm.NamesFirst(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}

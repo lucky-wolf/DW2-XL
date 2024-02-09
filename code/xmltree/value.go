@@ -205,3 +205,22 @@ func (v *XMLValue) RemoveSpan(index int, count int) (err error) {
 
 // 	return
 // }
+
+// reorders the given child to the specified index
+// warn: we must already be a []any or we error
+func (v *XMLValue) Reorder(from, to int) (err error) {
+
+	switch t := v.contents.(type) {
+
+	case []any:
+		// todo: we could optimize the shifted cells in the array for minimum copying
+		// however, this is a slice of any, which are pointers, so not a biggie
+		// todo: what would be really cool would be a generalized algo that could figure out the minimum moves to achieve end results from the whole list of changes
+		t = etc.InsertAt(etc.RemoveSpanInSitu(t, from, 1), to, t[from])
+
+	default:
+		err = fmt.Errorf("xmlvalue must be []any")
+	}
+
+	return
+}
