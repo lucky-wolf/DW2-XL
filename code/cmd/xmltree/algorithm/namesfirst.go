@@ -50,14 +50,16 @@ func (j *Job) applyNamesFirst() (err error) {
 
 func (j *Job) applyFieldOrdering(collection *xmltree.XMLElement, firsts ...string) (err error) {
 
-	for _, object := range collection.Elements() {
+	elements := collection.Elements()
+	count := len(elements)
+	for _, object := range elements {
 
 		// for each first, find it, and insert at next top position
 		to := 0
 		for _, tag := range firsts {
 			from := object.ChildIndex(tag)
-			if from != -1 && from != to {
-				collection.Reorder(from, to)
+			if from != count {
+				object.Reorder(from, to)
 				to++
 			}
 		}
