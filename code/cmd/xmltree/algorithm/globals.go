@@ -8,6 +8,71 @@ package algorithm
 // then we can make things relative to each other
 // tweak some global base values, and you rearrange the entire web of dependencies
 
+// name a bay category (general, weapon, etc.) and the count of bays it should contain
+// this either deletes from the end of the list, or copies the last entry into more entries
+// it does NOT adjust the size of bays - only copies the tail node to add more of that type
+// SUBTLE: "Engine" bays are always an odd number by adding +1 bay if you ask for an even number
+// subtle: this allows the game to always have a center position for a single engine / odd number of engines within the allowed count
+type HullLevel = int
+type ComponentType = string
+type RoleName = string
+type AttributeName = string
+type BayCounts map[ComponentType]int
+type BayCountsPerLevels map[HullLevel]BayCounts
+
+type StringLevelFunc = func(level int) string
+type StringsTable = map[string]StringLevelFunc
+
+type Tier = int
+type HullTiers map[HullLevel]Tier
+type HullRoleDefinition struct {
+	HullTiers          HullTiers // optional mapping of hull tier to logical level
+	StringsTable       StringsTable
+	ValuesTable        ValuesTable
+	BayCountsPerLevels BayCountsPerLevels
+}
+type HullBaySchedule map[RoleName]HullRoleDefinition
+
+type BayTypeGroups map[ComponentType]BayTypeIndexes
+type BayTypeIndexes struct {
+	start int
+	count int
+}
+
+// returns the tier (logical level) given a hull model level
+func (hrd *HullRoleDefinition) Tier(level HullLevel) Tier {
+	if hrd.HullTiers != nil {
+		return hrd.HullTiers[level]
+	}
+	return Tier(level)
+}
+
+type RaceID = int
+
+const (
+	Human     = 0
+	Ackdarian = 1
+	Teekan    = 2
+	Haakonish = 3
+	Mortalen  = 4
+	Ikkuro    = 5
+	Boskara   = 6
+	Zenox     = 7
+	Wekkarus  = 8
+	Atuuk     = 9
+	Dhayut    = 10
+	Gizurean  = 11
+	Ketarov   = 12
+	Kiadian   = 13
+	Naxxilian = 14
+	Quameno   = 15
+	Securan   = 16
+	Shandar   = 17
+	Sluken    = 18
+	Ugnari    = 19
+	Shakturi  = 20
+)
+
 const IonFtrPDScaleFactor = 0.75
 
 // standard weapon countermeasure schedule (by tech level)

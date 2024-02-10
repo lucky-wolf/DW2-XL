@@ -227,7 +227,10 @@ YMMV, but this is my take on making it Extra Large!
 - Improved non-infantry units for the smaller races, giving them nearly as good units so they're not gimped when it comes to armored and titans
 - Adjusted building maintainance (almost everything is 5% maintainance except commerce, palaces and administrative buildings are 1%)
 - Updated all blaster visual fx so that they're much more visible and vibrant
+- Updated the construction section of the research tree (moved exploration ships into their own lineage)
 - Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
+- Fixed several weapon nodes on Ackdarian ships
+- Fixed several weapon nodes on Zenox ships
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

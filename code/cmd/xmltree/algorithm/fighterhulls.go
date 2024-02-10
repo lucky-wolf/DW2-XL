@@ -9,102 +9,14 @@ import (
 )
 
 // we'll put hull related support algos here
-
-// name a bay category (general, weapon, etc.) and the count of bays it should contain
-// this either deletes from the end of the list, or copies the last entry into more entries
-// it does NOT adjust the size of bays - only copies the tail node to add more of that type
-// SUBTLE: "Engine" bays are always an odd number by adding +1 bay if you ask for an even number
-// subtle: this allows the game to always have a center position for a single engine / odd number of engines within the allowed count
-type HullLevel = int
-type ComponentType = string
-type RoleName = string
-type AttributeName = string
-type BayCounts map[ComponentType]int
-type BayCountsPerLevels map[HullLevel]BayCounts
-type HullTiers map[HullLevel]int
-type HullRoleDefinition struct {
-	HullTiers          HullTiers
-	ValuesTable        ValuesTable
-	BayCountsPerLevels BayCountsPerLevels
-}
-type HullBaySchedule map[RoleName]HullRoleDefinition
-
-type BayTypeGroups map[ComponentType]BayTypeIndexes
-type BayTypeIndexes struct {
-	start int
-	count int
-}
-
-const (
-	Human     = 0
-	Ackdarian = 1
-	Teekan    = 2
-	Haakonish = 3
-	Mortalen  = 4
-	Ikkuro    = 5
-	Boskara   = 6
-	Zenox     = 7
-	Wekkarus  = 8
-	Atuuk     = 9
-	Dhayut    = 10
-	Gizurean  = 11
-	Ketarov   = 12
-	Kiadian   = 13
-	Naxxilian = 14
-	Quameno   = 15
-	Securan   = 16
-	Shandar   = 17
-	Sluken    = 18
-	Ugnari    = 19
-	Shakturi  = 20
-)
-
-type RaceID = int
 type RacialQuirk struct {
 	bomberCenterIsTwo bool
 }
 type RacialQuirks map[RaceID]RacialQuirk
 
-// because some races use 0,1,2 for left,right,center, but others use 1,2,0 for same, we have to do stupid shit here
-func GetWeaponMeshIndex(shiphull *xmltree.XMLElement, index int, desiredCounts BayCounts) int {
-
-	role := shiphull.Child("Role").StringValue()
-	if role != "FighterBomber" {
-		return index
-	}
-
-	race := shiphull.Child("RaceId").IntValue()
-	zeroCenter := !racialQuirks[race].bomberCenterIsTwo
-	if zeroCenter {
-		if desiredCounts["Weapon"] == 1 {
-			// only a single weapon means use the center
-			return 0
-		}
-		switch index {
-		case 0:
-			return 1
-		case 1:
-			return 2
-		case 2:
-			return 0
-		}
-	} else if desiredCounts["Weapon"] == 1 {
-		// only a single weapon means use the center mesh
-		return 2
-	}
-	return index
-}
-
 var (
-	// racial quirks (we might just want to supply translator functions for various mesh indexes)
-	racialQuirks = RacialQuirks{
-		Ackdarian: {bomberCenterIsTwo: true},
-		Ikkuro:    {bomberCenterIsTwo: true},
-		Teekan:    {bomberCenterIsTwo: true},
-	}
-
 	// required order of component bays types
-	componentBayOrder        = []ComponentType{"Weapon", "Engine", "Defense", "General"}
+	componentBayOrder        = []ComponentType{"Weapon", "Engine", "Hangar", "Sensor", "Defense", "General"}
 	reverseComponentBayOrder = etc.Reverse(componentBayOrder)
 
 	// what we wish it were
@@ -112,11 +24,11 @@ var (
 		"FighterInterceptor": {
 			HullTiers: HullTiers{0: 1, 2: 2, 4: 3, 9: 4, 13: 5, 15: 6},
 			ValuesTable: ValuesTable{
-				"ArmorReactiveRating":  func(tier int) float64 { return float64(2 * tier) },
-				"IonDefenseRating":     func(tier int) float64 { return float64(4 * tier) },
-				"CountermeasuresBonus": func(tier int) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },
-				"TargetingBonus":       func(tier int) float64 { return []float64{.03, .06, .09, .12, .15, .18}[tier-1] },
-				"ManeuveringBonus":     func(tier int) float64 { return []float64{.08, .16, .24, .32, .40, .48}[tier-1] },
+				"ArmorReactiveRating":  func(tier Tier) float64 { return float64(2 * tier) },
+				"IonDefenseRating":     func(tier Tier) float64 { return float64(4 * tier) },
+				"CountermeasuresBonus": func(tier Tier) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },
+				"TargetingBonus":       func(tier Tier) float64 { return []float64{.03, .06, .09, .12, .15, .18}[tier-1] },
+				"ManeuveringBonus":     func(tier Tier) float64 { return []float64{.08, .16, .24, .32, .40, .48}[tier-1] },
 			},
 			BayCountsPerLevels: BayCountsPerLevels{
 				// Fighter I
@@ -166,11 +78,11 @@ var (
 		"FighterBomber": {
 			HullTiers: HullTiers{0: 1, 1: 2, 2: 3, 4: 4, 5: 5, 6: 6},
 			ValuesTable: ValuesTable{
-				"ArmorReactiveRating":  func(tier int) float64 { return float64(2 * tier) },
-				"IonDefenseRating":     func(tier int) float64 { return float64(4 * tier) },
-				"CountermeasuresBonus": func(tier int) float64 { return []float64{.13, .16, .19, .22, .25, .28}[tier-1] },
-				"TargetingBonus":       func(tier int) float64 { return []float64{.06, .09, .12, .15, .18, .21}[tier-1] },
-				"ManeuveringBonus":     func(tier int) float64 { return []float64{.00, .08, .16, .24, .32, .40}[tier-1] },
+				"ArmorReactiveRating":  func(tier Tier) float64 { return float64(2 * tier) },
+				"IonDefenseRating":     func(tier Tier) float64 { return float64(4 * tier) },
+				"CountermeasuresBonus": func(tier Tier) float64 { return []float64{.13, .16, .19, .22, .25, .28}[tier-1] },
+				"TargetingBonus":       func(tier Tier) float64 { return []float64{.06, .09, .12, .15, .18, .21}[tier-1] },
+				"ManeuveringBonus":     func(tier Tier) float64 { return []float64{.00, .08, .16, .24, .32, .40}[tier-1] },
 			},
 			BayCountsPerLevels: BayCountsPerLevels{
 				// Bomber I
@@ -220,7 +132,44 @@ var (
 	}
 )
 
-func Hulls(folder string) (err error) {
+// racial quirks (we might just want to supply translator functions for various mesh indexes)
+var racialQuirks = RacialQuirks{
+	Ackdarian: {bomberCenterIsTwo: true},
+	Ikkuro:    {bomberCenterIsTwo: true},
+	Teekan:    {bomberCenterIsTwo: true},
+}
+
+// because some races use 0,1,2 for left,right,center, but others use 1,2,0 for same, we have to do stupid shit here
+func getFighterWeaponMeshIndex(shiphull *xmltree.XMLElement, index int, desiredCounts BayCounts) int {
+
+	role := shiphull.Child("Role").StringValue()
+	if role != "FighterBomber" {
+		return index
+	}
+
+	race := shiphull.Child("RaceId").IntValue()
+	zeroCenter := !racialQuirks[race].bomberCenterIsTwo
+	if zeroCenter {
+		if desiredCounts["Weapon"] == 1 {
+			// only a single weapon means use the center
+			return 0
+		}
+		switch index {
+		case 0:
+			return 1
+		case 1:
+			return 2
+		case 2:
+			return 0
+		}
+	} else if desiredCounts["Weapon"] == 1 {
+		// only a single weapon means use the center mesh
+		return 2
+	}
+	return index
+}
+
+func FighterHulls(folder string) (err error) {
 
 	log.Println("All strikecraft component bay counts will be adjusted to match desired schedule")
 
@@ -279,8 +228,8 @@ func (j *Job) applyComponentBays(schedule HullBaySchedule) (err error) {
 							return
 						}
 
-						// convert arbitrary engine level to more useful tier
-						tier := hullDefn.HullTiers[level]
+						// convert arbitrary hull "level" to more useful logical tier
+						tier := hullDefn.Tier(level)
 
 						// set maximum maxSize for all components combined
 						componentSize := j.totalComponentBaySize(shiphull.Child("ComponentBays"))
@@ -430,7 +379,7 @@ func (j *Job) renumberComponentBays(shiphull *xmltree.XMLElement, desiredCounts 
 			switch t {
 			case "Weapon":
 				// get the translated mesh index for this weapon for this race
-				ci = GetWeaponMeshIndex(shiphull, ci, desiredCounts)
+				ci = getFighterWeaponMeshIndex(shiphull, ci, desiredCounts)
 			}
 
 			oldname := m.StringValue()

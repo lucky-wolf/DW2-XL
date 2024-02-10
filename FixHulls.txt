@@ -4,7 +4,7 @@
 // blank lines are ignored
 // USE WITH code/cmd/replace/main.go
 
-// note: you'll need to check each of these - some overlap non-military ships and need to be reset before pushing them up to github
+// note: you'll need to check each of these - some overlap non-military starships and need to be reset before pushing them up to github
 // we did set small spaceport v0 to 800
 <MaximumSize>415</MaximumSize>		<MaximumSize>450</MaximumSize>
 <MaximumSize>490</MaximumSize>		<MaximumSize>540</MaximumSize>
@@ -47,6 +47,6 @@
 <Name>Heavy Battleship</Name>		<Name>Super Battleship</Name>
 <Name>Heavy Carrier</Name>			<Name>Super Carrier</Name>
 
-<Name>Massive Troop Transport</Name>	<Name>Heavy Troop Transport</Name>
-<Name>Expedition Transport</Name>		<Name>Massive Troop Transport</Name>
+<Name>Troop Transport, Massive</Name>	<Name>Heavy Troop Transport</Name>
+<Name>Expedition Transport</Name>		<Name>Troop Transport, Massive</Name>
 <Name>Army Transport</Name>				<Name>Colossal Troop Transport</Name>

@@ -12762,7 +12762,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>680</ResearchProjectId>
@@ -13499,7 +13499,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>681</ResearchProjectId>
@@ -14389,7 +14389,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>682</ResearchProjectId>
@@ -14525,7 +14525,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>682</ResearchProjectId>
@@ -14599,7 +14599,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>5</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
@@ -16682,6 +16682,12 @@
 				<Level>3</Level>
 			</Component>
 		</Components>
+		<ShipHulls>
+			<ShipHullReference>
+				<Role>ConstructionShip</Role>
+				<Level>2</Level>
+			</ShipHullReference>
+		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>359</ResearchProjectId>
@@ -16708,7 +16714,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>682</ResearchProjectId>
@@ -17749,12 +17755,6 @@
 				<Level>0</Level>
 			</Component>
 		</Components>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>ConstructionShip</Role>
-				<Level>2</Level>
-			</ShipHullReference>
-		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>381</ResearchProjectId>
@@ -23123,7 +23123,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>309</ResearchProjectId>
@@ -23217,7 +23217,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>311</ResearchProjectId>
@@ -23267,7 +23267,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>312</ResearchProjectId>
@@ -24672,7 +24672,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>514</ResearchProjectId>
@@ -24732,8 +24732,8 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>536</ComponentId>
-				<Level>2</Level>
+				<ComponentId>556</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -24766,7 +24766,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>516</ResearchProjectId>
@@ -26343,7 +26343,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>553</ResearchProjectId>
@@ -27032,7 +27032,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>608</ResearchProjectId>
@@ -28704,7 +28704,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>282</Row>
+		<Row>281</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>554</ResearchProjectId>
@@ -28750,10 +28750,11 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
+		<!-- this is just ridiculous - it adds 100%, not 1 yard -->
+		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>281</Row>
+		<Row>280</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>554</ResearchProjectId>
@@ -28784,7 +28785,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>288</Row>
+		<Row>289</Row>
 		<PrerequisiteProjects>
 			<!-- colossal carriers -->
 			<ResearchPath>
@@ -30106,7 +30107,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>286</Row>
+		<Row>287</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>686</ResearchProjectId>
@@ -30137,7 +30138,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>671</ResearchProjectId>
-		<Name>Medium Civilian Ships</Name>
+		<Name>Medium Mining + Hauling Starships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -30160,7 +30161,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>282</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>686</ResearchProjectId>
@@ -30177,15 +30178,11 @@
 				<Role>FreighterMedium</Role>
 				<Level>0</Level>
 			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ExplorationShip</Role>
-				<Level>1</Level>
-			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>672</ResearchProjectId>
-		<Name>Large Civilian Ships</Name>
+		<Name>Large Mining + Hauling Starships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
@@ -30208,7 +30205,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>282</Row>
+		<Row>286</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>671</ResearchProjectId>
@@ -30224,10 +30221,6 @@
 			<ShipHullReference>
 				<Role>FreighterLarge</Role>
 				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ExplorationShip</Role>
-				<Level>2</Level>
 			</ShipHullReference>
 		</ShipHulls>
 	</ResearchProjectDefinition>
@@ -30433,7 +30426,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>Escort</Role>
@@ -30462,7 +30455,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>679</ResearchProjectId>
@@ -30508,7 +30501,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>680</ResearchProjectId>
@@ -30554,7 +30547,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>289</Row>
+		<Row>290</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>681</ResearchProjectId>
@@ -30596,7 +30589,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>1</Column>
-		<Row>287</Row>
+		<Row>288</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>264</ResearchProjectId>
@@ -30657,7 +30650,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>2</Column>
-		<Row>287</Row>
+		<Row>288</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>683</ResearchProjectId>
@@ -30701,7 +30694,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>4</Column>
-		<Row>287</Row>
+		<Row>288</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>684</ResearchProjectId>
@@ -30722,13 +30715,13 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>686</ResearchProjectId>
-		<Name>Civilian Ships</Name>
+		<Name>Mining + Hauling Starships</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>0</Column>
-		<Row>282</Row>
+		<Row>286</Row>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>MiningShip</Role>
@@ -30736,10 +30729,6 @@
 			</ShipHullReference>
 			<ShipHullReference>
 				<Role>FreighterSmall</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>ExplorationShip</Role>
 				<Level>0</Level>
 			</ShipHullReference>
 		</ShipHulls>
@@ -34600,7 +34589,7 @@
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>12</Column>
-		<Row>290</Row>
+		<Row>291</Row>
 		<ShipHulls>
 			<ShipHullReference>
 				<Role>PlanetDestroyer</Role>

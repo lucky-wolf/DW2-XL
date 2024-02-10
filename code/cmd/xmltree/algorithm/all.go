@@ -17,7 +17,7 @@ func All(folder string) (err error) {
 	}
 
 	// now do hulls
-	err = Hulls(folder)
+	err = FighterHulls(folder)
 	if err != nil {
 		return
 	}
