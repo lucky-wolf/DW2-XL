@@ -66,6 +66,8 @@ func main() {
 		err = algorithm.ScalePlanetFrequencies(folder, scale)
 	case "PartialOrdering":
 		err = algorithm.PartialOrdering(folder)
+	case "RenumberHullComponentBays":
+		err = algorithm.RenumberHullComponentBays(folder)
 	default:
 		err = fmt.Errorf("unknown algorithm: %s", function)
 	}

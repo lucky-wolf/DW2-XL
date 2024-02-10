@@ -322,7 +322,7 @@ func (j *Job) applyComponentBaySchedule(shiphull *xmltree.XMLElement, desiredCou
 	}
 
 	// renumber everything to ensure it's coherent
-	err = j.renumberComponentBays(shiphull, desiredCounts)
+	err = j.renumberFighterComponentBays(shiphull, desiredCounts)
 
 	return
 }
@@ -353,10 +353,10 @@ func (j *Job) getComponentBayIndexes(componentbays *xmltree.XMLElement) (counts 
 }
 
 // matches #weapon0 and the like...
-var meshRegex = regexp.MustCompile(`(#\w+)\d+`)
+var hullComponentMeshRegex = regexp.MustCompile(`(#\w+)\d+`)
 
 // renumbers all elements and returns the group counts (weapon, defense, etc.)
-func (j *Job) renumberComponentBays(shiphull *xmltree.XMLElement, desiredCounts BayCounts) (err error) {
+func (j *Job) renumberFighterComponentBays(shiphull *xmltree.XMLElement, desiredCounts BayCounts) (err error) {
 
 	// track our counts as we renumber
 	counts := BayCounts{}
@@ -372,7 +372,7 @@ func (j *Job) renumberComponentBays(shiphull *xmltree.XMLElement, desiredCounts 
 		t := c.Child("Type").StringValue()
 
 		// get the current count of this type (starts at zero)
-		if m := c.Child("MeshName"); m != nil && meshRegex.MatchString(m.StringValue()) {
+		if m := c.Child("MeshName"); m != nil && hullComponentMeshRegex.MatchString(m.StringValue()) {
 
 			ci := counts[t]
 
@@ -383,7 +383,7 @@ func (j *Job) renumberComponentBays(shiphull *xmltree.XMLElement, desiredCounts 
 			}
 
 			oldname := m.StringValue()
-			newname := meshRegex.ReplaceAllString(oldname, fmt.Sprintf("${1}%d", ci))
+			newname := hullComponentMeshRegex.ReplaceAllString(oldname, fmt.Sprintf("${1}%d", ci))
 
 			// update this one to match our count
 			m.SetString(newname)
