@@ -16,8 +16,10 @@ func main() {
 
 	log.SetFlags(0)
 
+	var err error
 	var function, folder string
 	var scale float64
+
 	flag.StringVar(&function, "algorithm", "", "algorithm to apply")
 	flag.StringVar(&folder, "folder", "XL", "folder to apply changes to")
 	flag.BoolVar(&algorithm.Quiet, "quiet", false, "set if you don't want debug output")
@@ -29,13 +31,38 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		log.Println(cwd)
+		log.Println(fmt.Sprintf("Active Path=%s", cwd))
 	}
 
-	var err error
+	var algos = []struct {
+		name string
+		desc string
+	}{
+		{"All", "Runs Components + ResearchCosts"},
+		{"Components", "Runs all component algorithms"},
+		{"  HyperDrives", "Updates hyperdrive components to have 7 levels off of a common data table"},
+		{"  IonShields", "Updates ion shield components off of a common data table (ship & ftr)"},
+		{"  IonWeapons", "Updates ion weapon components off of a common core data table"},
+		{"  FighterArmor", "Fighter armor components are derived from ship armors"},
+		{"  FighterEngines", "Fighter engine components are derived from ship engines"},
+		{"  FighterReactors", "Fighter reactor components are derived from ship reactors"},
+		{"  FighterShields", "Fighter shield components are derived from ship shields"},
+		{"  FighterWeaponsAndPD", "[Ftr] and [PD] weapon components are derived from ship weapons"},
+		{"ResearchCosts", "All Research costs are set to conform to their columnar position (with a few exceptions)"},
+		{"HangarBays", "All ship hangarbay slots will be size-limited by role"},
+		{"FighterHulls", "All strikecraft component slots will be adjusted to match desired schedule"},
+		{"ScalePlanetFrequencies", "Planet frequencies will be scaled by your input"},
+		{"PartialOrdering", "All xml objects will have their ID and name and a few other fields placed first"},
+		{"RenumberHullComponentBays", "All component bay indexes will be fixed to a simple incremental index"},
+	}
+
 	switch function {
 	case "":
-		log.Println("no algorithm selected: will simply copy source to target")
+		flag.PrintDefaults()
+		log.Println("Possible algorithms include:")
+		for _, v := range algos {
+			log.Println(fmt.Sprintf("  %-30s%s", v.name, v.desc))
+		}
 	case "All":
 		err = algorithm.All(folder)
 	case "Components":

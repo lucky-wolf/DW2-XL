@@ -6,7 +6,7 @@ import (
 
 func RenumberHullComponentBays(folder string) (err error) {
 
-	log.Println("All component bay indexes will be fixed to a simple incremental index (after you've edited the .xml)")
+	log.Println("All component bay indexes will be fixed to a simple incremental index")
 
 	// load all ship hull definition files
 	j, err := LoadJobFor(folder, "ShipHulls*.xml")
