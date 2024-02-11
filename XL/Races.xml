@@ -276,6 +276,74 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<!-- Phaser Lance [L] -->
 			<!-- <short>39</short> -->
 		</PreferredWeaponComponentIds>
+
+		<TreatySignedTypes>
+			<EmpireRelationType>FreeTrade</EmpireRelationType>
+			<EmpireRelationType>Defense</EmpireRelationType>
+		</TreatySignedTypes>
+		<TreatySignedColonyEventDefinitionIds>
+			<short>-1</short>
+			<short>-1</short>
+		</TreatySignedColonyEventDefinitionIds>
+		<TreatySignedColonySelections>
+			<ColonySelection>HighestDevelopment</ColonySelection>
+			<ColonySelection>Capital</ColonySelection>
+		</TreatySignedColonySelections>
+		<TreatySignedGameEventNames>
+			<string>Great Art Exposition from Free Trade (Human)</string>
+			<string>Internal Debates Trigger (Human)</string>
+		</TreatySignedGameEventNames>
+
+		<ShipRoleBuiltRoles>
+			<ShipRole>ResortBase</ShipRole>
+		</ShipRoleBuiltRoles>
+		<ShipRoleBuiltColonyEventDefinitionIds>
+			<short>-1</short>
+		</ShipRoleBuiltColonyEventDefinitionIds>
+		<ShipRoleBuiltColonySelections>
+			<ColonySelection>HighestDevelopment</ColonySelection>
+		</ShipRoleBuiltColonySelections>
+		<ShipRoleBuiltGameEventNames>
+			<string>Great Art Exposition from Resort Base Built (Human)</string>
+		</ShipRoleBuiltGameEventNames>
+
+		<WarStartedByOtherGameEventName>Hero of the Hour Trigger (Human)</WarStartedByOtherGameEventName>
+
+		<ForeignIntelligenceMissionSuccessGameEventName>Heightened Security Trigger (Human)</ForeignIntelligenceMissionSuccessGameEventName>
+
+		<ColonizationOrbTypeIds>
+			<unsignedByte>7</unsignedByte>
+		</ColonizationOrbTypeIds>
+		<ColonizationOrbTypeGameEventNames>
+			<string>New Worlds Continental Colonization (Human)</string>
+		</ColonizationOrbTypeGameEventNames>
+
+		<ColonyConquestOrbTypeIds>
+			<unsignedByte>7</unsignedByte>
+		</ColonyConquestOrbTypeIds>
+		<ColonyConquestOrbTypeGameEventNames>
+			<string>New Worlds Continental Conquest (Human)</string>
+		</ColonyConquestOrbTypeGameEventNames>
+
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>AllianceBuilder</CharacterTraitType>
+			<CharacterTraitType>Entrepreneur</CharacterTraitType>
+			<CharacterTraitType>IndustrialAgent</CharacterTraitType>
+			<CharacterTraitType>Destructive</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<FeatureExplanations>
+			<string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
+			<string>[HL]Hero of the Hour:[/HL] When war is declared on you choose either a new Admiral or new General with two positive traits</string>
+			<string>[HL]Internal Debates:[/HL] When you sign a new Defense treaty obtain a capable new Ambassador but also a 2 year decrease to Colony Happiness throughout your empire</string>
+			<string>[HL]Heightened Security:[/HL] When a foreign intelligence mission against you succeeds (but is detected) you may choose to spend a Spy to gain a 2 year boost to Counter Espionage along with a decrease to Colony Happiness throughout your empire</string>
+			<string>[HL]New Worlds:[/HL] When you colonize or conquer a Continental planet obtain a free random Colonization tech advance</string>
+			<string>[HL]Unique Leader trait - Alliance Builder:[/HL] +10% Diplomacy</string>
+			<string>[HL]Unique Ambassador trait - Entrepreneur:[/HL] +10% Trade Income</string>
+			<string>[HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage</string>
+			<string>[HL]Unique Scientist trait - Destructive:[/HL] +10% Weapons Research</string>
+		</FeatureExplanations>
+
 		<Biases>
 			<RaceFactor>
 				<RaceId>1</RaceId>
@@ -361,13 +429,13 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<VictoryConditions>
 			<VictoryCondition>
 				<Type>ControlPlanetTypePercentage</Type>
-				<Proportion>0.25</Proportion>
-				<Amount>1</Amount>
+				<Proportion>0.2</Proportion>
+				<Amount>0.2</Amount>
 				<Id>7</Id>
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>MostDefenseTreaties</Type>
-				<Proportion>0.25</Proportion>
+				<Proportion>0.2</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
@@ -379,13 +447,19 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>MostTradeIncome</Type>
-				<Proportion>0.15</Proportion>
+				<Proportion>0.1</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>MostTourismIncome</Type>
-				<Proportion>0.15</Proportion>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ResearchMostAdvanced</Type>
+				<Proportion>0.2</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
@@ -2338,6 +2412,29 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
+
+		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
+		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
+		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
+		<CharacterProvingChancePerYear>0.08</CharacterProvingChancePerYear>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Warmaster</CharacterTraitType>
+			<CharacterTraitType>GrandAdmiral</CharacterTraitType>
+			<CharacterTraitType>DiscipleOfWar</CharacterTraitType>
+			<CharacterTraitType>IntimidatingPresence</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<FeatureExplanations>
+			<string>[HL]Warrior Wave:[/HL] When you declare war obtain a 2 year boost to Mortalen Population Growth along with your choice of either a large Troop Recruitment Rate boost or a Troop Attack Strength boost</string>
+			<string>[HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction</string>
+			<string>[HL]Know Your Enemy:[/HL] When you invade and conquer an enemy world choose a 2 year boost to either Espionage and Counter Espionage or Targeting and Countermeasures</string>
+			<string>[HL]Prove Yourself:[/HL] Periodically choose between 2 characters (from Leader, Admirals, Generals) to undergo a trial by arms. If successful the selected character gains a positive trait, otherwise a negative trait</string>
+			<string>[HL]Unique Leader trait - Warmaster:[/HL] +10% Troop Maintenance Savings, +20% Ship Maintenance Savings</string>
+			<string>[HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting</string>
+			<string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
+			<string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
+		</FeatureExplanations>
+
 		<Bonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
@@ -2610,25 +2707,25 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 		<VictoryConditions>
 			<VictoryCondition>
 				<Type>MostExperiencedAdmiral</Type>
-				<Proportion>0.25</Proportion>
+				<Proportion>0.2</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>MostExperiencedGeneral</Type>
-				<Proportion>0.25</Proportion>
+				<Proportion>0.2</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>WinWarsProportion</Type>
-				<Proportion>0.20</Proportion>
-				<Amount>0.7</Amount>
+				<Proportion>0.2</Proportion>
+				<Amount>0.6</Amount>
 				<Id>0</Id>
 			</VictoryCondition>
 			<VictoryCondition>
 				<Type>ConquerMostEnemyColonies</Type>
-				<Proportion>0.20</Proportion>
+				<Proportion>0.3</Proportion>
 				<Amount>1</Amount>
 				<Id>0</Id>
 			</VictoryCondition>

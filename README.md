@@ -207,7 +207,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.5
-- DW2 1.2.0.5 required
+- DW2 1.2.0.6 compatible (DW2 1.2.0.5+ required)
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
 - Added some more fun touches to initial government events
 - Added Maxos Blaster [M] at T2
@@ -227,9 +227,7 @@ YMMV, but this is my take on making it Extra Large!
 - Exploration ships now have their own research line
 - Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
 - Improved blaster visuals so that they're much more visible and vibrant in battles
-- Fixed missing visuals for Titan Blaster [L] (vanilla bug)
-- Fixed Gizurean start events were never firing (vanilla bug)
-- Fixed DLC Government startup events were not firing for most races (vanilla bug)
+- Fixed missing visuals for Titan Blaster [L]
 - Fixed missing image for Quameno "Maze Pirates" quest line
 - Fixed missing image for Fusion Beam [Ftr]
 - Fixed swapped images for swarm fighter bay and auxiliary bay

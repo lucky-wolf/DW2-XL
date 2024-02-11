@@ -10,14 +10,10 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<!-- <TriggerRaceIds>
-			<short>15</short>
-		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -62,14 +58,10 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<!-- <TriggerRaceIds>
-			<short>15</short>
-		</TriggerRaceIds> -->
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>15</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -172,7 +164,7 @@ A new [CHARACTER]scientist[/CHARACTER] is the first to emerge from the maze vict
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
@@ -199,7 +191,7 @@ A new [CHARACTER]scientist[/CHARACTER] is the first to emerge from the maze vict
 				<Description />
 				<ImageFilepath />
 				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
