@@ -55,22 +55,22 @@ var (
 				// Fighter IV
 				9: {
 					"Weapon":  2,
-					"Engine":  3,
-					"Defense": 2,
+					"Engine":  2,
+					"Defense": 3,
 					"General": 4,
 				},
 				// Fighter V, Strike
 				13: {
 					"Weapon":  2,
 					"Engine":  3,
-					"Defense": 3,
+					"Defense": 4,
 					"General": 4,
 				},
 				// Fighter VI, Superiority
 				15: {
-					"Weapon":  2,
+					"Weapon":  2, // fighter models don't have a 3rd weapon
 					"Engine":  3,
-					"Defense": 3,
+					"Defense": 4,
 					"General": 5,
 				},
 			},
@@ -117,14 +117,14 @@ var (
 				5: {
 					"Weapon":  2,
 					"Engine":  3,
-					"Defense": 3,
+					"Defense": 4,
 					"General": 4,
 				},
 				// Bomber X
 				6: {
 					"Weapon":  3,
 					"Engine":  3,
-					"Defense": 3,
+					"Defense": 4,
 					"General": 5,
 				},
 			},

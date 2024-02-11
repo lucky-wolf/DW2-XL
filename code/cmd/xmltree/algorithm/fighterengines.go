@@ -48,7 +48,7 @@ func (j *Job) applyFighterEngines() (err error) {
 				}
 
 				// only engines...
-				if !e.Has("Category", "Engine") {
+				if !e.HasChildWithValue("Category", "Engine") {
 					continue
 				}
 

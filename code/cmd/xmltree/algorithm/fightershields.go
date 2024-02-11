@@ -48,7 +48,7 @@ func (j *Job) applyFighterShields() (err error) {
 				}
 
 				// only shields...
-				if !e.Has("Category", "Shields") {
+				if !e.HasChildWithValueOneOf("Category", "Shields", "ShieldEnhancement") {
 					continue
 				}
 

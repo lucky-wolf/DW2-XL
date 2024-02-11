@@ -60,7 +60,7 @@ func (e *XMLElement) Matching(r *regexp.Regexp) (children []*XMLElement) {
 func (e *XMLElement) FindRecurse(tag string, value string) *XMLElement {
 
 	// breadth first: check our contents for a match (non-recursive)
-	if e.Has(tag, value) {
+	if e.HasChildWithValue(tag, value) {
 		// if we have one, we are the parent of this tag + value
 		return e
 	}
@@ -79,18 +79,38 @@ func (e *XMLElement) FindRecurse(tag string, value string) *XMLElement {
 }
 
 // returns the first matching child element whose tag and value equal the find tag and value
-func (e *XMLElement) Find(tag string, value string) *XMLElement {
-	for _, e = range e.Elements() {
-		if e.Name.Local == tag && e.StringValueEquals(value) {
-			return e
-		}
+func (e *XMLElement) ChildWithValue(tag string, value string) *XMLElement {
+	c := e.Child(tag)
+	if c != nil && c.StringValue() == value {
+		return c
 	}
 	return nil
 }
 
+// returns the first matching child element whose tag and value equal the find tag and value
+func (e *XMLElement) ChildWithValueOneOf(tag string, values ...string) *XMLElement {
+	c := e.Child(tag)
+	if c == nil {
+		return nil
+	}
+
+	for _, value := range values {
+		if c.StringValue() == value {
+			return c
+		}
+	}
+
+	return nil
+}
+
 // returns true if the given element has a sub element with specified tag and value
-func (e *XMLElement) Has(tag string, value string) bool {
-	return e.Find(tag, value) != nil
+func (e *XMLElement) HasChildWithValue(tag string, value string) bool {
+	return e.ChildWithValue(tag, value) != nil
+}
+
+// returns true if the given element has a sub element with specified tag and value
+func (e *XMLElement) HasChildWithValueOneOf(tag string, values ...string) bool {
+	return e.ChildWithValueOneOf(tag, values...) != nil
 }
 
 // like Find, but looks for anything with the value that matches as a prefix

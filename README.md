@@ -217,6 +217,10 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Gizurean start events (were never firing - vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
 - Fixed missing Fusion Beam [Ftr] image
+- Fixed swarm auxiliary fighter bay component image
+- Fixed several weapon nodes on Ackdarian ships
+- Fixed several weapon nodes on Zenox ships
+- Fixed Teekan ZimZip Fighter I engine slot was too small
 - Further tweaked fighter/bomber hull progression
 - Rebalanced troop research to move it a bit earlier in the game
 - Collapsed PDU research into a single linear path
@@ -224,13 +228,12 @@ YMMV, but this is my take on making it Extra Large!
 - Improved Armored units - stronger generally, size 8K (was typically 10K)
 - PDUs are now the inverse of Armored - they just swap offense and defense (and are the same size)
 - Titans are 200% armor attack, 266% armor defense, for 2x the space (16K) as armored
-- Improved non-infantry units for the smaller races, giving them nearly as good units so they're not gimped when it comes to armored and titans
+- Improved non-infantry units for the smaller races
 - Adjusted building maintainance (almost everything is 5% maintainance except commerce, palaces and administrative buildings are 1%)
 - Updated all blaster visual fx so that they're much more visible and vibrant
 - Updated the construction section of the research tree (moved exploration ships into their own lineage)
 - Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
-- Fixed several weapon nodes on Ackdarian ships
-- Fixed several weapon nodes on Zenox ships
+- Added Quantum Capacitor [Ftr]
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

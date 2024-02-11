@@ -39,9 +39,9 @@ type ComponentIs struct {
 }
 
 func GetComponentIsms(e *xmltree.XMLElement) (is ComponentIs) {
-	is.fighter = e.Has("IsFighterOnly", "true")
+	is.fighter = e.HasChildWithValue("IsFighterOnly", "true")
 	is.weapon = e.HasPrefix("Category", "Weapon")
-	is.pd = !is.fighter && e.Has("Category", "WeaponIntercept")
+	is.pd = !is.fighter && e.HasChildWithValue("Category", "WeaponIntercept")
 	is.size = e.Child("Size").IntValue()
 
 	return

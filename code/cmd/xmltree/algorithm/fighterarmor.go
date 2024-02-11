@@ -48,7 +48,7 @@ func (j *Job) applyFighterArmor() (err error) {
 				}
 
 				// only armor...
-				if !e.Has("Category", "Armor") {
+				if !e.HasChildWithValue("Category", "Armor") {
 					continue
 				}
 
