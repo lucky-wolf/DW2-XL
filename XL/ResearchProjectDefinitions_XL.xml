@@ -7753,12 +7753,19 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<ResearchProjectId>350</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>1</RaceId>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>353</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>1</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<Components>
 			<Component>
 				<ComponentId>542</ComponentId>
@@ -14227,7 +14234,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1301</ResearchProjectId>
-		<Name>Exploration Starships</Name>
+		<Name>Space Exploration</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
 		<EnabledByDefault>true</EnabledByDefault>
@@ -14243,7 +14250,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1302</ResearchProjectId>
-		<Name>Medium Exploration Starships</Name>
+		<Name>Deep Space Exploration</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -14283,7 +14290,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1303</ResearchProjectId>
-		<Name>Large Exploration Starships</Name>
+		<Name>Galactic Exploration</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
