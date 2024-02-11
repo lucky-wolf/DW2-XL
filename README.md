@@ -207,33 +207,35 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.5
-- DW2 1205 beta strongly recommended: the new fighter and bomber hulls won't autogenerate correctly with the older game builds
+- DW2 1.2.0.5 required
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
-- Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
-- Added Maxos Blaster [M] at T2
-- DLC special government startup events will now trigger for all races (if you allow non-cannon governments at game startup)
 - Added some more fun touches to initial government events
-- Increased fighter reactor output (was a bit low)
-- Fixed Gizurean start events (were never firing - vanilla bug)
+- Added Maxos Blaster [M] at T2
+- Strike Craft
+  - Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
+  - Increased fighter reactor output (was a bit low)
+  - Improved strike craft hull progression
+  - Added Quantum Capacitor [Ftr] components
+- Troops
+  - Rebalanced troop research to move it a bit earlier in the game
+  - Collapsed PDU research into a single linear path
+  - Improved non-infantry units for the smaller races (closer to par with larger species)
+  - Improved Armored units - stronger generally, size 8K (was typically 10K)
+  - PDUs are now the inverse of Armored - they just swap offense and defense (same size)
+  - Titans are 200% armor attack, 266% armor defense, for 2x the space (16K) as armored
+- Further standardized building maintainance (1% for economic ones, 5% for everything else)
+- Exploration ships now have their own research line
+- Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
+- Improved blaster visuals so that they're much more visible and vibrant in battles
+- Fixed missing visuals for Titan Blaster [L] (vanilla bug)
+- Fixed Gizurean start events were never firing (vanilla bug)
+- Fixed DLC Government startup events were not firing for most races (vanilla bug)
 - Fixed missing image for Quameno "Maze Pirates" quest line
-- Fixed missing Fusion Beam [Ftr] image
-- Fixed swarm auxiliary fighter bay component image
+- Fixed missing image for Fusion Beam [Ftr]
+- Fixed swapped images for swarm fighter bay and auxiliary bay
 - Fixed several weapon nodes on Ackdarian ships
 - Fixed several weapon nodes on Zenox ships
 - Fixed Teekan ZimZip Fighter I engine slot was too small
-- Further tweaked fighter/bomber hull progression
-- Rebalanced troop research to move it a bit earlier in the game
-- Collapsed PDU research into a single linear path
-- Tweaked some Ion values in prep for a more fully integrated data system
-- Improved Armored units - stronger generally, size 8K (was typically 10K)
-- PDUs are now the inverse of Armored - they just swap offense and defense (and are the same size)
-- Titans are 200% armor attack, 266% armor defense, for 2x the space (16K) as armored
-- Improved non-infantry units for the smaller races
-- Adjusted building maintainance (almost everything is 5% maintainance except commerce, palaces and administrative buildings are 1%)
-- Updated all blaster visual fx so that they're much more visible and vibrant
-- Updated the construction section of the research tree (moved exploration ships into their own lineage)
-- Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
-- Added Quantum Capacitor [Ftr]
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)

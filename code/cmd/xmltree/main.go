@@ -38,7 +38,7 @@ func main() {
 		name string
 		desc string
 	}{
-		{"All", "Runs Components + ResearchCosts"},
+		{"All", "Runs (all) Components, ResearchCosts, and Hulls"},
 		{"Components", "Runs all component algorithms"},
 		{"  HyperDrives", "Updates hyperdrive components to have 7 levels off of a common data table"},
 		{"  IonShields", "Updates ion shield components off of a common data table (ship & ftr)"},

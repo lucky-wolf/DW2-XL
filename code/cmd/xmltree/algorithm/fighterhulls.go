@@ -43,7 +43,7 @@ var (
 					"Weapon":  1,
 					"Engine":  2,
 					"Defense": 2,
-					"General": 3,
+					"General": 2,
 				},
 				// Fighter III
 				4: {
@@ -55,7 +55,7 @@ var (
 				// Fighter IV
 				9: {
 					"Weapon":  2,
-					"Engine":  2,
+					"Engine":  3,
 					"Defense": 3,
 					"General": 4,
 				},
@@ -97,7 +97,7 @@ var (
 					"Weapon":  1,
 					"Engine":  2,
 					"Defense": 2,
-					"General": 3,
+					"General": 2,
 				},
 				// Bomber III
 				2: {
@@ -109,7 +109,7 @@ var (
 				// Bomber IV
 				4: {
 					"Weapon":  2,
-					"Engine":  2,
+					"Engine":  3,
 					"Defense": 3,
 					"General": 4,
 				},

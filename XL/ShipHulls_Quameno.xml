@@ -86458,7 +86458,7 @@
 		<Level>1</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>21</Size>
-		<MaximumSize>75</MaximumSize>
+		<MaximumSize>69</MaximumSize>
 		<DisplaySize>19</DisplaySize>
 		<ModelName>Ships/Quameno/drone_bomber</ModelName>
 		<CockpitImageFilename />
@@ -86617,22 +86617,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -86658,7 +86642,7 @@
 		<Level>2</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>18</Size>
-		<MaximumSize>69</MaximumSize>
+		<MaximumSize>63</MaximumSize>
 		<DisplaySize>15</DisplaySize>
 		<ModelName>Ships/Quameno/drone_fighter</ModelName>
 		<CockpitImageFilename />
@@ -86803,22 +86787,6 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -87698,14 +87666,14 @@
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
-		<MaximumSize>98</MaximumSize>
+		<MaximumSize>104</MaximumSize>
 		<DisplaySize>20</DisplaySize>
 		<ModelName>Ships/Quameno/drone_bomber</ModelName>
 		<CockpitImageFilename />
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>16</IonDefense>
-		<EngineLimit>2</EngineLimit>
+		<EngineLimit>3</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.15</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -87951,14 +87919,14 @@
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>24</Size>
-		<MaximumSize>90</MaximumSize>
+		<MaximumSize>97</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Quameno/drone_fighter</ModelName>
 		<CockpitImageFilename />
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>16</IonDefense>
-		<EngineLimit>2</EngineLimit>
+		<EngineLimit>3</EngineLimit>
 		<CountermeasuresBonus>0.44</CountermeasuresBonus>
 		<TargetingBonus>0.12</TargetingBonus>
 		<TurnRollRate>0.75</TurnRollRate>
