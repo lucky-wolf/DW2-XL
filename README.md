@@ -220,9 +220,11 @@ YMMV, but this is my take on making it Extra Large!
   - Rebalanced troop research to move it a bit earlier in the game
   - Collapsed PDU research into a single linear path
   - Improved non-infantry units for the smaller races (closer to par with larger species)
-  - Improved Armored units - stronger generally, size 8K (was typically 10K)
+  - Improved Armored units - stronger generally, size 9K (was typically 10K)
   - PDUs are now the inverse of Armored - they just swap offense and defense (same size)
-  - Titans are 200% armor attack, 266% armor defense, for 2x the space (16K) as armored
+  - Titans are 2x attack, 2+2/3 defense, 1+1/3x size of armored
+  - Costs are 2K Bots, 2.5K Inf, 3K SpecOpes, 5K Armored & PDU, 6K Synth, 20K Titans
+  - Maintainance is 10% of initial cost for all types
 - Further standardized building maintainance (1% for economic ones, 5% for everything else)
 - Exploration ships now have their own research line
 - Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
