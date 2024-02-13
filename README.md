@@ -207,7 +207,7 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.5
-- DW2 1.2.0.6 compatible (DW2 1.2.0.5+ required)
+- DW2 1.2.0.5 compatible and required
 - Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
 - Added some more fun touches to initial government events
 - Added Maxos Blaster [M] at T2
@@ -224,8 +224,8 @@ YMMV, but this is my take on making it Extra Large!
   - PDUs are now the inverse of Armored - they just swap offense and defense (same size)
   - Titans are 2x attack, 2+2/3 defense, 1+1/3x size of armored
   - Costs are 2K Bots, 2.5K Inf, 3K SpecOpes, 5K Armored & PDU, 6K Synth, 20K Titans
-  - Maintainance is 10% of initial cost for all types
-- Further standardized building maintainance (1% for economic ones, 5% for everything else)
+  - Maintenance is 10% of initial cost for all types
+- Further standardized building maintenance (1% for economic ones, 5% for everything else)
 - Exploration ships now have their own research line
 - Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
 - Improved blaster visuals so that they're much more visible and vibrant in battles
@@ -736,7 +736,7 @@ YMMV, but this is my take on making it Extra Large!
 - Normalized tech cost of level 3 and 4 government facilities (undid the hack for DW2's previous bug)
 
 ### v1.16.5
-- Tweaked the Planetary Admin facilities to have increasing construction and maintainance costs
+- Tweaked the Planetary Admin facilities to have increasing construction and maintenance costs
 - Reduced tech cost of level 3 and 4 government facilities to same as level 2, to try to make the AIs not totally fail
 
 ### v1.16.4
@@ -918,7 +918,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.14.4
 - Galactic Mining Center now boosts mining and income, but reduces happiness and has negative health effects
 - Synthetic Troop Facilities are separate from Robotic Troop Facilities (both can be built on the same world)
-  - Synthetic Troops have been made stronger but with increased maintainance costs
+  - Synthetic Troops have been made stronger but with increased maintenance costs
 - Planetary Weapons Facilities have 2x Guns each (was 1)
 - Planetary Ion Cannons now do 100 and 200 ion damage for v1 and v2, respectively
 - Adjusted all initial racial techs and their game events to announce what you have started your game with

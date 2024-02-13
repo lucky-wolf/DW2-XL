@@ -277,7 +277,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<!-- <short>39</short> -->
 		</PreferredWeaponComponentIds>
 
-		<TreatySignedTypes>
+		<!-- <TreatySignedTypes>
 			<EmpireRelationType>FreeTrade</EmpireRelationType>
 			<EmpireRelationType>Defense</EmpireRelationType>
 		</TreatySignedTypes>
@@ -292,9 +292,9 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<TreatySignedGameEventNames>
 			<string>Great Art Exposition from Free Trade (Human)</string>
 			<string>Internal Debates Trigger (Human)</string>
-		</TreatySignedGameEventNames>
+		</TreatySignedGameEventNames> -->
 
-		<ShipRoleBuiltRoles>
+		<!-- <ShipRoleBuiltRoles>
 			<ShipRole>ResortBase</ShipRole>
 		</ShipRoleBuiltRoles>
 		<ShipRoleBuiltColonyEventDefinitionIds>
@@ -330,7 +330,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<CharacterTraitType>Entrepreneur</CharacterTraitType>
 			<CharacterTraitType>IndustrialAgent</CharacterTraitType>
 			<CharacterTraitType>Destructive</CharacterTraitType>
-		</AdditionalCharacterTraits>
+		</AdditionalCharacterTraits> -->
 
 		<FeatureExplanations>
 			<string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
@@ -2413,7 +2413,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 
-		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
+		<!-- <WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
 		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
 		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
 		<CharacterProvingChancePerYear>0.08</CharacterProvingChancePerYear>
@@ -2433,7 +2433,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<string>[HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting</string>
 			<string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
 			<string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
-		</FeatureExplanations>
+		</FeatureExplanations> -->
 
 		<Bonuses>
 			<Bonus>
