@@ -35,7 +35,7 @@ type TroopValue map[Key]Value
 // warn: also Quameno have no true infantry - only a copy of those battlebots
 // warn: and then Teekan infantry + spec-ops are size 4K, instead of the usual 5k
 var TroopValues = map[Type]TroopValue{
-	"Infantry": TroopValue{
+	"Infantry": {
 		"Size":            "2000",
 		"RecruitmentCost": "crap",
 	},
