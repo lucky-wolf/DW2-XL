@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.6](#v1196)
     - [v1.19.5](#v1195)
     - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
@@ -205,6 +206,10 @@ YMMV, but this is my take on making it Extra Large!
 - Race assimilation is radically slower than in vanilla
 
 ## Latest Changes
+
+### v1.19.6
+- DW2 1.2.0.6 compatible and required
+- Updated to latest bundles from @salemonz with a new ID system
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
