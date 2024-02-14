@@ -91,7 +91,7 @@ func (j *Job) applyHangarBays() (err error) {
 					}
 
 					// for each component bay whose type is Hangar
-					if componentBay.Has("Type", "Hangar") {
+					if componentBay.HasChildWithValue("Type", "Hangar") {
 
 						// find and update the MaximumComponentSize
 						c := componentBay.Child("MaximumComponentSize")

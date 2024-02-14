@@ -62,7 +62,6 @@
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -73,16 +72,16 @@
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Republic</MessageTitle>
-				<Description>Our newly formed Republic will stand the test of time having recently completed:
+				<Description>Our newly formed Republic will stand the test of time!
+
+We have recently made great strides in:
 
 [ULI][RESEARCH]Planetary Administration[/RESEARCH][/ULI]
-
-We have also made great strides towards:
-
 [ULI][RESEARCH]Diplomatic Focus[/RESEARCH][/ULI]
 
-Our homeworld will become a beacon for peace and prosperity with our newly finished Planetary Administration Center, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.</Description>
-				<ImageFilepath />
+Our homeworld will become a beacon for peace and prosperity with our newly finished [RESOURCE]Prime Capitol[/RESOURCE] building, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Prime Capitol</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -113,8 +112,8 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Planetary Administration Center -->
-				<Id1>38</Id1>
+				<!-- Prime Capitol -->
+				<Id1>1015</Id1>
 				<Id2>-1</Id2>
 				<Value1>1</Value1>
 				<Value2>1</Value2>
@@ -132,7 +131,7 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -143,7 +142,7 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Planetary Administration -->
 				<Id1>425</Id1>
-				<Value1>0</Value1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -170,11 +169,119 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Diplomatic Focus -->
 				<Id1>667</Id1>
-				<Value1>0.75</Value1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Diplomacy</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Starship Recreation Systems -->
+				<Id1>394</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Interstellar Commerce -->
+				<Id1>391</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Stellar Transport Systems -->
+				<Id1>388</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Civilian Transports -->
+				<Id1>670</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -249,7 +356,6 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -267,9 +373,9 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 [ULI][RESEARCH]Stellar Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Civilian Transports[/RESEARCH][/ULI]
 
-It is time for our people to unite and reach for the stars!
+With our newly finished [RESOURCE]Grand Pnyx[/RESOURCE], it is time for our people to unite and reach for the stars!
 				</Description>
-				<ImageFilepath />
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Grand Pnyx</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -280,6 +386,88 @@ It is time for our people to unite and reach for the stars!
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Grand Pnyx -->
+				<Id1>1014</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planetary Administration -->
+				<Id1>425</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Diplomatic Focus -->
+				<Id1>667</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Diplomacy</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -462,7 +650,6 @@ It is time for our people to unite and reach for the stars!
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -475,8 +662,11 @@ It is time for our people to unite and reach for the stars!
 				<MessageTitle>Tribal Bloodlines</MessageTitle>
 				<Description>The warriors of your great empire spread before you in their millions!
 
-Your elite troops stand ready, eagerly awaiting an opportunity for glory, valor, and a good death!</Description>
-				<ImageFilepath />
+Your elite troops stand ready, eagerly awaiting an opportunity for glory, valor, and a good death!
+
+Heads of all of the noblest of tribes have gathered at thew newly completed [RESOURCE]Clan Parliament[/RESOURCE] to hear your plans for a bountiful future!
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Clan Parliament</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -1094,7 +1284,6 @@ Your elite troops stand ready, eagerly awaiting an opportunity for glory, valor,
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1110,8 +1299,9 @@ Your elite troops stand ready, eagerly awaiting an opportunity for glory, valor,
 [ULI][RESEARCH]Interstellar Commerce[/RESEARCH][/ULI]
 [ULI][RESEARCH]Enhanced Commerce Center[/RESEARCH][/ULI]
 
-Our homeworld thrums with the sound of commerce, awaiting your bold expansion plans.</Description>
-				<ImageFilepath />
+Now that we have completed the [RESOURCE]Unified Exchange[/RESOURCE], our homeworld thrums with the sound of commerce, and our people await your bold business plans.
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Unified Exchange</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -1119,6 +1309,34 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Unified Exchange -->
+				<Id1>1017</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -1198,7 +1416,7 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Open Trade Network -->
 				<Id1>447</Id1>
-				<Value1>0.25</Value1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1277,7 +1495,6 @@ Our homeworld thrums with the sound of commerce, awaiting your bold expansion pl
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -1297,12 +1514,13 @@ We have recently completed:
 [ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Crew Accommodations[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Ground Combat[/RESEARCH][/ULI]
-[ULI][RESEARCH]Mechs[/RESEARCH][/ULI]
+[ULI][RESEARCH]Armored[/RESEARCH][/ULI]
 
-Your top admirals and generals are gathered within of your newly completed War Planning Complex, on this most auspicious day, the day you take command over our forces.  No longer does another stand above you in the chain of command.
+Your top admirals and generals are gathered within of your newly completed [RESOURCE]War Planning Complex[/RESOURCE], on this most auspicious day, the day you take command over our forces.  No longer does another stand above you in the chain of command.
 
-Additionally, two units of state of the art mechs have just been completed and yours to conquer the stars with!</Description>
-				<ImageFilepath />
+Additionally, two units of state of the art armored have just been completed and yours to conquer the stars with!
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/War Planning Complex</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -1361,7 +1579,7 @@ Additionally, two units of state of the art mechs have just been completed and y
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Mech Foundry -->
+				<!-- Armor Foundry -->
 				<Id1>61</Id1>
 				<Id2>-1</Id2>
 				<Value1>1</Value1>
@@ -1524,7 +1742,7 @@ Additionally, two units of state of the art mechs have just been completed and y
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Mechs -->
+				<!-- Armored Units -->
 				<Id1>21</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -1568,7 +1786,7 @@ Additionally, two units of state of the art mechs have just been completed and y
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<!-- Mechs -->
+			<!-- Armored Units -->
 			<GameEventAction>
 				<Type>GenerateTroops</Type>
 				<MessageTitle />
@@ -2264,7 +2482,6 @@ Additionally, two units of state of the art mechs have just been completed and y
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2280,11 +2497,11 @@ Additionally, two units of state of the art mechs have just been completed and y
 [ULI][RESEARCH]Improved Command[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Crew Accommodations[/RESEARCH][/ULI]
 
-Your elite royal guard stands at sharp attention along the halls of your newly completed Royal Palace, on this most auspicious day, the day of your coronation.
+Your elite royal guard stands at sharp attention along the halls of your newly completed [RESOURCE]Royal Palace[/RESOURCE], on this most auspicious day, the day of your coronation.
 
 Millions of your subjects look on from the courtyard below, and billions more are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?
 				</Description>
-				<ImageFilepath />
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Royal Palace</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -2794,7 +3011,6 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -2807,15 +3023,16 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<MessageTitle>Technocracy</MessageTitle>
 				<Description>Your initial directive as head researcher and first amongst equals has paid off with the completion of:
 
-[ULI]Technosphere Citadel[/ULI]
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 [ULI][RESEARCH]Long Range Sensors[/RESEARCH][/ULI]
 
+We have also completed the construction of the vaunted [RESOURCE]Technosphere Citadel[/RESOURCE], where we will undoubtedly make many more illustrious discoveries!
+
 Another [CHARACTER]scientist[/CHARACTER] nearly your equal has emerged to head up our day to day operations now that you have accepted your appointment as head of the government.
 Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!
 				</Description>
-				<ImageFilepath />
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Technosphere Citadel</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3034,7 +3251,6 @@ Worry not that we will execute your directions with all professional alacrity as
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3053,9 +3269,9 @@ Worry not that we will execute your directions with all professional alacrity as
 [ULI][RESEARCH]Stellar Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Military Transports[/RESEARCH][/ULI]
 
-Our first army awaits your command at our homeworld...
+Our first army awaits your command at our homeworld where you oversee all from your [RESOURCE]Seat of Consciousness[/RESOURCE].
 				</Description>
-				<ImageFilepath />
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Seat of Consciousness</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3280,6 +3496,220 @@ Our first army awaits your command at our homeworld...
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
+		<Name>Initialize Government (Shadow Republic)</Name>
+		<GroupName />
+		<Title />
+		<Description />
+		<ImageFilepath />
+		<MusicFilepath />
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions />
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActions />
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TechLevelThreshold>-1</TechLevelThreshold>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>false</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName>Initialize Government 2 (Shadow Republic)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Initialize Government 2 (Shadow Republic)</Name>
+		<GroupName />
+		<Title />
+		<Description />
+		<ImageFilepath />
+		<MusicFilepath />
+		<TriggerType>Undefined</TriggerType>
+		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
+		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<Conditions />
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementActions />
+		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
+		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
+		<TechLevelThreshold>-1</TechLevelThreshold>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Shadow Republic</MessageTitle>
+				<Description>Our newly formed Shadow Republic will rule all under an iron thumb!
+
+We have nearly completed:
+
+[ULI][RESEARCH]Planetary Administration[/RESEARCH][/ULI]
+[ULI][RESEARCH]Diplomatic Focus[/RESEARCH][/ULI]
+[ULI][RESEARCH]Espionage Focus[/RESEARCH][/ULI]
+
+Our capital will the center of our new power, and our [RESOURCE]Shadow Parliament[/RESOURCE] will facilitate the real machinations of power!
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Shadow Parliament</ImageFilepath>
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Shadow Parliament -->
+				<Id1>1016</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planetary Administration -->
+				<Id1>425</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Diplomatic Focus -->
+				<Id1>667</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Diplomacy</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Espionage Focus -->
+				<Id1>1087</Id1>
+				<Value1>0.5</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Diplomacy</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
 		<Name>Initialize Government (Archivist)</Name>
 		<GroupName />
 		<Title />
@@ -3341,7 +3771,6 @@ Our first army awaits your command at our homeworld...
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -3359,9 +3788,10 @@ Our first army awaits your command at our homeworld...
 [ULI][RESEARCH]Exploration Scanners[/RESEARCH][/ULI]
 [ULI][RESEARCH]Planetary Exploration[/RESEARCH][/ULI]
 
-Knowledge is Power. Long have our lore masters gathered and hoarded the information of our world and its people. A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons!
-				</Description>
-				<ImageFilepath />
+Knowledge is Power. We have amassed the sum total of our current knowledge in our newly completed [RESOURCE]Boundless Archives[/RESOURCE] at our capitol.
+
+A whole galaxy awaits us to be meticulously analyzed, cataloged, and archived for the eons!</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Boundless Archives</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
@@ -3369,6 +3799,34 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Boundless Archives -->
+				<Id1>1018</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
 				<ResearchCategory>Undefined</ResearchCategory>
@@ -3392,6 +3850,7 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Standard Sensors -->
 				<Id1>403</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -3418,6 +3877,7 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Long Range Sensors -->
 				<Id1>433</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -3444,6 +3904,7 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Exploration Scanners -->
 				<Id1>405</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -3470,6 +3931,7 @@ Knowledge is Power. Long have our lore masters gathered and hoarded the informat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planetary Exploration -->
 				<Id1>406</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>

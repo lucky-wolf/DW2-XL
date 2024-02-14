@@ -2,6 +2,19 @@
 <ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Race>
 		<RaceId>15</RaceId>
+		<Name>Quameno</Name>
+		<Description>Quamenos are a highly intelligent amphibious race. Quamenos are tall and graceful, with long limbs and neck. Their large eyes are set on the side of their heads, giving them excellent peripheral vision with a range of nearly 360 degrees.
+
+Quamenos are very peaceful and prefer to keep to themselves. They typically choose to live in isolation from other races, staying out of the mainstream of galactic activity.
+
+They enjoy difficult mental challenges such as solving puzzles or deciphering unknown inscriptions. This natural inclination also makes them gifted linguists - they can master a new language within a few days.
+
+They also love to experiment with exotic scientific principles, and in the process they often produce potent technology. In fact their natural fascination with unusual energy theories has led them to develop the NovaCore, a very powerful and efficient reactor.
+
+Quamenos take a tremendous interest in galactic history. They also seek out peculiar prehistoric artifacts. Their studies have led many Quameno scholars to claim that there are large gaps in our understanding of past events.
+
+Quameno communities typically live in semi-submerged, high-tech biodomes within Mangrove Swamps and similar biomes.</Description>
+		<ImageFilename>UserInterface/Races/Quameno</ImageFilename>
 		<BundleName>Quameno</BundleName>
 		<FlagFilename>UserInterface/Flags/Quameno_1</FlagFilename>
 		<AlternateFlagFilenames>
@@ -10,6 +23,30 @@
 			<string>UserInterface/Flags/Quameno_4</string>
 			<string>UserInterface/Flags/Quameno_5</string>
 			<string>UserInterface/Flags/Quameno_6</string>
+			<string>UserInterface/Flags/Quameno_101</string>
+			<string>UserInterface/Flags/Quameno_102</string>
+			<string>UserInterface/Flags/Quameno_103</string>
+			<string>UserInterface/Flags/Quameno_104</string>
+			<string>UserInterface/Flags/Quameno_105</string>
+			<string>UserInterface/Flags/Quameno_106</string>
+			<string>UserInterface/Flags/Quameno_107</string>
+			<string>UserInterface/Flags/Quameno_108</string>
+			<string>UserInterface/Flags/Quameno_109</string>
+			<string>UserInterface/Flags/Quameno_110</string>
+			<string>UserInterface/Flags/Quameno_111</string>
+			<string>UserInterface/Flags/Quameno_112</string>
+			<string>UserInterface/Flags/Quameno_113</string>
+			<string>UserInterface/Flags/Quameno_114</string>
+			<string>UserInterface/Flags/Quameno_115</string>
+			<string>UserInterface/Flags/Quameno_116</string>
+			<string>UserInterface/Flags/Quameno_117</string>
+			<string>UserInterface/Flags/Quameno_118</string>
+			<string>UserInterface/Flags/Quameno_119</string>
+			<string>UserInterface/Flags/Quameno_120</string>
+			<string>UserInterface/Flags/Quameno_121</string>
+			<string>UserInterface/Flags/Quameno_122</string>
+			<string>UserInterface/Flags/Quameno_123</string>
+			<string>UserInterface/Flags/Quameno_124</string>
 		</AlternateFlagFilenames>
 		<MainColor>
 			<R>0</R>
@@ -53,7 +90,6 @@
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-
 		<TreatyLevelModifier>10</TreatyLevelModifier>
 		<TreatySignedColonyEventDefinitionId>58</TreatySignedColonyEventDefinitionId>
 		<OngoingPopulationAssimilationColonyEventDefinitionId>59</OngoingPopulationAssimilationColonyEventDefinitionId>
@@ -70,7 +106,6 @@
 		<ResearchProjectCompletedAdvancedGameEventName>Implement A Puzzle Solved (Quameno)</ResearchProjectCompletedAdvancedGameEventName>
 		<ResearchProjectCompletedAdvancedMinimumTechLevel>5</ResearchProjectCompletedAdvancedMinimumTechLevel>
 		<ResearchProjectCompletedAdvancedMaximumChance>1</ResearchProjectCompletedAdvancedMaximumChance>
-
 		<ShipRoleBuiltRoles>
 			<ShipRole>ResearchStation</ShipRole>
 		</ShipRoleBuiltRoles>
@@ -83,16 +118,13 @@
 		<StartingCharacterTraitsAmbassador>
 			<CharacterTraitType>Linguist</CharacterTraitType>
 		</StartingCharacterTraitsAmbassador>
-
 		<MaximumConcurrentResearchProjects>1</MaximumConcurrentResearchProjects>
-
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>PuzzleSolver</CharacterTraitType>
 			<CharacterTraitType>Introverted</CharacterTraitType>
 			<CharacterTraitType>Driven</CharacterTraitType>
 			<CharacterTraitType>EfficiencySpecialist</CharacterTraitType>
 		</AdditionalCharacterTraits>
-
 		<FeatureExplanations>
 			<string>[HL]Alien Distractions:[/HL] +1 Happiness and -20% All Research for 2 years when sign a treaty with another faction</string>
 			<string>[HL]Integration Studies:[/HL] reduced Happiness and Research output whenever you have unassimilated alien populations at your colonies. The reduction amount relates to the proportion of unassimilated population in your empire</string>
@@ -107,7 +139,6 @@
 			<string>[HL]Ambassador Starting Trait:[/HL] All ambassadors start with Linguist trait (+5% Diplomacy, +5% Tourism Income)</string>
 			<string>[HL]Concurrent Research disabled:[/HL] can only research a single project at a time</string>
 		</FeatureExplanations>
-
 		<VictoryConditions>
 			<VictoryCondition>
 				<Type>BuildFacility</Type>
@@ -132,7 +163,6 @@
 				<Id>88</Id>
 			</VictoryCondition>
 		</VictoryConditions>
-
 		<Bonuses>
 			<Bonus>
 				<Type>ResearchAncientKnowledge</Type>
@@ -448,7 +478,6 @@
 			<string>Judasian</string>
 			<string>Cwasten</string>
 		</DesignNames>
-
 		<CharacterFirstNames>
 			<string>Equia</string>
 			<string>Senaris</string>
@@ -497,18 +526,5 @@
 		<StartingArtifactIds>
 			<int>0</int>
 		</StartingArtifactIds>
-		<Name>Quameno</Name>
-		<ImageFilename>UserInterface/Races/Quameno</ImageFilename>
-		<Description>Quamenos are a highly intelligent amphibious race. Quamenos are tall and graceful, with long limbs and neck. Their large eyes are set on the side of their heads, giving them excellent peripheral vision with a range of nearly 360 degrees.
-
-Quamenos are very peaceful and prefer to keep to themselves. They typically choose to live in isolation from other races, staying out of the mainstream of galactic activity.
-
-They enjoy difficult mental challenges such as solving puzzles or deciphering unknown inscriptions. This natural inclination also makes them gifted linguists - they can master a new language within a few days.
-
-They also love to experiment with exotic scientific principles, and in the process they often produce potent technology. In fact their natural fascination with unusual energy theories has led them to develop the NovaCore, a very powerful and efficient reactor.
-
-Quamenos take a tremendous interest in galactic history. They also seek out peculiar prehistoric artifacts. Their studies have led many Quameno scholars to claim that there are large gaps in our understanding of past events.
-
-Quameno communities typically live in semi-submerged, high-tech biodomes within Mangrove Swamps and similar biomes.</Description>
 	</Race>
 </ArrayOfRace>

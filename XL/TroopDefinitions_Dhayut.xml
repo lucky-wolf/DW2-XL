@@ -2,45 +2,47 @@
 <ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<TroopDefinition>
 		<TroopDefinitionId>56</TroopDefinitionId>
+		<Name>Octomech Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>Armored</Type>
-		<Size>10000</Size>
+		<Size>9000</Size>
 		<RecruitmentCost>
-			<Money>3750</Money>
+			<Money>5000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>500</MaintenanceCost>
 		<AttackStrength>315</AttackStrength>
-		<DefendStrength>126</DefendStrength>
+		<DefendStrength>157</DefendStrength>
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octomech Brigade</Name>
-		<ImageFilename>Extras/TroopSymbols/Armor</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>57</TroopDefinitionId>
+		<Name>Orbital Web Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>PlanetaryDefense</Type>
-		<Size>8000</Size>
+		<Size>9000</Size>
 		<RecruitmentCost>
-			<Money>3000</Money>
+			<Money>5000</Money>
 		</RecruitmentCost>
-		<MaintenanceCost>400</MaintenanceCost>
-		<AttackStrength>100</AttackStrength>
-		<DefendStrength>151</DefendStrength>
+		<MaintenanceCost>500</MaintenanceCost>
+		<AttackStrength>157</AttackStrength>
+		<DefendStrength>315</DefendStrength>
 		<EvasionInfantry>0.1</EvasionInfantry>
 		<EvasionArmor>0.1</EvasionArmor>
 		<InterceptWeaponComponentId>324</InterceptWeaponComponentId>
-		<Name>Orbital Web Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Planetary_defence</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>58</TroopDefinitionId>
+		<Name>Ambush Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>SpecialForces</Type>
 		<Size>5000</Size>
 		<RecruitmentCost>
-			<Money>5000</Money>
+			<Money>3000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>300</MaintenanceCost>
 		<AttackStrength>252</AttackStrength>
@@ -49,25 +51,23 @@
 		<EvasionInfantry>0.25</EvasionInfantry>
 		<EvasionArmor>0.35</EvasionArmor>
 		<EvasionPlanetaryDefense>0.35</EvasionPlanetaryDefense>
-		<Name>Ambush Group</Name>
-		<ImageFilename>Extras/TroopSymbols/Special_forces</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>59</TroopDefinitionId>
+		<Name>Octotitan Group</Name>
+		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 		<RaceId>10</RaceId>
 		<Type>Titan</Type>
-		<Size>20000</Size>
+		<Size>12000</Size>
 		<RecruitmentCost>
-			<Money>10000</Money>
+			<Money>20000</Money>
 		</RecruitmentCost>
 		<MaintenanceCost>2000</MaintenanceCost>
 		<AttackStrength>630</AttackStrength>
-		<DefendStrength>567</DefendStrength>
+		<DefendStrength>420</DefendStrength>
 		<EvasionInfantry>0.5</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
 		<EvasionSpecialForces>0.4</EvasionSpecialForces>
-		<Name>Octo-Titan</Name>
-		<ImageFilename>Extras/TroopSymbols/Titans</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>

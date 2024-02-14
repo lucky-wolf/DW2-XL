@@ -2,6 +2,17 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1005</PlanetaryFacilityDefinitionId>
+		<Name>Troop Recruitment Facility</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/troop recruitment center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>250</MaintenanceCost>
+		<FacilityFamilyId>62</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -24,20 +35,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>100</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>62</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>2</short>
@@ -63,11 +65,20 @@
 			<short>54</short>
 			<short>55</short>
 		</TroopIdsRecruitable>
-		<Name>Troop Recruitment Facility</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/troop recruitment center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>35</PlanetaryFacilityDefinitionId>
+		<Name>Combined Military HQ</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Command Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>45</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
@@ -137,26 +148,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>2000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>45</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Combined Military HQ</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Command Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>41</PlanetaryFacilityDefinitionId>
+		<Name>Military Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Military Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>48</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
@@ -201,25 +211,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>48</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Military Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Military Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>46</PlanetaryFacilityDefinitionId>
+		<Name>Galactic Command Network</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Command Network</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>150000</Money>
+		</BuildCost>
+		<MaintenanceCost>7500</MaintenanceCost>
+		<FacilityFamilyId>50</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<!-- <Bonus>
 				<Type>TroopExperienceGain</Type>
@@ -289,25 +299,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>150000</Money>
-		</BuildCost>
-		<MaintenanceCost>3000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>50</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Galactic Command Network</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Command Network</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>61</PlanetaryFacilityDefinitionId>
+		<Name>Armor Assembly Plant</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Armor Barracks</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>33</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -325,19 +335,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>33</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>3</short>
@@ -352,11 +354,20 @@
 			<short>60</short>
 			<short>64</short>
 		</TroopIdsRecruitable>
-		<Name>Mech Foundries</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Armor Barracks</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>62</PlanetaryFacilityDefinitionId>
+		<Name>Battlebot Foundries</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Robotic Troop Foundry</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>34</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -374,29 +385,29 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>34</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>0</short>
 		</TroopIdsRecruitable>
-		<Name>Battlebot Foundries</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Robotic Troop Foundry</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>63</PlanetaryFacilityDefinitionId>
+		<Name>Troop Cloning Facility</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Troop Cloning Facility</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>35</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -419,26 +430,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>true</AllowTroopInfantryCloning>
-		<FacilityFamilyId>35</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Troop Cloning Facility</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Troop Cloning Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>64</PlanetaryFacilityDefinitionId>
+		<Name>Special Operations Training Facilities</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Special Operations Barracks</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>36</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -461,19 +471,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>20000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>36</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>5</short>
@@ -488,11 +490,20 @@
 			<short>62</short>
 			<short>66</short>
 		</TroopIdsRecruitable>
-		<Name>Special Operations Training Facilities</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Special Operations Barracks</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>65</PlanetaryFacilityDefinitionId>
+		<Name>Advanced Battlebot Foundries</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Robotic Troop Foundry</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>34</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -510,30 +521,30 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>34</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>0</short>
 			<short>1</short>
 		</TroopIdsRecruitable>
-		<Name>Advanced Battlebot Foundries</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Robotic Troop Foundry</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>66</PlanetaryFacilityDefinitionId>
+		<Name>Chimera Cloning Facility</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Troop Cloning Facility</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>35</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -546,26 +557,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>35</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Chimera Cloning Facility</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Troop Cloning Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>67</PlanetaryFacilityDefinitionId>
+		<Name>Titan Manufacturing Center</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Titan Manufacturing Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>37</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -578,19 +588,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>37</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>6</short>
@@ -605,11 +607,20 @@
 			<short>63</short>
 			<short>67</short>
 		</TroopIdsRecruitable>
-		<Name>Titan Manufacturing Center</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Titan Manufacturing Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>68</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Defense HQ</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Bastion</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>20000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<FacilityFamilyId>38</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -632,20 +643,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>20000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>38</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>4</short>
@@ -660,11 +662,20 @@
 			<short>61</short>
 			<short>65</short>
 		</TroopIdsRecruitable>
-		<Name>Planetary Defense HQ</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Bastion</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>69</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Bastion</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Bastion</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>38</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -692,20 +703,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>2000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>38</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<TroopIdsRecruitable>
 			<short>4</short>
@@ -720,11 +722,19 @@
 			<short>61</short>
 			<short>65</short>
 		</TroopIdsRecruitable>
-		<Name>Planetary Bastion</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Bastion</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>70</PlanetaryFacilityDefinitionId>
+		<Name>Merkidor Planetary Fortress</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Merkidor Planetary Fortress</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>40</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -747,21 +757,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>500000</Money>
-		</BuildCost>
-		<MaintenanceCost>50000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>40</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Merkidor Planetary Fortress</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Merkidor Planetary Fortress</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

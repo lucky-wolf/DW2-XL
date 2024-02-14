@@ -2,6 +2,17 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>37</PlanetaryFacilityDefinitionId>
+		<Name>Diplomatic Affairs Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>47</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
@@ -48,26 +59,26 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>47</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Diplomatic Affairs Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1002</PlanetaryFacilityDefinitionId>
+		<Name>Universal Peace Center</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>47</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>Diplomacy</Type>
@@ -114,22 +125,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>25000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>47</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Universal Peace Center</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

@@ -2,12 +2,14 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>557</ShipHullId>
+		<Name>Fighter I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>15</Size>
-		<MaximumSize>53</MaximumSize>
+		<MaximumSize>47</MaximumSize>
 		<DisplaySize>12</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
 		<CockpitImageFilename />
@@ -116,22 +118,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -143,11 +129,11 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>558</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -344,11 +330,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>559</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -467,7 +453,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -528,11 +514,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>560</ShipHullId>
+		<Name>Tactical Interceptor</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -729,11 +715,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Tactical Interceptor</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>561</ShipHullId>
+		<Name>Fighter III</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -946,11 +932,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter III</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>562</ShipHullId>
+		<Name>Advanced Interceptor</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -1151,17 +1137,17 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Advanced Interceptor</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>563</ShipHullId>
+		<Name>Fighter IV</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>24</Size>
-		<MaximumSize>90</MaximumSize>
+		<MaximumSize>97</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
 		<CockpitImageFilename />
@@ -1177,480 +1163,6 @@
 			<Bonus>
 				<Type>ShipManeuvering</Type>
 				<Amount>0.32</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
-		<ModelSize>
-			<X>0</X>
-			<Y>0</Y>
-			<Z>0</Z>
-		</ModelSize>
-		<ComponentBays>
-			<ComponentBay>
-				<ComponentBayId>0</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon0</MeshName>
-				<RotationHalfArcRange>1.963</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>1</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.963</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine1</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine2</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-		</ComponentBays>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>8</ResourceId>
-				<Amount>17</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>12</ResourceId>
-				<Amount>17</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId>
-				<Amount>34</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>78</ResourceId>
-				<Amount>34</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Name>Fighter IV</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
-	</ShipHull>
-	<ShipHull>
-		<ShipHullId>564</ShipHullId>
-		<RaceId>7</RaceId>
-		<Role>FighterInterceptor</Role>
-		<Level>13</Level>
-		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>25</Size>
-		<MaximumSize>91</MaximumSize>
-		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
-		<CockpitImageFilename />
-		<BaseCost>350</BaseCost>
-		<ArmorReactiveRating>10</ArmorReactiveRating>
-		<IonDefense>20</IonDefense>
-		<EngineLimit>3</EngineLimit>
-		<CountermeasuresBonus>0.5</CountermeasuresBonus>
-		<TargetingBonus>0.15</TargetingBonus>
-		<TurnRollRate>0.75</TurnRollRate>
-		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.4</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
-		<ModelSize>
-			<X>0</X>
-			<Y>0</Y>
-			<Z>0</Z>
-		</ModelSize>
-		<ComponentBays>
-			<ComponentBay>
-				<ComponentBayId>0</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon0</MeshName>
-				<RotationHalfArcRange>1.963</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>1</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.963</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine1</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine2</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0.75</X>
-					<Y>0.75</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>-0.05</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-		</ComponentBays>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>8</ResourceId>
-				<Amount>20</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>12</ResourceId>
-				<Amount>20</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId>
-				<Amount>40</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>78</ResourceId>
-				<Amount>40</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Name>Fighter V, Strike</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
-	</ShipHull>
-	<ShipHull>
-		<ShipHullId>565</ShipHullId>
-		<RaceId>7</RaceId>
-		<Role>FighterInterceptor</Role>
-		<Level>15</Level>
-		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>26</Size>
-		<MaximumSize>105</MaximumSize>
-		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
-		<CockpitImageFilename />
-		<BaseCost>400</BaseCost>
-		<ArmorReactiveRating>12</ArmorReactiveRating>
-		<IonDefense>24</IonDefense>
-		<EngineLimit>3</EngineLimit>
-		<CountermeasuresBonus>0.56</CountermeasuresBonus>
-		<TargetingBonus>0.18</TargetingBonus>
-		<TurnRollRate>0.75</TurnRollRate>
-		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.48</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -1859,8 +1371,546 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+		</ComponentBays>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId>
+				<Amount>17</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
+				<Amount>17</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId>
+				<Amount>34</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId>
+				<Amount>34</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+	</ShipHull>
+	<ShipHull>
+		<ShipHullId>564</ShipHullId>
+		<Name>Fighter V, Strike</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
+		<RaceId>7</RaceId>
+		<Role>FighterInterceptor</Role>
+		<Level>13</Level>
+		<DesignTemplateId>-1</DesignTemplateId>
+		<Size>25</Size>
+		<MaximumSize>104</MaximumSize>
+		<DisplaySize>19</DisplaySize>
+		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
+		<CockpitImageFilename />
+		<BaseCost>350</BaseCost>
+		<ArmorReactiveRating>10</ArmorReactiveRating>
+		<IonDefense>20</IonDefense>
+		<EngineLimit>3</EngineLimit>
+		<CountermeasuresBonus>0.5</CountermeasuresBonus>
+		<TargetingBonus>0.15</TargetingBonus>
+		<TurnRollRate>0.75</TurnRollRate>
+		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ModelSize>
+			<X>0</X>
+			<Y>0</Y>
+			<Z>0</Z>
+		</ModelSize>
+		<ComponentBays>
+			<ComponentBay>
+				<ComponentBayId>0</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon0</MeshName>
+				<RotationHalfArcRange>1.963</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>1.963</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>3</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>4</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>5</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>6</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>9</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+		</ComponentBays>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId>
+				<Amount>20</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
+				<Amount>20</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId>
+				<Amount>40</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId>
+				<Amount>40</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+	</ShipHull>
+	<ShipHull>
+		<ShipHullId>565</ShipHullId>
+		<Name>Fighter VI, Superiority</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
+		<RaceId>7</RaceId>
+		<Role>FighterInterceptor</Role>
+		<Level>15</Level>
+		<DesignTemplateId>-1</DesignTemplateId>
+		<Size>26</Size>
+		<MaximumSize>111</MaximumSize>
+		<DisplaySize>19</DisplaySize>
+		<ModelName>Ships/Zenox/Zenox_Drone_Fighter</ModelName>
+		<CockpitImageFilename />
+		<BaseCost>400</BaseCost>
+		<ArmorReactiveRating>12</ArmorReactiveRating>
+		<IonDefense>24</IonDefense>
+		<EngineLimit>3</EngineLimit>
+		<CountermeasuresBonus>0.56</CountermeasuresBonus>
+		<TargetingBonus>0.18</TargetingBonus>
+		<TurnRollRate>0.75</TurnRollRate>
+		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.48</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ModelSize>
+			<X>0</X>
+			<Y>0</Y>
+			<Z>0</Z>
+		</ModelSize>
+		<ComponentBays>
+			<ComponentBay>
+				<ComponentBayId>0</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon0</MeshName>
+				<RotationHalfArcRange>1.963</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>1.963</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>3</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>4</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-0.05</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>5</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>6</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>9</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>13</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -1894,17 +1944,17 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter VI, Superiority</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>566</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
-		<MaximumSize>61</MaximumSize>
+		<MaximumSize>55</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Bomber</ModelName>
 		<CockpitImageFilename />
@@ -2013,22 +2063,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -2040,11 +2074,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>567</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -2057,7 +2091,7 @@
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
-		<EngineLimit>1</EngineLimit>
+		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.09</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -2113,39 +2147,41 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>2</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>-0.05</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>3</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
+					<X>0.75</X>
+					<Y>0.75</Y>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>-0.05</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -2161,7 +2197,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -2191,6 +2227,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -2206,11 +2258,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>568</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -2423,24 +2475,24 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>569</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
-		<MaximumSize>98</MaximumSize>
+		<MaximumSize>104</MaximumSize>
 		<DisplaySize>20</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Bomber</ModelName>
 		<CockpitImageFilename />
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>16</IonDefense>
-		<EngineLimit>2</EngineLimit>
+		<EngineLimit>3</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.15</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -2676,17 +2728,17 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>570</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>27</Size>
-		<MaximumSize>106</MaximumSize>
+		<MaximumSize>112</MaximumSize>
 		<DisplaySize>22</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Bomber</ModelName>
 		<CockpitImageFilename />
@@ -2848,7 +2900,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -2910,6 +2962,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -2929,17 +2997,17 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>571</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>28</Size>
-		<MaximumSize>116</MaximumSize>
+		<MaximumSize>123</MaximumSize>
 		<DisplaySize>24</DisplaySize>
 		<ModelName>Ships/Zenox/Zenox_Drone_Bomber</ModelName>
 		<CockpitImageFilename />
@@ -3118,7 +3186,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -3196,6 +3264,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>14</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -3215,11 +3299,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Drone_Bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>572</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -3576,11 +3660,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>573</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -4071,11 +4155,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>574</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -5067,11 +5151,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>575</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -5463,11 +5547,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>576</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -5811,11 +5895,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>577</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -6090,11 +6174,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>578</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -6435,11 +6519,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>579</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -6905,11 +6989,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>580</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -7416,11 +7500,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>581</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -7798,11 +7882,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>582</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -8179,11 +8263,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>583</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -8611,11 +8695,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>584</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -8653,7 +8737,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>3.142</RotationHalfArcRange>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -8669,8 +8753,8 @@
 				<ComponentBayId>1</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
-				<MeshName>#weapon4</MeshName>
-				<RotationHalfArcRange>3.142</RotationHalfArcRange>
+				<MeshName>#weapon2</MeshName>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -9102,11 +9186,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>585</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -10102,11 +10186,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>586</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -10484,11 +10568,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>587</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -10850,11 +10934,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>588</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -11183,11 +11267,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>589</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -11590,11 +11674,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>590</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -12192,11 +12276,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Mining_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>591</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -12684,11 +12768,11 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Research_Station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>592</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -13153,11 +13237,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>593</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -13638,11 +13722,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>594</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -14172,11 +14256,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>595</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -14718,11 +14802,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>596</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -14760,7 +14844,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>3.142</RotationHalfArcRange>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -14794,7 +14878,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon3</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -15294,11 +15378,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>597</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -16428,11 +16512,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>598</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -16880,11 +16964,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>599</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -17318,11 +17402,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>600</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -17720,11 +17804,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>601</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Medium</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -18121,11 +18205,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Medium</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>602</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -18490,11 +18574,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>603</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -19085,11 +19169,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>604</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -19670,11 +19754,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>605</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -20248,11 +20332,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>606</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -21518,11 +21602,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>607</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -22523,11 +22607,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>608</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -22991,11 +23075,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>609</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -23549,11 +23633,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>610</ShipHullId>
+		<Name>Freighter, Super Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -23998,11 +24082,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Freighter_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>611</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -24449,11 +24533,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>612</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -24611,7 +24695,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
-				<RotationHalfArcRange>2.356</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -25160,11 +25244,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>613</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -25203,7 +25287,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>3.142</RotationHalfArcRange>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -25237,7 +25321,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon3</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -25785,11 +25869,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>614</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -27185,11 +27269,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Medium_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>615</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -28320,11 +28404,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Small_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>616</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -28854,11 +28938,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>617</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -29357,11 +29441,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>618</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -29858,11 +29942,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>619</ShipHullId>
+		<Name>Battleship</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -29978,7 +30062,7 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
+			<!-- <ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
@@ -29994,9 +30078,9 @@
 					<Y>0</Y>
 					<Z>0</Z>
 				</DisplayEffectOffset>
-			</ComponentBay>
+			</ComponentBay> -->
 			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
+				<ComponentBayId>4</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon6</MeshName>
@@ -30013,7 +30097,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
+				<ComponentBayId>5</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon7</MeshName>
@@ -30030,7 +30114,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
+				<ComponentBayId>6</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
@@ -30047,7 +30131,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
+				<ComponentBayId>7</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon9</MeshName>
@@ -30064,7 +30148,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
+				<ComponentBayId>8</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon11</MeshName>
@@ -30081,7 +30165,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
+				<ComponentBayId>9</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon12</MeshName>
@@ -30098,7 +30182,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>11</ComponentBayId>
+				<ComponentBayId>10</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon13</MeshName>
@@ -30115,7 +30199,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>12</ComponentBayId>
+				<ComponentBayId>11</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon14</MeshName>
@@ -30132,7 +30216,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>13</ComponentBayId>
+				<ComponentBayId>12</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon15</MeshName>
@@ -30149,7 +30233,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>14</ComponentBayId>
+				<ComponentBayId>13</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine0</MeshName>
@@ -30166,7 +30250,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>15</ComponentBayId>
+				<ComponentBayId>14</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine1</MeshName>
@@ -30183,7 +30267,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>16</ComponentBayId>
+				<ComponentBayId>15</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine2</MeshName>
@@ -30200,7 +30284,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>17</ComponentBayId>
+				<ComponentBayId>16</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine3</MeshName>
@@ -30217,7 +30301,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>18</ComponentBayId>
+				<ComponentBayId>17</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine4</MeshName>
@@ -30234,7 +30318,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>19</ComponentBayId>
+				<ComponentBayId>18</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine5</MeshName>
@@ -30251,7 +30335,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>20</ComponentBayId>
+				<ComponentBayId>19</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine6</MeshName>
@@ -30268,7 +30352,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>21</ComponentBayId>
+				<ComponentBayId>20</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>25</MaximumComponentSize>
 				<MeshName>#hangar0</MeshName>
@@ -30285,7 +30369,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>22</ComponentBayId>
+				<ComponentBayId>21</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>25</MaximumComponentSize>
 				<MeshName>#hangar1</MeshName>
@@ -30302,7 +30386,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>23</ComponentBayId>
+				<ComponentBayId>22</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
@@ -30319,10 +30403,26 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>24</ComponentBayId>
+				<ComponentBayId>23</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>24</ComponentBayId>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -30385,22 +30485,6 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>28</ComponentBayId>
-				<Type>Sensor</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>29</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense0</MeshName>
@@ -30417,7 +30501,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>30</ComponentBayId>
+				<ComponentBayId>29</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense1</MeshName>
@@ -30434,10 +30518,26 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>31</ComponentBayId>
+				<ComponentBayId>30</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>31</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -30580,7 +30680,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>40</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -30898,22 +30998,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>60</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -30933,11 +31017,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>620</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -30974,7 +31058,7 @@
 			<ComponentBay>
 				<ComponentBayId>0</ComponentBayId>
 				<Type>Weapon</Type>
-				<MaximumComponentSize>120</MaximumComponentSize>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon0</MeshName>
 				<RotationHalfArcRange>2.356</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -31893,11 +31977,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>621</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -32062,7 +32146,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
-				<RotationHalfArcRange>2.356</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -32697,11 +32781,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>622</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -33500,11 +33584,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>623</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -34313,11 +34397,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>624</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -34492,7 +34576,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
-				<RotationHalfArcRange>2.356</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -35127,11 +35211,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>625</ShipHullId>
+		<Name>Troop Transport, X-Large</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -35869,11 +35953,11 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>626</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -35989,7 +36073,7 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
+			<!-- <ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
@@ -36005,9 +36089,9 @@
 					<Y>0</Y>
 					<Z>0</Z>
 				</DisplayEffectOffset>
-			</ComponentBay>
+			</ComponentBay> -->
 			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
+				<ComponentBayId>4</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon6</MeshName>
@@ -36024,7 +36108,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
+				<ComponentBayId>5</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#weapon7</MeshName>
@@ -36041,7 +36125,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
+				<ComponentBayId>6</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
@@ -36058,7 +36142,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
+				<ComponentBayId>7</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon9</MeshName>
@@ -36075,7 +36159,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
+				<ComponentBayId>8</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon10</MeshName>
@@ -36092,7 +36176,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
+				<ComponentBayId>9</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon11</MeshName>
@@ -36109,7 +36193,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>11</ComponentBayId>
+				<ComponentBayId>10</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon12</MeshName>
@@ -36126,7 +36210,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>12</ComponentBayId>
+				<ComponentBayId>11</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon13</MeshName>
@@ -36143,7 +36227,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>13</ComponentBayId>
+				<ComponentBayId>12</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon14</MeshName>
@@ -36160,7 +36244,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>14</ComponentBayId>
+				<ComponentBayId>13</ComponentBayId>
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon15</MeshName>
@@ -36177,7 +36261,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>15</ComponentBayId>
+				<ComponentBayId>14</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine0</MeshName>
@@ -36194,7 +36278,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>16</ComponentBayId>
+				<ComponentBayId>15</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine1</MeshName>
@@ -36211,7 +36295,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>17</ComponentBayId>
+				<ComponentBayId>16</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine2</MeshName>
@@ -36228,7 +36312,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>18</ComponentBayId>
+				<ComponentBayId>17</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine3</MeshName>
@@ -36245,7 +36329,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>19</ComponentBayId>
+				<ComponentBayId>18</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine4</MeshName>
@@ -36262,7 +36346,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>20</ComponentBayId>
+				<ComponentBayId>19</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine5</MeshName>
@@ -36279,7 +36363,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>21</ComponentBayId>
+				<ComponentBayId>20</ComponentBayId>
 				<Type>Engine</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#engine6</MeshName>
@@ -36296,7 +36380,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>22</ComponentBayId>
+				<ComponentBayId>21</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>25</MaximumComponentSize>
 				<MeshName>#hangar0</MeshName>
@@ -36313,7 +36397,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>23</ComponentBayId>
+				<ComponentBayId>22</ComponentBayId>
 				<Type>Hangar</Type>
 				<MaximumComponentSize>25</MaximumComponentSize>
 				<MeshName>#hangar1</MeshName>
@@ -36330,7 +36414,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>24</ComponentBayId>
+				<ComponentBayId>23</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor0</MeshName>
@@ -36347,7 +36431,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>25</ComponentBayId>
+				<ComponentBayId>24</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor1</MeshName>
@@ -36364,10 +36448,26 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>26</ComponentBayId>
+				<ComponentBayId>25</ComponentBayId>
 				<Type>Sensor</Type>
 				<MaximumComponentSize>120</MaximumComponentSize>
 				<MeshName>#sensor2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>26</ComponentBayId>
+				<Type>Sensor</Type>
+				<MaximumComponentSize>19</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -36430,22 +36530,6 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>30</ComponentBayId>
-				<Type>Sensor</Type>
-				<MaximumComponentSize>19</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>31</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense0</MeshName>
@@ -36462,7 +36546,7 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>32</ComponentBayId>
+				<ComponentBayId>31</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense1</MeshName>
@@ -36479,10 +36563,26 @@
 				</DisplayEffectOffset>
 			</ComponentBay>
 			<ComponentBay>
-				<ComponentBayId>33</ComponentBayId>
+				<ComponentBayId>32</ComponentBayId>
 				<Type>Defense</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<MeshName>#defense2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>33</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
@@ -36641,7 +36741,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>43</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>General</Type>
 				<MaximumComponentSize>50</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -36991,22 +37091,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>65</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>50</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -37026,11 +37110,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>627</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -38067,11 +38151,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>628</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -38895,11 +38979,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>629</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -39756,11 +39840,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>630</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -40601,11 +40685,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>631</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -40787,7 +40871,7 @@
 				<Type>Weapon</Type>
 				<MaximumComponentSize>19</MaximumComponentSize>
 				<MeshName>#weapon8</MeshName>
-				<RotationHalfArcRange>2.356</RotationHalfArcRange>
+				<RotationHalfArcRange>3.142</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
@@ -41438,11 +41522,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>632</ShipHullId>
+		<Name>Troop Transport, Massive</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -42327,11 +42411,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>633</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -43863,11 +43947,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>634</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -44448,11 +44532,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>635</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -45720,11 +45804,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>636</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -46876,11 +46960,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>637</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -47845,11 +47929,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_TroopTransport_Large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>638</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -48446,11 +48530,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>639</ShipHullId>
+		<Name>Dreadnought</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -49718,11 +49802,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>640</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -50874,11 +50958,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>641</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -52478,11 +52562,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Large_Spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>767</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 		<RaceId>7</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -52971,7 +53055,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Zenox/Images/Zenox_Fuel</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

@@ -2,6 +2,16 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>40</PlanetaryFacilityDefinitionId>
+		<Name>Science Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Science Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>42</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceScientist</Type>
@@ -26,25 +36,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>42</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Science Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Science Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>50</PlanetaryFacilityDefinitionId>
+		<Name>High Tech Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/High Tech Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>22</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
@@ -64,25 +74,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>22</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>High Tech Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/High Tech Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>51</PlanetaryFacilityDefinitionId>
+		<Name>Weapons Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Weapons Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>23</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
@@ -102,25 +112,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>23</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Weapons Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Weapons Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>52</PlanetaryFacilityDefinitionId>
+		<Name>Energy Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Energy Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>24</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
@@ -145,25 +155,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>24</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Energy Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Energy Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>53</PlanetaryFacilityDefinitionId>
+		<Name>Industrial Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Industrial Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>25</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
@@ -183,25 +193,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>25</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Industrial Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Industrial Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>54</PlanetaryFacilityDefinitionId>
+		<Name>Construction Academy</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Construction Academy</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>26</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
@@ -221,25 +231,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>26</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Construction Academy</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Construction Academy</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>55</PlanetaryFacilityDefinitionId>
+		<Name>Ruslan Technology Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Ruslan Technology Installation</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>27</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchHighTech</Type>
@@ -259,25 +269,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>27</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Ruslan Technology Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Ruslan Technology Installation</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>56</PlanetaryFacilityDefinitionId>
+		<Name>Casidor Weapons Facility</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Casidor Weapons Facility</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>28</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchWeapons</Type>
@@ -297,25 +307,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>28</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Casidor Weapons Facility</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Casidor Weapons Facility</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>57</PlanetaryFacilityDefinitionId>
+		<Name>Vortigen Energy Complex</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Vortigen Energy Complex</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>29</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchReactor</Type>
@@ -340,25 +350,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>29</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Vortigen Energy Complex</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Vortigen Energy Complex</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>58</PlanetaryFacilityDefinitionId>
+		<Name>Danuta Industrial Center</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>30</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchIndustrial</Type>
@@ -378,25 +388,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>30</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Danuta Industrial Center</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Danuta Engineering Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>59</PlanetaryFacilityDefinitionId>
+		<Name>Forbard Construction Institute</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Forbard Construction Zone</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>31</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchConstruction</Type>
@@ -416,25 +426,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>31</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Forbard Construction Institute</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Forbard Construction Zone</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>60</PlanetaryFacilityDefinitionId>
+		<Name>Galactic Research &amp; Development Campus</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Science Center</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>32</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -459,25 +469,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>32</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Galactic Research &amp; Development Campus</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Science Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>73</PlanetaryFacilityDefinitionId>
+		<Name>Galactic Archives</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Archives</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>41</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -532,21 +542,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>41</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Galactic Archives</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Archives</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

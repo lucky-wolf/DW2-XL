@@ -13,6 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
+    - [v1.19.5](#v1195)
     - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
     - [v1.19.2](#v1192)
@@ -181,10 +182,10 @@ YMMV, but this is my take on making it Extra Large!
 ## Mod Highlights
 - Colonizable worlds are fewer, and races are more specialized to their preferred type of worlds
 - Terraforming technology has multiple levels giving you the ability, at a significant cost, to terraform even barely colonizable worlds to paradise... eventually
-- Almost all racial tech is viable throughout the game, and that which isn't, merges into the main line on its own so you don't need to re-do research in a different branch
+- Racial tech is viable to end game
 - Racial tech also unlocks things like defense facilities giving you all the goodies from your race's special tech line
 - Engine technology lines are more heavily specialized
-- Warp technology is now more strongly differentiated
+- Hyperdrive technology is now more strongly differentiated
   - Snap drives prioritize minimizing jump transition time
   - Sojourn drives prioritize range
   - Hyperstream drives prioritize flight-speed
@@ -198,8 +199,43 @@ YMMV, but this is my take on making it Extra Large!
 - Massively rebalanced Weapons, Shields, Armor, general component space use, component size alternates, ship hull sizes, Ion, Point Defenses, Fighters, Hangars, etc.
 - Substantially slowed down weapons fire which should help everyone's PC keep up with the game better
   - This seriously improves the look and flow of battles as well!  They look amazing now!
+- Completely overhauled point defense weapons (they're quite effective and look amazing)
+- Only PD weapons have an intercept (PD) firing mode / ability
+- Only medium and large weapons have bombardment values
+- Race assimilation is radically slower than in vanilla
 
 ## Latest Changes
+
+### v1.19.5
+- DW2 1.2.0.5 compatible and required
+- Did a deep dive through Game Events.xml and fixed all references to dead tech, and made a few improved choices for XL
+- Added some more fun touches to initial government events
+- Added Maxos Blaster [M] at T2
+- Strike Craft
+  - Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
+  - Increased fighter reactor output (was a bit low)
+  - Improved strike craft hull progression
+  - Added Quantum Capacitor [Ftr] components
+- Troops
+  - Rebalanced troop research to move it a bit earlier in the game
+  - Collapsed PDU research into a single linear path
+  - Improved non-infantry units for the smaller races (closer to par with larger species)
+  - Improved Armored units - stronger generally, size 9K (was typically 10K)
+  - PDUs are now the inverse of Armored - they just swap offense and defense (same size)
+  - Titans are 2x attack, 2+2/3 defense, 1+1/3x size of armored
+  - Costs are 2K Bots, 2.5K Inf, 3K SpecOpes, 5K Armored & PDU, 6K Synth, 20K Titans
+  - Maintenance is 10% of initial cost for all types
+- Further standardized building maintenance (1% for economic ones, 5% for everything else)
+- Exploration ships now have their own research line
+- Adjusted Ikkuro terraforming to increase in speed as well as capacity over the course of the game
+- Improved blaster visuals so that they're much more visible and vibrant in battles
+- Fixed missing visuals for Titan Blaster [L]
+- Fixed missing image for Quameno "Maze Pirates" quest line
+- Fixed missing image for Fusion Beam [Ftr]
+- Fixed swapped images for swarm fighter bay and auxiliary bay
+- Fixed several weapon nodes on Ackdarian ships
+- Fixed several weapon nodes on Zenox ships
+- Fixed Teekan ZimZip Fighter I engine slot was too small
 
 ### v1.19.4
 - Quick patch: Separated new images into new paths so they don't overwrite vanilla images (new games only)
@@ -248,7 +284,7 @@ YMMV, but this is my take on making it Extra Large!
   - 300 Special Operations
   - 400 Planetary Defense Units
   - 450 Synthetic Units
-  - 500 Mechs
+  - 500 Armored
   - 2000 Titans
 - Adjusted energy use of hail cannons
 - Adjusted end game planetary facilities to cost much more
@@ -700,7 +736,7 @@ YMMV, but this is my take on making it Extra Large!
 - Normalized tech cost of level 3 and 4 government facilities (undid the hack for DW2's previous bug)
 
 ### v1.16.5
-- Tweaked the Planetary Admin facilities to have increasing construction and maintainance costs
+- Tweaked the Planetary Admin facilities to have increasing construction and maintenance costs
 - Reduced tech cost of level 3 and 4 government facilities to same as level 2, to try to make the AIs not totally fail
 
 ### v1.16.4
@@ -713,7 +749,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed couple of issues with Ancient Guardian Vault techs
 - Moved XL components into the 500 range to avoid collisions
 - Separated "Derelict Reactor" so that they'll have plenty of power and won't be confused with plasmatic caslon reactors in XL
-- Added defense improvement factors to Mech improvement techs
+- Added defense improvement factors to Armored improvement techs
 - Added all around improvement factors to Robotic Troop improvement techs
 - Reduced chance of Caslon to approx 6% of all gas giants outside of story based systems
 - Fixed Planetary Pulsed Defenses (had dead component reference)
@@ -882,7 +918,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.14.4
 - Galactic Mining Center now boosts mining and income, but reduces happiness and has negative health effects
 - Synthetic Troop Facilities are separate from Robotic Troop Facilities (both can be built on the same world)
-  - Synthetic Troops have been made stronger but with increased maintainance costs
+  - Synthetic Troops have been made stronger but with increased maintenance costs
 - Planetary Weapons Facilities have 2x Guns each (was 1)
 - Planetary Ion Cannons now do 100 and 200 ion damage for v1 and v2, respectively
 - Adjusted all initial racial techs and their game events to announce what you have started your game with

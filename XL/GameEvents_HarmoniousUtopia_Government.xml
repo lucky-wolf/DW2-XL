@@ -10,14 +10,10 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
-			<short>5</short>
-		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -62,14 +58,10 @@
 		<TriggerType>Undefined</TriggerType>
 		<TriggerBuildBaseRole>Undefined</TriggerBuildBaseRole>
 		<TriggerEmpireRelationType>Undefined</TriggerEmpireRelationType>
-		<TriggerRaceIds>
-			<short>5</short>
-		</TriggerRaceIds>
 		<TriggerPriority>0</TriggerPriority>
 		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 		<Conditions />
 		<PlacementAtGameStart>false</PlacementAtGameStart>
-		<PlacementRaceId>5</PlacementRaceId>
 		<PlacementActions />
 		<PlacementActionEventHostIndex>0</PlacementActionEventHostIndex>
 		<OrbEncounterDiscoveryLevel>0</OrbEncounterDiscoveryLevel>
@@ -85,8 +77,9 @@
 [ULI][RESEARCH]Starship Recreation Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Starship Medical Systems[/RESEARCH][/ULI]
 
-Under your guidance, we will forge a new utopia for all!</Description>
-				<ImageFilepath />
+Under your guidance, we will forge a new utopia for all!
+				</Description>
+				<ImageFilepath>XLAssets/PlanetaryFacilities/Ikkuro Terraformer</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>

@@ -26,28 +26,9 @@ func TorpedoWeapons(folder string) (err error) {
 	return
 }
 
-// standard weapon countermeasure schedule (by tech level)
-func ComponentCountermeasuresBonus(level int) float64 {
-	return 0.6 + float64(level)*0.02
-}
-
-// t0 ... t10
-// 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550
-// todo: drive this off of WeaponFireType or Family
-func TorpedoSeekingSpeed(level int) float64 { return 300 + 25*float64(level) }
-
 func (j *Job) applyTorpedoWeapons() (err error) {
 
-	// // this is 50% slower (2/3 of) blasters
-	// WeaponRateOfFire := func(level int) float64 { return 13.5 }
-
-	// // standard damage is based on pulsed blasters-ish, but at about 2/3 the ROF, so 2/3 the DPS
-	// WeaponRawDamage := func(level int) float64 {
-	// 	// this gives us 20 at (t0) and a gain of 20% per level beyond that
-	// 	return 20 * (1 + 0.2*float64(level-1))
-	// }
-
-	// // note: torpedo weapons never have any bombard value (lighting in atmosphere is not a real issue)
+	// // note: medium+ torpedo weapons do have bombard values
 	// EpsilonTorpedo := ValuesTable{
 	// 	"ComponentCountermeasuresBonus":     ComponentCountermeasuresBonus,
 	// 	"ComponentTargetingBonus":           func(level int) float64 { return 0 },

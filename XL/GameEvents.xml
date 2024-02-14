@@ -935,7 +935,8 @@ The traditions of our ancestors, who came here in the age before, live strong wi
 We know that they were the greatest of warriors who stood against all and were never vanquished, even by the great ancient horror that consumed the stars.
 We have kept the old ways and the ancient pact to rebuild and regain the greatness of the champions of old.
 The ancient tales speak of powerful enemies, battles greater than any we have seen and incredible dangers.  The honor and glory that awaits us is beyond reckoning!
-We will use the star drive our ancestors left for us and send forth the Brave, the Mortalen, to reclaim the stars!</Description>
+We will use the star drive our ancestors left for us and send forth the Brave, the Mortalen, to reclaim the stars!
+				</Description>
 				<ImageFilepath>UserInterface/Races/Mortalen</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1050,7 +1051,7 @@ We will use the star drive our ancestors left for us and send forth the Brave, t
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Armor Plating -->
 				<Id1>266</Id1>
-				<Value1>0.5</Value1>
+				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -1066,7 +1067,7 @@ We will use the star drive our ancestors left for us and send forth the Brave, t
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -1205,7 +1206,7 @@ We will use the star drive our ancestors left for us and send forth the Brave, t
 
 We survive, yes, but we consume, we multiply, and so now we are many.  With each cycle, there is less to consume. We find ourselves constrained, and this is not our nature.
 
-We were never meant to be limited to one world, to one sun. It is right and good to devour, to multiply, to dominate. The time has come to use the remnants of the forgotten technology uncovered in ancient ruins. We will build star ships again and bring our young to new worlds. They will feed upon what we find, and they will grow strong. We will dominate all that we encounter.
+We were never meant to be limited to one world, to one sun. It is right and good to devour, to multiply, to dominate. The time has come to use the remnants of the forgotten technology uncovered in ancient ruins. We will build starships again and bring our young to new worlds. They will feed upon what we find, and they will grow strong. We will dominate all that we encounter.
 
 If any dare threaten the Boskara, they will be crushed. If they defy us, the will be consumed. We will multiply until all is Boskara.</Description>
 				<ImageFilepath>UserInterface/Races/Boskara</ImageFilepath>
@@ -1609,7 +1610,7 @@ We are a mere shadow of our glorious ancestors. We have lost so much of what mad
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Mining Station Constructed</MessageTitle>
-				<Description>The construction of our first mining station allows us to gather large quantities of valuable resources for use in powering the economy of our home world and building more star ships.
+				<Description>The construction of our first mining station allows us to gather large quantities of valuable resources for use in powering the economy of our home world and building more starships.
 
 Our freighters will soon begin travelling to this new mining station, returning it's resources to our home world. These resources may even be sold to others in the galaxy, further boosting our fledgling empire.
 
@@ -1711,7 +1712,7 @@ Stationing suitable scientists at {0} will improve our research even more.</Desc
 				<MessageTitle>Star Ship Constructed</MessageTitle>
 				<Description>We have constructed our first star ship, the {0}! This event marks the beginning of our return to the stars.
 
-We must continue to expand and explore our solar system. Build more ships to establish a thriving solar empire.</Description>
+We must continue to expand and explore our solar system. Build more starships to establish a thriving solar empire.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1760,7 +1761,7 @@ We must continue to expand and explore our solar system. Build more ships to est
 				<MessageTitle>Military Ship Constructed</MessageTitle>
 				<Description>We have constructed our first military ship, the {0}! We are now able to defend ourselves against threats.
 
-Build more military ships to protect our empire throughout our star system.</Description>
+Build more military starships to protect our empire throughout our star system.</Description>
 				<ImageFilepath>Environment/Events/militaryship</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1807,9 +1808,9 @@ Build more military ships to protect our empire throughout our star system.</Des
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Spaceport Constructed</MessageTitle>
-				<Description>We have constructed a spaceport. This large orbital base serves as a ship yard, allowing us to build many different types of star ships.
+				<Description>We have constructed a spaceport. This large orbital base serves as a ship yard, allowing us to build many different types of starships.
 
-Our new spaceport also provides a hub for trade and commerce. Freighters will deliver cargo here and ships can refuel here.
+Our new spaceport also provides a hub for trade and commerce. Freighters will deliver cargo here and starships can refuel here.
 
 As our technology progresses we should upgrade our spaceport with other capabilities: shields and weapons for defense, research labs, sensors and more.</Description>
 				<ImageFilepath />
@@ -1860,7 +1861,7 @@ As our technology progresses we should upgrade our spaceport with other capabili
 				<MessageTitle>Colonization Technology Discovered</MessageTitle>
 				<Description>With the development of {5}, we have acquired the technology necessary to colonize new worlds!
 
-We should identify hospitable planets that are good candidates for new colonies. Then begin building colossal Colony Ships to send out to these new worlds.
+We should identify hospitable planets that are good candidates for new colonies. Then begin building colossal Colony Starships to send out to these new worlds.
 
 At this point we have truly become a space-faring civilization. As we move out into the galaxy, we will continue to grow and gain the upper hand over pirates and mercenaries.
 
@@ -1911,11 +1912,11 @@ Now has come the age of expansion where we must compete against other empires fo
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Hyperspace Technology Discovered</MessageTitle>
-				<Description>Using the ancient knowledge recovered in our earlier exploration, we have developed our first primitive hyperdrive. This breakthrough technology allows our star ships to travel faster-than-light!
+				<Description>Using the ancient knowledge recovered in our earlier exploration, we have developed our first primitive hyperdrive. This breakthrough technology allows our starships to travel faster-than-light!
 
 This momentous discovery means that we can quickly traverse our own solar system, exploring and expanding. Further advances should let us even travel to faraway stars, truly exploring the galaxy!
 
-We should quickly exploit this new capability by redesigning and building new ships with these hyperdrives.</Description>
+We should quickly exploit this new capability by redesigning and building new starships with these hyperdrives.</Description>
 				<ImageFilepath>Environment/Components/138-Skip Drive</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -1962,7 +1963,7 @@ We should quickly exploit this new capability by redesigning and building new sh
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Gravillex Encountered</MessageTitle>
-				<Description>We have encountered a Gravillex space monster in the {1} system! This fearsome beast lives in the cold dark vacuum of space and attacks any passing ships.
+				<Description>We have encountered a Gravillex space monster in the {1} system! This fearsome beast lives in the cold dark vacuum of space and attacks any passing starships.
 
 This Gravillex bears an uncanny resemblance to monsters described in ancient legends that descended from the sky to consume all in their path.
 
@@ -2070,7 +2071,7 @@ It may be wise to keep our distance from these deep space creatures until we hav
 
 Vordikars seem to be large silicon-based organisms that can survive in the airless vacuum of space!
 
-They appear to feed on the metallic minerals found in asteroids, but we suspect that they are equally happy to eat any passing space ships that they are able to catch.
+They appear to feed on the metallic minerals found in asteroids, but we suspect that they are equally happy to eat any passing space starships that they are able to catch.
 
 It would be wise to look out for any Vordikars lurking in asteroid fields...</Description>
 				<ImageFilepath>Environment/Events/vordikar</ImageFilepath>
@@ -2221,7 +2222,7 @@ These pirates look well-armed and are more technologically advanced than we are.
 				<MessageTitle>Lone Trader</MessageTitle>
 				<Description>We have encountered a lone star ship, the {0} in the {1} system. It does not appear to be a hostile pirate, but rather an independent space trader.
 
-Could there be other ships like this? Might they help transport needed resources for us?</Description>
+Could there be other starships like this? Might they help transport needed resources for us?</Description>
 				<ImageFilepath>Environment/Events/independents</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>GeneratedItemFromFirstAction</ActionLocationHint>
@@ -2268,7 +2269,7 @@ Could there be other ships like this? Might they help transport needed resources
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Hyperjump!</MessageTitle>
-				<Description>One of our ships, the {0}, has engaged its hyperdrive, allowing our empire to travel faster-than-light for the very first time!
+				<Description>One of our starships, the {0}, has engaged its hyperdrive, allowing our empire to travel faster-than-light for the very first time!
 
 Distances that previously took months to traverse can now be covered nearly instantly! Next stop: the stars.
 
@@ -3534,7 +3535,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of starships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the starships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3819,7 +3820,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Junk Yard Encountered</MessageTitle>
-				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of ships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the ships or debris...</Description>
+				<Description>We have discovered a junk yard in our home system. The yard has a large base protecting it.\n\nA collection of starships lie scattered around the base, in various states of disrepair. In addition other junk and debris float nearby, some of which looks valuable.\n\nThe base looks to be inhabited and active, preventing us from repairing and salvaging the starships or debris...</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -5173,7 +5174,7 @@ Many of our people say that now is the time for us to return to the stars. With 
 				<MessageTitle />
 				<Description>A highly unusual location inside a spectacular gravitic storm.
 
-The entire system is engulfed in dangerous gravity tears that can inflict heavy damage on ships without sufficient protection.
+The entire system is engulfed in dangerous gravity tears that can inflict heavy damage on starships without sufficient protection.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -5213,7 +5214,7 @@ This appears to be the original entry point for the ancient Shakturi when they a
 				<MessageTitle>High Intensity Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-The epicenter of the intense gravitic effects appears to be {0} in the {1} system. The entire {1} system is engulfed in dangerous gravity tears that can inflict heavy damage on ships without sufficient protection.
+The epicenter of the intense gravitic effects appears to be {0} in the {1} system. The entire {1} system is engulfed in dangerous gravity tears that can inflict heavy damage on starships without sufficient protection.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -5246,7 +5247,7 @@ Could this be the original entry point for the ancient Shakturi when they arrive
 				<MessageTitle>High Intensity Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-The epicenter of the intense gravitic effects appears to be {0} in the {1} system. The entire {1} system is engulfed in dangerous gravity tears that can inflict heavy damage on ships without sufficient protection.
+The epicenter of the intense gravitic effects appears to be {0} in the {1} system. The entire {1} system is engulfed in dangerous gravity tears that can inflict heavy damage on starships without sufficient protection.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -5428,7 +5429,7 @@ Could this be the original entry point for the ancient Shakturi when they arrive
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -5464,7 +5465,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -5693,7 +5694,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -5729,7 +5730,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -5958,7 +5959,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -5994,7 +5995,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -6223,7 +6224,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -6259,7 +6260,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -6488,7 +6489,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -6524,7 +6525,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -6753,7 +6754,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -6789,7 +6790,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -7018,7 +7019,7 @@ What causes these fissures? Further research might reveal more information. {0} 
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -7054,7 +7055,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -7283,7 +7284,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -7319,7 +7320,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -7548,7 +7549,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -7584,7 +7585,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -7813,7 +7814,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -7849,7 +7850,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -8078,7 +8079,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -8114,7 +8115,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -8343,7 +8344,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This location has strange localized gravitic fissures.
 
-These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly at the location. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 Further research here might reveal more information about what causes these fissures. There are large research bonuses here, so we should build a research station to unlock the mysteries behind this location.</Description>
 				<ImageFilepath />
@@ -8379,7 +8380,7 @@ Further research here might reveal more information about what causes these fiss
 				<MessageTitle>Strange Gravitic Fissures Encountered</MessageTitle>
 				<Description>We have discovered strange localized gravitic fissures at {0} in the {1} system.
 
-These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+These gravitic energy fissures appear randomly around {0}. They slowly decay over time, but the entire area persists with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 What causes these fissures? Further research might reveal more information. {0} has large research bonuses, so we should build a research station here to unlock the mysteries behind this location.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -8609,7 +8610,7 @@ Who made them? How? and Why?...</Description>
 				<MessageTitle />
 				<Description>This is a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -8679,7 +8680,7 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Powerful Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
+Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -8806,11 +8807,11 @@ Who made them? How? and Why?...</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a debris field of heavily damaged ancient ships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
+				<Description>We have encountered a debris field of heavily damaged ancient starships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
 
-Were the ships damaged by the gravitic storm? Or did they meet their fate from some other source?
+Were the starships damaged by the gravitic storm? Or did they meet their fate from some other source?
 
-Although the ships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
+Although the starships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
 
 Maybe we can then unlock the mystery of their demise.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -9040,7 +9041,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 				<MessageTitle />
 				<Description>This is a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -9110,7 +9111,7 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Powerful Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
+Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -9237,11 +9238,11 @@ Who made them? How? and Why?...</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a debris field of heavily damaged ancient ships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
+				<Description>We have encountered a debris field of heavily damaged ancient starships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
 
-Were the ships damaged by the gravitic storm? Or did they meet their fate from some other source?
+Were the starships damaged by the gravitic storm? Or did they meet their fate from some other source?
 
-Although the ships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
+Although the starships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
 
 Maybe we can then unlock the mystery of their demise.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -9471,7 +9472,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 				<MessageTitle />
 				<Description>This is a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -9541,7 +9542,7 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Powerful Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
+Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -9668,11 +9669,11 @@ Who made them? How? and Why?...</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a debris field of heavily damaged ancient ships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
+				<Description>We have encountered a debris field of heavily damaged ancient starships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
 
-Were the ships damaged by the gravitic storm? Or did they meet their fate from some other source?
+Were the starships damaged by the gravitic storm? Or did they meet their fate from some other source?
 
-Although the ships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
+Although the starships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
 
 Maybe we can then unlock the mystery of their demise.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -9902,7 +9903,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 				<MessageTitle />
 				<Description>This is a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses.
+Huge gravitic energy fissures appear randomly throughout the system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -9972,7 +9973,7 @@ Further research at this location might reveal more information about what cause
 				<MessageTitle>Powerful Gravitic Storm Encountered</MessageTitle>
 				<Description>We have discovered a highly unusual location inside a spectacular gravitic storm.
 
-Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on ships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
+Huge gravitic energy fissures appear randomly throughout the {1} system. They slowly decay over time, but the entire area pulses with these dangerous ruptures. The energy from them appears to be leaking through from another dimension. They can inflict heavy damage on starships without adequate armor and ion defenses. The epicenter of the intense gravitic effects appears to be {0}.
 
 In addition there are swarms of dangerous Gravillex nearby - they seem drawn to the extra-dimensional gravitic energy.
 
@@ -10099,11 +10100,11 @@ Who made them? How? and Why?...</Description>
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Ancient Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a debris field of heavily damaged ancient ships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
+				<Description>We have encountered a debris field of heavily damaged ancient starships in the {1} system. The debris field is located inside a huge gravitic nebula storm.
 
-Were the ships damaged by the gravitic storm? Or did they meet their fate from some other source?
+Were the starships damaged by the gravitic storm? Or did they meet their fate from some other source?
 
-Although the ships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
+Although the starships are nearly destroyed, we could probably repair them if we sent a construction ship with sufficient armor and ion defense to protect it from the gravitic storm.
 
 Maybe we can then unlock the mystery of their demise.</Description>
 				<ImageFilepath>PLACEHOLDER IMAGE</ImageFilepath>
@@ -10358,7 +10359,7 @@ We have added a location ping for the coordinates to the galactic map.</Descript
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Contact Lost with Ship</MessageTitle>
-				<Description>We have lost contact with one of our ships in the {1} system.
+				<Description>We have lost contact with one of our starships in the {1} system.
 
 Just prior to losing contact they sent a message saying that they had discovered a very alien looking base and were about to investigate it. Then there was a garbled transmission with the words "must obey" repeated over and over.
 
@@ -10466,7 +10467,7 @@ We should investigate this strange occurrence, but caution seems wise when appro
 
 It is unlike any other plague we have seen before. The infected seem to be dazed and focus their efforts on spreading the plague to other victims.
 
-We strongly suspect that this plague is somehow connected to the recent disappearance of one of our ships as they investigated an abandoned alien base.
+We strongly suspect that this plague is somehow connected to the recent disappearance of one of our starships as they investigated an abandoned alien base.
 
 A research project has been enabled on our tech tree (Mysterious Plague). We should research more about this plague. Maybe we can find a cure.</Description>
 				<ImageFilepath />
@@ -10500,6 +10501,7 @@ A research project has been enabled on our tech tree (Mysterious Plague). We sho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Mysterious Plague -->
 				<Id1>778</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -11053,7 +11055,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete starships, only smaller debris - the starships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11184,7 +11186,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete starships, only smaller debris - the starships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -11315,7 +11317,7 @@ The final entry is a panicked description of a colossal wall of energy approachi
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Unknown Debris Field Encountered</MessageTitle>
-				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete ships, only smaller debris - the ships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
+				<Description>We have encountered a vast field of ship debris in the {1} system.\n\nThe debris appears very alien - some items are covered in strange glyphs that do not correspond to any known language, past or present.\n\nThe field contains no complete starships, only smaller debris - the starships must have been completely shattered to pieces by something, leaving no intact hulls at all.</Description>
 				<ImageFilepath />
 				<MusicFilepath>music/extra/discovery.mp3</MusicFilepath>
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12134,7 +12136,7 @@ A note has also been appended to this message, apparently by the Zenox diplomati
 
 One message appears to be an intercepted secret Mortalen report about the outcome of a disastrous battle. The message reads as follows:
 
-"The news about our massive losses in the battle at Dorashta has spread far and wide. The cost was catastrophic: we lost 4 complete attack fleets, over 70 ships in total.
+"The news about our massive losses in the battle at Dorashta has spread far and wide. The cost was catastrophic: we lost 4 complete attack fleets, over 70 starships in total.
 
 However it seems that the true objective of our attack has remained secret. Despite the great cost we have managed to capture our target! This prize should allow us to unlock the secrets we seek.
 
@@ -12586,7 +12588,7 @@ The last part of the message is a brief video clip of the base commander telling
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Legend of the Ghost Fleet</MessageTitle>
-				<Description>Two ages ago, before the Age of Shadows, there was no separation between space clans and dirt clans.  \n\nWe were one people, united against a terrible ancient enemy, The Shak-tur, that killed our people, destroyed our ships and our worlds and tore space itself apart.  This was a battle to the finish and defeating this enemy cost us most of our people, ships and worlds.\n\nBy the end of the war, the worlds were full of disease and wracked with natural disasters.  Only the toughest survived and those that went back dirtstide were usually lost.\n\nWe learned to survive in space.  We were part of a clan called the 8th Fleet back then and the only one that made it through the end.\n\nOur last orders were to protect this system, to keep it safe and hidden from the enemy, to do whatever it took to survive until the final victory when the worlds and the star clans would reunite and return to prosperity and cooperation.\n\nAfter two generations passed, some decided to go back dirtside and help those still alive there, but eventually they stopped communicating too.  We who remained started calling ourselves the Ghost Fleet because the ghosts of our ancestors fought with us.  We fought against the terrors of the void that appeared at the end of the last age, keeping them out of our system and away from our  resources.  We fought against and with some of the other star clans that survived.\n\nIt turned out some of the enemy survived too and we fought a long war against the "Hive" for many generations, losing many ships and much of the clan, but also meeting and sometimes trading with and fighting alongside other star clans, other fleets.\n\nEventually, we drove the last of the enemy away and then some of the clans turned on each other and we've been fighting them mostly for the last three generations or so.\n\nThere aren't as many clans as there used to be and it's been a while we've been watching and seeing the dirtsiders grow in number, guessing the plagues and disasters were over and someday we'd meet again.\n\nThe galaxy's a dangerous place and there's no telling what out there beyond this system, but working together we'll have a better chance at survival.</Description>
+				<Description>Two ages ago, before the Age of Shadows, there was no separation between space clans and dirt clans.  \n\nWe were one people, united against a terrible ancient enemy, The Shak-tur, that killed our people, destroyed our starships and our worlds and tore space itself apart.  This was a battle to the finish and defeating this enemy cost us most of our people, starships and worlds.\n\nBy the end of the war, the worlds were full of disease and wracked with natural disasters.  Only the toughest survived and those that went back dirtstide were usually lost.\n\nWe learned to survive in space.  We were part of a clan called the 8th Fleet back then and the only one that made it through the end.\n\nOur last orders were to protect this system, to keep it safe and hidden from the enemy, to do whatever it took to survive until the final victory when the worlds and the star clans would reunite and return to prosperity and cooperation.\n\nAfter two generations passed, some decided to go back dirtside and help those still alive there, but eventually they stopped communicating too.  We who remained started calling ourselves the Ghost Fleet because the ghosts of our ancestors fought with us.  We fought against the terrors of the void that appeared at the end of the last age, keeping them out of our system and away from our  resources.  We fought against and with some of the other star clans that survived.\n\nIt turned out some of the enemy survived too and we fought a long war against the "Hive" for many generations, losing many starships and much of the clan, but also meeting and sometimes trading with and fighting alongside other star clans, other fleets.\n\nEventually, we drove the last of the enemy away and then some of the clans turned on each other and we've been fighting them mostly for the last three generations or so.\n\nThere aren't as many clans as there used to be and it's been a while we've been watching and seeing the dirtsiders grow in number, guessing the plagues and disasters were over and someday we'd meet again.\n\nThe galaxy's a dangerous place and there's no telling what out there beyond this system, but working together we'll have a better chance at survival.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -12618,6 +12620,7 @@ The last part of the message is a brief video clip of the base commander telling
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Reactors -->
 				<Id1>259</Id1>
 				<Value1>0.75</Value1>
 				<Value2>0</Value2>
@@ -13266,6 +13269,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -13884,8 +13888,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Interceptors -->
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.75</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -14063,7 +14067,7 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Advanced Turret Automation -->
 				<Id1>101</Id1>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -14088,8 +14092,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Interceptors -->
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -14161,7 +14165,8 @@ Which path will you choose - pay to attempt a stabilitization of the buried hull
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Prime Research Station</ActionLocationItemName>
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>378</Id1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -16174,7 +16179,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16183,9 +16188,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Advanced Interceptors -->
-				<Id1>378</Id1>
-				<Value1>0</Value1>
+				<!-- Improved Fighters -->
+				<Id1>352</Id1>
+				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16201,7 +16206,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16210,8 +16215,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>512</Id1>
-				<Value1>0</Value1>
+				<!-- Improved Bombers -->
+				<Id1>354</Id1>
+				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16227,7 +16233,7 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16236,8 +16242,9 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>547</Id1>
-				<Value1>0</Value1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -16253,7 +16260,34 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
-				<Type>ResearchProjectEnable</Type>
+				<Type>ResearchProgress</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
+				<Value1>0.75</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
 				<ImageFilepath />
@@ -16264,11 +16298,11 @@ We have also found the ruins of a pre-Cataclysm spaceport. We were able to gain 
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Parallel Construction -->
 				<Id1>380</Id1>
-				<Value1>0</Value1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>Construction</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -16988,7 +17022,7 @@ We know that our gravitic device has never been tested at full capacity, but we 
 
 One message appears to have originally been part of the log of a ship captain named Karys Marteri. It reads as follows:
 
-"The energy wave has caused much destruction. The few ships we have come in contact with since the catastrophe have been badly damaged. One other ship had been in deep hyperspace, like us, thus apparently protected from some of the destructive effects.
+"The energy wave has caused much destruction. The few starships we have come in contact with since the catastrophe have been badly damaged. One other ship had been in deep hyperspace, like us, thus apparently protected from some of the destructive effects.
 
 While our ship, Apollo's Arrow, has made it to the {1} system, our hyperdrive has now failed. She'll never jump again.
 
@@ -17123,9 +17157,9 @@ This planet's spaceport has been destroyed and the planet itself has suffered hu
 
 One message appears to be a report after a huge disaster, and reads as follows:
 
-"We have had little success contacting other survivors. Of the five ships we have sent out, only the Solaria has returned through the hyperspace storms. They were however able to bring the last survivors from our research station in the Podenthia system.
+"We have had little success contacting other survivors. Of the five starships we have sent out, only the Solaria has returned through the hyperspace storms. They were however able to bring the last survivors from our research station in the Podenthia system.
 
-While we hope there are other ships and survivors beyond this system, we dare not risk our last ship to search for them. There have also been rumours of strange space creatures that have appeared since the cataclysm. If these rumours are true, this would further endanger search efforts."</Description>
+While we hope there are other starships and survivors beyond this system, we dare not risk our last ship to search for them. There have also been rumours of strange space creatures that have appeared since the cataclysm. If these rumours are true, this would further endanger search efforts."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -17231,7 +17265,7 @@ One message appears to be between a pirate faction and a colony of Ackdarians so
 
 "The quality of Osalia you have traded has been satisfactory, but the amount must be increased.
 
-We've heard rumours that you plan to arm some of your ships. Do not think that we are too 'distracted' by the Hive to deal with this. Let us remind you that this is unacceptable and any moves towards independence will be met with force."</Description>
+We've heard rumours that you plan to arm some of your starships. Do not think that we are too 'distracted' by the Hive to deal with this. Let us remind you that this is unacceptable and any moves towards independence will be met with force."</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -18024,6 +18058,7 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Improved Space Ports -->
 				<Id1>675</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -18199,8 +18234,6 @@ We have gained:</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Stellar Hangar Bays -->
-				<Id1>1165</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -18455,6 +18488,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18481,6 +18515,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18507,6 +18542,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18533,6 +18569,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18931,6 +18968,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18957,6 +18995,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -18983,6 +19022,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -19009,6 +19049,7 @@ We have also recovered information about the ancient Ackdarians hyperdrive techn
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -20389,7 +20430,7 @@ We have lost 5k for destroyed equipment, but have received a mining tech boost.<
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Ruined Shipyard</MessageTitle>
-				<Description>We have discovered a ruined shipyard facility on the surface of {0}. It was almost certainly dedicated to building military ships, and seems to have remained active until it crashed to the surface. It is by no means entirely destroyed, however, and it stands as a testament to the skillful engineering skills of the ancient Ackdarians.
+				<Description>We have discovered a ruined shipyard facility on the surface of {0}. It was almost certainly dedicated to building military starships, and seems to have remained active until it crashed to the surface. It is by no means entirely destroyed, however, and it stands as a testament to the skillful engineering skills of the ancient Ackdarians.
 
 Should we attempt to restore its systems, which would cost 50k, or salvage the shipyard?</Description>
 				<ImageFilepath />
@@ -20701,8 +20742,9 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>682</Id1>
-				<Value1>0.25</Value1>
+				<!-- Carriers -->
+				<Id1>309</Id1>
+				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -20745,7 +20787,7 @@ We've also received a tech boost in light cruiser construction.</Description>
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Ruined Shipyard</MessageTitle>
-				<Description>We have discovered a ruined shipyard facility on the surface of {0}. It was almost certainly dedicated to building military ships, and seems to have remained active until it crashed to the surface.
+				<Description>We have discovered a ruined shipyard facility on the surface of {0}. It was almost certainly dedicated to building military starships, and seems to have remained active until it crashed to the surface.
 
 Should we attempt to restore its systems, which would cost 50k, or salvage the shipyard?</Description>
 				<ImageFilepath />
@@ -21055,7 +21097,8 @@ We've also received a tech boost in light cruiser construction.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>682</Id1>
+				<!-- Carriers -->
+				<Id1>309</Id1>
 				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21461,6 +21504,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21487,6 +21531,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21513,6 +21558,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21539,6 +21585,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21565,6 +21612,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Sluken Language and Expressions -->
 				<Id1>760</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21624,7 +21672,7 @@ In addition, we have uncovered the location of an ancient Ackdarian colony. Visi
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>First Ancient Colony (Ackdarian)</GeneratedItemName>
+				<GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -21690,6 +21738,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Ackdarian Language and Expressions -->
 				<Id1>692</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21716,6 +21765,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21742,6 +21792,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Zenox Language and Expressions -->
 				<Id1>716</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21768,6 +21819,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Kiadian Language and Expressions -->
 				<Id1>740</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21794,6 +21846,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Sluken Language and Expressions -->
 				<Id1>760</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -21844,7 +21897,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Ackdarian Shipyard World Ruins</ActionLocationItemName>
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
+		        <ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21853,7 +21906,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>First Ancient Colony (Ackdarian)</GeneratedItemName>
+		        <GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -21868,8 +21921,8 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName>Kaimana</ActionLocationItemName>
-				<ActionLocationItemType>Orb</ActionLocationItemType>
+		        <ActionLocationItemName>Ancient Ackdarian Research Center Ruins</ActionLocationItemName>
+		        <ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -21878,7 +21931,7 @@ We have also uncovered the location of two ancient Ackdarian colonies. Visiting 
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName>Second Ancient Colony (Ackdarian)</GeneratedItemName>
+		        <GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -22281,13 +22334,11 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved stellar hangars -->
-				<Id1>1166</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>FighterBay</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -22308,7 +22359,7 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved fighters -->
+				<!-- Improved Fighters -->
 				<Id1>352</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -22335,7 +22386,7 @@ We've discovered two technologies and a damaged shipyard, as well as the navigat
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved bombers -->
+				<!-- Improved Bombers -->
 				<Id1>354</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -22539,13 +22590,11 @@ We've discovered a technology and a damaged shipyard, as well as the navigationa
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- improved stellar hangars -->
-				<Id1>1166</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>FighterBay</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -23086,7 +23135,7 @@ We've discovered a technology and a damaged shipyard, as well as the navigationa
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
-				<GeneratedItemName />
+		        <GeneratedItemName>Ancient Ackdarian Research Center Ruins</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -23297,8 +23346,8 @@ While surveying, the explorers have unexplainably turned on each other and destr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Fighters -->
-				<Id1>352</Id1>
+				<!-- Advanced Fighters -->
+				<Id1>305</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -23324,8 +23373,8 @@ While surveying, the explorers have unexplainably turned on each other and destr
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Bombers -->
-				<Id1>354</Id1>
+				<!-- Advanced Bombers -->
+				<Id1>306</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -24616,7 +24665,7 @@ And yet we have survived. We have ventured into the galaxy, sharing our perspect
 				<MessageTitle>Our Ancient Homeworld</MessageTitle>
 				<Description>This massive, beautiful spaceport is unlike anything we have been able to construct, and superior to anything we have encountered in our travels. This is surely the pinnacle of spaceport design, and something that only Ackdarian engineers could create.
 
-Studying it will enable us to construct marvelous stations of our own, and within it we have learned the secrets of building ships we have never before imagined.</Description>
+Studying it will enable us to construct marvelous stations of our own, and within it we have learned the secrets of building starships we have never before imagined.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -25814,6 +25863,7 @@ We have been unable to salvage any data or logs, but we have learned these alien
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName>Ancient Boskaran Warrens</ActionLocationItemName>
 				<ActionLocationItemType>PlanetaryFacility</ActionLocationItemType>
+				<!-- Xeno Studies: Boskara Language and Expressions -->
 				<Id1>712</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -26108,6 +26158,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26135,6 +26186,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26210,6 +26262,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26237,6 +26290,7 @@ By examining the remains of the station, we have been able to glean some secrets
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26279,7 +26333,7 @@ By examining the remains of the station, we have been able to glean some secrets
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Spaceport Captured</MessageTitle>
-				<Description>The logs on the captured base indicate it belonged to the ancient Mortalen Empire. The ships stationed here were charged with protecting the Mortalen core worlds from an enemy known as the Shaktur Axis.
+				<Description>The logs on the captured base indicate it belonged to the ancient Mortalen Empire. The starships stationed here were charged with protecting the Mortalen core worlds from an enemy known as the Shaktur Axis.
 
 The final logs indicate that the losses from a long battle had been severe among the Mortalen fleet and army. This base had been only lightly crewed, relying mostly on automation and a newly-developed artificial intelligence. This seems like a foolish decision, for machines are a poor substitute for a true Mortalen.
 
@@ -26317,6 +26371,7 @@ Among the data we have found some interesting information that will advance our 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26344,6 +26399,7 @@ Among the data we have found some interesting information that will advance our 
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -26437,7 +26493,7 @@ Among the data we have found some interesting information that will advance our 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Spaceport Captured</MessageTitle>
-				<Description>The logs on the captured base indicate it belonged to the ancient Mortalen Empire. The ships stationed here were charged with protecting the Mortalen core worlds from an enemy known as the Shaktur Axis.
+				<Description>The logs on the captured base indicate it belonged to the ancient Mortalen Empire. The starships stationed here were charged with protecting the Mortalen core worlds from an enemy known as the Shaktur Axis.
 
 The final logs indicate that the losses from a long battle had been severe among the Mortalen fleet and army. This base had been only lightly crewed, relying mostly on automation and a newly-developed artificial intelligence.
 </Description>
@@ -26474,6 +26530,7 @@ The final logs indicate that the losses from a long battle had been severe among
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Pulse Torpedo Weapons -->
 				<Id1>324</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -26501,6 +26558,7 @@ The final logs indicate that the losses from a long battle had been severe among
 				<ActionLocationCanBeAsteroid>false</ActionLocationCanBeAsteroid>
 				<ActionLocationItemName>Ancient Mortalen Spaceport</ActionLocationItemName>
 				<ActionLocationItemType>Ship</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27578,6 +27636,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27604,6 +27663,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -27630,6 +27690,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Genetics -->
 				<Id1>76</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -27709,6 +27770,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -27787,6 +27849,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28093,6 +28156,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -28119,6 +28183,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28145,6 +28210,7 @@ Within the facility we have also learned the location of the ancient Mortalen ho
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Genetics -->
 				<Id1>76</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28222,6 +28288,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -28274,6 +28341,7 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
 				<Id1>23</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28632,9 +28700,9 @@ Even more alarming, there are signs that the clones may have carried a virus, wh
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Investigation Results</MessageTitle>
-				<Description>Evidence obtained from the wreckage indicates that as the Shakturi war dragged on, our ancestors could not meet the demand for ship personnel or troops. So many had already died honorably in battle, and yet the war could not be abandoned. This location was dedicated to building almost entirely automated ships, despite our ancestors' disdain for robots, AI, and synthetics.
+				<Description>Evidence obtained from the wreckage indicates that as the Shakturi war dragged on, our ancestors could not meet the demand for ship personnel or troops. So many had already died honorably in battle, and yet the war could not be abandoned. This location was dedicated to building almost entirely automated starships, despite our ancestors' disdain for robots, AI, and synthetics.
 
-Clearly this experiment was not successful. We have encountered evidence that some of the debris in orbit derives from battles between Mortalen ships, perhaps indicating that the automated vessels malfunctioned and attacked a small Mortalen contingent. There is additional information that the ship in orbit bombarded the planet surface.
+Clearly this experiment was not successful. We have encountered evidence that some of the debris in orbit derives from battles between Mortalen starships, perhaps indicating that the automated vessels malfunctioned and attacked a small Mortalen contingent. There is additional information that the ship in orbit bombarded the planet surface.
 
 Data in some of the wreckage indicates the location of the Ancient Mortalen homeworld.</Description>
 				<ImageFilepath />
@@ -28668,6 +28736,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Battleships -->
 				<Id1>311</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28694,6 +28763,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Robotic Infantry -->
 				<Id1>22</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -28745,6 +28815,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -29111,9 +29182,9 @@ The ship initially appeared to be abandoned, but then it suddenly powered up and
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Investigation Results</MessageTitle>
-				<Description>Evidence obtained from the wreckage indicates that as the Shakturi war dragged on, the Mortalen Empire could not meet the demand for ship personnel or troops. This location was dedicated to building almost entirely automated ships, despite the Mortalen dislike of robots, AI, and synthetics.
+				<Description>Evidence obtained from the wreckage indicates that as the Shakturi war dragged on, the Mortalen Empire could not meet the demand for ship personnel or troops. This location was dedicated to building almost entirely automated starships, despite the Mortalen dislike of robots, AI, and synthetics.
 
-Clearly this experiment was not successful. We have encountered evidence that some of the debris in orbit derives from battles between Mortalen ships, perhaps indicating that the automated vessels malfunctioned and attacked the Mortalen themselves. There is additional information that ship in orbit bombarded the planet surface.
+Clearly this experiment was not successful. We have encountered evidence that some of the debris in orbit derives from battles between Mortalen starships, perhaps indicating that the automated vessels malfunctioned and attacked the Mortalen themselves. There is additional information that ship in orbit bombarded the planet surface.
 
 Data in some of the wreckage indicates the location of the Ancient Mortalen homeworld.</Description>
 				<ImageFilepath />
@@ -29147,6 +29218,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Battleships -->
 				<Id1>311</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -29173,6 +29245,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Robotic Infantry -->
 				<Id1>22</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
@@ -29224,6 +29297,7 @@ Data in some of the wreckage indicates the location of the Ancient Mortalen home
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Mortalen Language and Expressions -->
 				<Id1>704</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -32131,7 +32205,7 @@ a fascinating relic, the ancient artifact called the Spear of the First King. Th
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Slave World Conquered</MessageTitle>
-				<Description>An insignificant world, inhabited by weaklings, falls before the Boskara. These beings were nothing, but their history tells much about the mysterious era of the Boskara Supremacy. Foralis was conquered by a fleet of Boskara ships, and yet the records seem to suggest that this happened at the request of the Shakturi. Records say "orders," but sure that is a mistake. No power could have commanded the Boskara Supremacy. Even so, these Shakturi must have been powerful and impressive for the Boskara of the day to take suggestions from them. Another fascinating piece of history is revealed!</Description>
+				<Description>An insignificant world, inhabited by weaklings, falls before the Boskara. These beings were nothing, but their history tells much about the mysterious era of the Boskara Supremacy. Foralis was conquered by a fleet of Boskara starships, and yet the records seem to suggest that this happened at the request of the Shakturi. Records say "orders," but sure that is a mistake. No power could have commanded the Boskara Supremacy. Even so, these Shakturi must have been powerful and impressive for the Boskara of the day to take suggestions from them. Another fascinating piece of history is revealed!</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -33151,6 +33225,7 @@ Ancient logs reviewed. This base did indeed belong to the ancient Boskara Suprem
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Plasma Weapons -->
 				<Id1>488</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -33271,6 +33346,7 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Advanced Plasma Weapons -->
 				<Id1>488</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -33297,6 +33373,7 @@ The final logs end suddenly, with reports of massive seismic disturbances across
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Enhanced Flux Armor -->
 				<Id1>493</Id1>
 				<Value1>0.8</Value1>
 				<Value2>0</Value2>
@@ -34231,7 +34308,7 @@ And yet, in their records are disturbing revelations. There are tales of the Bos
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Pirate Communication</MessageTitle>
-				<Description>There is an incoming communication from the pirate fleet. "Identify yourselves. We are the Independent Space League. What is your business here? Your insectoid appearance alarms us, for we have nothing but hatred for the Hive, but we detect something organized and methodical about your ships and communication - not like the Hive at all. Perhaps you have some interest in the ruins on {0}. We've found remnants insects there, and like you, they were clearly intelligent and more organized than the Hive. Who knew there were so many bugs out there!"
+				<Description>There is an incoming communication from the pirate fleet. "Identify yourselves. We are the Independent Space League. What is your business here? Your insectoid appearance alarms us, for we have nothing but hatred for the Hive, but we detect something organized and methodical about your starships and communication - not like the Hive at all. Perhaps you have some interest in the ruins on {0}. We've found remnants insects there, and like you, they were clearly intelligent and more organized than the Hive. Who knew there were so many bugs out there!"
 
 Insectoid ruins on planet. Perhaps ancient Boskara. Perhaps Shakturi. Worth investigating. We must respond to pirate communication.
 
@@ -35466,12 +35543,13 @@ For our response we can attempt to decieve the sentries or we can attempt to hac
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Combined Military Command -->
 				<Id1>666</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
+				<ResearchCategory>Troops</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
@@ -38310,7 +38388,7 @@ Many answers, and yet troubling questions. Hive abominations spoke of the voices
 
 Boskara must be ready. The Boskara Supremacy was brought low. The new Boskara civilization must not allow itself to be destroyed.
 
-The artifacts we have found in the ruins may help.  It seems some of our scientists were attempting to create a safer version of their powerful hyperdrives.  The other seems to be a weapon they were working on, powerful enough to bring down even Shakturi ships.</Description>
+The artifacts we have found in the ruins may help.  It seems some of our scientists were attempting to create a safer version of their powerful hyperdrives.  The other seems to be a weapon they were working on, powerful enough to bring down even Shakturi starships.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -38693,7 +38771,7 @@ The artifacts we have found in the ruins may help.  It seems some of our scienti
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -40442,6 +40520,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Xeno Studies: Human Language and Expressions -->
 				<Id1>688</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
@@ -41273,7 +41352,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -41298,7 +41377,7 @@ The aliens have allowed our engineers to aid in repairing their ship. Such fools
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0.1</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -42587,7 +42666,7 @@ Among our people there have been riots, suicides, even hunger strikes. The quart
 				<MessageTitle>Military Results</MessageTitle>
 				<Description>Life is expensive, as the old saying goes, which is why the families of fallen soldiers must be compensated out of their commanders' pockets. This provides a strong incentive not to waste lives needlessly. Our troops have landed upon the surface.
 
-Now that the way is clear, we have gone through the fragmentary logs of the planetary bases. Once this was a thriving outpost of the Haakonish Star Guild, but the galaxy was thrown into chaos by the invasion of the Shakturi who - if we are reading these records correctly - invaded from outside the galaxy itself. Astonishing. Their ships traveled using an advanced wormhole-based technology that was both previously unknown. It use appears to have caused damage to the fabric of space itself, though the records on this are unclear. The Haakonish sought to counter the Shakturi with the development of a gravitic weapon. Recordings end suddenly, though there is mention of planet-wide seismic devastation.
+Now that the way is clear, we have gone through the fragmentary logs of the planetary bases. Once this was a thriving outpost of the Haakonish Star Guild, but the galaxy was thrown into chaos by the invasion of the Shakturi who - if we are reading these records correctly - invaded from outside the galaxy itself. Astonishing. Their starships traveled using an advanced wormhole-based technology that was both previously unknown. It use appears to have caused damage to the fabric of space itself, though the records on this are unclear. The Haakonish sought to counter the Shakturi with the development of a gravitic weapon. Recordings end suddenly, though there is mention of planet-wide seismic devastation.
 
 Standing against the Shakturi were an organization with the disturbing name "Freedom Alliance." This name suggests weakness, but they evidently proved to be worthy adversaries, though their cause was doomed. The Haakonish did what we always do and traded with both sides.
 
@@ -42819,7 +42898,7 @@ In the planetary bases we have discovered some interesting secrets of ancient Ha
 				<MessageTitle>Automated Base Destroyed</MessageTitle>
 				<Description>With the planetary defenses neutralized, our scientists have begun going through base logs. They are damaged and incomplete, but there is still a great deal to be learned.
 
-Once this was a thriving outpost of the Haakonish Star Guild, but the galaxy was thrown into chaos by the invasion of the Shakturi who - if we are reading these records correctly - invaded from outside the galaxy itself. Astonishing. Their ships traveled using an advanced wormhole technology that was both previously unknown and damaging to the fabric of space itself. Perhaps this explains some of the instability and anomalies we encounter in the galaxy today. The logs end with mention of planet-wide seismic devastation
+Once this was a thriving outpost of the Haakonish Star Guild, but the galaxy was thrown into chaos by the invasion of the Shakturi who - if we are reading these records correctly - invaded from outside the galaxy itself. Astonishing. Their starships traveled using an advanced wormhole technology that was both previously unknown and damaging to the fabric of space itself. Perhaps this explains some of the instability and anomalies we encounter in the galaxy today. The logs end with mention of planet-wide seismic devastation
 
 Standing against the Shakturi were an organization called the "Freedom Alliance." The name suggests weakness, but evidently, they proved worthy adversaries, though their cause was doomed. The Haakonish did what we always do and traded with both sides, even while seeking to counter the Shakturi with some sort of gravitic weapon.
 
@@ -44153,7 +44232,7 @@ The computer banks have revealed other valuable technological secrets to us, and
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Records Contents</MessageTitle>
-				<Description>We have examined recovered records on Alliance ships that accuse the Haakonish of treachery, all for the crime of wanting to protect our own wealth. No, the Haakonish did not behave dishonorably. Our people sold to customers, be they Freedom Alliance or Shakturi Axis. That much is clear. So little respect these Freedom Alliance had for those who would lie to save their own hides.
+				<Description>We have examined recovered records on Alliance starships that accuse the Haakonish of treachery, all for the crime of wanting to protect our own wealth. No, the Haakonish did not behave dishonorably. Our people sold to customers, be they Freedom Alliance or Shakturi Axis. That much is clear. So little respect these Freedom Alliance had for those who would lie to save their own hides.
 
 It seems the Haakonish were too clever for their enemies. The gravitic weapon they developed were deployed against the Shakturi, whose violence was incompatible with long-term profits. Something went wrong, however. Surviving data indicates that the Freedom Alliance had a weapon of their own. Perhaps its effects clashed with the effects of the Haakonish weapon. The Freedom Alliance were fools for not offering to sell their secrets to the Haakonish. The resulting chaos could have been avoided. The Haakonish world could have been saved, and the Haakonish Star Guild might have reigned supreme all these centuries.
 
@@ -44409,7 +44488,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>We've encountered a vast field of destruction. There are fragmentary remnants of ancient ships, an unfathomable number. The evidence seems to suggest they were from species of the Freedom Alliance. It is hard to imagine what could have destroyed a fleet so large.</Description>
+				<Description>We've encountered a vast field of destruction. There are fragmentary remnants of ancient starships, an unfathomable number. The evidence seems to suggest they were from species of the Freedom Alliance. It is hard to imagine what could have destroyed a fleet so large.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44457,7 +44536,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>There is so much destruction. So much waste. All of these Haakonish ships destroyed. This must be the remnants of our people's great fleet, but what could have happened to it? All evidence suggests that they should have been hidden and safe from this war. It seems we are mistaken. Or they were.</Description>
+				<Description>There is so much destruction. So much waste. All of these Haakonish starships destroyed. This must be the remnants of our people's great fleet, but what could have happened to it? All evidence suggests that they should have been hidden and safe from this war. It seems we are mistaken. Or they were.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44505,7 +44584,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>This field of destroyed ships was once a fleet of an almost unimaginable number. Some here we recognize as Boskara, but there are parts of others of a kind we have not encountered before, but our scientists speculate that these must be Shakturi vessels. They terrorized the entire galaxy, and yet they were crushed. It seems that even the Shakturi were capable of overextending themselves.</Description>
+				<Description>This field of destroyed starships was once a fleet of an almost unimaginable number. Some here we recognize as Boskara, but there are parts of others of a kind we have not encountered before, but our scientists speculate that these must be Shakturi vessels. They terrorized the entire galaxy, and yet they were crushed. It seems that even the Shakturi were capable of overextending themselves.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44553,7 +44632,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>We've encountered a vast field of destruction. There are fragmentary remnants of ancient ships, an unfathomable number. The evidence seems to suggest they were from species of the Freedom Alliance, fighting in the ancient war against the Shakturi. It is hard to imagine what could have destroyed a fleet so large.</Description>
+				<Description>We've encountered a vast field of destruction. There are fragmentary remnants of ancient starships, an unfathomable number. The evidence seems to suggest they were from species of the Freedom Alliance, fighting in the ancient war against the Shakturi. It is hard to imagine what could have destroyed a fleet so large.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44601,7 +44680,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>So much debris, destruction. The fragments here are mainly of Haakonish ships. Perhaps this is their ancient homeworld we approach.</Description>
+				<Description>So much debris, destruction. The fragments here are mainly of Haakonish starships. Perhaps this is their ancient homeworld we approach.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44649,7 +44728,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Debris Field</MessageTitle>
-				<Description>A field of destroyed ships of an almost unimaginable number. Some here we recognize as Boskara, others of a kind we have not encountered before, but our scientists speculate that these must be Shakturi vessels. They terrorized the entire galaxy, and yet they were crushed. It seems that even the Shakturi were capable of overextending themselves</Description>
+				<Description>A field of destroyed starships of an almost unimaginable number. Some here we recognize as Boskara, others of a kind we have not encountered before, but our scientists speculate that these must be Shakturi vessels. They terrorized the entire galaxy, and yet they were crushed. It seems that even the Shakturi were capable of overextending themselves</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -44803,7 +44882,7 @@ Now because of the mistakes of small-minded aliens, we have been forced to build
 			<GameEventAction>
 				<Type>TriggerEvent</Type>
 				<MessageTitle>Buried Treasure</MessageTitle>
-				<Description>We are not the first to visit this world or to take advantage of its valuable resources! We have discovered mining camps, and there are artificial tunnels that plunge deep beneath the surface. We have also discovered broken-down mining equipment, and fragments of what are surely spacecraft. It is impossible to believe that anyone from our world could have had the means to visit this place long ago. No, this must be a remnant of our forebears, the ancient travelers who settled our home planet in the distant past. The stories tell of how in the Wander Time they fled a great cataclysm in their World Ships. It is not difficult to imagine they chose to exploit these resources on their way to settling our homeworld. Though the remaining fragments of written language are unfamiliar to us, there is no doubt that it is the product of a Teekan intelligence.
+				<Description>We are not the first to visit this world or to take advantage of its valuable resources! We have discovered mining camps, and there are artificial tunnels that plunge deep beneath the surface. We have also discovered broken-down mining equipment, and fragments of what are surely spacecraft. It is impossible to believe that anyone from our world could have had the means to visit this place long ago. No, this must be a remnant of our forebears, the ancient travelers who settled our home planet in the distant past. The stories tell of how in the Wander Time they fled a great cataclysm in their World Starships. It is not difficult to imagine they chose to exploit these resources on their way to settling our homeworld. Though the remaining fragments of written language are unfamiliar to us, there is no doubt that it is the product of a Teekan intelligence.
 
 It is possible to examine the fragmentary ship remains, or perhaps we might put this ancient mining equipment to use. Owing to the poor condition of these artifacts, our engineers say we lack the time and resources to conserve both before they deteriorate further.</Description>
 				<ImageFilepath />
@@ -44819,8 +44898,8 @@ It is possible to examine the fragmentary ship remains, or perhaps we might put 
 				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText>Invest 10,000cr in researching ships</ChoiceButtonText>
-				<GeneratedItemName>Research Ships Choice (Teekan)</GeneratedItemName>
+				<ChoiceButtonText>Invest 10,000cr in researching starships</ChoiceButtonText>
+				<GeneratedItemName>Research Starships Choice (Teekan)</GeneratedItemName>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
@@ -44855,7 +44934,7 @@ It is possible to examine the fragmentary ship remains, or perhaps we might put 
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
-		<Name>Research Ships Choice (Teekan)</Name>
+		<Name>Research Starships Choice (Teekan)</Name>
 		<GroupName />
 		<Title />
 		<Description />
@@ -44875,7 +44954,7 @@ It is possible to examine the fragmentary ship remains, or perhaps we might put 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Research Results</MessageTitle>
-				<Description>Our engineers have diligently collected various ancient ship fragments found scattered across this world. It's clear that they are from a variety of ship types, including exploration, transport, and military vessels. Many of these are of alien origin, but clearly repurposed by and for Teekans. While it has not been possible to rebuild any of the ships, which are far too damaged, we have learned a fair amount about their propulsion systems, which we can apply to our own research.</Description>
+				<Description>Our engineers have diligently collected various ancient ship fragments found scattered across this world. It's clear that they are from a variety of ship types, including exploration, transport, and military vessels. Many of these are of alien origin, but clearly repurposed by and for Teekans. While it has not been possible to rebuild any of the starships, which are far too damaged, we have learned a fair amount about their propulsion systems, which we can apply to our own research.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -45433,6 +45512,7 @@ It will be a difficult choice.</Description>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id2>2</Id2>
+				<!-- XL defines this as 50M pop -->
 				<Value1>50E+06</Value1>
 				<Value2>0.25</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -48709,7 +48789,8 @@ The databanks also reveal two more locations. They are unlikely to be the Great 
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<Id1>2</Id1>
-				<Value1>5</Value1>
+				<!-- this defines their starting tech level -->
+				<Value1>3</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -50031,7 +50112,7 @@ Much of this information is of no use to the pirates, of course, but by neglecti
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>An Ancient Spaceport</MessageTitle>
-				<Description>The station was once dedicated to the construction of ships, no doubt in the service of providing the means for our people to flee the terrible Shakturi war. One of the last surviving logs recounts of a meeting with a Mortalen envoy. In the aftermath of a great battle, the ancient Teekans discovered a powerful Shakturi weapon, which our ancestors traded with the Mortalen in an effort to improve relations. Did the Mortalen use this weapon to defeat the Shakturi? Those answers are unlikely to be found here, but we will keep searching.</Description>
+				<Description>The station was once dedicated to the construction of starships, no doubt in the service of providing the means for our people to flee the terrible Shakturi war. One of the last surviving logs recounts of a meeting with a Mortalen envoy. In the aftermath of a great battle, the ancient Teekans discovered a powerful Shakturi weapon, which our ancestors traded with the Mortalen in an effort to improve relations. Did the Mortalen use this weapon to defeat the Shakturi? Those answers are unlikely to be found here, but we will keep searching.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -50205,7 +50286,7 @@ Here, too, we have discovered what we have long sought, the location of the grea
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>An Ancient Space Station</MessageTitle>
-				<Description>We've discovered an ancient space station, badly damaged, and with damaged ships in orbit. This may well be worth investigating.</Description>
+				<Description>We've discovered an ancient space station, badly damaged, and with damaged starships in orbit. This may well be worth investigating.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -50565,11 +50646,11 @@ Here, too, we have discovered what we have long sought, the location of the grea
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>The Ancient Teekan Refuge</MessageTitle>
-				<Description>The sadness is hard to express. A colonized world, infrastructure in place, completely abandoned. Here the ancient Teekans hoped to preserve their culture while their greatest minds hid from the war ravaging the galaxy. As the Shakturi advanced, however, the greatest military minds among the Teekans believed the location of the Refuge had been discovered. Even if it were spared Shakturi devastation, the ancients worried it would be a target after the war for those who resented Teekans trading with their enemies. With little time to prepare, the Teekans boarded their ships, launched new caravans, and sought other places to hide from the invaders.
+				<Description>The sadness is hard to express. A colonized world, infrastructure in place, completely abandoned. Here the ancient Teekans hoped to preserve their culture while their greatest minds hid from the war ravaging the galaxy. As the Shakturi advanced, however, the greatest military minds among the Teekans believed the location of the Refuge had been discovered. Even if it were spared Shakturi devastation, the ancients worried it would be a target after the war for those who resented Teekans trading with their enemies. With little time to prepare, the Teekans boarded their starships, launched new caravans, and sought other places to hide from the invaders.
 
 Automated monitoring stations remained active, however, and these were in coordination with the commanders of the various Teekan caravans. These report devastation across the galaxy. The Freedom Alliance used a devastating weapon against the Shakturi, meant to interfere with their wormhole generators. Another faction, unknown to our forebears, was developing another weapon in secret, and used it at the same time as the Freedom Alliance used theirs.
 
-The final entry speaks only of massive gravitic waves, tectonic destruction caused by the use of the two weapons. Entire caravans lost. It is impossible to calculate how many beings died as ships and worlds alike were destroyed. Only those on the few worlds that withstood the damage were able to survive, isolated though they were, along with a few caravan ships that had been in hyperspace. Terrible as these weapons were, they seem to have saved the galaxy, for the Shakturi are gone from our space.
+The final entry speaks only of massive gravitic waves, tectonic destruction caused by the use of the two weapons. Entire caravans lost. It is impossible to calculate how many beings died as starships and worlds alike were destroyed. Only those on the few worlds that withstood the damage were able to survive, isolated though they were, along with a few caravan starships that had been in hyperspace. Terrible as these weapons were, they seem to have saved the galaxy, for the Shakturi are gone from our space.
 
 It is a mournful irony that our ancestors fled the refuge, for it seems to have survived far better than many worlds we have visited. We have discovered marvelous artifacts here as well. Building upon what our ancestors created, we Teekans can begin anew, we can thrive and trade and grow. This will be a Great Teekan Refuge once again.</Description>
 				<ImageFilepath />
@@ -50655,7 +50736,8 @@ It is a mournful irony that our ancestors fled the refuge, for it seems to have 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>11</Id1>
+				<!-- Ion Missiles -->
+				<Id1>1270</Id1>
 				<Value1>1</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -51297,7 +51379,7 @@ Now we must recover the knowledge that was lost to us. Visiting the planet from 
 			<GameEventAction>
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Technological Boosts</MessageTitle>
-				<Description>The ships logs are lost to us, but we were able to retrieve some of the technological knowledge originally intended for our homeworld. We can use this to reach the stars sooner and begin the long process of reclaiming what we have lost.</Description>
+				<Description>The starships logs are lost to us, but we were able to retrieve some of the technological knowledge originally intended for our homeworld. We can use this to reach the stars sooner and begin the long process of reclaiming what we have lost.</Description>
 				<ImageFilepath />
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -51354,7 +51436,7 @@ Now we must recover the knowledge that was lost to us. Visiting the planet from 
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Value1>0</Value1>
+				<Value1>0.25</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
@@ -55592,6 +55674,7 @@ So much power is now at our disposal. The Mortalen will triumph.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -55618,6 +55701,7 @@ So much power is now at our disposal. The Mortalen will triumph.</Description>
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56008,6 +56092,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56034,6 +56119,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56109,6 +56195,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56135,6 +56222,7 @@ We can now work toward understanding the research projects 'Super Beams' and 'Pl
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56212,6 +56300,7 @@ These projects will give us the ability to construct a mighty Planet Destroyer.<
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Planet Destroyer -->
 				<Id1>787</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -56238,6 +56327,7 @@ These projects will give us the ability to construct a mighty Planet Destroyer.<
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Super Beams -->
 				<Id1>788</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>

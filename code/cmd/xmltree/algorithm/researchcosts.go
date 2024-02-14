@@ -90,7 +90,7 @@ func (j *Job) applyResearchCosts() (err error) {
 					switch techName {
 					case "Ancient Guardian Vault Investigations":
 						col = 2
-					case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters":
+					case "Assault Pods", "Bombardment Weapons", "Regenerating Hull Splinters", "Strike Craft":
 						col = 1
 					case "Cure Degenerate Gizureans", "Cure Shakturi Psionic Virus",
 						"Puzzle Pirate Culture Research", "Shakturi Design and Behavior":

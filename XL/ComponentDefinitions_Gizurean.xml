@@ -2,13 +2,15 @@
 <ArrayOfComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ComponentDefinition>
 		<ComponentId>373</ComponentId>
+		<Name>Hex Armor</Name>
+		<ImageFilename>XLAssets/Components/373-Hex Armor</ImageFilename>
 		<Size>8</Size>
 		<Category>Armor</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
@@ -293,18 +295,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Hex Armor</Name>
-		<ImageFilename>XLAssets/Components/373-Hex Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>374</ComponentId>
+		<Name>Reactive Hex Armor</Name>
+		<ImageFilename>XLAssets/Components/374-Reactive Hex Armor</ImageFilename>
 		<Size>8</Size>
 		<Category>Armor</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -593,18 +595,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Reactive Hex Armor</Name>
-		<ImageFilename>XLAssets/Components/374-Reactive Hex Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>375</ComponentId>
+		<Name>Dense Hex Armor</Name>
+		<ImageFilename>XLAssets/Components/375-Dense Hex Armor</ImageFilename>
 		<Size>8</Size>
 		<Category>Armor</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -893,18 +895,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Dense Hex Armor</Name>
-		<ImageFilename>XLAssets/Components/375-Dense Hex Armor</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>376</ComponentId>
+		<Name>Hex Armor [Ftr]</Name>
+		<ImageFilename>XLAssets/Components/376-Hex Armor FTR</ImageFilename>
 		<Size>3</Size>
 		<Category>Armor</Category>
+		<IsFighterOnly>true</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>true</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>9</ResourceId>
@@ -1189,18 +1191,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Hex Armor [Ftr]</Name>
-		<ImageFilename>XLAssets/Components/376-Hex Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>377</ComponentId>
+		<Name>Reactive Hex Armor [Ftr]</Name>
+		<ImageFilename>XLAssets/Components/377-Reactive Hex Armor FTR</ImageFilename>
 		<Size>3</Size>
 		<Category>Armor</Category>
+		<IsFighterOnly>true</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>true</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>78</ResourceId>
@@ -1489,18 +1491,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Reactive Hex Armor [Ftr]</Name>
-		<ImageFilename>XLAssets/Components/377-Reactive Hex Armor FTR</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>378</ComponentId>
+		<Name>Swarm Targeting</Name>
+		<ImageFilename>XLAssets/Components/378-Swarm Command</ImageFilename>
 		<Size>8</Size>
 		<Category>TargetingComputer</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>12</ResourceId>
@@ -2188,18 +2190,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Swarm Targeting</Name>
-		<ImageFilename>XLAssets/Components/378-Swarm Command</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>379</ComponentId>
+		<Name>Swarm Auxiliary Hangar Bay</Name>
+		<ImageFilename>XLAssets/Components/380-Hive Hangar S</ImageFilename>
 		<Size>25</Size>
 		<Category>FighterBay</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
@@ -2748,18 +2750,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Swarm Auxiliary Hangar Bay</Name>
-		<ImageFilename>XLAssets/Components/379-Hive Hangar</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>380</ComponentId>
+		<Name>Swarm Hangar Bay</Name>
+		<ImageFilename>XLAssets/Components/379-Hive Hangar</ImageFilename>
 		<Size>50</Size>
 		<Category>FighterBay</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
@@ -3312,18 +3314,18 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Swarm Hangar Bay</Name>
-		<ImageFilename>XLAssets/Components/380-Hive Hangar S</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>381</ComponentId>
+		<Name>Swarm Hangar Deck</Name>
+		<ImageFilename>XLAssets/Components/381-Hive Hangar L</ImageFilename>
 		<Size>100</Size>
 		<Category>FighterBay</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>false</IsFighterOnly>
 		<ResourcesRequired>
 			<ResourceQuantity>
 				<ResourceId>8</ResourceId>
@@ -3876,8 +3878,6 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Name>Swarm Hangar Deck</Name>
-		<ImageFilename>XLAssets/Components/381-Hive Hangar L</ImageFilename>
 	</ComponentDefinition>
 	<!-- XL Extensions: 557..562 -->
 </ArrayOfComponentDefinition>

@@ -2,6 +2,8 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ShipHull>
 		<ShipHullId>0</ShipHullId>
+		<Name>Escort</Name>
+		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Escort</Role>
 		<Level>0</Level>
@@ -375,11 +377,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort</Name>
-		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>1</ShipHullId>
+		<Name>Station, Monitoring</Name>
+		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MonitoringStation</Role>
 		<Level>0</Level>
@@ -882,11 +884,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Monitoring</Name>
-		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>2</ShipHullId>
+		<Name>Constructor, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>0</Level>
@@ -1365,11 +1367,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>3</ShipHullId>
+		<Name>Explorer, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>0</Level>
@@ -1960,11 +1962,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>4</ShipHullId>
+		<Name>Miner, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MiningShip</Role>
 		<Level>0</Level>
@@ -2445,11 +2447,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>5</ShipHullId>
+		<Name>Freighter, Light</Name>
+		<ImageFilename>Ships/Haakonish/Images/cargo</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FreighterSmall</Role>
 		<Level>0</Level>
@@ -3211,11 +3213,11 @@
 				<Amount>62</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Light</Name>
-		<ImageFilename>Ships/Haakonish/Images/cargo</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>6</ShipHullId>
+		<Name>Mining Outpost, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/mining_station</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MiningStation</Role>
 		<Level>0</Level>
@@ -3681,11 +3683,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/mining_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>7</ShipHullId>
+		<Name>Station, Research</Name>
+		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ResearchStation</Role>
 		<Level>0</Level>
@@ -4203,11 +4205,11 @@
 				<Amount>112</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Research</Name>
-		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>16</ShipHullId>
+		<Name>Escort, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Escort</Role>
 		<Level>2</Level>
@@ -4601,11 +4603,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>17</ShipHullId>
+		<Name>Escort, Fast</Name>
+		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Escort</Role>
 		<Level>1</Level>
@@ -5032,11 +5034,11 @@
 				<Amount>70</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Escort, Fast</Name>
-		<ImageFilename>Ships/Haakonish/Images/escort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>18</ShipHullId>
+		<Name>Frigate</Name>
+		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Frigate</Role>
 		<Level>0</Level>
@@ -5463,11 +5465,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate</Name>
-		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>19</ShipHullId>
+		<Name>Troop Transport, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>0</Level>
@@ -6170,11 +6172,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>20</ShipHullId>
+		<Name>Starport II</Name>
+		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>1</Level>
@@ -7170,11 +7172,11 @@
 				<Amount>188</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport II</Name>
-		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>21</ShipHullId>
+		<Name>Colonizer, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>0</Level>
@@ -7719,11 +7721,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>22</ShipHullId>
+		<Name>Miner, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MiningShip</Role>
 		<Level>1</Level>
@@ -8325,11 +8327,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>23</ShipHullId>
+		<Name>Passenger Liner, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>0</Level>
@@ -8915,11 +8917,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>24</ShipHullId>
+		<Name>Refueler, Small</Name>
+		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>0</Level>
@@ -9630,11 +9632,11 @@
 				<Amount>75</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Small</Name>
-		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>25</ShipHullId>
+		<Name>Mining Outpost, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/mining_station</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MiningStation</Role>
 		<Level>1</Level>
@@ -10232,11 +10234,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Mining Outpost, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/mining_station</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>26</ShipHullId>
+		<Name>Station, Resort</Name>
+		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ResortBase</Role>
 		<Level>0</Level>
@@ -10736,17 +10738,17 @@
 				<Amount>162</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Station, Resort</Name>
-		<ImageFilename>Ships/Haakonish/Images/researchStation</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>27</ShipHullId>
+		<Name>Fighter I</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>15</Size>
-		<MaximumSize>53</MaximumSize>
+		<MaximumSize>47</MaximumSize>
 		<DisplaySize>12</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
 		<CockpitImageFilename />
@@ -10855,22 +10857,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -10882,17 +10868,17 @@
 				<Amount>8</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter I</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>28</ShipHullId>
+		<Name>Bomber I</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>0</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>20</Size>
-		<MaximumSize>61</MaximumSize>
+		<MaximumSize>55</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
 		<CockpitImageFilename />
@@ -11001,22 +10987,6 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -11028,11 +10998,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber I</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>42</ShipHullId>
+		<Name>Frigate, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Frigate</Role>
 		<Level>1</Level>
@@ -11530,11 +11500,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>43</ShipHullId>
+		<Name>Frigate, Fast</Name>
+		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Frigate</Role>
 		<Level>2</Level>
@@ -12014,11 +11984,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fast</Name>
-		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>44</ShipHullId>
+		<Name>Frigate, Fleet</Name>
+		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Frigate</Role>
 		<Level>3</Level>
@@ -12515,11 +12485,11 @@
 				<Amount>99</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Frigate, Fleet</Name>
-		<ImageFilename>Ships/Haakonish/Images/frigate</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>48</ShipHullId>
+		<Name>Destroyer</Name>
+		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Destroyer</Role>
 		<Level>0</Level>
@@ -13061,11 +13031,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer</Name>
-		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>50</ShipHullId>
+		<Name>Troop Transport, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>1</Level>
@@ -13853,11 +13823,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>52</ShipHullId>
+		<Name>Starport III</Name>
+		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>2</Level>
@@ -14987,11 +14957,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport III</Name>
-		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>54</ShipHullId>
+		<Name>Constructor, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>1</Level>
@@ -15526,11 +15496,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>56</ShipHullId>
+		<Name>Explorer, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>1</Level>
@@ -16211,11 +16181,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>58</ShipHullId>
+		<Name>Miner, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>MiningShip</Role>
 		<Level>2</Level>
@@ -16852,11 +16822,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Miner, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/mining</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>60</ShipHullId>
+		<Name>Freighter, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/cargo_large</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FreighterMedium</Role>
 		<Level>0</Level>
@@ -17560,11 +17530,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/cargo_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>62</ShipHullId>
+		<Name>Passenger Liner, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>1</Level>
@@ -18186,11 +18156,11 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>64</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>1</Level>
@@ -18387,11 +18357,11 @@
 				<Amount>10</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>65</ShipHullId>
+		<Name>Bomber II</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>1</Level>
@@ -18404,7 +18374,7 @@
 		<BaseCost>100</BaseCost>
 		<ArmorReactiveRating>4</ArmorReactiveRating>
 		<IonDefense>8</IonDefense>
-		<EngineLimit>1</EngineLimit>
+		<EngineLimit>2</EngineLimit>
 		<CountermeasuresBonus>0.16</CountermeasuresBonus>
 		<TargetingBonus>0.09</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -18460,13 +18430,14 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>2</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
@@ -18476,13 +18447,14 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>3</ComponentBayId>
-				<Type>Defense</Type>
+				<Type>Engine</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
 					<X>0</X>
 					<Y>0</Y>
-					<Z>0</Z>
+					<Z>1</Z>
 				</DisplayEffectRescaleFactor>
 				<DisplayEffectOffset>
 					<X>0</X>
@@ -18492,7 +18464,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>4</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -18508,7 +18480,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -18538,6 +18510,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -18553,11 +18541,11 @@
 				<Amount>13</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber II</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>68</ShipHullId>
+		<Name>Fighter II</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>2</Level>
@@ -18676,7 +18664,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>5</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -18737,11 +18725,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter II</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>70</ShipHullId>
+		<Name>Destroyer, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Destroyer</Role>
 		<Level>1</Level>
@@ -19299,11 +19287,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>71</ShipHullId>
+		<Name>Destroyer, Fast</Name>
+		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Destroyer</Role>
 		<Level>2</Level>
@@ -19901,11 +19889,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fast</Name>
-		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>72</ShipHullId>
+		<Name>Destroyer, Fleet</Name>
+		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Destroyer</Role>
 		<Level>3</Level>
@@ -20479,11 +20467,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Destroyer, Fleet</Name>
-		<ImageFilename>Ships/Haakonish/Images/destroyer</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>76</ShipHullId>
+		<Name>Starbase I</Name>
+		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>0</Level>
@@ -21761,11 +21749,11 @@
 				<Amount>360</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase I</Name>
-		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>78</ShipHullId>
+		<Name>Space Bastion I</Name>
+		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>0</Level>
@@ -22766,11 +22754,11 @@
 				<Amount>270</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion I</Name>
-		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>80</ShipHullId>
+		<Name>Colonizer, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>1</Level>
@@ -23401,11 +23389,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>82</ShipHullId>
+		<Name>Refueler, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>2</Level>
@@ -24267,11 +24255,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>84</ShipHullId>
+		<Name>Freighter, Super Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/cargo_large</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FreighterLarge</Role>
 		<Level>0</Level>
@@ -25021,11 +25009,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Freighter, Superheavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/cargo_large</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>86</ShipHullId>
+		<Name>Passenger Liner, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>PassengerShip</Role>
 		<Level>2</Level>
@@ -25728,11 +25716,11 @@
 				<Amount>135</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Passenger Liner, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/passenger</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>88</ShipHullId>
+		<Name>Tactical Interceptor</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>3</Level>
@@ -25929,11 +25917,11 @@
 				<Amount>11</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Tactical Interceptor</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>89</ShipHullId>
+		<Name>Fighter III</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>4</Level>
@@ -26146,11 +26134,11 @@
 				<Amount>12</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter III</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>90</ShipHullId>
+		<Name>Bomber III</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>2</Level>
@@ -26363,11 +26351,11 @@
 				<Amount>14</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber III</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>97</ShipHullId>
+		<Name>Cruiser</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>0</Level>
@@ -27075,11 +27063,11 @@
 				<Amount>175</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>99</ShipHullId>
+		<Name>Troop Transport, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>2</Level>
@@ -28072,11 +28060,11 @@
 				<Amount>168</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>101</ShipHullId>
+		<Name>Starbase II</Name>
+		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportMedium</Role>
 		<Level>1</Level>
@@ -29484,11 +29472,11 @@
 				<Amount>525</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starbase II</Name>
-		<ImageFilename>Ships/Haakonish/Images/mSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>103</ShipHullId>
+		<Name>Space Bastion II</Name>
+		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>DefensiveBase</Role>
 		<Level>1</Level>
@@ -30619,11 +30607,11 @@
 				<Amount>330</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Space Bastion II</Name>
-		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>105</ShipHullId>
+		<Name>Constructor, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ConstructionShip</Role>
 		<Level>2</Level>
@@ -31240,11 +31228,11 @@
 				<Amount>182</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Constructor, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/construction</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>107</ShipHullId>
+		<Name>Explorer, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ExplorationShip</Role>
 		<Level>2</Level>
@@ -31990,11 +31978,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Explorer, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/exploration</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>109</ShipHullId>
+		<Name>Colonizer, Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>2</Level>
@@ -32658,11 +32646,11 @@
 				<Amount>164</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Large</Name>
-		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>112</ShipHullId>
+		<Name>Starport I</Name>
+		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportSmall</Role>
 		<Level>0</Level>
@@ -33654,11 +33642,11 @@
 				<Amount>125</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starport I</Name>
-		<ImageFilename>Ships/Haakonish/Images/small_spaceport</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>271</ShipHullId>
+		<Name>Battleship</Name>
+		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>0</Level>
@@ -35120,11 +35108,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship</Name>
-		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>272</ShipHullId>
+		<Name>Carrier</Name>
+		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Carrier</Role>
 		<Level>0</Level>
@@ -36489,11 +36477,11 @@
 				<Amount>560</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier</Name>
-		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>273</ShipHullId>
+		<Name>Cruiser, Fast</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>1</Level>
@@ -37310,11 +37298,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fast</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>274</ShipHullId>
+		<Name>Cruiser, Shield</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>2</Level>
@@ -38164,11 +38152,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Shield</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>275</ShipHullId>
+		<Name>Cruiser, Fleet</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>3</Level>
@@ -38994,11 +38982,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Fleet</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>276</ShipHullId>
+		<Name>Cruiser, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>4</Level>
@@ -39825,11 +39813,11 @@
 				<Amount>392</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>277</ShipHullId>
+		<Name>Troop Transport, X-Large</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>3</Level>
@@ -40906,11 +40894,11 @@
 				<Amount>490</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>278</ShipHullId>
+		<Name>Battleship, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>1</Level>
@@ -42388,11 +42376,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>279</ShipHullId>
+		<Name>Carrier, Heavy</Name>
+		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Carrier</Role>
 		<Level>1</Level>
@@ -43838,11 +43826,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Heavy</Name>
-		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>280</ShipHullId>
+		<Name>Cruiser, Galaxy</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>5</Level>
@@ -44717,11 +44705,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Galaxy</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>281</ShipHullId>
+		<Name>Cruiser, Patrol</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>6</Level>
@@ -45563,11 +45551,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Patrol</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>282</ShipHullId>
+		<Name>Cruiser, Command</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>7</Level>
@@ -46425,11 +46413,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Command</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>283</ShipHullId>
+		<Name>Cruiser, Battle</Name>
+		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Cruiser</Role>
 		<Level>8</Level>
@@ -47263,11 +47251,11 @@
 				<Amount>480</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Cruiser, Battle</Name>
-		<ImageFilename>Ships/Haakonish/Images/cruiser</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>284</ShipHullId>
+		<Name>Troop Transport, Massive</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>4</Level>
@@ -48542,11 +48530,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Troop Transport</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>285</ShipHullId>
+		<Name>Starfortress I</Name>
+		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>0</Level>
@@ -50095,11 +50083,11 @@
 				<Amount>1600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress I</Name>
-		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>286</ShipHullId>
+		<Name>Massive Colonizer</Name>
+		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>3</Level>
@@ -50847,11 +50835,11 @@
 				<Amount>680</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Massive Colonizer</Name>
-		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>287</ShipHullId>
+		<Name>Battleship, Super</Name>
+		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>2</Level>
@@ -52414,11 +52402,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Battleship, Super</Name>
-		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>288</ShipHullId>
+		<Name>Carrier, Super</Name>
+		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Carrier</Role>
 		<Level>2</Level>
@@ -53979,11 +53967,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Super</Name>
-		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>289</ShipHullId>
+		<Name>Troop Transport, Colossal</Name>
+		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>TroopTransport</Role>
 		<Level>5</Level>
@@ -55339,11 +55327,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Troop Transport, Colossal</Name>
-		<ImageFilename>Ships/Haakonish/Images/troop_carier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>290</ShipHullId>
+		<Name>Colonizer, Mammoth</Name>
+		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>ColonyShip</Role>
 		<Level>4</Level>
@@ -56107,11 +56095,11 @@
 				<Amount>800</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Colonizer, Mammoth</Name>
-		<ImageFilename>Ships/Haakonish/Images/colony</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>291</ShipHullId>
+		<Name>Dreadnought</Name>
+		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>CapitalShip</Role>
 		<Level>3</Level>
@@ -57674,11 +57662,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Dreadnought</Name>
-		<ImageFilename>Ships/Haakonish/Images/battleship</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>292</ShipHullId>
+		<Name>Carrier, Fleet</Name>
+		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>Carrier</Role>
 		<Level>3</Level>
@@ -59239,11 +59227,11 @@
 				<Amount>1080</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Carrier, Fleet</Name>
-		<ImageFilename>Ships/Haakonish/Images/carrier</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>293</ShipHullId>
+		<Name>Starfortress II</Name>
+		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>SpaceportLarge</Role>
 		<Level>1</Level>
@@ -60860,11 +60848,11 @@
 				<Amount>3600</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Starfortress II</Name>
-		<ImageFilename>Ships/Haakonish/Images/lSpacePort</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>404</ShipHullId>
+		<Name>Advanced Interceptor</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>8</Level>
@@ -61065,17 +61053,17 @@
 				<Amount>28</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Advanced Interceptor</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>405</ShipHullId>
+		<Name>Fighter IV</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterInterceptor</Role>
 		<Level>9</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>24</Size>
-		<MaximumSize>90</MaximumSize>
+		<MaximumSize>97</MaximumSize>
 		<DisplaySize>17</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
 		<CockpitImageFilename />
@@ -61091,480 +61079,6 @@
 			<Bonus>
 				<Type>ShipManeuvering</Type>
 				<Amount>0.32</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
-		<ModelSize>
-			<X>1</X>
-			<Y>1</Y>
-			<Z>1</Z>
-		</ModelSize>
-		<ComponentBays>
-			<ComponentBay>
-				<ComponentBayId>0</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>1</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine1</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine2</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-		</ComponentBays>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>8</ResourceId>
-				<Amount>17</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>12</ResourceId>
-				<Amount>17</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId>
-				<Amount>34</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>78</ResourceId>
-				<Amount>34</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Name>Fighter IV</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
-	</ShipHull>
-	<ShipHull>
-		<ShipHullId>406</ShipHullId>
-		<RaceId>3</RaceId>
-		<Role>FighterInterceptor</Role>
-		<Level>13</Level>
-		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>25</Size>
-		<MaximumSize>91</MaximumSize>
-		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<CockpitImageFilename />
-		<BaseCost>350</BaseCost>
-		<ArmorReactiveRating>10</ArmorReactiveRating>
-		<IonDefense>20</IonDefense>
-		<EngineLimit>3</EngineLimit>
-		<CountermeasuresBonus>0.5</CountermeasuresBonus>
-		<TargetingBonus>0.15</TargetingBonus>
-		<TurnRollRate>0.75</TurnRollRate>
-		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.4</Amount>
-				<AppliesTo>Item</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus>
-		</Bonuses>
-		<ModelSize>
-			<X>1</X>
-			<Y>1</Y>
-			<Z>1</Z>
-		</ModelSize>
-		<ComponentBays>
-			<ComponentBay>
-				<ComponentBayId>0</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>1</ComponentBayId>
-				<Type>Weapon</Type>
-				<MaximumComponentSize>5</MaximumComponentSize>
-				<MeshName>#weapon1</MeshName>
-				<RotationHalfArcRange>1.571</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>2</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine0</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>3</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine1</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>4</ComponentBayId>
-				<Type>Engine</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<MeshName>#engine2</MeshName>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>1</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>5</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>6</ComponentBayId>
-				<Type>Defense</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>7</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-			<ComponentBay>
-				<ComponentBayId>10</ComponentBayId>
-				<Type>General</Type>
-				<MaximumComponentSize>10</MaximumComponentSize>
-				<RotationHalfArcRange>0</RotationHalfArcRange>
-				<DisplayEffectRescaleFactor>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectRescaleFactor>
-				<DisplayEffectOffset>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</DisplayEffectOffset>
-			</ComponentBay>
-		</ComponentBays>
-		<ResourcesRequired>
-			<ResourceQuantity>
-				<ResourceId>8</ResourceId>
-				<Amount>20</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>12</ResourceId>
-				<Amount>20</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>10</ResourceId>
-				<Amount>40</Amount>
-			</ResourceQuantity>
-			<ResourceQuantity>
-				<ResourceId>78</ResourceId>
-				<Amount>40</Amount>
-			</ResourceQuantity>
-		</ResourcesRequired>
-		<Name>Fighter V, Strike</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
-	</ShipHull>
-	<ShipHull>
-		<ShipHullId>407</ShipHullId>
-		<RaceId>3</RaceId>
-		<Role>FighterInterceptor</Role>
-		<Level>15</Level>
-		<DesignTemplateId>-1</DesignTemplateId>
-		<Size>26</Size>
-		<MaximumSize>105</MaximumSize>
-		<DisplaySize>19</DisplaySize>
-		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
-		<CockpitImageFilename />
-		<BaseCost>400</BaseCost>
-		<ArmorReactiveRating>12</ArmorReactiveRating>
-		<IonDefense>24</IonDefense>
-		<EngineLimit>3</EngineLimit>
-		<CountermeasuresBonus>0.56</CountermeasuresBonus>
-		<TargetingBonus>0.18</TargetingBonus>
-		<TurnRollRate>0.75</TurnRollRate>
-		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
-		<Bonuses>
-			<Bonus>
-				<Type>ShipManeuvering</Type>
-				<Amount>0.48</Amount>
 				<AppliesTo>Item</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -61773,8 +61287,546 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+		</ComponentBays>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId>
+				<Amount>17</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
+				<Amount>17</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId>
+				<Amount>34</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId>
+				<Amount>34</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+	</ShipHull>
+	<ShipHull>
+		<ShipHullId>406</ShipHullId>
+		<Name>Fighter V, Strike</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
+		<RaceId>3</RaceId>
+		<Role>FighterInterceptor</Role>
+		<Level>13</Level>
+		<DesignTemplateId>-1</DesignTemplateId>
+		<Size>25</Size>
+		<MaximumSize>104</MaximumSize>
+		<DisplaySize>19</DisplaySize>
+		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
+		<CockpitImageFilename />
+		<BaseCost>350</BaseCost>
+		<ArmorReactiveRating>10</ArmorReactiveRating>
+		<IonDefense>20</IonDefense>
+		<EngineLimit>3</EngineLimit>
+		<CountermeasuresBonus>0.5</CountermeasuresBonus>
+		<TargetingBonus>0.15</TargetingBonus>
+		<TurnRollRate>0.75</TurnRollRate>
+		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ModelSize>
+			<X>1</X>
+			<Y>1</Y>
+			<Z>1</Z>
+		</ModelSize>
+		<ComponentBays>
+			<ComponentBay>
+				<ComponentBayId>0</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>3</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>4</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>5</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>6</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>9</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+		</ComponentBays>
+		<ResourcesRequired>
+			<ResourceQuantity>
+				<ResourceId>8</ResourceId>
+				<Amount>20</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>12</ResourceId>
+				<Amount>20</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>10</ResourceId>
+				<Amount>40</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>78</ResourceId>
+				<Amount>40</Amount>
+			</ResourceQuantity>
+		</ResourcesRequired>
+	</ShipHull>
+	<ShipHull>
+		<ShipHullId>407</ShipHullId>
+		<Name>Fighter VI, Superiority</Name>
+		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
+		<RaceId>3</RaceId>
+		<Role>FighterInterceptor</Role>
+		<Level>15</Level>
+		<DesignTemplateId>-1</DesignTemplateId>
+		<Size>26</Size>
+		<MaximumSize>111</MaximumSize>
+		<DisplaySize>19</DisplaySize>
+		<ModelName>Ships/Haakonish/fi_fighter</ModelName>
+		<CockpitImageFilename />
+		<BaseCost>400</BaseCost>
+		<ArmorReactiveRating>12</ArmorReactiveRating>
+		<IonDefense>24</IonDefense>
+		<EngineLimit>3</EngineLimit>
+		<CountermeasuresBonus>0.56</CountermeasuresBonus>
+		<TargetingBonus>0.18</TargetingBonus>
+		<TurnRollRate>0.75</TurnRollRate>
+		<MaximumTurnRollAngle>1.57</MaximumTurnRollAngle>
+		<Bonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.48</Amount>
+				<AppliesTo>Item</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ModelSize>
+			<X>1</X>
+			<Y>1</Y>
+			<Z>1</Z>
+		</ModelSize>
+		<ComponentBays>
+			<ComponentBay>
+				<ComponentBayId>0</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>1</ComponentBayId>
+				<Type>Weapon</Type>
+				<MaximumComponentSize>5</MaximumComponentSize>
+				<MeshName>#weapon1</MeshName>
+				<RotationHalfArcRange>1.571</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>2</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine0</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>3</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine1</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>4</ComponentBayId>
+				<Type>Engine</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<MeshName>#engine2</MeshName>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>1</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>5</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>6</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>7</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>8</ComponentBayId>
+				<Type>Defense</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>9</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>10</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>11</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>13</ComponentBayId>
 				<Type>General</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
@@ -61808,24 +61860,24 @@
 				<Amount>47</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Fighter VI, Superiority</Name>
-		<ImageFilename>Ships/Haakonish/Images/fighter</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>408</ShipHullId>
+		<Name>Bomber IV</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>4</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>25</Size>
-		<MaximumSize>98</MaximumSize>
+		<MaximumSize>104</MaximumSize>
 		<DisplaySize>20</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
 		<CockpitImageFilename />
 		<BaseCost>250</BaseCost>
 		<ArmorReactiveRating>8</ArmorReactiveRating>
 		<IonDefense>16</IonDefense>
-		<EngineLimit>2</EngineLimit>
+		<EngineLimit>3</EngineLimit>
 		<CountermeasuresBonus>0.22</CountermeasuresBonus>
 		<TargetingBonus>0.15</TargetingBonus>
 		<TurnRollRate>0.55</TurnRollRate>
@@ -62061,17 +62113,17 @@
 				<Amount>35</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber IV</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>409</ShipHullId>
+		<Name>Bomber V, Strike</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>5</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>27</Size>
-		<MaximumSize>106</MaximumSize>
+		<MaximumSize>112</MaximumSize>
 		<DisplaySize>22</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
 		<CockpitImageFilename />
@@ -62233,7 +62285,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>8</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -62295,6 +62347,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>12</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -62314,17 +62382,17 @@
 				<Amount>43</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber V, Strike</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>410</ShipHullId>
+		<Name>Bomber VI, Assault</Name>
+		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FighterBomber</Role>
 		<Level>6</Level>
 		<DesignTemplateId>-1</DesignTemplateId>
 		<Size>28</Size>
-		<MaximumSize>116</MaximumSize>
+		<MaximumSize>123</MaximumSize>
 		<DisplaySize>24</DisplaySize>
 		<ModelName>Ships/Haakonish/fi_bomber</ModelName>
 		<CockpitImageFilename />
@@ -62503,7 +62571,7 @@
 			</ComponentBay>
 			<ComponentBay>
 				<ComponentBayId>9</ComponentBayId>
-				<Type>General</Type>
+				<Type>Defense</Type>
 				<MaximumComponentSize>10</MaximumComponentSize>
 				<RotationHalfArcRange>0</RotationHalfArcRange>
 				<DisplayEffectRescaleFactor>
@@ -62581,6 +62649,22 @@
 					<Z>0</Z>
 				</DisplayEffectOffset>
 			</ComponentBay>
+			<ComponentBay>
+				<ComponentBayId>14</ComponentBayId>
+				<Type>General</Type>
+				<MaximumComponentSize>10</MaximumComponentSize>
+				<RotationHalfArcRange>0</RotationHalfArcRange>
+				<DisplayEffectRescaleFactor>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectRescaleFactor>
+				<DisplayEffectOffset>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</DisplayEffectOffset>
+			</ComponentBay>
 		</ComponentBays>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -62600,11 +62684,11 @@
 				<Amount>50</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Bomber VI, Assault</Name>
-		<ImageFilename>Ships/Haakonish/Images/bomber</ImageFilename>
 	</ShipHull>
 	<ShipHull>
 		<ShipHullId>764</ShipHullId>
+		<Name>Refueler, Medium</Name>
+		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 		<RaceId>3</RaceId>
 		<Role>FuelTanker</Role>
 		<Level>1</Level>
@@ -63418,7 +63502,5 @@
 				<Amount>120</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<Name>Refueler, Medium</Name>
-		<ImageFilename>Ships/Haakonish/Images/fuel</ImageFilename>
 	</ShipHull>
 </ArrayOfShipHull>

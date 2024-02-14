@@ -8,8 +8,6 @@ import (
 	"regexp"
 )
 
-const IonFtrPDScaleFactor = 0.75
-
 type LevelFunc = func(level int) float64
 type ValuesTable = map[string]LevelFunc
 
@@ -25,9 +23,9 @@ func ExtendValuesTable(fields, more ValuesTable) (result ValuesTable) {
 }
 
 type ComponentData struct {
+	scaleTo []string // what other components are copies / scaled to this thing
 	// todo: could we ever look this up viz research tree for first occurrence there?
 	//       that's just column in which it is listed for each level...
-	scaleTo     []string // what other components are copies / scaled to this thing
 	minLevel    int
 	maxLevel    int
 	fieldValues ValuesTable
@@ -41,9 +39,9 @@ type ComponentIs struct {
 }
 
 func GetComponentIsms(e *xmltree.XMLElement) (is ComponentIs) {
-	is.fighter = e.Has("IsFighterOnly", "true")
+	is.fighter = e.HasChildWithValue("IsFighterOnly", "true")
 	is.weapon = e.HasPrefix("Category", "Weapon")
-	is.pd = !is.fighter && e.Has("Category", "WeaponIntercept")
+	is.pd = !is.fighter && e.HasChildWithValue("Category", "WeaponIntercept")
 	is.size = e.Child("Size").IntValue()
 
 	return
@@ -233,8 +231,8 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 			e.Child("EngineVectoringEnergyUsage").ScaleBy(0.25)
 
 			// scale reactor values
-			// note: there are far, far fewer components on a fighter/bomber than a ship
-			const reactorFactor = 0.15
+			// note: seems like too much for early tech, but quickly isn't
+			const reactorFactor = 0.25
 			e.Child("ReactorEnergyOutputPerSecond").ScaleBy(reactorFactor)
 			e.Child("ReactorEnergyStorageCapacity").ScaleBy(reactorFactor)
 			e.Child("ReactorFuelUnitsForFullCharge").ScaleBy(reactorFactor)

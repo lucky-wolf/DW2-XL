@@ -2,6 +2,17 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>0</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Missile Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>1</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -14,27 +25,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>242</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>1</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Missile Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Cannon Batteries</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>2</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -47,27 +58,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>243</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>2</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Cannon Batteries</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>2</PlanetaryFacilityDefinitionId>
+		<Name>Massive Beam Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>3</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -80,27 +91,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>325</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>3</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Massive Beam Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>3</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Ion Cannons</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>4</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -113,27 +124,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>326</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>4</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Ion Cannons</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>4</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Mine Projectors</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Mine Projectors</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>5</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -146,27 +157,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>327</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>5</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Mine Projectors</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Mine Projectors</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>5</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Gravitic Beams</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Gravitic Net</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>6</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -179,27 +190,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>314</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>6</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Gravitic Beams</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Gravitic Net</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>6</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Torpedo Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>7</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -212,27 +223,27 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>328</WeaponComponentId>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>7</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Torpedo Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>7</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Planetary Missile Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>1</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -245,12 +256,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -258,15 +263,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>1</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Planetary Missile Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>8</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Planetary Cannons</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>2</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -279,12 +290,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -292,15 +297,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>2</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Planetary Cannons</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>9</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Beam Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>3</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -313,12 +324,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -326,15 +331,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>3</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Beam Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>10</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Ion Cannon Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>4</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -347,12 +358,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -360,15 +365,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>4</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Ion Cannon Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>11</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Mine Projectors</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Mine Projectors</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>5</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -381,12 +392,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -394,15 +399,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>5</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Mine Projectors</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Mine Projectors</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>12</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Planetary Gravitic Beams</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Gravitic Net</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>6</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -415,12 +426,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -428,15 +433,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>6</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Planetary Gravitic Beams</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Gravitic Net</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>13</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Planetary Torpedo Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>7</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -449,12 +460,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -462,15 +467,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>7</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Planetary Torpedo Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>14</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Planetary Missile Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>1</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -483,12 +494,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -496,15 +501,21 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>1</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Planetary Missile Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Missile Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>15</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Planetary Cannon Batteries</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>2</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -517,12 +528,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -530,15 +535,21 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>2</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Planetary Cannon Batteries</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Cannon Batteries</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>18</PlanetaryFacilityDefinitionId>
+		<Name>Subspace Disruption Projectors</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>9</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -551,12 +562,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -564,15 +569,21 @@
 		<HyperDenyRange>100000</HyperDenyRange>
 		<HyperDenyStrength>50</HyperDenyStrength>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>9</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Subspace Disruption Projectors</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>19</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Subspace Disruption Projectors</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>9</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -585,12 +596,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -598,15 +603,21 @@
 		<HyperDenyRange>150000</HyperDenyRange>
 		<HyperDenyStrength>50</HyperDenyStrength>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>9</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Subspace Disruption Projectors</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Gravity Well Generator</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>20</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Fighter Bases</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -619,12 +630,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -633,15 +638,21 @@
 		<FighterBuildRate>4</FighterBuildRate>
 		<FighterRepairRate>4</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Fighter Bases</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>21</PlanetaryFacilityDefinitionId>
+		<Name>Expanded Planetary Fighter Bases</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -654,12 +665,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -668,15 +673,21 @@
 		<FighterBuildRate>8</FighterBuildRate>
 		<FighterRepairRate>8</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>3</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Planetary Fighter Bases</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>22</PlanetaryFacilityDefinitionId>
+		<Name>Advanced Planetary Fighter Bases</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>5</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -689,12 +700,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -703,17 +708,21 @@
 		<FighterBuildRate>16</FighterBuildRate>
 		<FighterRepairRate>16</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>5</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Planetary Fighter Bases</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Fighter Base</ImageFilename>
 	</PlanetaryFacilityDefinition>
-
-
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1000</PlanetaryFacilityDefinitionId>
+		<Name>Planetary Blaster Emplacement</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -726,12 +735,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -739,15 +742,21 @@
 		<WeaponComponentLevel>0</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>60</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Planetary Blaster Emplacement</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1001</PlanetaryFacilityDefinitionId>
+		<Name>Colossal Planetary Blaster Emplacement</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -760,12 +769,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -773,15 +776,21 @@
 		<WeaponComponentLevel>1</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>60</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Colossal Planetary Blaster Emplacement</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1006</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Beam Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>3</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -794,12 +803,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -807,15 +810,21 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>3</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Beam Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Beam Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1007</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Planetary Blaster Emplacement</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>60</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -828,12 +837,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -841,15 +844,21 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>60</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Planetary Blaster Emplacement</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Blaster Defense</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1008</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Torpedo Launchers</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>7</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -862,12 +871,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -875,15 +878,21 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>7</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Torpedo Launchers</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Torpedo Launcher</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1009</PlanetaryFacilityDefinitionId>
+		<Name>Core-Linked Ion Cannon Installation</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>4</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -896,12 +905,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -909,11 +912,6 @@
 		<WeaponComponentLevel>2</WeaponComponentLevel>
 		<WeaponCount>2</WeaponCount>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>4</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Core-Linked Ion Cannon Installation</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Planetary Giant Ion Cannon</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

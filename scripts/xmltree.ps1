@@ -17,7 +17,7 @@ if ($algorithm -eq "ScalePlanetFrequencies" -And $scale -eq 0) {
 # ensure our code is compiled
 Push-Location
 Set-Location ./code
-go build -o bin/xmltree.exe cmd/xmltree/main.go
+go build -o ../bin/xmltree.exe cmd/xmltree/main.go
 $build = $LastExitCode
 Pop-Location
 

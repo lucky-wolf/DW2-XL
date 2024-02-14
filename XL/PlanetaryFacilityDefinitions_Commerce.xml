@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Maintenance of Commerce is 1% -->
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>23</PlanetaryFacilityDefinitionId>
+		<Name>Interstellar Traders Bazaar</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Space Traders Bazaar</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>11</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
@@ -26,26 +38,26 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>11</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Interstellar Traders Bazaar</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Space Traders Bazaar</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>27</PlanetaryFacilityDefinitionId>
+		<Name>Interstellar Commerce Guild</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Space Traders Guild</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>1000</MaintenanceCost>
+		<FacilityFamilyId>11</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
@@ -57,7 +69,7 @@
 			<Bonus>
 				<Type>TradeIncome</Type>
 				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
+				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
 				<Type>ColonyIncome</Type>
@@ -75,26 +87,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>10000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>11</FacilityFamilyId>
-		<FacilityFamilyLevel>1</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Interstellar Commerce Guild</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Space Traders Guild</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>30</PlanetaryFacilityDefinitionId>
+		<Name>Interstellar Commerce Nexus</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Space Commerce Nexus</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>500000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>12</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>TradeIncome</Type>
@@ -117,21 +128,11 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
-		<BuildCost>
-			<Money>500000</Money>
-		</BuildCost>
-		<MaintenanceCost>50000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>12</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Interstellar Commerce Nexus</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Space Commerce Nexus</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

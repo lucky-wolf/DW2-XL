@@ -2,6 +2,17 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>100</PlanetaryFacilityDefinitionId>
+		<Name>Hive Fighter Base</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -14,12 +25,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>50000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -28,15 +33,21 @@
 		<FighterBuildRate>2</FighterBuildRate>
 		<FighterRepairRate>4</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Hive Fighter Base</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>101</PlanetaryFacilityDefinitionId>
+		<Name>Improved Hive Fighter Base</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -49,12 +60,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>1000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -63,15 +68,21 @@
 		<FighterBuildRate>3</FighterBuildRate>
 		<FighterRepairRate>6</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>2</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Improved Hive Fighter Base</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>102</PlanetaryFacilityDefinitionId>
+		<Name>Expanded Hive Fighter Base</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>100000</Money>
+		</BuildCost>
+		<MaintenanceCost>5000</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>4</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -84,12 +95,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>250000</Money>
-		</BuildCost>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -98,15 +103,21 @@
 		<FighterBuildRate>4</FighterBuildRate>
 		<FighterRepairRate>8</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>4</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Expanded Hive Fighter Base</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>103</PlanetaryFacilityDefinitionId>
+		<Name>Advanced Hive Fighter Base</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>250000</Money>
+		</BuildCost>
+		<MaintenanceCost>12500</MaintenanceCost>
+		<FacilityFamilyId>10</FacilityFamilyId>
+		<FacilityFamilyLevel>6</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TroopRecruitment</Type>
@@ -119,12 +130,6 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>500000</Money>
-		</BuildCost>
-		<MaintenanceCost>5000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
@@ -133,15 +138,16 @@
 		<FighterBuildRate>6</FighterBuildRate>
 		<FighterRepairRate>10</FighterRepairRate>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>10</FacilityFamilyId>
-		<FacilityFamilyLevel>6</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Advanced Hive Fighter Base</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/gizurean fighter base</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>104</PlanetaryFacilityDefinitionId>
+		<Name>Gizurean Degenerates Burrows</Name>
+		<ImageFilename>XLAssets/Events/CrashedShip</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<FacilityFamilyId>-1</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
@@ -154,17 +160,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>-1</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Gizurean Degenerates Burrows</Name>
-		<ImageFilename>XLAssets/Events/CrashedShip</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

@@ -87,3 +87,32 @@ func (j *Job) applyComponents() (err error) {
 
 	return
 }
+
+func Hulls(folder string) (err error) {
+
+	log.Println("All component bay indexes will be fixed to a simple incremental index")
+	log.Println("All strike craft component bays will be updated to match our desired schedule")
+
+	// load all ship hull definition files
+	j, err := LoadJobFor(folder, "ShipHulls*.xml")
+	if err != nil {
+		return
+	}
+
+	// apply renumbering
+	err = j.renumberComponentBays()
+	if err != nil {
+		return
+	}
+
+	// apply fighter hull schedule
+	err = j.applyFighterHulls()
+	if err != nil {
+		return
+	}
+
+	// save them all
+	j.Save()
+
+	return
+}

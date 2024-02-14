@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Maintenance of Palaces is 1% -->
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>94</PlanetaryFacilityDefinitionId>
+		<Name>Royal Palace</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Royal Palace</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>52</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -31,27 +43,26 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>25000</Money>
-		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<ColonyCorruptionReductionProjectionRange>0</ColonyCorruptionReductionProjectionRange>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>52</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Royal Palace</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Royal Palace</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1010</PlanetaryFacilityDefinitionId>
+		<Name>War Planning Complex</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/War Planning Complex</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>63</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterQualityFleetAdmiral</Type>
@@ -97,29 +108,29 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>63</FacilityFamilyId>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>War Planning Complex</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/War Planning Complex</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1011</PlanetaryFacilityDefinitionId>
+		<Name>Clan Parliament</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Clan Parliament</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>64</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterQualityLeader</Type>
-				<Amount>0.25</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
@@ -151,25 +162,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>64</FacilityFamilyId>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Clan Parliament</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Clan Parliament</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1012</PlanetaryFacilityDefinitionId>
+		<Name>Technosphere Citadel</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Technosphere Citadel</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>65</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterAppearanceScientist</Type>
@@ -179,7 +190,7 @@
 			<Bonus>
 				<Type>CharacterQualityScientist</Type>
 				<Amount>0.2</Amount>
-				<AppliesTo>Item</AppliesTo>
+				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
@@ -194,27 +205,26 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>65</FacilityFamilyId>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Technosphere Citadel</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Technosphere Citadel</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>1013</PlanetaryFacilityDefinitionId>
+		<Name>Seat of Consciousness</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Seat of Consciousness</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>66</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
-			<!-- note: local bonuses are weird and not just what you think they sho8uld be -->
 			<Bonus>
 				<!-- hive homeworld grows like gangbusters -->
 				<Type>ColonyPopulationGrowthRate</Type>
@@ -240,21 +250,221 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>100000</Money>
-		</BuildCost>
-		<MaintenanceCost>250</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>66</FacilityFamilyId>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Seat of Consciousness</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Seat of Consciousness</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1014</PlanetaryFacilityDefinitionId>
+		<Name>Grand Pnyx</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Grand Pnyx</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>67</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<QualityBoost>0</QualityBoost>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1015</PlanetaryFacilityDefinitionId>
+		<Name>Prime Capitol</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Prime Capitol</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>68</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<QualityBoost>0</QualityBoost>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1016</PlanetaryFacilityDefinitionId>
+		<Name>Shadow Parliament</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Shadow Parliament</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>69</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<QualityBoost>0</QualityBoost>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1017</PlanetaryFacilityDefinitionId>
+		<Name>Unified Exchange</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Unified Exchange</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>70</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.025</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<QualityBoost>0</QualityBoost>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>1018</PlanetaryFacilityDefinitionId>
+		<Name>Boundless Archives</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Boundless Archives</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>100</MaintenanceCost>
+		<FacilityFamilyId>68</FacilityFamilyId>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<AchievementRaceId>-1</AchievementRaceId>
+		<WeaponComponentId>-1</WeaponComponentId>
+		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
+		<QualityBoost>0</QualityBoost>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

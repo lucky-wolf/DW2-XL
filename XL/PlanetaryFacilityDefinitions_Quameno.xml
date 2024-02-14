@@ -2,6 +2,16 @@
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>95</PlanetaryFacilityDefinitionId>
+		<Name>Enigma Maze</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/the enigma maze</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>50000</Money>
+		</BuildCost>
+		<MaintenanceCost>0</MaintenanceCost>
+		<FacilityFamilyId>53</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>CharacterQualityScientist</Type>
@@ -26,25 +36,25 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<BuildCost>
-			<Money>10000</Money>
-		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>53</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Enigma Maze</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/the enigma maze</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>96</PlanetaryFacilityDefinitionId>
+		<Name>Transcendence Hub</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/the transcendence hub</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>false</IsRuins>
+		<BuildCost>
+			<Money>1000000</Money>
+		</BuildCost>
+		<MaintenanceCost>50000</MaintenanceCost>
+		<FacilityFamilyId>54</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
@@ -57,28 +67,24 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
-		<BuildCost>
-			<Money>1000000</Money>
-		</BuildCost>
-		<MaintenanceCost>20000</MaintenanceCost>
-		<Size>100</Size>
-		<IsRuins>false</IsRuins>
 		<MaximumBuildCountPerGalaxy>1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>54</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
 		<PreventPeriodicLeadershipChanges>true</PreventPeriodicLeadershipChanges>
 		<LeaderExtraPositiveTraitCount>1</LeaderExtraPositiveTraitCount>
 		<ScientistExtraPositiveTraitCount>1</ScientistExtraPositiveTraitCount>
-		<Name>Transcendence Hub</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/the transcendence hub</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>98</PlanetaryFacilityDefinitionId>
+		<Name>Ancient Puzzle Park</Name>
+		<ImageFilename>XLAssets/Events/pirates-maze</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<FacilityFamilyId>56</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>TourismIncome</Type>
@@ -96,21 +102,21 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>56</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Ancient Puzzle Park</Name>
-		<ImageFilename>XLAssets/Events/pirates-maze</ImageFilename>
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>99</PlanetaryFacilityDefinitionId>
+		<Name>Ancient Quameno Research Base</Name>
+		<ImageFilename />
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<FacilityFamilyId>-1</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -118,21 +124,21 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>-1</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Ancient Quameno Research Base</Name>
-		<ImageFilename />
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>107</PlanetaryFacilityDefinitionId>
+		<Name>Crashed Shakturi Ship</Name>
+		<ImageFilename>XLAssets/Events/ship-crash</ImageFilename>
+		<Size>100</Size>
+		<IsRuins>true</IsRuins>
+		<FacilityFamilyId>-1</FacilityFamilyId>
+		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<ItemBonuses>
 			<Bonus>
 				<Type>ResearchAll</Type>
@@ -145,17 +151,11 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<Size>100</Size>
-		<IsRuins>true</IsRuins>
 		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<FacilityFamilyId>-1</FacilityFamilyId>
-		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<QualityBoost>0</QualityBoost>
-		<Name>Crashed Shakturi Ship</Name>
-		<ImageFilename>XLAssets/Events/ship-crash</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

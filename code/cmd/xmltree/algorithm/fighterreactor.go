@@ -48,7 +48,7 @@ func (j *Job) applyFighterReactors() (err error) {
 				}
 
 				// only reactors...
-				if !e.Has("Category", "Reactor") {
+				if !e.HasChildWithValue("Category", "Reactor") {
 					continue
 				}
 

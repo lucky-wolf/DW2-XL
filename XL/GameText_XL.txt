@@ -20,7 +20,7 @@ Troop Transport		;Troop Transport
 Freighter			;Freighter
 Small Freighter		;Freighter, Light
 Medium Freighter	;Freighter, Heavy
-Large Freighter		;Freighter, Superheavy
+Large Freighter		;Freighter, Super Heavy
 Mining Ship			;Miner
 Fuel Tanker			;Refueler
 Construction Ship	;Constructor
@@ -40,7 +40,7 @@ Interceptor			;Fighter
 Bomber				;Bomber
 
 TroopType Infantry			;Infantry
-TroopType Armored			;Mech
+TroopType Armored			;Armored
 TroopType Titan				;Titan
 TroopType PlanetaryDefense	;Planetary Defense
 TroopType SpecialForces		;Special Forces
@@ -99,14 +99,28 @@ World Founder		;World Founder
 Random Seed Explanation		;Type a number here to set the random seed for the game.\n\nWhen you have the same random seed number along with the same game start settings, the same galaxy will be generated. This allows you to regenerate favorite galaxy maps from previous games.
 
 The independent population of RACE have resisted our attempt to colonize the TYPE CATEGORY NAME in the SYSTEM system		;The independent population of {0}s have resisted our attempt to colonize the {1} {2} [LOCATION]{3}[/LOCATION] in the {4} system.\n\nOur colonization attempt has angered them, harming our relations with them.
-ComponentCategory Description CrewQuarters		;Crew Quarters provide living quarters for crew onboard a ship or base. They also incorporate all of the vital life support systems for crew survival.\n\nAll ships and bases require sufficient crew quarters to accommodate the total crew requirements for all of the components in the design.
+ComponentCategory Description CrewQuarters		;Crew Quarters provide living quarters for crew onboard a ship or base. They also incorporate all of the vital life support systems for crew survival.\n\nAll starships and bases require sufficient crew quarters to accommodate the total crew requirements for all of the components in the design.
 
 Unjustifed wars against us increase our resolve		;Unjustified wars against us increase our resolve
 
-FleetFormationCoherence Explanation			;Specifies the proximity of Close Escort and Picket ships to their escorted Core ships in the fleet.
+FleetFormationCoherence Explanation			;Specifies the proximity of Close Escort and Picket starships to their escorted Core starships in the fleet.
 
+Leader Change Disruption Colony Rebel		;The disruption caused by our recent leadership change has led to a rebellion at our colony {0}
 Leader Change Coup Title					;Coup d'état replaces Leader!
 Leader Change Coup							;Our leader {0} has been deposed in a coup d'état!\n\n{1} has seized control as the new leader, and their allies are moving quickly to secure their power.\n\nExpect a period of upheaval and disruption as our empire adjusts to this new regime...
 Leader Change Coup From Existing			;Our leader {0} has been deposed in a coup d'état!\n\n{1}, an existing {2}, has seized control as the new leader, and their allies are moving quickly to secure their power.\n\nExpect a period of upheaval and disruption as our empire adjusts to this new regime...
+Leader Change Replaced Title				;Leader Replaced
+Leader Change Replaced						;Our leader {0} has been ousted!\n\n{1} has been appointed as the new leader, and has assumed immediate control.\n\nHowever this change will not come without upheaval - expect a period of disruption as our empire adjusts to this new leadership...
+Leader Change Replaced From Existing		;Our leader {0} has been ousted!\n\n{1}, an existing {2}, has been appointed as the new leader, and has assumed immediate control.\n\nHowever this change will not come without upheaval - expect a period of disruption as our empire adjusts to this new leadership...
+Leader Change Election Title				;New Leader Elected
+Leader Change Election						;Our leader {0} has been replaced in an empire-wide election\n\n{1} has been elected as the new leader.\n\nThis fresh leadership has sent a wave of enthusiasm through our empire, improving happiness and decreasing war weariness at all our colonies
+Leader Change Election From Existing		;Our leader {0} has been replaced in an empire-wide election\n\n{1}, an existing {2}, has been elected as the new leader.\n\nThis fresh leadership has sent a wave of enthusiasm through our empire, improving happiness and decreasing war weariness at all our colonies
+Leader New Title							;New Leader Takes Power
+Leader New									;{0} has taken power as our new leader, and has assumed immediate control
+Leader New From Existing					;{0}, an existing {1}, has taken power as our new leader, and has assumed immediate control
+Leader Change Colony Boost					;Our new empire leader {0} is boosting happiness
+Leader Change Colony Disrupt				;Our empire's disruptive leadership change ({0}) is reducing happiness
+
 LeaderReplacementType CoupDetat				;Coup d'état
-Problems loading Ship Hulls Explanation		;There was a problem loading some Ship Hulls. You can proceed, but [`B`]some Ship Hulls may be unavailable[/B].\n\nCheck that you have [B]properly installed the game[/B] and any [B]DLC packs[/B].\n\nIf you installed the game or DLC from Steam, ensure that you are [B]logged into Steam[/B].\n\nAlso check that any [B]mods are properly installed[/B].\n\n\nDetails of the problems encountered are below:
+Problems loading Ship Hulls Explanation		;There was a problem loading some Ship Hulls. You can proceed, [B]but some Ship Hulls may be unavailable[/B].\n\nCheck that you have [B]properly installed the game[/B] and any [B]DLC packs[/B].\n\nIf you installed the game or DLC from Steam, ensure that you are [B]logged into Steam[/B].\n\nAlso check that any [B]mods are properly installed[/B].\n\n\nDetails of the problems encountered are below:
+
