@@ -4609,6 +4609,11 @@
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>515</ComponentId>
+		<Name>Planetary Blaster Emplacement</Name>
+		<ImageFilename>XLAssets/Components/325-Planetary Beam Defense</ImageFilename>
+		<Size>150</Size>
+		<Category>WeaponStandoff</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
 		<WeaponEffect>
@@ -4726,10 +4731,7 @@
 			<TrailEffectSpawnRate>0</TrailEffectSpawnRate>
 			<TrailDriftRate>0</TrailDriftRate>
 		</WeaponEffect>
-		<!-- Planetary Blaster Emplacement -->
-		<IsFighterOnly>false</IsFighterOnly>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
-		<Name>Planetary Blaster Emplacement</Name>
 		<Values>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
@@ -5134,15 +5136,12 @@
 				<WeaponVolleyFireRate>0.1</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Size>150</Size>
-		<Category>WeaponStandoff</Category>
 		<Family>Blasters</Family>
 		<ParticleEffectNames />
 		<DisplayTextureNames>
 			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
-		<ImageFilename>XLAssets/Components/325-Planetary Beam Defense</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>516</ComponentId>
@@ -5872,7 +5871,13 @@
 		</Values>
 	</ComponentDefinition>
 	<ComponentDefinition>
+		<!-- Currently not available (Added Hail Cannon [PD] instead) -->
 		<ComponentId>518</ComponentId>
+		<Name>Hail Cannon [M]</Name>
+		<ImageFilename>XLAssets/Components/comp190-m</ImageFilename>
+		<Size>22</Size>
+		<Category>WeaponCloseIn</Category>
+		<IsFighterOnly>false</IsFighterOnly>
 		<WeaponEffect>
 			<UseDirectionalComponent>true</UseDirectionalComponent>
 			<FlipbookMode>Off</FlipbookMode>
@@ -6007,10 +6012,7 @@
 				<Amount>6</Amount>
 			</ResourceQuantity>
 		</ResourcesRequired>
-		<!-- Currently not available (Added Hail Cannon [PD] instead) -->
-		<IsFighterOnly>false</IsFighterOnly>
 		<WeaponMeshType>BarrelledTurret</WeaponMeshType>
-		<Name>Hail Cannon [M]</Name>
 		<Values>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
@@ -6416,14 +6418,11 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Size>22</Size>
-		<Category>WeaponCloseIn</Category>
 		<DisplayTextureNames>
 			<string>Effects/Weapons/Slug1</string>
 		</DisplayTextureNames>
 		<DisplayRotationType>RotateToTarget</DisplayRotationType>
 		<DisplayRotationRate>0.5</DisplayRotationRate>
-		<ImageFilename>XLAssets/Components/comp190-m</ImageFilename>
 	</ComponentDefinition>
 	<ComponentDefinition>
 		<ComponentId>519</ComponentId>

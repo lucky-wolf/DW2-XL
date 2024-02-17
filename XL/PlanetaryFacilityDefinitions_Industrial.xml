@@ -137,14 +137,17 @@
 	</PlanetaryFacilityDefinition>
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>34</PlanetaryFacilityDefinitionId>
-		<QualityBoost>0</QualityBoost>
-		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
+		<Name>Galactic Mining Center</Name>
+		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Mining Center</ImageFilename>
 		<Size>100</Size>
 		<IsRuins>false</IsRuins>
 		<BuildCost>
 			<Money>50000</Money>
 		</BuildCost>
-		<!-- this doesn't actually work currently, game caps it at 0 -->
+		<MaintenanceCost>2500</MaintenanceCost>
+		<FacilityFamilyId>19</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
 			<Bonus>
 				<Type>MiningRate</Type>
@@ -184,16 +187,13 @@
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
-		<!-- <QualityBoost>-0.05</QualityBoost> -->
+		<MaximumBuildCountPerGalaxy>-1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>
 		<WeaponComponentId>-1</WeaponComponentId>
-		<FacilityFamilyId>19</FacilityFamilyId>
-		<FacilityFamilyLevel>0</FacilityFamilyLevel>
-		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<AllowTroopInfantryCloning>false</AllowTroopInfantryCloning>
-		<MaintenanceCost>2500</MaintenanceCost>
-		<Name>Galactic Mining Center</Name>
-		<ImageFilename>XLAssets/PlanetaryFacilities/Galactic Mining Center</ImageFilename>
+		<!-- this doesn't actually work currently, game caps it at 0 -->
+		<!-- <QualityBoost>-0.05</QualityBoost> -->
+		<QualityBoost>0</QualityBoost>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

@@ -2680,6 +2680,10 @@
 	<ComponentDefinition>
 		<ComponentId>372</ComponentId>
 		<Name>Tortoise Shields [Ftr]</Name>
+		<ImageFilename>XLAssets/Components/comp004-f</ImageFilename>
+		<Size>7</Size>
+		<Category>Shields</Category>
+		<IsFighterOnly>true</IsFighterOnly>
 		<UseLargeMeshIfAvailable>false</UseLargeMeshIfAvailable>
 		<ResourcesRequired>
 			<ResourceQuantity>
@@ -2704,8 +2708,6 @@
 			</ResourceQuantity>
 		</ResourcesRequired>
 		<WeaponMeshType>Undefined</WeaponMeshType>
-		<IsFighterOnly>true</IsFighterOnly>
-		<!-- ftr variant missing -->
 		<Values>
 			<ComponentStats>
 				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
@@ -3383,11 +3385,7 @@
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
 		</Values>
-		<Size>7</Size>
-		<Category>Shields</Category>
 		<DisplayRotationType>None</DisplayRotationType>
 		<DisplayRotationRate>0</DisplayRotationRate>
-		<!-- <ImageFilename>XLAssets/Components/372-Bubble Shields FTR</ImageFilename> -->
-		<ImageFilename>XLAssets/Components/comp004-f</ImageFilename>
 	</ComponentDefinition>
 </ArrayOfComponentDefinition>

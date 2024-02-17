@@ -912,14 +912,15 @@
 		<EvasionSpecialForces>0</EvasionSpecialForces>
 	</TroopDefinition>
 	<TroopDefinition>
+		<!-- Quameno can build robotic troops as their infantry (their only infantry) -->
 		<TroopDefinitionId>49</TroopDefinitionId>
 		<Name>Battlebot Unit</Name>
-		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 		<RaceId>15</RaceId>
-		<!-- Quameno can build robotic troops as their infantry (their only infantry) -->
 		<Type>Infantry</Type>
-		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<Size>2000</Size>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
 		<RecruitmentCost>
 			<Money>2000</Money>
 		</RecruitmentCost>
@@ -930,7 +931,6 @@
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.25</EvasionArmor>
 		<EvasionTitan>0.25</EvasionTitan>
-		<ImageFilename>Extras/TroopSymbols/Robotic_troops</ImageFilename>
 	</TroopDefinition>
 	<TroopDefinition>
 		<TroopDefinitionId>50</TroopDefinitionId>
@@ -1114,13 +1114,14 @@
 	</TroopDefinition>
 	<TroopDefinition>
 		<!-- hive, I think -->
-		<EvasionSpecialForces>0</EvasionSpecialForces>
-		<EvasionPlanetaryDefense>0.15</EvasionPlanetaryDefense>
+		<TroopDefinitionId>32764</TroopDefinitionId>
 		<Name>Hive Raider</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 		<RaceId>249</RaceId>
 		<Type>Raider</Type>
-		<TroopDefinitionId>32764</TroopDefinitionId>
 		<Size>4000</Size>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
+		<EvasionPlanetaryDefense>0.15</EvasionPlanetaryDefense>
 		<RecruitmentCost>
 			<Money>0</Money>
 		</RecruitmentCost>
@@ -1131,6 +1132,5 @@
 		<EvasionInfantry>0</EvasionInfantry>
 		<EvasionArmor>0.15</EvasionArmor>
 		<EvasionTitan>0.15</EvasionTitan>
-		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
 	</TroopDefinition>
 </ArrayOfTroopDefinition>

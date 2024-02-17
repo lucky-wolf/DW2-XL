@@ -3451,8 +3451,8 @@
 		</TroopTechs>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>80</ResearchProjectId>
 		<!-- <Name>Mobile Defense Networks</Name> -->
+		<ResearchProjectId>80</ResearchProjectId>
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
@@ -6620,8 +6620,8 @@
 		</TroopTechs>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>143</ResearchProjectId>
 		<!-- <Name>Integrated Defense Networks</Name> -->
+		<ResearchProjectId>143</ResearchProjectId>
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
@@ -9370,8 +9370,8 @@
 		</TroopTechs>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>197</ResearchProjectId>
 		<!-- <Name>Advanced Defense Networks</Name> -->
+		<ResearchProjectId>197</ResearchProjectId>
 		<Name>Undefined</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>33</Size>
@@ -29902,7 +29902,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>462</Row>
+		<Row>464</Row>
 		<DisallowedRaceIds>
 			<!-- Boskarans cannot be diplomats -->
 			<RaceProbability>
@@ -29926,6 +29926,12 @@
 			</RaceProbability>
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<!-- Galactic Cooperation Foundation -->
+				<ResearchProjectId>870</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 			<!-- Social races only -->
 			<ResearchPath>
 				<!-- Human -->
@@ -36149,5 +36155,52 @@
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</EmpireBonuses>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>870</ResearchProjectId>
+		<Name>Galactic Cooperation</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>300</Size>
+		<InitiationCost>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>463</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<!-- Interstellar Commerce -->
+				<ResearchProjectId>391</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Planetary Administration -->
+				<ResearchProjectId>425</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<ParentProjectsMinimumPathCount>0</ParentProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>108</short>
+		</PlanetaryFacilityIds>
+		<RepeatableTechLimit>0</RepeatableTechLimit>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

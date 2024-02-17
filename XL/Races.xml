@@ -276,7 +276,6 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<!-- Phaser Lance [L] -->
 			<!-- <short>39</short> -->
 		</PreferredWeaponComponentIds>
-
 		<TreatySignedTypes>
 			<EmpireRelationType>FreeTrade</EmpireRelationType>
 			<EmpireRelationType>Defense</EmpireRelationType>
@@ -293,7 +292,6 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<string>Great Art Exposition from Free Trade (Human)</string>
 			<string>Internal Debates Trigger (Human)</string>
 		</TreatySignedGameEventNames>
-
 		<ShipRoleBuiltRoles>
 			<ShipRole>ResortBase</ShipRole>
 		</ShipRoleBuiltRoles>
@@ -306,32 +304,26 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<ShipRoleBuiltGameEventNames>
 			<string>Great Art Exposition from Resort Base Built (Human)</string>
 		</ShipRoleBuiltGameEventNames>
-
 		<WarStartedByOtherGameEventName>Hero of the Hour Trigger (Human)</WarStartedByOtherGameEventName>
-
 		<ForeignIntelligenceMissionSuccessGameEventName>Heightened Security Trigger (Human)</ForeignIntelligenceMissionSuccessGameEventName>
-
 		<ColonizationOrbTypeIds>
 			<unsignedByte>7</unsignedByte>
 		</ColonizationOrbTypeIds>
 		<ColonizationOrbTypeGameEventNames>
 			<string>New Worlds Continental Colonization (Human)</string>
 		</ColonizationOrbTypeGameEventNames>
-
 		<ColonyConquestOrbTypeIds>
 			<unsignedByte>7</unsignedByte>
 		</ColonyConquestOrbTypeIds>
 		<ColonyConquestOrbTypeGameEventNames>
 			<string>New Worlds Continental Conquest (Human)</string>
 		</ColonyConquestOrbTypeGameEventNames>
-
 		<AdditionalCharacterTraits>
 			<CharacterTraitType>AllianceBuilder</CharacterTraitType>
 			<CharacterTraitType>Entrepreneur</CharacterTraitType>
 			<CharacterTraitType>IndustrialAgent</CharacterTraitType>
 			<CharacterTraitType>Destructive</CharacterTraitType>
 		</AdditionalCharacterTraits>
-
 		<FeatureExplanations>
 			<string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
 			<string>[HL]Hero of the Hour:[/HL] When war is declared on you choose either a new Admiral or new General with two positive traits</string>
@@ -344,7 +336,6 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<string>[HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage</string>
 			<string>[HL]Unique Scientist trait - Destructive:[/HL] +10% Weapons Research</string>
 		</FeatureExplanations>
-
 		<Biases>
 			<RaceFactor>
 				<RaceId>1</RaceId>
@@ -2413,7 +2404,6 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
-
 		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
 		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
 		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
@@ -2424,7 +2414,6 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<CharacterTraitType>DiscipleOfWar</CharacterTraitType>
 			<CharacterTraitType>IntimidatingPresence</CharacterTraitType>
 		</AdditionalCharacterTraits>
-
 		<FeatureExplanations>
 			<string>[HL]Warrior Wave:[/HL] When you declare war obtain a 2 year boost to Mortalen Population Growth along with your choice of either a large Troop Recruitment Rate boost or a Troop Attack Strength boost</string>
 			<string>[HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction</string>
@@ -2436,7 +2425,6 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
 			<string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
 		</FeatureExplanations>
-
 		<Bonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
@@ -7402,6 +7390,10 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 	<Race>
 		<RaceId>249</RaceId>
 		<Name>Crazed Hive Insectoids</Name>
+		<Description />
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+		<BundleName>Hive</BundleName>
+		<!-- colonization borrowed from Gizuran -->
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
@@ -7480,8 +7472,6 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 				<Factor>-1.6</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
-		<BundleName>Hive</BundleName>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
@@ -7577,12 +7567,13 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</Bonuses>
-		<!-- colonization borrowed from Gizuran -->
-		<Description />
 	</Race>
 	<Race>
 		<RaceId>248</RaceId>
 		<Name>Berserk AI</Name>
+		<Description />
+		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
+		<!-- colonization borrowed from Mortalen -->
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
@@ -7661,7 +7652,6 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 				<Factor>-1.6</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>19</OrbTypeId>
@@ -7742,12 +7732,11 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 			<short>1</short>
 		</AllowableGovernmentIds>
 		<Bonuses />
-		<!-- colonization borrowed from Mortalen -->
-		<Description />
 	</Race>
 	<Race>
 		<RaceId>20</RaceId>
 		<Name>Shakturi</Name>
+		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
 		<BundleName>Shakturi</BundleName>
 		<!-- Colonization borrowed from Boskarans -->
 		<ColonizationSuitabilityModifiers>
@@ -7868,7 +7857,6 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 			<short>1</short>
 		</AllowableGovernmentIds>
 		<DefaultInfantryId>54</DefaultInfantryId>
-		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
 	</Race>
 	<!--Race>
     <RaceId>21</RaceId>
