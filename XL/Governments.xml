@@ -1650,6 +1650,14 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ResearchArmor</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -3190,7 +3198,7 @@ The real government is controlled by powerful entities that prefer to remain in 
 			</Bonus>
 			<Bonus>
 				<Type>ColonyHappiness</Type>
-				<Amount>-0.05</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3198,7 +3206,7 @@ The real government is controlled by powerful entities that prefer to remain in 
 			</Bonus>
 			<Bonus>
 				<Type>ColonyCorruptionReduction</Type>
-				<Amount>-0.05</Amount>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -3221,6 +3229,14 @@ The real government is controlled by powerful entities that prefer to remain in 
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>TroopRecoveryRate</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -3229,8 +3245,8 @@ The real government is controlled by powerful entities that prefer to remain in 
 				<Description />
 			</Bonus>
 			<Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.2</Amount>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>

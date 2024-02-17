@@ -214,6 +214,7 @@ YMMV, but this is my take on making it Extra Large!
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
 - Reduced the size of fusion reactors so they have some appeal (again)
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
+- Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
