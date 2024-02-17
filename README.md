@@ -216,7 +216,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
 - Broke out all energy collectors into their own components (no v2 upgrades)
-- Visual sugar for strike craft part of the tech tree
+- Visual sugar for strike craft part of the tech tree (just looks a bit more balanced)
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

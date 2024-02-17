@@ -34,7 +34,7 @@ func (j *Job) applyIonShields() (err error) {
 			scaleTo:  []string{"Ion Shield [Ftr]"},
 			minLevel: 2,
 			maxLevel: 10,
-			fieldValues: ValuesTable{
+			fieldValues: ComponentStats{
 				"ComponentIonDefense": HardenedComponentIonDefense,
 				"IonDamageDefense":    IonShieldIonDamageDefense,
 				"CrewRequirement":     func(level int) float64 { return 5 },

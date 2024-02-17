@@ -3,7 +3,7 @@ package algorithm
 import (
 	"fmt"
 	"log"
-	"lucky-wolf/DW2-XL/code/cmd/etc"
+	"lucky-wolf/DW2-XL/code/etc"
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"regexp"
 )
@@ -23,7 +23,7 @@ var (
 	fighterHullSchedule = HullBaySchedule{
 		"FighterInterceptor": {
 			HullTiers: HullTiers{0: 1, 2: 2, 4: 3, 9: 4, 13: 5, 15: 6},
-			ValuesTable: ValuesTable{
+			ValuesTable: ComponentStats{
 				"ArmorReactiveRating":  func(tier Tier) float64 { return float64(2 * tier) },
 				"IonDefenseRating":     func(tier Tier) float64 { return float64(4 * tier) },
 				"CountermeasuresBonus": func(tier Tier) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },
@@ -77,7 +77,7 @@ var (
 		},
 		"FighterBomber": {
 			HullTiers: HullTiers{0: 1, 1: 2, 2: 3, 4: 4, 5: 5, 6: 6},
-			ValuesTable: ValuesTable{
+			ValuesTable: ComponentStats{
 				"ArmorReactiveRating":  func(tier Tier) float64 { return float64(2 * tier) },
 				"IonDefenseRating":     func(tier Tier) float64 { return float64(4 * tier) },
 				"CountermeasuresBonus": func(tier Tier) float64 { return []float64{.13, .16, .19, .22, .25, .28}[tier-1] },

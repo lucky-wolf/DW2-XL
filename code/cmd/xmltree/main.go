@@ -89,6 +89,8 @@ func main() {
 		err = algorithm.IonShields(folder)
 	case "IonWeapons":
 		err = algorithm.IonWeapons(folder)
+	case "KineticShipWeapons":
+		err = algorithm.KineticShipWeapons(folder)
 	case "ScalePlanetFrequencies":
 		err = algorithm.ScalePlanetFrequencies(folder, scale)
 	case "PartialOrdering":

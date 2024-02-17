@@ -9,7 +9,7 @@ var (
 			StringsTable: StringsTable{
 				"Name": func(tier Tier) string { return cruiserNames[tier] },
 			},
-			ValuesTable: ValuesTable{
+			ValuesTable: ComponentStats{
 				"ArmorReactiveRating":  func(tier Tier) float64 { return float64(2 * tier) },
 				"IonDefenseRating":     func(tier Tier) float64 { return float64(4 * tier) },
 				"CountermeasuresBonus": func(tier Tier) float64 { return []float64{.26, .32, .38, .44, .50, .56}[tier-1] },

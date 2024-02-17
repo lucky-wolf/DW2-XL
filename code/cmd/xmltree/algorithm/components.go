@@ -3,16 +3,16 @@ package algorithm
 import (
 	"fmt"
 	"log"
-	"lucky-wolf/DW2-XL/code/cmd/etc"
+	"lucky-wolf/DW2-XL/code/etc"
 	"lucky-wolf/DW2-XL/code/xmltree"
 	"regexp"
 )
 
+type ComponentStats = map[string]LevelFunc
 type LevelFunc = func(level int) float64
-type ValuesTable = map[string]LevelFunc
 
-func ExtendValuesTable(fields, more ValuesTable) (result ValuesTable) {
-	result = ValuesTable{}
+func ExtendValuesTable(fields, more ComponentStats) (result ComponentStats) {
+	result = ComponentStats{}
 	for k, v := range fields {
 		result[k] = v
 	}
@@ -28,7 +28,7 @@ type ComponentData struct {
 	//       that's just column in which it is listed for each level...
 	minLevel    int
 	maxLevel    int
-	fieldValues ValuesTable
+	fieldValues ComponentStats
 }
 
 type ComponentIs struct {
@@ -416,7 +416,7 @@ func ZeroInterceptValues(e *xmltree.XMLElement) (err error) {
 	return
 }
 
-func GetComponentSourceName(targetName string, is ComponentIs) (sourceName string) {
+func GetFighterOrPointDefenseSourceName(targetName string, is ComponentIs) (sourceName string) {
 
 	// find the corresponding small weapon by name
 	// PD in particular uses asymmetric sources

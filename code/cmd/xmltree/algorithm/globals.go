@@ -28,7 +28,7 @@ type HullTiers map[HullLevel]Tier
 type HullRoleDefinition struct {
 	HullTiers          HullTiers // optional mapping of hull tier to logical level
 	StringsTable       StringsTable
-	ValuesTable        ValuesTable
+	ValuesTable        ComponentStats
 	BayCountsPerLevels BayCountsPerLevels
 }
 type HullBaySchedule map[RoleName]HullRoleDefinition
@@ -75,9 +75,24 @@ const (
 
 const IonFtrPDScaleFactor = 0.75
 
+func CrewRequirements(size int) int {
+	switch size {
+	case 11, 13:
+		return 5
+	case 22, 26:
+		return 8
+	}
+	return 12
+}
+
 // standard weapon countermeasure schedule (by tech level)
-func ComponentCountermeasuresBonus(level int) float64 {
+func DirectFireComponentCountermeasuresBonus(level int) float64 {
 	return 0.6 + float64(level)*0.02
+}
+
+// standard weapon countermeasure schedule (by tech level)
+func SeekingComponentCountermeasuresBonus(level int) float64 {
+	return 0.5 + float64(level)*0.02
 }
 
 // arbitrary
