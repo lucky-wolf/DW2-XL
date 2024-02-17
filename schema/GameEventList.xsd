@@ -151,6 +151,9 @@
       <xs:enumeration value="CheckEmpireTechLevel" />
       <xs:enumeration value="CheckColonyNotExistsOrIsIndependent" />
       <xs:enumeration value="CheckColonyExistsAndIsNotIndependent" />
+      <xs:enumeration value="CheckColonyEventIsActiveAnywhereInEmpire" />
+      <xs:enumeration value="CheckColonyEventIsNotActiveAnywhereInEmpire" />
+      <xs:enumeration value="CheckColonyEventIntervalSinceLastActiveInEmpire" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ComparisonType">
@@ -198,6 +201,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemName" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="AllConditionsMustBeMet" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="Conditions" type="ArrayOfGameEventCondition" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MessageViewMode" type="EmpireMessageViewMode" />
       <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMinimum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="DelaySecondsMaximum" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="GeneratedItemEventNames" type="ArrayOfString" />
@@ -318,6 +322,7 @@
       <xs:enumeration value="ChangeFacilityDiscoveryLevel" />
       <xs:enumeration value="AddResourceBonus" />
       <xs:enumeration value="UnlockFactionSpecialShipTech" />
+      <xs:enumeration value="ResearchBreakthroughFromColonyConquest" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="GameEventLocationHint">
@@ -347,6 +352,7 @@
       <xs:enumeration value="TriggeringItem" />
       <xs:enumeration value="BestColonyNonCapital" />
       <xs:enumeration value="VeryNearbyEmptySystem" />
+      <xs:enumeration value="HighestDevelopmentColony" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ItemType">
@@ -559,6 +565,14 @@
       <xs:enumeration value="Undefined" />
       <xs:enumeration value="Item" />
       <xs:enumeration value="Empire" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EmpireMessageViewMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Dialog" />
+      <xs:enumeration value="DialogWithoutExtraInfo" />
+      <xs:enumeration value="Fullscreen" />
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="ArrayOfString">

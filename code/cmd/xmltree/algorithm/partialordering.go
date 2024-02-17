@@ -70,7 +70,7 @@ func (j *Job) applyPartialOrderingTo(f *XFile, arrayOf *xmltree.XMLElement, firs
 	for _, object := range elements {
 
 		// for each first, find it, and insert at next top position
-		to := 0
+		to := object.ZeroElementIndex()
 		for _, tag := range firsts {
 
 			// see if this element exists

@@ -10,7 +10,7 @@
 			<Money>10000</Money>
 		</BuildCost>
 		<MaintenanceCost>250</MaintenanceCost>
-		<FacilityFamilyId>62</FacilityFamilyId>
+		<FacilityFamilyId>102</FacilityFamilyId>
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<ItemBonuses>
@@ -80,11 +80,11 @@
 		<FacilityFamilyLevel>0</FacilityFamilyLevel>
 		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
 		<EmpireBonuses>
-			<!-- <Bonus>
+			<Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus> -->
+			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.2</Amount>
@@ -107,11 +107,11 @@
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
-			<!-- <Bonus>
+			<Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.25</Amount>
 				<AppliesTo>Item</AppliesTo>
-			</Bonus> -->
+			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.25</Amount>
@@ -231,11 +231,11 @@
 		<FacilityFamilyId>50</FacilityFamilyId>
 		<ExclusiveWithinFamily>false</ExclusiveWithinFamily>
 		<EmpireBonuses>
-			<!-- <Bonus>
+			<Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.35</Amount>
 				<AppliesTo>Empire</AppliesTo>
-			</Bonus> -->
+			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.35</Amount>
@@ -258,11 +258,11 @@
 			</Bonus>
 		</EmpireBonuses>
 		<ItemBonuses>
-			<!-- <Bonus>
+			<Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.5</Amount>
 				<AppliesTo>Item</AppliesTo>
-			</Bonus> -->
+			</Bonus>
 			<Bonus>
 				<Type>TroopMaintenance</Type>
 				<Amount>0.5</Amount>

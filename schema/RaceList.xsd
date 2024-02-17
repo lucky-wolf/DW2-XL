@@ -52,6 +52,14 @@
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="ColonizationNewOrbTypeColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="ColonizationNewOrbTypeIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="ColonizationNewOrbTypeGameEventNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationOrbTypeIds" type="ArrayOfUnsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationOrbTypeColonyEventDefinitionIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationOrbTypeColonySelections" type="ArrayOfColonySelection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonizationOrbTypeGameEventNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyConquestOrbTypeIds" type="ArrayOfUnsignedByte" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyConquestOrbTypeColonyEventDefinitionIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyConquestOrbTypeColonySelections" type="ArrayOfColonySelection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ColonyConquestOrbTypeGameEventNames" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FirstNonAggressionPerFactionColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FirstDefenseTreatyPerFactionColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="WarStartedByUsColonyEventDefinitionId" type="xs:short" />
@@ -72,6 +80,18 @@
       <xs:element minOccurs="0" maxOccurs="1" name="ResearchProjectCompletedAdvancedMinimumTechLevel" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltRoles" type="ArrayOfShipRole" />
       <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltColonyEventDefinitionIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltColonySelections" type="ArrayOfColonySelection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ShipRoleBuiltGameEventNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatySignedTypes" type="ArrayOfEmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatySignedColonyEventDefinitionIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatySignedColonySelections" type="ArrayOfColonySelection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TreatySignedGameEventNames" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WarStartedByUsGameEventName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WarStartedByOtherGameEventName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ForeignIntelligenceMissionSuccessGameEventName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="ForeignIntelligenceMissionSuccessColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OurIntelligenceMissionSuccessGameEventName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="OurIntelligenceMissionSuccessColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="ResearchLocationDiscoveredProgressChance" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ResearchLocationDiscoveredProgressAmountRatio" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="CharacterTraitPuzzleSolverBuildPlanetaryFacilityId" type="xs:short" />
@@ -83,6 +103,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="OtherRaceExterminateGrowthRatePerColony" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="-1" name="OtherRaceExterminateColonyEventDefinitionId" type="xs:short" />
       <xs:element minOccurs="0" maxOccurs="1" name="CharacterPowerStruggleChancePerYear" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CharacterProvingChancePerYear" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="PsychicVulnerability" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="PsychicEnergyGeneration" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="PlagueSusceptibility" type="xs:float" />
@@ -382,6 +403,17 @@
       <xs:element minOccurs="0" maxOccurs="unbounded" name="unsignedByte" type="xs:unsignedByte" />
     </xs:sequence>
   </xs:complexType>
+  <xs:complexType name="ArrayOfColonySelection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ColonySelection" type="ColonySelection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="ColonySelection">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Capital" />
+      <xs:enumeration value="HighestDevelopment" />
+    </xs:restriction>
+  </xs:simpleType>
   <xs:complexType name="ArrayOfShipRole">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="ShipRole" type="ShipRole" />
@@ -417,6 +449,36 @@
       <xs:enumeration value="FighterBomber" />
       <xs:enumeration value="FuelTanker" />
       <xs:enumeration value="PlanetDestroyer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfEmpireRelationType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EmpireRelationType" type="EmpireRelationType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="EmpireRelationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="FirstContact" />
+      <xs:enumeration value="NonAggression" />
+      <xs:enumeration value="RestrictedTrade" />
+      <xs:enumeration value="LimitedTrade" />
+      <xs:enumeration value="FreeTrade" />
+      <xs:enumeration value="ResourceSupply" />
+      <xs:enumeration value="Migration" />
+      <xs:enumeration value="MiningRights" />
+      <xs:enumeration value="MilitaryRefuelling" />
+      <xs:enumeration value="Research" />
+      <xs:enumeration value="Defense" />
+      <xs:enumeration value="Exploration" />
+      <xs:enumeration value="TerritoryMapSharing" />
+      <xs:enumeration value="GalaxyMapSharing" />
+      <xs:enumeration value="OperationsMapSharing" />
+      <xs:enumeration value="IntelligenceSharing" />
+      <xs:enumeration value="War" />
+      <xs:enumeration value="Subjugation" />
+      <xs:enumeration value="Peace" />
+      <xs:enumeration value="PirateProtection" />
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="ArrayOfCharacterTraitType">
@@ -525,6 +587,14 @@
       <xs:enumeration value="ControllingMind" />
       <xs:enumeration value="SwarmLord" />
       <xs:enumeration value="LarvaOverseer" />
+      <xs:enumeration value="AllianceBuilder" />
+      <xs:enumeration value="Entrepreneur" />
+      <xs:enumeration value="IndustrialAgent" />
+      <xs:enumeration value="Destructive" />
+      <xs:enumeration value="Warmaster" />
+      <xs:enumeration value="GrandAdmiral" />
+      <xs:enumeration value="DiscipleOfWar" />
+      <xs:enumeration value="IntimidatingPresence" />
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="ArrayOfCharacterMissionType">

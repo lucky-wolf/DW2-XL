@@ -25,10 +25,14 @@
       <xs:element minOccurs="0" maxOccurs="1" name="RandomInitiationChance" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="RaceFilterIds" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="OrbTypeFilters" type="ArrayOfOrbTypeFactor" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GovernmentFilterIds" type="ArrayOfShort" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanBeManuallyInitiated" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ManualInitiationCost" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="Bonuses" type="ArrayOfBonus" />
       <xs:element minOccurs="0" maxOccurs="1" name="ValuesDecayGradually" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="PlagueModifiersPerRaceId" type="ArrayOfUnsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="PlagueModifiersPerRaceAmount" type="ArrayOfFloat" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MinimumIntervalPerEmpireYears" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
@@ -56,6 +60,11 @@
       <xs:element minOccurs="0" maxOccurs="1" name="OrbTypeId" type="xs:unsignedByte" />
       <xs:element minOccurs="0" maxOccurs="1" name="Factor" type="xs:float" />
     </xs:all>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfShort">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="short" type="xs:short" />
+    </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ArrayOfBonus">
     <xs:sequence>

@@ -69,6 +69,19 @@
       <xs:element minOccurs="0" maxOccurs="1" name="BuildIndependentShips" type="xs:boolean" />
       <xs:element minOccurs="0" maxOccurs="1" name="PreferredComponentFamilyPerCategory" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="PreferredComponentFamilyPerCategoryAlternate" type="ArrayOfString" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLevelIntercept" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLevelIon" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLevelArea" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLevelBombard" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLevelFighters" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLowestRoleIon" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLowestRoleArea" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLowestRoleBombard" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WeaponLowestRoleFighters" type="ShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentFocusReactor" type="ReactorFocus" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentFocusShield" type="ShieldFocus" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentFocusHyperdrive" type="HyperdriveFocus" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ComponentFocusEngine" type="EngineFocus" />
       <xs:element minOccurs="0" maxOccurs="1" name="ResearchMaximumConcurrentProjects" type="xs:int" />
       <xs:element minOccurs="0" maxOccurs="1" name="MilitaryShipMissionRatioEscort" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="MilitaryShipMissionRatioGuard" type="xs:float" />
@@ -447,4 +460,65 @@
       <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
+  <xs:simpleType name="ShipRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Escort" />
+      <xs:enumeration value="Frigate" />
+      <xs:enumeration value="Destroyer" />
+      <xs:enumeration value="Cruiser" />
+      <xs:enumeration value="CapitalShip" />
+      <xs:enumeration value="Carrier" />
+      <xs:enumeration value="TroopTransport" />
+      <xs:enumeration value="FreighterSmall" />
+      <xs:enumeration value="FreighterMedium" />
+      <xs:enumeration value="FreighterLarge" />
+      <xs:enumeration value="MiningShip" />
+      <xs:enumeration value="ConstructionShip" />
+      <xs:enumeration value="ExplorationShip" />
+      <xs:enumeration value="PassengerShip" />
+      <xs:enumeration value="ColonyShip" />
+      <xs:enumeration value="SpaceportSmall" />
+      <xs:enumeration value="SpaceportMedium" />
+      <xs:enumeration value="SpaceportLarge" />
+      <xs:enumeration value="MiningStation" />
+      <xs:enumeration value="DefensiveBase" />
+      <xs:enumeration value="ResearchStation" />
+      <xs:enumeration value="MonitoringStation" />
+      <xs:enumeration value="ResortBase" />
+      <xs:enumeration value="FighterInterceptor" />
+      <xs:enumeration value="FighterBomber" />
+      <xs:enumeration value="FuelTanker" />
+      <xs:enumeration value="PlanetDestroyer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ReactorFocus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Neutral" />
+      <xs:enumeration value="Efficiency" />
+      <xs:enumeration value="PowerOutput" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ShieldFocus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Neutral" />
+      <xs:enumeration value="RechargeRate" />
+      <xs:enumeration value="Strength" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="HyperdriveFocus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Neutral" />
+      <xs:enumeration value="Efficiency" />
+      <xs:enumeration value="JumpInitiationTime" />
+      <xs:enumeration value="Speed" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EngineFocus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Neutral" />
+      <xs:enumeration value="Efficiency" />
+      <xs:enumeration value="Thrust" />
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>

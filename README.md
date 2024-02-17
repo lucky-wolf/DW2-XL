@@ -208,8 +208,12 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.6
-- DW2 1.2.0.6 compatible and required
+- DW2 1.2.0.8 compatible and required
+  - note: does NOT include changes to human techs nor the new mortalen armor (nor adjustments to ship hulls)
 - Updated to latest bundles from @salemonz with a new ID system
+- Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
+- Reduced the size of fusion reactors so they have some appeal (again)
+- Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

@@ -265,6 +265,14 @@
       <xs:enumeration value="ControllingMind" />
       <xs:enumeration value="SwarmLord" />
       <xs:enumeration value="LarvaOverseer" />
+      <xs:enumeration value="AllianceBuilder" />
+      <xs:enumeration value="Entrepreneur" />
+      <xs:enumeration value="IndustrialAgent" />
+      <xs:enumeration value="Destructive" />
+      <xs:enumeration value="Warmaster" />
+      <xs:enumeration value="GrandAdmiral" />
+      <xs:enumeration value="DiscipleOfWar" />
+      <xs:enumeration value="IntimidatingPresence" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

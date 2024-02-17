@@ -463,6 +463,8 @@
       <xs:enumeration value="UI_CycleIdleFleetsBack" />
       <xs:enumeration value="UI_CycleCameraMode_FreeForm" />
       <xs:enumeration value="AbandonColony" />
+      <xs:enumeration value="StartColonyEvent" />
+      <xs:enumeration value="SetEmpireFlagShip" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="ShipRole">

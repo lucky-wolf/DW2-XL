@@ -7,6 +7,7 @@ import (
 )
 
 // returns XMLElements only
+// warn: this slice doesn't correspond exactly with our contents (e.g. comments are omitted)
 func (v *XMLValue) Elements() (elements []*XMLElement) {
 
 	// it is legal to call on a nil value (we simply have no child elements)
@@ -70,15 +71,6 @@ func CloneContents(contents any) any {
 	case *XMLProcInst:
 		return &XMLProcInst{ProcInst: t.Copy()}
 
-	// case XMLElement:
-	// 	return XMLElement{StartElement: v.StartElement.Copy(), XMLValue: v.XMLValue.Clone()}
-	// case XMLComment:
-	// 	return XMLComment{Comment: v.Copy()}
-	// case XMLDirective:
-	// 	return XMLDirective{Directive: v.Copy()}
-	// case XMLProcInst:
-	// 	return XMLProcInst{ProcInst: v.Copy()}
-
 	case string:
 		return t
 	}
@@ -101,7 +93,7 @@ func (v *XMLValue) SetElementCountByCopyingFirstElementAsNeeded(count int) (err 
 	case l < count:
 		log.Printf("extending by %d elements", count-l)
 		for i := l; i < count; i++ {
-			v.Append(elements[0])
+			v.Append(elements[0].Clone())
 		}
 
 	case l > count:
@@ -113,12 +105,13 @@ func (v *XMLValue) SetElementCountByCopyingFirstElementAsNeeded(count int) (err 
 }
 
 // we must already be a []any or we error
+// warn: you must clone the element if you need this to be a clone and not that exact instance
 func (v *XMLValue) Append(e *XMLElement) (err error) {
 
 	switch t := v.contents.(type) {
 
 	case []any:
-		v.contents = append(t, e.Clone())
+		v.contents = append(t, e)
 
 	default:
 		err = fmt.Errorf("xmlvalue must be []any")
@@ -128,11 +121,24 @@ func (v *XMLValue) Append(e *XMLElement) (err error) {
 }
 
 // we must already be a []any or this is an error
+// warn: count is count of XMLElements, not real children
 func (v *XMLValue) Truncate(count int) (err error) {
 
 	switch t := v.contents.(type) {
 
 	case []any:
+		elements := v.Elements()
+		// trick is to remove final elements from the real slice until we're down to the desired count of elements
+		for len(elements) > count {
+			for i := len(elements); i != 0; i-- {
+				last := len(elements) - 1
+				if t[i-1] == elements[last] {
+					t = etc.RemoveSpanInSitu(t, i, 1)
+					elements = elements[:last]
+					break
+				}
+			}
+		}
 		v.contents = t[:count]
 
 	default:
@@ -143,6 +149,7 @@ func (v *XMLValue) Truncate(count int) (err error) {
 }
 
 // we must already be a []any or we error
+// warn: YOU MUST GIVE US INDEXES using ChildIndex, not from Elements()
 func (v *XMLValue) InsertCopyOf(index, copy int) (err error) {
 
 	switch t := v.contents.(type) {
@@ -159,6 +166,7 @@ func (v *XMLValue) InsertCopyOf(index, copy int) (err error) {
 
 // we must already be a []any or we error
 // WARN! we'll use the element you hand us, if you need to copy it, use e.Clone() when calling us!
+// warn: YOU MUST GIVE US INDEXES using ChildIndex, not from Elements()
 func (v *XMLValue) InsertAt(index int, e *XMLElement) (err error) {
 
 	switch t := v.contents.(type) {
@@ -174,6 +182,7 @@ func (v *XMLValue) InsertAt(index int, e *XMLElement) (err error) {
 }
 
 // we must already be a []any or this is an error
+// warn: YOU MUST GIVE US INDEXES using ChildIndex, not from Elements()
 func (v *XMLValue) RemoveSpan(index int, count int) (err error) {
 
 	switch t := v.contents.(type) {
@@ -208,6 +217,7 @@ func (v *XMLValue) RemoveSpan(index int, count int) (err error) {
 
 // reorders the given child to the specified index
 // warn: we must already be a []any or we error
+// warn: YOU MUST GIVE US INDEXES using ChildIndex, not from Elements()
 func (v *XMLValue) Reorder(from, to int) (err error) {
 
 	switch t := v.contents.(type) {

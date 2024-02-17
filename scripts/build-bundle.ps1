@@ -20,7 +20,8 @@ if ($build -ne 0) {
 }
 
 Write-Host "removing old bundle files..."
-Remove-Item -Force -Path "$target\*.bundle"
+Remove-Item -Force -Path "$target\XL.bundle"
+Remove-Item -Force -Path "$target\XL.*.bundle"
 
 Write-Host "copying new bundle files..."
 Copy-Item -Container -Force -Path "$source\XL*.bundle" -Destination "$target\" -PassThru | ForEach-Object { Write-Host $_.Name. }

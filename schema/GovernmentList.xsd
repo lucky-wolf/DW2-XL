@@ -17,6 +17,8 @@
       <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementBoost" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementCharacterPool" type="ArrayOfCharacterRole" />
       <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementTypicalManner" type="LeaderReplacementType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementCharacterPositiveTraitChance" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LeaderReplacementCharacterDismissChance" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="Stability" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ConcernForOwnReputation" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImportanceOfOthersReputations" type="xs:float" />
@@ -49,6 +51,22 @@
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="CharacterTraitFactorInspiringPresence" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="CharacterTraitFactorDemoralizing" type="xs:float" />
       <xs:element minOccurs="0" maxOccurs="1" default="1" name="LuxuryResourceConsumptionRateFactor" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="HighColonyTroopPresenceHappinessBoost" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UseFlagShip" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FlagShipDestroyedColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="FlagShipPrevailsColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UnjustifiedWarsGiveNoPenaltyToWarWeariness" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" default="1" name="HyperjumpAccuracyEmpireLocationModifier" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="WartimeColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="WarStartColonyEventDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" default="-1" name="MilitiaTroopDefinitionId" type="xs:short" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MilitaryShipRolesBuiltByPrivateSector" type="ArrayOfShipRole" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusesPerTreatyTypeTreaties" type="ArrayOfEmpireRelationType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BonusesPerTreatyType" type="ArrayOfArrayOfBonus" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TradeIncomePerYearPerRestrictedTradeTreaty" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TradeIncomePerYearPerLimitedTradeTreaty" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TradeIncomePerYearPerFreeTradeTreaty" type="xs:float" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FeatureExplanations" type="ArrayOfString" />
       <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string" />
       <xs:element minOccurs="0" maxOccurs="1" name="ImageFilename" type="xs:string" />
@@ -260,4 +278,76 @@
       <xs:enumeration value="InfectColonyWithPlague" />
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="ArrayOfShipRole">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ShipRole" type="ShipRole" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="ShipRole">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Escort" />
+      <xs:enumeration value="Frigate" />
+      <xs:enumeration value="Destroyer" />
+      <xs:enumeration value="Cruiser" />
+      <xs:enumeration value="CapitalShip" />
+      <xs:enumeration value="Carrier" />
+      <xs:enumeration value="TroopTransport" />
+      <xs:enumeration value="FreighterSmall" />
+      <xs:enumeration value="FreighterMedium" />
+      <xs:enumeration value="FreighterLarge" />
+      <xs:enumeration value="MiningShip" />
+      <xs:enumeration value="ConstructionShip" />
+      <xs:enumeration value="ExplorationShip" />
+      <xs:enumeration value="PassengerShip" />
+      <xs:enumeration value="ColonyShip" />
+      <xs:enumeration value="SpaceportSmall" />
+      <xs:enumeration value="SpaceportMedium" />
+      <xs:enumeration value="SpaceportLarge" />
+      <xs:enumeration value="MiningStation" />
+      <xs:enumeration value="DefensiveBase" />
+      <xs:enumeration value="ResearchStation" />
+      <xs:enumeration value="MonitoringStation" />
+      <xs:enumeration value="ResortBase" />
+      <xs:enumeration value="FighterInterceptor" />
+      <xs:enumeration value="FighterBomber" />
+      <xs:enumeration value="FuelTanker" />
+      <xs:enumeration value="PlanetDestroyer" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfEmpireRelationType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EmpireRelationType" type="EmpireRelationType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="EmpireRelationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="FirstContact" />
+      <xs:enumeration value="NonAggression" />
+      <xs:enumeration value="RestrictedTrade" />
+      <xs:enumeration value="LimitedTrade" />
+      <xs:enumeration value="FreeTrade" />
+      <xs:enumeration value="ResourceSupply" />
+      <xs:enumeration value="Migration" />
+      <xs:enumeration value="MiningRights" />
+      <xs:enumeration value="MilitaryRefuelling" />
+      <xs:enumeration value="Research" />
+      <xs:enumeration value="Defense" />
+      <xs:enumeration value="Exploration" />
+      <xs:enumeration value="TerritoryMapSharing" />
+      <xs:enumeration value="GalaxyMapSharing" />
+      <xs:enumeration value="OperationsMapSharing" />
+      <xs:enumeration value="IntelligenceSharing" />
+      <xs:enumeration value="War" />
+      <xs:enumeration value="Subjugation" />
+      <xs:enumeration value="Peace" />
+      <xs:enumeration value="PirateProtection" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ArrayOfArrayOfBonus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfBonus" nillable="true" type="ArrayOfBonus" />
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>

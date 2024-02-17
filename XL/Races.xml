@@ -65,7 +65,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<ReproductionRate>1.06</ReproductionRate>
 		<AssimilationRate>0.5</AssimilationRate>
 		<MigrationFactor>1.1</MigrationFactor>
-		<Aggression>1.1</Aggression>
+		<Aggression>1.2</Aggression>
 		<Caution>1.1</Caution>
 		<Dependability>1</Dependability>
 		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
@@ -277,7 +277,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<!-- <short>39</short> -->
 		</PreferredWeaponComponentIds>
 
-		<!-- <TreatySignedTypes>
+		<TreatySignedTypes>
 			<EmpireRelationType>FreeTrade</EmpireRelationType>
 			<EmpireRelationType>Defense</EmpireRelationType>
 		</TreatySignedTypes>
@@ -292,9 +292,9 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 		<TreatySignedGameEventNames>
 			<string>Great Art Exposition from Free Trade (Human)</string>
 			<string>Internal Debates Trigger (Human)</string>
-		</TreatySignedGameEventNames> -->
+		</TreatySignedGameEventNames>
 
-		<!-- <ShipRoleBuiltRoles>
+		<ShipRoleBuiltRoles>
 			<ShipRole>ResortBase</ShipRole>
 		</ShipRoleBuiltRoles>
 		<ShipRoleBuiltColonyEventDefinitionIds>
@@ -330,7 +330,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<CharacterTraitType>Entrepreneur</CharacterTraitType>
 			<CharacterTraitType>IndustrialAgent</CharacterTraitType>
 			<CharacterTraitType>Destructive</CharacterTraitType>
-		</AdditionalCharacterTraits> -->
+		</AdditionalCharacterTraits>
 
 		<FeatureExplanations>
 			<string>[HL]Great Art Exposition:[/HL] When you sign a Free Trade Agreement or build a new Resort Base obtain a 2 year boost to Trade and Tourism income throughout your empire along with a boost to Colony income and Tourism for the colony where the Great Art Exposition is held. Cannot trigger more than once every 5 years</string>
@@ -338,6 +338,7 @@ Their preferred habitats are the lowland plains of Continental, Forest or Grassl
 			<string>[HL]Internal Debates:[/HL] When you sign a new Defense treaty obtain a capable new Ambassador but also a 2 year decrease to Colony Happiness throughout your empire</string>
 			<string>[HL]Heightened Security:[/HL] When a foreign intelligence mission against you succeeds (but is detected) you may choose to spend a Spy to gain a 2 year boost to Counter Espionage along with a decrease to Colony Happiness throughout your empire</string>
 			<string>[HL]New Worlds:[/HL] When you colonize or conquer a Continental planet obtain a free random Colonization tech advance</string>
+			<string>[HL]Large Carriers:[/HL] all Carrier ship hulls +50 size</string>
 			<string>[HL]Unique Leader trait - Alliance Builder:[/HL] +10% Diplomacy</string>
 			<string>[HL]Unique Ambassador trait - Entrepreneur:[/HL] +10% Trade Income</string>
 			<string>[HL]Unique Spy trait - Industrial Agent:[/HL] +5% Espionage</string>
@@ -2413,7 +2414,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<CharacterMissionType>DeepCover</CharacterMissionType>
 		</AllowableIntelligenceMissionTypes>
 
-		<!-- <WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
+		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
 		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
 		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
 		<CharacterProvingChancePerYear>0.08</CharacterProvingChancePerYear>
@@ -2429,16 +2430,17 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			<string>[HL]Patriotic Wave:[/HL] When war is declared on you obtain a 2 year boost to Mortalen Population Growth along with your choice of either Colony Coruption Reduction or War Weariness Reduction</string>
 			<string>[HL]Know Your Enemy:[/HL] When you invade and conquer an enemy world choose a 2 year boost to either Espionage and Counter Espionage or Targeting and Countermeasures</string>
 			<string>[HL]Prove Yourself:[/HL] Periodically choose between 2 characters (from Leader, Admirals, Generals) to undergo a trial by arms. If successful the selected character gains a positive trait, otherwise a negative trait</string>
+			<string>[HL]Reinforced Hulls:[/HL] all ship and spaceport hulls have +1 Reactive Armor rating</string>
 			<string>[HL]Unique Leader trait - Warmaster:[/HL] +10% Troop Maintenance Savings, +20% Ship Maintenance Savings</string>
 			<string>[HL]Unique Admiral trait - Grand Admiral:[/HL] +10% Weapons Damage, +10% Targeting</string>
 			<string>[HL]Unique General trait - Disciple of War:[/HL] +20% Troop Attack Strength, +10% Troop Maintenance Savings</string>
 			<string>[HL]Unique Ambassador trait - Intimidating Presence:[/HL] +10% Diplomacy</string>
-		</FeatureExplanations> -->
+		</FeatureExplanations>
 
 		<Bonuses>
 			<Bonus>
 				<Type>WarWearinessReduction</Type>
-				<Amount>0.40</Amount>
+				<Amount>0.4</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2452,7 +2454,7 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			</Bonus>
 			<Bonus>
 				<Type>ResearchArmor</Type>
-				<Amount>0.05</Amount>
+				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
@@ -2473,6 +2475,13 @@ Mortalens are normally found living in simple block dwellings in the scrub-cover
 			</Bonus>
 			<Bonus>
 				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+			<Bonus>
+				<Type>TroopExperienceGain</Type>
 				<Amount>0.2</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
@@ -6932,13 +6941,13 @@ Sluken are found on Marshy Swamp and Mangrove Swamp planets.</Description>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
-			<!-- <Bonus>
+			<Bonus>
 				<Type>TroopExperienceGain</Type>
 				<Amount>0.20</Amount>
 				<AppliesTo>Empire</AppliesTo>
 				<FilterId>-1</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
-			</Bonus> -->
+			</Bonus>
 		</Bonuses>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
@@ -7739,12 +7748,8 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 	<Race>
 		<RaceId>20</RaceId>
 		<Name>Shakturi</Name>
-		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<BundleName>Shakturi</BundleName>
 		<!-- Colonization borrowed from Boskarans -->
-		<AllowableGovernmentIds>
-			<short>0</short>
-			<short>1</short>
-		</AllowableGovernmentIds>
 		<ColonizationSuitabilityModifiers>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
@@ -7823,7 +7828,6 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 				<Factor>-1.24</Factor>
 			</OrbTypeFactor>
 		</ColonizationSuitabilityModifiers>
-		<BundleName />
 		<MinimumSuitabilityForColonization>
 			<OrbTypeFactor>
 				<OrbTypeId>12</OrbTypeId>
@@ -7838,7 +7842,6 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 				<Factor>0.4</Factor>
 			</OrbTypeFactor>
 		</MinimumSuitabilityForColonization>
-		<DefaultInfantryId>54</DefaultInfantryId>
 		<MainColor>
 			<R>0</R>
 			<G>0</G>
@@ -7859,6 +7862,12 @@ Ugnari inhabit the tundra wastelands of Tundra and Snowball planets. They typica
 		<Dependability>1</Dependability>
 		<ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
 		<IsPlayable>false</IsPlayable>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<AllowableGovernmentIds>
+			<short>0</short>
+			<short>1</short>
+		</AllowableGovernmentIds>
+		<DefaultInfantryId>54</DefaultInfantryId>
 		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
 	</Race>
 	<!--Race>

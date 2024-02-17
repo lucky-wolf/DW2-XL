@@ -211,13 +211,13 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 			</Bonus>
 		</Bonuses>
 
-		<!-- <BonusesPerTreatyTypeTreaties>
+		<BonusesPerTreatyTypeTreaties>
 			<EmpireRelationType>RestrictedTrade</EmpireRelationType>
 			<EmpireRelationType>LimitedTrade</EmpireRelationType>
 			<EmpireRelationType>FreeTrade</EmpireRelationType>
-		</BonusesPerTreatyTypeTreaties> -->
+		</BonusesPerTreatyTypeTreaties>
 
-		<!-- <BonusesPerTreatyType>
+		<BonusesPerTreatyType>
 			<ArrayOfBonus>
 				<Bonus>
 					<Type>ColonyIncome</Type>
@@ -239,7 +239,7 @@ Citizens of Republics typically enjoy many freedoms and liberties. Republics inv
 					<AppliesTo>Empire</AppliesTo>
 				</Bonus>
 			</ArrayOfBonus>
-		</BonusesPerTreatyType> -->
+		</BonusesPerTreatyType>
 
 		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
@@ -508,9 +508,9 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 			</Bonus>
 		</Bonuses>
 
-		<!-- <TradeIncomePerYearPerRestrictedTradeTreaty>500</TradeIncomePerYearPerRestrictedTradeTreaty>
-		<TradeIncomePerYearPerLimitedTradeTreaty>1000</TradeIncomePerYearPerLimitedTradeTreaty>
-		<TradeIncomePerYearPerFreeTradeTreaty>2000</TradeIncomePerYearPerFreeTradeTreaty> -->
+		<TradeIncomePerYearPerRestrictedTradeTreaty>1000</TradeIncomePerYearPerRestrictedTradeTreaty>
+		<TradeIncomePerYearPerLimitedTradeTreaty>3000</TradeIncomePerYearPerLimitedTradeTreaty>
+		<TradeIncomePerYearPerFreeTradeTreaty>5000</TradeIncomePerYearPerFreeTradeTreaty>
 
 		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
@@ -790,7 +790,7 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<LeaderReplacementCharacterPool></LeaderReplacementCharacterPool>
 		<LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
 
-		<!-- <LeaderReplacementCharacterNegativeTraitChance>0.2</LeaderReplacementCharacterNegativeTraitChance> -->
+		<LeaderReplacementCharacterDismissChance>0.1</LeaderReplacementCharacterDismissChance>
 
 		<Stability>1.1</Stability>
 		<ConcernForOwnReputation>1.7</ConcernForOwnReputation>
@@ -803,9 +803,9 @@ Citizens of democratic governments enjoy universally recognized freedoms and lib
 		<CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
 		<CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
 
-		<!-- <FeatureExplanations>
-			<string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 15-20 years on average</string>
-		</FeatureExplanations> -->
+		<FeatureExplanations>
+			<string>[HL]Enterprising Spirit:[/HL] chance of a periodic random positive event that temporarily improves Research, Diplomacy, Espionage or the Military.\nOccurs approximately once every 10 years on average</string>
+		</FeatureExplanations>
 
 		<EmpireNameAdjectives>
 			<string>Combined</string>
@@ -1066,6 +1066,14 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 				<Description />
 			</Bonus>
 			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>0</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+				<Description />
+			</Bonus>
+			<Bonus>
 				<Type>ResearchArmor</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Empire</AppliesTo>
@@ -1099,13 +1107,17 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 			</Bonus>
 		</Bonuses>
 
-		<!-- <MilitiaTroopDefinitionId>32700</MilitiaTroopDefinitionId>
-		<WarStartColonyEventDefinitionId>90</WarStartColonyEventDefinitionId> -->
+		<MilitiaTroopDefinitionId>32700</MilitiaTroopDefinitionId>
+		<WarStartColonyEventDefinitionId>90</WarStartColonyEventDefinitionId>
+		<MilitaryShipRolesBuiltByPrivateSector>
+			<ShipRole>Escort</ShipRole>
+		</MilitaryShipRolesBuiltByPrivateSector>
 
-		<!-- <FeatureExplanations>
+		<FeatureExplanations>
 			<string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
 			<string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
-		</FeatureExplanations> -->
+			<string>[HL]Privateer Navy:[/HL] Escorts are purchased and operated by your private sector, under the supervision of clan leaders. They cannot be manually controlled</string>
+		</FeatureExplanations>
 
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
@@ -1314,54 +1326,6 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
 			</Bonus>
-			<!-- <Bonus>
-				<Type>TourismIncome</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
-			<!-- <Bonus>
-				<Type>PlanetaryFacilityMaintenance</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
-			<!-- <Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
-			<!-- <Bonus>
-				<Type>TroopMaintenance</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
-			<!-- <Bonus>
-				<Type>TroopRecruitment</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
-			<!-- <Bonus>
-				<Type>TroopRecoveryRate</Type>
-				<Amount>0.1</Amount>
-				<AppliesTo>Empire</AppliesTo>
-				<FilterId>0</FilterId>
-				<DiscoveryLevel>0</DiscoveryLevel>
-				<Description />
-			</Bonus> -->
 			<Bonus>
 				<Type>ResearchConstruction</Type>
 				<Amount>0.1</Amount>
@@ -1396,15 +1360,15 @@ Monarchs may rule with absolute power, or they may share power with a ruling cou
 			</Bonus>
 		</Bonuses>
 
-		<!-- <UseFlagShip>true</UseFlagShip>
+		<UseFlagShip>true</UseFlagShip>
 		<FlagShipDestroyedColonyEventDefinitionId>87</FlagShipDestroyedColonyEventDefinitionId>
 		<FlagShipPrevailsColonyEventDefinitionId>88</FlagShipPrevailsColonyEventDefinitionId>
-		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness> -->
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
 
-		<!-- <FeatureExplanations>
+		<FeatureExplanations>
 			<string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
 			<string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
-		</FeatureExplanations> -->
+		</FeatureExplanations>
 
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>10</LeaderReplacementDisruption>
@@ -1719,12 +1683,12 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 			</Bonus>
 		</Bonuses>
 
-		<!-- <FeatureExplanations>
-			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment and Ship Construction, but with reduced colony happiness. War World lasts for two years and costs 2000 credits to initiate</string>
-			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness</string>
-		</FeatureExplanations> -->
+		<FeatureExplanations>
+			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
+			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+		  </FeatureExplanations>
 
-		<!-- <HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost> -->
+		<HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
 
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>12</LeaderReplacementDisruption>
@@ -1954,6 +1918,61 @@ Technocracy government type is only available to the Ackdarians.</Description>
 				<FilterId>0</FilterId>
 				<DiscoveryLevel>0</DiscoveryLevel>
 				<Description />
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceFleetAdmiral</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</Bonuses>
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
@@ -2240,13 +2259,13 @@ Hive Mind government type is only available to the Boskara race.</Description>
 			</Bonus>
 		</Bonuses>
 
-		<!-- <HyperjumpAccuracyEmpireLocationModifier>0.5</HyperjumpAccuracyEmpireLocationModifier>
+		<HyperjumpAccuracyEmpireLocationModifier>0.5</HyperjumpAccuracyEmpireLocationModifier>
 		<WartimeColonyEventDefinitionId>89</WartimeColonyEventDefinitionId>
 
 		<FeatureExplanations>
 			<string>[HL]Intuitive Jumps:[/HL] Hyperjump accuracy doubled when exiting a jump at a location where your empire has an established presence (colony or base)</string>
 			<string>[HL]War Spawning:[/HL] Population growth rate increases by +50% during war time</string>
-		</FeatureExplanations> -->
+		</FeatureExplanations>
 
 		<LeaderReplacementTypicalPeriod>500</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>30</LeaderReplacementDisruption>

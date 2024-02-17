@@ -5,5 +5,6 @@ if ($? -ne $True) {
 }
 # Start-Process -FilePath "C:\Steam\steamapps\common\Distant Worlds 2\DistantWorlds2.exe" "--help" -WorkingDirectory "C:\Steam\steamapps\common\Distant Worlds 2"
 #  "--new-game"
+#  "--gen-xsd"
 Start-Process -FilePath "C:\Steam\steamapps\common\Distant Worlds 2\DistantWorlds2.exe" -WorkingDirectory "C:\Steam\steamapps\common\Distant Worlds 2"
 Write-Host "launching steam game..."

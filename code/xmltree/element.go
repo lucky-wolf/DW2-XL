@@ -24,13 +24,41 @@ func (e *XMLElement) Child(tag string) *XMLElement {
 	return nil
 }
 
-// returns the index of the given element (index == -1 if not found)
+// returns the true index of the given element (index == -1 if not found)
 func (e *XMLElement) ChildIndex(tag string) (index int) {
-	for index, e = range e.Elements() {
-		if e.Name.Local == tag {
-			return
+
+	switch v := e.contents.(type) {
+	case []any:
+		// multiple child elements
+		for i, e := range v {
+			switch v := e.(type) {
+			case *XMLElement:
+				if v.Name.Local == tag {
+					index = i
+					return
+				}
+			}
 		}
 	}
+
+	return -1
+}
+
+// returns the true index of the zeroth element
+func (e *XMLElement) ZeroElementIndex() (index int) {
+
+	switch v := e.contents.(type) {
+	case []any:
+		// multiple child elements
+		for i, e := range v {
+			switch e.(type) {
+			case *XMLElement:
+				index = i
+				return
+			}
+		}
+	}
+
 	return -1
 }
 
