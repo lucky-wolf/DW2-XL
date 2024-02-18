@@ -5392,7 +5392,7 @@
 				<TroopCapacity>0</TroopCapacity>
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>-0.33</WeaponArmorBypass>
+				<WeaponArmorBypass>-0.333333</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
@@ -5400,7 +5400,7 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>8</WeaponEnergyPerShot>
+				<WeaponEnergyPerShot>10.9812</WeaponEnergyPerShot>
 				<WeaponFireRate>6</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
@@ -5418,10 +5418,144 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1200</WeaponRange>
-				<WeaponRawDamage>28.8</WeaponRawDamage>
+				<WeaponRange>1312.5</WeaponRange>
+				<WeaponRawDamage>21.9625</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1200</WeaponSpeed>
+				<WeaponSpeed>875</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
+			</ComponentStats>
+			<ComponentStats>
+				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
+				<AreaShieldRechargeEnergyUsedPerUnitCharged>0</AreaShieldRechargeEnergyUsedPerUnitCharged>
+				<AreaShieldRechargeRange>0</AreaShieldRechargeRange>
+				<ArmorBlastRating>0</ArmorBlastRating>
+				<ArmorReactiveRating>0</ArmorReactiveRating>
+				<AssaultDefense>0</AssaultDefense>
+				<AssaultPodBoardingRange>0</AssaultPodBoardingRange>
+				<AssaultPodEnergyPerLaunch>0</AssaultPodEnergyPerLaunch>
+				<AssaultPodLaunchRate>0</AssaultPodLaunchRate>
+				<AssaultPodMovementSpeed>0</AssaultPodMovementSpeed>
+				<AssaultPodShieldPenetration>0</AssaultPodShieldPenetration>
+				<AssaultPodStrength>0</AssaultPodStrength>
+				<CargoCapacity>0</CargoCapacity>
+				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
+				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
+				<CommerceTradeBonus>0</CommerceTradeBonus>
+				<ComponentCountermeasuresBonus>0.7</ComponentCountermeasuresBonus>
+				<ComponentIonDefense>0</ComponentIonDefense>
+				<ComponentTargetingBonus>0</ComponentTargetingBonus>
+				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
+				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
+				<ConstructionYardCount>0</ConstructionYardCount>
+				<CountermeasuresBonus>0</CountermeasuresBonus>
+				<CountermeasuresFleetBonus>0</CountermeasuresFleetBonus>
+				<CrewCapacity>0</CrewCapacity>
+				<CrewRequirement>5</CrewRequirement>
+				<DamageReduction>0</DamageReduction>
+				<DamageRepair>0</DamageRepair>
+				<DestroyedRepairChance>0</DestroyedRepairChance>
+				<HullRepair>0</HullRepair>
+				<DockingBayShipCount>0</DockingBayShipCount>
+				<DockingBayThroughput>0</DockingBayThroughput>
+				<EnergyCollectionRate>0</EnergyCollectionRate>
+				<EnergyFuelProductionRate>0</EnergyFuelProductionRate>
+				<EngineMainCruiseThrust>0</EngineMainCruiseThrust>
+				<EngineMainCruiseThrustEnergyUsage>0</EngineMainCruiseThrustEnergyUsage>
+				<EngineMainMaximumThrust>0</EngineMainMaximumThrust>
+				<EngineMainMaximumThrustEnergyUsage>0</EngineMainMaximumThrustEnergyUsage>
+				<EngineVectoringEnergyUsage>0</EngineVectoringEnergyUsage>
+				<EngineVectoringThrust>0</EngineVectoringThrust>
+				<ExtractionRate>0</ExtractionRate>
+				<ExtractionRangeAsteroid>0</ExtractionRangeAsteroid>
+				<RemoteFuelTransferRate>0</RemoteFuelTransferRate>
+				<RemoteFuelTransferRange>0</RemoteFuelTransferRange>
+				<FighterBayBuildRate>0</FighterBayBuildRate>
+				<FighterBayCapacity>0</FighterBayCapacity>
+				<FighterBayRepairRate>0</FighterBayRepairRate>
+				<FuelStorageCapacity>0</FuelStorageCapacity>
+				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
+				<HyperDenyRange>0</HyperDenyRange>
+				<HyperDenyStrength>0</HyperDenyStrength>
+				<HyperDriveBlockingInsulation>0</HyperDriveBlockingInsulation>
+				<HyperDriveEnergyUsage>0</HyperDriveEnergyUsage>
+				<HyperDriveJumpInitiationTime>0</HyperDriveJumpInitiationTime>
+				<HyperDriveJumpRange>0</HyperDriveJumpRange>
+				<HyperDriveRechargeTime>0</HyperDriveRechargeTime>
+				<HyperDriveSpeed>0</HyperDriveSpeed>
+				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
+				<HyperStopRange>0</HyperStopRange>
+				<HyperStopStrength>0</HyperStopStrength>
+				<IonDamageDefense>0</IonDamageDefense>
+				<MedicalRating>0</MedicalRating>
+				<PassengerCapacity>0</PassengerCapacity>
+				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>0</ReactorEnergyStorageCapacity>
+				<ReactorFuelUnitsForFullCharge>0</ReactorFuelUnitsForFullCharge>
+				<RecreationRating>0</RecreationRating>
+				<ResearchLabOutput>0</ResearchLabOutput>
+				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
+				<ScannerExplorationPower>0</ScannerExplorationPower>
+				<ScannerExplorationRange>0</ScannerExplorationRange>
+				<ScannerExplorationSurveyAmount>0</ScannerExplorationSurveyAmount>
+				<ScannerExplorationSurveyMaximumLevel>0</ScannerExplorationSurveyMaximumLevel>
+				<ScannerExplorationSurveyTime>0</ScannerExplorationSurveyTime>
+				<ScannerExplorationTime>0</ScannerExplorationTime>
+				<ScannerJammingPower>0</ScannerJammingPower>
+				<ScannerJumpTrackingChance>0</ScannerJumpTrackingChance>
+				<ScannerLongRange>0</ScannerLongRange>
+				<ScannerLongRangePower>0</ScannerLongRangePower>
+				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
+				<ScannerTracePower>0</ScannerTracePower>
+				<ScannerTraceRange>0</ScannerTraceRange>
+				<ShieldRechargeRate>0</ShieldRechargeRate>
+				<ShieldResistance>0</ShieldResistance>
+				<ShieldStrength>0</ShieldStrength>
+				<ShieldPenetrationChance>0</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StealthRating>0</StealthRating>
+				<TargetingBonus>0</TargetingBonus>
+				<TargetingFleetBonus>0</TargetingFleetBonus>
+				<TractorBeamDwellTime>0</TractorBeamDwellTime>
+				<TractorBeamEnergyPerShot>0</TractorBeamEnergyPerShot>
+				<TractorBeamFireRate>0</TractorBeamFireRate>
+				<TractorBeamPower>0</TractorBeamPower>
+				<TractorBeamPowerFalloff>0</TractorBeamPowerFalloff>
+				<TractorBeamRange>0</TractorBeamRange>
+				<TroopCapacity>0</TroopCapacity>
+				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
+				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
+				<WeaponArmorBypass>-0.333333</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponDwellTime>0</WeaponDwellTime>
+				<WeaponEnergyPerShot>12.9579</WeaponEnergyPerShot>
+				<WeaponFireRate>6</WeaponFireRate>
+				<WeaponFireType>DirectFire</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
+				<WeaponInterceptDamageFighter>0</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
+				<WeaponInterceptDamageSeeking>0</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>0</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0</WeaponInterceptFireRate>
+				<WeaponInterceptRange>0</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
+				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>0</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
+				<WeaponRange>1350</WeaponRange>
+				<WeaponRawDamage>25.9157</WeaponRawDamage>
+				<WeaponShieldBypass>0</WeaponShieldBypass>
+				<WeaponSpeed>900</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5526,7 +5660,7 @@
 				<TroopCapacity>0</TroopCapacity>
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>-0.33</WeaponArmorBypass>
+				<WeaponArmorBypass>-0.333333</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
@@ -5534,7 +5668,7 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>8</WeaponEnergyPerShot>
+				<WeaponEnergyPerShot>15.2903</WeaponEnergyPerShot>
 				<WeaponFireRate>6</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
@@ -5552,10 +5686,11 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>1300</WeaponRange>
-				<WeaponRawDamage>43.2</WeaponRawDamage>
+				<!-- range is 1 x speed -->
+				<WeaponRange>1387.5</WeaponRange>
+				<WeaponRawDamage>30.5805</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1300</WeaponSpeed>
+				<WeaponSpeed>925</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -5576,7 +5711,7 @@
 				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
-				<ComponentCountermeasuresBonus>0.76</ComponentCountermeasuresBonus>
+				<ComponentCountermeasuresBonus>0.74</ComponentCountermeasuresBonus>
 				<ComponentIonDefense>0</ComponentIonDefense>
 				<ComponentTargetingBonus>0</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
@@ -5660,7 +5795,7 @@
 				<TroopCapacity>0</TroopCapacity>
 				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
 				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
-				<WeaponArmorBypass>-0.33</WeaponArmorBypass>
+				<WeaponArmorBypass>-0.333333</WeaponArmorBypass>
 				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
 				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
 				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
@@ -5668,7 +5803,7 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>8</WeaponEnergyPerShot>
+				<WeaponEnergyPerShot>18.0425</WeaponEnergyPerShot>
 				<WeaponFireRate>6</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0</WeaponInterceptComponentTargetingBonus>
@@ -5686,11 +5821,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<!-- range is 1 x speed -->
-				<WeaponRange>1400</WeaponRange>
-				<WeaponRawDamage>64.8</WeaponRawDamage>
+				<WeaponRange>1425</WeaponRange>
+				<WeaponRawDamage>36.085</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1400</WeaponSpeed>
+				<WeaponSpeed>950</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -16143,7 +16277,7 @@
 				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
-				<ComponentCountermeasuresBonus>0.62</ComponentCountermeasuresBonus>
+				<ComponentCountermeasuresBonus>0.6</ComponentCountermeasuresBonus>
 				<ComponentIonDefense>0</ComponentIonDefense>
 				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
@@ -32906,17 +33040,17 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>3</WeaponEnergyPerShot>
-				<WeaponFireRate>1.25</WeaponFireRate>
+				<WeaponEnergyPerShot>4.1179</WeaponEnergyPerShot>
+				<WeaponFireRate>1.2</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0.2</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>8.64</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>6.58872</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>17.28</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>2.4</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>0.125</WeaponInterceptFireRate>
-				<WeaponInterceptRange>400</WeaponInterceptRange>
+				<WeaponInterceptDamageSeeking>13.1774</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>3.29432</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.12</WeaponInterceptFireRate>
+				<WeaponInterceptRange>437.5</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
@@ -32924,10 +33058,144 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>400</WeaponRange>
-				<WeaponRawDamage>10.8</WeaponRawDamage>
+				<WeaponRange>437.5</WeaponRange>
+				<WeaponRawDamage>8.2359</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1200</WeaponSpeed>
+				<WeaponSpeed>875</WeaponSpeed>
+				<WeaponVolleyAmount>1</WeaponVolleyAmount>
+				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
+			</ComponentStats>
+			<ComponentStats>
+				<AreaShieldRechargeAmount>0</AreaShieldRechargeAmount>
+				<AreaShieldRechargeEnergyUsedPerUnitCharged>0</AreaShieldRechargeEnergyUsedPerUnitCharged>
+				<AreaShieldRechargeRange>0</AreaShieldRechargeRange>
+				<ArmorBlastRating>0</ArmorBlastRating>
+				<ArmorReactiveRating>0</ArmorReactiveRating>
+				<AssaultDefense>0</AssaultDefense>
+				<AssaultPodBoardingRange>0</AssaultPodBoardingRange>
+				<AssaultPodEnergyPerLaunch>0</AssaultPodEnergyPerLaunch>
+				<AssaultPodLaunchRate>0</AssaultPodLaunchRate>
+				<AssaultPodMovementSpeed>0</AssaultPodMovementSpeed>
+				<AssaultPodShieldPenetration>0</AssaultPodShieldPenetration>
+				<AssaultPodStrength>0</AssaultPodStrength>
+				<CargoCapacity>0</CargoCapacity>
+				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
+				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
+				<CommerceTradeBonus>0</CommerceTradeBonus>
+				<ComponentCountermeasuresBonus>0.7</ComponentCountermeasuresBonus>
+				<ComponentIonDefense>0</ComponentIonDefense>
+				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
+				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
+				<ConstructionRepairSpeed>0</ConstructionRepairSpeed>
+				<ConstructionYardCount>0</ConstructionYardCount>
+				<CountermeasuresBonus>0</CountermeasuresBonus>
+				<CountermeasuresFleetBonus>0</CountermeasuresFleetBonus>
+				<CrewCapacity>0</CrewCapacity>
+				<CrewRequirement>5</CrewRequirement>
+				<DamageReduction>0</DamageReduction>
+				<DamageRepair>0</DamageRepair>
+				<DestroyedRepairChance>0</DestroyedRepairChance>
+				<HullRepair>0</HullRepair>
+				<DockingBayShipCount>0</DockingBayShipCount>
+				<DockingBayThroughput>0</DockingBayThroughput>
+				<EnergyCollectionRate>0</EnergyCollectionRate>
+				<EnergyFuelProductionRate>0</EnergyFuelProductionRate>
+				<EngineMainCruiseThrust>0</EngineMainCruiseThrust>
+				<EngineMainCruiseThrustEnergyUsage>0</EngineMainCruiseThrustEnergyUsage>
+				<EngineMainMaximumThrust>0</EngineMainMaximumThrust>
+				<EngineMainMaximumThrustEnergyUsage>0</EngineMainMaximumThrustEnergyUsage>
+				<EngineVectoringEnergyUsage>0</EngineVectoringEnergyUsage>
+				<EngineVectoringThrust>0</EngineVectoringThrust>
+				<ExtractionRate>0</ExtractionRate>
+				<ExtractionRangeAsteroid>0</ExtractionRangeAsteroid>
+				<RemoteFuelTransferRate>0</RemoteFuelTransferRate>
+				<RemoteFuelTransferRange>0</RemoteFuelTransferRange>
+				<FighterBayBuildRate>0</FighterBayBuildRate>
+				<FighterBayCapacity>0</FighterBayCapacity>
+				<FighterBayRepairRate>0</FighterBayRepairRate>
+				<FuelStorageCapacity>0</FuelStorageCapacity>
+				<HyperDenyEnergyUsage>0</HyperDenyEnergyUsage>
+				<HyperDenyRange>0</HyperDenyRange>
+				<HyperDenyStrength>0</HyperDenyStrength>
+				<HyperDriveBlockingInsulation>0</HyperDriveBlockingInsulation>
+				<HyperDriveEnergyUsage>0</HyperDriveEnergyUsage>
+				<HyperDriveJumpInitiationTime>0</HyperDriveJumpInitiationTime>
+				<HyperDriveJumpRange>0</HyperDriveJumpRange>
+				<HyperDriveRechargeTime>0</HyperDriveRechargeTime>
+				<HyperDriveSpeed>0</HyperDriveSpeed>
+				<HyperDriveJumpAccuracy>0</HyperDriveJumpAccuracy>
+				<HyperStopRange>0</HyperStopRange>
+				<HyperStopStrength>0</HyperStopStrength>
+				<IonDamageDefense>0</IonDamageDefense>
+				<MedicalRating>0</MedicalRating>
+				<PassengerCapacity>0</PassengerCapacity>
+				<ReactorEnergyOutputPerSecond>0</ReactorEnergyOutputPerSecond>
+				<ReactorEnergyStorageCapacity>0</ReactorEnergyStorageCapacity>
+				<ReactorFuelUnitsForFullCharge>0</ReactorFuelUnitsForFullCharge>
+				<RecreationRating>0</RecreationRating>
+				<ResearchLabOutput>0</ResearchLabOutput>
+				<ScannerEmpireMaskingPower>0</ScannerEmpireMaskingPower>
+				<ScannerExplorationPower>0</ScannerExplorationPower>
+				<ScannerExplorationRange>0</ScannerExplorationRange>
+				<ScannerExplorationSurveyAmount>0</ScannerExplorationSurveyAmount>
+				<ScannerExplorationSurveyMaximumLevel>0</ScannerExplorationSurveyMaximumLevel>
+				<ScannerExplorationSurveyTime>0</ScannerExplorationSurveyTime>
+				<ScannerExplorationTime>0</ScannerExplorationTime>
+				<ScannerJammingPower>0</ScannerJammingPower>
+				<ScannerJumpTrackingChance>0</ScannerJumpTrackingChance>
+				<ScannerLongRange>0</ScannerLongRange>
+				<ScannerLongRangePower>0</ScannerLongRangePower>
+				<ScannerRoleMaskingPower>0</ScannerRoleMaskingPower>
+				<ScannerTracePower>0</ScannerTracePower>
+				<ScannerTraceRange>0</ScannerTraceRange>
+				<ShieldRechargeRate>0</ShieldRechargeRate>
+				<ShieldResistance>0</ShieldResistance>
+				<ShieldStrength>0</ShieldStrength>
+				<ShieldPenetrationChance>0</ShieldPenetrationChance>
+				<ShieldPenetrationRatio>0</ShieldPenetrationRatio>
+				<StaticEnergyUsed>1</StaticEnergyUsed>
+				<StealthRating>0</StealthRating>
+				<TargetingBonus>0</TargetingBonus>
+				<TargetingFleetBonus>0</TargetingFleetBonus>
+				<TractorBeamDwellTime>0</TractorBeamDwellTime>
+				<TractorBeamEnergyPerShot>0</TractorBeamEnergyPerShot>
+				<TractorBeamFireRate>0</TractorBeamFireRate>
+				<TractorBeamPower>0</TractorBeamPower>
+				<TractorBeamPowerFalloff>0</TractorBeamPowerFalloff>
+				<TractorBeamRange>0</TractorBeamRange>
+				<TroopCapacity>0</TroopCapacity>
+				<WeaponAreaEffectRange>0</WeaponAreaEffectRange>
+				<WeaponAreaBlastWaveSpeed>0</WeaponAreaBlastWaveSpeed>
+				<WeaponArmorBypass>0</WeaponArmorBypass>
+				<WeaponBombardDamageInfrastructure>0</WeaponBombardDamageInfrastructure>
+				<WeaponBombardDamageMilitary>0</WeaponBombardDamageMilitary>
+				<WeaponBombardDamagePopulation>0</WeaponBombardDamagePopulation>
+				<WeaponBombardDamageQuality>0</WeaponBombardDamageQuality>
+				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
+				<WeaponDamageType>Impact</WeaponDamageType>
+				<WeaponDwellTime>0</WeaponDwellTime>
+				<WeaponEnergyPerShot>4.8592</WeaponEnergyPerShot>
+				<WeaponFireRate>1.2</WeaponFireRate>
+				<WeaponFireType>DirectFire</WeaponFireType>
+				<WeaponInterceptComponentTargetingBonus>0.2</WeaponInterceptComponentTargetingBonus>
+				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
+				<WeaponInterceptDamageFighter>7.77472</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
+				<WeaponInterceptDamageSeeking>15.5494</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>3.88736</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.12</WeaponInterceptFireRate>
+				<WeaponInterceptRange>450</WeaponInterceptRange>
+				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
+				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
+				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
+				<WeaponIonSensorDamage>0</WeaponIonSensorDamage>
+				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
+				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
+				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
+				<WeaponRange>450</WeaponRange>
+				<WeaponRawDamage>9.7184</WeaponRawDamage>
+				<WeaponShieldBypass>0</WeaponShieldBypass>
+				<WeaponSpeed>900</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -33040,17 +33308,17 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>3</WeaponEnergyPerShot>
-				<WeaponFireRate>1.25</WeaponFireRate>
+				<WeaponEnergyPerShot>5.7339</WeaponEnergyPerShot>
+				<WeaponFireRate>1.2</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0.2</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>12.96</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>9.1744</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>25.92</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>2.4</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>0.125</WeaponInterceptFireRate>
-				<WeaponInterceptRange>433.33</WeaponInterceptRange>
+				<WeaponInterceptDamageSeeking>18.3488</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>4.58712</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.12</WeaponInterceptFireRate>
+				<WeaponInterceptRange>462.5</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
@@ -33058,10 +33326,11 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<WeaponRange>433.33</WeaponRange>
-				<WeaponRawDamage>16.2</WeaponRawDamage>
+				<!-- range is 1 x speed -->
+				<WeaponRange>462.5</WeaponRange>
+				<WeaponRawDamage>11.468</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1300</WeaponSpeed>
+				<WeaponSpeed>925</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>
@@ -33082,7 +33351,7 @@
 				<ColonizationPopulationAmount>0</ColonizationPopulationAmount>
 				<CommandMaintenanceSavings>0</CommandMaintenanceSavings>
 				<CommerceTradeBonus>0</CommerceTradeBonus>
-				<ComponentCountermeasuresBonus>0.76</ComponentCountermeasuresBonus>
+				<ComponentCountermeasuresBonus>0.74</ComponentCountermeasuresBonus>
 				<ComponentIonDefense>0</ComponentIonDefense>
 				<ComponentTargetingBonus>0.1</ComponentTargetingBonus>
 				<ConstructionBuildSpeed>0</ConstructionBuildSpeed>
@@ -33174,17 +33443,17 @@
 				<WeaponDamageFalloffRatio>0</WeaponDamageFalloffRatio>
 				<WeaponDamageType>Impact</WeaponDamageType>
 				<WeaponDwellTime>0</WeaponDwellTime>
-				<WeaponEnergyPerShot>3</WeaponEnergyPerShot>
-				<WeaponFireRate>1.25</WeaponFireRate>
+				<WeaponEnergyPerShot>6.7659</WeaponEnergyPerShot>
+				<WeaponFireRate>1.2</WeaponFireRate>
 				<WeaponFireType>DirectFire</WeaponFireType>
 				<WeaponInterceptComponentTargetingBonus>0.2</WeaponInterceptComponentTargetingBonus>
 				<WeaponInterceptDamageDirectFire>0</WeaponInterceptDamageDirectFire>
-				<WeaponInterceptDamageFighter>19.44</WeaponInterceptDamageFighter>
+				<WeaponInterceptDamageFighter>10.8256</WeaponInterceptDamageFighter>
 				<WeaponInterceptDamageFullLengthBeam>0</WeaponInterceptDamageFullLengthBeam>
-				<WeaponInterceptDamageSeeking>38.88</WeaponInterceptDamageSeeking>
-				<WeaponInterceptEnergyPerShot>2.4</WeaponInterceptEnergyPerShot>
-				<WeaponInterceptFireRate>0.125</WeaponInterceptFireRate>
-				<WeaponInterceptRange>466.67</WeaponInterceptRange>
+				<WeaponInterceptDamageSeeking>21.6512</WeaponInterceptDamageSeeking>
+				<WeaponInterceptEnergyPerShot>5.41272</WeaponInterceptEnergyPerShot>
+				<WeaponInterceptFireRate>0.12</WeaponInterceptFireRate>
+				<WeaponInterceptRange>475</WeaponInterceptRange>
 				<WeaponInterceptIonDamageRatio>0</WeaponInterceptIonDamageRatio>
 				<WeaponIonEngineDamage>0</WeaponIonEngineDamage>
 				<WeaponIonHyperDriveDamage>0</WeaponIonHyperDriveDamage>
@@ -33192,11 +33461,10 @@
 				<WeaponIonShieldDamage>0</WeaponIonShieldDamage>
 				<WeaponIonWeaponDamage>0</WeaponIonWeaponDamage>
 				<WeaponIonGeneralDamage>0</WeaponIonGeneralDamage>
-				<!-- range is 1 x speed -->
-				<WeaponRange>466.67</WeaponRange>
-				<WeaponRawDamage>24.3</WeaponRawDamage>
+				<WeaponRange>475</WeaponRange>
+				<WeaponRawDamage>13.532</WeaponRawDamage>
 				<WeaponShieldBypass>0</WeaponShieldBypass>
-				<WeaponSpeed>1400</WeaponSpeed>
+				<WeaponSpeed>950</WeaponSpeed>
 				<WeaponVolleyAmount>1</WeaponVolleyAmount>
 				<WeaponVolleyFireRate>0</WeaponVolleyFireRate>
 			</ComponentStats>

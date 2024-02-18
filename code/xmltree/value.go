@@ -121,25 +121,31 @@ func (v *XMLValue) Append(e *XMLElement) (err error) {
 }
 
 // we must already be a []any or this is an error
-// warn: count is count of XMLElements, not real children
+// we'll truncate to count elements (but keep all other things, such as comments and directives)
 func (v *XMLValue) Truncate(count int) (err error) {
 
 	switch t := v.contents.(type) {
 
 	case []any:
-		elements := v.Elements()
-		// trick is to remove final elements from the real slice until we're down to the desired count of elements
-		for len(elements) > count {
-			for i := len(elements); i != 0; i-- {
-				last := len(elements) - 1
-				if t[i-1] == elements[last] {
-					t = etc.RemoveSpanInSitu(t, i, 1)
-					elements = elements[:last]
-					break
+
+		// create a new slice to hold what we're keeping
+		keep := []any{}
+
+		// build a new collection including count elements and whatever else was there before
+		for i, j := 0, 0; i < len(t); i++ {
+			switch t[i].(type) {
+			case *XMLElement:
+				if j < count {
+					// keep it
+					keep = append(keep, t[i])
+					j++
 				}
+			default:
+				// keep non-elements always
+				keep = append(keep, t[i])
 			}
 		}
-		v.contents = t[:count]
+		v.contents = keep
 
 	default:
 		err = fmt.Errorf("xmlvalue must be []any")

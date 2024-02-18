@@ -103,7 +103,7 @@
 			]
 		},
 		{
-			"name": "Ship Weapons: Kinetic",
+			"name": "Weapons: Kinetic",
 			"type": "go",
 			"request": "launch",
 			"mode": "debug",
@@ -112,7 +112,7 @@
 			"cwd": "${workspaceFolder}",
 			"args": [
 				"-algorithm",
-				"KineticShipWeapons",
+				"KineticWeapons",
 				"-quiet"
 			]
 		},

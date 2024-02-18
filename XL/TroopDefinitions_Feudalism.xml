@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTroopDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<TroopDefinition>
+		<TroopDefinitionId>32700</TroopDefinitionId>
+		<RaceId>255</RaceId>
+		<Type>Militia</Type>
+		<Size>4000</Size>
+		<RecruitmentCost>
+			<Money>0</Money>
+			<Resources />
+		</RecruitmentCost>
+		<MaintenanceCost>0</MaintenanceCost>
+		<AttackStrength>50</AttackStrength>
+		<DefendStrength>100</DefendStrength>
+		<SabotageStrength>0</SabotageStrength>
+		<EvasionInfantry>0</EvasionInfantry>
+		<EvasionArmor>0.25</EvasionArmor>
+		<EvasionTitan>0.25</EvasionTitan>
+		<EvasionPlanetaryDefense>0.25</EvasionPlanetaryDefense>
+		<EvasionSpecialForces>0</EvasionSpecialForces>
+		<Name>Clan Militia</Name>
+		<ImageFilename>Extras/TroopSymbols/Infantry</ImageFilename>
+	</TroopDefinition>
+</ArrayOfTroopDefinition>

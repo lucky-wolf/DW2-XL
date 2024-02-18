@@ -215,8 +215,10 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced the size of fusion reactors so they have some appeal (again)
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
-- Broke out all energy collectors into their own components (no v2 upgrades)
+- Broke out all energy collectors into their own components (no upgrades without a refit at a space port)
 - Visual sugar for strike craft part of the tech tree (just looks a bit more balanced)
+- Added some of the new special features to Shadow Republic
+- Adjusted Kinetic Weapons and related Tech Tree
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

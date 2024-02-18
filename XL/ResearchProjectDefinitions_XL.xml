@@ -3136,31 +3136,31 @@
 		<ResearchProjectId>1059</ResearchProjectId>
 		<Name>Advanced Synchronized Fire</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>10</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>7</Column>
 		<Row>41</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -3864,7 +3864,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1072</ResearchProjectId>
-		<Name>Autocannons</Name>
+		<Name>Improved Autocannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -3913,17 +3913,76 @@
 		<Components>
 			<Component>
 				<ComponentId>338</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>516</ComponentId>
-				<Level>0</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1073</ResearchProjectId>
-		<Name>Improved Autocannons</Name>
+		<Name>Advanced Autocannons</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>50625</Size>
+		<InitiationCost>
+			<Money>253125</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>4800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>7</Column>
+		<Row>42</Row>
+		<DisallowedRaceIds>
+			<!-- Humans have better tech -->
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</DisallowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1072</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>338</ComponentId>
+				<Level>2</Level>
+			</Component>
+			<Component>
+				<ComponentId>516</ComponentId>
+				<Level>2</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1074</ResearchProjectId>
+		<Name>Superior Autocannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -3964,65 +4023,6 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1072</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>338</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
-				<ComponentId>516</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>1074</ResearchProjectId>
-		<Name>Advanced Autocannons</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
-		<InitiationCost>
-			<Money>1518750</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>8</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>10</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>78</ResourceId>
-					<Amount>18200</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
-		<Row>42</Row>
-		<DisallowedRaceIds>
-			<!-- Humans have better tech -->
-			<RaceProbability>
-				<RaceId>0</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
 				<ResearchProjectId>1073</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -4031,11 +4031,11 @@
 		<Components>
 			<Component>
 				<ComponentId>338</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 			<Component>
 				<ComponentId>516</ComponentId>
-				<Level>2</Level>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -5426,6 +5426,12 @@
 		<Row>43</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
+				<!-- Projectile Batteriles (mediums) -->
+				<ResearchProjectId>71</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
 				<ResearchProjectId>72</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -5433,8 +5439,12 @@
 		</PrerequisiteProjects>
 		<Components>
 			<Component>
-				<ComponentId>27</ComponentId>
-				<Level>2</Level>
+				<ComponentId>162</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>55</ComponentId>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14327,5 +14337,68 @@
 				<Level>2</Level>
 			</ShipHullReference>
 		</ShipHulls>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>1304</ResearchProjectId>
+		<Name>Superior Synchronized Fire</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>101250</Size>
+		<InitiationCost>
+			<Money>506250</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>18200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>9</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>10</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>13</ResourceId>
+					<Amount>9100</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>8</Column>
+		<Row>41</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>0</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1059</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>0</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>45</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>593</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<Component>
+				<ComponentId>298</ComponentId>
+				<Level>3</Level>
+			</Component>
+			<!-- <Component>
+				<ComponentId>518</ComponentId>
+				<Level>3</Level>
+			</Component> -->
+		</Components>
 	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

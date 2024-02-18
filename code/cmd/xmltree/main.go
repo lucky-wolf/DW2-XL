@@ -43,6 +43,7 @@ func main() {
 		{"  HyperDrives", "Updates hyperdrive components to have 7 levels off of a common data table"},
 		{"  IonShields", "Updates ion shield components off of a common data table (ship & ftr)"},
 		{"  IonWeapons", "Updates ion weapon components off of a common core data table"},
+		{"  KineticWeapons", "Updates kinetic weapon components off of a common core data table"},
 		{"  FighterArmor", "Fighter armor components are derived from ship armors"},
 		{"  FighterEngines", "Fighter engine components are derived from ship engines"},
 		{"  FighterReactors", "Fighter reactor components are derived from ship reactors"},
@@ -89,8 +90,8 @@ func main() {
 		err = algorithm.IonShields(folder)
 	case "IonWeapons":
 		err = algorithm.IonWeapons(folder)
-	case "KineticShipWeapons":
-		err = algorithm.KineticShipWeapons(folder)
+	case "KineticWeapons":
+		err = algorithm.KineticWeapons(folder)
 	case "ScalePlanetFrequencies":
 		err = algorithm.ScalePlanetFrequencies(folder, scale)
 	case "PartialOrdering":

@@ -511,6 +511,7 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 		<TradeIncomePerYearPerRestrictedTradeTreaty>1000</TradeIncomePerYearPerRestrictedTradeTreaty>
 		<TradeIncomePerYearPerLimitedTradeTreaty>3000</TradeIncomePerYearPerLimitedTradeTreaty>
 		<TradeIncomePerYearPerFreeTradeTreaty>5000</TradeIncomePerYearPerFreeTradeTreaty>
+		<AllowControlMiningShips>true</AllowControlMiningShips>
 
 		<LeaderReplacementTypicalPeriod>20</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>0</LeaderReplacementDisruption>
@@ -543,7 +544,6 @@ Mercantile Guilds generally allow a high degree of freedom and autonomy to their
 			<string>Hegemony</string>
 			<string>MegaCorp</string>
 		</EmpireNameNouns>
-		<AllowControlMiningShips>true</AllowControlMiningShips>
 	</Government>
 	<Government>
 		<GovernmentId>2</GovernmentId>
@@ -1114,9 +1114,9 @@ However, Everyone must submit to their local chief, or replace them.</Descriptio
 		</MilitaryShipRolesBuiltByPrivateSector>
 
 		<FeatureExplanations>
-			<string>[HL]Upgraded Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
-			<string>[HL]Feudal Obligation:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
-			<string>[HL]Privateer Navy:[/HL] Escorts are purchased and operated by your private sector, under the supervision of clan leaders. They cannot be manually controlled</string>
+			<string>[HL]Clan Militia:[/HL] defending militia troops are much stronger than usual, providing better defense against invaders. When one of your colonies is conquered, any rebellion against the invaders will also produce stronger militia troops as they attempt to return to your empire</string>
+			<string>[HL]Clan Fealty:[/HL] doubled Troop Recruitment Rate for 2 years after a war starts</string>
+			<string>[HL]Clan Navy:[/HL] military escorts are purchased and operated by your private sector, under the supervision of clan leaders. They cannot be manually controlled</string>
 		</FeatureExplanations>
 
 		<LeaderReplacementTypicalPeriod>30</LeaderReplacementTypicalPeriod>
@@ -1694,7 +1694,7 @@ Discipline, Loyalty, and Valor are high virtues in a Stratocratic society.</Desc
 		<FeatureExplanations>
 			<string>[HL]War World:[/HL] can manually initiate a temporary War World event at one of your colonies for +100% boosts to Troop Recruitment, Ship Construction and Facility Construction, but with reduced colony happiness. War World lasts for two years and costs 20,000 credits to initiate</string>
 			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
-		  </FeatureExplanations>
+		</FeatureExplanations>
 
 		<HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
 
@@ -3277,6 +3277,19 @@ The real government is controlled by powerful entities that prefer to remain in 
 				<Description />
 			</Bonus>
 		</Bonuses>
+
+		<UseFlagShip>true</UseFlagShip>
+		<FlagShipDestroyedColonyEventDefinitionId>87</FlagShipDestroyedColonyEventDefinitionId>
+		<FlagShipPrevailsColonyEventDefinitionId>88</FlagShipPrevailsColonyEventDefinitionId>
+		<UnjustifiedWarsGiveNoPenaltyToWarWeariness>true</UnjustifiedWarsGiveNoPenaltyToWarWeariness>
+		<HighColonyTroopPresenceHappinessBoost>5</HighColonyTroopPresenceHappinessBoost>
+
+		<FeatureExplanations>
+			<string>[HL]Flag Ship:[/HL] can designate one military ship as your empire Flag ship. Flag ships have +10% Targeting, Countermeasures, Ship Maneuvering, Ship Speed and Damage Control. When your Flag ship destroys an enemy military ship of equal or greater size your empire receives a one-year happiness bonus. When your Flag ship is destroyed your empire receives a one-year happiness penalty. To assign a military ship as your Flag ship, right-click the ship for a popup menu option</string>
+			<string>[HL]Always Justified:[/HL] all wars you declare are always considered justified by your population, thus slowing the growth rate of war weariness</string>
+			<string>[HL]Reassuring Security:[/HL] high troop presence at your colonies adds up to +5 happiness. This colony approval factor starts when you have at least half the expected troop levels to defend the colony. Check the colony approval factors in the Selection Panel for details</string>
+		</FeatureExplanations>
+
 		<LeaderReplacementTypicalPeriod>40</LeaderReplacementTypicalPeriod>
 		<LeaderReplacementDisruption>20</LeaderReplacementDisruption>
 		<LeaderReplacementBoost>0</LeaderReplacementBoost>

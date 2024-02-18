@@ -20,6 +20,12 @@ func IonWeapons(folder string) (err error) {
 		return
 	}
 
+	// update derivatives
+	err = j.applyFighterWeaponsAndPD()
+	if err != nil {
+		return
+	}
+
 	// save them all
 	j.Save()
 

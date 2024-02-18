@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfColonyEventDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>90</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<PopulationAmount>0</PopulationAmount>
+		<DevelopmentChange>0</DevelopmentChange>
+		<DamageRepair>0</DamageRepair>
+		<MigrationFactor>0</MigrationFactor>
+		<ResourceAbundance>0</ResourceAbundance>
+		<ColonyHappiness>0</ColonyHappiness>
+		<EmpireHappiness>0</EmpireHappiness>
+		<SpreadToOtherColoniesChance>0</SpreadToOtherColoniesChance>
+		<SpreadToOtherColoniesRange>0</SpreadToOtherColoniesRange>
+		<RandomInitiationChance>0</RandomInitiationChance>
+		<MinimumIntervalPerEmpireYears>0</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>1.00</Amount>
+				<AppliesTo>Empire</AppliesTo>
+				<FilterId>-1</FilterId>
+				<DiscoveryLevel>0</DiscoveryLevel>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Clan Fealty</Name>
+		<Description></Description>
+		<ImageFilename>Environment/Events/Feudalism Troop Boost</ImageFilename>
+	</ColonyEventDefinition>
+
+</ArrayOfColonyEventDefinition>

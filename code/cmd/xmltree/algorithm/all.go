@@ -62,6 +62,10 @@ func (j *Job) applyComponents() (err error) {
 	if err != nil {
 		return
 	}
+	err = j.applyKineticWeapons()
+	if err != nil {
+		return
+	}
 
 	// then derivative components
 	err = j.applyFighterArmor()
