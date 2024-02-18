@@ -598,3 +598,46 @@ two instances of MenuRenderer exist on DistantWorlds2.ScaledRenderer which can b
 ... the architecture isn't the most explorable, but that's what I'm here for! (edited)
 [6:29 AM]
 alternately from the MenuRenderer(s) you can replace the click event on the 'new game' button to call your method instead of MenuRenderer.StartNewGameClick
+
+----------------------------------------------------------------------------------------
+Example Troop Generation event
+
+			<GameEventAction>
+				<Type>GenerateTroops</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- id here is the troop id -->
+				<Id1>22</Id1>
+				<!-- value1 is the count of troops created -->
+				<Value1>8</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<Conditions>
+					<!-- this condition means we'll only generate this troop type if this population exists here -->
+					<GameEventCondition>
+						<Type>CheckColonyPopulationRaceThreshold</Type>
+						<!-- lookup value here is the race id -->
+						<LookupValue>6</LookupValue>
+						<VariableName />
+						<ComparisonType>GreaterThan</ComparisonType>
+						<ComparisonValue>1000000000</ComparisonValue>
+					</GameEventCondition>
+				</Conditions>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>

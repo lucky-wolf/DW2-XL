@@ -209,7 +209,6 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.19.6
 - DW2 1.2.0.8 compatible and required
-  - note: does NOT include changes to human techs nor the new mortalen armor (nor adjustments to ship hulls)
 - Updated to latest bundles from @salemonz with a new ID system
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
 - Reduced the size of fusion reactors so they have some appeal (again)
@@ -217,8 +216,9 @@ YMMV, but this is my take on making it Extra Large!
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
 - Broke out all energy collectors into their own components (no upgrades without a refit at a space port)
 - Visual sugar for strike craft part of the tech tree (just looks a bit more balanced)
-- Added some of the new special features to Shadow Republic
 - Adjusted Kinetic Weapons and related Tech Tree
+- Added some of the new special features to Shadow Republic
+- Removed starting troops from all governments to make the early game more balanced (otherwise they burdened the new empire unnecessarily)
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
@@ -682,7 +682,7 @@ YMMV, but this is my take on making it Extra Large!
   - Have repeatables techs for their splinter pods
 - Added an improved basic crew module (v2) and adjusted the crew modules to have a better progression
 - Tweaked Monarchy, Feudal, and Stratocracy governments to offer
-  - Improved Crew Accommodations
+  - Improved Crew Compartments
   - Progress towards either standard Crew Accommodations (Monarchy) or marine barracks (Tribal Bloodlines, Dictatorship)
   - Royal Palace
 - Terraforming facilities are a bit cheaper at the low end, more expensive at the high end

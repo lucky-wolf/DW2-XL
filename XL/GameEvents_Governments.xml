@@ -79,8 +79,7 @@ We have recently made great strides in:
 [ULI][RESEARCH]Planetary Administration[/RESEARCH][/ULI]
 [ULI][RESEARCH]Diplomatic Focus[/RESEARCH][/ULI]
 
-Our homeworld will become a beacon for peace and prosperity with our newly finished [RESOURCE]Prime Capitol[/RESOURCE] building, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.
-				</Description>
+Our homeworld will become a beacon for peace and prosperity with our newly finished [RESOURCE]Prime Capitol[/RESOURCE] building, where we shall hold our grand assemblies, work out our differences, and forge a lasting peace.</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Prime Capitol</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -373,8 +372,7 @@ Our homeworld will become a beacon for peace and prosperity with our newly finis
 [ULI][RESEARCH]Stellar Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Civilian Transports[/RESEARCH][/ULI]
 
-With our newly finished [RESOURCE]Grand Pnyx[/RESOURCE], it is time for our people to unite and reach for the stars!
-				</Description>
+With our newly finished [RESOURCE]Grand Pnyx[/RESOURCE], it is time for our people to unite and reach for the stars!</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Grand Pnyx</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -664,8 +662,7 @@ With our newly finished [RESOURCE]Grand Pnyx[/RESOURCE], it is time for our peop
 
 Your elite troops stand ready, eagerly awaiting an opportunity for glory, valor, and a good death!
 
-Heads of all of the noblest of tribes have gathered at thew newly completed [RESOURCE]Clan Parliament[/RESOURCE] to hear your plans for a bountiful future!
-				</Description>
+Heads of all of the noblest of tribes have gathered at thew newly completed [RESOURCE]Clan Parliament[/RESOURCE] to hear your plans for a bountiful future!</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Clan Parliament</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -834,7 +831,7 @@ Heads of all of the noblest of tribes have gathered at thew newly completed [RES
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Crew Accommodations -->
+				<!-- Improved Crew Compartments -->
 				<Id1>1179</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -900,321 +897,6 @@ Heads of all of the noblest of tribes have gathered at thew newly completed [RES
 				<ChoiceButtonText />
 				<GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
@@ -1299,8 +981,7 @@ Heads of all of the noblest of tribes have gathered at thew newly completed [RES
 [ULI][RESEARCH]Interstellar Commerce[/RESEARCH][/ULI]
 [ULI][RESEARCH]Enhanced Commerce Center[/RESEARCH][/ULI]
 
-Now that we have completed the [RESOURCE]Unified Exchange[/RESOURCE], our homeworld thrums with the sound of commerce, and our people await your bold business plans.
-				</Description>
+Now that we have completed the [RESOURCE]Unified Exchange[/RESOURCE], our homeworld thrums with the sound of commerce, and our people await your bold business plans.</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Unified Exchange</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1506,20 +1187,15 @@ Now that we have completed the [RESOURCE]Unified Exchange[/RESOURCE], our homewo
 				<Type>GeneralStoryMessageToEmpire</Type>
 				<MessageTitle>Stratocracy</MessageTitle>
 				<Description>Supreme Commander!
-We have recently completed:
+Our forces are ready to take to the stars, with newly completed:
 
-[ULI][RESEARCH]War Planning Complex[/RESEARCH][/ULI]
-[ULI][RESEARCH]Stellar Frigates[/RESEARCH][/ULI]
 [ULI][RESEARCH]Zero-G Combat[/RESEARCH][/ULI]
 [ULI][RESEARCH]Assault Pods[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Crew Accommodations[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Crew Compartments[/RESEARCH][/ULI]
 [ULI][RESEARCH]Improved Ground Combat[/RESEARCH][/ULI]
-[ULI][RESEARCH]Armored[/RESEARCH][/ULI]
+[ULI][RESEARCH]Armored Units[/RESEARCH][/ULI]
 
-Your top admirals and generals are gathered within of your newly completed [RESOURCE]War Planning Complex[/RESOURCE], on this most auspicious day, the day you take command over our forces.  No longer does another stand above you in the chain of command.
-
-Additionally, two units of state of the art armored have just been completed and yours to conquer the stars with!
-				</Description>
+Your top admirals and generals are gathered within of your newly completed [RESOURCE]War Planning Complex[/RESOURCE], on this most auspicious day, the day you take command over our forces.  No longer does another stand above you in the chain of command.</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/War Planning Complex</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -1607,33 +1283,6 @@ Additionally, two units of state of the art armored have just been completed and
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Stellar Frigates -->
-				<Id1>680</Id1>
-				<Value1>0</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>ResearchBreakthrough</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
 				<!-- Zero-G Combat -->
 				<Id1>26</Id1>
 				<Value1>0</Value1>
@@ -1688,7 +1337,7 @@ Additionally, two units of state of the art armored have just been completed and
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Crew Accommodations -->
+				<!-- Improved Crew Compartments -->
 				<Id1>1179</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -1786,638 +1435,6 @@ Additionally, two units of state of the art armored have just been completed and
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<!-- Armored Units -->
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>3</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>28</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>8</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>13</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>18</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>38</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>23</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>33</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>56</Id1>
-				<Value1>2</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<!-- Ground Troops -->
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
@@ -2495,12 +1512,12 @@ Additionally, two units of state of the art armored have just been completed and
 				<Description>Sire, I am proud to announce the recent completion of:
 
 [ULI][RESEARCH]Improved Command[/RESEARCH][/ULI]
-[ULI][RESEARCH]Improved Crew Accommodations[/RESEARCH][/ULI]
+[ULI][RESEARCH]Improved Crew Compartments[/RESEARCH][/ULI]
+[ULI][RESEARCH]Crew Accommodations[/RESEARCH][/ULI]
 
 Your elite royal guard stands at sharp attention along the halls of your newly completed [RESOURCE]Royal Palace[/RESOURCE], on this most auspicious day, the day of your coronation.
 
-Millions of your subjects look on from the courtyard below, and billions more are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?
-				</Description>
+Millions of your subjects look on from the courtyard below, and billions more are tuned in to state media in every corner of your empire to get a glimpse of their new sovereign, and wonder, what comes next?</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Royal Palace</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -2587,7 +1604,7 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Improved Crew Accommodations -->
+				<!-- Improved Crew Compartments -->
 				<Id1>1179</Id1>
 				<Value1>0</Value1>
 				<Value2>0</Value2>
@@ -2626,322 +1643,6 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 				<ChoiceButtonText />
 				<GeneratedItemName />
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<!-- Ground Troops -->
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>2</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>0</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>27</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>1</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>7</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>2</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>12</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>3</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>17</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>4</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>37</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>5</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>22</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>6</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>32</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>7</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<Id1>44</Id1>
-				<Value1>3</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<LookupValue>10</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1500000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
 				<DelaySecondsMinimum>0</DelaySecondsMinimum>
 				<DelaySecondsMaximum>0</DelaySecondsMaximum>
 				<ActionObjectId>0</ActionObjectId>
@@ -3030,8 +1731,7 @@ Millions of your subjects look on from the courtyard below, and billions more ar
 We have also completed the construction of the vaunted [RESOURCE]Technosphere Citadel[/RESOURCE], where we will undoubtedly make many more illustrious discoveries!
 
 Another [CHARACTER]scientist[/CHARACTER] nearly your equal has emerged to head up our day to day operations now that you have accepted your appointment as head of the government.
-Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!
-				</Description>
+Worry not that we will execute your directions with all professional alacrity as befits your example and legacy as chief scientist of this illustrious instituion. I eagerly await your further instructions to unlock the secrets of the stars to spread our kind over the whole of the cosmos!</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Technosphere Citadel</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3269,8 +1969,7 @@ Worry not that we will execute your directions with all professional alacrity as
 [ULI][RESEARCH]Stellar Transport Systems[/RESEARCH][/ULI]
 [ULI][RESEARCH]Military Transports[/RESEARCH][/ULI]
 
-Our first army awaits your command at our homeworld where you oversee all from your [RESOURCE]Seat of Consciousness[/RESOURCE].
-				</Description>
+Our first army awaits your command at our homeworld where you oversee all from your [RESOURCE]Seat of Consciousness[/RESOURCE].</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Seat of Consciousness</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3455,44 +2154,6 @@ Our first army awaits your command at our homeworld where you oversee all from y
 				<ActionObjectId>0</ActionObjectId>
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
-			<GameEventAction>
-				<Type>GenerateTroops</Type>
-				<MessageTitle />
-				<Description />
-				<ImageFilepath />
-				<MusicFilepath />
-				<ActionLocationHint>HomeColony</ActionLocationHint>
-				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
-				<ActionLocationItemName />
-				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- id here is the troop id -->
-				<Id1>22</Id1>
-				<!-- value1 is the count of troops created -->
-				<Value1>8</Value1>
-				<Value2>0</Value2>
-				<ShipRole>Undefined</ShipRole>
-				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Undefined</ResearchCategory>
-				<BonusType>Undefined</BonusType>
-				<BonusAppliesTo>Undefined</BonusAppliesTo>
-				<ChoiceButtonText />
-				<GeneratedItemName />
-				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
-				<Conditions>
-					<GameEventCondition>
-						<Type>CheckColonyPopulationRaceThreshold</Type>
-						<!-- lookup value here is the race id -->
-						<LookupValue>6</LookupValue>
-						<VariableName />
-						<ComparisonType>GreaterThan</ComparisonType>
-						<ComparisonValue>1000000000</ComparisonValue>
-					</GameEventCondition>
-				</Conditions>
-				<DelaySecondsMinimum>0</DelaySecondsMinimum>
-				<DelaySecondsMaximum>0</DelaySecondsMaximum>
-				<ActionObjectId>0</ActionObjectId>
-				<ActionObjectType>Undefined</ActionObjectType>
-			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
 	<GameEvent>
@@ -3569,14 +2230,18 @@ Our first army awaits your command at our homeworld where you oversee all from y
 				<MessageTitle>Shadow Republic</MessageTitle>
 				<Description>Our newly formed Shadow Republic will rule all under an iron thumb!
 
-We have nearly completed:
+Lord Chancellor, our scientists have developed:
+
+[ULI][RESEARCH]Improved Ground Combat[/RESEARCH][/ULI]
+[ULI][RESEARCH]Troop Cloning[/RESEARCH][/ULI]
+
+And we are nearly ready with:
 
 [ULI][RESEARCH]Planetary Administration[/RESEARCH][/ULI]
-[ULI][RESEARCH]Diplomatic Focus[/RESEARCH][/ULI]
 [ULI][RESEARCH]Espionage Focus[/RESEARCH][/ULI]
+[ULI][RESEARCH]Robotic Infantry[/RESEARCH][/ULI]
 
-Our capital will the center of our new power, and our [RESOURCE]Shadow Parliament[/RESOURCE] will facilitate the real machinations of power!
-				</Description>
+Our capital will the center of our new power, and our [RESOURCE]Shadow Parliament[/RESOURCE] will facilitate the real machinations of power!</Description>
 				<ImageFilepath>XLAssets/PlanetaryFacilities/Shadow Parliament</ImageFilepath>
 				<MusicFilepath />
 				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
@@ -3627,6 +2292,88 @@ Our capital will the center of our new power, and our [RESOURCE]Shadow Parliamen
 				<ActionObjectType>Undefined</ActionObjectType>
 			</GameEventAction>
 			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning Facility -->
+				<Id1>63</Id1>
+				<Id2>-1</Id2>
+				<Value1>1</Value1>
+				<Value2>1</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Improved Ground Combat -->
+				<Id1>75</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<MessageTitle />
+				<Description />
+				<ImageFilepath />
+				<MusicFilepath />
+				<ActionLocationHint>SameLocationAsEvent</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemName />
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<!-- Troop Cloning -->
+				<Id1>23</Id1>
+				<Value1>0</Value1>
+				<Value2>0</Value2>
+				<ShipRole>Undefined</ShipRole>
+				<CharacterRole>Undefined</CharacterRole>
+				<ResearchCategory>Undefined</ResearchCategory>
+				<BonusType>Undefined</BonusType>
+				<BonusAppliesTo>Undefined</BonusAppliesTo>
+				<ChoiceButtonText />
+				<GeneratedItemName />
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<DelaySecondsMinimum>0</DelaySecondsMinimum>
+				<DelaySecondsMaximum>0</DelaySecondsMaximum>
+				<ActionObjectId>0</ActionObjectId>
+				<ActionObjectType>Undefined</ActionObjectType>
+			</GameEventAction>
+			<GameEventAction>
 				<Type>ResearchProgress</Type>
 				<MessageTitle />
 				<Description />
@@ -3663,8 +2410,8 @@ Our capital will the center of our new power, and our [RESOURCE]Shadow Parliamen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Diplomatic Focus -->
-				<Id1>667</Id1>
+				<!-- Espionage Focus -->
+				<Id1>1087</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
@@ -3690,13 +2437,13 @@ Our capital will the center of our new power, and our [RESOURCE]Shadow Parliamen
 				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
 				<ActionLocationItemName />
 				<ActionLocationItemType>Undefined</ActionLocationItemType>
-				<!-- Espionage Focus -->
-				<Id1>1087</Id1>
+				<!-- Robotic Infantry -->
+				<Id1>22</Id1>
 				<Value1>0.5</Value1>
 				<Value2>0</Value2>
 				<ShipRole>Undefined</ShipRole>
 				<CharacterRole>Undefined</CharacterRole>
-				<ResearchCategory>Diplomacy</ResearchCategory>
+				<ResearchCategory>Undefined</ResearchCategory>
 				<BonusType>Undefined</BonusType>
 				<BonusAppliesTo>Undefined</BonusAppliesTo>
 				<ChoiceButtonText />
