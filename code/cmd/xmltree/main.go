@@ -40,6 +40,7 @@ func main() {
 	}{
 		{"All", "Runs (all) Components, ResearchCosts, and Hulls"},
 		{"Components", "Runs all component algorithms"},
+		{"  Engines", "Updates engine components to XL data table"},
 		{"  HyperDrives", "Updates hyperdrive components to have 7 levels off of a common data table"},
 		{"  IonShields", "Updates ion shield components off of a common data table (ship & ftr)"},
 		{"  IonWeapons", "Updates ion weapon components off of a common core data table"},
@@ -84,6 +85,8 @@ func main() {
 		err = algorithm.HangarBays(folder)
 	case "ResearchCosts":
 		err = algorithm.ResearchCosts(folder)
+	case "Engines":
+		err = algorithm.Engines(folder)
 	case "HyperDrives":
 		err = algorithm.HyperDrives(folder)
 	case "IonShields":

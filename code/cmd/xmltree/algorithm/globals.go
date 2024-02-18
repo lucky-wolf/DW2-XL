@@ -86,9 +86,8 @@ func CrewRequirements(size int) int {
 }
 
 // standard weapon countermeasure schedule (by tech level)
-// warn: we assume level starts at 1
 func DirectFireComponentCountermeasuresBonus(level int) float64 {
-	return 0.6 + float64(level-1)*0.02
+	return 0.6 + float64(level)*0.02
 }
 
 // standard weapon countermeasure schedule (by tech level)

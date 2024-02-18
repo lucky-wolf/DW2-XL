@@ -22,6 +22,12 @@ func All(folder string) (err error) {
 		return
 	}
 
+	// finally do partial ordering
+	err = PartialOrdering(folder)
+	if err != nil {
+		return
+	}
+
 	return
 }
 
@@ -51,6 +57,10 @@ func (j *Job) applyComponents() (err error) {
 
 	// primary ship components first
 	err = j.applyHyperDrives()
+	if err != nil {
+		return
+	}
+	err = j.applyStarshipEngines()
 	if err != nil {
 		return
 	}

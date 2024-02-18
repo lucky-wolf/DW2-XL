@@ -219,6 +219,7 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Kinetic Weapons and related Tech Tree
 - Added some of the new special features to Shadow Republic
 - Removed starting troops from all governments to make the early game more balanced (otherwise they burdened the new empire unnecessarily)
+- Reactors, Engines, Reduce habitable moons / increase habitable planets
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

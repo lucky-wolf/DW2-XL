@@ -2,8 +2,6 @@ package algorithm
 
 import (
 	"log"
-	"lucky-wolf/DW2-XL/code/xmltree"
-	"math"
 )
 
 func KineticWeapons(folder string) (err error) {
@@ -40,42 +38,6 @@ func (j *Job) applyKineticWeapons() (err error) {
 	err = j.ApplyComponentAll(KineticWeaponData)
 
 	return
-}
-
-type ComponentName = string
-type WeaponFamilyName = string
-
-type WeaponBasis map[string]xmltree.SimpleValue
-
-type SimpleValueFunc = func(level int) xmltree.SimpleValue
-type SimpleValuesTable = map[string]SimpleValueFunc
-
-// type ObjectDictionary map[ComponentName]
-
-// subtle: level starts at one, NOT zero!
-
-func MakeFixedLevelFunc(basis float64) LevelFunc {
-	return func(level int) float64 { return basis }
-}
-
-func MakeLinearLevelFunc(basis float64, add float64) LevelFunc {
-	return func(level int) float64 { return basis + (add * float64(level)) }
-}
-
-func MakeScalingLevelFunc(basis float64, scale float64) LevelFunc {
-	return func(level int) float64 { return basis * (1.0 + scale*float64(level)) }
-}
-
-func MakeExpLevelFunc(basis float64, scale float64) LevelFunc {
-	return func(level int) float64 { return basis * math.Pow(1.0+scale, float64(level)) }
-}
-
-func MakeScaledFuncLevelFunc(scale float64, levelfunc LevelFunc) LevelFunc {
-	return func(level int) float64 { return scale * levelfunc(level) }
-}
-
-func MakeOffsetFuncLevelFunc(offset int, levelfunc LevelFunc) LevelFunc {
-	return func(level int) float64 { return levelfunc(level + offset) }
 }
 
 const (

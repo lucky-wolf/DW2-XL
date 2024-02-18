@@ -5,19 +5,61 @@ import (
 	"log"
 	"lucky-wolf/DW2-XL/code/etc"
 	"lucky-wolf/DW2-XL/code/xmltree"
+	"math"
 	"regexp"
 )
 
-type ComponentStats = map[string]LevelFunc
+var (
+	// 2 ion defense per level
+	DefaultComponentIonDefense = MakeLinearLevelFunc(0, 2)
+)
+
+type ComponentName = string
+type WeaponFamilyName = string
+
+type WeaponBasis map[string]xmltree.SimpleValue
+
+type SimpleValueFunc = func(level int) xmltree.SimpleValue
+type SimpleValuesTable = map[AttributeName]SimpleValueFunc
+
+type ComponentStats = map[AttributeName]LevelFunc
 type LevelFunc = func(level int) float64
 
-func ExtendValuesTable(fields, more ComponentStats) (result ComponentStats) {
+func MakeFixedLevelFunc(basis float64) LevelFunc {
+	return func(level int) float64 { return basis }
+}
+
+func MakeLinearLevelFunc(basis float64, add float64) LevelFunc {
+	return func(level int) float64 { return basis + (add * float64(level)) }
+}
+
+func MakeScalingLevelFunc(basis float64, scale float64) LevelFunc {
+	return func(level int) float64 { return basis * (1.0 + scale*float64(level)) }
+}
+
+func MakeExpLevelFunc(basis float64, scale float64) LevelFunc {
+	return func(level int) float64 { return basis * math.Pow(1.0+scale, float64(level)) }
+}
+
+func MakeScaledFuncLevelFunc(scale float64, levelfunc LevelFunc) LevelFunc {
+	return func(level int) float64 { return scale * levelfunc(level) }
+}
+
+func MakeOffsetFuncLevelFunc(offset int, levelfunc LevelFunc) LevelFunc {
+	return func(level int) float64 { return levelfunc(level + offset) }
+}
+
+func ExtendValuesTable(fields ComponentStats, more ...ComponentStats) (result ComponentStats) {
+	// clone the base stats
 	result = ComponentStats{}
 	for k, v := range fields {
 		result[k] = v
 	}
-	for k, v := range more {
-		result[k] = v
+	// merge in each additional stats
+	for _, more := range more {
+		for k, v := range more {
+			result[k] = v
+		}
 	}
 	return
 }
