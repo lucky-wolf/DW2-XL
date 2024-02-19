@@ -41,8 +41,8 @@ func ResearchCosts(folder string) (err error) {
 // tech level             T0   T1   T2   T3    T4    T5    T6      T7      T8      T9    T10     T11 (repeat)   T12 (super)
 //
 // x3...x2                x3   x3   x3   x3    x3    x3   x2.5   x2.5    x2      x2     x1.5     x1    ~t7.5
-var researchSizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 303750, 75937}
-var resourceCosts = []int{33, 100, 300, 600, 1200, 2400, 4800, 9600, 18200, 36400, 72800, 72800, 14400}
+var ResearchSizes = []int{33, 100, 300, 900, 2700, 8100, 20250, 50625, 101250, 202500, 303750, 303750, 75937}
+var ResearchResourceCosts = []int{33, 100, 300, 600, 1200, 2400, 4800, 9600, 18200, 36400, 72800, 72800, 14400}
 
 // XL up to 1.18.2
 // // x3...x2...x1.5     x3   x3   x3   x3    x2    x2     x2     x3/2   x3/2   x3/2   x3/2   ~t9.5
@@ -72,7 +72,7 @@ func (j *Job) applyResearchCosts() (err error) {
 
 				// get our nominal column
 				col := e.Child("Column").IntValue()
-				if col >= len(researchSizes) {
+				if col >= len(ResearchSizes) {
 					err = fmt.Errorf("Column %d exceeds maximum: %s", col, e.Child("Name").StringValue())
 					return
 				}
@@ -106,7 +106,7 @@ func (j *Job) applyResearchCosts() (err error) {
 							col = 1
 						}
 					}
-					size = researchSizes[col]
+					size = ResearchSizes[col]
 				}
 
 				// set size from that
@@ -114,7 +114,7 @@ func (j *Job) applyResearchCosts() (err error) {
 
 				// set our initiation cost and resource amounts (if present)
 				if cost := e.Child("InitiationCost"); cost != nil {
-					cost.Child("Money").SetValue(researchSizes[col] * 5)
+					cost.Child("Money").SetValue(ResearchSizes[col] * 5)
 					resources := cost.Child("Resources")
 					if resources != nil {
 						for _, e := range resources.Elements() {
@@ -137,13 +137,15 @@ func scaleResourceCost(col, resourceID int) int {
 
 	factor := 1
 	switch resourceID {
-	// Hexodorium
 	case 78:
-		factor = 4
-	// Mebnar, Aculon, Cuprica, Polymer, Dyrillium Quartz, Carbonite
+		// Hexodorium
+		factor = 3
 	case 9, 10, 11, 12, 13, 77:
+		// Mebnar, Aculon, Cuprica, Polymer, Dyrillium Quartz, Carbonite
 		factor = 2
+	default:
 		// steel, silicon, and everything else...
+		factor = 1
 	}
-	return resourceCosts[col] / factor
+	return ResearchResourceCosts[col] / factor
 }

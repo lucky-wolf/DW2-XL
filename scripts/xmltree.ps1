@@ -22,7 +22,16 @@ if ($? -ne $True) {
 }
 
 if ($algorithm -eq "ScalePlanetFrequencies") {
-	bin/xmltree.exe -algorithm $algorithm -quiet -scale $scale -filter $filter
+	if ("$filter" -eq "") {
+		bin/xmltree.exe -algorithm $algorithm -quiet -scale $scale
+	} else {
+		bin/xmltree.exe -algorithm $algorithm -quiet -scale $scale -filter $filter
+	}
 } else {
 	bin/xmltree.exe -algorithm $algorithm -quiet
+}
+
+if ($LastExitCode -ne 0) {
+	Write-Host "xmltree failed: $LastExitCode"
+	exit $LastExitCode
 }

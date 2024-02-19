@@ -25,7 +25,7 @@ func main() {
 	flag.StringVar(&folder, "folder", "XL", "folder to apply changes to")
 	flag.BoolVar(&algorithm.Quiet, "quiet", false, "set if you don't want debug output")
 	flag.Float64Var(&scale, "scale", 1.0, "scale factor to apply")
-	flag.StringVar(&filter, "filter", "", "filter to apply changes to")
+	flag.StringVar(&filter, "filter", "-", "filter to apply changes to")
 	flag.Parse()
 
 	if !algorithm.Quiet {

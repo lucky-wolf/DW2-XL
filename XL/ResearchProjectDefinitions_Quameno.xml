@@ -1,55 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ResearchProjectDefinition>
-		<ResearchProjectId>258</ResearchProjectId>
-		<Name>Caslon Fusion Ignition</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>100</Size>
-		<InitiationCost>
-			<Money>500</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>9</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>13</ResourceId>
-					<Amount>50</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
-		<Row>180</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>250</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>302</ComponentId>
-				<Level>0</Level>
-			</Component>
-			<Component>
-				<ComponentId>145</ComponentId>
-				<Level>0</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
 		<ResearchProjectId>292</ResearchProjectId>
-		<Name>Enhanced Caslon Fusion Reactions</Name>
+		<Name>Enhanced Fusion Reactions</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -86,11 +39,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>1</Level>
+				<Level>0</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -133,11 +86,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>2</Level>
+				<Level>1</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -180,11 +133,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>6</Level>
+				<Level>5</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>6</Level>
+				<Level>5</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -491,7 +444,7 @@
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>12133</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
@@ -748,11 +701,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>3</Level>
+				<Level>2</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>3</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -795,11 +748,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>4</Level>
+				<Level>3</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>4</Level>
+				<Level>3</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -842,11 +795,11 @@
 		<Components>
 			<Component>
 				<ComponentId>302</ComponentId>
-				<Level>5</Level>
+				<Level>4</Level>
 			</Component>
 			<Component>
 				<ComponentId>145</ComponentId>
-				<Level>5</Level>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>

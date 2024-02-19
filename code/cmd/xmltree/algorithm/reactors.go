@@ -57,6 +57,16 @@ var (
 			maxLevel:    1,
 			fieldValues: CaslonReactorComponentStats,
 		},
+		"Reactor, Caslon Fusion Prototype": {
+			minLevel:    1,
+			maxLevel:    1,
+			fieldValues: FusionReactorComponentStats,
+		},
+		"Reactor, Novacore": {
+			minLevel:    2,
+			maxLevel:    10,
+			fieldValues: NovaReactorComponentStats,
+		},
 		"Reactor, Caslon Fusion": {
 			minLevel:    2,
 			maxLevel:    4,
@@ -87,6 +97,11 @@ var (
 			maxLevel:    7,
 			fieldValues: HyperPlasmaticReactorComponentStats,
 		},
+		"Reactor, Caslon Ultrafusion": {
+			minLevel:    8,
+			maxLevel:    10,
+			fieldValues: UltraFusionReactorComponentStats,
+		},
 		"Reactor, Zero Point": {
 			minLevel:    8,
 			maxLevel:    10,
@@ -99,23 +114,27 @@ var (
 		},
 	}
 
-	ExcellentEfficiency = func(level int) float64 { return 2.8 - (.2 * float64(level)) }
-	GoodEfficiency      = func(level int) float64 { return 2.8 - (.15 * float64(level)) }
-	PoorEfficiency      = func(level int) float64 { return 2.8 - (.1 * float64(level)) }
+	// each reactor type is about 10% more efficient than the nearest neighbor
+	ExcellentEfficiency = func(level int) float64 { return 2.3 - (.1 * float64(level)) }
+	GoodEfficiency      = func(level int) float64 { return 2.6 - (.1 * float64(level)) }
+	PoorEfficiency      = func(level int) float64 { return 2.9 - (.1 * float64(level)) }
 
 	CaslonReactorOutput    = MakeLinearLevelFunc(60, 18)
 	FusionReactorOutput    = MakeLinearLevelFunc(80, 20)
 	HarmonicReactorOutput  = MakeLinearLevelFunc(100, 22)
 	PlasmaticReactorOutput = MakeLinearLevelFunc(120, 24)
+	NovaReactorOutput      = MakeLinearLevelFunc(100, 33)
 	ZeroPointReactorOutput = MakeLinearLevelFunc(0, 48)
 
 	HyperFusionReactorOutput    = MakeOffsetFuncLevelFunc(1, FusionReactorOutput)
 	HyperHarmonicReactorOutput  = MakeOffsetFuncLevelFunc(1, HarmonicReactorOutput)
 	HyperPlasmaticReactorOutput = MakeOffsetFuncLevelFunc(1, PlasmaticReactorOutput)
 
+	UltraFusionReactorOutput = MakeOffsetFuncLevelFunc(2, FusionReactorOutput)
+
 	// basic
 	CaslonReactorCapacity       = MakeScaledFuncLevelFunc(LowReactorCapacityRatio, CaslonReactorOutput)
-	CaslonEfficiency            = PoorEfficiency
+	CaslonEfficiency            = GoodEfficiency
 	CaslonFuelUnits             = MakeFuelUnitsLevelFunc(CaslonEfficiency, CaslonReactorCapacity)
 	CaslonReactorComponentStats = ComponentStats{
 		"ComponentIonDefense":           HardenedComponentIonDefense, // reactors are a hardened component
@@ -125,6 +144,19 @@ var (
 		"ReactorFuelUnitsForFullCharge": CaslonFuelUnits,
 		"StaticEnergyUsed":              MakeFixedLevelFunc(0),
 	}
+
+	// novacore (Quameno)
+	NovaReactorCapacity       = MakeScaledFuncLevelFunc(MedReactorCapacityRatio, NovaReactorOutput)
+	NovaEfficiency            = ExcellentEfficiency
+	NovaFuelUnits             = MakeFuelUnitsLevelFunc(NovaEfficiency, NovaReactorCapacity)
+	NovaReactorComponentStats = ExtendValuesTable(
+		CaslonReactorComponentStats,
+		ComponentStats{
+			"ReactorEnergyOutputPerSecond":  NovaReactorOutput,
+			"ReactorEnergyStorageCapacity":  NovaReactorCapacity,
+			"ReactorFuelUnitsForFullCharge": NovaFuelUnits,
+		},
+	)
 
 	// fusion
 	FusionReactorCapacity       = MakeScaledFuncLevelFunc(HighReactorCapacityRatio, FusionReactorOutput)
@@ -201,6 +233,19 @@ var (
 			"ReactorEnergyOutputPerSecond":  HyperPlasmaticReactorOutput,
 			"ReactorEnergyStorageCapacity":  HyperPlasmaticReactorCapacity,
 			"ReactorFuelUnitsForFullCharge": HyperPlasmaticFuelUnits,
+		},
+	)
+
+	// ultra fusion
+	UltraFusionReactorCapacity       = MakeScaledFuncLevelFunc(HighReactorCapacityRatio, UltraFusionReactorOutput)
+	UltraFusionEfficiency            = ExcellentEfficiency
+	UltraFusionFuelUnits             = MakeFuelUnitsLevelFunc(UltraFusionEfficiency, UltraFusionReactorCapacity)
+	UltraFusionReactorComponentStats = ExtendValuesTable(
+		CaslonReactorComponentStats,
+		ComponentStats{
+			"ReactorEnergyOutputPerSecond":  UltraFusionReactorOutput,
+			"ReactorEnergyStorageCapacity":  UltraFusionReactorCapacity,
+			"ReactorFuelUnitsForFullCharge": UltraFusionFuelUnits,
 		},
 	)
 

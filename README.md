@@ -208,21 +208,24 @@ YMMV, but this is my take on making it Extra Large!
 ## Latest Changes
 
 ### v1.19.6
-- DW2 1.2.0.8 compatible and required
+- DW2 1.2.0.8 required
 - Updated to latest bundles from @salemonz with a new ID system
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
-- Reduced the size of fusion reactors so they have some appeal (again)
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
+- Fixed Humans policy for stand-off weapons to be Missiles, not Rail guns
+- Improved Human diplomacy facility
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
 - Broke out all energy collectors into their own components (no upgrades without a refit at a space port)
 - Visual sugar for strike craft part of the tech tree (just looks a bit more balanced)
 - Adjusted Kinetic Weapons and related Tech Tree to bifurcate at t5 and to extend all lineages every level to the end
 - Added some of the new special features to Shadow Republic
 - Removed starting troops from all governments to make the early game more balanced (otherwise they burdened the new empire unnecessarily)
-- Updated Reactors to use a unified data core
-- Updated Engines to use a unified data core
+- Updated Reactors to use a unified data core and added components and tech extensions
+- Reduced the size of fusion reactors so they have more appeal
+- Updated Engines to use a unified data core which gives more distinct differences between technological paths
 - Reduced habitable moon frequency
 - Increased habitable planet frequency
+- Increased resource cost of many technologies
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
@@ -379,7 +382,7 @@ YMMV, but this is my take on making it Extra Large!
   - Quameno gain bonus to ancient knowledge and high tech in place of all tech
   - Quameno now have robotic troops as their racial infantry
   - Quameno favor ion weapons instead of pulsed weapons
-  - Novacore reactors have a tech & component for every tech level (per XL standards)
+  - Reactor, Novacores have a tech & component for every tech level (per XL standards)
   - Adjusted Geniocracy starting conditions
 - Gizurean
   - Gizurean superior hive swarm tech now gives Fighter IV and Bomber IV hulls
@@ -577,7 +580,7 @@ YMMV, but this is my take on making it Extra Large!
 - Slightly reduced energy costs of Smart Drive
 - Tweaked the names of Ikkuro Utopian Government
 - Added a bunch of ship design names for Ikkuro vessels
-- Improved the output of Novacore reactors
+- Improved the output of Reactor, Novacores
 
 ### v1.18.1
 - Removed planetary gravitic facilities (cause weird behavior)

@@ -90,11 +90,33 @@
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
 				<Type>TradeIncome</Type>
 				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityAmbassador</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
 		</EmpireBonuses>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
 		<MaximumBuildCountPerGalaxy>1</MaximumBuildCountPerGalaxy>
 		<MaximumBuildCountPerEmpire>-1</MaximumBuildCountPerEmpire>
 		<AchievementRaceId>-1</AchievementRaceId>

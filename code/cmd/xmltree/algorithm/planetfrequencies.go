@@ -49,7 +49,7 @@ func (j *Job) scalePlanetFrequencies(factor float64, filter string) (err error) 
 				}
 
 				// adjust only parents of the given category
-				if filter != "" && filter != e.Child("Category").StringValue() {
+				if filter != "-" && filter != e.Child("Category").StringValue() {
 					continue
 				}
 
