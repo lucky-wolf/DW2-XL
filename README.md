@@ -221,7 +221,8 @@ YMMV, but this is my take on making it Extra Large!
 - Removed starting troops from all governments to make the early game more balanced (otherwise they burdened the new empire unnecessarily)
 - Updated Reactors to use a unified data core
 - Updated Engines to use a unified data core
-- TODO: Reduce habitable moons / increase habitable planets
+- Reduced habitable moon frequency
+- Increased habitable planet frequency
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

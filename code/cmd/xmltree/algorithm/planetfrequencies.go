@@ -4,7 +4,7 @@ import (
 	"log"
 )
 
-func ScalePlanetFrequencies(folder string, factor float64) (err error) {
+func ScalePlanetFrequencies(folder string, factor float64, filter string) (err error) {
 
 	log.Println("Planets will be updated to desired relative frequencies")
 
@@ -15,7 +15,7 @@ func ScalePlanetFrequencies(folder string, factor float64) (err error) {
 	}
 
 	// apply this transformation
-	err = j.scalePlanetFrequencies(factor)
+	err = j.scalePlanetFrequencies(factor, filter)
 	if err != nil {
 		return
 	}
@@ -26,7 +26,7 @@ func ScalePlanetFrequencies(folder string, factor float64) (err error) {
 	return
 }
 
-func (j *Job) scalePlanetFrequencies(factor float64) (err error) {
+func (j *Job) scalePlanetFrequencies(factor float64, filter string) (err error) {
 
 	for _, f := range j.xfiles {
 
@@ -48,10 +48,10 @@ func (j *Job) scalePlanetFrequencies(factor float64) (err error) {
 					return
 				}
 
-				// we're adjusting stars
-				// if e.Child("Category").StringValue() != "Star" {
-				// 	continue
-				// }
+				// adjust only parents of the given category
+				if filter != "" && filter != e.Child("Category").StringValue() {
+					continue
+				}
 
 				// go through all children and apply our adjustment there
 				for _, f := range e.Child("ChildTypes").Elements() {

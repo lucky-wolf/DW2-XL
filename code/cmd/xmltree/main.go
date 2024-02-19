@@ -19,11 +19,13 @@ func main() {
 	var err error
 	var function, folder string
 	var scale float64
+	var filter string
 
 	flag.StringVar(&function, "algorithm", "", "algorithm to apply")
 	flag.StringVar(&folder, "folder", "XL", "folder to apply changes to")
 	flag.BoolVar(&algorithm.Quiet, "quiet", false, "set if you don't want debug output")
 	flag.Float64Var(&scale, "scale", 1.0, "scale factor to apply")
+	flag.StringVar(&filter, "filter", "", "filter to apply changes to")
 	flag.Parse()
 
 	if !algorithm.Quiet {
@@ -98,7 +100,7 @@ func main() {
 	case "KineticWeapons":
 		err = algorithm.KineticWeapons(folder)
 	case "ScalePlanetFrequencies":
-		err = algorithm.ScalePlanetFrequencies(folder, scale)
+		err = algorithm.ScalePlanetFrequencies(folder, scale, filter)
 	case "PartialOrdering":
 		err = algorithm.PartialOrdering(folder)
 	case "RenumberHullComponentBays":
