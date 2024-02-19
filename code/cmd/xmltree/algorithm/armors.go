@@ -183,21 +183,19 @@ var (
 		},
 
 		"Stellar Armor": {
-			minLevel:    11,
-			maxLevel:    11,
-			fieldValues: FluxArmorComponentStats,
+			minLevel:    10,
+			maxLevel:    10,
+			fieldValues: StellarArmorComponentStats,
 		},
 	}
 
-	WeakArmorBlastRating       = MakeExpLevelFunc(9*BlasterBaseDamage, ArmorStrengthIncreaseExp)
-	StandardArmorBlastRating   = MakeExpLevelFunc(12*BlasterBaseDamage, ArmorStrengthIncreaseExp)
-	StrongArmorBlastRating     = MakeExpLevelFunc(18*BlasterBaseDamage, ArmorStrengthIncreaseExp)
-	VeryStrongArmorBlastRating = MakeExpLevelFunc(24*BlasterBaseDamage, ArmorStrengthIncreaseExp)
+	WeakArmorBlastRating     = MakeExpLevelFunc(15*BlasterBaseDamage, ArmorStrengthIncreaseExp)
+	StandardArmorBlastRating = MakeScaledFuncLevelFunc(1.3333333, WeakArmorBlastRating)
+	StrongArmorBlastRating   = MakeScaledFuncLevelFunc(1.6666666, WeakArmorBlastRating)
 
-	WeakArmorReactiveRating       = MakeLinearLevelFunc(2, 1)
-	StandardArmorReactiveRating   = MakeLinearLevelFunc(2, 1.5)
-	StrongArmorReactiveRating     = MakeLinearLevelFunc(3, 2)
-	VeryStrongArmorReactiveRating = MakeLinearLevelFunc(3, 2.5)
+	WeakArmorReactiveRating     = MakeLinearLevelFunc(2, 1)
+	StandardArmorReactiveRating = MakeLinearLevelFunc(2, 1.5)
+	StrongArmorReactiveRating   = MakeLinearLevelFunc(3, 2)
 
 	WeakArmorIonDefense   = MakeFixedLevelFunc(0)
 	MediumArmorIonDefense = MakeLinearLevelFunc(0, 2)
@@ -249,7 +247,7 @@ var (
 		"ComponentIonDefense": HardenedComponentIonDefense, // armors are hardened
 		"CrewRequirement":     ActiveArmorCrew,
 		"StaticEnergyUsed":    ActiveArmorStaticEnergy,
-		"ArmorBlastRating":    StrongArmorBlastRating,
+		"ArmorBlastRating":    StandardArmorBlastRating,
 		"ArmorReactiveRating": StandardArmorReactiveRating,
 		"IonDamageDefense":    MediumArmorIonDefense,
 	}
@@ -261,5 +259,14 @@ var (
 		"ArmorBlastRating":    StandardArmorBlastRating,
 		"ArmorReactiveRating": StrongArmorReactiveRating,
 		"IonDamageDefense":    WeakArmorIonDefense,
+	}
+
+	StellarArmorComponentStats = ComponentStats{
+		"ComponentIonDefense": HardenedComponentIonDefense, // armors are hardened
+		"CrewRequirement":     ActiveArmorCrew,
+		"StaticEnergyUsed":    ActiveArmorStaticEnergy,
+		"ArmorBlastRating":    StrongArmorBlastRating,
+		"ArmorReactiveRating": StrongArmorReactiveRating,
+		"IonDamageDefense":    StrongArmorIonDefense,
 	}
 )

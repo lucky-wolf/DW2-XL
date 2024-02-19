@@ -74,7 +74,7 @@ const (
 )
 
 const (
-	BlasterBaseDamage     = 20
+	BlasterBaseDamage     = 12
 	BlasterBaseRateOfFire = 9
 )
 
