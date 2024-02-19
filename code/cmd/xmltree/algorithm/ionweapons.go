@@ -32,7 +32,17 @@ func IonWeapons(folder string) (err error) {
 	return
 }
 
+const (
+	IonWeaponRawDamageRatio = 0.8                         // ion weapons do ~80% raw damage vs. other direct fire weapons
+	IonBaseRateOfFire       = 1.5 * BlasterBaseRateOfFire // ion is 50% slower than blasters
+
+	IonFtrPDScaleFactor = 0.75
+)
+
 var (
+	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterBaseRateOfFire, WeaponDmgIncreaseExp)
+	IonWeaponRateOfFire = MakeFixedLevelFunc(IonBaseRateOfFire)
+
 	// WARN! please keep the multipliers of IonComponentDamage to a MINIMUM
 	// HACK: everything is scaled off of this value - any increase means at equal tech with FULL defense, that "extra" amount will always get through
 	// hack: and MOST EVERYTHING in the game will NOT have MAX ION DEFENSE!

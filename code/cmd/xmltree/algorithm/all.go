@@ -56,15 +56,19 @@ func Components(folder string) (err error) {
 func (j *Job) applyComponents() (err error) {
 
 	// primary ship components first
+	err = j.applyArmors()
+	if err != nil {
+		return
+	}
 	err = j.applyHyperDrives()
 	if err != nil {
 		return
 	}
-	err = j.applyStarshipReactors()
+	err = j.applyReactors()
 	if err != nil {
 		return
 	}
-	err = j.applyStarshipEngines()
+	err = j.applyEngines()
 	if err != nil {
 		return
 	}
@@ -82,7 +86,7 @@ func (j *Job) applyComponents() (err error) {
 	}
 
 	// then derivative components
-	err = j.applyFighterArmor()
+	err = j.applyFighterArmors()
 	if err != nil {
 		return
 	}

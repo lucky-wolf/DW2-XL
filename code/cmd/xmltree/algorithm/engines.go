@@ -15,7 +15,7 @@ func Engines(folder string) (err error) {
 	}
 
 	// update kinetic weapons
-	err = j.applyStarshipEngines()
+	err = j.applyEngines()
 	if err != nil {
 		return
 	}
@@ -32,7 +32,7 @@ func Engines(folder string) (err error) {
 	return
 }
 
-func (j *Job) applyStarshipEngines() (err error) {
+func (j *Job) applyEngines() (err error) {
 
 	// apply stats for each component
 	err = j.ApplyComponentAll(StarshipEngineData)
@@ -91,8 +91,6 @@ var (
 			maxLevel:    11,
 			fieldValues: InertialessEngineComponentStats,
 		},
-
-		// TODO: super vector & super engines & mortalen line?
 	}
 
 	// Cruise Thrust

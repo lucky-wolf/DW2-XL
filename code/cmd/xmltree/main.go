@@ -85,8 +85,8 @@ func main() {
 		err = algorithm.FighterWeaponsAndPD(folder)
 	case "HangarBays":
 		err = algorithm.HangarBays(folder)
-	case "ResearchCosts":
-		err = algorithm.ResearchCosts(folder)
+	case "Armors":
+		err = algorithm.Armors(folder)
 	case "Engines":
 		err = algorithm.Engines(folder)
 	case "Reactors":
@@ -101,6 +101,8 @@ func main() {
 		err = algorithm.KineticWeapons(folder)
 	case "ScalePlanetFrequencies":
 		err = algorithm.ScalePlanetFrequencies(folder, scale, filter)
+	case "ResearchCosts":
+		err = algorithm.ResearchCosts(folder)
 	case "PartialOrdering":
 		err = algorithm.PartialOrdering(folder)
 	case "RenumberHullComponentBays":

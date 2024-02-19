@@ -73,7 +73,10 @@ const (
 	Shakturi  = 20
 )
 
-const IonFtrPDScaleFactor = 0.75
+const (
+	BlasterBaseDamage     = 20
+	BlasterBaseRateOfFire = 9
+)
 
 func CrewRequirements(size int) int {
 	switch size {
@@ -94,14 +97,7 @@ func SeekingComponentCountermeasuresBonus(level int) float64 {
 }
 
 // arbitrary
-func BlasterWeaponRateOfFire(level int) float64 {
-	return 9
-}
-
-// ion is 50% slower than blasters
-func IonWeaponRateOfFire(level int) float64 {
-	return 1.5 * BlasterWeaponRateOfFire(level)
-}
+var BlasterWeaponRateOfFire = MakeFixedLevelFunc(BlasterBaseRateOfFire)
 
 // 12, 12, 24, 36, 48, 60, 72, 84, 96, 108, 120
 func IonWeaponComponentDamage(level int) float64 {
@@ -120,17 +116,13 @@ func IonShieldIonDamageDefense(level int) float64 {
 
 // standard component Ion defense
 func StandardComponentIonDefense(level int) float64 {
-	return float64(level+1) * 2
+	return float64(level) * 2
 }
 
 // hardened component Ion defense
 func HardenedComponentIonDefense(level int) float64 {
-	return float64(level+1) * 4
+	return float64(level+1) * 2
 }
-
-// standard damage is based on pulsed blasters-ish, but at about 2/3 the ROF, so 2/3 the DPS
-// this gives us 16 at (t0) and a gain of 18% per level (compounding)
-var IonWeaponRawDamage = MakeExpLevelFunc(16, .18)
 
 // 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550
 func TorpedoSeekingSpeed(level int) float64 {

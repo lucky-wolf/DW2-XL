@@ -227,6 +227,7 @@ YMMV, but this is my take on making it Extra Large!
 - Increased habitable planet frequency
 - Increased resource cost of many technologies
 - Reduced absolute values of damage, armor, and shields to make ships and bases a bit more resilient
+- Updated Armor to use a core data table which should give them a better progression and clearer differentiation of technology choices
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

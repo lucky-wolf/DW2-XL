@@ -15,7 +15,7 @@ func Reactors(folder string) (err error) {
 	}
 
 	// update kinetic weapons
-	err = j.applyStarshipReactors()
+	err = j.applyReactors()
 	if err != nil {
 		return
 	}
@@ -32,7 +32,7 @@ func Reactors(folder string) (err error) {
 	return
 }
 
-func (j *Job) applyStarshipReactors() (err error) {
+func (j *Job) applyReactors() (err error) {
 
 	// apply stats for each component
 	err = j.ApplyComponentAll(StarshipReactorData)

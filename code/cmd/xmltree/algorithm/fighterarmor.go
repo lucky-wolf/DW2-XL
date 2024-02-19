@@ -16,7 +16,7 @@ func FighterArmor(folder string) (err error) {
 	}
 
 	// apply this transformation
-	err = j.applyFighterArmor()
+	err = j.applyFighterArmors()
 	if err != nil {
 		return
 	}
@@ -27,7 +27,7 @@ func FighterArmor(folder string) (err error) {
 	return
 }
 
-func (j *Job) applyFighterArmor() (err error) {
+func (j *Job) applyFighterArmors() (err error) {
 
 	for _, f := range j.xfiles {
 

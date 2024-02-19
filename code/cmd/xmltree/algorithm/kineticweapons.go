@@ -41,6 +41,8 @@ func (j *Job) applyKineticWeapons() (err error) {
 }
 
 const (
+	KineticBaseDamageFactor         = 1.1 // base damage is 10% better than blasters
+	KineticBaseRateOfFire           = 12
 	KineticEnergyPerShotDamageRatio = 0.5
 )
 
@@ -102,9 +104,9 @@ var (
 
 	BasicKineticWeaponArmorBypass   = MakeFixedLevelFunc(-1. / 3.)
 	BasicKineticWeaponSpeed         = MakeLinearLevelFunc(750, 25)
-	BasicKineticWeaponDamage        = MakeExpLevelFunc(17, 0.18)
+	BasicKineticWeaponDamage        = MakeExpLevelFunc(KineticBaseDamageFactor*BlasterBaseDamage*KineticBaseRateOfFire/BlasterBaseRateOfFire, WeaponDmgIncreaseExp)
 	BasicKineticWeaponEnergyPerShot = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, BasicKineticWeaponDamage)
-	BasicKineticWeaponROF           = MakeFixedLevelFunc(12)
+	BasicKineticWeaponROF           = MakeFixedLevelFunc(KineticBaseRateOfFire)
 
 	// note: ion weapons never have any bombard value (lighting in atmosphere is not a real issue)
 	BasicKineticWeaponComponentStats = ComponentStats{
