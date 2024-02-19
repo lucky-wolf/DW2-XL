@@ -47,7 +47,7 @@ func (j *Job) applyHyperDrives() (err error) {
 			"HyperDriveRechargeTime":       []float64{25, 23, 21, 19, 17, 15, 13},
 		},
 		{ // avg
-			"ComponentIonDefense":          []float64{2, 3, 4, 5, 6, 7, 8},
+			"ComponentIonDefense":          []float64{6, 8, 10, 12, 14, 16, 18},
 			"HyperDriveBlockingInsulation": []float64{10, 15, 20, 25, 30, 35, 40},
 			"HyperDriveEnergyUsage":        []float64{70, 90, 110, 130, 150, 170, 190},
 			"HyperDriveJumpRange":          []float64{120e6, 150e6, 187.5e6, 234.375e6, 292.96875e6, 366.2109375e6, 457.763672e6}, // 1.25% compounding

@@ -8778,7 +8778,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>186</ResearchProjectId>
-		<Name>Extreme Mass Drivers</Name>
+		<Name>Superior Mass Drivers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -8828,7 +8828,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>187</ResearchProjectId>
-		<Name>Extreme Point Defense</Name>
+		<Name>Superior Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -8876,7 +8876,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>188</ResearchProjectId>
-		<Name>Extreme Projectile Batteries</Name>
+		<Name>Superior Projectile Batteries</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -11659,7 +11659,7 @@
 		<Row>42</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>188</ResearchProjectId>
+				<ResearchProjectId>1316</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -11740,7 +11740,7 @@
 		<Row>43</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>188</ResearchProjectId>
+				<ResearchProjectId>1316</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -11803,7 +11803,7 @@
 		<Row>44</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>188</ResearchProjectId>
+				<ResearchProjectId>1316</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -14020,23 +14020,23 @@
 		<Row>221</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>507</ResearchProjectId>
+				<ResearchProjectId>1308</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>1</RaceId>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>508</ResearchProjectId>
+				<ResearchProjectId>1307</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>509</ResearchProjectId>
+				<ResearchProjectId>1306</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>1047</ResearchProjectId>
+				<ResearchProjectId>1305</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -22957,7 +22957,7 @@
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>373</ResearchProjectId>
-				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -24227,35 +24227,35 @@
 		<ResearchProjectId>540</ResearchProjectId>
 		<Name>Harmonized Thrust</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>4550</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>221</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -26073,7 +26073,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>507</ResearchProjectId>
+				<ResearchProjectId>1308</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>1</RaceId>
@@ -26082,11 +26082,11 @@
 		<Components>
 			<Component>
 				<ComponentId>283</ComponentId>
-				<Level>3</Level>
+				<Level>4</Level>
 			</Component>
 			<Component>
 				<ComponentId>156</ComponentId>
-				<Level>3</Level>
+				<Level>4</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -26094,35 +26094,35 @@
 		<ResearchProjectId>584</ResearchProjectId>
 		<Name>Resonant Thrust Output</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>8</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>9</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>13</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>78</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>4550</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>221</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -28056,7 +28056,7 @@
 		<Row>220</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>584</ResearchProjectId>
+				<ResearchProjectId>1312</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -28119,7 +28119,7 @@
 		<Row>222</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>584</ResearchProjectId>
+				<ResearchProjectId>1312</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -28176,18 +28176,18 @@
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
+		<!-- still undefined in 1161 -->
 		<EnabledByDefault>false</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
 		<Row>223</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>584</ResearchProjectId>
+				<ResearchProjectId>1312</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- still undefined in 1161 -->
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>628</ResearchProjectId>

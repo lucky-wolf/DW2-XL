@@ -216,10 +216,12 @@ YMMV, but this is my take on making it Extra Large!
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
 - Broke out all energy collectors into their own components (no upgrades without a refit at a space port)
 - Visual sugar for strike craft part of the tech tree (just looks a bit more balanced)
-- Adjusted Kinetic Weapons and related Tech Tree
+- Adjusted Kinetic Weapons and related Tech Tree to bifurcate at t5 and to extend all lineages every level to the end
 - Added some of the new special features to Shadow Republic
 - Removed starting troops from all governments to make the early game more balanced (otherwise they burdened the new empire unnecessarily)
-- Reactors, Engines, Reduce habitable moons / increase habitable planets
+- Updated Reactors to use a unified data core
+- Updated Engines to use a unified data core
+- TODO: Reduce habitable moons / increase habitable planets
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required

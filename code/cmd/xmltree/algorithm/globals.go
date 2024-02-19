@@ -86,9 +86,7 @@ func CrewRequirements(size int) int {
 }
 
 // standard weapon countermeasure schedule (by tech level)
-func DirectFireComponentCountermeasuresBonus(level int) float64 {
-	return 0.6 + float64(level)*0.02
-}
+var DirectFireComponentCountermeasuresBonus = MakeLinearLevelFunc(0.58, 0.02)
 
 // standard weapon countermeasure schedule (by tech level)
 func SeekingComponentCountermeasuresBonus(level int) float64 {
@@ -122,12 +120,12 @@ func IonShieldIonDamageDefense(level int) float64 {
 
 // standard component Ion defense
 func StandardComponentIonDefense(level int) float64 {
-	return float64(level) * 2
+	return float64(level+1) * 2
 }
 
 // hardened component Ion defense
 func HardenedComponentIonDefense(level int) float64 {
-	return float64(level) * 4
+	return float64(level+1) * 4
 }
 
 // standard damage is based on pulsed blasters-ish, but at about 2/3 the ROF, so 2/3 the DPS
@@ -150,7 +148,7 @@ func MissileSeekingSpeed(level int) float64 {
 	return 300 + 25*float64(level)
 }
 
-// 1k, 2k, 3k, ... 11k
+// 3K, 3.25K, 3.5K, ...
 func MissileSeekingRange(level int) float64 {
 	return 3000 + float64(level)*250
 }

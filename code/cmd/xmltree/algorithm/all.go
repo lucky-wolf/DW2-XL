@@ -60,6 +60,10 @@ func (j *Job) applyComponents() (err error) {
 	if err != nil {
 		return
 	}
+	err = j.applyStarshipReactors()
+	if err != nil {
+		return
+	}
 	err = j.applyStarshipEngines()
 	if err != nil {
 		return

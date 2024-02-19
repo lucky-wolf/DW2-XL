@@ -40,6 +40,15 @@ func (j *Job) applyStarshipEngines() (err error) {
 	return
 }
 
+const (
+	EngineIncreaseExp       = 0.15                        // compounding increase (level over level)
+	TurboEfficiencyRatio    = 0.66666                     // 33% reduced energy cost
+	MaxThrustRatio          = 1.33333                     // combat only
+	CruiseThrustEnergyRatio = 0.0001                      // 1/10K
+	MaxThrustEnergyRatio    = 2 * CruiseThrustEnergyRatio // 1/5K
+	VectorThrustEnergyRatio = 0.02                        // vector energy is 1/50
+)
+
 var (
 	StarshipEngineData = map[string]ComponentData{
 		"Engines, Ion": {
@@ -72,48 +81,55 @@ var (
 			maxLevel:    10,
 			fieldValues: VortexEngineComponentStats,
 		},
+		"Engines, Infinite Flux": {
+			minLevel:    11,
+			maxLevel:    11,
+			fieldValues: InfiniteFluxEngineComponentStats,
+		},
+		"Inertialess Thruster": {
+			minLevel:    11,
+			maxLevel:    11,
+			fieldValues: InertialessEngineComponentStats,
+		},
 
 		// TODO: super vector & super engines & mortalen line?
 	}
 
-	// this needs to correspond with engine maneuverability
-	WeakStarshipEngineCountermeasureBonus   = MakeLinearLevelFunc(0, 0.025)
-	MediumStarshipEngineCountermeasureBonus = MakeLinearLevelFunc(0, 0.05)
-	StrongStarshipEngineCountermeasureBonus = MakeLinearLevelFunc(0, 0.075)
-
-	// Base thrust is 12K, with 10% compounding increase per level
-	// Medium is 25% better, and Strong is 50% better
-	WeakStarshipCruiseThrust   = MakeExpLevelFunc(12000, .1)
+	// Cruise Thrust
+	WeakStarshipCruiseThrust   = MakeExpLevelFunc(12000, EngineIncreaseExp)
 	MediumStarshipCruiseThrust = MakeScaledFuncLevelFunc(1.25, WeakStarshipCruiseThrust)
 	StrongStarshipCruiseThrust = MakeScaledFuncLevelFunc(1.5, WeakStarshipCruiseThrust)
 
-	// 33% boost for max thrust
-	WeakStarshipMaxThrust   = MakeScaledFuncLevelFunc(1.33333333, WeakStarshipCruiseThrust)
-	MediumStarshipMaxThrust = MakeScaledFuncLevelFunc(1.33333333, MediumStarshipCruiseThrust)
-	StrongStarshipMaxThrust = MakeScaledFuncLevelFunc(1.33333333, StrongStarshipCruiseThrust)
+	WeakStarshipCruiseThrustEnergy   = MakeScaledFuncLevelFunc(CruiseThrustEnergyRatio, WeakStarshipCruiseThrust)
+	MediumStarshipCruiseThrustEnergy = MakeScaledFuncLevelFunc(CruiseThrustEnergyRatio, MediumStarshipCruiseThrust)
+	StrongStarshipCruiseThrustEnergy = MakeScaledFuncLevelFunc(CruiseThrustEnergyRatio, StrongStarshipCruiseThrust)
 
-	WeakStarshipCruiseThrustEnergy   = MakeScaledFuncLevelFunc(0.0002, WeakStarshipCruiseThrust)
-	MediumStarshipCruiseThrustEnergy = MakeScaledFuncLevelFunc(0.0002, MediumStarshipCruiseThrust)
-	StrongStarshipCruiseThrustEnergy = MakeScaledFuncLevelFunc(0.0002, StrongStarshipCruiseThrust)
+	// Max Thrust
+	WeakStarshipMaxThrust   = MakeScaledFuncLevelFunc(MaxThrustRatio, WeakStarshipCruiseThrust)
+	MediumStarshipMaxThrust = MakeScaledFuncLevelFunc(MaxThrustRatio, MediumStarshipCruiseThrust)
+	StrongStarshipMaxThrust = MakeScaledFuncLevelFunc(MaxThrustRatio, StrongStarshipCruiseThrust)
 
-	WeakStarshipMaxThrustEnergy   = MakeScaledFuncLevelFunc(0.0002, WeakStarshipMaxThrust)
-	MediumStarshipMaxThrustEnergy = MakeScaledFuncLevelFunc(0.0002, MediumStarshipMaxThrust)
-	StrongStarshipMaxThrustEnergy = MakeScaledFuncLevelFunc(0.0002, StrongStarshipMaxThrust)
+	WeakStarshipMaxThrustEnergy   = MakeScaledFuncLevelFunc(MaxThrustEnergyRatio, WeakStarshipMaxThrust)
+	MediumStarshipMaxThrustEnergy = MakeScaledFuncLevelFunc(MaxThrustEnergyRatio, MediumStarshipMaxThrust)
+	StrongStarshipMaxThrustEnergy = MakeScaledFuncLevelFunc(MaxThrustEnergyRatio, StrongStarshipMaxThrust)
 
-	// Base vector is 60, with 18% compounding increase per level
-	// Medium is 20% better, and Strong is 40% better
-	WeakStarshipVectorThrust   = MakeExpLevelFunc(60, .18)
+	// Vectoring Thrust
+	WeakStarshipVectorThrust   = MakeExpLevelFunc(60, EngineIncreaseExp)
 	MediumStarshipVectorThrust = MakeScaledFuncLevelFunc(1.25, WeakStarshipVectorThrust)
 	StrongStarshipVectorThrust = MakeScaledFuncLevelFunc(1.5, WeakStarshipVectorThrust)
 
-	// vector energy is 1/50
-	WeakStarshipVectorEnergy   = MakeScaledFuncLevelFunc(0.02, WeakStarshipVectorThrust)
-	MediumStarshipVectorEnergy = MakeScaledFuncLevelFunc(0.02, MediumStarshipVectorThrust)
-	StrongStarshipVectorEnergy = MakeScaledFuncLevelFunc(0.02, StrongStarshipVectorThrust)
+	WeakStarshipVectorEnergy   = MakeScaledFuncLevelFunc(VectorThrustEnergyRatio, WeakStarshipVectorThrust)
+	MediumStarshipVectorEnergy = MakeScaledFuncLevelFunc(VectorThrustEnergyRatio, MediumStarshipVectorThrust)
+	StrongStarshipVectorEnergy = MakeScaledFuncLevelFunc(VectorThrustEnergyRatio, StrongStarshipVectorThrust)
+
+	// Vectoring gives countermeasure bonus
+	WeakStarshipEngineCountermeasureBonus   = MakeLinearLevelFunc(0, 0.02)
+	MediumStarshipEngineCountermeasureBonus = MakeLinearLevelFunc(0, 0.035)
+	StrongStarshipEngineCountermeasureBonus = MakeLinearLevelFunc(0, 0.05)
 
 	StarshipEngineBaseStats = ComponentStats{
-		"ComponentIonDefense": DefaultComponentIonDefense,
-		"CrewRequirement":     MakeFixedLevelFunc(10),
+		"ComponentIonDefense": HardenedComponentIonDefense, // engines are a hardened component
+		"CrewRequirement":     MakeFixedLevelFunc(5),
 		"StaticEnergyUsed":    MakeFixedLevelFunc(1),
 	}
 
@@ -185,11 +201,11 @@ var (
 		StarshipEngineBaseStats,
 		ComponentStats{
 			"EngineMainCruiseThrust":             StrongStarshipCruiseThrust,
-			"EngineMainCruiseThrustEnergyUsage":  MakeScaledFuncLevelFunc(0.75, StrongStarshipCruiseThrustEnergy),
+			"EngineMainCruiseThrustEnergyUsage":  MakeScaledFuncLevelFunc(TurboEfficiencyRatio, StrongStarshipCruiseThrustEnergy),
 			"EngineMainMaximumThrust":            StrongStarshipMaxThrust,
-			"EngineMainMaximumThrustEnergyUsage": MakeScaledFuncLevelFunc(0.75, StrongStarshipMaxThrustEnergy),
+			"EngineMainMaximumThrustEnergyUsage": MakeScaledFuncLevelFunc(TurboEfficiencyRatio, StrongStarshipMaxThrustEnergy),
 			"EngineVectoringThrust":              StrongStarshipVectorThrust,
-			"EngineVectoringEnergyUsage":         MakeScaledFuncLevelFunc(0.75, StrongStarshipVectorEnergy),
+			"EngineVectoringEnergyUsage":         MakeScaledFuncLevelFunc(TurboEfficiencyRatio, StrongStarshipVectorEnergy),
 			"CountermeasuresBonus":               StrongStarshipEngineCountermeasureBonus,
 		},
 	)
@@ -200,4 +216,10 @@ var (
 		StrongStarshipEngineThrust,
 		StrongStarshipEngineVector,
 	)
+
+	// super engine
+	InfiniteFluxEngineComponentStats = VortexEngineComponentStats
+
+	// super vector thurster
+	InertialessEngineComponentStats = VortexEngineComponentStats
 )

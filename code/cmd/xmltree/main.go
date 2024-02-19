@@ -87,6 +87,8 @@ func main() {
 		err = algorithm.ResearchCosts(folder)
 	case "Engines":
 		err = algorithm.Engines(folder)
+	case "Reactors":
+		err = algorithm.Reactors(folder)
 	case "HyperDrives":
 		err = algorithm.HyperDrives(folder)
 	case "IonShields":

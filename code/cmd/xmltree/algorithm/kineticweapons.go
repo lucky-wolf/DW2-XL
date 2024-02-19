@@ -70,29 +70,34 @@ var (
 		},
 		"Forge Rail Battery [M]": {
 			minLevel:    5,
-			maxLevel:    8,
+			maxLevel:    10,
 			fieldValues: MediumForgeRailWeaponComponentStats,
 		},
 		"Forge Rail Battery [L]": {
 			minLevel:    5,
-			maxLevel:    8,
+			maxLevel:    10,
 			fieldValues: LargeForgeRailWeaponComponentStats,
 		},
 		"Terminator Autocannon [S]": {
 			minLevel:    5,
-			maxLevel:    8,
+			maxLevel:    10,
 			fieldValues: AutocannonWeaponComponentStats,
 		},
 		"Hail Cannon [S]": {
 			minLevel:    5,
-			maxLevel:    8,
+			maxLevel:    10,
 			fieldValues: HailCannonWeaponComponentStats,
 		},
-		// "Planetary Cannon Batteries": {
-		// 	minLevel:    5,
-		// 	maxLevel:    8,
-		// 	fieldValues: HailCannonWeaponComponentStats,
-		// },
+
+		// TODO: in order to make this work, we have to either have a facility per level
+		// todo: or a level-stride (which is always even)
+		// todo: or use different scaling functions that take the "stride" into account
+		// todo: or refer to levels as they fall on the tech tree (v1, v4, v7)
+		"Planetary Forge Battery": {
+			minLevel:    3,
+			maxLevel:    9,
+			fieldValues: PlanetaryForgeBatteryComponentStats,
+		},
 	}
 
 	BasicKineticWeaponArmorBypass   = MakeFixedLevelFunc(-1. / 3.)
@@ -156,8 +161,8 @@ var (
 	)
 
 	LargeKineticWeaponSpeed          = MakeLinearLevelFunc(700, 100) // t2 = 900
-	LargeKineticWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(2, MediumKineticWeaponEnergyPerShot)
 	LargeKineticWeaponDamage         = MakeScaledFuncLevelFunc(2, MediumKineticWeaponDamage)
+	LargeKineticWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(2, MediumKineticWeaponEnergyPerShot)
 	LargeKineticWeaponComponentStats = ExtendValuesTable(
 		MediumKineticWeaponComponentStats,
 		ComponentStats{
@@ -176,8 +181,8 @@ var (
 	// note: Forge Batteries fire 50% slower, and do 50% more damage per stroke
 	// note they also reduce their armor penalty by 50%
 
-	MediumForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, MediumForgeRailWeaponDamage)
 	MediumForgeRailWeaponDamage         = MakeScaledFuncLevelFunc(1.5, MediumKineticWeaponDamage)
+	MediumForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, MediumForgeRailWeaponDamage)
 	MediumForgeRailWeaponComponentStats = ExtendValuesTable(
 		MediumKineticWeaponComponentStats,
 		ComponentStats{
@@ -188,15 +193,16 @@ var (
 		},
 	)
 
-	LargeForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, LargeForgeRailWeaponDamage)
 	LargeForgeRailWeaponDamage         = MakeScaledFuncLevelFunc(2, MediumForgeRailWeaponDamage)
+	LargeForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, LargeForgeRailWeaponDamage)
+	LargeForgeRailWeaponROF            = MakeScaledFuncLevelFunc(1.5, BasicKineticWeaponROF)
 	LargeForgeRailWeaponComponentStats = ExtendValuesTable(
 		LargeKineticWeaponComponentStats,
 		ComponentStats{
 			"WeaponEnergyPerShot": LargeForgeRailWeaponEnergyPerShot,
 			"WeaponRawDamage":     LargeForgeRailWeaponDamage,
 			"WeaponArmorBypass":   MakeScaledFuncLevelFunc(.5, BasicKineticWeaponArmorBypass), // forge rail guns are less bothered by armor
-			"WeaponFireRate":      MakeScaledFuncLevelFunc(1.5, BasicKineticWeaponROF),        // 50% slower
+			"WeaponFireRate":      LargeForgeRailWeaponROF,                                    // 50% slower
 		},
 	)
 
@@ -222,16 +228,18 @@ var (
 		},
 	)
 
-	// todo: planetary facility
-	// PlanetaryRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, PlanetaryRailWeaponDamage)
-	// PlanetaryRailWeaponDamage         = MakeScaledFuncLevelFunc(2, MediumForgeRailWeaponDamage)
-	// PlanetaryRailWeaponComponentStats = ExtendValuesTable(
-	// 	LargeKineticWeaponComponentStats,
-	// 	ComponentStats{
-	// 		"WeaponEnergyPerShot": PlanetaryRailWeaponEnergyPerShot,
-	// 		"WeaponRawDamage":     PlanetaryRailWeaponDamage,
-	// 		"WeaponArmorBypass":   MakeScaledFuncLevelFunc(.5, BasicKineticWeaponArmorBypass), // forge rail guns are less bothered by armor
-	// 		"WeaponFireRate":      MakeScaledFuncLevelFunc(1.5, BasicKineticWeaponROF),        // 50% slower
-	// 	},
-	// )
+	// note: we only care about a few of these (v1, v4, v7)
+	PlanetaryRailWeaponDamage           = MakeScaledFuncLevelFunc(2, LargeForgeRailWeaponDamage)
+	PlanetaryRailWeaponEnergyPerShot    = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, PlanetaryRailWeaponDamage)
+	PlanetaryForgeBatteryComponentStats = ExtendValuesTable(
+		LargeForgeRailWeaponComponentStats,
+		ComponentStats{
+			"ComponentCountermeasuresBonus": MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
+			"ComponentTargetingBonus":       MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
+			"WeaponEnergyPerShot":           PlanetaryRailWeaponEnergyPerShot,
+			"WeaponRawDamage":               PlanetaryRailWeaponDamage,
+			"WeaponRange":                   MakeScaledFuncLevelFunc(4, LargeKineticWeaponSpeed),
+			"WeaponFireRate":                MakeScaledFuncLevelFunc(.5, LargeForgeRailWeaponROF), // 100% faster
+		},
+	)
 )
