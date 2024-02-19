@@ -129,10 +129,8 @@ func HardenedComponentIonDefense(level int) float64 {
 }
 
 // standard damage is based on pulsed blasters-ish, but at about 2/3 the ROF, so 2/3 the DPS
-func IonWeaponRawDamage(level int) float64 {
-	// this gives us 20 at (t0) and a gain of 20% per level beyond that
-	return 20 * (1 + 0.2*float64(level-1))
-}
+// this gives us 16 at (t0) and a gain of 18% per level (compounding)
+var IonWeaponRawDamage = MakeExpLevelFunc(16, .18)
 
 // 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550
 func TorpedoSeekingSpeed(level int) float64 {

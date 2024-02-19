@@ -102,7 +102,7 @@ var (
 
 	BasicKineticWeaponArmorBypass   = MakeFixedLevelFunc(-1. / 3.)
 	BasicKineticWeaponSpeed         = MakeLinearLevelFunc(750, 25)
-	BasicKineticWeaponDamage        = MakeExpLevelFunc(19.2, 0.18)
+	BasicKineticWeaponDamage        = MakeExpLevelFunc(17, 0.18)
 	BasicKineticWeaponEnergyPerShot = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, BasicKineticWeaponDamage)
 	BasicKineticWeaponROF           = MakeFixedLevelFunc(12)
 
