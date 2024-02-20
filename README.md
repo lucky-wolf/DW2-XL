@@ -209,6 +209,14 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.19.6
 - DW2 1.2.0.8 required
+- I changed some really fundamental variables for:
+  - Galaxy Creation (even fewer habitable worlds - but those that exist are mostly planets not moons)
+  - Armor stats
+  - Reactor stats
+  - Engine stats
+  - Kinetic stats
+  - Blaster stats
+- Integrated 1208 Human & Mortalen features & Government features
 - Updated to latest bundles from @salemonz with a new ID system
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
