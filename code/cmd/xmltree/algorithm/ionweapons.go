@@ -33,14 +33,14 @@ func IonWeapons(folder string) (err error) {
 }
 
 const (
-	IonWeaponRawDamageRatio = 0.8                         // ion weapons do ~80% raw damage vs. other direct fire weapons
-	IonBaseRateOfFire       = 1.5 * BlasterBaseRateOfFire // ion is 50% slower than blasters
+	IonWeaponRawDamageRatio = 0.8                     // ion weapons do ~80% raw damage vs. other direct fire weapons
+	IonBaseRateOfFire       = 1.5 * BlasterRateOfFire // ion is 50% slower than blasters
 
 	IonFtrPDScaleFactor = 0.75
 )
 
 var (
-	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterBaseRateOfFire, WeaponDmgIncreaseExp)
+	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterRateOfFire, WeaponDmgIncreaseExp)
 	IonWeaponRateOfFire = MakeFixedLevelFunc(IonBaseRateOfFire)
 
 	// WARN! please keep the multipliers of IonComponentDamage to a MINIMUM
@@ -237,7 +237,7 @@ var (
 		},
 	)
 
-	// warn: we number from 1..11 where 1 = t0, and 2,3,...,10 = t2,t3,...,t1l0
+	// warn: we treat the t0 tech as t1
 	IonComponentData = map[string]ComponentData{
 		"Ion Field Projector [S]": {
 			minLevel:    1,

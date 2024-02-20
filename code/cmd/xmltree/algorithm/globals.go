@@ -73,11 +73,6 @@ const (
 	Shakturi  = 20
 )
 
-const (
-	BlasterBaseDamage     = 12
-	BlasterBaseRateOfFire = 9
-)
-
 func CrewRequirements(size int) int {
 	switch size {
 	case 11, 13:
@@ -88,6 +83,13 @@ func CrewRequirements(size int) int {
 	return 12
 }
 
+var (
+	SmallCrewRequirements     = MakeFixedLevelFunc(5)
+	MediumCrewRequirements    = MakeFixedLevelFunc(8)
+	LargeCrewRequirements     = MakeFixedLevelFunc(12)
+	PlanetaryCrewRequirements = MakeFixedLevelFunc(48) // doesn't hurt - but doesn't show up in game either
+)
+
 // standard weapon countermeasure schedule (by tech level)
 var DirectFireComponentCountermeasuresBonus = MakeLinearLevelFunc(0.58, 0.02)
 
@@ -97,7 +99,7 @@ func SeekingComponentCountermeasuresBonus(level int) float64 {
 }
 
 // arbitrary
-var BlasterWeaponRateOfFire = MakeFixedLevelFunc(BlasterBaseRateOfFire)
+var BlasterWeaponRateOfFire = MakeFixedLevelFunc(BlasterRateOfFire)
 
 // 12, 12, 24, 36, 48, 60, 72, 84, 96, 108, 120
 func IonWeaponComponentDamage(level int) float64 {

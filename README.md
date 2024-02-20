@@ -228,6 +228,7 @@ YMMV, but this is my take on making it Extra Large!
 - Increased resource cost of many technologies
 - Reduced absolute values of damage, armor, and shields to make ships and bases a bit more resilient
 - Updated Armor to use a core data table which should give them a better progression and clearer differentiation of technology choices
+- Updated Blasters to use core data which ties everything together and clarifies the distinct function of Phaser Blasters
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
@@ -282,8 +283,8 @@ YMMV, but this is my take on making it Extra Large!
 - Adjusted Hive Mind to be super stable, but if your leader is replaced, it causes massive disruption
 - Adjusted Hive Mind to give a Seat of Consciousness facility at homeworld which offers some nice perks for your homeworld only
 - Nerfed Epsilon Torpedoes by ~6%
-- Buffed Boskaran Plasma Blasters by +10% to hit, filled them in and extended them to level 10
-- Fixed Boskaran Plasma Blasters [L] size (was set to medium)
+- Buffed Boskaran Plasma Cannons by +10% to hit, filled them in and extended them to level 10
+- Fixed Boskaran Plasma Cannons [L] size (was set to medium)
 - Buffed Boskaran Firestorm Torpedoes a +20% to hit, filled them in and extended them to level 10
 - Fixed missing Human Hail Cannon [PD] (v2)
 - Buffed Human Bulwark Missiles range and damage
@@ -431,7 +432,7 @@ YMMV, but this is my take on making it Extra Large!
   - Majorly slowed down PD missile rate of fire
     - was too taxing on PC hardware
     - missiles shouldn't behave like machine guns anyway
-- Added Plasma Blaster [L] for Boskara racial special to utilize their early [L] mounts
+- Added Plasma Cannon [L] for Boskara racial special to utilize their early [L] mounts
 - Adjusted Planetary Defense Weapon ranges (after measuring ranges with the beta tool)
 
 ### v1.18.12

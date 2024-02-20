@@ -229,7 +229,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>9</ResearchProjectId>
-		<Name>Maxos Blaster Weapons</Name>
+		<Name>Improved Blaster Weaponry</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -2235,6 +2235,10 @@
 			</Component>
 			<Component>
 				<ComponentId>225</ComponentId>
+				<Level>0</Level>
+			</Component>
+			<Component>
+				<ComponentId>357</ComponentId>
 				<Level>0</Level>
 			</Component>
 		</Components>
@@ -4842,7 +4846,7 @@
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<!-- standard basters or boskaran hybrid plasma blasters -->
+		<!-- standard basters or boskaran hybrid Plasma Cannons -->
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>1000</short>
@@ -5025,7 +5029,7 @@
 			</Component>
 			<Component>
 				<ComponentId>357</ComponentId>
-				<Level>0</Level>
+				<Level>2</Level>
 			</Component>
 		</Components>
 	</ResearchProjectDefinition>
@@ -14870,7 +14874,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>316</ResearchProjectId>
-		<Name>Plasma Blasters</Name>
+		<Name>Plasma Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>300</Size>
 		<InitiationCost>
@@ -15370,6 +15374,10 @@
 			</Component>
 			<Component>
 				<ComponentId>225</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>357</ComponentId>
 				<Level>1</Level>
 			</Component>
 		</Components>
@@ -33650,7 +33658,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>775</ResearchProjectId>
-		<Name>Reduced Beam/Blaster Energy Cost</Name>
+		<Name>Improved Titan Blasters</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -33684,21 +33692,35 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>109</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>340</ComponentId>
+				<Values>
+					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
 			<ComponentValues>
 				<ComponentId>56</ComponentId>
 				<Values>
 					<ComponentStats>
 						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
 						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -33708,15 +33730,11 @@
 					<ComponentStats>
 						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
 						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>340</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
-						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -33726,42 +33744,11 @@
 					<ComponentStats>
 						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
 						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>226</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
-						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>232</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
-						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>299</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
-						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>358</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
-						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -33796,16 +33783,18 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>33</Row>
+		<Row>35</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>6</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>769</ResearchProjectId>
+				<ResearchProjectId>1297</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>109</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<RaceId>6</RaceId>
 				<Priority>0</Priority>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -33813,82 +33802,58 @@
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
 			<ComponentValues>
-				<ComponentId>56</ComponentId>
+				<ComponentId>245</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>339</ComponentId>
+				<ComponentId>247</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>340</ComponentId>
+				<ComponentId>250</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>359</ComponentId>
+				<ComponentId>570</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
 						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>226</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRange>0.05</WeaponRange>
 						<WeaponInterceptRange>0.05</WeaponInterceptRange>
-						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>232</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
-						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>299</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
-						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>358</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponRange>0.05</WeaponRange>
-						<WeaponInterceptRange>0.05</WeaponInterceptRange>
-						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponFireRate>-0.05</WeaponFireRate>
+						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
@@ -33926,11 +33891,6 @@
 		<Row>34</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>769</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-			<ResearchPath>
 				<ResearchProjectId>109</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -33940,36 +33900,14 @@
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
 			<ComponentValues>
-				<ComponentId>56</ComponentId>
+				<ComponentId>299</ComponentId>
 				<Values>
 					<ComponentStats>
-						<WeaponFireRate>-0.05</WeaponFireRate>
-						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>339</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponFireRate>-0.05</WeaponFireRate>
-						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>340</ComponentId>
-				<Values>
-					<ComponentStats>
-						<WeaponFireRate>-0.05</WeaponFireRate>
-						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>359</ComponentId>
-				<Values>
-					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponFireRate>-0.05</WeaponFireRate>
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
@@ -33979,6 +33917,11 @@
 				<ComponentId>226</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponFireRate>-0.05</WeaponFireRate>
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
@@ -33988,15 +33931,11 @@
 				<ComponentId>232</ComponentId>
 				<Values>
 					<ComponentStats>
-						<WeaponFireRate>-0.05</WeaponFireRate>
-						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
-					</ComponentStats>
-				</Values>
-			</ComponentValues>
-			<ComponentValues>
-				<ComponentId>299</ComponentId>
-				<Values>
-					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponFireRate>-0.05</WeaponFireRate>
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>
@@ -34006,6 +33945,11 @@
 				<ComponentId>358</ComponentId>
 				<Values>
 					<ComponentStats>
+						<WeaponEnergyPerShot>-0.05</WeaponEnergyPerShot>
+						<WeaponInterceptEnergyPerShot>-0.05</WeaponInterceptEnergyPerShot>
+						<WeaponRange>0.05</WeaponRange>
+						<WeaponDamageFalloffRatio>-0.05</WeaponDamageFalloffRatio>
+						<WeaponInterceptRange>0.05</WeaponInterceptRange>
 						<WeaponFireRate>-0.05</WeaponFireRate>
 						<WeaponInterceptFireRate>-0.05</WeaponInterceptFireRate>
 					</ComponentStats>

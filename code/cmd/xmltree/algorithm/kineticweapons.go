@@ -41,14 +41,12 @@ func (j *Job) applyKineticWeapons() (err error) {
 }
 
 const (
-	KineticBaseDamageFactor         = 1.1 // base damage is 10% better than blasters
-	KineticBaseRateOfFire           = 12
-	KineticEnergyPerShotDamageRatio = 0.5
+	KineticBaseDamageFactor = 1.1 // base damage is 10% better than blasters
+	KineticBaseRateOfFire   = 12
+	KineticEnergyRatio      = 0.5
 )
 
 var (
-
-	// warn: we number from 1..11 where 1 = t0, and 2,3,...,10 = t2,t3,...,t1l0
 	KineticWeaponData = map[string]ComponentData{
 		"Long Range Cannon [S]": {
 			minLevel:    0,
@@ -104,8 +102,8 @@ var (
 
 	BasicKineticWeaponArmorBypass   = MakeFixedLevelFunc(-1. / 3.)
 	BasicKineticWeaponSpeed         = MakeLinearLevelFunc(750, 25)
-	BasicKineticWeaponDamage        = MakeExpLevelFunc(KineticBaseDamageFactor*BlasterBaseDamage*KineticBaseRateOfFire/BlasterBaseRateOfFire, WeaponDmgIncreaseExp)
-	BasicKineticWeaponEnergyPerShot = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, BasicKineticWeaponDamage)
+	BasicKineticWeaponDamage        = MakeExpLevelFunc(KineticBaseDamageFactor*BlasterBaseDamage*KineticBaseRateOfFire/BlasterRateOfFire, WeaponDmgIncreaseExp)
+	BasicKineticWeaponEnergyPerShot = MakeScaledFuncLevelFunc(KineticEnergyRatio, BasicKineticWeaponDamage)
 	BasicKineticWeaponROF           = MakeFixedLevelFunc(KineticBaseRateOfFire)
 
 	// note: ion weapons never have any bombard value (lighting in atmosphere is not a real issue)
@@ -113,7 +111,7 @@ var (
 		// "ComponentCountermeasuresBonus":     MakeLevelFunc(WeaponFamilyValues["Rail Guns"]["ComponentCountermeasuresBonus"], .02),
 		"ComponentCountermeasuresBonus":     DirectFireComponentCountermeasuresBonus,
 		"ComponentTargetingBonus":           MakeFixedLevelFunc(0),
-		"CrewRequirement":                   MakeFixedLevelFunc(5),
+		"CrewRequirement":                   SmallCrewRequirements,
 		"StaticEnergyUsed":                  MakeFixedLevelFunc(1),
 		"WeaponAreaEffectRange":             MakeFixedLevelFunc(0),
 		"WeaponAreaBlastWaveSpeed":          MakeFixedLevelFunc(0),
@@ -154,7 +152,7 @@ var (
 	MediumKineticWeaponComponentStats = ExtendValuesTable(
 		SmallKineticWeaponComponentStats,
 		ComponentStats{
-			"CrewRequirement":     MakeFixedLevelFunc(8),
+			"CrewRequirement":     MediumCrewRequirements,
 			"WeaponEnergyPerShot": MediumKineticWeaponEnergyPerShot,
 			"WeaponRawDamage":     MediumKineticWeaponDamage,
 			"WeaponSpeed":         MediumKineticWeaponSpeed,
@@ -168,7 +166,7 @@ var (
 	LargeKineticWeaponComponentStats = ExtendValuesTable(
 		MediumKineticWeaponComponentStats,
 		ComponentStats{
-			"CrewRequirement":     MakeFixedLevelFunc(12),
+			"CrewRequirement":     LargeCrewRequirements,
 			"WeaponEnergyPerShot": LargeKineticWeaponEnergyPerShot,
 			"WeaponRawDamage":     LargeKineticWeaponDamage,
 			"WeaponSpeed":         LargeKineticWeaponSpeed,
@@ -184,7 +182,7 @@ var (
 	// note they also reduce their armor penalty by 50%
 
 	MediumForgeRailWeaponDamage         = MakeScaledFuncLevelFunc(1.5, MediumKineticWeaponDamage)
-	MediumForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, MediumForgeRailWeaponDamage)
+	MediumForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyRatio, MediumForgeRailWeaponDamage)
 	MediumForgeRailWeaponComponentStats = ExtendValuesTable(
 		MediumKineticWeaponComponentStats,
 		ComponentStats{
@@ -196,7 +194,7 @@ var (
 	)
 
 	LargeForgeRailWeaponDamage         = MakeScaledFuncLevelFunc(2, MediumForgeRailWeaponDamage)
-	LargeForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, LargeForgeRailWeaponDamage)
+	LargeForgeRailWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyRatio, LargeForgeRailWeaponDamage)
 	LargeForgeRailWeaponROF            = MakeScaledFuncLevelFunc(1.5, BasicKineticWeaponROF)
 	LargeForgeRailWeaponComponentStats = ExtendValuesTable(
 		LargeKineticWeaponComponentStats,
@@ -209,7 +207,7 @@ var (
 	)
 
 	AutocannonWeaponDamage         = MakeScaledFuncLevelFunc(0.5, BasicKineticWeaponDamage)
-	AutocannonWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, AutocannonWeaponDamage)
+	AutocannonWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyRatio, AutocannonWeaponDamage)
 	AutocannonRateOfFire           = MakeScaledFuncLevelFunc(.5, BasicKineticWeaponROF)
 	AutocannonWeaponComponentStats = ExtendValuesTable(
 		BasicKineticWeaponComponentStats,
@@ -232,10 +230,11 @@ var (
 
 	// note: we only care about a few of these (v1, v4, v7)
 	PlanetaryRailWeaponDamage           = MakeScaledFuncLevelFunc(2, LargeForgeRailWeaponDamage)
-	PlanetaryRailWeaponEnergyPerShot    = MakeScaledFuncLevelFunc(KineticEnergyPerShotDamageRatio, PlanetaryRailWeaponDamage)
+	PlanetaryRailWeaponEnergyPerShot    = MakeScaledFuncLevelFunc(KineticEnergyRatio, PlanetaryRailWeaponDamage)
 	PlanetaryForgeBatteryComponentStats = ExtendValuesTable(
 		LargeForgeRailWeaponComponentStats,
 		ComponentStats{
+			"CrewRequirement":               PlanetaryCrewRequirements,
 			"ComponentCountermeasuresBonus": MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
 			"ComponentTargetingBonus":       MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
 			"WeaponEnergyPerShot":           PlanetaryRailWeaponEnergyPerShot,

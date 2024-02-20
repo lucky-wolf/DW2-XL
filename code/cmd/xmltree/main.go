@@ -95,6 +95,8 @@ func main() {
 		err = algorithm.HyperDrives(folder)
 	case "IonShields":
 		err = algorithm.IonShields(folder)
+	case "BlasterWeapons":
+		err = algorithm.BlasterWeapons(folder)
 	case "IonWeapons":
 		err = algorithm.IonWeapons(folder)
 	case "KineticWeapons":

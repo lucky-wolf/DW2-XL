@@ -76,6 +76,10 @@ func (j *Job) applyComponents() (err error) {
 	if err != nil {
 		return
 	}
+	err = j.applyBlasterWeapons()
+	if err != nil {
+		return
+	}
 	err = j.applyIonWeapons()
 	if err != nil {
 		return
