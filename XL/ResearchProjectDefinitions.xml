@@ -13840,37 +13840,37 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>294</ResearchProjectId>
-		<Name>Rapid Energy Surge</Name>
+		<Name>Flexible Shield Reinforcement</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>7</Column>
 		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -13941,6 +13941,7 @@
 	<ResearchProjectDefinition>
 		<ResearchProjectId>296</ResearchProjectId>
 		<Name>Bombardment Protection</Name>
+		<Description>Blocks bombardment damage from reaching the planet surface</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -15711,7 +15712,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>334</ResearchProjectId>
-		<Name>Quantum Energy Suspension</Name>
+		<Name>Quantum Shield Reinforcement</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -22646,13 +22647,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
 		<Row>143</Row>
-		<DisallowedRaceIds>
-			<!-- Quameno have better tech -->
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Zenox Shields -->
@@ -23980,37 +23974,37 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>532</ResearchProjectId>
-		<Name>Instant Energy Surge</Name>
+		<Name>Augmented Shield Reinforcement</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
+		<Column>8</Column>
 		<Row>144</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -24135,13 +24129,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
 		<Row>143</Row>
-		<DisallowedRaceIds>
-			<!-- Quameno have better tech -->
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>501</ResearchProjectId>
@@ -24190,6 +24177,7 @@
 	<ResearchProjectDefinition>
 		<ResearchProjectId>536</ResearchProjectId>
 		<Name>Improved Bombardment Protection</Name>
+		<Description>Blocks bombardment damage from reaching the planet surface</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -26016,13 +26004,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
 		<Row>143</Row>
-		<DisallowedRaceIds>
-			<!-- Quameno have better tech -->
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>534</ResearchProjectId>
@@ -27875,13 +27856,6 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
 		<Row>143</Row>
-		<DisallowedRaceIds>
-			<!-- Quameno have better tech -->
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1328</ResearchProjectId>

@@ -107,11 +107,10 @@ var (
 		"Size": xmltree.CreateInt(ShieldSizeLarge),
 	}
 
+	// shield enhancers are like an extra weak shield component in a general slot
 	ShieldEnhancementData = map[string]ComponentData{
 		"Quantum Capacitors": {
-			values: map[AttributeName]xmltree.SimpleValue{
-				"Size": xmltree.CreateInt(ShieldSizeSmall),
-			},
+			values:         StandardShieldValues,
 			minLevel:       6,
 			maxLevel:       10,
 			componentStats: ShieldEnhancementStats,
