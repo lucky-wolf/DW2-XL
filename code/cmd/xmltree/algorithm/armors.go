@@ -2,6 +2,7 @@ package algorithm
 
 import (
 	"log"
+	"lucky-wolf/DW2-XL/code/xmltree"
 )
 
 func Armors(folder string) (err error) {
@@ -45,148 +46,192 @@ func (j *Job) applyArmors() (err error) {
 const (
 	ArmorStrengthIncreaseExp = 0.15 // compounding increase (level over level)
 	WeaponDmgIncreaseExp     = 0.18 // % level over level
+
+	ArmorSizeLight    = 10
+	ArmorSizeStandard = 12
+	ArmorSizeHeavy    = 14
 )
 
 var (
 	StarshipArmorData = map[string]ComponentData{
 		"Armor Plating": {
-			minLevel:    0,
-			maxLevel:    1,
-			fieldValues: ArmorPlatingComponentStats,
+			values:         StdArmorValues,
+			minLevel:       0,
+			maxLevel:       1,
+			componentStats: ArmorPlatingComponentStats,
 		},
+
 		"Ion Sheath Armor": {
-			minLevel:    2,
-			maxLevel:    3,
-			fieldValues: IonArmorComponentStats,
-		},
-		"Heavy Armor": {
-			minLevel:    2,
-			maxLevel:    3,
-			fieldValues: HeavyArmorComponentStats,
-		},
-		"Reactive Armor": {
-			minLevel:    2,
-			maxLevel:    3,
-			fieldValues: ReactiveArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       2,
+			maxLevel:       3,
+			componentStats: IonArmorComponentStats,
 		},
 		"Enhanced Ion Sheath Armor": {
-			minLevel:    4,
-			maxLevel:    5,
-			fieldValues: IonArmorComponentStats,
-		},
-		"Enhanced Heavy Armor": {
-			minLevel:    4,
-			maxLevel:    5,
-			fieldValues: HeavyArmorComponentStats,
-		},
-		"Enhanced Reactive Armor": {
-			minLevel:    4,
-			maxLevel:    5,
-			fieldValues: ReactiveArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       4,
+			maxLevel:       5,
+			componentStats: IonArmorComponentStats,
 		},
 		"Hardened Ion Sheath Armor": {
-			minLevel:    6,
-			maxLevel:    7,
-			fieldValues: IonArmorComponentStats,
-		},
-		"Hardened Heavy Armor": {
-			minLevel:    6,
-			maxLevel:    7,
-			fieldValues: HeavyArmorComponentStats,
-		},
-		"Hardened Reactive Armor": {
-			minLevel:    6,
-			maxLevel:    7,
-			fieldValues: ReactiveArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       6,
+			maxLevel:       7,
+			componentStats: IonArmorComponentStats,
 		},
 		"Ultra-Dense Ion Sheath Armor": {
-			minLevel:    8,
-			maxLevel:    9,
-			fieldValues: IonArmorComponentStats,
-		},
-		"Ultra-Dense Heavy Armor": {
-			minLevel:    8,
-			maxLevel:    9,
-			fieldValues: HeavyArmorComponentStats,
-		},
-		"Ultra-Dense Reactive Armor": {
-			minLevel:    8,
-			maxLevel:    9,
-			fieldValues: ReactiveArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       8,
+			maxLevel:       9,
+			componentStats: IonArmorComponentStats,
 		},
 		"Absorbing Ion Sheath Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: IonArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: IonArmorComponentStats,
+		},
+
+		"Heavy Armor": {
+			values:         HeavyArmorValues,
+			minLevel:       2,
+			maxLevel:       3,
+			componentStats: HeavyArmorComponentStats,
+		},
+		"Enhanced Heavy Armor": {
+			values:         HeavyArmorValues,
+			minLevel:       4,
+			maxLevel:       5,
+			componentStats: HeavyArmorComponentStats,
+		},
+		"Hardened Heavy Armor": {
+			values:         HeavyArmorValues,
+			minLevel:       6,
+			maxLevel:       7,
+			componentStats: HeavyArmorComponentStats,
+		},
+		"Ultra-Dense Heavy Armor": {
+			values:         HeavyArmorValues,
+			minLevel:       8,
+			maxLevel:       9,
+			componentStats: HeavyArmorComponentStats,
 		},
 		"Absorbing Heavy Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: HeavyArmorComponentStats,
+			values:         HeavyArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: HeavyArmorComponentStats,
+		},
+
+		"Reactive Armor": {
+			values:         StdArmorValues,
+			minLevel:       2,
+			maxLevel:       3,
+			componentStats: ReactiveArmorComponentStats,
+		},
+		"Enhanced Reactive Armor": {
+			values:         StdArmorValues,
+			minLevel:       4,
+			maxLevel:       5,
+			componentStats: ReactiveArmorComponentStats,
+		},
+		"Hardened Reactive Armor": {
+			values:         StdArmorValues,
+			minLevel:       6,
+			maxLevel:       7,
+			componentStats: ReactiveArmorComponentStats,
+		},
+		"Ultra-Dense Reactive Armor": {
+			values:         StdArmorValues,
+			minLevel:       8,
+			maxLevel:       9,
+			componentStats: ReactiveArmorComponentStats,
 		},
 		"Absorbing Reactive Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: ReactiveArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: ReactiveArmorComponentStats,
 		},
 
 		"Flux Sheath Armor": {
-			minLevel:    2,
-			maxLevel:    3,
-			fieldValues: FluxArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       2,
+			maxLevel:       3,
+			componentStats: FluxArmorComponentStats,
 		},
 		"Flux Enhanced Armor": {
-			minLevel:    4,
-			maxLevel:    5,
-			fieldValues: FluxArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       4,
+			maxLevel:       5,
+			componentStats: FluxArmorComponentStats,
 		},
 		"Flux Hardened Armor": {
-			minLevel:    6,
-			maxLevel:    7,
-			fieldValues: FluxArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       6,
+			maxLevel:       7,
+			componentStats: FluxArmorComponentStats,
 		},
 		"Flux Ultra-Dense Armor": {
-			minLevel:    8,
-			maxLevel:    9,
-			fieldValues: FluxArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       8,
+			maxLevel:       9,
+			componentStats: FluxArmorComponentStats,
 		},
 		"Flux Absorbing Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: FluxArmorComponentStats,
+			values:         StdArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: FluxArmorComponentStats,
 		},
 
 		"Hex Armor": {
-			minLevel:    2,
-			maxLevel:    3,
-			fieldValues: HexArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       2,
+			maxLevel:       3,
+			componentStats: HexArmorComponentStats,
 		},
 		"Reactive Hex Armor": {
-			minLevel:    4,
-			maxLevel:    5,
-			fieldValues: HexArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       4,
+			maxLevel:       5,
+			componentStats: HexArmorComponentStats,
 		},
 		"Dense Hex Armor": {
-			minLevel:    6,
-			maxLevel:    7,
-			fieldValues: HexArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       6,
+			maxLevel:       7,
+			componentStats: HexArmorComponentStats,
 		},
 		"Multi-Dimensional Hex Armor": {
-			minLevel:    8,
-			maxLevel:    9,
-			fieldValues: HexArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       8,
+			maxLevel:       9,
+			componentStats: HexArmorComponentStats,
 		},
 		"Infinite Hex Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: HexArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: HexArmorComponentStats,
 		},
 
 		"Stellar Armor": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: StellarArmorComponentStats,
+			values:         LightArmorValues,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: StellarArmorComponentStats,
 		},
+	}
+
+	LightArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeLight),
+	}
+	StdArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeStandard),
+	}
+	HeavyArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeHeavy),
 	}
 
 	WeakArmorBlastRating     = MakeExpLevelFunc(15*BlasterBaseDamage, ArmorStrengthIncreaseExp)

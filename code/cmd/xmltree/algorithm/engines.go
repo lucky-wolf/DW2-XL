@@ -52,44 +52,44 @@ const (
 var (
 	StarshipEngineData = map[string]ComponentData{
 		"Engines, Ion": {
-			minLevel:    0,
-			maxLevel:    1,
-			fieldValues: IonStarshipEngineComponentStats,
+			minLevel:       0,
+			maxLevel:       1,
+			componentStats: IonStarshipEngineComponentStats,
 		},
 		"Engines, Pulsed Ion": {
-			minLevel:    2,
-			maxLevel:    5,
-			fieldValues: PulsedIonEngineComponentStats,
+			minLevel:       2,
+			maxLevel:       5,
+			componentStats: PulsedIonEngineComponentStats,
 		},
 		"Engines, Compact Ion": {
-			minLevel:    2,
-			maxLevel:    5,
-			fieldValues: CompactEngineComponentStats,
+			minLevel:       2,
+			maxLevel:       5,
+			componentStats: CompactEngineComponentStats,
 		},
 		"Engines, Acceleros": {
-			minLevel:    2,
-			maxLevel:    5,
-			fieldValues: AccelerosEngineComponentStats,
+			minLevel:       2,
+			maxLevel:       5,
+			componentStats: AccelerosEngineComponentStats,
 		},
 		"Engines, Turbo Thruster": {
-			minLevel:    2,
-			maxLevel:    10,
-			fieldValues: TurboThrusterEngineComponentStats,
+			minLevel:       2,
+			maxLevel:       10,
+			componentStats: TurboThrusterEngineComponentStats,
 		},
 		"Engines, Vortex": {
-			minLevel:    6,
-			maxLevel:    10,
-			fieldValues: VortexEngineComponentStats,
+			minLevel:       6,
+			maxLevel:       10,
+			componentStats: VortexEngineComponentStats,
 		},
 		"Engines, Infinite Flux": {
-			minLevel:    11,
-			maxLevel:    11,
-			fieldValues: InfiniteFluxEngineComponentStats,
+			minLevel:       11,
+			maxLevel:       11,
+			componentStats: InfiniteFluxEngineComponentStats,
 		},
 		"Inertialess Thruster": {
-			minLevel:    11,
-			maxLevel:    11,
-			fieldValues: InertialessEngineComponentStats,
+			minLevel:       11,
+			maxLevel:       11,
+			componentStats: InertialessEngineComponentStats,
 		},
 	}
 

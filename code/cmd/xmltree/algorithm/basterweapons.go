@@ -75,90 +75,90 @@ const (
 var (
 	BlasterWeaponData = map[string]ComponentData{
 		"Laser Cannon [S]": {
-			minLevel:    0,
-			maxLevel:    0,
-			fieldValues: BasicBlasterWeaponComponentStats,
+			minLevel:       0,
+			maxLevel:       0,
+			componentStats: BasicBlasterWeaponComponentStats,
 		},
 		"Maxos Blaster [S]": {
-			minLevel:    2,
-			maxLevel:    4,
-			fieldValues: SmallBlasterWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       4,
+			componentStats: SmallBlasterWeaponComponentStats,
 		},
 		"Maxos Blaster [M]": {
-			minLevel:    2,
-			maxLevel:    4,
-			fieldValues: MediumBlasterWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       4,
+			componentStats: MediumBlasterWeaponComponentStats,
 		},
 
 		"Impact Assault Blaster [S]": {
-			minLevel:    5,
-			maxLevel:    8,
-			fieldValues: SmallImpactBlasterWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       8,
+			componentStats: SmallImpactBlasterWeaponComponentStats,
 		},
 		"Impact Assault Blaster [M]": {
-			minLevel:    5,
-			maxLevel:    8,
-			fieldValues: MediumImpactBlasterWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       8,
+			componentStats: MediumImpactBlasterWeaponComponentStats,
 		},
 		"Impact Assault Blaster [L]": {
-			minLevel:    5,
-			maxLevel:    8,
-			fieldValues: LargeImpactBlasterWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       8,
+			componentStats: LargeImpactBlasterWeaponComponentStats,
 		},
 
 		"Titan Blaster [S]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: SmallTitanBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: SmallTitanBlasterWeaponComponentStats,
 		},
 		"Titan Blaster [M]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: MediumTitanBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: MediumTitanBlasterWeaponComponentStats,
 		},
 		"Titan Blaster [L]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: LargeTitanBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: LargeTitanBlasterWeaponComponentStats,
 		},
 
 		"Phaser Blaster [S]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: SmallPhaserBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: SmallPhaserBlasterWeaponComponentStats,
 		},
 		"Phaser Blaster [M]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: MediumPhaserBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: MediumPhaserBlasterWeaponComponentStats,
 		},
 		"Phaser Blaster [L]": {
-			minLevel:    9,
-			maxLevel:    10,
-			fieldValues: LargePhaserBlasterWeaponComponentStats,
+			minLevel:       9,
+			maxLevel:       10,
+			componentStats: LargePhaserBlasterWeaponComponentStats,
 		},
 
 		// Boskaran Plasma Cannons
 		"Plasma Cannon [S]": {
-			minLevel:    2,
-			maxLevel:    10,
-			fieldValues: SmallPlasmaBlasterWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       10,
+			componentStats: SmallPlasmaBlasterWeaponComponentStats,
 		},
 		"Plasma Cannon [M]": {
-			minLevel:    2,
-			maxLevel:    10,
-			fieldValues: MediumPlasmaBlasterWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       10,
+			componentStats: MediumPlasmaBlasterWeaponComponentStats,
 		},
 		"Plasma Cannon [L]": {
-			minLevel:    2,
-			maxLevel:    10,
-			fieldValues: LargePlasmaBlasterWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       10,
+			componentStats: LargePlasmaBlasterWeaponComponentStats,
 		},
 
 		"Planetary Blaster Emplacement": {
-			minLevel:    3,
-			maxLevel:    9,
-			fieldValues: PlanetaryBlasterComponentStats,
+			minLevel:       3,
+			maxLevel:       9,
+			componentStats: PlanetaryBlasterComponentStats,
 		},
 	}
 

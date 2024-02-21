@@ -49,44 +49,44 @@ const (
 var (
 	KineticWeaponData = map[string]ComponentData{
 		"Long Range Cannon [S]": {
-			minLevel:    0,
-			maxLevel:    0,
-			fieldValues: BasicKineticWeaponComponentStats,
+			minLevel:       0,
+			maxLevel:       0,
+			componentStats: BasicKineticWeaponComponentStats,
 		},
 		"Rail Gun [S]": {
-			minLevel:    2,
-			maxLevel:    4,
-			fieldValues: SmallKineticWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       4,
+			componentStats: SmallKineticWeaponComponentStats,
 		},
 		"Rail Gun [M]": {
-			minLevel:    2,
-			maxLevel:    4,
-			fieldValues: MediumKineticWeaponComponentStats,
+			minLevel:       2,
+			maxLevel:       4,
+			componentStats: MediumKineticWeaponComponentStats,
 		},
 		"Heavy Rail Gun [L]": {
-			minLevel:    3,
-			maxLevel:    4,
-			fieldValues: LargeKineticWeaponComponentStats,
+			minLevel:       3,
+			maxLevel:       4,
+			componentStats: LargeKineticWeaponComponentStats,
 		},
 		"Forge Rail Battery [M]": {
-			minLevel:    5,
-			maxLevel:    10,
-			fieldValues: MediumForgeRailWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       10,
+			componentStats: MediumForgeRailWeaponComponentStats,
 		},
 		"Forge Rail Battery [L]": {
-			minLevel:    5,
-			maxLevel:    10,
-			fieldValues: LargeForgeRailWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       10,
+			componentStats: LargeForgeRailWeaponComponentStats,
 		},
 		"Terminator Autocannon [S]": {
-			minLevel:    5,
-			maxLevel:    10,
-			fieldValues: AutocannonWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       10,
+			componentStats: AutocannonWeaponComponentStats,
 		},
 		"Hail Cannon [S]": {
-			minLevel:    5,
-			maxLevel:    10,
-			fieldValues: HailCannonWeaponComponentStats,
+			minLevel:       5,
+			maxLevel:       10,
+			componentStats: HailCannonWeaponComponentStats,
 		},
 
 		// TODO: in order to make this work, we have to either have a facility per level
@@ -94,9 +94,9 @@ var (
 		// todo: or use different scaling functions that take the "stride" into account
 		// todo: or refer to levels as they fall on the tech tree (v1, v4, v7)
 		"Planetary Forge Battery": {
-			minLevel:    3,
-			maxLevel:    9,
-			fieldValues: PlanetaryForgeBatteryComponentStats,
+			minLevel:       3,
+			maxLevel:       9,
+			componentStats: PlanetaryForgeBatteryComponentStats,
 		},
 	}
 

@@ -240,85 +240,85 @@ var (
 	// warn: we treat the t0 tech as t1
 	IonComponentData = map[string]ComponentData{
 		"Ion Field Projector [S]": {
-			minLevel:    1,
-			maxLevel:    1,
-			fieldValues: SmallIonCannon,
+			minLevel:       1,
+			maxLevel:       1,
+			componentStats: SmallIonCannon,
 		},
 		"Ion Cannon [S]": {
-			minLevel:    2,
-			maxLevel:    5,
-			fieldValues: SmallIonCannon,
+			minLevel:       2,
+			maxLevel:       5,
+			componentStats: SmallIonCannon,
 		},
 		"Ion Cannon [M]": {
-			minLevel:    3,
-			maxLevel:    5,
-			fieldValues: MediumIonCannon,
+			minLevel:       3,
+			maxLevel:       5,
+			componentStats: MediumIonCannon,
 		},
 
 		"Rapid Ion Cannon [S]": {
-			minLevel:    6,
-			maxLevel:    10,
-			fieldValues: RapidIonCannon,
+			minLevel:       6,
+			maxLevel:       10,
+			componentStats: RapidIonCannon,
 		},
 
 		"Heavy Ion Cannon [M]": {
-			minLevel:    6,
-			maxLevel:    10,
-			fieldValues: MediumHeavyIonCannon,
+			minLevel:       6,
+			maxLevel:       10,
+			componentStats: MediumHeavyIonCannon,
 		},
 		"Heavy Ion Cannon [L]": {
-			minLevel:    6,
-			maxLevel:    10,
-			fieldValues: LargeHeavyIonCannon,
+			minLevel:       6,
+			maxLevel:       10,
+			componentStats: LargeHeavyIonCannon,
 		},
 
 		"Electromagnetic Lance [L]": {
-			minLevel:    4,
-			maxLevel:    7,
-			fieldValues: EMLance,
+			minLevel:       4,
+			maxLevel:       7,
+			componentStats: EMLance,
 		},
 		"Electromagnetic Wave Lance [L]": {
-			minLevel:    8,
-			maxLevel:    10,
-			fieldValues: EMWaveLance,
+			minLevel:       8,
+			maxLevel:       10,
+			componentStats: EMWaveLance,
 		},
 
 		"Ion Bomb [M]": {
-			minLevel:    3,
-			maxLevel:    6,
-			fieldValues: MediumIonBomb,
+			minLevel:       3,
+			maxLevel:       6,
+			componentStats: MediumIonBomb,
 		},
 		"Ion Bomb [L]": {
-			minLevel:    3,
-			maxLevel:    6,
-			fieldValues: LargeIonBomb,
+			minLevel:       3,
+			maxLevel:       6,
+			componentStats: LargeIonBomb,
 		},
 
 		"Ion Pulse [M]": {
-			minLevel:    7,
-			maxLevel:    10,
-			fieldValues: MediumIonBomb,
+			minLevel:       7,
+			maxLevel:       10,
+			componentStats: MediumIonBomb,
 		},
 		"Ion Pulse [L]": {
-			minLevel:    7,
-			maxLevel:    10,
-			fieldValues: LargeIonBomb,
+			minLevel:       7,
+			maxLevel:       10,
+			componentStats: LargeIonBomb,
 		},
 
 		"Ion Missile [M]": {
-			minLevel:    2,
-			maxLevel:    5,
-			fieldValues: IonMissile,
+			minLevel:       2,
+			maxLevel:       5,
+			componentStats: IonMissile,
 		},
 		"Advanced Ion Missile [M]": {
-			minLevel:    6,
-			maxLevel:    9,
-			fieldValues: AdvIonMissile,
+			minLevel:       6,
+			maxLevel:       9,
+			componentStats: AdvIonMissile,
 		},
 		"Ultra Ion Missile [M]": {
-			minLevel:    10,
-			maxLevel:    10,
-			fieldValues: UltraIonMissile,
+			minLevel:       10,
+			maxLevel:       10,
+			componentStats: UltraIonMissile,
 		},
 	}
 )

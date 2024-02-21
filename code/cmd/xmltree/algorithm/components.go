@@ -9,21 +9,38 @@ import (
 	"regexp"
 )
 
-var (
-	// 2 ion defense per level
-	DefaultComponentIonDefense = MakeLinearLevelFunc(0, 2)
-)
+// note: see globals.go for some standard level functions
 
 type ComponentName = string
 type WeaponFamilyName = string
 
-type WeaponBasis map[string]xmltree.SimpleValue
-
-type SimpleValueFunc = func(level int) xmltree.SimpleValue
-type SimpleValuesTable = map[AttributeName]SimpleValueFunc
-
+// maps the name of a component attribute to a level function to derive its value
 type ComponentStats = map[AttributeName]LevelFunc
+
+// like component stats, but returns a simple level func which is more flexible (not always a number)
+type FlexComponentStats = map[AttributeName]SimpleLevelFunc
+
+// we take a "level" and return a numeric value
+// typically we use this for component stats
 type LevelFunc = func(level int) float64
+
+// we return a simple value which can be applied to an XMLValue
+type SimpleLevelFunc = func(level int) xmltree.SimpleValue
+
+type ComponentData struct {
+	values         map[AttributeName]xmltree.SimpleValue // these are applied to the base component
+	minLevel       int
+	maxLevel       int
+	componentStats ComponentStats
+	derivatives    []string // what other components are derived from this? (i.e. name of [Ftr] or [PD] components)
+}
+
+type ComponentIs struct {
+	fighter bool
+	weapon  bool
+	pd      bool
+	size    int
+}
 
 func MakeFixedLevelFunc(basis float64) LevelFunc {
 	return func(level int) float64 { return basis }
@@ -68,22 +85,6 @@ func ExtendValuesTable(fields ComponentStats, more ...ComponentStats) (result Co
 	return
 }
 
-type ComponentData struct {
-	scaleTo []string // what other components are copies / scaled to this thing
-	// todo: could we ever look this up viz research tree for first occurrence there?
-	//       that's just column in which it is listed for each level...
-	minLevel    int
-	maxLevel    int
-	fieldValues ComponentStats
-}
-
-type ComponentIs struct {
-	fighter bool
-	weapon  bool
-	pd      bool
-	size    int
-}
-
 func GetComponentIsms(e *xmltree.XMLElement) (is ComponentIs) {
 	is.fighter = e.HasChildWithValue("IsFighterOnly", "true")
 	is.weapon = e.HasPrefix("Category", "Weapon")
@@ -114,6 +115,13 @@ func (j *Job) ApplyComponent(name string, data ComponentData) (err error) {
 	}
 	statistics := &f.stats
 
+	// apply any top-level values
+	for key, sv := range data.values {
+		if c := e.Child(key); c != nil {
+			c.XMLValue.SetString(sv.String())
+		}
+	}
+
 	// ensure we have correct number of component stats to update
 	err = e.Child("Values").SetElementCountByCopyingFirstElementAsNeeded(1 + data.maxLevel - data.minLevel)
 	if err != nil {
@@ -123,7 +131,7 @@ func (j *Job) ApplyComponent(name string, data ComponentData) (err error) {
 	// fill in the data from our data tables
 	stats := e.Child("Values").Elements()
 	for i, e := range stats {
-		for key, f := range data.fieldValues {
+		for key, f := range data.componentStats {
 			e.Child(key).SetValue(f(data.minLevel + i))
 		}
 		statistics.elements++
@@ -132,7 +140,7 @@ func (j *Job) ApplyComponent(name string, data ComponentData) (err error) {
 	statistics.objects++
 
 	// scale to fighter if required
-	for _, name := range data.scaleTo {
+	for _, name := range data.derivatives {
 		err = j.DeriveFromComponentByName(e, name)
 	}
 
