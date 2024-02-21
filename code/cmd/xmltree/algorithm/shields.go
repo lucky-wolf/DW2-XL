@@ -187,7 +187,7 @@ var (
 			"ComponentIonDefense": StandardComponentIonDefense,
 			"CrewRequirement":     SmallCrewRequirements,
 			"ShieldResistance":    WeakShieldResistance,
-			"IonDamageDefense":    WeakShieldIonDefense,
+			"IonDamageDefense":    MakeFixedLevelFunc(0), // WeakShieldIonDefense,
 		},
 	)
 

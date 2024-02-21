@@ -13,7 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
-    - [v1.19.6](#v1196)
+    - [v1.20.0](#v1200)
     - [v1.19.5](#v1195)
     - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
@@ -154,9 +154,6 @@
   - [Reactors](#reactors)
   - [Targeting and Countermeasures](#targeting-and-countermeasures)
   - [Colonization](#colonization)
-  - [Planetary Facilities](#planetary-facilities)
-  - [Bug Fixes: Base Game](#bug-fixes-base-game)
-  - [Bug Fixes: Early versions of this mod](#bug-fixes-early-versions-of-this-mod)
   - [DW2-XL Hull Sizes](#dw2-xl-hull-sizes)
   - [DW2-XL Shields](#dw2-xl-shields)
   - [DW2-XL Armor](#dw2-xl-armor)
@@ -207,7 +204,7 @@ YMMV, but this is my take on making it Extra Large!
 
 ## Latest Changes
 
-### v1.19.6
+### v1.20.0
 - DW2 1.2.0.8 required
 - I changed some really fundamental variables for:
   - Galaxy Creation (even fewer habitable worlds - but those that exist are mostly planets not moons)
@@ -216,10 +213,10 @@ YMMV, but this is my take on making it Extra Large!
   - Engine stats
   - Kinetic stats
   - Blaster stats
-- Integrated 1208 Human & Mortalen features & Government features
-- Updated to latest bundles from @salemonz with a new ID system
+- Integrated Human & Mortalen features & Government features from DW2 1208 beta
+- Updated to latest image bundles from @salemonz
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
-- Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech (again)
+- Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech
 - Fixed Humans policy for stand-off weapons to be Missiles, not Rail guns
 - Improved Human diplomacy facility
 - Restored Troop Experience Gain Bonuses (game does seem to track them - whether they have any actual affect)
@@ -1602,19 +1599,16 @@ YMMV, but this is my take on making it Extra Large!
     - S = 11
     - M = 22
     - L = 44
-    - X = 50
+    - X = 44
   - Tracking weapons:
     - Ftr = 10
     - S = 13
     - M = 26
     - L = 52
-    - X = 60
-  - Area weapons:
-    - L = 52
-    - X = 60
+    - X = 52
   - Bombard weapons:
     - B = 26
-    - X = 30
+    - X = 26
 
 ## Kinetic Weapons
 - Do not lose damage with distance (slugs don't slow down in a vacuum, or lose energy).
@@ -1671,21 +1665,6 @@ YMMV, but this is my take on making it Extra Large!
   - Static energy cost scales with capacity (so you're unlikely to be able to have more than 1 on a single ship).
   - It is still entirely possible to use more than one module on a given colonizer, boosting your capacity further.  This is the same as vanilla, but can create ships that are hard for your economy to stomach, so use wisely.
 
-## Planetary Facilities
-- Maintenance is greatly reduced.
-  - This is to make it possible to not wreck yours or the AI's economy.
-  - Typically maintenance is 1% of initial build cost.
-
-## Bug Fixes: Base Game
-- Star Marine Barracks has crew which fixes those components to work as expected in the ship designer.
-- Troop Academy is limited to 1 per Empire, plugging an exploit for the player (AIs didn't build more than one).
-
-## Bug Fixes: Early versions of this mod
-Fixes for bugs I introduced in previous versions of this mod, and later fixed in this version:
-- Fixed a bug in Ackdarian Fast Interceptors and Bombers - event now works properly.
-- Fixed a bug in Ackdarians who often get an event for maneuvering thrusters.  This now works properly.
-- Fixed a bug in Mysterious Plague event -- now works properly.
-
 ## DW2-XL Hull Sizes
 
 | type      | standard | type-increase | specialized +20% | advanced +40% | super +60% |
@@ -1704,30 +1683,8 @@ All upgrades in DW2-XL follow a +20% over the previous technology level.  So spe
 
 ## DW2-XL Shields
 
-| Shield           | Ion Def | Strength | Resistance | Pen Chance | Pen Ratio | Recharge/s | Recharge Energy | Static Energy |
-| ---------------- | ------: | -------: | ---------: | ---------: | --------: | ---------: | --------------: | ------------: |
-| Deflectors       |         |      288 |            |        25% |       75% |       0.60 |               2 |             1 |
-| Deflectors (v2)  |       1 |      384 |            |        20% |       50% |       0.90 |               3 |             1 |
-| Megatron Z4      |       2 |      500 |          1 |        10% |       30% |       1.80 |               5 |             3 |
-| Megatron Z4 (v2) |       3 |      700 |          2 |         8% |       20% |       3.95 |              10 |             4 |
-| Megatron Z4 (v3) |       4 |     1100 |          3 |         5% |       10% |       5.10 |              15 |             5 |
-| Megatron Z4 (v4) |       5 |     1400 |          5 |         3% |        5% |       6.75 |              20 |             6 |
-| Talassos         |       2 |      450 |          1 |        15% |       40% |       1.65 |               5 |             4 |
-| Talassos (v2)    |       3 |      650 |          2 |        10% |       30% |       3.30 |              10 |             5 |
-| Talassos (v3)    |       4 |     1050 |          3 |         8% |       20% |       4.95 |              15 |             6 |
-| Talassos (v4)    |       5 |     1350 |          4 |         5% |       10% |       6.60 |              20 |             7 |
-| Corvidian        |       2 |      500 |          1 |        15% |       40% |       1.50 |               4 |             2 |
-| Corvidian (v2)   |       3 |      700 |          1 |        10% |       30% |       3.00 |               8 |             3 |
-| Corvidian (v3)   |       4 |     1000 |          2 |         8% |       20% |       4.50 |              12 |             4 |
-| Corvidian (v4)   |       5 |     1400 |          4 |         5% |       10% |       6.00 |              16 |             5 |
-| Deucalios        |       2 |      600 |          1 |        10% |       35% |       1.20 |               4 |             4 |
-| Deucalios (v2)   |       3 |     1000 |          2 |        10% |       25% |       2.40 |               8 |             5 |
-| Deucalios (v3)   |       4 |     1400 |          3 |        10% |       15% |       3.20 |              12 |             6 |
-| Deucalios (v4)   |       5 |     1800 |          4 |        10% |        5% |       4.80 |              16 |             7 |
-| Meridian         |       6 |     1600 |          5 |            |           |       7.50 |              25 |             8 |
-| Meridian (v2)    |       8 |     2400 |          5 |            |           |      10.50 |              35 |             9 |
-| Meridian (v3)    |      10 |     3200 |          5 |            |           |      13.50 |              45 |            10 |
-| Citadel          |      12 |     4800 |          6 |            |           |      22.50 |              60 |            15 |
+| Shield | Ion Def | Strength | Resistance | Pen Chance | Pen Ratio | Recharge/s | Recharge Energy | Static Energy |
+| ------ | ------: | -------: | ---------: | ---------: | --------: | ---------: | --------------: | ------------: |
 
 ## DW2-XL Armor
 
@@ -1736,74 +1693,18 @@ Next gen armor values can be found [here](https://docs.google.com/spreadsheets/d
 
 ## DW2-XL Reactors
 
-| Ship Reactor                           | Tech | Size | Energy | Capacity | Fuel Efficiency |
-| -------------------------------------- | ---: | ---: | -----: | -------: | --------------: |
-| Reactor, Caslon                        |    0 |   23 |   54/s |       90 |      2.333/1000 |
-| Reactor, Caslon (v2)                   |    1 |   23 |   68/s |      115 |      1.739/1000 |
-| Reactor, Caslon Fusion                 |    2 |   16 |   80/s |      120 |      1.500/1000 |
-| Reactor, Caslon Fusion (v2)            |    3 |    - |  100/s |      144 |      1.400/1000 |
-| Reactor, Caslon Fusion (v3)            |    4 |    - |  120/s |      173 |      1.300/1000 |
-| Reactor, Caslon Hyperfusion            |    5 |   14 |  160/s |      200 |      1.200/1000 |
-| Reactor, Caslon Hyperfusion (v2)       |    6 |    - |  200/s |      240 |      1.100/1000 |
-| Reactor, Caslon Hyperfusion (v3)       |    7 |    - |  240/s |      280 |      1.000/1000 |
-| Reactor, Harmonic Caslon               |    2 |   20 |  120/s |      144 |      1.700/1000 |
-| Reactor, Harmonic Caslon (v2)          |    3 |    - |  140/s |      173 |      1.600/1000 |
-| Reactor, Harmonic Caslon (v3)          |    4 |    - |  160/s |      207 |      1.500/1000 |
-| Reactor, Resonant Caslon               |    5 |   18 |  200/s |      240 |      1.400/1000 |
-| Reactor, Resonant Caslon (v2)          |    6 |    - |  240/s |      288 |      1.300/1000 |
-| Reactor, Resonant Caslon (v3)          |    7 |    - |  280/s |      346 |      1.200/1000 |
-| Reactor, Plasmatic Caslon              |    2 |   24 |  160/s |      216 |      1.900/1000 |
-| Reactor, Plasmatic Caslon (v2)         |    3 |    - |  180/s |      259 |      1.800/1000 |
-| Reactor, Plasmatic Caslon (v3)         |    4 |    - |  200/s |      311 |      1.700/1000 |
-| Reactor, Plasmatic Caslon Cycling      |    5 |   22 |  240/s |      360 |      1.600/1000 |
-| Reactor, Plasmatic Caslon Cycling (v2) |    6 |    - |  280/s |      432 |      1.500/1000 |
-| Reactor, Plasmatic Caslon Cycling (v3) |    7 |    - |  320/s |      518 |      1.400/1000 |
-| Reactor, Zero Point                    |    8 |   20 |  311/s |      605 |      1.000/1000 |
-| Reactor, Dark Star                     |   12 |   20 |  500/s |     1000 |      0.900/1000 |
+| Ship Reactor | Tech | Size | Energy | Capacity | Fuel Efficiency |
+| ------------ | ---: | ---: | -----: | -------: | --------------: |
 
 ## DW2-XL Hyperdrives
 
-| Hyperdrive           | Tech | Size |   Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
-| -------------------- | ---: | ---: | ------: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
-| Skip                 |    0 |   20 |    100K |   75M |     5000 |             5 |          50/s |        20s |      30s |             |            |
-| Warp Field Generator |    1 |   20 |    200K |  120M |     3500 |             5 |          60/s |        17s |      28s |             |            |
-| Sojourn              |    2 |   20 |    300K |  140M |     2000 |             3 |          70/s |        16s |      25s |           1 |         10 |
-| Smart                |    3 |   16 |    400K |  200M |     1000 |             2 |          80/s |        26s |      13s |           2 |         15 |
-| Smart (v2)           |    4 |    - |    500K |  280M |      750 |             2 |          90/s |        24s |      12s |           3 |         20 |
-| Smart (v3)           |    6 |    - |    700K |  440M |      500 |             2 |         110/s |        22s |      11s |           5 |         30 |
-| Smart (v4)           |    8 |    - |    900K |  600M |      250 |             2 |         130/s |        20s |      10s |           7 |         40 |
-| Snap                 |    3 |   18 |    500K |  160M |     1500 |            16 |          90/s |        12s |      12s |           2 |         15 |
-| Snap (v2)            |    4 |    - |    700K |  200M |     1200 |            16 |         100/s |        10s |      10s |           3 |         20 |
-| Snap (v3)            |    6 |    - |  1,100K |  280M |      900 |            16 |         120/s |         6s |       6s |           5 |         30 |
-| Snap (v4)            |    8 |    - |  1,500K |  360M |      600 |            16 |         140/s |         3s |       2s |           7 |         40 |
-| Hyperstream          |    3 |   20 |    600K |  180M |     1750 |             8 |         110/s |        16s |      22s |           2 |         15 |
-| Hyperstream (v2)     |    4 |    - |    900K |  240M |     1500 |             8 |         130/s |        14s |      20s |           3 |         20 |
-| Hyperstream (v3)     |    6 |    - |  1,500K |  360M |     1250 |             8 |         170/s |        12s |      18s |           5 |         30 |
-| Hyperstream (v4)     |    8 |    - |  2,100K |  480M |     1000 |             8 |         210/s |        10s |      16s |           7 |         40 |
-| Wormhole             |   11 |   20 | 10,000K |  480M |      150 |            10 |         200/s |         2s |       2s |          10 |         50 |
+| Hyperdrive | Tech | Size | Speed | Range | Accuracy | Static Energy | Active Energy | Initiation | Recharge | Ion Defense | Insulation |
+| ---------- | ---: | ---: | ----: | ----: | -------: | ------------: | ------------: | ---------: | -------: | ----------: | ---------: |
 
 ## DW2-XL Engines
 
-| Ship Engine                  | Tech | Size | Max Thrust | Max Energy | Cruise Thrust | Cruise Energy | Vector Thrust | Vector Energy | Countermeasures | Ion Defense |
-| ---------------------------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
-| Engines, Ion                 |    0 |   20 |      15.0K |      2.8/s |           12K |         2.0/s |            70 |         2.0/s |                 |             |
-| Engines, Ion (v2)            |    1 |    - |      16.5K |      2.0/s |         13.2K |         1.4/s |            90 |         1.0/s |            2.5% |           1 |
-| Engines, Compact Ion         |    2 |   16 |     18.15K |      3.0/s |        14.52K |         2.0/s |           100 |         1.0/s |            5.0% |           2 |
-| Engines, Compact Ion (v2)    |    3 |    - |    22.363K |      4.0/s |        17.89K |         3.0/s |           120 |         1.0/s |            7.5% |           3 |
-| Engines, Compact Ion (v3)    |    4 |    - |    24.599K |      5.0/s |       19.679K |         4.0/s |           150 |         1.0/s |           10.0% |           4 |
-| Engines, Pulsed Ion          |    2 |   20 |    18.315K |      4.5/s |       14.652K |         3.0/s |           125 |         1.0/s |            7.5% |           2 |
-| Engines, Pulsed Ion (v2)     |    3 |    - |     24.33K |      6.0/s |       18.564K |         4.0/s |           156 |         1.0/s |           10.0% |           3 |
-| Engines, Pulsed Ion (v3)     |    4 |    - |     28.53K |      9.0/s |       21.564K |         6.0/s |           195 |         1.0/s |           12.5% |           4 |
-| Engines, Acceleros           |    2 |   20 |     21.45K |      7.5/s |        15.84K |         5.0/s |            70 |         1.0/s |            5.0% |           2 |
-| Engines, Acceleros (v2)      |    3 |    - |    26.429K |     10.5/s |       19.516K |         7.0/s |            90 |         1.0/s |            7.5% |           3 |
-| Engines, Acceleros (v3)      |    4 |    - |    31.714K |     13.5/s |        23.42K |         9.0/s |           120 |         1.0/s |           10.0% |           4 |
-| Engines, Turbo Thruster      |    2 |   17 |      23.1K |      4.5/s |         16.5K |         3.0/s |           115 |         1.0/s |            5.0% |           2 |
-| Engines, Turbo Thruster (v2) |    3 |    - |    26.429K |      6.0/s |       19.516K |         4.0/s |           145 |         1.0/s |            7.5% |           3 |
-| Engines, Turbo Thruster (v3) |    4 |    - |    34.357K |     10.0/s |       23.429K |         5.0/s |           185 |         1.0/s |           10.0% |           4 |
-| Engines, Vortex              |    6 |   15 |    27.953K |      6.0/s |       24.396K |         5.0/s |           225 |         1.0/s |           15.0% |           6 |
-| Engines, Vortex (v2)         |    7 |    - |    34.942K |      7.0/s |       30.494K |         6.0/s |           300 |         1.0/s |           17.5% |           7 |
-| Engines, Vortex (v3)         |    8 |    - |    43.677K |      8.0/s |       38.118K |         7.0/s |           375 |         1.0/s |           20.0% |           8 |
-| Engines, Infinite Flux       |   12 |   15 |      50.0K |     12.0/s |         40.0K |         9.0/s |           400 |         1.0/s |           25.0% |          10 |
+| Ship Engine | Tech | Size | Max Thrust | Max Energy | Cruise Thrust | Cruise Energy | Vector Thrust | Vector Energy | Countermeasures | Ion Defense |
+| ----------- | ---: | ---: | ---------: | ---------: | ------------: | ------------: | ------------: | ------------: | --------------: | ----------: |
 
 ## DW2-XL Habitability Matrix
 

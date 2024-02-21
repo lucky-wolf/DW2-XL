@@ -37,7 +37,7 @@ func (j *Job) applyPartialOrdering() (err error) {
 
 			switch arrayOf.Name.Local {
 			case "ArrayOfComponentDefinition":
-				err = j.applyPartialOrderingTo(f, arrayOf, "ComponentId", "Name", "Description", "ImageFilename", "Size", "Category", "IsFighterOnly")
+				err = j.applyPartialOrderingTo(f, arrayOf, "ComponentId", "Name", "Description", "ImageFilename", "Size", "Category", "IsFighterOnly", "Family")
 			case "ArrayOfOrbType":
 				err = j.applyPartialOrderingTo(f, arrayOf, "OrbTypeId", "Category", "Name", "Description", "ImageFilename")
 			case "ArrayOfPlanetaryFacilityDefinition":
