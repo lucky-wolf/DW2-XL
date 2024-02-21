@@ -37,8 +37,11 @@ func (j *Job) applyShields() (err error) {
 
 	// apply stats for each component
 	err = j.ApplyComponentAll(StarshipShieldData)
+	if err != nil {
+		return
+	}
 
-	return
+	return j.ApplyComponentAll(ShieldEnhancementData)
 }
 
 func ShieldStaticEnergy(shieldStrength LevelFunc) LevelFunc {
@@ -47,18 +50,6 @@ func ShieldStaticEnergy(shieldStrength LevelFunc) LevelFunc {
 
 func ShieldRechargeEnergy(shieldRecharge LevelFunc) LevelFunc {
 	return func(level int) float64 { return ShieldRechargeEnergyCoefficient * shieldRecharge(level) }
-}
-
-func QuickShieldRecharge(shieldStrength LevelFunc) LevelFunc {
-	return func(level int) float64 { return QuickShieldRechargeCoefficient * shieldStrength(level) }
-}
-
-func StandardShieldRecharge(shieldStrength LevelFunc) LevelFunc {
-	return func(level int) float64 { return StandardShieldRechargeCoefficient * shieldStrength(level) }
-}
-
-func SlowShieldRecharge(shieldStrength LevelFunc) LevelFunc {
-	return func(level int) float64 { return SlowShieldRechargeCoefficient * shieldStrength(level) }
 }
 
 // 30%, 25%, 20%, 15%, 10%, 5%, 0...
@@ -71,29 +62,63 @@ func ShieldPenetrationRatio(level int) float64 {
 	return max(0, .6-float64(level)*.1)
 }
 
-func GenerateShieldStatsFor(shieldStrength LevelFunc, rechargeRate func(LevelFunc) LevelFunc) ComponentStats {
+func GenerateShieldStatsFor(shieldStrength LevelFunc, rechargeRate LevelFunc) ComponentStats {
 	return ComponentStats{
 		"ShieldStrength":            shieldStrength,
-		"ShieldRechargeRate":        rechargeRate(shieldStrength),
-		"ShieldRechargeEnergyUsage": ShieldRechargeEnergy(rechargeRate(shieldStrength)),
+		"ShieldRechargeRate":        rechargeRate,
+		"ShieldRechargeEnergyUsage": ShieldRechargeEnergy(rechargeRate),
 		"StaticEnergyUsed":          ShieldStaticEnergy(shieldStrength),
 	}
 }
 
 const (
-	ShieldSizeSmall    = 8
-	ShieldSizeStandard = 12
-	ShieldSizeLarge    = 16
+	ShieldSizeSmall    = 10
+	ShieldSizeStandard = 14
+	ShieldSizeLarge    = 18
 
 	ShieldStaticEnergyCoefficient   = 0.0125
-	ShieldRechargeEnergyCoefficient = 0.0125
-
-	QuickShieldRechargeCoefficient    = 0.0100
-	StandardShieldRechargeCoefficient = 0.0050
-	SlowShieldRechargeCoefficient     = 0.0025
+	ShieldRechargeEnergyCoefficient = 4
 )
 
 var (
+	WeakShieldStrength     = MakeExpLevelFunc(ShieldStrengthBasis, ShieldStrengthIncreaseExp)
+	StandardShieldStrength = MakeScaledFuncLevelFunc(1.3333333, WeakShieldStrength)
+	StrongShieldStrength   = MakeScaledFuncLevelFunc(1.6666666, WeakShieldStrength)
+
+	SlowShieldRecharge     = MakeExpLevelFunc(1, ShieldStrengthIncreaseExp)
+	StandardShieldRecharge = MakeScaledFuncLevelFunc(2, SlowShieldRecharge)
+	QuickShieldRecharge    = MakeScaledFuncLevelFunc(3, SlowShieldRecharge)
+
+	WeakShieldResistance     = MakeLinearLevelFunc(0, 1)
+	StandardShieldResistance = MakeLinearLevelFunc(0, 1.5)
+	StrongShieldResistance   = MakeLinearLevelFunc(0, 2)
+
+	WeakShieldIonDefense     = MakeLinearLevelFunc(0, 1)
+	StandardShieldIonDefense = MakeLinearLevelFunc(0, 2)
+	StrongShieldIonDefense   = MakeLinearLevelFunc(0, 3)
+
+	SmallShieldValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ShieldSizeSmall),
+	}
+	StandardShieldValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ShieldSizeStandard),
+	}
+	LargeShieldValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ShieldSizeLarge),
+	}
+
+	ShieldEnhancementData = map[string]ComponentData{
+		"Quantum Capacitors": {
+			values: map[AttributeName]xmltree.SimpleValue{
+				"Size": xmltree.CreateInt(ShieldSizeSmall),
+			},
+			minLevel:       6,
+			maxLevel:       10,
+			componentStats: ShieldEnhancementStats,
+			derivatives:    []string{"Quantum Capacitors [Ftr]"},
+		},
+	}
+
 	StarshipShieldData = map[string]ComponentData{
 
 		// basic
@@ -157,27 +182,15 @@ var (
 		},
 	}
 
-	SmallShieldValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ShieldSizeSmall),
-	}
-	StandardShieldValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ShieldSizeStandard),
-	}
-	LargeShieldValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ShieldSizeLarge),
-	}
-
-	WeakShieldStrength     = MakeExpLevelFunc(ShieldStrengthBasis, ShieldStrengthIncreaseExp)
-	StandardShieldStrength = MakeScaledFuncLevelFunc(1.3333333, WeakShieldStrength)
-	StrongShieldStrength   = MakeScaledFuncLevelFunc(1.6666666, WeakShieldStrength)
-
-	WeakShieldResistance     = MakeLinearLevelFunc(0, 1)
-	StandardShieldResistance = MakeLinearLevelFunc(0, 1.5)
-	StrongShieldResistance   = MakeLinearLevelFunc(0, 2)
-
-	WeakShieldIonDefense     = MakeLinearLevelFunc(0, 1)
-	StandardShieldIonDefense = MakeLinearLevelFunc(0, 2)
-	StrongShieldIonDefense   = MakeLinearLevelFunc(0, 3)
+	ShieldEnhancementStats = ComposeComponentStats(
+		GenerateShieldStatsFor(WeakShieldStrength, SlowShieldRecharge),
+		ComponentStats{
+			"ComponentIonDefense": StandardComponentIonDefense,
+			"CrewRequirement":     SmallCrewRequirements,
+			"ShieldResistance":    WeakShieldResistance,
+			"IonDamageDefense":    WeakShieldIonDefense,
+		},
+	)
 
 	CoreShieldStats = ComponentStats{
 		"ComponentIonDefense":     HardenedComponentIonDefense, // shields are hardened
@@ -242,7 +255,7 @@ var (
 
 	QuamenoShieldComponentStats = ComposeComponentStats(
 		CoreShieldStats,
-		GenerateShieldStatsFor(StrongShieldStrength, QuickShieldRecharge),
+		GenerateShieldStatsFor(StrongShieldStrength, StandardShieldRecharge),
 		ComponentStats{
 			"ShieldResistance": StandardShieldResistance,
 			"IonDamageDefense": WeakShieldIonDefense,

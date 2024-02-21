@@ -44,12 +44,40 @@ func (j *Job) applyArmors() (err error) {
 // general trend is currently that weapons increase in output faster than armors can resist it
 // subtle: but note that starting values matter immensely - if weapons outpace armor to begin with - they'll only spread that delta w/o any extra exp delta
 const (
-	ArmorSizeSmall    = 8
-	ArmorSizeStandard = 12
-	ArmorSizeLarge    = 16
+	ArmorSizeSmall    = 10
+	ArmorSizeStandard = 14
+	ArmorSizeLarge    = 18
 )
 
 var (
+	WeakArmorBlastRating     = MakeExpLevelFunc(ArmorStrengthBasis, ArmorStrengthIncreaseExp)
+	StandardArmorBlastRating = MakeScaledFuncLevelFunc(1.3333333, WeakArmorBlastRating)
+	StrongArmorBlastRating   = MakeScaledFuncLevelFunc(1.6666666, WeakArmorBlastRating)
+
+	WeakArmorReactiveRating     = MakeLinearLevelFunc(2, 1)
+	StandardArmorReactiveRating = MakeLinearLevelFunc(2, 1.5)
+	StrongArmorReactiveRating   = MakeLinearLevelFunc(3, 2)
+
+	WeakArmorIonDefense   = MakeFixedLevelFunc(0)
+	MediumArmorIonDefense = MakeLinearLevelFunc(0, 2)
+	StrongArmorIonDefense = MakeLinearLevelFunc(0, 4)
+
+	InertArmorStaticEnergy  = MakeFixedLevelFunc(0)
+	ActiveArmorStaticEnergy = MakeLinearLevelFunc(.25, .25)
+
+	InertArmorCrew  = MakeFixedLevelFunc(1)
+	ActiveArmorCrew = MakeIntegerLevelFunc(MakeLinearLevelFunc(1, .25))
+
+	SmallArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeSmall),
+	}
+	StandardArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeStandard),
+	}
+	LargeArmorValues = map[AttributeName]xmltree.SimpleValue{
+		"Size": xmltree.CreateInt(ArmorSizeLarge),
+	}
+
 	StarshipArmorData = map[string]ComponentData{
 
 		"Armor Plating": {
@@ -222,40 +250,12 @@ var (
 		},
 	}
 
-	SmallArmorValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ArmorSizeSmall),
-	}
-	StandardArmorValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ArmorSizeStandard),
-	}
-	LargeArmorValues = map[AttributeName]xmltree.SimpleValue{
-		"Size": xmltree.CreateInt(ArmorSizeLarge),
-	}
-
-	WeakArmorBlastRating     = MakeExpLevelFunc(ArmorStrengthBasis, ArmorStrengthIncreaseExp)
-	StandardArmorBlastRating = MakeScaledFuncLevelFunc(1.3333333, WeakArmorBlastRating)
-	StrongArmorBlastRating   = MakeScaledFuncLevelFunc(1.6666666, WeakArmorBlastRating)
-
-	WeakArmorReactiveRating     = MakeLinearLevelFunc(2, 1)
-	StandardArmorReactiveRating = MakeLinearLevelFunc(2, 1.5)
-	StrongArmorReactiveRating   = MakeLinearLevelFunc(3, 2)
-
-	WeakArmorIonDefense   = MakeFixedLevelFunc(0)
-	MediumArmorIonDefense = MakeLinearLevelFunc(0, 2)
-	StrongArmorIonDefense = MakeLinearLevelFunc(0, 4)
-
-	InertArmorStaticEnergy  = MakeFixedLevelFunc(0)
-	ActiveArmorStaticEnergy = MakeLinearLevelFunc(.25, .25)
-
-	InertArmorCrew  = MakeFixedLevelFunc(1)
-	ActiveArmorCrew = MakeIntegerLevelFunc(MakeLinearLevelFunc(1, .25))
-
 	ArmorPlatingComponentStats = ComponentStats{
 		"ComponentIonDefense": HardenedComponentIonDefense, // armors are hardened
 		"CrewRequirement":     InertArmorCrew,
 		"StaticEnergyUsed":    InertArmorStaticEnergy,
-		"ArmorBlastRating":    StandardArmorBlastRating,
-		"ArmorReactiveRating": StandardArmorReactiveRating,
+		"ArmorBlastRating":    WeakArmorBlastRating,
+		"ArmorReactiveRating": WeakArmorReactiveRating,
 		"IonDamageDefense":    WeakArmorIonDefense,
 	}
 

@@ -215,6 +215,66 @@
 		<Name>Hardened Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>900</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>3</Column>
+		<Row>147</Row>
+		<AllowedRaceIds>
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>817</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<Components>
+			<Component>
+				<ComponentId>372</ComponentId>
+				<Level>1</Level>
+			</Component>
+			<Component>
+				<ComponentId>371</ComponentId>
+				<Level>1</Level>
+			</Component>
+		</Components>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>819</ResearchProjectId>
+		<Name>Reinforced Hard Shields</Name>
+		<Description />
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>2700</Size>
 		<InitiationCost>
 			<Money>13500</Money>
@@ -253,66 +313,6 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>817</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>372</ComponentId>
-				<Level>1</Level>
-			</Component>
-			<Component>
-				<ComponentId>371</ComponentId>
-				<Level>1</Level>
-			</Component>
-		</Components>
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>819</ResearchProjectId>
-		<Name>Reinforced Hard Shields</Name>
-		<Description />
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>20250</Size>
-		<InitiationCost>
-			<Money>101250</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>7</ResourceId>
-					<Amount>4800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>2400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>6</Column>
-		<Row>147</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
 				<ResearchProjectId>818</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
@@ -333,38 +333,38 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>820</ResearchProjectId>
-		<Name>Impenetrable Shields</Name>
+		<Name>Diamond Hard Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>8100</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>40500</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>2400</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>1200</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
+		<Column>5</Column>
 		<Row>147</Row>
 		<AllowedRaceIds>
 			<RaceProbability>
@@ -599,68 +599,6 @@
 				<DiscoveryLevel>0</DiscoveryLevel>
 			</Bonus>
 		</EmpireBonuses>
-	</ResearchProjectDefinition>
-	<!-- XL Extensions -->
-	<ResearchProjectDefinition>
-		<!-- replaces vanilla fast interceptors (that XL doesn't use) -->
-		<ResearchProjectId>351</ResearchProjectId>
-		<Name>Indestructible Shields</Name>
-		<Description />
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
-		<InitiationCost>
-			<Money>1518750</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>7</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
-		<Row>147</Row>
-		<AllowedRaceIds>
-			<RaceProbability>
-				<RaceId>15</RaceId>
-				<Probability>1</Probability>
-			</RaceProbability>
-		</AllowedRaceIds>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>820</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-				<RaceId>15</RaceId>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<Components>
-			<Component>
-				<ComponentId>372</ComponentId>
-				<Level>4</Level>
-			</Component>
-			<Component>
-				<ComponentId>371</ComponentId>
-				<Level>4</Level>
-			</Component>
-		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1267</ResearchProjectId>

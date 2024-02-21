@@ -13940,7 +13940,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>296</ResearchProjectId>
-		<Name>Massive Shield Projection</Name>
+		<Name>Bombardment Protection</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>900</Size>
 		<InitiationCost>
@@ -15768,7 +15768,7 @@
 			</ResearchPath>
 			<ResearchPath>
 				<!-- Quameno Shields -->
-				<ResearchProjectId>818</ResearchProjectId>
+				<ResearchProjectId>820</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -22645,7 +22645,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>142</Row>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Quameno have better tech -->
 			<RaceProbability>
@@ -22675,6 +22675,13 @@
 				<ResearchProjectId>1085</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
+			</ResearchPath>
+			<ResearchPath>
+				<!-- Quameno Shields -->
+				<ResearchProjectId>820</ResearchProjectId>
+				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
@@ -24060,7 +24067,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>143</Row>
+		<Row>142</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Meridian Shields -->
@@ -24076,7 +24083,7 @@
 			</ResearchPath>
 			<ResearchPath>
 				<!-- Quameno Shields -->
-				<ResearchProjectId>819</ResearchProjectId>
+				<ResearchProjectId>1334</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -24094,40 +24101,40 @@
 		<ResearchProjectId>534</ResearchProjectId>
 		<Name>Shield Multipliers</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>101250</Size>
+		<Size>50625</Size>
 		<InitiationCost>
-			<Money>506250</Money>
+			<Money>253125</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>18200</Amount>
+					<Amount>9600</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>9100</Amount>
+					<Amount>4800</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>8</Column>
-		<Row>142</Row>
+		<Column>7</Column>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Quameno have better tech -->
 			<RaceProbability>
@@ -24182,7 +24189,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>536</ResearchProjectId>
-		<Name>Global Shield Reinforcement</Name>
+		<Name>Improved Bombardment Protection</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -25956,7 +25963,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>143</Row>
+		<Row>142</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>533</ResearchProjectId>
@@ -25975,40 +25982,40 @@
 		<ResearchProjectId>581</ResearchProjectId>
 		<Name>Self-Reinforcing Shields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
+		<Size>101250</Size>
 		<InitiationCost>
-			<Money>1518750</Money>
+			<Money>506250</Money>
 			<Resources>
 				<ResourceQuantity>
 					<ResourceId>4</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>5</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>6</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>7</ResourceId>
-					<Amount>72800</Amount>
+					<Amount>18200</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>12</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 				<ResourceQuantity>
 					<ResourceId>77</ResourceId>
-					<Amount>36400</Amount>
+					<Amount>9100</Amount>
 				</ResourceQuantity>
 			</Resources>
 		</InitiationCost>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>10</Column>
-		<Row>142</Row>
+		<Column>8</Column>
+		<Row>143</Row>
 		<DisallowedRaceIds>
 			<!-- Quameno have better tech -->
 			<RaceProbability>
@@ -27758,54 +27765,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>619</ResearchProjectId>
-		<Name>Reduced Shield Size</Name>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>303750</Size>
-		<InitiationCost>
-			<Money>1518750</Money>
-			<Resources>
-				<ResourceQuantity>
-					<ResourceId>4</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>5</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>6</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>7</ResourceId>
-					<Amount>72800</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>12</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-				<ResourceQuantity>
-					<ResourceId>77</ResourceId>
-					<Amount>36400</Amount>
-				</ResourceQuantity>
-			</Resources>
-		</InitiationCost>
-		<EnabledByDefault>false</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>11</Column>
-		<Row>142</Row>
-		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>581</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-				<Priority>0</Priority>
-			</ResearchPath>
-		</PrerequisiteProjects>
-		<!-- still disabled in 1.1.6.1 -->
-	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>620</ResearchProjectId>
-		<Name>Improved Shield Strength</Name>
+		<Name>Improved Z4 Shields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -27841,16 +27801,16 @@
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
 		<Row>141</Row>
-		<DisallowedRaceIds>
-			<!-- Quameno have better tech -->
+		<AllowedRaceIds>
+			<!-- Zenox -->
 			<RaceProbability>
-				<RaceId>15</RaceId>
+				<RaceId>7</RaceId>
 				<Probability>1</Probability>
 			</RaceProbability>
-		</DisallowedRaceIds>
+		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>581</ResearchProjectId>
+				<ResearchProjectId>1333</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27858,26 +27818,28 @@
 		<RepeatableTechLimit>1000</RepeatableTechLimit>
 		<RepeatableComponentValues>
 			<ComponentValues>
-				<ComponentId>277</ComponentId>
+				<ComponentId>274</ComponentId>
 				<Values>
 					<ComponentStats>
 						<ShieldStrength>0.05</ShieldStrength>
+						<ShieldRechargeRate>0.05</ShieldRechargeRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 			<ComponentValues>
-				<ComponentId>183</ComponentId>
+				<ComponentId>272</ComponentId>
 				<Values>
 					<ComponentStats>
 						<ShieldStrength>0.05</ShieldStrength>
+						<ShieldRechargeRate>0.05</ShieldRechargeRate>
 					</ComponentStats>
 				</Values>
 			</ComponentValues>
 		</RepeatableComponentValues>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>621</ResearchProjectId>
-		<Name>Improved Shield Recharge</Name>
+		<ResearchProjectId>620</ResearchProjectId>
+		<Name>Improved Meridian Shields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -27922,7 +27884,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>581</ResearchProjectId>
+				<ResearchProjectId>1328</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27933,6 +27895,7 @@
 				<ComponentId>277</ComponentId>
 				<Values>
 					<ComponentStats>
+						<ShieldStrength>0.05</ShieldStrength>
 						<ShieldRechargeRate>0.05</ShieldRechargeRate>
 					</ComponentStats>
 				</Values>
@@ -27941,6 +27904,82 @@
 				<ComponentId>183</ComponentId>
 				<Values>
 					<ComponentStats>
+						<ShieldStrength>0.05</ShieldStrength>
+						<ShieldRechargeRate>0.05</ShieldRechargeRate>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+		</RepeatableComponentValues>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<!-- Unused -->
+		<ResearchProjectId>621</ResearchProjectId>
+		<Name>Improved Tortoise Shields</Name>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>303750</Size>
+		<InitiationCost>
+			<Money>1518750</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>4</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>5</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>6</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>7</ResourceId>
+					<Amount>72800</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>12</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>77</ResourceId>
+					<Amount>36400</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>11</Column>
+		<Row>147</Row>
+		<AllowedRaceIds>
+			<!-- Quameno -->
+			<RaceProbability>
+				<RaceId>15</RaceId>
+				<Probability>1</Probability>
+			</RaceProbability>
+		</AllowedRaceIds>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>1338</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<RepeatableTechLimit>1000</RepeatableTechLimit>
+		<RepeatableComponentValues>
+			<ComponentValues>
+				<ComponentId>372</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ShieldStrength>0.05</ShieldStrength>
+						<ShieldRechargeRate>0.05</ShieldRechargeRate>
+					</ComponentStats>
+				</Values>
+			</ComponentValues>
+			<ComponentValues>
+				<ComponentId>371</ComponentId>
+				<Values>
+					<ComponentStats>
+						<ShieldStrength>0.05</ShieldStrength>
 						<ShieldRechargeRate>0.05</ShieldRechargeRate>
 					</ComponentStats>
 				</Values>
