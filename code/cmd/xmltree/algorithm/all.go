@@ -60,6 +60,10 @@ func (j *Job) applyComponents() (err error) {
 	if err != nil {
 		return
 	}
+	err = j.applyShields()
+	if err != nil {
+		return
+	}
 	err = j.applyHyperDrives()
 	if err != nil {
 		return

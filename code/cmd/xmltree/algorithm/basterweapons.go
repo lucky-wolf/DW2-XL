@@ -163,7 +163,7 @@ var (
 	}
 
 	BasicBlasterFalloffRatio        = MakeFixedLevelFunc(BlasterFalloff)
-	BasicBlasterWeaponDamage        = MakeExpLevelFunc(BlasterBaseDamage, WeaponDmgIncreaseExp)
+	BasicBlasterWeaponDamage        = MakeExpLevelFunc(BlasterBaseDamage, WeaponDamageIncreaseExp)
 	BasicBlasterWeaponEnergyPerShot = MakeScaledFuncLevelFunc(BlasterEnergyRatio, BasicBlasterWeaponDamage)
 	BasicBlasterWeaponRange         = MakeExpLevelFunc(1000, .05) // 5% level over level
 	BasicBlasterWeaponROF           = MakeFixedLevelFunc(BlasterRateOfFire)
@@ -200,11 +200,11 @@ var (
 		"WeaponVolleyFireRate":              MakeFixedLevelFunc(0),
 	}
 
-	SmallBlasterWeaponComponentStats = ExtendValuesTable(
+	SmallBlasterWeaponComponentStats = ComposeComponentStats(
 		BasicBlasterWeaponComponentStats,
 	)
 
-	MediumBlasterWeaponComponentStats = ExtendValuesTable(
+	MediumBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      MediumCrewRequirements,
@@ -213,7 +213,7 @@ var (
 		},
 	)
 
-	LargeBlasterWeaponComponentStats = ExtendValuesTable(
+	LargeBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      LargeCrewRequirements,
@@ -229,7 +229,7 @@ var (
 	ImpactBlasterWeaponRange         = BasicBlasterWeaponRange // it's already compounding
 	ImpactBlasterWeaponROF           = MakeFixedLevelFunc(ImpactBlasterRateOfFire)
 
-	SmallImpactBlasterWeaponComponentStats = ExtendValuesTable(
+	SmallImpactBlasterWeaponComponentStats = ComposeComponentStats(
 		BasicBlasterWeaponComponentStats,
 		ComponentStats{
 			"WeaponDamageFalloffRatio": ImpactBlasterFalloffRatio,
@@ -240,7 +240,7 @@ var (
 		},
 	)
 
-	MediumImpactBlasterWeaponComponentStats = ExtendValuesTable(
+	MediumImpactBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallImpactBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      MediumCrewRequirements,
@@ -249,7 +249,7 @@ var (
 		},
 	)
 
-	LargeImpactBlasterWeaponComponentStats = ExtendValuesTable(
+	LargeImpactBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallImpactBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      LargeCrewRequirements,
@@ -265,7 +265,7 @@ var (
 	TitanBlasterWeaponRange         = BasicBlasterWeaponRange // it's already compounding
 	TitanBlasterWeaponROF           = MakeFixedLevelFunc(TitanBlasterRateOfFire)
 
-	SmallTitanBlasterWeaponComponentStats = ExtendValuesTable(
+	SmallTitanBlasterWeaponComponentStats = ComposeComponentStats(
 		BasicBlasterWeaponComponentStats,
 		ComponentStats{
 			"WeaponDamageFalloffRatio": TitanBlasterFalloffRatio,
@@ -276,7 +276,7 @@ var (
 		},
 	)
 
-	MediumTitanBlasterWeaponComponentStats = ExtendValuesTable(
+	MediumTitanBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallTitanBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      MediumCrewRequirements,
@@ -285,7 +285,7 @@ var (
 		},
 	)
 
-	LargeTitanBlasterWeaponComponentStats = ExtendValuesTable(
+	LargeTitanBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallTitanBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      LargeCrewRequirements,
@@ -301,7 +301,7 @@ var (
 	PhaserBlasterWeaponRange         = BasicBlasterWeaponRange // it's already compounding
 	PhaserBlasterWeaponROF           = MakeFixedLevelFunc(PhaserBlasterRateOfFire)
 
-	SmallPhaserBlasterWeaponComponentStats = ExtendValuesTable(
+	SmallPhaserBlasterWeaponComponentStats = ComposeComponentStats(
 		BasicBlasterWeaponComponentStats,
 		ComponentStats{
 			"WeaponDamageFalloffRatio": PhaserBlasterFalloffRatio,
@@ -314,7 +314,7 @@ var (
 		},
 	)
 
-	MediumPhaserBlasterWeaponComponentStats = ExtendValuesTable(
+	MediumPhaserBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallPhaserBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      MediumCrewRequirements,
@@ -323,7 +323,7 @@ var (
 		},
 	)
 
-	LargePhaserBlasterWeaponComponentStats = ExtendValuesTable(
+	LargePhaserBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallPhaserBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      LargeCrewRequirements,
@@ -339,7 +339,7 @@ var (
 	PlasmaBlasterWeaponRange         = BasicBlasterWeaponRange // it's already compounding
 	PlasmaBlasterWeaponROF           = MakeFixedLevelFunc(PlasmaBlasterRateOfFire)
 
-	SmallPlasmaBlasterWeaponComponentStats = ExtendValuesTable(
+	SmallPlasmaBlasterWeaponComponentStats = ComposeComponentStats(
 		BasicBlasterWeaponComponentStats,
 		ComponentStats{
 			"WeaponDamageFalloffRatio": PlasmaBlasterFalloffRatio,
@@ -352,7 +352,7 @@ var (
 		},
 	)
 
-	MediumPlasmaBlasterWeaponComponentStats = ExtendValuesTable(
+	MediumPlasmaBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallPlasmaBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      MediumCrewRequirements,
@@ -361,7 +361,7 @@ var (
 		},
 	)
 
-	LargePlasmaBlasterWeaponComponentStats = ExtendValuesTable(
+	LargePlasmaBlasterWeaponComponentStats = ComposeComponentStats(
 		SmallPlasmaBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":      LargeCrewRequirements,
@@ -372,7 +372,7 @@ var (
 
 	// we'll make these derivative of impact assault blasters
 	PlanetaryBlasterWeaponDamage   = MakeScaledFuncLevelFunc(8, ImpactBlasterWeaponDamage) // 2x large (where large is 4x small)
-	PlanetaryBlasterComponentStats = ExtendValuesTable(
+	PlanetaryBlasterComponentStats = ComposeComponentStats(
 		SmallImpactBlasterWeaponComponentStats,
 		ComponentStats{
 			"CrewRequirement":               PlanetaryCrewRequirements, // meaningless, but doesn't hurt

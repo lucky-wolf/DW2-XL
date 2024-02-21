@@ -171,14 +171,14 @@ var (
 	}
 
 	// basic
-	IonStarshipEngineComponentStats = ExtendValuesTable(
+	IonStarshipEngineComponentStats = ComposeComponentStats(
 		StarshipEngineBaseStats,
 		WeakStarshipEngineThrust,
 		WeakStarshipEngineVector,
 	)
 
 	// nimble
-	PulsedIonEngineComponentStats = ExtendValuesTable(
+	PulsedIonEngineComponentStats = ComposeComponentStats(
 		StarshipEngineBaseStats,
 		MediumStarshipEngineThrust,
 		StrongStarshipEngineVector,
@@ -188,14 +188,14 @@ var (
 	CompactEngineComponentStats = IonStarshipEngineComponentStats
 
 	// acceleros
-	AccelerosEngineComponentStats = ExtendValuesTable(
+	AccelerosEngineComponentStats = ComposeComponentStats(
 		StarshipEngineBaseStats,
 		StrongStarshipEngineThrust,
 		MediumStarshipEngineVector,
 	)
 
 	// powerful, nimble, efficient
-	TurboThrusterEngineComponentStats = ExtendValuesTable(
+	TurboThrusterEngineComponentStats = ComposeComponentStats(
 		StarshipEngineBaseStats,
 		ComponentStats{
 			"EngineMainCruiseThrust":             StrongStarshipCruiseThrust,
@@ -209,7 +209,7 @@ var (
 	)
 
 	// strong at everything (for smallest size)
-	VortexEngineComponentStats = ExtendValuesTable(
+	VortexEngineComponentStats = ComposeComponentStats(
 		StarshipEngineBaseStats,
 		StrongStarshipEngineThrust,
 		StrongStarshipEngineVector,

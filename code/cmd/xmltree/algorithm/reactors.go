@@ -149,7 +149,7 @@ var (
 	NovaReactorCapacity       = MakeScaledFuncLevelFunc(MedReactorCapacityRatio, NovaReactorOutput)
 	NovaEfficiency            = ExcellentEfficiency
 	NovaFuelUnits             = MakeFuelUnitsLevelFunc(NovaEfficiency, NovaReactorCapacity)
-	NovaReactorComponentStats = ExtendValuesTable(
+	NovaReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  NovaReactorOutput,
@@ -162,7 +162,7 @@ var (
 	FusionReactorCapacity       = MakeScaledFuncLevelFunc(HighReactorCapacityRatio, FusionReactorOutput)
 	FusionEfficiency            = ExcellentEfficiency
 	FusionFuelUnits             = MakeFuelUnitsLevelFunc(FusionEfficiency, FusionReactorCapacity)
-	FusionReactorComponentStats = ExtendValuesTable(
+	FusionReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  FusionReactorOutput,
@@ -175,7 +175,7 @@ var (
 	HarmonicReactorCapacity       = MakeScaledFuncLevelFunc(MedReactorCapacityRatio, HarmonicReactorOutput)
 	HarmonicEfficiency            = GoodEfficiency
 	HarmonicFuelUnits             = MakeFuelUnitsLevelFunc(HarmonicEfficiency, HarmonicReactorCapacity)
-	HarmonicReactorComponentStats = ExtendValuesTable(
+	HarmonicReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  HarmonicReactorOutput,
@@ -188,7 +188,7 @@ var (
 	PlasmaticReactorCapacity       = MakeScaledFuncLevelFunc(LowReactorCapacityRatio, PlasmaticReactorOutput)
 	PlasmaticEfficiency            = PoorEfficiency
 	PlasmaticFuelUnits             = MakeFuelUnitsLevelFunc(PlasmaticEfficiency, PlasmaticReactorCapacity)
-	PlasmaticReactorComponentStats = ExtendValuesTable(
+	PlasmaticReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  PlasmaticReactorOutput,
@@ -201,7 +201,7 @@ var (
 	HyperFusionReactorCapacity       = MakeScaledFuncLevelFunc(HighReactorCapacityRatio, HyperFusionReactorOutput)
 	HyperFusionEfficiency            = ExcellentEfficiency
 	HyperFusionFuelUnits             = MakeFuelUnitsLevelFunc(HyperFusionEfficiency, HyperFusionReactorCapacity)
-	HyperFusionReactorComponentStats = ExtendValuesTable(
+	HyperFusionReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  HyperFusionReactorOutput,
@@ -214,7 +214,7 @@ var (
 	HyperHarmonicReactorCapacity       = MakeScaledFuncLevelFunc(MedReactorCapacityRatio, HyperHarmonicReactorOutput)
 	HyperHarmonicEfficiency            = GoodEfficiency
 	HyperHarmonicFuelUnits             = MakeFuelUnitsLevelFunc(HyperHarmonicEfficiency, HyperHarmonicReactorCapacity)
-	HyperHarmonicReactorComponentStats = ExtendValuesTable(
+	HyperHarmonicReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  HyperHarmonicReactorOutput,
@@ -227,7 +227,7 @@ var (
 	HyperPlasmaticReactorCapacity       = MakeScaledFuncLevelFunc(LowReactorCapacityRatio, HyperPlasmaticReactorOutput)
 	HyperPlasmaticEfficiency            = PoorEfficiency
 	HyperPlasmaticFuelUnits             = MakeFuelUnitsLevelFunc(HyperPlasmaticEfficiency, HyperPlasmaticReactorCapacity)
-	HyperPlasmaticReactorComponentStats = ExtendValuesTable(
+	HyperPlasmaticReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  HyperPlasmaticReactorOutput,
@@ -240,7 +240,7 @@ var (
 	UltraFusionReactorCapacity       = MakeScaledFuncLevelFunc(HighReactorCapacityRatio, UltraFusionReactorOutput)
 	UltraFusionEfficiency            = ExcellentEfficiency
 	UltraFusionFuelUnits             = MakeFuelUnitsLevelFunc(UltraFusionEfficiency, UltraFusionReactorCapacity)
-	UltraFusionReactorComponentStats = ExtendValuesTable(
+	UltraFusionReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  UltraFusionReactorOutput,
@@ -253,7 +253,7 @@ var (
 	ZeroPointReactorCapacity       = MakeScaledFuncLevelFunc(MedReactorCapacityRatio, ZeroPointReactorOutput)
 	ZeroPointEfficiency            = GoodEfficiency
 	ZeroPointFuelUnits             = MakeFuelUnitsLevelFunc(ZeroPointEfficiency, ZeroPointReactorCapacity)
-	ZeroPointReactorComponentStats = ExtendValuesTable(
+	ZeroPointReactorComponentStats = ComposeComponentStats(
 		CaslonReactorComponentStats,
 		ComponentStats{
 			"ReactorEnergyOutputPerSecond":  ZeroPointReactorOutput,

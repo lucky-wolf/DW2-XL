@@ -40,7 +40,7 @@ const (
 )
 
 var (
-	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterRateOfFire, WeaponDmgIncreaseExp)
+	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterRateOfFire, WeaponDamageIncreaseExp)
 	IonWeaponRateOfFire = MakeFixedLevelFunc(IonBaseRateOfFire)
 
 	// WARN! please keep the multipliers of IonComponentDamage to a MINIMUM
@@ -73,7 +73,7 @@ var (
 	SmallIonCannon = IonFieldProjector
 
 	// [M] is simply 2x fire [S]
-	MediumIonCannon = ExtendValuesTable(
+	MediumIonCannon = ComposeComponentStats(
 		SmallIonCannon,
 		ComponentStats{
 			"WeaponVolleyAmount":   func(level int) float64 { return 2 },
@@ -82,7 +82,7 @@ var (
 	)
 
 	// rapid is simply 1.25 rof
-	RapidIonCannon = ExtendValuesTable(
+	RapidIonCannon = ComposeComponentStats(
 		IonFieldProjector,
 		ComponentStats{
 			"WeaponFireRate": func(level int) float64 { return 0.8 * IonWeaponRateOfFire(level) }, // 25% faster, but no loss of ion output
@@ -90,7 +90,7 @@ var (
 	)
 
 	// heavy medium is more powerful per shot instead of double shot
-	MediumHeavyIonCannon = ExtendValuesTable(
+	MediumHeavyIonCannon = ComposeComponentStats(
 		SmallIonCannon,
 		ComponentStats{
 			"WeaponEnergyPerShot":       func(level int) float64 { return 1.5 * IonWeaponRawDamage(level) },
@@ -107,7 +107,7 @@ var (
 	)
 
 	// heavy large is double heavy medium
-	LargeHeavyIonCannon = ExtendValuesTable(
+	LargeHeavyIonCannon = ComposeComponentStats(
 		SmallIonCannon,
 		ComponentStats{
 			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * IonWeaponRawDamage(level) },
@@ -124,7 +124,7 @@ var (
 	)
 
 	// Lance is slower with bigger per shot values, some targeting bonus, good range
-	EMLance = ExtendValuesTable(
+	EMLance = ComposeComponentStats(
 		SmallIonCannon,
 		ComponentStats{
 			"ComponentTargetingBonus":   func(level int) float64 { return float64(level-1) * 0.05 },
@@ -146,7 +146,7 @@ var (
 	)
 
 	// Wave Lance has more armor bypass
-	EMWaveLance = ExtendValuesTable(
+	EMWaveLance = ComposeComponentStats(
 		EMLance,
 		ComponentStats{
 			"WeaponArmorBypass": func(level int) float64 { return 0.33333 }, // std +25
@@ -178,7 +178,7 @@ var (
 		"WeaponIonWeaponDamage":             func(level int) float64 { return IonWeaponComponentDamage(level + 1) },
 		"WeaponIonGeneralDamage":            func(level int) float64 { return IonWeaponComponentDamage(level + 1) },
 	}
-	LargeIonBomb = ExtendValuesTable(
+	LargeIonBomb = ComposeComponentStats(
 		MediumIonBomb,
 		ComponentStats{
 			"WeaponEnergyPerShot":       func(level int) float64 { return 3 * IonWeaponRawDamage(level) },
@@ -221,7 +221,7 @@ var (
 		"WeaponIonGeneralDamage":    func(level int) float64 { return 1.1 * IonWeaponComponentDamage(level) },
 	}
 
-	AdvIonMissile = ExtendValuesTable(
+	AdvIonMissile = ComposeComponentStats(
 		IonMissile,
 		ComponentStats{
 			// todo: we really want to tie raw damage to say 80% of a standard missile, rather than to that of ion cannons
@@ -229,7 +229,7 @@ var (
 		},
 	)
 
-	UltraIonMissile = ExtendValuesTable(
+	UltraIonMissile = ComposeComponentStats(
 		AdvIonMissile,
 		ComponentStats{
 			// todo: we really want to tie raw damage to say 80% of a standard missile, rather than to that of ion cannons

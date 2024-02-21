@@ -70,7 +70,7 @@ func MakeIntegerLevelFunc(levelfunc LevelFunc) LevelFunc {
 	return func(level int) float64 { return math.Round(levelfunc(level)) }
 }
 
-func ExtendValuesTable(fields ComponentStats, more ...ComponentStats) (result ComponentStats) {
+func ComposeComponentStats(fields ComponentStats, more ...ComponentStats) (result ComponentStats) {
 	// clone the base stats
 	result = ComponentStats{}
 	for k, v := range fields {

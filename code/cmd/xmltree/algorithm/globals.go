@@ -8,6 +8,15 @@ package algorithm
 // then we can make things relative to each other
 // tweak some global base values, and you rearrange the entire web of dependencies
 
+const (
+	ArmorStrengthIncreaseExp  = 0.15 // compounding increase (level over level)
+	ShieldStrengthIncreaseExp = 0.15 // compounding increase (level over level)
+	WeaponDamageIncreaseExp   = 0.15 // compounding increase (level over level)
+
+	ArmorStrengthBasis  = 10 * BlasterBaseDamage
+	ShieldStrengthBasis = 10 * BlasterBaseDamage
+)
+
 // name a bay category (general, weapon, etc.) and the count of bays it should contain
 // this either deletes from the end of the list, or copies the last entry into more entries
 // it does NOT adjust the size of bays - only copies the tail node to add more of that type
