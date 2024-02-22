@@ -41,7 +41,7 @@ func (j *Job) applyKineticWeapons() (err error) {
 }
 
 const (
-	KineticBaseDamageFactor = 1.1 // base damage is 10% better than blasters
+	KineticBaseDamageFactor = 1.1 // base damage is 10% better than the standard basis
 	KineticBaseRateOfFire   = 12
 	KineticEnergyRatio      = 0.5
 )
@@ -102,7 +102,7 @@ var (
 
 	BasicKineticWeaponArmorBypass   = MakeFixedLevelFunc(-1. / 3.)
 	BasicKineticWeaponSpeed         = MakeLinearLevelFunc(750, 25)
-	BasicKineticWeaponDamage        = MakeExpLevelFunc(KineticBaseDamageFactor*BlasterBaseDamage*KineticBaseRateOfFire/BlasterRateOfFire, WeaponDamageIncreaseExp)
+	BasicKineticWeaponDamage        = MakeExpLevelFunc(KineticBaseDamageFactor*WeaponDamageBasis*KineticBaseRateOfFire/BlasterRateOfFire, WeaponDamageIncreaseExp)
 	BasicKineticWeaponEnergyPerShot = MakeScaledFuncLevelFunc(KineticEnergyRatio, BasicKineticWeaponDamage)
 	BasicKineticWeaponROF           = MakeFixedLevelFunc(KineticBaseRateOfFire)
 

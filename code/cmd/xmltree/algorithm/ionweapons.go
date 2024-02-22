@@ -33,14 +33,15 @@ func IonWeapons(folder string) (err error) {
 }
 
 const (
-	IonWeaponRawDamageRatio = 0.8                     // ion weapons do ~80% raw damage vs. other direct fire weapons
+	IonWeaponRawDamageRatio = 0.8 // ion weapons do ~80% raw damage vs. other direct fire weapons
+	IonWeaponDamageBasis    = IonWeaponRawDamageRatio * WeaponDamageBasis
 	IonBaseRateOfFire       = 1.5 * BlasterRateOfFire // ion is 50% slower than blasters
 
 	IonFtrPDScaleFactor = 0.75
 )
 
 var (
-	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponRawDamageRatio*BlasterBaseDamage*IonBaseRateOfFire/BlasterRateOfFire, WeaponDamageIncreaseExp)
+	IonWeaponRawDamage  = MakeExpLevelFunc(IonWeaponDamageBasis*IonBaseRateOfFire/BlasterRateOfFire, WeaponDamageIncreaseExp)
 	IonWeaponRateOfFire = MakeFixedLevelFunc(IonBaseRateOfFire)
 
 	// WARN! please keep the multipliers of IonComponentDamage to a MINIMUM
@@ -120,6 +121,25 @@ var (
 			"WeaponIonShieldDamage":     func(level int) float64 { return 1.2 * IonWeaponComponentDamage(level) },
 			"WeaponIonWeaponDamage":     func(level int) float64 { return 1.2 * IonWeaponComponentDamage(level) },
 			"WeaponIonGeneralDamage":    func(level int) float64 { return 1.2 * IonWeaponComponentDamage(level) },
+		},
+	)
+
+	// planetary large is double large heavy
+	PlanetaryHeavyIonCannon = ComposeComponentStats(
+		LargeHeavyIonCannon,
+		ComponentStats{
+			"CrewRequirement":               PlanetaryCrewRequirements, // meaningless, but doesn't hurt
+			"ComponentCountermeasuresBonus": MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
+			"ComponentTargetingBonus":       MakeScaledFuncLevelFunc(2, DirectFireComponentCountermeasuresBonus),
+			"WeaponRawDamage":               MakeScaledFuncLevelFunc(2, LargeHeavyIonCannon["WeaponRawDamage"]),
+			"WeaponRange":                   MakeScaledFuncLevelFunc(3, LargeHeavyIonCannon["WeaponRange"]),
+			"WeaponDamageFalloffRatio":      MakeFixedLevelFunc(0.1),
+			"WeaponIonEngineDamage":         func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
+			"WeaponIonHyperDriveDamage":     func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
+			"WeaponIonSensorDamage":         func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
+			"WeaponIonShieldDamage":         func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
+			"WeaponIonWeaponDamage":         func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
+			"WeaponIonGeneralDamage":        func(level int) float64 { return 1.33333 * IonWeaponComponentDamage(level) },
 		},
 	)
 
@@ -319,6 +339,12 @@ var (
 			minLevel:       10,
 			maxLevel:       10,
 			componentStats: UltraIonMissile,
+		},
+
+		"Planetary Ion Cannon": {
+			minLevel:       3,
+			maxLevel:       9,
+			componentStats: PlanetaryHeavyIonCannon,
 		},
 	}
 )

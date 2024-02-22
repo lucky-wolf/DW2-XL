@@ -42,7 +42,7 @@ func (j *Job) applyBlasterWeapons() (err error) {
 
 const (
 	BlasterWeaponSpeed    = 2200
-	BlasterBaseDamage     = 12
+	BasterBaseDamage      = WeaponDamageBasis * 1.25
 	BlasterVolleyFireRate = .5
 
 	BlasterEnergyRatio = .8
@@ -163,7 +163,7 @@ var (
 	}
 
 	BasicBlasterFalloffRatio        = MakeFixedLevelFunc(BlasterFalloff)
-	BasicBlasterWeaponDamage        = MakeExpLevelFunc(BlasterBaseDamage, WeaponDamageIncreaseExp)
+	BasicBlasterWeaponDamage        = MakeExpLevelFunc(BasterBaseDamage, WeaponDamageIncreaseExp)
 	BasicBlasterWeaponEnergyPerShot = MakeScaledFuncLevelFunc(BlasterEnergyRatio, BasicBlasterWeaponDamage)
 	BasicBlasterWeaponRange         = MakeExpLevelFunc(1000, .05) // 5% level over level
 	BasicBlasterWeaponROF           = MakeFixedLevelFunc(BlasterRateOfFire)

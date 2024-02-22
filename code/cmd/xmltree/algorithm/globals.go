@@ -9,12 +9,13 @@ package algorithm
 // tweak some global base values, and you rearrange the entire web of dependencies
 
 const (
+	WeaponDamageBasis   = 10
+	ArmorStrengthBasis  = 10 * WeaponDamageBasis
+	ShieldStrengthBasis = 10 * WeaponDamageBasis
+
 	ArmorStrengthIncreaseExp  = 0.15 // compounding increase (level over level)
 	ShieldStrengthIncreaseExp = 0.15 // compounding increase (level over level)
 	WeaponDamageIncreaseExp   = 0.15 // compounding increase (level over level)
-
-	ArmorStrengthBasis  = 10 * BlasterBaseDamage
-	ShieldStrengthBasis = 10 * BlasterBaseDamage
 )
 
 // name a bay category (general, weapon, etc.) and the count of bays it should contain

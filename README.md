@@ -209,10 +209,14 @@ YMMV, but this is my take on making it Extra Large!
 - I changed some really fundamental variables for:
   - Galaxy Creation (even fewer habitable worlds - but those that exist are mostly planets not moons)
   - Armor stats
+  - Shield stats
   - Reactor stats
   - Engine stats
   - Kinetic stats
   - Blaster stats
+  - Removed AOE weapons (for now)
+  - Completely rebalanced Armor and Shields
+  - Scaled down weapons by about 20%
 - Integrated Human & Mortalen features & Government features from DW2 1208 beta
 - Updated to latest image bundles from @salemonz
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
@@ -231,9 +235,10 @@ YMMV, but this is my take on making it Extra Large!
 - Reduced habitable moon frequency
 - Increased habitable planet frequency
 - Increased resource cost of many technologies
-- Reduced absolute values of damage, armor, and shields to make ships and bases a bit more resilient
 - Updated Armor to use a core data table which should give them a better progression and clearer differentiation of technology choices
 - Updated Blasters to use core data which ties everything together and clarifies the distinct function of Phaser Blasters
+- Improved the visuals for Ion Cannons
+- Tied the Planetary Ion Cannon to the rest of the Ion tech data
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
@@ -1648,7 +1653,7 @@ YMMV, but this is my take on making it Extra Large!
 - All reactor tech lines have been greatly extended to higher levels of tech.
 
 ## Targeting and Countermeasures
-- Are size 5 for standard ones, and 15 for fleet ones.
+- Are smaller in general so you can use more ECM and ECCM components on your designs.
 - Have been somewhat nerfed to keep these systems from becoming too much of a "win" for high-tech fleets.  They help, they're still critical, but they're not a lock-out against your opponents.
 - Sensors have integration targeting value from targeting computers as part of their dependency chain.
 - Long range sensors have gained fleet targeting from dependency on fleet targeting techs.
@@ -1662,7 +1667,7 @@ YMMV, but this is my take on making it Extra Large!
     - The larger capacities give the AI a much better chance of expanding at a more profitable rate without the micromanagement a Human player might indulge in.
     - Currently, the denser modules give a discount on resources required per pop, 0, 10%, 20%, and 30%.
   - Static energy requirements are much higher than vanilla.
-  - Static energy cost scales with capacity (so you're unlikely to be able to have more than 1 on a single ship).
+  - Static energy cost scales with capacity.
   - It is still entirely possible to use more than one module on a given colonizer, boosting your capacity further.  This is the same as vanilla, but can create ships that are hard for your economy to stomach, so use wisely.
 
 ## DW2-XL Hull Sizes
@@ -1673,7 +1678,7 @@ YMMV, but this is my take on making it Extra Large!
 | Frigate   |      450 |     120%      |              540 |               |            |
 | Destroyer |      600 |     133%      |              720 |               |            |
 | Cruiser   |      800 |     133%      |              960 |          1120 |            |
-| BB+CV     |     1200 |     150%      |             1440 |          1680 |       1920 |
+| BB+BV     |     1200 |     150%      |             1440 |          1680 |       1920 |
 
 Base sizes for everything except Cruiser are the same as vanilla, but cruisers were increased from 750 to 800, which gives +33% over Destroyers, which are +33% over Frigates.  Vanilla basically badly shortchanges cruisers in general.
 
