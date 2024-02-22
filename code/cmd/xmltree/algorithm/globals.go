@@ -10,8 +10,8 @@ package algorithm
 
 const (
 	WeaponDamageBasis   = 10
-	ArmorStrengthBasis  = 10 * WeaponDamageBasis
-	ShieldStrengthBasis = 10 * WeaponDamageBasis
+	ArmorStrengthBasis  = 16 * WeaponDamageBasis // very loosely can take 16 shots from a 1.0 damage basis weapon
+	ShieldStrengthBasis = 16 * WeaponDamageBasis
 
 	ArmorStrengthIncreaseExp  = 0.15 // compounding increase (level over level)
 	ShieldStrengthIncreaseExp = 0.15 // compounding increase (level over level)

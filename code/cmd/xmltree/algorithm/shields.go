@@ -82,10 +82,10 @@ const (
 
 var (
 	WeakShieldStrength     = MakeExpLevelFunc(ShieldStrengthBasis, ShieldStrengthIncreaseExp)
-	StandardShieldStrength = MakeScaledFuncLevelFunc(1.3333333, WeakShieldStrength)
-	StrongShieldStrength   = MakeScaledFuncLevelFunc(1.6666666, WeakShieldStrength)
+	StandardShieldStrength = MakeScaledFuncLevelFunc(1.5, WeakShieldStrength)
+	StrongShieldStrength   = MakeScaledFuncLevelFunc(2.0, WeakShieldStrength)
 
-	SlowShieldRecharge     = MakeExpLevelFunc(1, ShieldStrengthIncreaseExp)
+	SlowShieldRecharge     = MakeExpLevelFunc(.5, ShieldStrengthIncreaseExp)
 	StandardShieldRecharge = MakeScaledFuncLevelFunc(2, SlowShieldRecharge)
 	QuickShieldRecharge    = MakeScaledFuncLevelFunc(3, SlowShieldRecharge)
 
@@ -200,7 +200,7 @@ var (
 
 	BasicShieldComponentStats = ComposeComponentStats(
 		CoreShieldStats,
-		GenerateShieldStatsFor(WeakShieldStrength, SlowShieldRecharge),
+		GenerateShieldStatsFor(StandardShieldStrength, SlowShieldRecharge),
 		ComponentStats{
 			"ShieldResistance": WeakShieldResistance,
 			"IonDamageDefense": WeakShieldIonDefense,

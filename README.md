@@ -296,7 +296,7 @@ YMMV, but this is my take on making it Extra Large!
 - Buffed Boskaran Plasma Cannons by +10% to hit, filled them in and extended them to level 10
 - Fixed Boskaran Plasma Cannons [L] size (was set to medium)
 - Buffed Boskaran Firestorm Torpedoes a +20% to hit, filled them in and extended them to level 10
-- Fixed missing Human Hail Cannon [PD] (v2)
+- Fixed missing Human Hyperion Cannon [PD] (v2)
 - Buffed Human Bulwark Missiles range and damage
 - Filled out Human Bulwark Missile techs and started them one tech lower so there are six levels of them now
 - Fixed "Strike Fighters" tech name (had been overwritten as "Fighter Vs")
@@ -309,9 +309,9 @@ YMMV, but this is my take on making it Extra Large!
   - Added resource costs for repeatable techs
 - Increased resources on colonizable worlds (because they're rarer, the resources must be found on them more often to avoid gimping the player and AIs)
 - Buffed Supernova Torpedo [X]
-- Added an alternate path to Human Bulwark Missiles and Hail Cannons
-- Added Human Hail Cannon [PD]
-- Removed Human Hail Cannon [M]
+- Added an alternate path to Human Bulwark Missiles and Hyperion Cannons
+- Added Human Hyperion Cannon [PD]
+- Removed Human Hyperion Cannon [M]
 - Adjusted maintenance cost of troops:
   - 200 Warbots
   - 250 Infantry
@@ -320,7 +320,7 @@ YMMV, but this is my take on making it Extra Large!
   - 450 Synthetic Units
   - 500 Armored
   - 2000 Titans
-- Adjusted energy use of hail cannons
+- Adjusted energy use of hyperion cannons
 - Adjusted end game planetary facilities to cost much more
 - Made Gizureans and Quamenos "non-social" races (don't qualify for diplomatic focus line)
 - Reduced maintenance savings so it doesn't grow to extreme values
@@ -634,7 +634,7 @@ YMMV, but this is my take on making it Extra Large!
   - Large are 2x as damaging as a medium
   - [S] and [M] Kinetics other than Forge Batteries have 1.5x range to speed
   - Forge Batteries have 2x range to speed
-  - Autocannons and Hail cannons only have 1.5x range to speed
+  - Assault Cannons and Hyperion Cannons only have 1.5x range to speed
   - Removed bombardment values from everything except large rail guns and forge cannons
 - Beams
   - larges are always 4x as powerful as a small at the same interval
@@ -1291,8 +1291,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.6.3
 - Reduced "efficient" thrusters to size 16, giving them some possible utility
-- Added Hail Cannons \[M\] for Humans
-  - Tweaked Hail Cannons and Terminator Cannons to be more sensible, and to give the Humans a slight advantage in their racial tech
+- Added Hyperion Cannons \[M\] for Humans
+  - Tweaked Hyperion Cannons and Terminator Cannons to be more sensible, and to give the Humans a slight advantage in their racial tech
 - Fixed missing diplomatic specialization center (Universal Peace Center)
 - Gave wormhole drive better range (1000M)
 - Rebalanced all \[Ftr\] weapons to make better sense in the current tech tree across all weapon-lines and levels
@@ -1621,7 +1621,7 @@ YMMV, but this is my take on making it Extra Large!
 - Kinetic PD does more raw damage than blaster or beam PD, but it's less accurate.
 - I overhauled this line of weapons to give a better progression and to make them more viable for non-humans.
   - Humans still have racial locked techs in this line, and they are just better than the standard models.
-  - Humans also get a \[M\] sized variant in addition to the small and fighter mount types for autocannons.
+  - Humans also get a \[M\] sized variant in addition to the small and fighter mount types for assault cannons.
 
 ## Energy Torpedoes
 - Boskaran's Firestorm torpedo line is deeper and gives you a large weapon sooner.

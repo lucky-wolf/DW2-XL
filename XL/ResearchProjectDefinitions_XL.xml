@@ -3864,7 +3864,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1072</ResearchProjectId>
-		<Name>Improved Autocannons</Name>
+		<Name>Improved Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
 		<InitiationCost>
@@ -3923,7 +3923,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1073</ResearchProjectId>
-		<Name>Advanced Autocannons</Name>
+		<Name>Advanced Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
 		<InitiationCost>
@@ -3982,7 +3982,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1074</ResearchProjectId>
-		<Name>Superior Autocannons</Name>
+		<Name>Superior Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
 		<InitiationCost>
@@ -4950,7 +4950,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>140</Row>
+		<Row>149</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>536</ResearchProjectId>
@@ -8489,7 +8489,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>532</ResearchProjectId>
@@ -8541,7 +8541,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>10</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1180</ResearchProjectId>
@@ -12014,7 +12014,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>11</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>1181</ResearchProjectId>
@@ -15110,7 +15110,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1317</ResearchProjectId>
-		<Name>Supreme Autocannons</Name>
+		<Name>Supreme Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -15169,7 +15169,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>1318</ResearchProjectId>
-		<Name>Extreme Autocannons</Name>
+		<Name>Extreme Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
 		<InitiationCost>
@@ -15353,7 +15353,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1320</ResearchProjectId>
+		<ResearchProjectId>1321</ResearchProjectId>
 		<Name>Spontaneous Caslon Fusion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
@@ -15400,7 +15400,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1321</ResearchProjectId>
+		<ResearchProjectId>1322</ResearchProjectId>
 		<Name>N-Dimensional Caslon Fusion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
@@ -15429,7 +15429,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1320</ResearchProjectId>
+				<ResearchProjectId>1321</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -15447,7 +15447,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1322</ResearchProjectId>
+		<ResearchProjectId>1323</ResearchProjectId>
 		<Name>Transcendent Caslon Fusion</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -15476,7 +15476,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1321</ResearchProjectId>
+				<ResearchProjectId>1322</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -15494,7 +15494,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1323</ResearchProjectId>
+		<ResearchProjectId>1324</ResearchProjectId>
 		<Name>Ultrafusion Discovery</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
@@ -15549,7 +15549,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1324</ResearchProjectId>
+		<ResearchProjectId>1325</ResearchProjectId>
 		<Name>Ultrafusion Intensification</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
@@ -15587,7 +15587,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1323</ResearchProjectId>
+				<ResearchProjectId>1324</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15604,7 +15604,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1325</ResearchProjectId>
+		<ResearchProjectId>1326</ResearchProjectId>
 		<Name>Ultrafusion Perfection</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -15642,7 +15642,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1324</ResearchProjectId>
+				<ResearchProjectId>1325</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15659,7 +15659,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1326</ResearchProjectId>
+		<ResearchProjectId>1327</ResearchProjectId>
 		<Name>Improved Ultrafusion Output</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -15701,7 +15701,7 @@
 		</DisallowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1325</ResearchProjectId>
+				<ResearchProjectId>1326</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15729,7 +15729,7 @@
 		</RepeatableComponentValues>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1327</ResearchProjectId>
+		<ResearchProjectId>1328</ResearchProjectId>
 		<Name>Shield Resonance Amplification</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
@@ -15785,7 +15785,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1328</ResearchProjectId>
+		<ResearchProjectId>1329</ResearchProjectId>
 		<Name>Perfect Shield Amplification</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -15824,7 +15824,7 @@
 		<Row>143</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1327</ResearchProjectId>
+				<ResearchProjectId>1328</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -15841,7 +15841,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1329</ResearchProjectId>
+		<ResearchProjectId>1330</ResearchProjectId>
 		<Name>Elusive Energy Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>20250</Size>
@@ -15901,7 +15901,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1330</ResearchProjectId>
+		<ResearchProjectId>1331</ResearchProjectId>
 		<Name>Maleable Energy Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>50625</Size>
@@ -15942,7 +15942,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1329</ResearchProjectId>
+				<ResearchProjectId>1330</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -15961,7 +15961,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1331</ResearchProjectId>
+		<ResearchProjectId>1332</ResearchProjectId>
 		<Name>N-Phase Energy Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>101250</Size>
@@ -16002,7 +16002,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1330</ResearchProjectId>
+				<ResearchProjectId>1331</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -16021,8 +16021,8 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1332</ResearchProjectId>
-		<Name>N-Phase Energy Fields</Name>
+		<ResearchProjectId>1333</ResearchProjectId>
+		<Name>Z-Phase Energy Fields</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>202500</Size>
 		<InitiationCost>
@@ -16062,7 +16062,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1331</ResearchProjectId>
+				<ResearchProjectId>1332</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -16081,7 +16081,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1333</ResearchProjectId>
+		<ResearchProjectId>1334</ResearchProjectId>
 		<Name>Superconducting Coils</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>303750</Size>
@@ -16122,7 +16122,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1332</ResearchProjectId>
+				<ResearchProjectId>1333</ResearchProjectId>
 				<PathAppearanceLikelihood>0.95</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>7</RaceId>
@@ -16141,7 +16141,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1334</ResearchProjectId>
+		<ResearchProjectId>1335</ResearchProjectId>
 		<Name>Curved Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -16201,7 +16201,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1335</ResearchProjectId>
+		<ResearchProjectId>1336</ResearchProjectId>
 		<Name>Reinforced Shield Curvature</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -16243,7 +16243,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1334</ResearchProjectId>
+				<ResearchProjectId>1335</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -16261,7 +16261,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1336</ResearchProjectId>
+		<ResearchProjectId>1337</ResearchProjectId>
 		<Name>4D Shield Curvature</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -16303,7 +16303,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1335</ResearchProjectId>
+				<ResearchProjectId>1336</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -16321,7 +16321,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1337</ResearchProjectId>
+		<ResearchProjectId>1338</ResearchProjectId>
 		<Name>N-Dimensional Curvature</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -16363,7 +16363,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1336</ResearchProjectId>
+				<ResearchProjectId>1337</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>
@@ -16381,7 +16381,7 @@
 		</Components>
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
-		<ResearchProjectId>1338</ResearchProjectId>
+		<ResearchProjectId>1339</ResearchProjectId>
 		<Name>Indestructible Shields</Name>
 		<Description />
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
@@ -16423,7 +16423,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1337</ResearchProjectId>
+				<ResearchProjectId>1338</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 				<RaceId>15</RaceId>

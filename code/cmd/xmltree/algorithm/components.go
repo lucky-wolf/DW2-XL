@@ -495,7 +495,7 @@ func GetFighterOrPointDefenseSourceName(targetName string, is ComponentIs) (sour
 		// ion cannon
 		// ion rapid pulse array
 		// impact assault blaster
-		// terminator autocannon
+		// terminator assault cannon
 		// swarm missile
 		// reinforcing swarm battery
 

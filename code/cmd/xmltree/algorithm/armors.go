@@ -51,19 +51,19 @@ const (
 
 var (
 	WeakArmorBlastRating     = MakeExpLevelFunc(ArmorStrengthBasis, ArmorStrengthIncreaseExp)
-	StandardArmorBlastRating = MakeScaledFuncLevelFunc(1.3333333, WeakArmorBlastRating)
-	StrongArmorBlastRating   = MakeScaledFuncLevelFunc(1.6666666, WeakArmorBlastRating)
+	StandardArmorBlastRating = MakeScaledFuncLevelFunc(1.5, WeakArmorBlastRating)
+	StrongArmorBlastRating   = MakeScaledFuncLevelFunc(2.0, WeakArmorBlastRating)
 
 	WeakArmorReactiveRating     = MakeLinearLevelFunc(2, 1)
 	StandardArmorReactiveRating = MakeLinearLevelFunc(2, 1.5)
-	StrongArmorReactiveRating   = MakeLinearLevelFunc(3, 2)
+	StrongArmorReactiveRating   = MakeLinearLevelFunc(2, 2)
 
 	WeakArmorIonDefense   = MakeFixedLevelFunc(0)
 	MediumArmorIonDefense = MakeLinearLevelFunc(0, 2)
 	StrongArmorIonDefense = MakeLinearLevelFunc(0, 4)
 
 	InertArmorStaticEnergy  = MakeFixedLevelFunc(0)
-	ActiveArmorStaticEnergy = MakeLinearLevelFunc(.25, .25)
+	ActiveArmorStaticEnergy = MakeLinearLevelFunc(.5, .5)
 
 	InertArmorCrew  = MakeFixedLevelFunc(1)
 	ActiveArmorCrew = MakeIntegerLevelFunc(MakeLinearLevelFunc(1, .25))
@@ -254,7 +254,7 @@ var (
 		"ComponentIonDefense": HardenedComponentIonDefense, // armors are hardened
 		"CrewRequirement":     InertArmorCrew,
 		"StaticEnergyUsed":    InertArmorStaticEnergy,
-		"ArmorBlastRating":    WeakArmorBlastRating,
+		"ArmorBlastRating":    StandardArmorBlastRating,
 		"ArmorReactiveRating": WeakArmorReactiveRating,
 		"IonDamageDefense":    WeakArmorIonDefense,
 	}
@@ -281,7 +281,7 @@ var (
 		"ComponentIonDefense": HardenedComponentIonDefense, // armors are hardened
 		"CrewRequirement":     ActiveArmorCrew,
 		"StaticEnergyUsed":    ActiveArmorStaticEnergy,
-		"ArmorBlastRating":    WeakArmorBlastRating,
+		"ArmorBlastRating":    StandardArmorBlastRating,
 		"ArmorReactiveRating": WeakArmorReactiveRating,
 		"IonDamageDefense":    StrongArmorIonDefense,
 	}

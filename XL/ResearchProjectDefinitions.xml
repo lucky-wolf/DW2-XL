@@ -2990,7 +2990,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>70</ResearchProjectId>
-		<Name>Autocannon Point Defense</Name>
+		<Name>Assault Cannon Point Defense</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -4511,7 +4511,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>101</ResearchProjectId>
-		<Name>Hail Cannons</Name>
+		<Name>Hyperion Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -4584,7 +4584,7 @@
 	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>102</ResearchProjectId>
-		<Name>Terminator Autocannons</Name>
+		<Name>Terminator Assault Cannons</Name>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
 		<Size>8100</Size>
 		<InitiationCost>
@@ -13871,7 +13871,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>334</ResearchProjectId>
@@ -13960,7 +13960,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>3</Column>
-		<Row>140</Row>
+		<Row>149</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Zenox Shields -->
@@ -15743,7 +15743,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<!-- Zenox Shields -->
@@ -24005,7 +24005,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>8</Column>
-		<Row>144</Row>
+		<Row>148</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>294</ResearchProjectId>
@@ -24061,8 +24061,14 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>7</Column>
-		<Row>142</Row>
+		<Row>140</Row>
 		<PrerequisiteProjects>
+			<ResearchPath>
+				<!-- Zenox Shields -->
+				<ResearchProjectId>1330</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+				<Priority>0</Priority>
+			</ResearchPath>
 			<ResearchPath>
 				<!-- Meridian Shields -->
 				<ResearchProjectId>501</ResearchProjectId>
@@ -24077,10 +24083,9 @@
 			</ResearchPath>
 			<ResearchPath>
 				<!-- Quameno Shields -->
-				<ResearchProjectId>1334</ResearchProjectId>
+				<ResearchProjectId>1335</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
-				<RaceId>15</RaceId>
 			</ResearchPath>
 		</PrerequisiteProjects>
 		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
@@ -24196,7 +24201,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>6</Column>
-		<Row>140</Row>
+		<Row>149</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>296</ResearchProjectId>
@@ -25951,7 +25956,7 @@
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
 		<Column>9</Column>
-		<Row>142</Row>
+		<Row>140</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>533</ResearchProjectId>
@@ -27716,7 +27721,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1322</ResearchProjectId>
+				<ResearchProjectId>1323</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<RaceId>15</RaceId>
 				<Priority>0</Priority>
@@ -27791,7 +27796,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1333</ResearchProjectId>
+				<ResearchProjectId>1334</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27858,7 +27863,7 @@
 		<Row>143</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1328</ResearchProjectId>
+				<ResearchProjectId>1329</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>
@@ -27933,7 +27938,7 @@
 		</AllowedRaceIds>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>1338</ResearchProjectId>
+				<ResearchProjectId>1339</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 				<Priority>0</Priority>
 			</ResearchPath>

@@ -78,15 +78,15 @@ var (
 			maxLevel:       10,
 			componentStats: LargeForgeRailWeaponComponentStats,
 		},
-		"Terminator Autocannon [S]": {
+		"Terminator Assault Cannon [S]": {
 			minLevel:       5,
 			maxLevel:       10,
-			componentStats: AutocannonWeaponComponentStats,
+			componentStats: TerminatorWeaponComponentStats,
 		},
-		"Hail Cannon [S]": {
+		"Hyperion Cannon [S]": {
 			minLevel:       5,
 			maxLevel:       10,
-			componentStats: HailCannonWeaponComponentStats,
+			componentStats: HyperionCannonWeaponComponentStats,
 		},
 
 		// TODO: in order to make this work, we have to either have a facility per level
@@ -206,25 +206,22 @@ var (
 		},
 	)
 
-	AutocannonWeaponDamage         = MakeScaledFuncLevelFunc(0.5, BasicKineticWeaponDamage)
-	AutocannonWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyRatio, AutocannonWeaponDamage)
-	AutocannonRateOfFire           = MakeScaledFuncLevelFunc(.5, BasicKineticWeaponROF)
-	AutocannonWeaponComponentStats = ComposeComponentStats(
+	TerminatorWeaponDamage         = MakeScaledFuncLevelFunc(1.1, BasicKineticWeaponDamage)
+	TerminatorWeaponEnergyPerShot  = MakeScaledFuncLevelFunc(KineticEnergyRatio, TerminatorWeaponDamage)
+	TerminatorWeaponComponentStats = ComposeComponentStats(
 		BasicKineticWeaponComponentStats,
 		ComponentStats{
-			"WeaponRawDamage":     AutocannonWeaponDamage,
-			"WeaponEnergyPerShot": AutocannonWeaponEnergyPerShot,
-			"WeaponFireRate":      AutocannonRateOfFire, // 2x rof
+			"WeaponArmorBypass":   MakeScaledFuncLevelFunc(.5, BasicKineticWeaponArmorBypass), // assault cannon are less bothered by armor
+			"WeaponRawDamage":     TerminatorWeaponDamage,
+			"WeaponEnergyPerShot": TerminatorWeaponEnergyPerShot,
 		},
 	)
 
-	HailCannonRateOfFire           = MakeScaledFuncLevelFunc(.8, AutocannonRateOfFire) // 25% faster than autocannons
-	HailCannonWeaponComponentStats = ComposeComponentStats(
-		AutocannonWeaponComponentStats,
+	HyperionCannonWeaponComponentStats = ComposeComponentStats(
+		TerminatorWeaponComponentStats,
 		ComponentStats{
-			"WeaponArmorBypass":  MakeFixedLevelFunc(0), // hail cannons are armor neutral
-			"WeaponShieldBypass": MakeFixedLevelFunc(0), // rail guns have no special interaction with shields
-			"WeaponFireRate":     HailCannonRateOfFire,  // 25% faster than autocannons
+			"WeaponRawDamage": MakeScaledFuncLevelFunc(1.1, TerminatorWeaponDamage), // 10% more base damage for no extra energy cost
+			"WeaponFireRate":  MakeScaledFuncLevelFunc(.9, BasicKineticWeaponROF),   // 11.111% faster for full damage
 		},
 	)
 
