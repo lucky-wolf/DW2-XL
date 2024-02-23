@@ -239,6 +239,7 @@ YMMV, but this is my take on making it Extra Large!
 - Updated Blasters to use core data which ties everything together and clarifies the distinct function of Phaser Blasters
 - Improved the visuals for Ion Cannons
 - Tied the Planetary Ion Cannon to the rest of the Ion tech data
+- Doubled Fleet Targeting and Countermeasure bonuses for the dedicated components (so they have a niche of their own)
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
