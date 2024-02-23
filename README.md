@@ -240,6 +240,9 @@ YMMV, but this is my take on making it Extra Large!
 - Improved the visuals for Ion Cannons
 - Tied the Planetary Ion Cannon to the rest of the Ion tech data
 - Doubled Fleet Targeting and Countermeasure bonuses for the dedicated components (so they have a niche of their own)
+- Added colony defense bonus to all military facilities (troop recruitment and weapon emplacements)
+- Reduced troop recruitment bonuses from weapon emplacement facilities
+- Restricted humans from getting redundant lightning missiles
 
 ### v1.19.5
 - DW2 1.2.0.5 compatible and required
