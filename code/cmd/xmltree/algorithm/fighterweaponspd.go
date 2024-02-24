@@ -57,7 +57,7 @@ func (j *Job) applyFighterWeaponsAndPD() (err error) {
 
 				// for fighters and PD...
 				targetName := e.Child("Name").StringValue()
-				if !strings.HasSuffix(targetName, "[Ftr]") && !strings.HasSuffix(targetName, "[PD]") {
+				if !strings.HasSuffix(targetName, "[F/B]") && !strings.HasSuffix(targetName, "[PD]") {
 					continue
 				}
 
@@ -75,7 +75,7 @@ func (j *Job) applyFighterWeaponsAndPD() (err error) {
 				}
 
 				// do it
-				err = j.DeriveFromComponent(f, source, e)
+				err = j.DeriveComponentFromComponent(f, source, e)
 				if err != nil {
 					return
 				}

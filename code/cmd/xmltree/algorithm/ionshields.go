@@ -31,7 +31,7 @@ func (j *Job) applyIonShields() (err error) {
 	// t2..t10 = level 2..10
 	components := map[string]ComponentData{
 		"Ion Shield": {
-			derivatives: []string{"Ion Shield [Ftr]"},
+			derivatives: []string{"Ion Shield [F/B]"},
 			minLevel:    2,
 			maxLevel:    10,
 			componentStats: ComponentStats{

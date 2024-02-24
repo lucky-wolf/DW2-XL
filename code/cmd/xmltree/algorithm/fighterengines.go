@@ -54,12 +54,12 @@ func (j *Job) applyFighterEngines() (err error) {
 
 				// for fighters...
 				targetName := e.Child("Name").StringValue()
-				if !strings.HasSuffix(targetName, "[Ftr]") {
+				if !strings.HasSuffix(targetName, "[F/B]") {
 					continue
 				}
 
 				// find the corresponding ship engines by same name
-				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[Ftr]")])
+				sourceName := strings.TrimSpace(targetName[:len(targetName)-len("[F/B]")])
 				source, _ := j.FindElement("Name", sourceName)
 				if source == nil {
 					log.Printf("element not found: %s for %s", sourceName, targetName)
@@ -72,7 +72,7 @@ func (j *Job) applyFighterEngines() (err error) {
 				}
 
 				// do it
-				err = j.DeriveFromComponent(f, source, e)
+				err = j.DeriveComponentFromComponent(f, source, e)
 				if err != nil {
 					return
 				}

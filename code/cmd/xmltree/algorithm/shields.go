@@ -114,7 +114,7 @@ var (
 			minLevel:       6,
 			maxLevel:       10,
 			componentStats: ShieldEnhancementStats,
-			derivatives:    []string{"Quantum Capacitors [Ftr]"},
+			derivatives:    []string{"Quantum Capacitors [F/B]"},
 		},
 	}
 

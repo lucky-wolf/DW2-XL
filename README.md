@@ -13,7 +13,7 @@
   - [Guiding Principles](#guiding-principles)
   - [Mod Highlights](#mod-highlights)
   - [Latest Changes](#latest-changes)
-    - [v1.20.0](#v1200)
+    - [v1.20.0-beta](#v1200-beta)
     - [v1.19.5](#v1195)
     - [v1.19.4](#v1194)
     - [v1.19.3](#v1193)
@@ -201,11 +201,12 @@ YMMV, but this is my take on making it Extra Large!
 - Only PD weapons have an intercept (PD) firing mode / ability
 - Only medium and large weapons have bombardment values
 - Race assimilation is radically slower than in vanilla
+- Increased damage output of bomber weapons
 
 ## Latest Changes
 
-### v1.20.0
-- DW2 1.2.0.8 required
+### v1.20.0-beta
+- DW2 1.2.0.8 BETA REQUIRED
 - I changed some really fundamental variables for:
   - Galaxy Creation (even fewer habitable worlds - but those that exist are mostly planets not moons)
   - Armor stats
@@ -219,6 +220,7 @@ YMMV, but this is my take on making it Extra Large!
   - Scaled down weapons by about 20%
 - Integrated Human & Mortalen features & Government features from DW2 1208 beta
 - Updated to latest image bundles from @salemonz
+- This also fixes the flag choice background (but the download is now massive - DW2 team requires they be uncompressed, so slow & big)
 - Added planetary image for Brown Dwarfs (so their icon actually looks like they do)
 - Fixed Ackdarian Ancient Starport so it gives stellar hangar bay tech
 - Fixed Humans policy for stand-off weapons to be Missiles, not Rail guns
@@ -253,7 +255,7 @@ YMMV, but this is my take on making it Extra Large!
   - Added Strike Craft root technology that offers Fighter I and Bomber I for everyone
   - Increased fighter reactor output (was a bit low)
   - Improved strike craft hull progression
-  - Added Quantum Capacitor [Ftr] components
+  - Added Quantum Capacitor [F/B] components
 - Troops
   - Rebalanced troop research to move it a bit earlier in the game
   - Collapsed PDU research into a single linear path
@@ -269,7 +271,7 @@ YMMV, but this is my take on making it Extra Large!
 - Improved blaster visuals so that they're much more visible and vibrant in battles
 - Fixed missing visuals for Titan Blaster [L]
 - Fixed missing image for Quameno "Maze Pirates" quest line
-- Fixed missing image for Fusion Beam [Ftr]
+- Fixed missing image for Fusion Beam [F/B]
 - Fixed swapped images for swarm fighter bay and auxiliary bay
 - Fixed several weapon nodes on Ackdarian ships
 - Fixed several weapon nodes on Zenox ships
@@ -283,7 +285,7 @@ YMMV, but this is my take on making it Extra Large!
 - NOTE: for 1.19.3 saves - you must load the 1.19.3 XL Patch to get the images to show up (that won't be needed for 1.19.4 saves, purely stop-gap measure)
 
 ### v1.19.3
-- Quick patch: Fixed some Missile [Ftr] and [PD] component values to align with new Missile [S] changes
+- Quick patch: Fixed some Missile [F/B] and [PD] component values to align with new Missile [S] changes
 
 ### v1.19.2
 - NEW Component images thanks to @Salemonz!
@@ -394,7 +396,7 @@ YMMV, but this is my take on making it Extra Large!
   - Large missiles have their own repeatables
   - Large missiles are the only missiles to have any bombardment whatsoever
   - Titan Missiles are a new endgame component and technology
-  - Added a Bulwark Missile [Ftr] for Human special tech
+  - Added a Bulwark Missile [F/B] for Human special tech
 - Quameno
   - Quameno gain bonus to ancient knowledge and high tech in place of all tech
   - Quameno now have robotic troops as their racial infantry
@@ -497,8 +499,8 @@ YMMV, but this is my take on making it Extra Large!
   - -1 General slot for Ackdarian Fast Frigate
   - Extended Ackdarian Turbothursters to the end + added repeatables for them
 - Further extended Troop techtree
-- Epsilon [Ftr] starts at same level as Epsilon [S]
-- Added Plasma Torpedo [Ftr]
+- Epsilon [F/B] starts at same level as Epsilon [S]
+- Added Plasma Torpedo [F/B]
 - Advanced Medicomplex boosted to +100% growth rate for the colony
 - Take III on fixing pulsed planetary beams to look like blaster cannon fire, visually
 - Massively improved planetary rail guns to be based on forge cannon visuals and damage
@@ -532,7 +534,7 @@ YMMV, but this is my take on making it Extra Large!
   - Tweaked many planetary facilities to make them more aligned with their intended function in XL
   - Removed "Advanced Shipyards" facility and replaced it with "Industrial Shipyards" that can be built everywhere, has no global effect, but has a local economic boost and shipbuilding boost
   - Improved "Galactic Science Center" facility so it was just a bit more interesting
-- Strengthened [Ftr] weapons and all Point Defenses over 1.18.3
+- Strengthened [F/B] weapons and all Point Defenses over 1.18.3
   - 1.5x stronger ftr weapons compared to 1.18.3
   - 6x stronger pd weapons compared to 1.18.3
   - Fixed Ion [PD] weapons to indicate that their intercept damage is ionic in nature
@@ -574,7 +576,7 @@ YMMV, but this is my take on making it Extra Large!
 - Fixed Ackdarian Medium Troop Transport's front weapon arc
 - Reduced Terraforming Facility maintenance to 5% of construction cost (was 10%)
 - Ion weapons: added t8 research and components
-- Synchronized all [Ftr] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
+- Synchronized all [F/B] components to that of their starship equivalents (armor to armor, shields to shields, etc.)
 - Synchronized all [PD] components to that of the [S] equivalent
 - Added a bunch of new [PD] tech levels
 - Normalized all research costs
@@ -615,7 +617,7 @@ YMMV, but this is my take on making it Extra Large!
   - Tweaked policies to ensure race preferred hyperdrive in effect
 - Fixes
   - Fixed Improved Terraforming to cost 8K not 18K
-  - Fixed Stellar Armor [Ftr] to have reasonable values
+  - Fixed Stellar Armor [F/B] to have reasonable values
   - Disallowed Ikkuro from all but Fusion line of reactors
   - Disallowed Dhayut from all but their Velocity drive
   - Removed shield bypass from Annihilator Shock Mines
@@ -628,7 +630,7 @@ YMMV, but this is my take on making it Extra Large!
 - PD
   - Fires much more frequently (4x or more)
   - Less energy per shot
-  - Only dedicated [PD] and direct-fire [Ftr] weapons have any intercept rating at all
+  - Only dedicated [PD] and direct-fire [F/B] weapons have any intercept rating at all
 - Kinetics
   - single shot per volley
   - much slower firing (6s vs. 2.2s)
@@ -650,13 +652,13 @@ YMMV, but this is my take on making it Extra Large!
   - 1:2:4 damage ratio
   - restored medium shockwave torpedoes
   - adjusted to follow similar dps schedule as beams, blasters, and kinetics
-  - [Ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+  - [F/B] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
 - Blasters and Phasers
   - removed all bombardment rating (all blasters and phasers are multishot small weapons)
   - bullet speeds to 2200 (faster than any rail guns, but less than half the speed of beams)
 - Missiles
   - doubled warhead strengths
-  - [Ftr] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
+  - [F/B] versions are marked as "close in" weapons instead of intercept ones (because they have no intercept value)
 - Armor
   - x2 Blast Rating
   - +1 Reactive Rating
@@ -940,7 +942,7 @@ YMMV, but this is my take on making it Extra Large!
   - Ackdarian racial tech that holds 50% more strike craft than standard bays
 - Integrated "Archivist Government" by @Rah
   - A Zenox only archivist focused government
-- Added early Ion Field Projector [Ftr]
+- Added early Ion Field Projector [F/B]
   - Improved tech progression of ion weapons slightly
   - Gives Teekans a base weapon for their Attack Shuttles
 - Fully removed all vector engine techs from the game
@@ -966,7 +968,7 @@ YMMV, but this is my take on making it Extra Large!
 ### v1.14.3
 - Substantially improved rail gun related weapon speeds to between 750-1000 (was 325-525)
 - Fixed velocity shard [ftr] wasn't being unlocked (one level too low) starting at Total Energy Acceleration
-- Adjusted Firestorm Torpedo [L] to have same speed as their S/M/Ftr siblings
+- Adjusted Firestorm Torpedo [L] to have same speed as their S/M/F siblings
 
 ### v1.14.2
 - Updated for 1.1.3.9 beta game engine
@@ -1184,8 +1186,8 @@ YMMV, but this is my take on making it Extra Large!
 
 ### v1.8.7
 - Added: Ion Shields and Stealth components for fighter & bombers
-- Balance: removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[Ftr\] weapons
-- Balance: normalized \[Ftr\] weapons to size 5 and 10 only
+- Balance: removed point-defense functionality from all weapons except for dedicated \[PD\], direct-fire \[S\], and direct-fire \[F\] weapons
+- Balance: normalized \[F\] weapons to size 5 and 10 only
 - Balance: recalibrated all reactors & added a reference table for them: [DW2-XL Reactors](#dw2-xl-reactors)
 - Balance: recalibrated all hyperdrives & added a reference table them: [DW2-XL Hyperdrives](#dw2-xl-hyperdrives)
 - Balance: added countermeasure bonuses to ship engines plus a reference table: [DW2-XL Engines (Thrusters)](#dw2-xl-engines-thrusters)
@@ -1299,7 +1301,7 @@ YMMV, but this is my take on making it Extra Large!
   - Tweaked Hyperion Cannons and Terminator Cannons to be more sensible, and to give the Humans a slight advantage in their racial tech
 - Fixed missing diplomatic specialization center (Universal Peace Center)
 - Gave wormhole drive better range (1000M)
-- Rebalanced all \[Ftr\] weapons to make better sense in the current tech tree across all weapon-lines and levels
+- Rebalanced all \[F\] weapons to make better sense in the current tech tree across all weapon-lines and levels
   - Many weapons had their ROF reduced and their dmg/shot increased for a lighter load on the CPU, but effectively same damage output
   - Which also reduces the effectiveness of reflective armor and shields, since more dmg will penetrate, make fighters much more powerful (they were basically gnats to be ignored otherwise)
 - Reduced the reflective value of Ion Armors, so that there is more of a trade off between standard armor being both tougher (25%), and better at reflecting damage (2x) vs. ion armors being able to replace ion defense generators (considerable space-savings)
@@ -1471,7 +1473,7 @@ YMMV, but this is my take on making it Extra Large!
   - Hyperstream offers the highest speeds, but with the worst efficiency and poor accuracy
   - Smart offers the longest ranged jumps combined with highly efficient engines and good accuracy, but with somewhat reduced speed and poorest initialize and recharge times
 - Super Drives (Flux) now have respectable vector thrust
-- +5 Energy to Ftr Reactors (were a bit anemic)
+- +5 Energy to F Reactors (were a bit anemic)
 
 ### v1.2.0
 - Standardized static energy on colony modules to 1E/1M capacity (e.g. 50M capacity = 50 static energy)
@@ -1604,13 +1606,13 @@ YMMV, but this is my take on making it Extra Large!
   - Gives you the ability to reason about trade-offs between different weapon systems using their many other factors, such as power use, range, alpha-damage v. sustained damage, etc.
   - Offers you and the AIs to design better ships overall (and typically more weapons at any given ship class).
   - Direct fire weapons:
-    - Ftr = 5
+    - F = 5
     - S = 11
     - M = 22
     - L = 44
     - X = 44
   - Tracking weapons:
-    - Ftr = 10
+    - F = 10
     - S = 13
     - M = 26
     - L = 52

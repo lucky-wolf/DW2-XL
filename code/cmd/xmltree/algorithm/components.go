@@ -32,7 +32,7 @@ type ComponentData struct {
 	minLevel       int
 	maxLevel       int
 	componentStats ComponentStats
-	derivatives    []string // what other components are derived from this? (i.e. name of [Ftr] or [PD] components)
+	derivatives    []string // what other components are derived from this? (i.e. name of [F/B] or [PD] components)
 }
 
 type ComponentIs struct {
@@ -40,6 +40,10 @@ type ComponentIs struct {
 	weapon  bool
 	pd      bool
 	size    int
+}
+
+func (is ComponentIs) BomberWeapon() bool {
+	return is.fighter && is.weapon && is.size > 5
 }
 
 func MakeFixedLevelFunc(basis float64) LevelFunc {
@@ -157,12 +161,12 @@ func (j *Job) DeriveFromComponentByName(source *xmltree.XMLElement, name string)
 	}
 
 	// scale it
-	err = j.DeriveFromComponent(f, source, e)
+	err = j.DeriveComponentFromComponent(f, source, e)
 
 	return
 }
 
-func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xmltree.XMLElement) (err error) {
+func (j *Job) DeriveComponentFromComponent(file *XFile, source *xmltree.XMLElement, e *xmltree.XMLElement) (err error) {
 
 	statistics := &file.stats
 
@@ -221,7 +225,7 @@ func (j *Job) DeriveFromComponent(file *XFile, source *xmltree.XMLElement, e *xm
 	}
 
 	// now that we have our own copy of the component stats (same number of levels too)
-	// we can update each of those to scale for [Ftr] version
+	// we can update each of those to scale for [F/B] version
 	for _, e := range e.Child("Values").Elements() {
 
 		// every element should be a component bay
@@ -342,8 +346,9 @@ func FtrOrPDMainWeaponScaling(is ComponentIs) (rof float64, dmg float64) {
 		// make bombers essentially 1/2 the rof as compared to fighter intercept weapons
 		// note: we could customize the scaling depending on e.Child("Family")
 		// warn: but we cannot use that to determine "bomber" weapon or not (as we want to add bomber beams and gravitic or etc.)
-		// 2 x .5 = 1x total output compared to source weapon (more highly negated by DR and the like)
-		return 2, .5
+		// 2 x .85 = 1.7x total output compared to source weapon (but more negated by DR and the like)
+		// and higher than intercept weapons, which is appropriate, they're larger in space / don't have intercept function
+		return 2, .85
 	}
 
 	// 4 x .375 = 1.5x total output
@@ -500,7 +505,7 @@ func GetFighterOrPointDefenseSourceName(targetName string, is ComponentIs) (sour
 		// reinforcing swarm battery
 
 		if is.fighter {
-			sourceName = targetName[:len(targetName)-len(" [Ftr]")] + " [S]"
+			sourceName = targetName[:len(targetName)-len(" [F/B]")] + " [S]"
 		} else {
 			sourceName = targetName[:len(targetName)-len(" [PD]")] + " [S]"
 		}

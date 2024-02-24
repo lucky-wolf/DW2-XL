@@ -51,7 +51,7 @@ func main() {
 		{"  FighterEngines", "Fighter engine components are derived from ship engines"},
 		{"  FighterReactors", "Fighter reactor components are derived from ship reactors"},
 		{"  FighterShields", "Fighter shield components are derived from ship shields"},
-		{"  FighterWeaponsAndPD", "[Ftr] and [PD] weapon components are derived from ship weapons"},
+		{"  FighterWeaponsAndPD", "[F/B] and [PD] weapon components are derived from ship weapons"},
 		{"ResearchCosts", "All Research costs are set to conform to their columnar position (with a few exceptions)"},
 		{"HangarBays", "All ship hangarbay slots will be size-limited by role"},
 		{"FighterHulls", "All strikecraft component slots will be adjusted to match desired schedule"},
